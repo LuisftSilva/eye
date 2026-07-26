@@ -1,0 +1,38 @@
+{
+  "municipality_id": "pt-aveiro-castelo-de-paiva",
+  "order": 6,
+  "municipality": "Castelo de Paiva",
+  "district": "Aveiro",
+  "status": "complete",
+  "reviewed_at": "2026-07-27",
+  "checks_completed": 16,
+  "checks_total": 16,
+  "confirmed_webcams": [],
+  "cross_discoveries": [],
+  "rejected_candidates": [],
+  "searches": [
+    "Castelo de Paiva webcam live câmera ao vivo",
+    "site:cm-castelo-paiva.pt webcam OR livecam OR câmera",
+    "Castelo de Paiva Douro Paiva marina cais webcam",
+    "Ilha dos Amores Castelo de Paiva webcam",
+    "Entre-os-Rios webcam live",
+    "Castelo de Paiva turismo hotel alojamento webcam",
+    "Castelo de Paiva Windy Windfinder webcam",
+    "Castelo de Paiva YouTube live",
+    "Castelo de Paiva HLS m3u8 MJPEG snapshot"
+  ],
+  "sources_checked": [
+    "municipal website",
+    "tourism pages",
+    "river and nautical locations",
+    "Windy",
+    "Windfinder",
+    "Webcam Galore",
+    "GeoWebcams",
+    "YouTube live",
+    "hotel and accommodation sites",
+    "stream endpoint searches"
+  ],
+  "conclusion": "No public, permanent and verifiable webcam was confirmed inside Castelo de Paiva. Search results consisted of tourism pages, photographs, videos and nearby-camera references without a local public live feed.",
+  "completion_rule": "All mandatory categories were executed and no unresolved candidate with sufficient evidence remained."
+}
