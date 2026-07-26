@@ -4,27 +4,28 @@ Este diretório transforma a descoberta de webcams num processo finito, sequenci
 
 ## Ficheiros
 
-- `progress.json`: os 308 municípios da CAOP2025 e o respetivo estado.
-- `sources.json`: catálogo das fontes nacionais, agregadores, motores e pesquisas obrigatórias.
+- `municipalities.csv`: registo mestre dos 308 municípios, numerados de 1 a 308 pela ordem de execução.
+- `progress.json`: estrutura de estados, verificações obrigatórias e dados operacionais para automatização.
+- `sources.json`: catálogo das fontes nacionais, agregadores e consultas obrigatórias.
 - `evidence/`: um ficheiro por município, criado quando a pesquisa começa.
-- `deduplication.md`: regra para decidir se duas referências correspondem à mesma câmara.
 
 ## Ordem de execução
 
 A ordem é fixa:
 
-1. Percorrer `progress.json` de cima para baixo.
-2. Escolher o primeiro município com `status: "not_started"`.
-3. Mudar para `in_progress`.
-4. Criar `evidence/<id>.json` a partir do modelo abaixo.
-5. Executar as 16 verificações obrigatórias pela ordem indicada em `required_checks`.
+1. Abrir `municipalities.csv`.
+2. Escolher a primeira linha cujo estado seja `not_started`.
+3. Mudar essa linha para `in_progress`.
+4. Criar `evidence/<id>.json` usando o modelo abaixo.
+5. Executar as 16 verificações obrigatórias pela ordem definida em `progress.json`.
 6. Registar **cada consulta**, mesmo quando devolve zero resultados.
 7. Para cada candidato, procurar duplicados antes de o adicionar.
-8. Quando as 16 verificações estiverem concluídas, mudar para `review`.
-9. Uma segunda revisão confirma evidências, URLs, coordenadas e duplicação.
-10. Só então mudar para `complete`.
+8. Atualizar `checks_completed` após cada verificação com evidência.
+9. Quando as 16 verificações estiverem concluídas, mudar para `review`.
+10. Uma segunda revisão confirma evidências, URLs, coordenadas e duplicação.
+11. Só então mudar para `complete` e avançar para a linha seguinte.
 
-Nunca se inicia um município posterior enquanto o anterior estiver `in_progress`, salvo quando estiver `blocked` com motivo documentado.
+Nunca se inicia um município posterior enquanto o anterior estiver `in_progress`, salvo quando estiver `blocked` com motivo documentado. Assim, começa-se na linha 1, Águeda, e termina-se na linha 308, São Vicente, sem lacunas silenciosas.
 
 ## Estados
 
@@ -57,14 +58,7 @@ Nunca se inicia um município posterior enquanto o anterior estiver `in_progress
 15. YouTube, redes sociais e transmissões públicas.
 16. Descoberta técnica de iframe, HLS, MJPEG, snapshots e APIs.
 
-Cada verificação deve guardar:
-- data e hora;
-- consulta utilizada;
-- URL consultado;
-- resultado;
-- número de candidatos;
-- observações;
-- identificador de quem verificou.
+Cada verificação deve guardar data e hora, consulta, URL consultado, resultado, número de candidatos, observações e identificador de quem verificou.
 
 ## Evidência mínima
 
@@ -89,7 +83,7 @@ Modelo para `evidence/<id>.json`:
 }
 ```
 
-Uma caixa marcada sem consultas e URLs não conta como evidência.
+Uma marcação sem consultas e URLs não conta como evidência.
 
 ## Regra de conclusão
 
@@ -97,7 +91,7 @@ Um município só pode passar para `review` quando:
 
 - `checks_completed` é igual a `checks_total`;
 - todas as verificações possuem evidência;
-- todos os candidatos foram classificados como `new`, `duplicate`, `offline`, `not_public` ou `rejected`;
+- todos os candidatos foram classificados como `new`, `duplicate`, `possible_duplicate`, `offline`, `not_public` ou `rejected`;
 - todas as câmaras novas têm origem, coordenadas, método de acesso e data de validação;
 - nenhum candidato ficou por analisar.
 
@@ -112,14 +106,9 @@ Antes de adicionar uma câmara, comparar por esta ordem:
 3. ID do fornecedor.
 4. Coordenadas num raio de 75 metros.
 5. Nome, direção visual e imagem atual.
-6. Origem do feed incorporado.
+6. Origem real do feed incorporado.
 
-Se for a mesma câmara:
-- não criar novo registo;
-- adicionar a nova página à lista `sources`;
-- preservar a fonte original e todas as fontes alternativas.
-
-Se houver dúvida, marcar `possible_duplicate` e não publicar até revisão.
+Se for a mesma câmara, não se cria novo registo. A nova página é acrescentada às fontes alternativas da câmara existente. Se houver dúvida, marca-se `possible_duplicate` e não se publica até revisão.
 
 ## Como medir o progresso
 
@@ -131,15 +120,8 @@ Percentagem operacional:
 
 `soma das verificações concluídas / (308 × 16) × 100`
 
-As duas métricas devem ser apresentadas separadamente. Um município parcialmente pesquisado aumenta a percentagem operacional, mas não a territorial.
+As duas métricas são separadas. Um município parcialmente pesquisado aumenta a percentagem operacional, mas não a territorial.
 
-## Regra de atualização da lista
+## Referência territorial
 
-A referência territorial é a CAOP2025. Quando existir nova CAOP:
-
-1. comparar municípios;
-2. adicionar, remover ou renomear unidades;
-3. preservar todo o histórico;
-4. registar a migração no `schema_version`.
-
-A CAOP é a referência oficial mantida pela Direção-Geral do Território para limites administrativos.
+A lista usa a CAOP2025. A Direção-Geral do Território mantém a Carta Administrativa Oficial de Portugal e disponibiliza os limites e relações administrativas oficiais. Quando surgir nova versão da CAOP, deve comparar-se a lista, preservar o histórico e registar qualquer município adicionado, removido ou renomeado.
