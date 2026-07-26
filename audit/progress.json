@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "territorial_reference": {
+    "name": "CAOP2025",
+    "municipality_count": 308,
+    "source": "Direção-Geral do Território"
+  },
+  "status_values": {
+    "not_started": "Ainda não iniciado",
+    "in_progress": "Pesquisa iniciada, faltam verificações",
+    "review": "Verificações concluídas, aguarda controlo de qualidade",
+    "complete": "Todas as verificações e controlo de qualidade concluídos",
+    "blocked": "Impossível concluir temporariamente; motivo obrigatório"
+  },
+  "required_checks": [
+    "official_municipality",
+    "official_tourism",
+    "general_search_google",
+    "general_search_bing",
+    "general_search_duckduckgo",
+    "aggregators",
+    "beaches_surf",
+    "ports_marinas",
+    "airports_aerodromes",
+    "traffic_transport",
+    "nature_mountains",
+    "hotels_resorts",
+    "golf_sports",
+    "weather_observatories",
+    "youtube_social",
+    "technical_stream_discovery"
+  ],
+  "summary": {
+    "municipalities_total": 308,
+    "not_started": 308,
+    "in_progress": 0,
+    "review": 0,
+    "complete": 0,
+    "blocked": 0
+  },
+  "municipalities": [
+    {"id":"pt-aveiro-agueda","region":"Aveiro","municipality":"Águeda","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-albergaria-a-velha","region":"Aveiro","municipality":"Albergaria-a-Velha","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-anadia","region":"Aveiro","municipality":"Anadia","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-arouca","region":"Aveiro","municipality":"Arouca","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-aveiro","region":"Aveiro","municipality":"Aveiro","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-castelo-de-paiva","region":"Aveiro","municipality":"Castelo de Paiva","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-espinho","region":"Aveiro","municipality":"Espinho","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-estarreja","region":"Aveiro","municipality":"Estarreja","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-ilhavo","region":"Aveiro","municipality":"Ílhavo","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-mealhada","region":"Aveiro","municipality":"Mealhada","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-murtosa","region":"Aveiro","municipality":"Murtosa","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-oliveira-de-azemeis","region":"Aveiro","municipality":"Oliveira de Azeméis","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-oliveira-do-bairro","region":"Aveiro","municipality":"Oliveira do Bairro","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-ovar","region":"Aveiro","municipality":"Ovar","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-santa-maria-da-feira","region":"Aveiro","municipality":"Santa Maria da Feira","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-sao-joao-da-madeira","region":"Aveiro","municipality":"São João da Madeira","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-sever-do-vouga","region":"Aveiro","municipality":"Sever do Vouga","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-vagos","region":"Aveiro","municipality":"Vagos","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""},
+    {"id":"pt-aveiro-vale-de-cambra","region":"Aveiro","municipality":"Vale de Cambra","status":"not_started","checks_completed":0,"checks_total":16,"webcams_found":0,"last_reviewed_at":null,"reviewed_by":null,"evidence_file":null,"notes":""}
+  ],
+  "continuation_note": "O ficheiro contém inicialmente o primeiro distrito para arrancar de imediato. Os restantes municípios devem ser gerados a partir da CAOP2025 antes de avançar além de Aveiro; não marcar cobertura nacional como completa enquanto municipality_count real não for 308."
+}
