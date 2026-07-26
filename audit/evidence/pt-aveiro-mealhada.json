@@ -1,0 +1,34 @@
+{
+  "municipality_id": "pt-aveiro-mealhada",
+  "order": 10,
+  "municipality": "Mealhada",
+  "district": "Aveiro",
+  "status": "complete",
+  "reviewed_at": "2026-07-27",
+  "checks_completed": 16,
+  "checks_total": 16,
+  "confirmed_webcams": [],
+  "rejected_candidates": [],
+  "searches": [
+    "Mealhada webcam live Portugal",
+    "Luso webcam live",
+    "Buçaco Bussaco webcam live",
+    "Mata Nacional do Bussaco webcam",
+    "site:cm-mealhada.pt webcam",
+    "Mealhada tourism hotel spa webcam",
+    "Mealhada YouTube live",
+    "Mealhada HLS m3u8 MJPEG snapshot",
+    "Windy Windfinder Webcam Galore Mealhada",
+    "PortugalWebcams GeoWebcams OpenCCTV Mealhada"
+  ],
+  "sources_checked": [
+    "municipal and tourism sites",
+    "Luso and Bussaco visitor resources",
+    "MEO Beachcam catalogue",
+    "Windy and Windfinder",
+    "PortugalWebcams and international aggregators",
+    "YouTube and generic web search",
+    "stream endpoint patterns"
+  ],
+  "conclusion": "No permanent public webcam physically located in Mealhada was verified. The Luso-Bussaco 360 resource is an interactive visitor route, not a live webcam. Negative evidence is retained for future re-audit."
+}
