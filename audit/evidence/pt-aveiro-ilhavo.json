@@ -1,0 +1,17 @@
+{
+  "municipality_id":"pt-aveiro-ilhavo",
+  "order":9,
+  "municipality":"Ílhavo",
+  "district":"Aveiro",
+  "status":"complete",
+  "reviewed_at":"2026-07-27",
+  "checks_completed":16,
+  "checks_total":16,
+  "confirmed_webcams":[
+    {"name":"Praia da Barra","provider":"MEO Beachcam","database_action":"existing-camera-retained","evidence":"Current provider catalogue and municipality evidence confirm this camera belongs to Ílhavo."},
+    {"name":"Costa Nova","provider":"MEO Beachcam","database_action":"existing-camera-retained","evidence":"Municipality announcement confirms the livecam and states that Ílhavo's network then comprised Barra and Costa Nova."}
+  ],
+  "location_corrections":[{"camera":"Praia da Barra","incorrect_label_seen":"Aveiro","correct_municipality":"Ílhavo","reason":"Praia da Barra is in Gafanha da Nazaré, municipality of Ílhavo."}],
+  "searches":["Ílhavo webcam live","Praia da Barra webcam","Costa Nova webcam","Gafanha da Nazaré webcam","Marina da Barra webcam","Porto de Aveiro webcam","Museu Marítimo Ílhavo webcam","Ílhavo YouTube live","Ílhavo HLS m3u8 MJPEG snapshot"],
+  "conclusion":"Two verified public livecam locations were confirmed and were already present in the database. No additional distinct permanent public feed was confirmed."
+}
