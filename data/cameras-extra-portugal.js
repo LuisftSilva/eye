@@ -8,7 +8,10 @@ const common=(id,name,city,region,lat,lng,category,provider,sourceUrl,embedUrl,v
 window.EXTRA_PORTUGAL_CAMERAS=[
 ...A.map((x,i)=>common(`spotazores-${slug(x[0])}-${i}`,x[0],x[1],x[2],x[3],x[4],x[5],"SpotAzores","https://spotazores.com/","","network","Webcam pública da rede SpotAzores, com cobertura em direto das nove ilhas dos Açores.")),
 ...M.map((x,i)=>{const s=slug(x[0]);return common(`netmadeira-${s}-${i}`,x[0],x[1],"Madeira",x[2],x[3],x[4],"NetMadeira",`https://www.netmadeira.com/webcams-madeira/${s}`,`https://www.netmadeira.com/webcams/show/netmadeira/${s}`,"direct","Webcam pública da rede NetMadeira com incorporação disponibilizada pelo próprio fornecedor.")}),
-common("meo-sao-jacinto-barra","Praia de São Jacinto | Barra","Aveiro","Aveiro",40.660,-8.748,"beach","MEO Beachcam","https://back-office.beachcam.pt/livecams/praia-de-sao-jacinto-barra/","","provider-page","Livecam pública da Praia de São Jacinto, no município de Aveiro. O vídeo é disponibilizado na página do fornecedor.")
+common("meo-sao-jacinto-barra","Praia de São Jacinto | Barra","Aveiro","Aveiro",40.660,-8.748,"beach","MEO Beachcam","https://back-office.beachcam.pt/livecams/praia-de-sao-jacinto-barra/","","provider-page","Livecam pública da Praia de São Jacinto, no município de Aveiro. O vídeo é disponibilizado na página do fornecedor."),
+common("meo-espinho-pico-casino-estatica","Espinho | Pico do Casino | Estática","Espinho","Aveiro",41.006,-8.646,"beach","MEO Beachcam","https://back-office.beachcam.pt/livecams/","","provider-catalogue","Vista estática distinta listada no catálogo atual da MEO Beachcam para Espinho."),
+common("meo-espinho-silvalde","Espinho | Silvalde","Espinho","Aveiro",40.992,-8.651,"beach","MEO Beachcam","https://back-office.beachcam.pt/livecams/","","provider-catalogue","Livecam multi-vista de Silvalde listada no catálogo atual da MEO Beachcam."),
+common("meo-espinho-silvalde-estatica","Espinho | Silvalde | Estática","Espinho","Aveiro",40.992,-8.651,"beach","MEO Beachcam","https://back-office.beachcam.pt/livecams/","","provider-catalogue","Vista estática de Silvalde listada separadamente no catálogo atual da MEO Beachcam.")
 ];
 const nativeFetch=window.fetch.bind(window);
 window.fetch=async(input,init)=>{
