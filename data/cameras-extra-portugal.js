@@ -9,4 +9,14 @@ window.EXTRA_PORTUGAL_CAMERAS=[
 ...A.map((x,i)=>common(`spotazores-${slug(x[0])}-${i}`,x[0],x[1],x[2],x[3],x[4],x[5],"SpotAzores","https://spotazores.com/","","network","Webcam pública da rede SpotAzores, com cobertura em direto das nove ilhas dos Açores.")),
 ...M.map((x,i)=>{const s=slug(x[0]);return common(`netmadeira-${s}-${i}`,x[0],x[1],"Madeira",x[2],x[3],x[4],"NetMadeira",`https://www.netmadeira.com/webcams-madeira/${s}`,`https://www.netmadeira.com/webcams/show/netmadeira/${s}`,"direct","Webcam pública da rede NetMadeira com incorporação disponibilizada pelo próprio fornecedor.")})
 ];
+const nativeFetch=window.fetch.bind(window);
+window.fetch=async(input,init)=>{
+  const response=await nativeFetch(input,init);
+  const url=typeof input==="string"?input:input&&input.url||"";
+  if(!url.includes("data/cameras.json")||!response.ok)return response;
+  const base=await response.clone().json();
+  const keys=new Set(base.map(c=>`${c.provider}|${c.name}|${c.city}`.toLowerCase()));
+  const extras=window.EXTRA_PORTUGAL_CAMERAS.filter(c=>!keys.has(`${c.provider}|${c.name}|${c.city}`.toLowerCase()));
+  return new Response(JSON.stringify([...base,...extras]),{status:response.status,statusText:response.statusText,headers:{"Content-Type":"application/json"}});
+};
 })();
