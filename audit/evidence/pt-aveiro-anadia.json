@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "municipality_id": "pt-aveiro-anadia",
+  "municipality": "Anadia",
+  "region": "Aveiro",
+  "status": "complete",
+  "checked_at": "2026-07-27T18:35:00Z",
+  "checks_total": 16,
+  "checks_completed": 16,
+  "confirmed_new_webcams": [],
+  "candidates": [
+    {
+      "candidate_id": "anadia-tempolimpo",
+      "name": "Webcam ao Vivo de Anadia - TempoLimpo",
+      "classification": "rejected_unverified",
+      "source_url": "https://www.tempolimpo.com/europe/portugal/aveiro/anadia/webcam",
+      "reason": "Página genérica sem fornecedor, endpoint técnico ou confirmação independente de uma câmara física em Anadia."
+    }
+  ],
+  "checks": [
+    {"check_id":"official_municipality","status":"done","queries":["site:cm-anadia.pt webcam","site:cm-anadia.pt câmara ao vivo","site:cm-anadia.pt stream"],"urls_checked":["https://www.cm-anadia.pt/"],"result":"none"},
+    {"check_id":"official_tourism","status":"done","queries":["Anadia Curia turismo webcam","Bairrada webcam"],"result":"none"},
+    {"check_id":"google_search","status":"done","queries":["Anadia Portugal webcam live cam","Curia webcam live"],"result":"one_unverified_candidate"},
+    {"check_id":"bing_search","status":"done","queries":["Anadia live camera Portugal"],"result":"none"},
+    {"check_id":"duckduckgo_search","status":"done","queries":["Anadia webcam","Curia webcam"],"result":"none"},
+    {"check_id":"specialist_aggregators","status":"done","queries":["PortugalWebcams Anadia","Windfinder Anadia","Webcam Galore Anadia"],"result":"none_local"},
+    {"check_id":"coast_surf_beaches","status":"done","queries":["Anadia praia surf webcam"],"result":"not_applicable_none"},
+    {"check_id":"ports_marinas_nautical","status":"done","queries":["Anadia marina porto webcam"],"result":"none"},
+    {"check_id":"airports_aerodromes","status":"done","queries":["Anadia aeródromo webcam"],"result":"none"},
+    {"check_id":"traffic_transport_rail","status":"done","queries":["Anadia trânsito estrada estação ferroviária webcam"],"result":"none_public"},
+    {"check_id":"nature_mountains_parks_dams_viewpoints","status":"done","queries":["Anadia natureza miradouro webcam","Vale da Mó webcam","Lagoa de Torres webcam"],"result":"none"},
+    {"check_id":"hotels_resorts_lodging","status":"done","queries":["Curia Palace webcam","Anadia hotel resort webcam"],"result":"none"},
+    {"check_id":"golf_sports_ski","status":"done","queries":["Anadia golf desporto webcam","Velódromo de Sangalhos live camera"],"result":"none_permanent"},
+    {"check_id":"weather_universities_observatories","status":"done","queries":["Anadia IPMA estação meteorológica câmara"],"result":"none"},
+    {"check_id":"youtube_social_live","status":"done","queries":["site:youtube.com Anadia Portugal live webcam","Curia live stream"],"result":"events_only_none_permanent"},
+    {"check_id":"technical_discovery","status":"done","queries":["Anadia Axis Mobotix Hikvision HLS MJPEG snapshot.jpg"],"result":"none"}
+  ],
+  "cross_discoveries": [],
+  "summary": {"confirmed":0,"rejected":1,"offline":0,"duplicates":0}
+}
