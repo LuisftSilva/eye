@@ -11,7 +11,8 @@ window.EXTRA_PORTUGAL_CAMERAS=[
 common("meo-sao-jacinto-barra","Praia de São Jacinto | Barra","Aveiro","Aveiro",40.660,-8.748,"beach","MEO Beachcam","https://back-office.beachcam.pt/livecams/praia-de-sao-jacinto-barra/","","provider-page","Livecam pública da Praia de São Jacinto, no município de Aveiro. O vídeo é disponibilizado na página do fornecedor."),
 common("meo-espinho-pico-casino-estatica","Espinho | Pico do Casino | Estática","Espinho","Aveiro",41.006,-8.646,"beach","MEO Beachcam","https://back-office.beachcam.pt/livecams/","","provider-catalogue","Vista estática distinta listada no catálogo atual da MEO Beachcam para Espinho."),
 common("meo-espinho-silvalde","Espinho | Silvalde","Espinho","Aveiro",40.992,-8.651,"beach","MEO Beachcam","https://back-office.beachcam.pt/livecams/","","provider-catalogue","Livecam multi-vista de Silvalde listada no catálogo atual da MEO Beachcam."),
-common("meo-espinho-silvalde-estatica","Espinho | Silvalde | Estática","Espinho","Aveiro",40.992,-8.651,"beach","MEO Beachcam","https://back-office.beachcam.pt/livecams/","","provider-catalogue","Vista estática de Silvalde listada separadamente no catálogo atual da MEO Beachcam.")
+common("meo-espinho-silvalde-estatica","Espinho | Silvalde | Estática","Espinho","Aveiro",40.992,-8.651,"beach","MEO Beachcam","https://back-office.beachcam.pt/livecams/","","provider-catalogue","Vista estática de Silvalde listada separadamente no catálogo atual da MEO Beachcam."),
+common("meo-praia-da-torreira","Praia da Torreira","Murtosa","Aveiro",40.765,-8.708,"beach","MEO Beachcam","https://back-office.beachcam.pt/livecams/","","provider-catalogue","Livecam pública da Praia da Torreira, confirmada no catálogo atual da MEO Beachcam e atribuída ao município da Murtosa.")
 ];
 const nativeFetch=window.fetch.bind(window);
 window.fetch=async(input,init)=>{
