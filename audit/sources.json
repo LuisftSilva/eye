@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "search_protocol_version": "2026-07-26",
+  "national_sources": [
+    {
+      "id": "portugalwebcams",
+      "name": "PortugalWebcams",
+      "status": "partially_reviewed",
+      "scope": "aggregator"
+    },
+    {
+      "id": "beachcam",
+      "name": "Beachcam",
+      "status": "partially_reviewed",
+      "scope": "beaches_surf"
+    },
+    {
+      "id": "spotazores",
+      "name": "SpotAzores",
+      "status": "reviewed_and_imported",
+      "scope": "azores"
+    },
+    {
+      "id": "netmadeira",
+      "name": "NetMadeira",
+      "status": "reviewed_and_imported",
+      "scope": "madeira"
+    },
+    {
+      "id": "madeiracams",
+      "name": "MadeiraCams",
+      "status": "not_started",
+      "scope": "madeira"
+    },
+    {
+      "id": "geowebcams",
+      "name": "GeoWebcams",
+      "status": "not_started",
+      "scope": "aggregator"
+    },
+    {
+      "id": "webcamgalore",
+      "name": "Webcam Galore",
+      "status": "not_started",
+      "scope": "aggregator"
+    },
+    {
+      "id": "windy",
+      "name": "Windy Webcams",
+      "status": "not_started",
+      "scope": "aggregator_weather"
+    },
+    {
+      "id": "windfinder",
+      "name": "Windfinder",
+      "status": "not_started",
+      "scope": "weather_surf"
+    },
+    {
+      "id": "surfline",
+      "name": "Surfline",
+      "status": "not_started",
+      "scope": "surf"
+    },
+    {
+      "id": "skylinewebcams",
+      "name": "SkylineWebcams",
+      "status": "not_started",
+      "scope": "aggregator"
+    },
+    {
+      "id": "earthcam",
+      "name": "EarthCam",
+      "status": "not_started",
+      "scope": "aggregator"
+    },
+    {
+      "id": "opencctv",
+      "name": "OpenCCTV",
+      "status": "not_started",
+      "scope": "traffic_public_cameras"
+    },
+    {
+      "id": "ipma",
+      "name": "IPMA",
+      "status": "not_started",
+      "scope": "weather_maritime"
+    },
+    {
+      "id": "infraestruturas-portugal",
+      "name": "Infraestruturas de Portugal",
+      "status": "not_started",
+      "scope": "traffic_transport"
+    },
+    {
+      "id": "ana-aeroportos",
+      "name": "ANA Aeroportos",
+      "status": "not_started",
+      "scope": "airports"
+    },
+    {
+      "id": "portos-portugal",
+      "name": "Portos de Portugal e administrações portuárias",
+      "status": "not_started",
+      "scope": "ports"
+    },
+    {
+      "id": "icnf",
+      "name": "ICNF",
+      "status": "not_started",
+      "scope": "nature"
+    },
+    {
+      "id": "turismo-portugal",
+      "name": "Turismo de Portugal e entidades regionais",
+      "status": "not_started",
+      "scope": "tourism"
+    }
+  ],
+  "mandatory_query_templates": [
+    "\"webcam\" \"{municipality}\"",
+    "\"web cam\" \"{municipality}\"",
+    "\"live cam\" \"{municipality}\"",
+    "\"câmara ao vivo\" \"{municipality}\"",
+    "\"camera ao vivo\" \"{municipality}\"",
+    "\"transmissão em direto\" \"{municipality}\"",
+    "\"live stream\" \"{municipality}\" Portugal",
+    "site:.pt webcam \"{municipality}\"",
+    "site:youtube.com live \"{municipality}\" Portugal",
+    "\"Axis\" \"{municipality}\" camera",
+    "\"Mobotix\" \"{municipality}\" camera",
+    "\"HLS\" \"{municipality}\" webcam",
+    "\"mjpg\" \"{municipality}\"",
+    "\"snapshot.jpg\" \"{municipality}\""
+  ],
+  "candidate_statuses": [
+    "new",
+    "duplicate",
+    "possible_duplicate",
+    "offline",
+    "not_public",
+    "rejected"
+  ],
+  "source_statuses": [
+    "not_started",
+    "in_progress",
+    "partially_reviewed",
+    "reviewed",
+    "reviewed_and_imported",
+    "blocked"
+  ]
+}
