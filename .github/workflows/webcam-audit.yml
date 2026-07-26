@@ -1,0 +1,75 @@
+name: Automated Portugal Webcam Audit
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: Municipalities to process in this run
+        required: false
+        default: "3"
+      municipality_id:
+        description: Optional exact municipality id
+        required: false
+        default: ""
+  schedule:
+    - cron: "17 1 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: webcam-audit-main
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-audit.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements-audit.txt
+
+      - name: Run sequential audit
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          AUDIT_DELAY: "1.4"
+        shell: bash
+        run: |
+          LIMIT="${{ github.event.inputs.limit }}"
+          LIMIT="${LIMIT:-3}"
+          MUNICIPALITY="${{ github.event.inputs.municipality_id }}"
+          ARGS=(--limit "$LIMIT" --max-results 8)
+          if [[ -n "$MUNICIPALITY" ]]; then
+            ARGS+=(--municipality-id "$MUNICIPALITY")
+          fi
+          python scripts/webcam_audit.py "${ARGS[@]}"
+
+      - name: Validate evidence and update progress
+        run: python scripts/update_audit_progress.py
+
+      - name: Commit generated evidence
+        shell: bash
+        run: |
+          if git diff --quiet && [[ -z "$(git status --porcelain)" ]]; then
+            echo "No audit changes to commit."
+            exit 0
+          fi
+          git config user.name "webcam-audit-bot"
+          git config user.email "webcam-audit-bot@users.noreply.github.com"
+          git add audit/evidence audit/auto-cameras.json audit/last-automated-run.json audit/progress-current.json audit/municipalities.csv
+          git commit -m "audit: process next Portugal municipalities"
+          git pull --rebase origin main
+          git push origin HEAD:main
