@@ -1,0 +1,30 @@
+{
+  "municipality_id": "pt-aveiro-oliveira-de-azemeis",
+  "order": 12,
+  "municipality": "Oliveira de Azeméis",
+  "district": "Aveiro",
+  "status": "complete",
+  "reviewed_at": "2026-07-27",
+  "checks_completed": 16,
+  "checks_total": 16,
+  "confirmed_webcams": [],
+  "rejected_candidates": [
+    {
+      "name": "TempoLimpo Oliveira de Azeméis",
+      "url": "https://www.tempolimpo.com/europe/portugal/aveiro/oliveira-de-azemeis/webcam",
+      "reason": "Generic page without an identifiable camera operator, physical installation, direct feed endpoint or independent corroboration."
+    }
+  ],
+  "searches": [
+    "Oliveira de Azeméis webcam live Portugal",
+    "site:cm-oaz.pt webcam",
+    "La Salette Oliveira de Azeméis webcam",
+    "Ferreira de Castro Oliveira de Azeméis webcam",
+    "Oliveira de Azeméis tourism hotel webcam",
+    "Oliveira de Azeméis YouTube live",
+    "Windy Windfinder Webcam Galore Oliveira de Azeméis",
+    "PortugalWebcams GeoWebcams OpenCCTV Oliveira de Azeméis",
+    "Oliveira de Azeméis HLS m3u8 MJPEG snapshot"
+  ],
+  "conclusion": "No permanent public webcam physically located in Oliveira de Azeméis was verified. The generic TempoLimpo result was retained as rejected evidence rather than published."
+}
