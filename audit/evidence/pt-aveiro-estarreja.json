@@ -1,0 +1,14 @@
+{
+  "municipality_id":"pt-aveiro-estarreja",
+  "order":8,
+  "municipality":"Estarreja",
+  "district":"Aveiro",
+  "status":"complete",
+  "reviewed_at":"2026-07-27",
+  "checks_completed":16,
+  "checks_total":16,
+  "confirmed_webcams":[],
+  "searches":["Estarreja webcam live","site:cm-estarreja.pt webcam OR livecam OR câmera","Pardilhó ria webcam","Avanca webcam","Estarreja estação náutica webcam","Estarreja Windy Windfinder webcam","Estarreja YouTube live","Estarreja HLS m3u8 MJPEG snapshot"],
+  "sources_checked":["municipal website","Estação Náutica de Estarreja","tourism and Ria pages","Windy","Windfinder","Webcam Galore","GeoWebcams","YouTube","stream endpoint searches"],
+  "conclusion":"No public permanent and verifiable webcam was confirmed in Estarreja. Official municipal and nautical pages expose tourism content but no public live feed."
+}
