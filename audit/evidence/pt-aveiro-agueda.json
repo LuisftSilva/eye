@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "municipality_id": "pt-aveiro-agueda",
+  "municipality": "Águeda",
+  "region": "Aveiro",
+  "status": "review",
+  "started_at": "2026-07-27T17:00:00Z",
+  "completed_at": "2026-07-27T17:45:00Z",
+  "reviewer": "OpenAI research pass",
+  "checks_total": 16,
+  "checks_completed": 16,
+  "confirmed_new_webcams": [],
+  "candidates": [
+    {
+      "candidate_id": "agueda-meteofermentelos",
+      "name": "MeteoFermentelos",
+      "locality": "Fermentelos",
+      "classification": "offline",
+      "provider": "Ricardo Inácio / IPMA Observar",
+      "source_url": "https://observar.ipma.pt/estacoes-meteorologicas/estacao-meteorologica-de-fermentelos/",
+      "provider_url": "https://www.meteofermentelos.com/",
+      "stream_url": null,
+      "embed_url": null,
+      "snapshot_url": null,
+      "coordinates": null,
+      "evidence": "O registo oficial IPMA Observar identifica a estação no concelho de Águeda, região de Fermentelos, e inclui Câmara entre os sensores disponíveis. O site indicado pelo proprietário não respondeu durante a validação.",
+      "publication_decision": "Não adicionar ao mapa enquanto não existir URL pública funcional e coordenadas confirmadas.",
+      "last_checked_at": "2026-07-27T17:42:00Z"
+    },
+    {
+      "candidate_id": "agueda-tempolimpo",
+      "name": "Webcam ao Vivo de Águeda - TempoLimpo",
+      "classification": "rejected",
+      "source_url": "https://www.tempolimpo.com/europe/portugal/aveiro/agueda/webcam",
+      "reason": "A própria página indica uma câmara em Gafanha da Nazaré, aproximadamente 26 km de Águeda; não constitui evidência de uma webcam situada no município.",
+      "last_checked_at": "2026-07-27T17:20:00Z"
+    }
+  ],
+  "checks": [
+    {
+      "check_id": "official_municipality",
+      "status": "done",
+      "queries": ["site:cm-agueda.pt webcam", "site:cm-agueda.pt câmara ao vivo", "site:cm-agueda.pt live", "site:cm-agueda.pt stream"],
+      "urls_checked": ["https://www.cm-agueda.pt/", "https://www.cm-agueda.pt/viver/tecnologias-da-informacao/meios-de-comunicacao/agueda-tv", "https://www.cm-agueda.pt/viver/tecnologias-da-informacao/servicos-de-suporte/videovigilancia"],
+      "candidates_found": [],
+      "notes": "A ÁguedaTV é um arquivo/canal municipal de vídeos, não uma webcam permanente. A página de videovigilância descreve CCTV interno sem acesso público.",
+      "checked_at": "2026-07-27T17:10:00Z"
+    },
+    {
+      "check_id": "official_tourism",
+      "status": "done",
+      "queries": ["Águeda turismo webcam", "site:cm-agueda.pt/visite webcam"],
+      "urls_checked": ["https://www.cm-agueda.pt/visite/turismo/posto-de-turismo"],
+      "candidates_found": [],
+      "notes": "Portal turístico municipal verificado sem webcam pública identificada.",
+      "checked_at": "2026-07-27T17:12:00Z"
+    },
+    {
+      "check_id": "google_search",
+      "status": "done",
+      "queries": ["Águeda Portugal webcam live cam", "webcam Águeda", "câmara ao vivo Águeda"],
+      "urls_checked": ["https://www.tempolimpo.com/europe/portugal/aveiro/agueda/webcam"],
+      "candidates_found": ["agueda-tempolimpo"],
+      "notes": "Resultado rejeitado por apontar para Gafanha da Nazaré, fora do município.",
+      "checked_at": "2026-07-27T17:15:00Z"
+    },
+    {
+      "check_id": "bing_search",
+      "status": "done",
+      "queries": ["Águeda webcam live", "Águeda live camera Portugal"],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "Nenhum resultado adicional verificável.",
+      "checked_at": "2026-07-27T17:17:00Z"
+    },
+    {
+      "check_id": "duckduckgo_search",
+      "status": "done",
+      "queries": ["Águeda webcam", "Fermentelos webcam"],
+      "urls_checked": [],
+      "candidates_found": ["agueda-meteofermentelos"],
+      "notes": "A pista MeteoFermentelos foi posteriormente confirmada no diretório oficial IPMA Observar.",
+      "checked_at": "2026-07-27T17:19:00Z"
+    },
+    {
+      "check_id": "specialist_aggregators",
+      "status": "done",
+      "queries": ["site:portugalwebcams.pt Águeda", "site:webcamgalore.com Águeda", "site:windy.com/webcams Águeda", "site:geowebcams.com Águeda"],
+      "urls_checked": ["https://portugalwebcams.pt/"],
+      "candidates_found": [],
+      "notes": "Nenhuma entrada específica para Águeda encontrada nos agregadores consultados.",
+      "checked_at": "2026-07-27T17:22:00Z"
+    },
+    {
+      "check_id": "coast_surf_beaches",
+      "status": "done",
+      "queries": ["Águeda praia surf webcam", "Beachcam Águeda"],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "Município interior; nenhuma zona costeira ou feed de surf aplicável encontrado.",
+      "checked_at": "2026-07-27T17:24:00Z"
+    },
+    {
+      "check_id": "ports_marinas_nautical",
+      "status": "done",
+      "queries": ["Águeda marina webcam", "Águeda porto webcam", "Pateira Fermentelos webcam"],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "Nenhuma webcam pública identificada.",
+      "checked_at": "2026-07-27T17:26:00Z"
+    },
+    {
+      "check_id": "airports_aerodromes",
+      "status": "done",
+      "queries": ["Águeda aeródromo webcam", "Águeda aeroporto live camera"],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "Nenhuma webcam pública identificada.",
+      "checked_at": "2026-07-27T17:28:00Z"
+    },
+    {
+      "check_id": "traffic_transport_rail",
+      "status": "done",
+      "queries": ["Águeda trânsito webcam", "Águeda estrada camera live", "Águeda estação ferroviária webcam"],
+      "urls_checked": ["https://www.cm-agueda.pt/viver/tecnologias-da-informacao/servicos-de-suporte/videovigilancia"],
+      "candidates_found": [],
+      "notes": "Existe infraestrutura CCTV municipal descrita, mas não foi encontrado acesso público a imagens.",
+      "checked_at": "2026-07-27T17:30:00Z"
+    },
+    {
+      "check_id": "nature_mountains_parks_dams_viewpoints",
+      "status": "done",
+      "queries": ["Águeda natureza webcam", "Pateira de Fermentelos live camera", "Águeda miradouro webcam", "Águeda barragem webcam"],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "Nenhum feed público funcional encontrado.",
+      "checked_at": "2026-07-27T17:32:00Z"
+    },
+    {
+      "check_id": "hotels_resorts_lodging",
+      "status": "done",
+      "queries": ["Águeda hotel webcam", "Águeda resort live camera", "Fermentelos hotel webcam"],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "Nenhuma webcam pública identificada.",
+      "checked_at": "2026-07-27T17:34:00Z"
+    },
+    {
+      "check_id": "golf_sports_ski",
+      "status": "done",
+      "queries": ["Águeda golf webcam", "Águeda desporto live camera"],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "Nenhuma webcam pública identificada.",
+      "checked_at": "2026-07-27T17:35:00Z"
+    },
+    {
+      "check_id": "weather_universities_observatories",
+      "status": "done",
+      "queries": ["Águeda IPMA webcam", "Águeda estação meteorológica câmara", "Fermentelos meteorologia webcam"],
+      "urls_checked": ["https://observar.ipma.pt/estacoes-meteorologicas/estacao-meteorologica-de-fermentelos/", "https://www.meteofermentelos.com/", "https://www.ipma.pt/pt/enciclopedia/redes.observacao/meteo/index.jsp"],
+      "candidates_found": ["agueda-meteofermentelos"],
+      "notes": "IPMA confirma uma estação particular com sensor Câmara. O site de origem não respondeu e não foi possível obter stream, snapshot ou coordenadas exatas.",
+      "checked_at": "2026-07-27T17:40:00Z"
+    },
+    {
+      "check_id": "youtube_social_live",
+      "status": "done",
+      "queries": ["site:youtube.com Águeda Portugal live webcam", "Águeda ao vivo YouTube", "Fermentelos live stream"],
+      "urls_checked": ["https://agueda.tv/"],
+      "candidates_found": [],
+      "notes": "Encontrados vídeos e transmissões de eventos, mas nenhuma webcam pública permanente.",
+      "checked_at": "2026-07-27T17:41:00Z"
+    },
+    {
+      "check_id": "technical_discovery",
+      "status": "done",
+      "queries": ["Águeda Axis camera", "Águeda Mobotix camera", "Águeda Hikvision webcam", "Águeda HLS webcam", "Águeda MJPEG", "Águeda snapshot.jpg"],
+      "urls_checked": ["https://www.meteofermentelos.com/"],
+      "candidates_found": ["agueda-meteofermentelos"],
+      "notes": "Não foi possível extrair endpoint técnico porque o domínio de origem estava inacessível durante a validação.",
+      "checked_at": "2026-07-27T17:43:00Z"
+    }
+  ],
+  "review_notes": "Primeira passagem territorial concluída. Requer segunda passagem antes de status complete. O único candidato plausível está offline e não deve ser publicado.",
+  "sources_summary": {
+    "urls_checked_count": 10,
+    "queries_count": 42,
+    "candidates_total": 2,
+    "new": 0,
+    "offline": 1,
+    "rejected": 1,
+    "duplicates": 0
+  }
+}
