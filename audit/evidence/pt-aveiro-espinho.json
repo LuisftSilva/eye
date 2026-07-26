@@ -1,0 +1,57 @@
+{
+  "municipality_id": "pt-aveiro-espinho",
+  "order": 7,
+  "municipality": "Espinho",
+  "district": "Aveiro",
+  "status": "complete",
+  "reviewed_at": "2026-07-27",
+  "checks_completed": 16,
+  "checks_total": 16,
+  "confirmed_webcams": [
+    {
+      "name": "Espinho | Panorâmica",
+      "provider": "MEO Beachcam",
+      "source_url": "https://back-office.beachcam.pt/livecams/praia-de-espinho/",
+      "database_action": "existing-camera-retained",
+      "evidence": "Provider page is active and reports current surf and weather data."
+    },
+    {
+      "name": "Espinho | Pico do Casino | Estática",
+      "provider": "MEO Beachcam",
+      "source_url": "https://back-office.beachcam.pt/livecams/",
+      "database_action": "added",
+      "evidence": "Listed as a separate Espinho camera in the provider's current livecam catalogue."
+    },
+    {
+      "name": "Espinho | Silvalde",
+      "provider": "MEO Beachcam",
+      "source_url": "https://back-office.beachcam.pt/livecams/",
+      "database_action": "added",
+      "evidence": "Listed as a separate multi-camera location in the provider's current catalogue."
+    },
+    {
+      "name": "Espinho | Silvalde | Estática",
+      "provider": "MEO Beachcam",
+      "source_url": "https://back-office.beachcam.pt/livecams/",
+      "database_action": "added",
+      "evidence": "Listed independently from the Silvalde multi-camera feed in the current catalogue."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "name": "Windy Espinho: Praia de",
+      "reason": "Historical/stale entry showing no recent images; not counted as an additional active feed."
+    }
+  ],
+  "searches": [
+    "Espinho webcam live beachcam surfline windy",
+    "Espinho Praia da Baía webcam",
+    "Espinho Casino webcam",
+    "Silvalde webcam live",
+    "site:back-office.beachcam.pt/livecams Espinho",
+    "Espinho municipal tourism marina hotel webcam",
+    "Espinho YouTube live",
+    "Espinho HLS m3u8 MJPEG snapshot"
+  ],
+  "conclusion": "Four distinct currently listed MEO Beachcam views were identified for Espinho. One broad Espinho entry already existed; three additional named views were added without duplicating that record."
+}
