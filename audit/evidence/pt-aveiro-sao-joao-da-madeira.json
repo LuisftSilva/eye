@@ -1,0 +1,36 @@
+{
+  "municipality_id": "pt-aveiro-sao-joao-da-madeira",
+  "order": 16,
+  "municipality": "São João da Madeira",
+  "district": "Aveiro",
+  "status": "complete",
+  "reviewed_at": "2026-07-27",
+  "checks_completed": 16,
+  "checks_total": 16,
+  "confirmed_webcams": [],
+  "rejected_candidates": [
+    {
+      "name": "TempoLimpo São João da Madeira",
+      "source_url": "https://www.tempolimpo.com/europe/portugal/aveiro/sao-joao-da-madeira/webcam",
+      "reason": "Generic aggregator page without an identified operator, physical camera location, direct stream endpoint or independent confirmation. Not counted as a verified webcam."
+    }
+  ],
+  "negative_evidence": [
+    {
+      "source": "Meteoplanet",
+      "source_url": "https://www.meteoplanet.it/webcam-europa/portogallo/s%C3%A3o%2Bjo%C3%A3o%2Bda%2Bmadeira",
+      "finding": "Explicitly reports that no webcams are present in São João da Madeira."
+    }
+  ],
+  "searches": [
+    "São João da Madeira webcam live",
+    "São João da Madeira webcam municipal turismo",
+    "São João da Madeira YouTube live",
+    "São João da Madeira hotel webcam",
+    "São João da Madeira traffic webcam",
+    "São João da Madeira HLS m3u8 MJPEG snapshot",
+    "site:tempolimpo.com São João da Madeira webcam",
+    "site:meteoplanet.it São João da Madeira webcam"
+  ],
+  "conclusion": "No permanent public webcam could be verified. Generic aggregator claims were rejected because they provide no traceable feed or operator."
+}
