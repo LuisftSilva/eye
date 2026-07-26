@@ -1,0 +1,14 @@
+{
+  "municipality_id": "pt-aveiro-agueda",
+  "order": 1,
+  "status": "review",
+  "checks_completed": 16,
+  "checks_total": 16,
+  "confirmed_webcams_found": 0,
+  "offline_candidates": 1,
+  "rejected_candidates": 1,
+  "evidence_file": "audit/evidence/pt-aveiro-agueda.json",
+  "last_reviewed_at": "2026-07-27T17:45:00Z",
+  "reviewed_by": "OpenAI research pass",
+  "next_action": "Second-pass review of MeteoFermentelos and duplicate verification before marking complete."
+}
