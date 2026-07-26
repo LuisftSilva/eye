@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#030711">
-  <meta name="description" content="Mapa tecnológico de webcams públicas em Portugal.">
+  <meta name="description" content="Mapa tecnológico 3D de webcams públicas em Portugal.">
   <title>Eye — Portugal Live</title>
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.18.0/dist/maplibre-gl.css">
   <link rel="stylesheet" href="styles.css">
@@ -27,6 +27,7 @@
     <aside class="hud controls">
       <div class="metrics">
         <div><strong id="cameraCount">0</strong><span>câmaras</span></div>
+        <div><strong id="visibleCount">0</strong><span>visíveis</span></div>
         <div><strong id="regionCount">0</strong><span>regiões</span></div>
         <div><strong id="providerCount">0</strong><span>redes</span></div>
       </div>
@@ -38,7 +39,7 @@
         <button class="filter" data-filter="madeira">Madeira</button>
       </div>
       <label class="switch-row"><input id="autoRotate" type="checkbox" checked><span>Rotação do planeta</span></label>
-      <p class="coverage">Cobertura inicial nacional. Os pontos de redes agregadoras são confirmados ao nível da rede; o vídeo abre no fornecedor quando a incorporação é bloqueada.</p>
+      <p class="coverage">Globo satélite 3D. Clique num ponto para abrir a transmissão num painel sem abandonar o mapa. Quando o fornecedor bloqueia incorporação, use “Abrir transmissão”.</p>
     </aside>
 
     <section id="viewer" class="viewer" aria-live="polite">
@@ -49,11 +50,11 @@
         <p id="viewerLocation"></p>
       </div>
       <div id="videoStage" class="video-stage">
-        <div class="scanner"></div>
-        <div class="video-placeholder">
+        <iframe id="cameraFrame" class="camera-frame hidden" title="Webcam ao vivo" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        <div id="videoFallback" class="video-placeholder">
           <span class="cam-icon">◉</span>
-          <strong>Transmissão no fornecedor</strong>
-          <p>Este operador não permite reprodução direta segura fora da sua página.</p>
+          <strong>A carregar transmissão</strong>
+          <p>Alguns operadores impedem a reprodução dentro de outros sites. O mapa permanece aberto e pode usar o botão abaixo.</p>
         </div>
       </div>
       <div class="viewer-body">
