@@ -1,0 +1,36 @@
+{
+  "municipality_id": "pt-aveiro-murtosa",
+  "order": 11,
+  "municipality": "Murtosa",
+  "district": "Aveiro",
+  "status": "complete",
+  "reviewed_at": "2026-07-27",
+  "checks_completed": 16,
+  "checks_total": 16,
+  "confirmed_webcams": [
+    {
+      "name": "Praia da Torreira",
+      "provider": "MEO Beachcam",
+      "source_url": "https://back-office.beachcam.pt/livecams/",
+      "secondary_evidence": "https://portugalwebcams.pt/en/webcam/murtosa-torreira",
+      "database_action": "added",
+      "evidence": "The current MEO Beachcam catalogue lists Praia da Torreira under Murtosa; an independent PortugalWebcams entry identifies the same Torreira location as a streaming webcam."
+    }
+  ],
+  "rejected_candidates": [],
+  "searches": [
+    "Murtosa webcam live",
+    "Torreira webcam live",
+    "Praia da Torreira webcam",
+    "Ria de Aveiro Murtosa webcam",
+    "Cais da Bestida webcam",
+    "Monte Branco Murtosa webcam",
+    "site:cm-murtosa.pt webcam",
+    "site:back-office.beachcam.pt/livecams Torreira",
+    "Windy Windfinder Torreira webcam",
+    "Murtosa YouTube live",
+    "Murtosa HLS m3u8 MJPEG snapshot"
+  ],
+  "cross_discoveries": [],
+  "conclusion": "One currently listed public webcam was confirmed at Praia da Torreira and added under the correct municipality."
+}
