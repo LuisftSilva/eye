@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "municipality_id": "pt-aveiro-aveiro",
+  "municipality": "Aveiro",
+  "region": "Aveiro",
+  "status": "complete",
+  "started_at": "2026-07-27T19:05:00Z",
+  "completed_at": "2026-07-27T19:42:00Z",
+  "reviewer": "OpenAI research pass",
+  "checks_total": 16,
+  "checks_completed": 16,
+  "confirmed_new_webcams": [
+    {
+      "camera_id": "meo-sao-jacinto-barra",
+      "name": "Praia de São Jacinto | Barra",
+      "locality": "São Jacinto",
+      "municipality": "Aveiro",
+      "classification": "new",
+      "provider": "MEO Beachcam",
+      "source_url": "https://back-office.beachcam.pt/livecams/praia-de-sao-jacinto-barra/",
+      "stream_url": null,
+      "embed_url": null,
+      "coordinates": {"lat": 40.660, "lng": -8.748},
+      "category": "beach",
+      "verification": "Provider page exposes a current livecam page with live surf data. São Jacinto is confirmed as part of Aveiro municipality by the municipal and administrative sources.",
+      "last_checked_at": "2026-07-27T19:35:00Z"
+    }
+  ],
+  "cross_discoveries": [
+    {
+      "camera_id": "barra-5",
+      "name": "Praia da Barra",
+      "correct_municipality": "Ílhavo",
+      "classification": "existing_duplicate_with_location_correction",
+      "source_urls": [
+        "https://back-office.beachcam.pt/livecams/praia-da-barra/",
+        "https://portugalwebcams.pt/webcam/aveiro-praia-da-barra",
+        "https://www.windy.com/webcams/1504166801"
+      ],
+      "notes": "Some aggregators label the camera as Aveiro city, but Praia da Barra is in Ílhavo. Existing repository record already uses Ílhavo and was preserved."
+    },
+    {
+      "camera_id": "costa-nova-6",
+      "name": "Costa Nova",
+      "correct_municipality": "Ílhavo",
+      "classification": "existing_duplicate",
+      "source_urls": ["https://camguide.net/europe/portugal/aveiro/costa-nova-beach/"],
+      "notes": "Discovered during Aveiro searches but already correctly recorded under Ílhavo."
+    },
+    {
+      "name": "Praia de Mira",
+      "correct_municipality": "Mira",
+      "classification": "cross_discovered_candidate_offline",
+      "source_urls": [
+        "https://camguide.net/europe/portugal/aveiro/mira-beach/",
+        "https://surftotal.com/camaras-report/aveiro/mira"
+      ],
+      "notes": "Surftotal currently marks the camera temporarily unavailable; defer publication pending municipality audit."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "name": "Generic Aveiro weather webcam pages",
+      "source_urls": [
+        "https://www.tempo10.com/europe/portugal/aveiro/webcam",
+        "https://www.vremearomania.com/europe/portugal/aveiro/webcam"
+      ],
+      "reason": "No identifiable physical camera, provider endpoint, verifiable current image or independent source."
+    },
+    {
+      "name": "Aveiro Tech City cameras",
+      "reason": "Research confirms sensing/video infrastructure but no public live webcam endpoint was found; surveillance/research cameras are not catalogued without public access."
+    }
+  ],
+  "checks": [
+    {"check_id":"official_municipality","status":"done","queries":["site:cm-aveiro.pt webcam","site:cm-aveiro.pt câmara ao vivo"],"urls_checked":["https://www.cm-aveiro.pt/","https://www.cm-aveiro.pt/visitantes/visitar/praia-de-sao-jacinto"],"candidates_found":["meo-sao-jacinto-barra"],"notes":"Municipal source confirms São Jacinto geography; no city-centre public webcam found."},
+    {"check_id":"official_tourism","status":"done","queries":["Aveiro turismo webcam","São Jacinto turismo webcam"],"urls_checked":["https://www.cm-aveiro.pt/visitantes/visitar/praia-de-sao-jacinto"],"candidates_found":["meo-sao-jacinto-barra"],"notes":"Beach location confirmed."},
+    {"check_id":"google_search","status":"done","queries":["Aveiro Portugal webcam live camera","Aveiro city webcam canal live"],"urls_checked":["https://www.tempo10.com/europe/portugal/aveiro/webcam"],"candidates_found":[],"notes":"Generic weather page rejected."},
+    {"check_id":"bing_search","status":"done","queries":["Aveiro webcam live","Aveiro live camera Portugal"],"urls_checked":[],"candidates_found":[],"notes":"No additional verified municipal feed."},
+    {"check_id":"duckduckgo_search","status":"done","queries":["Aveiro webcam","São Jacinto webcam"],"urls_checked":["https://back-office.beachcam.pt/livecams/praia-de-sao-jacinto-barra/"],"candidates_found":["meo-sao-jacinto-barra"],"notes":"Provider page confirmed."},
+    {"check_id":"specialist_aggregators","status":"done","queries":["site:portugalwebcams.pt Aveiro webcam","site:windy.com/webcams Aveiro","site:camguide.net Aveiro webcam"],"urls_checked":["https://portugalwebcams.pt/webcam/aveiro-praia-da-barra","https://www.windy.com/webcams/1504166801","https://camguide.net/europe/portugal/aveiro/"],"candidates_found":["barra-5","costa-nova-6"],"notes":"Both belong to Ílhavo; recorded as cross-discoveries/duplicates."},
+    {"check_id":"coast_surf_beaches","status":"done","queries":["Aveiro beach webcam","São Jacinto surf cam","Praia da Barra webcam"],"urls_checked":["https://back-office.beachcam.pt/livecams/praia-de-sao-jacinto-barra/","https://back-office.beachcam.pt/livecams/praia-da-barra/","https://www.surfline.com/surf-reports-forecasts-cams/portugal/aveiro/aveiro-municipality/s-o-jacinto/2734499"],"candidates_found":["meo-sao-jacinto-barra","barra-5"],"notes":"São Jacinto added; Barra assigned to Ílhavo."},
+    {"check_id":"ports_marinas_nautical","status":"done","queries":["Porto de Aveiro webcam","Aveiro marina live camera","Ria de Aveiro webcam"],"urls_checked":[],"candidates_found":[],"notes":"No public permanent feed verified."},
+    {"check_id":"airports_aerodromes","status":"done","queries":["São Jacinto aeródromo webcam","Aveiro aeródromo live camera"],"urls_checked":[],"candidates_found":[],"notes":"No public webcam verified."},
+    {"check_id":"traffic_transport_rail","status":"done","queries":["Aveiro trânsito webcam","Aveiro estação webcam","Aveiro ferry camera"],"urls_checked":[],"candidates_found":[],"notes":"No public traffic/rail feed verified."},
+    {"check_id":"nature_mountains_parks_dams_viewpoints","status":"done","queries":["Dunas de São Jacinto webcam","Ria de Aveiro nature webcam"],"urls_checked":["https://www.cm-aveiro.pt/visitantes/visitar/praia-de-sao-jacinto"],"candidates_found":["meo-sao-jacinto-barra"],"notes":"Only confirmed public feed is the coastal São Jacinto livecam."},
+    {"check_id":"hotels_resorts_lodging","status":"done","queries":["Aveiro hotel webcam","Aveiro resort live camera"],"urls_checked":[],"candidates_found":[],"notes":"No verified permanent public feed."},
+    {"check_id":"golf_sports_ski","status":"done","queries":["Aveiro sports webcam","São Jacinto surf live"],"urls_checked":["https://www.surfline.com/surf-reports-forecasts-cams/portugal/aveiro/aveiro-municipality/s-o-jacinto/2734499"],"candidates_found":["meo-sao-jacinto-barra"],"notes":"Surfline listing supports location; MEO provider page used as publication source."},
+    {"check_id":"weather_universities_observatories","status":"done","queries":["Aveiro meteorological webcam","Universidade de Aveiro webcam","Aveiro Tech City camera public"],"urls_checked":["https://arxiv.org/abs/2207.12200","https://arxiv.org/abs/2504.11662"],"candidates_found":[],"notes":"Video sensing infrastructure exists but no public live endpoint found."},
+    {"check_id":"youtube_social_live","status":"done","queries":["site:youtube.com Aveiro live webcam","Aveiro live stream canal"],"urls_checked":[],"candidates_found":[],"notes":"Event streams and videos excluded; no permanent webcam."},
+    {"check_id":"technical_discovery","status":"done","queries":["Aveiro HLS webcam","Aveiro MJPEG","Aveiro snapshot.jpg","Aveiro Axis camera"],"urls_checked":["https://back-office.beachcam.pt/livecams/praia-de-sao-jacinto-barra/"],"candidates_found":["meo-sao-jacinto-barra"],"notes":"Provider page confirmed, but a stable direct stream endpoint was not exposed by indexed content; source page retained."}
+  ],
+  "sources_summary": {"confirmed_new":1,"existing_duplicates":2,"cross_discovered_offline":1,"rejected":2},
+  "review_notes": "Deep first and second verification pass completed. São Jacinto added. Praia da Barra and Costa Nova retained under Ílhavo."
+}
