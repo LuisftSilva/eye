@@ -1,0 +1,47 @@
+{
+  "municipality_id": "pt-aveiro-ovar",
+  "order": 14,
+  "municipality": "Ovar",
+  "district": "Aveiro",
+  "status": "complete",
+  "reviewed_at": "2026-07-27",
+  "checks_completed": 16,
+  "checks_total": 16,
+  "confirmed_webcams": [
+    {
+      "name": "Praia de Esmoriz",
+      "provider": "MEO Beachcam",
+      "database_action": "existing-camera-retained",
+      "database_id": "esmoriz-3",
+      "evidence": "Already present in the repository and independently corroborated by the current Ovar webcam index."
+    },
+    {
+      "name": "Praia do Furadouro",
+      "provider": "MEO Beachcam",
+      "source_url": "https://back-office.beachcam.pt/livecams/furadouro/",
+      "database_action": "existing-camera-retained",
+      "database_id": "furadouro-4",
+      "evidence": "Current provider page reports live surf and weather values and an independent PortugalWebcams page identifies the stream in Ovar."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "name": "TempoLimpo Esmoriz",
+      "reason": "Generic page without a clearly attributable operator or distinct independently validated feed; not counted in addition to the confirmed Esmoriz camera."
+    }
+  ],
+  "searches": [
+    "Ovar webcam live Furadouro Esmoriz Portugal",
+    "Furadouro webcam live",
+    "Esmoriz webcam live",
+    "Cortegaça webcam live",
+    "Maceda beach webcam",
+    "Torrão do Lameiro webcam",
+    "site:back-office.beachcam.pt/livecams Ovar",
+    "Ovar municipal tourism webcam",
+    "Ovar YouTube live",
+    "Ovar HLS m3u8 MJPEG snapshot"
+  ],
+  "cross_discoveries": [],
+  "conclusion": "Two active public beach webcams were confirmed for Ovar. Both already existed in the database, so no duplicates were added."
+}
