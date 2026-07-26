@@ -1,105 +1,81 @@
-const state = { cameras: [], view: 'grid', map: null, markers: [] };
-const $ = (s) => document.querySelector(s);
-const statusLabel = { online: 'Online', offline: 'Offline', unknown: 'Por confirmar' };
-const categoryIcon = { panorama:'◉', porto:'⚓', trânsito:'⇄', praia:'≈', aeroporto:'✈', natureza:'⌁' };
-
-async function init(){
-  const response = await fetch('data/cameras.json');
-  state.cameras = await response.json();
-  updateStats();
-  render();
-  bindEvents();
-}
-function updateStats(){
-  $('#uniqueCount').textContent = state.cameras.filter(c=>c.uniqueFeed).length;
-  $('#onlineCount').textContent = state.cameras.filter(c=>c.status==='online').length;
-  $('#sourceCount').textContent = new Set(state.cameras.map(c=>c.provider)).size;
-}
-function filtered(){
-  const q = $('#searchInput').value.trim().toLowerCase();
-  const status = $('#statusFilter').value;
-  const unique = $('#uniqueOnly').checked;
-  return state.cameras.filter(c => {
-    const hay = [c.name,c.city,c.region,c.country,c.provider,c.description,...c.tags].join(' ').toLowerCase();
-    return (!q || hay.includes(q)) && (status==='all'||c.status===status) && (!unique||c.uniqueFeed);
-  });
-}
-function render(){
-  const items = filtered();
-  const grid = $('#gridView');
-  grid.innerHTML = items.length ? items.map(cardTemplate).join('') : '<div class="empty">Nenhuma câmara corresponde aos filtros.</div>';
-  grid.querySelectorAll('.card').forEach(el=>el.addEventListener('click',()=>openCamera(el.dataset.id)));
-  if(state.view==='map') renderMap(items);
-}
-function cardTemplate(c){
-  return `<article class="card" data-id="${c.id}" tabindex="0">
-    <div class="preview">
-      <span class="status ${c.status}">${statusLabel[c.status]}</span>
-      ${c.uniqueFeed ? '' : '<span class="duplicate">fonte alternativa</span>'}
-      <span class="preview-symbol">${categoryIcon[c.category]||'◉'}</span>
-    </div>
-    <div class="card-body">
-      <h2>${c.name}</h2>
-      <div class="meta">${c.city}, ${c.region} · ${c.category}</div>
-      <p class="description">${c.description}</p>
-      <div class="card-footer"><span class="provider">${c.provider}</span><span class="open-label">Abrir →</span></div>
-    </div>
-  </article>`;
-}
-function openCamera(id){
-  const c = state.cameras.find(x=>x.id===id);
-  const dialog = $('#cameraDialog');
-  $('#dialogContent').innerHTML = `
-    <div class="dialog-hero">${categoryIcon[c.category]||'◉'}</div>
-    <div class="dialog-body">
-      <div class="meta">${c.city}, ${c.region}, ${c.country}</div>
-      <h2>${c.name}</h2>
-      <p class="description">${c.description}</p>
-      <p class="meta"><strong>Fornecedor:</strong> ${c.provider}<br><strong>Verificado:</strong> ${c.verifiedAt}<br><strong>Estado:</strong> ${statusLabel[c.status]}</p>
-      <div class="tags">${c.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
-      <div class="dialog-actions">
-        <a class="primary" href="${c.sourceUrl}" target="_blank" rel="noopener noreferrer">Ver transmissão ↗</a>
-        <a class="secondary" href="https://www.google.com/maps?q=${c.lat},${c.lng}" target="_blank" rel="noopener noreferrer">Abrir localização</a>
-      </div>
-    </div>`;
-  dialog.showModal();
-}
-function renderMap(items){
-  if(!state.map){
-    state.map = L.map('map').setView([-1.4558,-48.4902],12);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
-      maxZoom:19, attribution:'&copy; OpenStreetMap'
-    }).addTo(state.map);
-  }
-  state.markers.forEach(m=>m.remove());
-  state.markers = items.map(c=>{
-    const marker=L.marker([c.lat,c.lng]).addTo(state.map);
-    marker.bindPopup(`<strong>${c.name}</strong><br>${c.provider}<br><button onclick="window.openCameraFromMap('${c.id}')">Abrir</button>`);
-    return marker;
-  });
-  setTimeout(()=>state.map.invalidateSize(),100);
-}
-window.openCameraFromMap = openCamera;
-function bindEvents(){
-  $('#searchInput').addEventListener('input',render);
-  $('#statusFilter').addEventListener('change',render);
-  $('#uniqueOnly').addEventListener('change',render);
-  $('#closeDialog').addEventListener('click',()=>$('#cameraDialog').close());
-  $('#cameraDialog').addEventListener('click',e=>{if(e.target===$('#cameraDialog')) $('#cameraDialog').close()});
-  document.querySelectorAll('[data-view]').forEach(btn=>btn.addEventListener('click',()=>{
-    state.view=btn.dataset.view;
-    document.querySelectorAll('[data-view]').forEach(b=>b.classList.toggle('active',b===btn));
-    $('#gridView').classList.toggle('hidden',state.view!=='grid');
-    $('#mapView').classList.toggle('hidden',state.view!=='map');
-    render();
-  }));
-  $('#themeToggle').addEventListener('click',()=>{
-    document.documentElement.classList.toggle('light');
-    localStorage.setItem('theme',document.documentElement.classList.contains('light')?'light':'dark');
-  });
-  if(localStorage.getItem('theme')==='light') document.documentElement.classList.add('light');
-}
-init().catch(err=>{
-  console.error(err);
-  $('#gridView').innerHTML='<div class="empty">Não foi possível carregar os dados.</div>';
+const state={cameras:[],markers:[],filter:"all",query:"",selected:null,rotate:true,userInteracting:false};
+const $=s=>document.querySelector(s);
+const map=new maplibregl.Map({
+  container:"map",
+  style:"https://demotiles.maplibre.org/style.json",
+  center:[-12.5,38.5],
+  zoom:3.2,
+  pitch:0,
+  attributionControl:true,
+  antialias:true
 });
+map.addControl(new maplibregl.NavigationControl({visualizePitch:true}),"bottom-right");
+map.on("style.load",()=>map.setProjection({type:"globe"}));
+map.on("mousedown",()=>state.userInteracting=true);
+map.on("mouseup",()=>state.userInteracting=false);
+map.on("touchstart",()=>state.userInteracting=true);
+map.on("touchend",()=>state.userInteracting=false);
+
+function area(c){
+  if(c.region==="Madeira") return "madeira";
+  const az=["Santa Maria","São Miguel","Terceira","Graciosa","São Jorge","Faial","Pico","Flores","Corvo"];
+  return az.includes(c.region)?"azores":"mainland";
+}
+function visible(c){
+  const q=state.query;
+  const matches=!q||[c.name,c.city,c.region,c.provider].join(" ").toLowerCase().includes(q);
+  return matches&&(state.filter==="all"||area(c)===state.filter);
+}
+function renderMarkers(){
+  state.markers.forEach(x=>x.remove());state.markers=[];
+  state.cameras.filter(visible).forEach(c=>{
+    const el=document.createElement("button");
+    el.className="cam-marker "+(area(c)==="mainland"?"":"island");
+    el.title=c.name;el.setAttribute("aria-label",c.name);
+    el.addEventListener("click",e=>{e.stopPropagation();openCamera(c);});
+    const m=new maplibregl.Marker({element:el,anchor:"center"}).setLngLat([c.lng,c.lat]).addTo(map);
+    state.markers.push(m);
+  });
+}
+function openCamera(c){
+  state.selected=c;
+  $("#viewerTitle").textContent=c.name;
+  $("#viewerLocation").textContent=`${c.city} · ${c.region}`;
+  $("#viewerDescription").textContent=c.description;
+  $("#viewerProvider").textContent=c.provider;
+  $("#viewerVerification").textContent=c.verification==="direct"?"Feed direto":"Rede confirmada";
+  $("#openSource").href=c.sourceUrl;
+  $("#viewer").classList.add("open");
+  map.easeTo({center:[c.lng,c.lat],zoom:Math.max(map.getZoom(),7.5),duration:1100,offset:[-160,0]});
+}
+function updateMetrics(){
+  $("#cameraCount").textContent=state.cameras.length;
+  $("#regionCount").textContent=new Set(state.cameras.map(c=>c.region)).size;
+  $("#providerCount").textContent=new Set(state.cameras.map(c=>c.provider)).size;
+}
+function flyPortugal(){map.flyTo({center:[-12.5,38.6],zoom:3.6,pitch:0,duration:1800});}
+function flyWorld(){map.flyTo({center:[-10,25],zoom:1.25,pitch:0,duration:1800});}
+function spin(){
+  if(state.rotate&&!state.userInteracting&&!$("#viewer").classList.contains("open")&&map.getZoom()<2.8){
+    const c=map.getCenter();c.lng-=0.035;map.easeTo({center:c,duration:70,easing:n=>n});
+  }
+  requestAnimationFrame(spin);
+}
+async function init(){
+  const res=await fetch("data/cameras.json");
+  state.cameras=await res.json();
+  updateMetrics();renderMarkers();spin();
+}
+$("#closeViewer").addEventListener("click",()=>$("#viewer").classList.remove("open"));
+$("#resetView").addEventListener("click",flyPortugal);
+$("#worldView").addEventListener("click",flyWorld);
+$("#autoRotate").addEventListener("change",e=>state.rotate=e.target.checked);
+$("#searchInput").addEventListener("input",e=>{state.query=e.target.value.trim().toLowerCase();renderMarkers();});
+document.querySelectorAll(".filter").forEach(btn=>btn.addEventListener("click",()=>{
+  document.querySelectorAll(".filter").forEach(b=>b.classList.remove("active"));btn.classList.add("active");
+  state.filter=btn.dataset.filter;renderMarkers();
+  if(state.filter==="azores")map.flyTo({center:[-27.9,38.3],zoom:5.2,duration:1400});
+  if(state.filter==="madeira")map.flyTo({center:[-16.9,32.75],zoom:7.2,duration:1400});
+  if(state.filter==="mainland")map.flyTo({center:[-8.0,39.5],zoom:5.1,duration:1400});
+}));
+init().catch(err=>{console.error(err);$("#cameraCount").textContent="!";});
