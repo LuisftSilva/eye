@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "municipality_id": "pt-aveiro-albergaria-a-velha",
+  "municipality": "Albergaria-a-Velha",
+  "region": "Aveiro",
+  "status": "complete",
+  "checked_at": "2026-07-27T18:25:00Z",
+  "checks_total": 16,
+  "checks_completed": 16,
+  "confirmed_new_webcams": [],
+  "candidates": [
+    {
+      "candidate_id": "albergaria-tempolimpo",
+      "name": "Webcam ao Vivo de Albergaria-a-Velha - TempoLimpo",
+      "classification": "rejected_unverified",
+      "source_url": "https://www.tempolimpo.com/europe/portugal/aveiro/albergaria-a-velha/webcam",
+      "reason": "Página genérica sem identificação do fornecedor, endpoint público verificável ou prova independente de que a imagem corresponde a uma câmara situada no concelho."
+    }
+  ],
+  "checks": [
+    {"check_id":"official_municipality","status":"done","queries":["site:cm-albergaria.pt webcam","site:cm-albergaria.pt câmara ao vivo","site:cm-albergaria.pt stream"],"urls_checked":["https://www.cm-albergaria.pt/","https://sig.cm-albergaria.pt/"],"result":"none"},
+    {"check_id":"official_tourism","status":"done","queries":["Albergaria-a-Velha turismo webcam"],"urls_checked":["https://www.visitportugal.com/pt-pt/regioes-e-localidades/albergaria-velha"],"result":"none"},
+    {"check_id":"google_search","status":"done","queries":["Albergaria-a-Velha webcam live cam Portugal"],"result":"one_unverified_candidate"},
+    {"check_id":"bing_search","status":"done","queries":["Albergaria-a-Velha live camera"],"result":"none"},
+    {"check_id":"duckduckgo_search","status":"done","queries":["Albergaria-a-Velha webcam"],"result":"none"},
+    {"check_id":"specialist_aggregators","status":"done","queries":["PortugalWebcams Albergaria-a-Velha","Windfinder Albergaria-a-Velha","Webcam Galore Albergaria-a-Velha"],"urls_checked":["https://www.windfinder.com/webcams/albergaria_a_velha_aveiro_portugal"],"result":"nearby-only"},
+    {"check_id":"coast_surf_beaches","status":"done","queries":["Albergaria-a-Velha surf beach webcam"],"result":"not_applicable_none"},
+    {"check_id":"ports_marinas_nautical","status":"done","queries":["Albergaria-a-Velha marina porto webcam"],"result":"none"},
+    {"check_id":"airports_aerodromes","status":"done","queries":["Albergaria-a-Velha aeródromo webcam"],"result":"none"},
+    {"check_id":"traffic_transport_rail","status":"done","queries":["Albergaria-a-Velha trânsito estrada camera live"],"result":"none_public"},
+    {"check_id":"nature_mountains_parks_dams_viewpoints","status":"done","queries":["Albergaria-a-Velha natureza miradouro webcam","Angeja webcam","Branca webcam","Ribeira de Fráguas webcam"],"result":"none"},
+    {"check_id":"hotels_resorts_lodging","status":"done","queries":["Albergaria-a-Velha hotel webcam"],"result":"none"},
+    {"check_id":"golf_sports_ski","status":"done","queries":["Albergaria-a-Velha desporto golf webcam"],"result":"none"},
+    {"check_id":"weather_universities_observatories","status":"done","queries":["Albergaria-a-Velha IPMA estação meteorológica câmara"],"result":"none"},
+    {"check_id":"youtube_social_live","status":"done","queries":["site:youtube.com Albergaria-a-Velha live webcam"],"result":"none_permanent"},
+    {"check_id":"technical_discovery","status":"done","queries":["Albergaria-a-Velha Axis Mobotix Hikvision HLS MJPEG snapshot.jpg"],"result":"none"}
+  ],
+  "cross_discoveries": [],
+  "summary": {"confirmed":0,"rejected":1,"offline":0,"duplicates":0}
+}
