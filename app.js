@@ -1,4 +1,4 @@
-const state={cameras:[],markers:[],filter:"all",query:"",selected:null,rotate:true,userInteracting:false};
+const state={cameras:[],filter:"all",query:"",selected:null,rotate:true,userInteracting:false};
 const $=s=>document.querySelector(s);
 
 const satelliteStyle={
@@ -29,7 +29,11 @@ const map=new maplibregl.Map({
   attributionControl:true,antialias:true,maxZoom:18
 });
 map.addControl(new maplibregl.NavigationControl({visualizePitch:true}),"bottom-right");
-map.on("style.load",()=>map.setProjection({type:"globe"}));
+map.on("style.load",()=>{
+  map.setProjection({type:"globe"});
+  ensureCameraLayer();
+  renderMarkers();
+});
 map.on("mousedown",()=>state.userInteracting=true);
 map.on("mouseup",()=>state.userInteracting=false);
 map.on("touchstart",()=>state.userInteracting=true);
@@ -45,17 +49,60 @@ function visible(c){
   const matches=!q||[c.name,c.city,c.region,c.provider,c.category,...(c.tags||[])].join(" ").toLowerCase().includes(q);
   return matches&&(state.filter==="all"||area(c)===state.filter);
 }
+function cameraGeoJSON(){
+  return {
+    type:"FeatureCollection",
+    features:state.cameras.filter(visible).map(c=>({
+      type:"Feature",
+      geometry:{type:"Point",coordinates:[c.lng,c.lat]},
+      properties:{id:c.id,area:area(c),direct:c.verification==="direct"?1:0}
+    }))
+  };
+}
+function ensureCameraLayer(){
+  if(!map.isStyleLoaded())return;
+  if(!map.getSource("webcams")){
+    map.addSource("webcams",{type:"geojson",data:{type:"FeatureCollection",features:[]}});
+  }
+  if(!map.getLayer("webcam-glow")){
+    map.addLayer({
+      id:"webcam-glow",type:"circle",source:"webcams",
+      paint:{
+        "circle-radius":["interpolate",["linear"],["zoom"],1,7,7,10,13,13],
+        "circle-color":["case",["==",["get","direct"],1],"#39f0b0","#4de1ff"],
+        "circle-opacity":0.2,
+        "circle-blur":0.65
+      }
+    });
+  }
+  if(!map.getLayer("webcam-pins")){
+    map.addLayer({
+      id:"webcam-pins",type:"circle",source:"webcams",
+      paint:{
+        "circle-radius":["interpolate",["linear"],["zoom"],1,4,6,6,13,8],
+        "circle-color":["case",["any",["==",["get","direct"],1],["!=",["get","area"],"mainland"]],"#39f0b0","#4de1ff"],
+        "circle-stroke-color":"#ffffff",
+        "circle-stroke-width":2,
+        "circle-opacity":0.98
+      }
+    });
+    map.on("mouseenter","webcam-pins",()=>map.getCanvas().style.cursor="pointer");
+    map.on("mouseleave","webcam-pins",()=>map.getCanvas().style.cursor="");
+    map.on("click","webcam-pins",e=>{
+      const feature=e.features&&e.features[0];
+      if(!feature)return;
+      const camera=state.cameras.find(c=>String(c.id)===String(feature.properties.id));
+      if(camera)openCamera(camera);
+    });
+  }
+}
 function renderMarkers(){
-  state.markers.forEach(x=>x.remove());state.markers=[];
-  state.cameras.filter(visible).forEach(c=>{
-    const el=document.createElement("button");
-    el.className="cam-marker "+(area(c)==="mainland"?"":"island")+(c.verification==="direct"?" direct":"");
-    el.title=c.name;el.setAttribute("aria-label",c.name);
-    el.addEventListener("click",e=>{e.stopPropagation();openCamera(c);});
-    const marker=new maplibregl.Marker({element:el,anchor:"center"}).setLngLat([c.lng,c.lat]).addTo(map);
-    state.markers.push(marker);
-  });
-  $("#visibleCount").textContent=state.cameras.filter(visible).length;
+  const filtered=state.cameras.filter(visible);
+  $("#visibleCount").textContent=filtered.length;
+  if(!map.isStyleLoaded())return;
+  ensureCameraLayer();
+  const source=map.getSource("webcams");
+  if(source)source.setData(cameraGeoJSON());
 }
 function loadViewer(c){
   const frame=$("#cameraFrame"),fallback=$("#videoFallback");
