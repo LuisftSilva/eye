@@ -1,0 +1,45 @@
+{
+  "municipality_id": "pt-aveiro-vagos",
+  "order": 18,
+  "municipality": "Vagos",
+  "district": "Aveiro",
+  "status": "complete",
+  "reviewed_at": "2026-07-27",
+  "checks_completed": 16,
+  "checks_total": 16,
+  "confirmed_webcams": [
+    {
+      "name": "Vagueira | Labrego",
+      "provider": "MEO Beachcam",
+      "source_url": "https://back-office.beachcam.pt/livecams/vagueira/",
+      "database_action": "added",
+      "evidence": "Active provider page with current surf and weather data; the catalogue identifies it as a Vagos multi-camera feed."
+    },
+    {
+      "name": "Vagueira | Casablanca",
+      "provider": "MEO Beachcam",
+      "source_url": "https://back-office.beachcam.pt/livecams/",
+      "database_action": "added",
+      "evidence": "Listed independently under VAGOS in the provider's current livecam catalogue."
+    },
+    {
+      "name": "Vagueira | Areão",
+      "provider": "MEO Beachcam",
+      "source_url": "https://back-office.beachcam.pt/livecams/vagueira-areao/",
+      "database_action": "added",
+      "evidence": "Active provider page with current surf and weather data and a distinct named camera location."
+    }
+  ],
+  "rejected_candidates": [],
+  "searches": [
+    "Vagos webcam live",
+    "Praia da Vagueira webcam",
+    "Praia do Labrego webcam",
+    "Praia do Areão webcam",
+    "Vagueira Casablanca webcam",
+    "Vagos YouTube live",
+    "site:back-office.beachcam.pt/livecams Vagos Vagueira Labrego Areão Casablanca",
+    "Vagos HLS m3u8 MJPEG snapshot"
+  ],
+  "conclusion": "Three distinct current MEO Beachcam feeds were verified for Vagos and added as separate records after repository deduplication checks found no matching Vagueira records."
+}
