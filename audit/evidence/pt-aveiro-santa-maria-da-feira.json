@@ -1,0 +1,46 @@
+{
+  "municipality_id": "pt-aveiro-santa-maria-da-feira",
+  "order": 15,
+  "municipality": "Santa Maria da Feira",
+  "district": "Aveiro",
+  "status": "complete",
+  "reviewed_at": "2026-07-27",
+  "checks_completed": 16,
+  "checks_total": 16,
+  "confirmed_webcams": [],
+  "rejected_candidates": [
+    {
+      "name": "TempoLimpo / Tempo10 Santa Maria da Feira (Lourosa)",
+      "urls": [
+        "https://www.tempolimpo.com/europe/portugal/aveiro/santa-maria-da-feira/webcam",
+        "https://www.tempo10.com/europe/portugal/aveiro/santa-maria-da-feira/webcam"
+      ],
+      "reason": "Near-identical generic pages with no named camera operator, physical installation evidence, source endpoint or independent corroboration. They are treated as one unverified candidate, not two webcams."
+    }
+  ],
+  "searches": [
+    "Santa Maria da Feira webcam live Portugal",
+    "Lourosa webcam live",
+    "Castelo de Santa Maria da Feira webcam",
+    "Europarque webcam live",
+    "Caldas de São Jorge webcam",
+    "Fiães Argoncilhe Canedo webcam",
+    "Santa Maria da Feira municipal tourism webcam",
+    "Santa Maria da Feira YouTube live",
+    "Santa Maria da Feira HLS m3u8 MJPEG snapshot",
+    "site:windy.com Santa Maria da Feira webcam",
+    "site:webcamgalore.com Santa Maria da Feira"
+  ],
+  "sources_checked": [
+    "municipal and tourism sources",
+    "PortugalWebcams",
+    "Windy",
+    "Windfinder",
+    "Webcam Galore",
+    "YouTube live",
+    "generic weather-webcam pages",
+    "stream endpoint patterns"
+  ],
+  "cross_discoveries": [],
+  "conclusion": "No verifiable public permanent webcam was confirmed in Santa Maria da Feira. The only prominent search results were duplicate generic weather pages and were rejected."
+}
