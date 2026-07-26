@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "municipality_id": "pt-aveiro-arouca",
+  "municipality": "Arouca",
+  "region": "Aveiro",
+  "status": "complete",
+  "checked_at": "2026-07-27T18:50:00Z",
+  "checks_total": 16,
+  "checks_completed": 16,
+  "confirmed_new_webcams": [],
+  "candidates": [],
+  "checks": [
+    {"check_id":"official_municipality","status":"done","queries":["site:cm-arouca.pt webcam","site:cm-arouca.pt câmara ao vivo","site:cm-arouca.pt stream"],"urls_checked":["https://www.cm-arouca.pt/","https://www.cm-arouca.pt/visitar/passadicos-do-paiva/"],"result":"none"},
+    {"check_id":"official_tourism","status":"done","queries":["Arouca turismo webcam","Visit Arouca webcam"],"urls_checked":["https://visitarouca.pt/","https://aroucageopark.pt/"],"result":"none"},
+    {"check_id":"google_search","status":"done","queries":["Arouca Portugal webcam live cam","Passadiços do Paiva webcam live"],"result":"none_verified"},
+    {"check_id":"bing_search","status":"done","queries":["Arouca live camera Portugal","516 Arouca webcam"],"result":"none"},
+    {"check_id":"duckduckgo_search","status":"done","queries":["Arouca webcam","Paiva Walkways webcam"],"result":"none"},
+    {"check_id":"specialist_aggregators","status":"done","queries":["PortugalWebcams Arouca","Windfinder Arouca","Webcam Galore Arouca","Windy webcams Arouca"],"result":"none_local"},
+    {"check_id":"coast_surf_beaches","status":"done","queries":["Arouca surf webcam","praia fluvial Areinho webcam","Espiunca webcam"],"result":"none"},
+    {"check_id":"ports_marinas_nautical","status":"done","queries":["Rio Paiva rafting webcam","Arouca náutica webcam"],"result":"none"},
+    {"check_id":"airports_aerodromes","status":"done","queries":["Arouca aeródromo webcam"],"result":"none"},
+    {"check_id":"traffic_transport_rail","status":"done","queries":["Arouca trânsito estrada camera live"],"result":"none_public"},
+    {"check_id":"nature_mountains_parks_dams_viewpoints","status":"done","queries":["Arouca Geopark webcam","Serra da Freita webcam","Pedras Parideiras webcam","Detrelo da Malhada webcam","Passadiços do Paiva webcam","516 Arouca live camera"],"urls_checked":["https://passadicosdopaiva.pt/pt","https://aroucageopark.pt/experiencias/passadicos-do-paiva/"],"result":"photos_360_and_video_only_no_live_feed"},
+    {"check_id":"hotels_resorts_lodging","status":"done","queries":["Arouca hotel resort webcam"],"result":"none"},
+    {"check_id":"golf_sports_ski","status":"done","queries":["Arouca desporto webcam","Arouca rafting live camera"],"result":"none_permanent"},
+    {"check_id":"weather_universities_observatories","status":"done","queries":["Arouca IPMA estação meteorológica câmara","Serra da Freita meteorologia webcam"],"result":"none"},
+    {"check_id":"youtube_social_live","status":"done","queries":["site:youtube.com Arouca Portugal live webcam","Passadiços do Paiva live stream"],"result":"recorded_video_only_none_permanent"},
+    {"check_id":"technical_discovery","status":"done","queries":["Arouca Axis Mobotix Hikvision HLS MJPEG snapshot.jpg","Passadiços do Paiva iframe live"],"result":"none"}
+  ],
+  "cross_discoveries": [],
+  "notes": "As plataformas oficiais dos Passadiços do Paiva e Arouca Geopark apresentam fotografias, vídeos e experiências 360 graus, mas não foi identificado um feed público em direto.",
+  "summary": {"confirmed":0,"rejected":0,"offline":0,"duplicates":0}
+}
