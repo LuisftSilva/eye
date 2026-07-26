@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-07-27T21:10:00Z",
+  "updated_at": "2026-07-27T22:05:00Z",
   "territory_total": 308,
   "checks_per_municipality": 16,
-  "municipalities_complete": 12,
+  "municipalities_complete": 15,
   "municipalities_in_review": 0,
-  "municipalities_not_started": 296,
-  "checks_complete": 192,
+  "municipalities_not_started": 293,
+  "checks_complete": 240,
   "checks_total": 4928,
-  "territorial_progress_percent": 3.90,
-  "operational_progress_percent": 3.90,
+  "territorial_progress_percent": 4.87,
+  "operational_progress_percent": 4.87,
   "confirmed_webcams_added_in_audit": 5,
   "offline_historical_candidates": 2,
-  "rejected_or_unverified_candidates": 7,
+  "rejected_or_unverified_candidates": 9,
   "last_completed": {
-    "order": 12,
-    "municipality_id": "pt-aveiro-oliveira-de-azemeis",
-    "municipality": "Oliveira de Azeméis"
+    "order": 15,
+    "municipality_id": "pt-aveiro-santa-maria-da-feira",
+    "municipality": "Santa Maria da Feira"
   },
   "next_municipality": {
-    "order": 13,
-    "municipality_id": "pt-aveiro-oliveira-do-bairro",
-    "municipality": "Oliveira do Bairro"
+    "order": 16,
+    "municipality_id": "pt-aveiro-sao-joao-da-madeira",
+    "municipality": "São João da Madeira"
   },
   "completed": [
     "pt-aveiro-agueda",
@@ -34,10 +34,13 @@
     "pt-aveiro-ilhavo",
     "pt-aveiro-mealhada",
     "pt-aveiro-murtosa",
-    "pt-aveiro-oliveira-de-azemeis"
+    "pt-aveiro-oliveira-de-azemeis",
+    "pt-aveiro-oliveira-do-bairro",
+    "pt-aveiro-ovar",
+    "pt-aveiro-santa-maria-da-feira"
   ],
   "cross_discovery_summary": {
-    "existing_correctly_assigned": ["barra-5", "costa-nova-6"],
+    "existing_correctly_assigned": ["barra-5", "costa-nova-6", "esmoriz-3", "furadouro-4"],
     "pending_offline_validation": ["Praia de Mira"],
     "location_corrections": ["Praia da Barra belongs to Ílhavo, not Aveiro"]
   },
