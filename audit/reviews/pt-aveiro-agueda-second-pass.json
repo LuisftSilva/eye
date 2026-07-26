@@ -1,0 +1,36 @@
+{
+  "municipality_id": "pt-aveiro-agueda",
+  "review_type": "second_pass",
+  "reviewed_at": "2026-07-27T18:05:00Z",
+  "reviewer": "OpenAI verification pass",
+  "queries": [
+    "\"meteofermentelos.com\" webcam",
+    "\"MeteoFermentelos\" camera",
+    "\"MeteoFermentelos\" webcam",
+    "\"Fermentelos\" \"webcam\""
+  ],
+  "sources_checked": [
+    "https://observar.ipma.pt/estacoes-meteorologicas/estacao-meteorologica-de-fermentelos/",
+    "https://www.meteopt.com/forum/topico/hacker.7335/post-397317",
+    "https://meteofermentelos.webnode.pt/",
+    "http://portuguese.wunderground.com/webcams/stormiday/1/show.html"
+  ],
+  "findings": [
+    "O registo IPMA confirma historicamente a existência de uma câmara na estação MeteoFermentelos.",
+    "Uma publicação de 2013 do proprietário confirma que o feed funcionava através de WebcamXP.",
+    "Foi localizada uma antiga referência Wunderground para o utilizador stormiday.",
+    "Não foi encontrado em 2026 qualquer stream, snapshot ou página de webcam funcional.",
+    "O domínio principal não respondeu durante ambas as passagens."
+  ],
+  "decision": {
+    "classification": "offline_historical",
+    "publish_to_map": false,
+    "reason": "Existência histórica comprovada, mas ausência de endpoint público funcional e verificável em 2026."
+  },
+  "duplicate_review": {
+    "possible_matches_in_project": 0,
+    "resolved": true
+  },
+  "municipality_result": "complete",
+  "confirmed_public_webcams": 0
+}
