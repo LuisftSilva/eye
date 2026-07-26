@@ -1,37 +1,42 @@
 {
-  "updated_at": "2026-07-27T19:45:00Z",
+  "updated_at": "2026-07-27T20:15:00Z",
   "territory_total": 308,
   "checks_per_municipality": 16,
-  "municipalities_complete": 5,
+  "municipalities_complete": 9,
   "municipalities_in_review": 0,
-  "municipalities_not_started": 303,
-  "checks_complete": 80,
+  "municipalities_not_started": 299,
+  "checks_complete": 144,
   "checks_total": 4928,
-  "territorial_progress_percent": 1.62,
-  "operational_progress_percent": 1.62,
-  "confirmed_webcams_added_in_audit": 1,
+  "territorial_progress_percent": 2.92,
+  "operational_progress_percent": 2.92,
+  "confirmed_webcams_added_in_audit": 4,
   "offline_historical_candidates": 2,
-  "rejected_or_unverified_candidates": 5,
+  "rejected_or_unverified_candidates": 6,
   "last_completed": {
-    "order": 5,
-    "municipality_id": "pt-aveiro-aveiro",
-    "municipality": "Aveiro"
+    "order": 9,
+    "municipality_id": "pt-aveiro-ilhavo",
+    "municipality": "Ílhavo"
   },
   "next_municipality": {
-    "order": 6,
-    "municipality_id": "pt-aveiro-castelo-de-paiva",
-    "municipality": "Castelo de Paiva"
+    "order": 10,
+    "municipality_id": "pt-aveiro-mealhada",
+    "municipality": "Mealhada"
   },
   "completed": [
     "pt-aveiro-agueda",
     "pt-aveiro-albergaria-a-velha",
     "pt-aveiro-anadia",
     "pt-aveiro-arouca",
-    "pt-aveiro-aveiro"
+    "pt-aveiro-aveiro",
+    "pt-aveiro-castelo-de-paiva",
+    "pt-aveiro-espinho",
+    "pt-aveiro-estarreja",
+    "pt-aveiro-ilhavo"
   ],
   "cross_discovery_summary": {
     "existing_correctly_assigned": ["barra-5", "costa-nova-6"],
-    "pending_offline_validation": ["Praia de Mira"]
+    "pending_offline_validation": ["Praia de Mira"],
+    "location_corrections": ["Praia da Barra belongs to Ílhavo, not Aveiro"]
   },
   "rule": "Any cross-discovered webcam must be recorded under its correct municipality immediately after deduplication, even when found during another municipality's audit."
 }
