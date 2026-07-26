@@ -1,0 +1,36 @@
+{
+  "municipality_id": "pt-aveiro-sever-do-vouga",
+  "order": 17,
+  "municipality": "Sever do Vouga",
+  "district": "Aveiro",
+  "status": "complete",
+  "reviewed_at": "2026-07-27",
+  "checks_completed": 16,
+  "checks_total": 16,
+  "confirmed_webcams": [],
+  "rejected_candidates": [],
+  "negative_evidence": [
+    {
+      "source": "WeatherBug",
+      "source_url": "https://www.weatherbug.com/weather-camera/sever-do-vouga-aveiro-po",
+      "finding": "The provider explicitly reports no weather cameras in this region."
+    },
+    {
+      "source": "Municipality and tourism portals",
+      "source_url": "https://www.cm-sever.pt/",
+      "finding": "Official municipal and tourism pages expose tourism, event and geographic content but no public live webcam or stream endpoint."
+    }
+  ],
+  "searches": [
+    "Sever do Vouga webcam live",
+    "Sever do Vouga turismo webcam",
+    "Cascata da Cabreia webcam",
+    "Rio Vouga webcam Sever",
+    "Sever do Vouga YouTube live",
+    "Sever do Vouga hotel webcam",
+    "Sever do Vouga HLS m3u8 MJPEG snapshot",
+    "site:cm-sever.pt webcam",
+    "site:visitseverdovouga.pt webcam"
+  ],
+  "conclusion": "No permanent public webcam could be verified across official municipal, tourism, weather-camera, video and aggregator sources."
+}
