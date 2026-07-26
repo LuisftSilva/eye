@@ -1,0 +1,40 @@
+{
+  "municipality_id": "pt-aveiro-oliveira-do-bairro",
+  "order": 13,
+  "municipality": "Oliveira do Bairro",
+  "district": "Aveiro",
+  "status": "complete",
+  "reviewed_at": "2026-07-27",
+  "checks_completed": 16,
+  "checks_total": 16,
+  "confirmed_webcams": [],
+  "rejected_candidates": [],
+  "searches": [
+    "Oliveira do Bairro webcam live Portugal",
+    "Oliveira do Bairro câmara municipal webcam",
+    "Oliveira do Bairro turismo webcam",
+    "Palhaça Oiã Bustos Troviscal webcam",
+    "Oliveira do Bairro YouTube live",
+    "Oliveira do Bairro HLS m3u8 MJPEG snapshot",
+    "site:windy.com Oliveira do Bairro webcam",
+    "site:webcamgalore.com Oliveira do Bairro",
+    "site:portugalwebcams.pt Oliveira do Bairro"
+  ],
+  "sources_checked": [
+    "municipal and parish websites",
+    "VisitPortugal",
+    "PortugalWebcams",
+    "Windy",
+    "Windfinder",
+    "Webcam Galore",
+    "YouTube live",
+    "generic weather-webcam pages",
+    "stream endpoint patterns"
+  ],
+  "evidence_notes": [
+    "The official tourism and parish pages expose conventional content and galleries but no public permanent webcam feed.",
+    "No operator page, live player, current snapshot endpoint or independently corroborated camera was located for the municipality.",
+    "No cross-discovered webcam belonging to another municipality was identified during this pass."
+  ],
+  "conclusion": "No verifiable public permanent webcam was found in Oliveira do Bairro after completing the mandatory search protocol."
+}
