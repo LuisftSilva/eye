@@ -42,10 +42,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements-audit.txt
 
-      - name: Run sequential audit
+      - name: Run sequential audit with diagnostics
+        id: audit
+        continue-on-error: true
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           AUDIT_DELAY: "1.4"
+          PYTHONUNBUFFERED: "1"
         shell: bash
         run: |
           LIMIT="${{ github.event.inputs.limit }}"
@@ -55,12 +58,37 @@ jobs:
           if [[ -n "$MUNICIPALITY" ]]; then
             ARGS+=(--municipality-id "$MUNICIPALITY")
           fi
-          python scripts/webcam_audit.py "${ARGS[@]}"
+          python scripts/run_audit_diagnostics.py "${ARGS[@]}"
 
       - name: Validate evidence and update progress
+        if: steps.audit.outcome == 'success'
         run: python scripts/update_audit_progress.py
 
-      - name: Commit generated evidence
+      - name: Add audit report to GitHub Actions summary
+        if: always()
+        shell: bash
+        run: |
+          if [[ -f audit/logs/latest-summary.md ]]; then
+            cat audit/logs/latest-summary.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "# ❌ Audit diagnostics missing" >> "$GITHUB_STEP_SUMMARY"
+            echo "The diagnostic runner did not create its summary file." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload complete diagnostic artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: webcam-audit-diagnostics-${{ github.run_number }}
+          if-no-files-found: warn
+          retention-days: 30
+          path: |
+            audit/logs/
+            audit/last-automated-run.json
+            audit/evidence/
+
+      - name: Commit generated evidence and diagnostics
+        if: always()
         shell: bash
         run: |
           if git diff --quiet && [[ -z "$(git status --porcelain)" ]]; then
@@ -69,7 +97,13 @@ jobs:
           fi
           git config user.name "webcam-audit-bot"
           git config user.email "webcam-audit-bot@users.noreply.github.com"
-          git add audit/evidence audit/auto-cameras.json audit/last-automated-run.json audit/progress-current.json audit/municipalities.csv
+          git add audit/evidence audit/auto-cameras.json audit/last-automated-run.json audit/progress-current.json audit/municipalities.csv audit/logs
           git commit -m "audit: process next Portugal municipalities"
           git pull --rebase origin main
           git push origin HEAD:main
+
+      - name: Fail workflow when crawler failed
+        if: steps.audit.outcome != 'success'
+        run: |
+          echo "The crawler failed. Review the job summary and the uploaded diagnostics artifact."
+          exit 1
