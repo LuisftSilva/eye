@@ -3,70 +3,75 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#07131f">
-  <meta name="description" content="Webcams públicas em tempo real de Belém, Pará. Plataforma escalável para cidades e regiões do mundo.">
-  <title>Belém Live Cams</title>
-  <link rel="preconnect" href="https://unpkg.com">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <meta name="theme-color" content="#030711">
+  <meta name="description" content="Mapa tecnológico de webcams públicas em Portugal.">
+  <title>Eye — Portugal Live</title>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.18.0/dist/maplibre-gl.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="#"><span class="brand-dot"></span>Belém Live Cams</a>
-    <button id="themeToggle" class="icon-button" aria-label="Alternar tema">◐</button>
-  </header>
+  <div id="app">
+    <div id="map" aria-label="Globo 3D com webcams"></div>
 
-  <main>
-    <section class="hero">
-      <div>
-        <p class="eyebrow">PARÁ · BRASIL</p>
-        <h1>Belém, ao vivo.</h1>
-        <p class="hero-copy">Um catálogo limpo das webcams públicas realmente disponíveis — sem transformar cinco cópias do mesmo stream em cinco câmaras diferentes.</p>
+    <header class="hud top">
+      <div class="brand">
+        <span class="pulse"></span>
+        <div><strong>EYE</strong><small>PORTUGAL LIVE NETWORK</small></div>
       </div>
-      <div class="stats">
-        <article><strong id="uniqueCount">—</strong><span>feeds únicos</span></article>
-        <article><strong id="onlineCount">—</strong><span>fontes online</span></article>
-        <article><strong id="sourceCount">—</strong><span>fontes verificadas</span></article>
+      <div class="top-actions">
+        <button id="resetView">Portugal</button>
+        <button id="worldView">Planeta</button>
+      </div>
+    </header>
+
+    <aside class="hud controls">
+      <div class="metrics">
+        <div><strong id="cameraCount">0</strong><span>câmaras</span></div>
+        <div><strong id="regionCount">0</strong><span>regiões</span></div>
+        <div><strong id="providerCount">0</strong><span>redes</span></div>
+      </div>
+      <label class="search"><span>⌕</span><input id="searchInput" placeholder="Pesquisar local, região ou rede"></label>
+      <div class="filters">
+        <button class="filter active" data-filter="all">Todas</button>
+        <button class="filter" data-filter="mainland">Continente</button>
+        <button class="filter" data-filter="azores">Açores</button>
+        <button class="filter" data-filter="madeira">Madeira</button>
+      </div>
+      <label class="switch-row"><input id="autoRotate" type="checkbox" checked><span>Rotação do planeta</span></label>
+      <p class="coverage">Cobertura inicial nacional. Os pontos de redes agregadoras são confirmados ao nível da rede; o vídeo abre no fornecedor quando a incorporação é bloqueada.</p>
+    </aside>
+
+    <section id="viewer" class="viewer" aria-live="polite">
+      <button id="closeViewer" class="close" aria-label="Fechar">×</button>
+      <div class="viewer-head">
+        <span id="viewerStatus" class="status">LIVE SOURCE</span>
+        <h1 id="viewerTitle"></h1>
+        <p id="viewerLocation"></p>
+      </div>
+      <div id="videoStage" class="video-stage">
+        <div class="scanner"></div>
+        <div class="video-placeholder">
+          <span class="cam-icon">◉</span>
+          <strong>Transmissão no fornecedor</strong>
+          <p>Este operador não permite reprodução direta segura fora da sua página.</p>
+        </div>
+      </div>
+      <div class="viewer-body">
+        <p id="viewerDescription"></p>
+        <div class="facts">
+          <span id="viewerProvider"></span>
+          <span id="viewerVerification"></span>
+        </div>
+        <a id="openSource" class="primary" target="_blank" rel="noopener">Abrir transmissão ↗</a>
       </div>
     </section>
 
-    <section class="toolbar" aria-label="Filtros">
-      <label class="search">
-        <span>⌕</span>
-        <input id="searchInput" type="search" placeholder="Pesquisar cidade, local ou fornecedor">
-      </label>
-      <select id="statusFilter" aria-label="Estado">
-        <option value="all">Todos os estados</option>
-        <option value="online">Online</option>
-        <option value="unknown">Por confirmar</option>
-        <option value="offline">Offline</option>
-      </select>
-      <label class="check"><input id="uniqueOnly" type="checkbox" checked> Só feeds únicos</label>
-      <div class="view-switch">
-        <button class="active" data-view="grid">Grelha</button>
-        <button data-view="map">Mapa</button>
-      </div>
-    </section>
-
-    <section id="notice" class="notice">
-      <strong>Nota:</strong> as câmaras de segurança e trânsito operacionais de Belém não são automaticamente streams públicos. Este catálogo só inclui fontes abertas ao público.
-    </section>
-
-    <section id="gridView" class="camera-grid" aria-live="polite"></section>
-    <section id="mapView" class="map-wrap hidden"><div id="map"></div></section>
-  </main>
-
-  <dialog id="cameraDialog">
-    <button id="closeDialog" class="dialog-close" aria-label="Fechar">×</button>
-    <div id="dialogContent"></div>
-  </dialog>
-
-  <footer>
-    <p>Projeto estático e open-source. Dados em <code>data/cameras.json</code>.</p>
-    <p>Última revisão das fontes: 26 julho 2026.</p>
-  </footer>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <div class="hud legend">
+      <span><i class="dot verified"></i> Rede confirmada</span>
+      <span><i class="dot direct"></i> Feed direto</span>
+    </div>
+  </div>
+  <script src="https://unpkg.com/maplibre-gl@5.18.0/dist/maplibre-gl.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
