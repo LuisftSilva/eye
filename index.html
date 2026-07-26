@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07131f">
+  <meta name="description" content="Webcams públicas em tempo real de Belém, Pará. Plataforma escalável para cidades e regiões do mundo.">
+  <title>Belém Live Cams</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-dot"></span>Belém Live Cams</a>
+    <button id="themeToggle" class="icon-button" aria-label="Alternar tema">◐</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">PARÁ · BRASIL</p>
+        <h1>Belém, ao vivo.</h1>
+        <p class="hero-copy">Um catálogo limpo das webcams públicas realmente disponíveis — sem transformar cinco cópias do mesmo stream em cinco câmaras diferentes.</p>
+      </div>
+      <div class="stats">
+        <article><strong id="uniqueCount">—</strong><span>feeds únicos</span></article>
+        <article><strong id="onlineCount">—</strong><span>fontes online</span></article>
+        <article><strong id="sourceCount">—</strong><span>fontes verificadas</span></article>
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="Filtros">
+      <label class="search">
+        <span>⌕</span>
+        <input id="searchInput" type="search" placeholder="Pesquisar cidade, local ou fornecedor">
+      </label>
+      <select id="statusFilter" aria-label="Estado">
+        <option value="all">Todos os estados</option>
+        <option value="online">Online</option>
+        <option value="unknown">Por confirmar</option>
+        <option value="offline">Offline</option>
+      </select>
+      <label class="check"><input id="uniqueOnly" type="checkbox" checked> Só feeds únicos</label>
+      <div class="view-switch">
+        <button class="active" data-view="grid">Grelha</button>
+        <button data-view="map">Mapa</button>
+      </div>
+    </section>
+
+    <section id="notice" class="notice">
+      <strong>Nota:</strong> as câmaras de segurança e trânsito operacionais de Belém não são automaticamente streams públicos. Este catálogo só inclui fontes abertas ao público.
+    </section>
+
+    <section id="gridView" class="camera-grid" aria-live="polite"></section>
+    <section id="mapView" class="map-wrap hidden"><div id="map"></div></section>
+  </main>
+
+  <dialog id="cameraDialog">
+    <button id="closeDialog" class="dialog-close" aria-label="Fechar">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <footer>
+    <p>Projeto estático e open-source. Dados em <code>data/cameras.json</code>.</p>
+    <p>Última revisão das fontes: 26 julho 2026.</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
