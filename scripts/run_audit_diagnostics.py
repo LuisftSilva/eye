@@ -11,6 +11,7 @@ from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 import requests
 
@@ -28,16 +29,14 @@ def utc_now() -> str:
 
 
 def safe_url(url: str) -> str:
-    """Avoid accidentally persisting obvious secrets in query strings."""
+    """Avoid persisting obvious secrets from URL query strings."""
     try:
-        from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
-
-        parts = urlsplit(url)
+        parts = urlsplit(str(url))
         hidden = {"key", "api_key", "apikey", "token", "access_token", "auth", "signature"}
         query = [(k, "[REDACTED]" if k.lower() in hidden else v) for k, v in parse_qsl(parts.query, keep_blank_values=True)]
         return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
     except Exception:
-        return url
+        return str(url)
 
 
 class Diagnostics:
@@ -65,14 +64,15 @@ class Diagnostics:
         })
 
     def build_summary(self, exit_code: int) -> dict[str, Any]:
-        elapsed = round(time.monotonic() - self.started_monotonic, 2)
         statuses = Counter(str(event.get("status", "error")) for event in self.http_events)
         errors = Counter(event.get("error_type", "unknown") for event in self.http_events if event.get("error_type"))
         domains = Counter(event.get("domain", "") for event in self.http_events if event.get("domain"))
         blocked = sum(count for status, count in statuses.items() if status in {"401", "403", "429"})
         server_errors = sum(count for status, count in statuses.items() if status.isdigit() and int(status) >= 500)
         empty_searches = sum(1 for event in self.search_events if event["results"] == 0)
-        by_municipality: dict[str, dict[str, Any]] = defaultdict(lambda: {"checks": 0, "seconds": 0.0, "urls": 0, "candidates": 0, "failed_checks": 0})
+        by_municipality: dict[str, dict[str, Any]] = defaultdict(
+            lambda: {"checks": 0, "seconds": 0.0, "urls": 0, "candidates": 0, "failed_checks": 0}
+        )
         for event in self.check_events:
             row = by_municipality[event["municipality"]]
             row["checks"] += 1
@@ -84,7 +84,7 @@ class Diagnostics:
         return {
             "started_at": self.started_at,
             "finished_at": utc_now(),
-            "duration_seconds": elapsed,
+            "duration_seconds": round(time.monotonic() - self.started_monotonic, 2),
             "exit_code": exit_code,
             "result": "success" if exit_code == 0 else "failure",
             "configuration": {
@@ -140,7 +140,10 @@ def markdown(summary: dict[str, Any]) -> str:
         "|---|---:|---:|---:|---:|---:|",
     ]
     for municipality, data in checks["municipalities"].items():
-        lines.append(f"| {municipality} | {data['checks']} | {data['urls']} | {data['candidates']} | {data['failed_checks']} | {data['seconds']}s |")
+        lines.append(
+            f"| {municipality} | {data['checks']} | {data['urls']} | {data['candidates']} | "
+            f"{data['failed_checks']} | {data['seconds']}s |"
+        )
     lines.extend(["", "## HTTP status counts", "", "| Status | Count |", "|---|---:|"])
     for status, count in sorted(http["status_counts"].items()):
         lines.append(f"| {status} | {count} |")
@@ -148,72 +151,108 @@ def markdown(summary: dict[str, Any]) -> str:
         lines.extend(["", "## Exceptions", ""])
         for item in summary["exceptions"][:20]:
             lines.append(f"- **{item['scope']} — {item['type']}:** {item['message']}")
-    lines.extend(["", "Full request-level diagnostics are available in the workflow artifact and `audit/logs/latest-http.jsonl`.", ""])
+    lines.extend([
+        "",
+        "Full request-level diagnostics are available in the workflow artifact and `audit/logs/latest-http.jsonl`.",
+        "",
+    ])
     return "\n".join(lines)
 
 
 def install_instrumentation(diag: Diagnostics) -> None:
-    def diagnostic_get(self: webcam_audit.AuditCrawler, url: str):
+    original_request = requests.Session.request
+    original_search = webcam_audit.AuditCrawler.search
+    original_run_check = webcam_audit.AuditCrawler.run_check
+
+    def diagnostic_request(session: requests.Session, method: str, url: str, *args: Any, **kwargs: Any):
         started = time.monotonic()
-        event: dict[str, Any] = {"at": utc_now(), "method": "GET", "url": safe_url(url)}
+        event: dict[str, Any] = {
+            "at": utc_now(),
+            "method": method.upper(),
+            "url": safe_url(url),
+            "domain": urlsplit(str(url)).netloc.lower(),
+        }
         try:
-            response = self.session.get(url, timeout=webcam_audit.TIMEOUT, allow_redirects=True)
+            response = original_request(session, method, url, *args, **kwargs)
             event.update({
                 "status": response.status_code,
                 "seconds": round(time.monotonic() - started, 3),
                 "final_url": safe_url(response.url),
-                "domain": requests.utils.urlparse(response.url).netloc.lower(),
+                "domain": urlsplit(response.url).netloc.lower(),
                 "content_type": response.headers.get("content-type", ""),
                 "bytes": len(response.content),
             })
             diag.append_http(event)
             if response.status_code >= 400:
                 print(f"HTTP {response.status_code} {event['seconds']}s {event['final_url']}", flush=True)
-                return None
             return response
         except requests.RequestException as exc:
             event.update({
                 "status": "error",
                 "seconds": round(time.monotonic() - started, 3),
-                "domain": requests.utils.urlparse(url).netloc.lower(),
                 "error_type": type(exc).__name__,
                 "error": str(exc),
             })
             diag.append_http(event)
             print(f"HTTP ERROR {event['error_type']} {event['seconds']}s {event['url']}: {exc}", flush=True)
-            return None
-
-    original_search = webcam_audit.AuditCrawler.search
-    original_run_check = webcam_audit.AuditCrawler.run_check
+            raise
 
     def diagnostic_search(self: webcam_audit.AuditCrawler, query: str, engine: str):
         started = time.monotonic()
         try:
             results = original_search(self, query, engine)
-            event = {"at": utc_now(), "engine": engine, "query": query, "results": len(results), "seconds": round(time.monotonic() - started, 3)}
+            event = {
+                "at": utc_now(),
+                "engine": engine,
+                "query": query,
+                "results": len(results),
+                "seconds": round(time.monotonic() - started, 3),
+            }
             diag.search_events.append(event)
             print(f"SEARCH {engine} results={len(results)} duration={event['seconds']}s query={query}", flush=True)
             return results
         except Exception as exc:
             diag.exception("search", exc, engine=engine, query=query)
-            diag.search_events.append({"at": utc_now(), "engine": engine, "query": query, "results": 0, "seconds": round(time.monotonic() - started, 3), "error": repr(exc)})
+            diag.search_events.append({
+                "at": utc_now(), "engine": engine, "query": query, "results": 0,
+                "seconds": round(time.monotonic() - started, 3), "error": repr(exc),
+            })
             raise
 
-    def diagnostic_run_check(self: webcam_audit.AuditCrawler, check_id: str, templates: list[str], municipality: str, region: str):
+    def diagnostic_run_check(
+        self: webcam_audit.AuditCrawler,
+        check_id: str,
+        templates: list[str],
+        municipality: str,
+        region: str,
+    ):
         started = time.monotonic()
         print(f"::group::{municipality} / {check_id}", flush=True)
         try:
             evidence, candidates = original_run_check(self, check_id, templates, municipality, region)
             event = {
-                "at": utc_now(), "municipality": municipality, "region": region, "check_id": check_id,
-                "status": "done", "seconds": round(time.monotonic() - started, 3),
-                "urls": len(evidence.get("urls_checked", [])), "candidates": len(candidates),
+                "at": utc_now(),
+                "municipality": municipality,
+                "region": region,
+                "check_id": check_id,
+                "status": "done",
+                "seconds": round(time.monotonic() - started, 3),
+                "urls": len(evidence.get("urls_checked", [])),
+                "candidates": len(candidates),
             }
             diag.check_events.append(event)
-            print(f"CHECK DONE urls={event['urls']} candidates={event['candidates']} duration={event['seconds']}s", flush=True)
+            print(
+                f"CHECK DONE urls={event['urls']} candidates={event['candidates']} duration={event['seconds']}s",
+                flush=True,
+            )
             return evidence, candidates
         except Exception as exc:
-            event = {"at": utc_now(), "municipality": municipality, "region": region, "check_id": check_id, "status": "error", "seconds": round(time.monotonic() - started, 3), "urls": 0, "candidates": 0, "error": repr(exc)}
+            event = {
+                "at": utc_now(), "municipality": municipality, "region": region,
+                "check_id": check_id, "status": "error",
+                "seconds": round(time.monotonic() - started, 3),
+                "urls": 0, "candidates": 0, "error": repr(exc),
+            }
             diag.check_events.append(event)
             diag.exception("check", exc, municipality=municipality, check_id=check_id)
             print(f"CHECK ERROR duration={event['seconds']}s error={exc!r}", flush=True)
@@ -221,7 +260,7 @@ def install_instrumentation(diag: Diagnostics) -> None:
         finally:
             print("::endgroup::", flush=True)
 
-    webcam_audit.AuditCrawler.get = diagnostic_get
+    requests.Session.request = diagnostic_request
     webcam_audit.AuditCrawler.search = diagnostic_search
     webcam_audit.AuditCrawler.run_check = diagnostic_run_check
 
