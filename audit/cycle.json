@@ -2,6 +2,7 @@
   "cycle_id": "2026-07-27-full-restart-001",
   "started_at": "2026-07-27T19:00:00Z",
   "start_order": 1,
+  "initialized": false,
   "preserve_historical_evidence": true,
   "preserve_discovered_cameras": true,
   "description": "Full national re-audit from Águeda using the optimized lossless crawler."
