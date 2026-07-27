@@ -61,6 +61,10 @@ jobs:
                   path.write_text(json.dumps(default, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
               json.loads(path.read_text(encoding='utf-8'))
 
+          cycle = json.loads(Path('audit/cycle.json').read_text(encoding='utf-8'))
+          assert cycle.get('cycle_id')
+          assert cycle.get('started_at')
+
           import sys
           sys.path.insert(0, 'scripts')
           import webcam_audit
@@ -68,7 +72,7 @@ jobs:
           assert hasattr(webcam_audit.AuditCrawler, 'search')
           assert hasattr(webcam_audit.AuditCrawler, 'inspect')
           assert hasattr(webcam_audit.AuditCrawler, 'run_check')
-          print('Crawler preflight passed.')
+          print(f"Crawler preflight passed for cycle {cycle['cycle_id']}.")
           PY
 
       - name: Run cached lossless audit
@@ -115,8 +119,8 @@ jobs:
 
           echo "Audit completed. External HTTP refusals and timeouts are retained only in the diagnostic artifact."
 
-      - name: Validate evidence and update progress
-        run: python scripts/update_audit_progress.py
+      - name: Validate current-cycle evidence and update progress
+        run: python scripts/update_audit_progress_v2.py
 
       - name: Validate generated state
         shell: bash
@@ -127,6 +131,7 @@ jobs:
           from pathlib import Path
 
           paths = [
+              Path('audit/cycle.json'),
               Path('audit/unassigned-portugal-cameras.json'),
               Path('audit/cache/search-cache.json'),
               Path('audit/auto-cameras.json'),
@@ -158,9 +163,13 @@ jobs:
               except Exception:
                   return default
 
+          cycle = load('audit/cycle.json', {})
+          progress = load('audit/progress-current.json', {})
           pending = load('audit/unassigned-portugal-cameras.json', [])
           cache = load('audit/cache/search-cache.json', {'entries': {}})
           print('\n## Persistent state')
+          print(f'- Audit cycle: **{cycle.get("cycle_id", "unknown")}**')
+          print(f'- Next municipality: **{progress.get("next_municipality", {}).get("municipality", "unknown")}**')
           print(f'- Portugal candidates awaiting exact location: **{len(pending)}**')
           print(f'- Cached searches available for reuse: **{len(cache.get("entries", {}))}**')
           PY
@@ -185,7 +194,7 @@ jobs:
           git config user.name "webcam-audit-bot"
           git config user.email "webcam-audit-bot@users.noreply.github.com"
 
-          git add audit/evidence audit/auto-cameras.json audit/unassigned-portugal-cameras.json audit/cache/search-cache.json audit/last-automated-run.json audit/progress-current.json audit/municipalities.csv
+          git add audit/cycle.json audit/evidence audit/auto-cameras.json audit/unassigned-portugal-cameras.json audit/cache/search-cache.json audit/last-automated-run.json audit/progress-current.json audit/municipalities.csv
           git restore --worktree audit/logs 2>/dev/null || true
 
           if git diff --cached --quiet; then
