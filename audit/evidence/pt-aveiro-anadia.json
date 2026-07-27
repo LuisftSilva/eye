@@ -1,174 +1,328 @@
 {
-  "schema_version": 1,
   "municipality_id": "pt-aveiro-anadia",
+  "order": 3,
   "municipality": "Anadia",
-  "region": "Aveiro",
+  "district": "Aveiro",
   "status": "complete",
-  "checked_at": "2026-07-27T18:35:00Z",
-  "checks_total": 16,
-  "checks_completed": 16,
-  "confirmed_new_webcams": [],
-  "candidates": [
-    {
-      "candidate_id": "anadia-tempolimpo",
-      "name": "Webcam ao Vivo de Anadia - TempoLimpo",
-      "classification": "rejected_unverified",
-      "source_url": "https://www.tempolimpo.com/europe/portugal/aveiro/anadia/webcam",
-      "reason": "Página genérica sem fornecedor, endpoint técnico ou confirmação independente de uma câmara física em Anadia."
-    }
-  ],
+  "started_at": "2026-07-27T22:36:29Z",
+  "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
       "check_id": "official_municipality",
       "status": "done",
       "queries": [
-        "site:cm-anadia.pt webcam",
-        "site:cm-anadia.pt câmara ao vivo",
-        "site:cm-anadia.pt stream"
+        "site:cm-anadia.pt webcam Anadia",
+        "site:municipio-anadia.pt webcam Anadia",
+        "site:anadia.pt webcam Anadia",
+        "site:cm-anadia.pt (direto OR livestream OR câmara)"
       ],
-      "urls_checked": [
-        "https://www.cm-anadia.pt/"
-      ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T22:37:59Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "official_tourism",
       "status": "done",
       "queries": [
-        "Anadia Curia turismo webcam",
-        "Bairrada webcam"
+        "turismo Anadia webcam",
+        "visit Anadia live cam",
+        "site:visitportugal.com Anadia webcam",
+        "site:turismodeportugal.pt Anadia webcam",
+        "site:visitportoandnorth.travel Anadia webcam",
+        "site:visitcentrodeportugal.com.pt Anadia webcam",
+        "site:visitlisboa.com Anadia webcam",
+        "site:visitalentejo.pt Anadia webcam",
+        "site:visitalgarve.pt Anadia webcam"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T22:41:21Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "google_search",
+      "check_id": "google",
       "status": "done",
       "queries": [
-        "Anadia Portugal webcam live cam",
-        "Curia webcam live"
+        "\"webcam\" \"Anadia\" Portugal",
+        "\"web cam\" \"Anadia\" Portugal",
+        "\"live cam\" \"Anadia\" Portugal",
+        "\"câmara ao vivo\" \"Anadia\""
       ],
-      "result": "one_unverified_candidate"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T22:42:50Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "bing_search",
+      "check_id": "bing",
       "status": "done",
       "queries": [
-        "Anadia live camera Portugal"
+        "\"camera ao vivo\" \"Anadia\"",
+        "\"transmissão em direto\" \"Anadia\"",
+        "\"live stream\" \"Anadia\" Portugal",
+        "site:.pt webcam \"Anadia\""
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T22:44:20Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "duckduckgo_search",
+      "check_id": "duckduckgo",
       "status": "done",
       "queries": [
-        "Anadia webcam",
-        "Curia webcam"
+        "site:youtube.com/live \"Anadia\" Portugal",
+        "site:facebook.com \"Anadia\" webcam live",
+        "site:instagram.com \"Anadia\" webcam",
+        "\"Axis\" \"Anadia\" camera",
+        "\"Mobotix\" \"Anadia\" camera",
+        "\"Hikvision\" \"Anadia\" webcam"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T22:46:34Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "specialist_aggregators",
+      "check_id": "aggregators",
       "status": "done",
       "queries": [
-        "PortugalWebcams Anadia",
-        "Windfinder Anadia",
-        "Webcam Galore Anadia"
+        "site:portugalwebcams.pt \"Anadia\"",
+        "site:webcamgalore.com \"Anadia\" Portugal",
+        "site:windy.com/webcams \"Anadia\" Portugal",
+        "site:windfinder.com/webcams \"Anadia\"",
+        "site:webcams.travel \"Anadia\" Portugal",
+        "site:webcamtaxi.com \"Anadia\" Portugal",
+        "site:worldcam.eu \"Anadia\" Portugal",
+        "site:geowebcams.com \"Anadia\" Portugal",
+        "site:skylinewebcams.com \"Anadia\" Portugal",
+        "site:earthcam.com \"Anadia\" Portugal",
+        "site:ipcamlive.com \"Anadia\" Portugal",
+        "site:meteoblue.com \"Anadia\" webcam",
+        "site:spotazores.com \"Anadia\"",
+        "site:netmadeira.com \"Anadia\" webcam",
+        "site:madeiracams.com \"Anadia\"",
+        "site:beachcam.meo.pt \"Anadia\"",
+        "site:back-office.beachcam.pt/livecams \"Anadia\"",
+        "Portugal webcam Portugal \"Anadia\""
       ],
-      "result": "none_local"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T22:53:17Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "coast_surf_beaches",
+      "check_id": "beaches_surf",
       "status": "done",
       "queries": [
-        "Anadia praia surf webcam"
+        "Anadia praia webcam",
+        "Anadia surf webcam",
+        "site:beachcam.meo.pt Anadia",
+        "site:surfline.com Anadia Portugal",
+        "site:magicseaweed.com Anadia webcam",
+        "site:windfinder.com Anadia webcam",
+        "site:windy.com/webcams Anadia praia"
       ],
-      "result": "not_applicable_none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T22:55:54Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "ports_marinas_nautical",
       "status": "done",
       "queries": [
-        "Anadia marina porto webcam"
+        "Anadia porto webcam",
+        "Anadia marina webcam",
+        "Anadia clube náutico live cam",
+        "Anadia barra porto câmara ao vivo",
+        "site:portosdeportugal.pt Anadia webcam",
+        "site:amn.pt Anadia webcam",
+        "site:docapesca.pt Anadia webcam",
+        "site:apdl.pt Anadia webcam",
+        "site:portoaveiro.pt Anadia webcam",
+        "site:portodelisboa.pt Anadia webcam",
+        "site:apsinesalgarve.pt Anadia webcam"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T23:00:00Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "airports_aerodromes",
       "status": "done",
       "queries": [
-        "Anadia aeródromo webcam"
+        "Anadia aeroporto webcam",
+        "Anadia aeródromo webcam",
+        "Anadia aeroclube webcam",
+        "Anadia pista aviação câmara ao vivo",
+        "site:ana.pt Anadia webcam",
+        "site:nav.pt Anadia webcam",
+        "site:airportwebcams.net Portugal Anadia",
+        "site:metar-taf.com Anadia webcam",
+        "site:youtube.com Anadia airport live",
+        "site:facebook.com aeroclube Anadia direto"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T23:03:43Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "traffic_transport_rail",
       "status": "done",
       "queries": [
-        "Anadia trânsito estrada estação ferroviária webcam"
+        "Anadia trânsito estrada webcam",
+        "Anadia câmara tráfego ao vivo",
+        "Anadia estação ferroviária webcam",
+        "Anadia terminal rodoviário webcam",
+        "site:infraestruturasdeportugal.pt Anadia camera",
+        "site:estradas.pt Anadia webcam",
+        "site:cp.pt Anadia webcam",
+        "site:metrolisboa.pt Anadia live",
+        "site:metrodoporto.pt Anadia live"
       ],
-      "result": "none_public"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T23:07:05Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "nature_mountains_parks_dams_viewpoints",
+      "check_id": "nature_mountains_parks_dams",
       "status": "done",
       "queries": [
-        "Anadia natureza miradouro webcam",
-        "Vale da Mó webcam",
-        "Lagoa de Torres webcam"
+        "Anadia serra webcam",
+        "Anadia parque natural webcam",
+        "Anadia barragem webcam",
+        "Anadia miradouro webcam",
+        "Anadia rio webcam",
+        "site:icnf.pt Anadia webcam",
+        "site:snirh.apambiente.pt Anadia câmara",
+        "site:edp.com Anadia barragem webcam",
+        "site:meteoblue.com Anadia webcam"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T23:10:26Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "hotels_resorts_lodging",
       "status": "done",
       "queries": [
-        "Curia Palace webcam",
-        "Anadia hotel resort webcam"
+        "Anadia hotel webcam live",
+        "Anadia resort webcam",
+        "Anadia alojamento webcam",
+        "Anadia parque de campismo webcam",
+        "site:booking.com Anadia webcam",
+        "site:youtube.com hotel Anadia live"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T23:12:35Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "golf_sports_ski",
+      "check_id": "sports_golf_ski",
       "status": "done",
       "queries": [
-        "Anadia golf desporto webcam",
-        "Velódromo de Sangalhos live camera"
+        "Anadia golf webcam",
+        "Anadia estádio webcam live",
+        "Anadia ski webcam",
+        "Anadia estância neve webcam",
+        "Anadia circuito automóvel webcam",
+        "Anadia clube desportivo live cam"
       ],
-      "result": "none_permanent"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T23:14:50Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "weather_universities_observatories",
       "status": "done",
       "queries": [
-        "Anadia IPMA estação meteorológica câmara"
+        "Anadia meteorologia webcam",
+        "Anadia estação meteorológica câmara",
+        "Anadia observatório webcam",
+        "site:ipma.pt Anadia camera",
+        "site:observar.ipma.pt Anadia Câmara",
+        "site:meteoblue.com Anadia webcam",
+        "site:weathercloud.net Anadia webcam",
+        "site:wunderground.com Anadia webcam",
+        "site:windy.com/webcams Anadia",
+        "Anadia universidade webcam",
+        "Anadia observatório astronómico live",
+        "Anadia centro ciência webcam",
+        "site:ulisboa.pt Anadia webcam",
+        "site:up.pt Anadia webcam",
+        "site:uc.pt Anadia webcam",
+        "site:uminho.pt Anadia webcam"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T23:20:26Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "youtube_social_live",
+      "check_id": "social_video",
       "status": "done",
       "queries": [
-        "site:youtube.com Anadia Portugal live webcam",
-        "Curia live stream"
+        "site:youtube.com/watch \"Anadia\" live webcam",
+        "site:youtube.com/live \"Anadia\" Portugal",
+        "site:facebook.com \"Anadia\" webcam live",
+        "site:twitch.tv \"Anadia\" Portugal live",
+        "site:instagram.com \"Anadia\" direto webcam"
       ],
-      "result": "events_only_none_permanent"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T23:22:18Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "technical_discovery",
       "status": "done",
       "queries": [
-        "Anadia Axis Mobotix Hikvision HLS MJPEG snapshot.jpg"
+        "\"Anadia\" m3u8 webcam",
+        "\"Anadia\" mpd live camera",
+        "\"Anadia\" mjpeg camera",
+        "\"Anadia\" snapshot.jpg",
+        "\"Anadia\" videostream.cgi",
+        "\"Anadia\" axis-cgi/mjpg",
+        "\"Anadia\" iframe live",
+        "inurl:viewerframe?mode=motion \"Anadia\"",
+        "inurl:axis-cgi \"Anadia\"",
+        "inurl:Streaming/channels \"Anadia\""
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T23:26:02Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     }
   ],
-  "cross_discoveries": [],
-  "summary": {
-    "confirmed": 0,
-    "rejected": 1,
-    "offline": 0,
-    "duplicates": 0
-  },
-  "reviewed_at": "2026-07-27T09:13:05Z",
-  "reviewer_second_pass": "github-actions:evidence-validator"
+  "candidates": [],
+  "checks_completed": 16,
+  "checks_total": 16,
+  "finished_at": "2026-07-27T23:26:02Z",
+  "reviewed_at": "2026-07-27T23:26:02Z",
+  "reviewer_second_pass": "github-actions:evidence-validator",
+  "audit_cycle_id": "2026-07-27-full-restart-001"
 }

@@ -1,20 +1,20 @@
 {
-  "started_at": "2026-07-27T08:50:50Z",
+  "started_at": "2026-07-27T21:10:27Z",
   "municipalities": [
     {
-      "id": "pt-aveiro-vale-de-cambra",
+      "id": "pt-aveiro-agueda",
       "candidates": 0
     },
     {
-      "id": "pt-beja-aljustrel",
+      "id": "pt-aveiro-albergaria-a-velha",
       "candidates": 0
     },
     {
-      "id": "pt-beja-almodovar",
+      "id": "pt-aveiro-anadia",
       "candidates": 0
     }
   ],
   "errors": [],
-  "finished_at": "2026-07-27T09:13:05Z",
+  "finished_at": "2026-07-27T23:26:02Z",
   "auto_published": 0
 }

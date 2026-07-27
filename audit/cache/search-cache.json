@@ -1,4 +1,3198 @@
 {
   "schema_version": 1,
-  "entries": {}
+  "updated_at": "2026-07-27T23:26:02Z",
+  "entries": {
+    "e2c2f4da64a9b1049e5662ecf2e060bfed7682c450d06825e03c4008a451e6d5": {
+      "engine": "google",
+      "query": "site:cm-agueda.pt webcam Águeda",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:29Z",
+      "expires_at": "2026-07-29T21:10:27Z",
+      "results": []
+    },
+    "4f7751ff19910489e954c1bc8c3f04cdacb39adc61d560cca67afad3a24c1fa5": {
+      "engine": "google",
+      "query": "site:municipio-agueda.pt webcam Águeda",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:32Z",
+      "expires_at": "2026-07-29T21:10:29Z",
+      "results": []
+    },
+    "fba91a75b9de88efe79382d03dae9217b3108ec1c68d695d759fa6c474b165c7": {
+      "engine": "google",
+      "query": "site:agueda.pt webcam Águeda",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:34Z",
+      "expires_at": "2026-07-29T21:10:32Z",
+      "results": []
+    },
+    "35a82052155fd87e32a4a923fe007451528456317d0a03f16dd3cc03d9d394d9": {
+      "engine": "google",
+      "query": "site:cm-agueda.pt (direto OR livestream OR câmara)",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:36Z",
+      "expires_at": "2026-07-29T21:10:34Z",
+      "results": []
+    },
+    "44540535676a607622dff3a26c33b742940fcf23070f5ee1f6b29aa5b61f0291": {
+      "engine": "google",
+      "query": "turismo Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:38Z",
+      "expires_at": "2026-07-29T21:10:36Z",
+      "results": []
+    },
+    "c7eedc3ae38ff88ada23da71552fc8cd3d9be2206b0abc225d58ae5c0fefd920": {
+      "engine": "google",
+      "query": "visit Águeda live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:41Z",
+      "expires_at": "2026-07-29T21:10:38Z",
+      "results": []
+    },
+    "70475c0fb69436fb87244cd082bdbf603af9c2992577095429c7f2a606006c06": {
+      "engine": "google",
+      "query": "site:visitportugal.com Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:43Z",
+      "expires_at": "2026-07-29T21:10:41Z",
+      "results": []
+    },
+    "4b49f47edf5d592805ca75b94dc72ca292eb02160d19cdc228c8710befb3e791": {
+      "engine": "google",
+      "query": "site:turismodeportugal.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:45Z",
+      "expires_at": "2026-07-29T21:10:43Z",
+      "results": []
+    },
+    "fe34ee4dab0d82b488de5928cda22ec8f4df8cdf508aade5b81270f226427e05": {
+      "engine": "google",
+      "query": "site:visitportoandnorth.travel Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:47Z",
+      "expires_at": "2026-07-29T21:10:45Z",
+      "results": []
+    },
+    "f1e09c25517af99ae72c4e98134e4b14b985a0a71af30b9f7ebd266a859a5ca8": {
+      "engine": "google",
+      "query": "site:visitcentrodeportugal.com.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:49Z",
+      "expires_at": "2026-07-29T21:10:47Z",
+      "results": []
+    },
+    "fdaec511550fa3f528f97316654250a8848edda08ff565d25ee2e86f9ee9990b": {
+      "engine": "google",
+      "query": "site:visitlisboa.com Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:52Z",
+      "expires_at": "2026-07-29T21:10:49Z",
+      "results": []
+    },
+    "b555096b399e609973175e7c80addc021f316433510f3530e8e91b426d35e8b5": {
+      "engine": "google",
+      "query": "site:visitalentejo.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:54Z",
+      "expires_at": "2026-07-29T21:10:52Z",
+      "results": []
+    },
+    "7c6cb1f033c5ca64d53d9120383a7517eebe508ab3f001ccdcf3582bcd66479d": {
+      "engine": "google",
+      "query": "site:visitalgarve.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:56Z",
+      "expires_at": "2026-07-29T21:10:54Z",
+      "results": []
+    },
+    "8deb434db4bc38624560e21f384e491cd795d9635b78d0267473f5a47cd58900": {
+      "engine": "google",
+      "query": "\"webcam\" \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:10:58Z",
+      "expires_at": "2026-07-29T21:10:56Z",
+      "results": []
+    },
+    "90bb8b34f388011b07ec6c6e26922d5c95b684fa92ce4a8400aaed713be5f397": {
+      "engine": "google",
+      "query": "\"web cam\" \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:01Z",
+      "expires_at": "2026-07-29T21:10:58Z",
+      "results": []
+    },
+    "fab887612d47ccd44c8ca2579b102b5240ecaee2d2c4fb7565575756cf04329f": {
+      "engine": "google",
+      "query": "\"live cam\" \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:03Z",
+      "expires_at": "2026-07-29T21:11:01Z",
+      "results": []
+    },
+    "def593c99cbf0972f1f9de043e735362d8d54e3c390e0fb55ecd9e22f1d95516": {
+      "engine": "google",
+      "query": "\"câmara ao vivo\" \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:05Z",
+      "expires_at": "2026-07-29T21:11:03Z",
+      "results": []
+    },
+    "7d294a7fad2a1be717b3e4318bb79837ba16e67bd42f00c132ac3124b84816d9": {
+      "engine": "bing",
+      "query": "\"camera ao vivo\" \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:07Z",
+      "expires_at": "2026-07-29T21:11:05Z",
+      "results": []
+    },
+    "1261e54212d6796b38294541d18b524a81cc638f96a4a0dc2b1d22fb3c6f4689": {
+      "engine": "bing",
+      "query": "\"transmissão em direto\" \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:10Z",
+      "expires_at": "2026-07-29T21:11:07Z",
+      "results": []
+    },
+    "58dce5b89a043ef78a556258c688a69766ab022cc8e9929b08d8e898ead09f1a": {
+      "engine": "bing",
+      "query": "\"live stream\" \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:12Z",
+      "expires_at": "2026-07-29T21:11:10Z",
+      "results": []
+    },
+    "836c782dae786816d465bf8cd8ba94c42148ac53387e4c32fecec035bd201b8e": {
+      "engine": "bing",
+      "query": "site:.pt webcam \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:14Z",
+      "expires_at": "2026-07-29T21:11:12Z",
+      "results": []
+    },
+    "6beb4fd7e8787fe588769c4cdcea85017a78ceb8f0268692b97cda3d98a9a087": {
+      "engine": "duckduckgo",
+      "query": "site:youtube.com/live \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:16Z",
+      "expires_at": "2026-07-29T21:11:14Z",
+      "results": []
+    },
+    "360e87a74dd1dcd0af0b70e7f11d37590c7f312fc2872cab489158bbbb1de949": {
+      "engine": "duckduckgo",
+      "query": "site:facebook.com \"Águeda\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:18Z",
+      "expires_at": "2026-07-29T21:11:16Z",
+      "results": []
+    },
+    "406b315e488ad6080ba75256f93d01ee18214cfbfebf8dd889ff3a169de43fc4": {
+      "engine": "duckduckgo",
+      "query": "site:instagram.com \"Águeda\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:21Z",
+      "expires_at": "2026-07-29T21:11:18Z",
+      "results": []
+    },
+    "93a421cea42f6a62302df90478b6c6f1dcb9c108e9532ed709a1d7533c43ff41": {
+      "engine": "duckduckgo",
+      "query": "\"Axis\" \"Águeda\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:23Z",
+      "expires_at": "2026-07-29T21:11:21Z",
+      "results": []
+    },
+    "0212d848412c9d66f5a8420d4e73d56e2f94207b1918dbd1c09fd871f4591be4": {
+      "engine": "duckduckgo",
+      "query": "\"Mobotix\" \"Águeda\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:26Z",
+      "expires_at": "2026-07-29T21:11:23Z",
+      "results": []
+    },
+    "984ca72a8b0ffd803277f68568952abd3ecd62a1aafbcde627f5f8600c348540": {
+      "engine": "duckduckgo",
+      "query": "\"Hikvision\" \"Águeda\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:29Z",
+      "expires_at": "2026-07-29T21:11:26Z",
+      "results": []
+    },
+    "2675eb73c4d52f307c8c5ed2dd234581825f3bf0be4f49a37f10c592e986c916": {
+      "engine": "google",
+      "query": "site:portugalwebcams.pt \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:32Z",
+      "expires_at": "2026-07-29T21:11:29Z",
+      "results": []
+    },
+    "d4f5ddc0b27c774a00912f01f22494a6bb939bedf920e2770e27f1274edf7515": {
+      "engine": "google",
+      "query": "site:webcamgalore.com \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:35Z",
+      "expires_at": "2026-07-29T21:11:32Z",
+      "results": []
+    },
+    "32af35bd798cdbfee6ab566bf442ab3a1d293a09f4f1be31ba563d1d17cd4ee4": {
+      "engine": "google",
+      "query": "site:windy.com/webcams \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:38Z",
+      "expires_at": "2026-07-29T21:11:35Z",
+      "results": []
+    },
+    "f65ea47c91ea144b8585287a023ccef545d29712ba1ad07a92cda6984b00b2d5": {
+      "engine": "google",
+      "query": "site:windfinder.com/webcams \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:41Z",
+      "expires_at": "2026-07-29T21:11:38Z",
+      "results": []
+    },
+    "88c88acb13c3614434271b8438e5a48ec37cfb99b9d986a661b9fd87bd0819c8": {
+      "engine": "google",
+      "query": "site:webcams.travel \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:45Z",
+      "expires_at": "2026-07-29T21:11:41Z",
+      "results": []
+    },
+    "20891fb91e48c9ee63aebe12f82aa9df4345e330eb00aaedb3532cfcb61ffd8c": {
+      "engine": "google",
+      "query": "site:webcamtaxi.com \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:48Z",
+      "expires_at": "2026-07-29T21:11:45Z",
+      "results": []
+    },
+    "17de89ccafc37458ff63ddfbc9b011ee31b1a8893306fcafe5a1fd4ccf2bb831": {
+      "engine": "google",
+      "query": "site:worldcam.eu \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:51Z",
+      "expires_at": "2026-07-29T21:11:48Z",
+      "results": []
+    },
+    "c07a62b1fafab95da58942df8c891823eca84ae4779d9ccd1859758815fe7ab7": {
+      "engine": "google",
+      "query": "site:geowebcams.com \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:54Z",
+      "expires_at": "2026-07-29T21:11:51Z",
+      "results": []
+    },
+    "739dd7dbb43fbaf818d0c3f08a7d72f48328ed15cafaf95bc277dd36b1167bd2": {
+      "engine": "google",
+      "query": "site:skylinewebcams.com \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:11:57Z",
+      "expires_at": "2026-07-29T21:11:54Z",
+      "results": []
+    },
+    "26830b67d1b88ffc5b10395d57eb5e8f3babba4ff4957033d286a42c7d6e8d4b": {
+      "engine": "google",
+      "query": "site:earthcam.com \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:12:00Z",
+      "expires_at": "2026-07-29T21:11:57Z",
+      "results": []
+    },
+    "5d18e78bad7f3278b2f432418cf9ec1b26a8d3cb493bee89a45326bbb8dca818": {
+      "engine": "google",
+      "query": "site:ipcamlive.com \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:12:03Z",
+      "expires_at": "2026-07-29T21:12:00Z",
+      "results": []
+    },
+    "89baa6c3c7f6d20a27132e2eadf206e8ea02334713211140a885ddedf35b9a67": {
+      "engine": "google",
+      "query": "site:meteoblue.com \"Águeda\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:12:06Z",
+      "expires_at": "2026-07-29T21:12:03Z",
+      "results": []
+    },
+    "e766d3847f57279206108dc481e70645c879ac80ea606ced5e5aad69dfedaec7": {
+      "engine": "google",
+      "query": "site:spotazores.com \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:12:10Z",
+      "expires_at": "2026-07-29T21:12:06Z",
+      "results": []
+    },
+    "ef45e7f10a7659976debd8054ef3e6d7b28195b6bd5c5b5136cd9f58a3e2fe7d": {
+      "engine": "google",
+      "query": "site:netmadeira.com \"Águeda\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:12:27Z",
+      "expires_at": "2026-07-29T21:12:10Z",
+      "results": []
+    },
+    "32dfd41a671dbd93a5e8b65fd9aefb37a6f37137ebc084e08a47b6171b242a02": {
+      "engine": "google",
+      "query": "site:madeiracams.com \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:12:50Z",
+      "expires_at": "2026-07-29T21:12:27Z",
+      "results": []
+    },
+    "24b7f45f8f3adf98a13d06cc4f144315a47483ba857ebac0c6c7542bd76630d9": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:13:12Z",
+      "expires_at": "2026-07-29T21:12:50Z",
+      "results": []
+    },
+    "cc27a3ee531087912e5b4e2689a3c92f90e9aa61af8faf35f90313d02eccb95f": {
+      "engine": "google",
+      "query": "site:back-office.beachcam.pt/livecams \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:13:35Z",
+      "expires_at": "2026-07-29T21:13:12Z",
+      "results": []
+    },
+    "4fe28082ecb5c796bb60247c96e76015d0c99b50e00ef3fe6ec51f97bfdd9dea": {
+      "engine": "google",
+      "query": "Portugal webcam Portugal \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:13:57Z",
+      "expires_at": "2026-07-29T21:13:35Z",
+      "results": []
+    },
+    "cf1687a4e9a7b0cad49c4346f022eb2d32b492c0683d66d4664ded037ab89b54": {
+      "engine": "google",
+      "query": "Águeda praia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:14:20Z",
+      "expires_at": "2026-07-29T21:13:57Z",
+      "results": []
+    },
+    "1db76c768ea3905f4d84a0b7632f92a8e64ecf911a5e3856fd64a13ae6c7c41c": {
+      "engine": "google",
+      "query": "Águeda surf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:14:42Z",
+      "expires_at": "2026-07-29T21:14:20Z",
+      "results": []
+    },
+    "5d0303f7a8a0a4006711be27baf7a7cf3dd1331ce75d24f71fad4663092422ef": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt Águeda",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:15:04Z",
+      "expires_at": "2026-07-29T21:14:42Z",
+      "results": []
+    },
+    "798f87a7e216df359fb43d5b6936424fa3b7a8d5e3c153f0a7df1cb189312875": {
+      "engine": "google",
+      "query": "site:surfline.com Águeda Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:15:27Z",
+      "expires_at": "2026-07-29T21:15:04Z",
+      "results": []
+    },
+    "17eaacf2eafb941e93fe9662367e4c59d3535730caaf5471675fd2ef8e8d3679": {
+      "engine": "google",
+      "query": "site:magicseaweed.com Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:15:49Z",
+      "expires_at": "2026-07-29T21:15:27Z",
+      "results": []
+    },
+    "82fd25506639b0503487cf73a5badf983e9cb33e4bec6019f4b1c3c9101a2c0b": {
+      "engine": "google",
+      "query": "site:windfinder.com Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:16:11Z",
+      "expires_at": "2026-07-29T21:15:49Z",
+      "results": []
+    },
+    "67584f22b6078b5a94690473ff1538923474504ed04adc91fd5e1622fb537b7e": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Águeda praia",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:16:34Z",
+      "expires_at": "2026-07-29T21:16:11Z",
+      "results": []
+    },
+    "7a5dbc20bdee9aa5027719a3242d8b6be88abaaed4a0c85e386828601efcad90": {
+      "engine": "google",
+      "query": "Águeda porto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:16:56Z",
+      "expires_at": "2026-07-29T21:16:34Z",
+      "results": []
+    },
+    "79b29b24ad24c6dffe7b8af48c0881ed4e5287ac068dd423f55bc63325ba62a9": {
+      "engine": "google",
+      "query": "Águeda marina webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:17:18Z",
+      "expires_at": "2026-07-29T21:16:56Z",
+      "results": []
+    },
+    "2b3876de59a260bfc6ece3f882f29338973643ee85342cb90a8c41e24a95f457": {
+      "engine": "google",
+      "query": "Águeda clube náutico live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:17:41Z",
+      "expires_at": "2026-07-29T21:17:18Z",
+      "results": []
+    },
+    "c742f9fc5b85de36076e1c0be8201b88fd5fb644319e25b6a3b7dfc43699bd0a": {
+      "engine": "google",
+      "query": "Águeda barra porto câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:18:03Z",
+      "expires_at": "2026-07-29T21:17:41Z",
+      "results": []
+    },
+    "06602e9c8c7346552f9e76270767d15082432d0a84e2244d3d93bf4f83c0ff4e": {
+      "engine": "google",
+      "query": "site:portosdeportugal.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:18:26Z",
+      "expires_at": "2026-07-29T21:18:03Z",
+      "results": []
+    },
+    "82e6146241d8346e5af48c2133e951b0285d12c1462c05729f5433b0f297356d": {
+      "engine": "google",
+      "query": "site:amn.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:18:48Z",
+      "expires_at": "2026-07-29T21:18:26Z",
+      "results": []
+    },
+    "e1635ebbc2dd3761d678e0089efb1c320156645f36997a02e5b2d4f317047d07": {
+      "engine": "google",
+      "query": "site:docapesca.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:19:10Z",
+      "expires_at": "2026-07-29T21:18:48Z",
+      "results": []
+    },
+    "e485ae9d54ae9b2fa2d9aa9f442a649c40962895fd816de352ed90cac0abb615": {
+      "engine": "google",
+      "query": "site:apdl.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:19:33Z",
+      "expires_at": "2026-07-29T21:19:10Z",
+      "results": []
+    },
+    "f03147d3a1e2cb05a1c8dad3765da46f6200627e63fbfb18a7809049029df967": {
+      "engine": "google",
+      "query": "site:portoaveiro.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:19:55Z",
+      "expires_at": "2026-07-29T21:19:33Z",
+      "results": []
+    },
+    "54088cafe863e7a94089ad923cc814aa679d1f0f9243abad5aeac1bd240492dd": {
+      "engine": "google",
+      "query": "site:portodelisboa.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:20:18Z",
+      "expires_at": "2026-07-29T21:19:55Z",
+      "results": []
+    },
+    "e794ce237a26d0110eda18974cd1286be39d526fb3d39600c116807fbd71c813": {
+      "engine": "google",
+      "query": "site:apsinesalgarve.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:20:40Z",
+      "expires_at": "2026-07-29T21:20:18Z",
+      "results": []
+    },
+    "ff826b616ea63fd0d9c57044da32aa1e28c17efc87afed9ab5dee4fc55040e6f": {
+      "engine": "google",
+      "query": "Águeda aeroporto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:21:02Z",
+      "expires_at": "2026-07-29T21:20:40Z",
+      "results": []
+    },
+    "9ea119d9b4d3820c7dc3acc375ff01c0c6857057a497a14b01e0ef4c76e6fe84": {
+      "engine": "google",
+      "query": "Águeda aeródromo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:21:25Z",
+      "expires_at": "2026-07-29T21:21:02Z",
+      "results": []
+    },
+    "cc1ce3c13f841d58cd3c8efd22b53799075693c8e4cbaf4a512b5fbe62d9a1d7": {
+      "engine": "google",
+      "query": "Águeda aeroclube webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:21:47Z",
+      "expires_at": "2026-07-29T21:21:25Z",
+      "results": []
+    },
+    "551e792e5c48e6fb5a7ca73797a9e22263996e130a061f8ed1d93a6e934babea": {
+      "engine": "google",
+      "query": "Águeda pista aviação câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:22:10Z",
+      "expires_at": "2026-07-29T21:21:47Z",
+      "results": []
+    },
+    "b438eb24cfce2139d9a1ed0705ab37ec638ccf197031da4acd9d503fb1e8db46": {
+      "engine": "google",
+      "query": "site:ana.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:22:32Z",
+      "expires_at": "2026-07-29T21:22:10Z",
+      "results": []
+    },
+    "c050952b9ab36af994ceb78f3f9264a9a6445cddb3c06ed406584fa3048bbe99": {
+      "engine": "google",
+      "query": "site:nav.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:22:54Z",
+      "expires_at": "2026-07-29T21:22:32Z",
+      "results": []
+    },
+    "3d50e613a60259b32f476cef5a43584015b3c4457f51cf659c27db9c60d9eff6": {
+      "engine": "google",
+      "query": "site:airportwebcams.net Portugal Águeda",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:23:17Z",
+      "expires_at": "2026-07-29T21:22:54Z",
+      "results": []
+    },
+    "86f262a15b6ce4bc62c2988b8b258b9781debee88319f56652ce978a39c363ca": {
+      "engine": "google",
+      "query": "site:metar-taf.com Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:23:39Z",
+      "expires_at": "2026-07-29T21:23:17Z",
+      "results": []
+    },
+    "962872b547afb7d615ace75ea362f02abdd73b6b4b4e898cb7fe1b5b7a31b116": {
+      "engine": "google",
+      "query": "site:youtube.com Águeda airport live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:24:01Z",
+      "expires_at": "2026-07-29T21:23:39Z",
+      "results": []
+    },
+    "14636cfa267b3e3968a75831f40a3b56dddc6e79994a9bac7b1d8a136f495756": {
+      "engine": "google",
+      "query": "site:facebook.com aeroclube Águeda direto",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:24:24Z",
+      "expires_at": "2026-07-29T21:24:01Z",
+      "results": []
+    },
+    "3aab7d7c2be9974ef8fc7561d53c207f5ca2b40e364095488f283d8615e0b11d": {
+      "engine": "google",
+      "query": "Águeda trânsito estrada webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:24:46Z",
+      "expires_at": "2026-07-29T21:24:24Z",
+      "results": []
+    },
+    "4bc4b198a2aa5cee9eb3e6be605c7285d8685558325f66ea5d732e288a356e22": {
+      "engine": "google",
+      "query": "Águeda câmara tráfego ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:25:09Z",
+      "expires_at": "2026-07-29T21:24:46Z",
+      "results": []
+    },
+    "f0693267820d73d386a80ba4f048f36a819e0aef2c14f1c0a77036c71571d8d5": {
+      "engine": "google",
+      "query": "Águeda estação ferroviária webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:25:31Z",
+      "expires_at": "2026-07-29T21:25:09Z",
+      "results": []
+    },
+    "1e04df5b645bc2f5a89c02d4b5ce7a08bec63c975f290b6c6141bc1a377f5ca9": {
+      "engine": "google",
+      "query": "Águeda terminal rodoviário webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:25:54Z",
+      "expires_at": "2026-07-29T21:25:31Z",
+      "results": []
+    },
+    "12339e376e77ddecdce6d5eab7b98eae8f3f5f5f3689c4620e87206bb255408c": {
+      "engine": "google",
+      "query": "site:infraestruturasdeportugal.pt Águeda camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:26:16Z",
+      "expires_at": "2026-07-29T21:25:54Z",
+      "results": []
+    },
+    "c26605c58fd97030b332cc3d896f10e95a21f6ae9f01788ac6f8cc10a09ce69c": {
+      "engine": "google",
+      "query": "site:estradas.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:26:39Z",
+      "expires_at": "2026-07-29T21:26:16Z",
+      "results": []
+    },
+    "e29c63d65876af418333a5bc89ab264b5b8db612f61ef3e7e9812ee4fa4bd9c4": {
+      "engine": "google",
+      "query": "site:cp.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:27:01Z",
+      "expires_at": "2026-07-29T21:26:39Z",
+      "results": []
+    },
+    "43f7970e97eba29f58709a5ab7ebd249373451bf7fae5ccbb0210aba269fe2dc": {
+      "engine": "google",
+      "query": "site:metrolisboa.pt Águeda live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:27:23Z",
+      "expires_at": "2026-07-29T21:27:01Z",
+      "results": []
+    },
+    "2042472b3293046d16af8887ec951ea494726d573b0a6944289bb37ac92faebf": {
+      "engine": "google",
+      "query": "site:metrodoporto.pt Águeda live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:27:46Z",
+      "expires_at": "2026-07-29T21:27:23Z",
+      "results": []
+    },
+    "50742216b30b5ddc005a662c2276eece637f81ba72d5d7d37d78e4ac50a24563": {
+      "engine": "google",
+      "query": "Águeda serra webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:28:08Z",
+      "expires_at": "2026-07-29T21:27:46Z",
+      "results": []
+    },
+    "c297329b674ded5e860fe0453c818d1f2817caa5fb3d3dfc7a6214b25628566d": {
+      "engine": "google",
+      "query": "Águeda parque natural webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:28:31Z",
+      "expires_at": "2026-07-29T21:28:08Z",
+      "results": []
+    },
+    "12f377b2df949dad7fd8578717e0d538f6b685109ec5eea2c5d2fc8d8a85ec40": {
+      "engine": "google",
+      "query": "Águeda barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:28:53Z",
+      "expires_at": "2026-07-29T21:28:31Z",
+      "results": []
+    },
+    "f118a609b243966c151838da12d505708ad0e98dcac2a0f96075b1eb0e55d207": {
+      "engine": "google",
+      "query": "Águeda miradouro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:29:15Z",
+      "expires_at": "2026-07-29T21:28:53Z",
+      "results": []
+    },
+    "870def9406b9354cd56a0fc4380518da941d7d2e7a91cd536a2f61eb459fac80": {
+      "engine": "google",
+      "query": "Águeda rio webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:29:38Z",
+      "expires_at": "2026-07-29T21:29:15Z",
+      "results": []
+    },
+    "e1b94151756fe1626a5ab26be7a3ea0d17e7b980ec87c80c5800dcf2fc007fa7": {
+      "engine": "google",
+      "query": "site:icnf.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:30:00Z",
+      "expires_at": "2026-07-29T21:29:38Z",
+      "results": []
+    },
+    "ab64fbc746b52085eff04030a1ee01bfeffb91ce409da46404bbfabdb294b98b": {
+      "engine": "google",
+      "query": "site:snirh.apambiente.pt Águeda câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:30:22Z",
+      "expires_at": "2026-07-29T21:30:00Z",
+      "results": []
+    },
+    "998fed9397cee72092bfdaeaf3a6a143492eadf6ad9eb7ffcb72a70403d667a1": {
+      "engine": "google",
+      "query": "site:edp.com Águeda barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:30:45Z",
+      "expires_at": "2026-07-29T21:30:22Z",
+      "results": []
+    },
+    "76fadb00aec9179de2a379932803cfd721139931fbd0750184ff9a5f36de9e5c": {
+      "engine": "google",
+      "query": "site:meteoblue.com Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:31:07Z",
+      "expires_at": "2026-07-29T21:30:45Z",
+      "results": []
+    },
+    "7bd042b570ca65c4860cea6b03a11511098e4231ac54516916eb99e8b726f118": {
+      "engine": "google",
+      "query": "Águeda hotel webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:31:29Z",
+      "expires_at": "2026-07-29T21:31:07Z",
+      "results": []
+    },
+    "5c7c3b33410caa8c7f4d88bbc3b15b5574b26df040b6e82d857df5e536e4de8b": {
+      "engine": "google",
+      "query": "Águeda resort webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:31:52Z",
+      "expires_at": "2026-07-29T21:31:29Z",
+      "results": []
+    },
+    "24fb9a219c69e448852e9db08fa06f3331b1382c943daf5eefa2f0381045d0a4": {
+      "engine": "google",
+      "query": "Águeda alojamento webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:32:14Z",
+      "expires_at": "2026-07-29T21:31:52Z",
+      "results": []
+    },
+    "69fa7efa59ab05b50ba6f95ca06602f379ca6dcf127166d0c61806621d662f00": {
+      "engine": "google",
+      "query": "Águeda parque de campismo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:32:37Z",
+      "expires_at": "2026-07-29T21:32:14Z",
+      "results": []
+    },
+    "4793a9c9cc4b46d06351a7c59b0c6f482a561764a95c37daea9f77a221b2ce24": {
+      "engine": "google",
+      "query": "site:booking.com Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:32:59Z",
+      "expires_at": "2026-07-29T21:32:37Z",
+      "results": []
+    },
+    "dfd97dcdfdc5f7e421e9f20afef00c2ce05ceae2d91161cff88829c545dd8da4": {
+      "engine": "google",
+      "query": "site:youtube.com hotel Águeda live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:33:22Z",
+      "expires_at": "2026-07-29T21:32:59Z",
+      "results": []
+    },
+    "d14ae90ddc04ff2917cac59c5704132800d16cbcb2089f3652fba171bbfdc7d0": {
+      "engine": "google",
+      "query": "Águeda golf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:33:44Z",
+      "expires_at": "2026-07-29T21:33:22Z",
+      "results": []
+    },
+    "00825ec5478f6f83cec7f68891e5c6113e78f9220d588149e575fceaa51c5a02": {
+      "engine": "google",
+      "query": "Águeda estádio webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:34:06Z",
+      "expires_at": "2026-07-29T21:33:44Z",
+      "results": []
+    },
+    "d4c2f1ed1045e24765e0bcf5cb215bd4065c866ed0a7d62734d749cbb36916d2": {
+      "engine": "google",
+      "query": "Águeda ski webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:34:29Z",
+      "expires_at": "2026-07-29T21:34:06Z",
+      "results": []
+    },
+    "70b6a900e4a2f5c00649c089a8694cbf5735af2cd5da4936cbcd4b97fde8c350": {
+      "engine": "google",
+      "query": "Águeda estância neve webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:34:51Z",
+      "expires_at": "2026-07-29T21:34:29Z",
+      "results": []
+    },
+    "36793c8c11fd7d24f2dc42e88a10b039cfa7c7d221c82c062f2471bd3437eeff": {
+      "engine": "google",
+      "query": "Águeda circuito automóvel webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:35:14Z",
+      "expires_at": "2026-07-29T21:34:51Z",
+      "results": []
+    },
+    "4f3e80f102ced446b791620ccf29751b014bd77865b8caa72aba19f9edf75b85": {
+      "engine": "google",
+      "query": "Águeda clube desportivo live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:35:36Z",
+      "expires_at": "2026-07-29T21:35:14Z",
+      "results": []
+    },
+    "74512b020e7de222e82d64ef4fa8bf17d2fc844dfc88d10e3f0041a0f8ccf6ee": {
+      "engine": "google",
+      "query": "Águeda meteorologia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:35:59Z",
+      "expires_at": "2026-07-29T21:35:36Z",
+      "results": []
+    },
+    "5a8073c8fd26ada7b45924f307144f993ecca0b80ca8770e6dc3d08a9170c09e": {
+      "engine": "google",
+      "query": "Águeda estação meteorológica câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:36:22Z",
+      "expires_at": "2026-07-29T21:35:59Z",
+      "results": []
+    },
+    "08a2c14ae59723fca2a53138002fb1498d13d2141637bfd2ac91434692d1a514": {
+      "engine": "google",
+      "query": "Águeda observatório webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:36:44Z",
+      "expires_at": "2026-07-29T21:36:22Z",
+      "results": []
+    },
+    "9b1a038805a56bc6f7bb673049849d4b15adf304395b4d7e033bef9ee2973180": {
+      "engine": "google",
+      "query": "site:ipma.pt Águeda camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:37:07Z",
+      "expires_at": "2026-07-29T21:36:44Z",
+      "results": []
+    },
+    "9ebd6dfd2896691d8bc7746f5afda68861ca5ac05f1e452088e17238da26b1e6": {
+      "engine": "google",
+      "query": "site:observar.ipma.pt Águeda Câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:37:29Z",
+      "expires_at": "2026-07-29T21:37:07Z",
+      "results": []
+    },
+    "eb72640f747da1eb3dd2e3cbe1ed6ffa52af0969a7f99fc48e3b852ce2c1c49e": {
+      "engine": "google",
+      "query": "site:weathercloud.net Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:37:51Z",
+      "expires_at": "2026-07-29T21:37:29Z",
+      "results": []
+    },
+    "704849f4c1819d0a6a48f8430ca7da06330b0bfb5f62b639b957ceb2c24e3778": {
+      "engine": "google",
+      "query": "site:wunderground.com Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:38:14Z",
+      "expires_at": "2026-07-29T21:37:51Z",
+      "results": []
+    },
+    "5413390e4bd411aa37cb57139b832fc6904ca7fcf6b0d05db6890efd57d009d5": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Águeda",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:38:36Z",
+      "expires_at": "2026-07-29T21:38:14Z",
+      "results": []
+    },
+    "ac7c189c86d42f561d26250114ac881a008edd953db6e70da8e66c1a57a9ffef": {
+      "engine": "google",
+      "query": "Águeda universidade webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:38:58Z",
+      "expires_at": "2026-07-29T21:38:36Z",
+      "results": []
+    },
+    "786adf763a6dc426575c58e23fa3f1434a0ab2aa0182e4caca177e80afe295f3": {
+      "engine": "google",
+      "query": "Águeda observatório astronómico live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:39:21Z",
+      "expires_at": "2026-07-29T21:38:58Z",
+      "results": []
+    },
+    "8227fddb8bbc33cd152d98ec8333e0e83912bd210bf485c7f7798f6448b09741": {
+      "engine": "google",
+      "query": "Águeda centro ciência webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:39:43Z",
+      "expires_at": "2026-07-29T21:39:21Z",
+      "results": []
+    },
+    "9a44e9080c17c0ebca159685be55c462299791ec35f9534e0a93e58f8c473a5a": {
+      "engine": "google",
+      "query": "site:ulisboa.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:40:05Z",
+      "expires_at": "2026-07-29T21:39:43Z",
+      "results": []
+    },
+    "bb8516186974b523043d8c31e086eeb7feb5478b1c5237cf998502748425a9f7": {
+      "engine": "google",
+      "query": "site:up.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:40:27Z",
+      "expires_at": "2026-07-29T21:40:05Z",
+      "results": []
+    },
+    "635b2d9e9ee4873287c2dbf69b6340d015f82684b4b1b29caeaf93c1c524edcb": {
+      "engine": "google",
+      "query": "site:uc.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:40:50Z",
+      "expires_at": "2026-07-29T21:40:27Z",
+      "results": []
+    },
+    "8b51ffae12e7d7b582dd5491d782e36cc8d1e50a36cd2b3ab7a888d1b8f5575e": {
+      "engine": "google",
+      "query": "site:uminho.pt Águeda webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:41:13Z",
+      "expires_at": "2026-07-29T21:40:50Z",
+      "results": []
+    },
+    "b04fb0bb039a87c50bc8714948127cb9b4c504c6bba88fd12dbb4f1af016e06f": {
+      "engine": "google",
+      "query": "site:youtube.com/watch \"Águeda\" live webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:41:35Z",
+      "expires_at": "2026-07-29T21:41:13Z",
+      "results": []
+    },
+    "2f80b027cc3aab0fa01bed8090a820bac489e2e0511a252779fcc19c6115d22a": {
+      "engine": "google",
+      "query": "site:youtube.com/live \"Águeda\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:41:58Z",
+      "expires_at": "2026-07-29T21:41:35Z",
+      "results": []
+    },
+    "b7ad8e73328fad3052e21ccee1a3b77898d0babcaf363dbbbf6fc6378c3783d2": {
+      "engine": "google",
+      "query": "site:facebook.com \"Águeda\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:42:20Z",
+      "expires_at": "2026-07-29T21:41:58Z",
+      "results": []
+    },
+    "84f0cb421d43ba7e16a3049ad574593acdce8369acf62e096cd9fce0120cb293": {
+      "engine": "google",
+      "query": "site:twitch.tv \"Águeda\" Portugal live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:42:42Z",
+      "expires_at": "2026-07-29T21:42:20Z",
+      "results": []
+    },
+    "1eb461bdfa87df2aa7d32806e871fa117cd633183b88d26a1dc79290c17aaab8": {
+      "engine": "google",
+      "query": "site:instagram.com \"Águeda\" direto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:43:05Z",
+      "expires_at": "2026-07-29T21:42:42Z",
+      "results": []
+    },
+    "cdb9be650564540dbdd44096ca802ae59ed2d3b731f4c97736ec32713a61fcd3": {
+      "engine": "google",
+      "query": "\"Águeda\" m3u8 webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:43:27Z",
+      "expires_at": "2026-07-29T21:43:05Z",
+      "results": []
+    },
+    "ad91040b7a47b3d76f2b3e4b7e97b5e8a9273504259f2fae4f42cdb08417dde7": {
+      "engine": "google",
+      "query": "\"Águeda\" mpd live camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:43:50Z",
+      "expires_at": "2026-07-29T21:43:27Z",
+      "results": []
+    },
+    "67e352515899c7588646ccd3282784672f72f0d83643c600df2df2b13fc33f79": {
+      "engine": "google",
+      "query": "\"Águeda\" mjpeg camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:44:12Z",
+      "expires_at": "2026-07-29T21:43:50Z",
+      "results": []
+    },
+    "e493ae77b2d693b24ce8b7dd07747ccb733ed1f03908f3e0dc5d00499324f613": {
+      "engine": "google",
+      "query": "\"Águeda\" snapshot.jpg",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:44:35Z",
+      "expires_at": "2026-07-29T21:44:12Z",
+      "results": []
+    },
+    "2c6fc0a5ce8004cdc65df3af8c7022620c2922cf48958141c0f5218157341413": {
+      "engine": "google",
+      "query": "\"Águeda\" videostream.cgi",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:44:57Z",
+      "expires_at": "2026-07-29T21:44:35Z",
+      "results": []
+    },
+    "ed4a76c15dbcbdc0f0effd272fb4062dbeb88f5b89fcbdd0d34ca14f19803ece": {
+      "engine": "google",
+      "query": "\"Águeda\" axis-cgi/mjpg",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:45:20Z",
+      "expires_at": "2026-07-29T21:44:57Z",
+      "results": []
+    },
+    "c0dcfad34541abed84e489f547fe5387895bf829e19c43286b17de24b0a15449": {
+      "engine": "google",
+      "query": "\"Águeda\" iframe live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:45:42Z",
+      "expires_at": "2026-07-29T21:45:20Z",
+      "results": []
+    },
+    "101275a125a63153ceb10d1180d01b97c9b19add7fa6bb964324393f46c4abf6": {
+      "engine": "google",
+      "query": "inurl:viewerframe?mode=motion \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:46:05Z",
+      "expires_at": "2026-07-29T21:45:42Z",
+      "results": []
+    },
+    "7f3a90d632d69c228e9ad32a79a10b8cb68f3c1330a95273ea25eaf4cbfc5ea6": {
+      "engine": "google",
+      "query": "inurl:axis-cgi \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:46:27Z",
+      "expires_at": "2026-07-29T21:46:05Z",
+      "results": []
+    },
+    "ec1c655d3900bf3e1dee84df9c5f0adcb110c907ab933b1624753b1281b9c71e": {
+      "engine": "google",
+      "query": "inurl:Streaming/channels \"Águeda\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:46:49Z",
+      "expires_at": "2026-07-29T21:46:27Z",
+      "results": []
+    },
+    "32038864eb0a20edeb5b0411ebf3f38ee7056347827c70bff92c9da19853397f": {
+      "engine": "google",
+      "query": "site:cm-albergaria-a-velha.pt webcam Albergaria-a-Velha",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:47:12Z",
+      "expires_at": "2026-07-29T21:46:49Z",
+      "results": []
+    },
+    "54de19507dd2babb24f28bcdd4e1e5576daa2a7ee64205480f9b918924c8c395": {
+      "engine": "google",
+      "query": "site:municipio-albergaria-a-velha.pt webcam Albergaria-a-Velha",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:47:34Z",
+      "expires_at": "2026-07-29T21:47:12Z",
+      "results": []
+    },
+    "1e0352319909f7adfccb05c721d76fe142c8df9273f0cdcf88326e311d2232ed": {
+      "engine": "google",
+      "query": "site:albergaria-a-velha.pt webcam Albergaria-a-Velha",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:47:57Z",
+      "expires_at": "2026-07-29T21:47:34Z",
+      "results": []
+    },
+    "7bbcb548376b4062c15ab7ad81f4dac45ebb16690851d78bf610143850a05a45": {
+      "engine": "google",
+      "query": "site:cm-albergaria-a-velha.pt (direto OR livestream OR câmara)",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:48:19Z",
+      "expires_at": "2026-07-29T21:47:57Z",
+      "results": []
+    },
+    "2a1170e600742bac69d1c940bc8c770404f69fe3170dea119085485814758d50": {
+      "engine": "google",
+      "query": "turismo Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:48:42Z",
+      "expires_at": "2026-07-29T21:48:19Z",
+      "results": []
+    },
+    "547aef145a8647458336f366f8e97c1ed5300733bbed7ab54ecbab5565369bf3": {
+      "engine": "google",
+      "query": "visit Albergaria-a-Velha live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:49:04Z",
+      "expires_at": "2026-07-29T21:48:42Z",
+      "results": []
+    },
+    "00d3ef9d232a3f0e56b68c7a28b8f7e3cc4f697d3610ec0e96353d30a27bc1df": {
+      "engine": "google",
+      "query": "site:visitportugal.com Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:49:27Z",
+      "expires_at": "2026-07-29T21:49:04Z",
+      "results": []
+    },
+    "0b6f2bbfbce7cc3c0534cd7b7b1427f1150e9c08e68cb1f47305fc885f879757": {
+      "engine": "google",
+      "query": "site:turismodeportugal.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:49:49Z",
+      "expires_at": "2026-07-29T21:49:27Z",
+      "results": []
+    },
+    "efea3ea46333a22f782d0eb08ab6cac36f50ae769aad52fd3ec2fd2e9e26fb77": {
+      "engine": "google",
+      "query": "site:visitportoandnorth.travel Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:50:11Z",
+      "expires_at": "2026-07-29T21:49:49Z",
+      "results": []
+    },
+    "7a42e84856f9a6acde3063028aa9b630d8a6c7180d4db5d3dec31924207fbf5f": {
+      "engine": "google",
+      "query": "site:visitcentrodeportugal.com.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:50:34Z",
+      "expires_at": "2026-07-29T21:50:11Z",
+      "results": []
+    },
+    "907ae681745e6d6c9bd6ee41e9e1933a6c1686bdd2cf6c0a9ab2b6f504eb28ed": {
+      "engine": "google",
+      "query": "site:visitlisboa.com Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:50:56Z",
+      "expires_at": "2026-07-29T21:50:34Z",
+      "results": []
+    },
+    "eb885cc47e59f2f8ccc727097f353f7bb64ca0cb06e1ef0238ec697ebb4f0862": {
+      "engine": "google",
+      "query": "site:visitalentejo.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:51:18Z",
+      "expires_at": "2026-07-29T21:50:56Z",
+      "results": []
+    },
+    "e31325f78416ee446f14e9564bed5ef63e2cfc6ffbec961dd7b5f0788784108e": {
+      "engine": "google",
+      "query": "site:visitalgarve.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:51:41Z",
+      "expires_at": "2026-07-29T21:51:18Z",
+      "results": []
+    },
+    "5e1985ba4035aad89b977d6d346df16857accf92c223f7ba273aed7aaa5047d5": {
+      "engine": "google",
+      "query": "\"webcam\" \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:52:03Z",
+      "expires_at": "2026-07-29T21:51:41Z",
+      "results": []
+    },
+    "a67a78891522504c248264882e119d13447eb18cc9e0f0b9c018fbdc5eff0e29": {
+      "engine": "google",
+      "query": "\"web cam\" \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:52:26Z",
+      "expires_at": "2026-07-29T21:52:03Z",
+      "results": []
+    },
+    "1c11a75b03d42d2b895c0405a008f5e1056cc78f58819e5e2b3ffbccd15255ba": {
+      "engine": "google",
+      "query": "\"live cam\" \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:52:48Z",
+      "expires_at": "2026-07-29T21:52:26Z",
+      "results": []
+    },
+    "110c1bb698a4be9267c3442860a0951959c0e1a9068ad57ab05cd85b28e883dc": {
+      "engine": "google",
+      "query": "\"câmara ao vivo\" \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:53:10Z",
+      "expires_at": "2026-07-29T21:52:48Z",
+      "results": []
+    },
+    "83d69574abf0ce7c4b48940d42fbbd3145da408850bd41232353afc25d11d961": {
+      "engine": "bing",
+      "query": "\"camera ao vivo\" \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:53:33Z",
+      "expires_at": "2026-07-29T21:53:10Z",
+      "results": []
+    },
+    "5222898c55fa73a38c446c18fa317a2a02234162c90f40da7d641f460edd7dc6": {
+      "engine": "bing",
+      "query": "\"transmissão em direto\" \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:53:55Z",
+      "expires_at": "2026-07-29T21:53:33Z",
+      "results": []
+    },
+    "32328a8d1bcca64eeb08756204f2db634616e86ef54eeae7013691f7bd86f756": {
+      "engine": "bing",
+      "query": "\"live stream\" \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:54:17Z",
+      "expires_at": "2026-07-29T21:53:55Z",
+      "results": []
+    },
+    "f08398a1ea4d7eacb8a7ac8da484ff308577593e1e29cf4f5d6bcd479448479a": {
+      "engine": "bing",
+      "query": "site:.pt webcam \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:54:40Z",
+      "expires_at": "2026-07-29T21:54:17Z",
+      "results": []
+    },
+    "e3a9947e890921be5fe785d6aeb277be22a9bb7a4ffa053319e6d0e84064f741": {
+      "engine": "duckduckgo",
+      "query": "site:youtube.com/live \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:55:02Z",
+      "expires_at": "2026-07-29T21:54:40Z",
+      "results": []
+    },
+    "ddbf3c492b5817df818be69c9786b2d46a259ed1391bc7533e9a28cbb1efa750": {
+      "engine": "duckduckgo",
+      "query": "site:facebook.com \"Albergaria-a-Velha\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:55:25Z",
+      "expires_at": "2026-07-29T21:55:02Z",
+      "results": []
+    },
+    "bde31ba3d8687892280cfff40c48cc11385ef3df8704bb8539f48286d21b3d2a": {
+      "engine": "duckduckgo",
+      "query": "site:instagram.com \"Albergaria-a-Velha\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:55:47Z",
+      "expires_at": "2026-07-29T21:55:25Z",
+      "results": []
+    },
+    "099d10e6c53ab0ada4bc24380a87e02a1359dc7c55463e9eb66d85bbdb511f67": {
+      "engine": "duckduckgo",
+      "query": "\"Axis\" \"Albergaria-a-Velha\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:56:10Z",
+      "expires_at": "2026-07-29T21:55:47Z",
+      "results": []
+    },
+    "ac65e6ae08e3ee399d690293b7e9543b8536b6162d4ebef0304d1430b863b0a5": {
+      "engine": "duckduckgo",
+      "query": "\"Mobotix\" \"Albergaria-a-Velha\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:56:32Z",
+      "expires_at": "2026-07-29T21:56:10Z",
+      "results": []
+    },
+    "352aebaaf724aeeb42ec02dfadf5eeef8511bfcc577efbc0f1b336af845567e2": {
+      "engine": "duckduckgo",
+      "query": "\"Hikvision\" \"Albergaria-a-Velha\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:56:55Z",
+      "expires_at": "2026-07-29T21:56:32Z",
+      "results": []
+    },
+    "f660253bfb1d30fc916da1d5cd316c8032ef7a62a967abe324fe0b8f1f46df45": {
+      "engine": "google",
+      "query": "site:portugalwebcams.pt \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:57:17Z",
+      "expires_at": "2026-07-29T21:56:55Z",
+      "results": []
+    },
+    "7c8d1ed5c87367d40a80486578fdf03b5dbcd13a9916f54076c220a853d49be7": {
+      "engine": "google",
+      "query": "site:webcamgalore.com \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:57:39Z",
+      "expires_at": "2026-07-29T21:57:17Z",
+      "results": []
+    },
+    "5da73321ba4bf934b62c54925b346f9db58bce9423d22a05ef29348adfba0232": {
+      "engine": "google",
+      "query": "site:windy.com/webcams \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:58:02Z",
+      "expires_at": "2026-07-29T21:57:39Z",
+      "results": []
+    },
+    "3808303a1811e4a8b7f64e34a3fb53f382b733195ba83e3a9364957ab33ddfd2": {
+      "engine": "google",
+      "query": "site:windfinder.com/webcams \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:58:24Z",
+      "expires_at": "2026-07-29T21:58:02Z",
+      "results": []
+    },
+    "03b8e22d1eae30614b0ac143dac3c387c6989f99ad7d26716390ab000c4285f7": {
+      "engine": "google",
+      "query": "site:webcams.travel \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:58:46Z",
+      "expires_at": "2026-07-29T21:58:24Z",
+      "results": []
+    },
+    "6e0c0369aee6722117d25257880b33e31b97d494a1636ce04a837f569e89ac62": {
+      "engine": "google",
+      "query": "site:webcamtaxi.com \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:59:08Z",
+      "expires_at": "2026-07-29T21:58:46Z",
+      "results": []
+    },
+    "a8028a825b6590879cb030ccdc537034f930a3dfb1ff80dbe27c8d7298499741": {
+      "engine": "google",
+      "query": "site:worldcam.eu \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:59:31Z",
+      "expires_at": "2026-07-29T21:59:08Z",
+      "results": []
+    },
+    "36011e904dd3fce8cfc406687cc458c6ebd9c6be7395e9c1a9b36db9794c35ca": {
+      "engine": "google",
+      "query": "site:geowebcams.com \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T21:59:53Z",
+      "expires_at": "2026-07-29T21:59:31Z",
+      "results": []
+    },
+    "af43ddf149c0b88217217730dfb6e89eef7a14121e4182925cb45182ffa12559": {
+      "engine": "google",
+      "query": "site:skylinewebcams.com \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:00:16Z",
+      "expires_at": "2026-07-29T21:59:53Z",
+      "results": []
+    },
+    "801aea0c58de02bfbba40e2daced9fd0eb0b70e939aee4f95e14a7e95effd64d": {
+      "engine": "google",
+      "query": "site:earthcam.com \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:00:39Z",
+      "expires_at": "2026-07-29T22:00:16Z",
+      "results": []
+    },
+    "f14d7f2988fdb8ccde988564259125d5fc292b6e7cfdcfaddd2878827c160a36": {
+      "engine": "google",
+      "query": "site:ipcamlive.com \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:01:01Z",
+      "expires_at": "2026-07-29T22:00:39Z",
+      "results": []
+    },
+    "59921f28797b0a7d946ff215c97b45af5a7ad93c5b464b01fbf68a17845a74a5": {
+      "engine": "google",
+      "query": "site:meteoblue.com \"Albergaria-a-Velha\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:01:24Z",
+      "expires_at": "2026-07-29T22:01:01Z",
+      "results": []
+    },
+    "99d48d9d9e5674e5aea42656f8881d1a098fdafed1fbb211afc1f89713c96b87": {
+      "engine": "google",
+      "query": "site:spotazores.com \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:01:46Z",
+      "expires_at": "2026-07-29T22:01:24Z",
+      "results": []
+    },
+    "5eb5a1a04ca9bde95465aab3803ee7425a107967f2ac559110d1c17e184db1e7": {
+      "engine": "google",
+      "query": "site:netmadeira.com \"Albergaria-a-Velha\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:02:08Z",
+      "expires_at": "2026-07-29T22:01:46Z",
+      "results": []
+    },
+    "6f528bf3f696605aadb23f69e57ee4eb0200d3f13b641ff0563b13dae1861567": {
+      "engine": "google",
+      "query": "site:madeiracams.com \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:02:31Z",
+      "expires_at": "2026-07-29T22:02:08Z",
+      "results": []
+    },
+    "ec1e9df2b0106affe8630e2e5f98b38d883d5f8c24961b53f00ff3921a04bdcc": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:02:53Z",
+      "expires_at": "2026-07-29T22:02:31Z",
+      "results": []
+    },
+    "8922c485ac8e203706a338efcb01f8c3bfe4fb24949f6c94ab84f158e6c548e3": {
+      "engine": "google",
+      "query": "site:back-office.beachcam.pt/livecams \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:03:16Z",
+      "expires_at": "2026-07-29T22:02:53Z",
+      "results": []
+    },
+    "74b9a3553c08a6e5a87afd47f024523daecdfbc5b550c4d90fff7d2fef7abe1e": {
+      "engine": "google",
+      "query": "Portugal webcam Portugal \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:03:38Z",
+      "expires_at": "2026-07-29T22:03:16Z",
+      "results": []
+    },
+    "a9d8d536afa7c7cf963f4aabbff2ef40b8d17a1099c02406ddb98f416c7b7bff": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha praia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:04:00Z",
+      "expires_at": "2026-07-29T22:03:38Z",
+      "results": []
+    },
+    "e1097e01ef1f5c51a99c560a204ce9132a10230cf7bc661bf4640f643dec30ea": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha surf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:04:23Z",
+      "expires_at": "2026-07-29T22:04:00Z",
+      "results": []
+    },
+    "cfbdf26a4f6489dd15da747c6e017fda5544a72c21e125bfff852ccdc6456c5f": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt Albergaria-a-Velha",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:04:45Z",
+      "expires_at": "2026-07-29T22:04:23Z",
+      "results": []
+    },
+    "70544de4eb4a7754e878d079fa0bfa13e0bd2f7af0f888788092c1fa82a71e50": {
+      "engine": "google",
+      "query": "site:surfline.com Albergaria-a-Velha Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:05:08Z",
+      "expires_at": "2026-07-29T22:04:45Z",
+      "results": []
+    },
+    "83ebb87aa66515f06b7bed23693fa83f46ad8b83dea3b57984cde7c4a7094343": {
+      "engine": "google",
+      "query": "site:magicseaweed.com Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:05:30Z",
+      "expires_at": "2026-07-29T22:05:08Z",
+      "results": []
+    },
+    "60de8edf9a968f2d78c28962383b33dad8ea2ac97f822778f1a1c879cd0aa071": {
+      "engine": "google",
+      "query": "site:windfinder.com Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:05:53Z",
+      "expires_at": "2026-07-29T22:05:30Z",
+      "results": []
+    },
+    "bb51d067d477dd543afb0197168c320f0d460dc1fb66a2071fd53a5055947fd8": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Albergaria-a-Velha praia",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:06:15Z",
+      "expires_at": "2026-07-29T22:05:53Z",
+      "results": []
+    },
+    "94deaa84baa28e133f86dfd211dc04449a4fc733d0628fb0da857ba48f732d07": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha porto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:06:38Z",
+      "expires_at": "2026-07-29T22:06:15Z",
+      "results": []
+    },
+    "a3d84a8b40982606c2b8b78c11f4f0f797e5fccc67e8463a7b3d6b85f7b73bb2": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha marina webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:07:00Z",
+      "expires_at": "2026-07-29T22:06:38Z",
+      "results": []
+    },
+    "6b723521c224924253deebc0124ac9271376d91b0c80e085e978f44e76fdb781": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha clube náutico live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:07:23Z",
+      "expires_at": "2026-07-29T22:07:00Z",
+      "results": []
+    },
+    "5db9745ea0b2b3fa7fffb45e910cc65e278af008a04519ac0f7b68f7adda848c": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha barra porto câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:07:45Z",
+      "expires_at": "2026-07-29T22:07:23Z",
+      "results": []
+    },
+    "6008bd4f67263af5de550c246aaa025e5ffc44850164bff2b6466a652a7ef13f": {
+      "engine": "google",
+      "query": "site:portosdeportugal.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:08:07Z",
+      "expires_at": "2026-07-29T22:07:45Z",
+      "results": []
+    },
+    "009a2c9a722bec26016d02f831c4b8e4d68b1a27f23845ab779f1e0766e146b7": {
+      "engine": "google",
+      "query": "site:amn.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:08:30Z",
+      "expires_at": "2026-07-29T22:08:07Z",
+      "results": []
+    },
+    "2f00258084f8f527da5cb6392aac7863aef1808e984eb818f04946bb2826226d": {
+      "engine": "google",
+      "query": "site:docapesca.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:08:52Z",
+      "expires_at": "2026-07-29T22:08:30Z",
+      "results": []
+    },
+    "6334ae938e5d98ca86e4cc9c3535873ae7f9fc52e1cb72ad89665a1570f65066": {
+      "engine": "google",
+      "query": "site:apdl.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:09:15Z",
+      "expires_at": "2026-07-29T22:08:52Z",
+      "results": []
+    },
+    "dc86c7e9d6e865c1b09ceabc119808f590e14bbdba04ebfb231e13ba91a58b50": {
+      "engine": "google",
+      "query": "site:portoaveiro.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:09:37Z",
+      "expires_at": "2026-07-29T22:09:15Z",
+      "results": []
+    },
+    "58d3c40863340635cb82d4ec1854ad02b7171baa4fdc4b495846377ac17d05b3": {
+      "engine": "google",
+      "query": "site:portodelisboa.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:09:59Z",
+      "expires_at": "2026-07-29T22:09:37Z",
+      "results": []
+    },
+    "3d1f6c0b57ea772fc94f8a181650bf7b529b298e69ed31a0c7bd08ada2a692d3": {
+      "engine": "google",
+      "query": "site:apsinesalgarve.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:10:22Z",
+      "expires_at": "2026-07-29T22:09:59Z",
+      "results": []
+    },
+    "d143ff86326f1d8dd17a5fb000380160600200a52dd748d2ca0504e7acdc2b6f": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha aeroporto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:10:44Z",
+      "expires_at": "2026-07-29T22:10:22Z",
+      "results": []
+    },
+    "4cd635beff7bb085b837c465045595c32607ae6996bf4edcc7d329126951a4ab": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha aeródromo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:11:06Z",
+      "expires_at": "2026-07-29T22:10:44Z",
+      "results": []
+    },
+    "785db7d7016127f9eaac6799e396bca1f6a2e3843a19f62c412f65a07af7daeb": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha aeroclube webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:11:29Z",
+      "expires_at": "2026-07-29T22:11:06Z",
+      "results": []
+    },
+    "39a064d1dab13cec71c857e6c06dc6fc5cbfec9b983216be6cfa98772889998b": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha pista aviação câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:11:51Z",
+      "expires_at": "2026-07-29T22:11:29Z",
+      "results": []
+    },
+    "864a5935dca865fdb1cf828b6024ee995f0c994f3ce2a702cbc226e0a6f0531b": {
+      "engine": "google",
+      "query": "site:ana.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:12:14Z",
+      "expires_at": "2026-07-29T22:11:51Z",
+      "results": []
+    },
+    "ee8b863b7f02ad7482a81c99ae144141e350a6700bc35e52d6deef059de53c1f": {
+      "engine": "google",
+      "query": "site:nav.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:12:36Z",
+      "expires_at": "2026-07-29T22:12:14Z",
+      "results": []
+    },
+    "e7ca4bfbb41bc24fd4522a5c4efbea5656e54704853ee53a84d65420edabeab8": {
+      "engine": "google",
+      "query": "site:airportwebcams.net Portugal Albergaria-a-Velha",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:12:58Z",
+      "expires_at": "2026-07-29T22:12:36Z",
+      "results": []
+    },
+    "80b0d22ec903f6b3aa31fb57095a5fd1b412a74934035ef23b65a54de8094ee6": {
+      "engine": "google",
+      "query": "site:metar-taf.com Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:13:21Z",
+      "expires_at": "2026-07-29T22:12:58Z",
+      "results": []
+    },
+    "c0cc19e6e24684cb29a0c73e8a28da0d5a6f79b6f665945fc36131f9d9629898": {
+      "engine": "google",
+      "query": "site:youtube.com Albergaria-a-Velha airport live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:13:43Z",
+      "expires_at": "2026-07-29T22:13:21Z",
+      "results": []
+    },
+    "503a48aa85e50cf7a3abd5f707b52b32fac4e1536193cd7bb3193a76c74a7cff": {
+      "engine": "google",
+      "query": "site:facebook.com aeroclube Albergaria-a-Velha direto",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:14:06Z",
+      "expires_at": "2026-07-29T22:13:43Z",
+      "results": []
+    },
+    "ca9196c81cb0581e8a61c1682b63f9a6e4594ec1ac04ecc252dead720f9bb256": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha trânsito estrada webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:14:28Z",
+      "expires_at": "2026-07-29T22:14:06Z",
+      "results": []
+    },
+    "263ee16ddbeaa3d50e70cc007ca2e2ddca9c3b4ec7f39e1088bf98d6c9efd502": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha câmara tráfego ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:14:50Z",
+      "expires_at": "2026-07-29T22:14:28Z",
+      "results": []
+    },
+    "b7e2bba51d999f78eced9649d9afc618e2b78025e7b4e13417a1043727185223": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha estação ferroviária webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:15:13Z",
+      "expires_at": "2026-07-29T22:14:50Z",
+      "results": []
+    },
+    "d0e9a23a79101b4afc2bdb79efc57ab7915fee59280ec5a0f29f16ee591c2a80": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha terminal rodoviário webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:15:35Z",
+      "expires_at": "2026-07-29T22:15:13Z",
+      "results": []
+    },
+    "dbe211ce0cea27fac32b12ae259fc1d731d9c11f3a6dbb8d4ad8465996630bae": {
+      "engine": "google",
+      "query": "site:infraestruturasdeportugal.pt Albergaria-a-Velha camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:15:57Z",
+      "expires_at": "2026-07-29T22:15:35Z",
+      "results": []
+    },
+    "a31652aaf49e59415f0b0c8c3dd1daa580993033410a57f92f2244b9c6e57ed7": {
+      "engine": "google",
+      "query": "site:estradas.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:16:20Z",
+      "expires_at": "2026-07-29T22:15:57Z",
+      "results": []
+    },
+    "20400a6b1d6a9284a7800d93817bff9afe295280990716c756d50711f93730ff": {
+      "engine": "google",
+      "query": "site:cp.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:16:42Z",
+      "expires_at": "2026-07-29T22:16:20Z",
+      "results": []
+    },
+    "56970d84ffe20214c62e83c6cd848a64095283ca4fa4dcf8dcf89c27677fedd6": {
+      "engine": "google",
+      "query": "site:metrolisboa.pt Albergaria-a-Velha live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:17:04Z",
+      "expires_at": "2026-07-29T22:16:42Z",
+      "results": []
+    },
+    "3cd1b8fec5856d74c6f93d9e096095f3cb1bb020449bd3f90bae19d070c70aea": {
+      "engine": "google",
+      "query": "site:metrodoporto.pt Albergaria-a-Velha live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:17:27Z",
+      "expires_at": "2026-07-29T22:17:04Z",
+      "results": []
+    },
+    "0af3c8d20527ce5d69f6d9086067fa250cfe036fc2f534d48f4444525aa97e92": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha serra webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:17:49Z",
+      "expires_at": "2026-07-29T22:17:27Z",
+      "results": []
+    },
+    "d7a78421369f42234c2bd6ea5dd0688b2f352f6b547342924c58c57038dc6303": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha parque natural webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:18:12Z",
+      "expires_at": "2026-07-29T22:17:49Z",
+      "results": []
+    },
+    "9ada221e0bbede6d149f3d2a528c120a2bb384623d65d8deec91dafa8d5c3aff": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:18:34Z",
+      "expires_at": "2026-07-29T22:18:12Z",
+      "results": []
+    },
+    "ba66282b0f43a07dff4afa056a2938aabe6b443967617a8e0a2edc4fddcab5ff": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha miradouro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:18:57Z",
+      "expires_at": "2026-07-29T22:18:34Z",
+      "results": []
+    },
+    "9896ebc0747b0f3d8439a1ab93b009802215148cdc5470f7e50e087baf739a4d": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha rio webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:19:19Z",
+      "expires_at": "2026-07-29T22:18:57Z",
+      "results": []
+    },
+    "036f7727d396db6472134ff4f0409d25ff8ef30f844b350d32ea0ed815aeb5f6": {
+      "engine": "google",
+      "query": "site:icnf.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:19:42Z",
+      "expires_at": "2026-07-29T22:19:19Z",
+      "results": []
+    },
+    "8cf5218d33dcb60a3fe8465df588ab0b0db542fbf9602978e2049c8b3852fcaa": {
+      "engine": "google",
+      "query": "site:snirh.apambiente.pt Albergaria-a-Velha câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:20:05Z",
+      "expires_at": "2026-07-29T22:19:42Z",
+      "results": []
+    },
+    "93eaffa3a00e98d1049111043bc532287cc4bafd33f5d0cd71fd5e546a16af96": {
+      "engine": "google",
+      "query": "site:edp.com Albergaria-a-Velha barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:20:27Z",
+      "expires_at": "2026-07-29T22:20:05Z",
+      "results": []
+    },
+    "e80e97b90537c68670226b2f9bf85cbcb12bad704168982b4a6031d51647ea67": {
+      "engine": "google",
+      "query": "site:meteoblue.com Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:20:49Z",
+      "expires_at": "2026-07-29T22:20:27Z",
+      "results": []
+    },
+    "3e0eb176c439752e944e038356fc278b432415915e2b00ad8400697036200a7d": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha hotel webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:21:12Z",
+      "expires_at": "2026-07-29T22:20:49Z",
+      "results": []
+    },
+    "f1e25bf2ff2b676bfd7eedfe6541e5dbd5683b9dde84a55b68478baec247cd3e": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha resort webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:21:34Z",
+      "expires_at": "2026-07-29T22:21:12Z",
+      "results": []
+    },
+    "429c02d0473a53571f2e688157687ba88c257aed40dedda80868b08b539f0d2e": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha alojamento webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:21:56Z",
+      "expires_at": "2026-07-29T22:21:34Z",
+      "results": []
+    },
+    "0be8bf3e3b127ced4a294d40c04714b81a01a295c9b2b3f00f7bc2c5e9dd16b9": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha parque de campismo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:22:18Z",
+      "expires_at": "2026-07-29T22:21:56Z",
+      "results": []
+    },
+    "979dceb6decf80d769ea85cbaefb2d8f17c244d491b74241e0753796df1698fe": {
+      "engine": "google",
+      "query": "site:booking.com Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:22:41Z",
+      "expires_at": "2026-07-29T22:22:18Z",
+      "results": []
+    },
+    "7f860902a7101911ffd5f72cba8c55512e0e8bb0bbb1e990a006eb43c5313581": {
+      "engine": "google",
+      "query": "site:youtube.com hotel Albergaria-a-Velha live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:23:03Z",
+      "expires_at": "2026-07-29T22:22:41Z",
+      "results": []
+    },
+    "9f429bd366a289d3870f2893476d40028580bbcf9936815f9b9c10669924b153": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha golf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:23:25Z",
+      "expires_at": "2026-07-29T22:23:03Z",
+      "results": []
+    },
+    "f01d87ce908ef70a1560fdf0dff2930bb039772650347c75df7d9d870d698b4d": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha estádio webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:23:47Z",
+      "expires_at": "2026-07-29T22:23:25Z",
+      "results": []
+    },
+    "16c93d7ae8156a652bc9014ec2e6ccbfb629df2b10a0f93bdc07b4805973967f": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha ski webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:24:10Z",
+      "expires_at": "2026-07-29T22:23:47Z",
+      "results": []
+    },
+    "6b4ad977b4b832ff117c6556972a2d72a8fe78795b5799c57561ec9d55dd5237": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha estância neve webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:24:32Z",
+      "expires_at": "2026-07-29T22:24:10Z",
+      "results": []
+    },
+    "909fdb3ce6f6a91f31ad671d305df39b467be037746ec1960aa9e3c109622c22": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha circuito automóvel webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:24:55Z",
+      "expires_at": "2026-07-29T22:24:32Z",
+      "results": []
+    },
+    "1588bf0aeaa073c4aaf5644c1e0ee77952f674ffa5b26aefeb5fc693b7a1b3b0": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha clube desportivo live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:25:17Z",
+      "expires_at": "2026-07-29T22:24:55Z",
+      "results": []
+    },
+    "89e41dd0371885cad21d8c7e2262df1befff3112180fd47570998228a806adc7": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha meteorologia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:25:39Z",
+      "expires_at": "2026-07-29T22:25:17Z",
+      "results": []
+    },
+    "50934e5207efcf1374e3c279b834112ec6f95019f901ffc4c6409e482be79658": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha estação meteorológica câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:26:02Z",
+      "expires_at": "2026-07-29T22:25:39Z",
+      "results": []
+    },
+    "beaa6b61ecd0ec0d1b4a8fc766d04c799e0c7b6dee1fb0cd4c33247bf61695b3": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha observatório webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:26:24Z",
+      "expires_at": "2026-07-29T22:26:02Z",
+      "results": []
+    },
+    "878334ae26eea7b650640d8984feee053b36aa5eee6597b022d3a014080d4cd3": {
+      "engine": "google",
+      "query": "site:ipma.pt Albergaria-a-Velha camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:26:47Z",
+      "expires_at": "2026-07-29T22:26:24Z",
+      "results": []
+    },
+    "89404daabb655bc99957ba34221679b18999057707a4b76e77f0616d1a282cd4": {
+      "engine": "google",
+      "query": "site:observar.ipma.pt Albergaria-a-Velha Câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:27:09Z",
+      "expires_at": "2026-07-29T22:26:47Z",
+      "results": []
+    },
+    "eaa9bc1e1916433b9fca45170488b569b23d4c87acec313b2a5a9df765ccd60e": {
+      "engine": "google",
+      "query": "site:weathercloud.net Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:27:31Z",
+      "expires_at": "2026-07-29T22:27:09Z",
+      "results": []
+    },
+    "01f8e3ae0680ff1d6a47b96fa51baf142da485ed620dacf10f59ee6142d05aae": {
+      "engine": "google",
+      "query": "site:wunderground.com Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:27:54Z",
+      "expires_at": "2026-07-29T22:27:31Z",
+      "results": []
+    },
+    "765706c023b7878f16a46e87cad3ecbcd5bef1267c7bc3acdadc815f0ec14526": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Albergaria-a-Velha",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:28:16Z",
+      "expires_at": "2026-07-29T22:27:54Z",
+      "results": []
+    },
+    "4981d31c975c7c02b1e8f91c1c7e013d7d03a5cced9eeaf33eb2b457ee47ec03": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha universidade webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:28:39Z",
+      "expires_at": "2026-07-29T22:28:16Z",
+      "results": []
+    },
+    "e3141ab69188e4d3168dbd2d76b546e36e8b5426e2081e976a9063de122e7f01": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha observatório astronómico live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:29:01Z",
+      "expires_at": "2026-07-29T22:28:39Z",
+      "results": []
+    },
+    "f03bbf93d7911f4fe25e28a5da8f768c0bb8dfd86dfe9f2deb1297b14822eba1": {
+      "engine": "google",
+      "query": "Albergaria-a-Velha centro ciência webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:29:23Z",
+      "expires_at": "2026-07-29T22:29:01Z",
+      "results": []
+    },
+    "487c0f8b5e86bc0d00695d8e6fc8bed0cdaee4c4a59d448ef7caf1ca49320322": {
+      "engine": "google",
+      "query": "site:ulisboa.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:29:46Z",
+      "expires_at": "2026-07-29T22:29:23Z",
+      "results": []
+    },
+    "9e69fe6acf66b99f9b99b9da14528ab60975dd70f80e9a2d5f42bbf272340d7d": {
+      "engine": "google",
+      "query": "site:up.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:30:08Z",
+      "expires_at": "2026-07-29T22:29:46Z",
+      "results": []
+    },
+    "9850044fb47dfff8fb0c85b5abbfc9f396476e26643c89fd987862be2597531d": {
+      "engine": "google",
+      "query": "site:uc.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:30:31Z",
+      "expires_at": "2026-07-29T22:30:08Z",
+      "results": []
+    },
+    "85dbfc7d3fe106076faf6f9df35cd678f3cf4c2ba54ff38c6bae64a8369bc37c": {
+      "engine": "google",
+      "query": "site:uminho.pt Albergaria-a-Velha webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:30:53Z",
+      "expires_at": "2026-07-29T22:30:31Z",
+      "results": []
+    },
+    "63ec6f490d37f971cc7124bb4c68c45ea79a8814af94df937990b9254875d9c1": {
+      "engine": "google",
+      "query": "site:youtube.com/watch \"Albergaria-a-Velha\" live webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:31:16Z",
+      "expires_at": "2026-07-29T22:30:53Z",
+      "results": []
+    },
+    "369080fb5d1a23b949374d815b01b44ba89ecddb640dc96b1de33ec2a9c3a411": {
+      "engine": "google",
+      "query": "site:youtube.com/live \"Albergaria-a-Velha\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:31:38Z",
+      "expires_at": "2026-07-29T22:31:16Z",
+      "results": []
+    },
+    "3e0a53519ce71c116504fb42c34ef6a499ce28171e1083096c386e74f700dc5a": {
+      "engine": "google",
+      "query": "site:facebook.com \"Albergaria-a-Velha\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:32:00Z",
+      "expires_at": "2026-07-29T22:31:38Z",
+      "results": []
+    },
+    "d220eadf2ac40ffcfd7d8679201d2fd0b67dc448074d19ee801079f588b667ca": {
+      "engine": "google",
+      "query": "site:twitch.tv \"Albergaria-a-Velha\" Portugal live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:32:23Z",
+      "expires_at": "2026-07-29T22:32:00Z",
+      "results": []
+    },
+    "5e97ba0b937293f68f87b0d2fc0b8c099251a93abf31404b9872cdd5c97c212d": {
+      "engine": "google",
+      "query": "site:instagram.com \"Albergaria-a-Velha\" direto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:32:45Z",
+      "expires_at": "2026-07-29T22:32:23Z",
+      "results": []
+    },
+    "3282d56b652aad421bc77bf2cb1a2f010fc22155d169240f5ad80d34c0b47391": {
+      "engine": "google",
+      "query": "\"Albergaria-a-Velha\" m3u8 webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:33:07Z",
+      "expires_at": "2026-07-29T22:32:45Z",
+      "results": []
+    },
+    "91146576e985a002081f17153b67900b06f16e702551180295c20168b64586fe": {
+      "engine": "google",
+      "query": "\"Albergaria-a-Velha\" mpd live camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:33:30Z",
+      "expires_at": "2026-07-29T22:33:07Z",
+      "results": []
+    },
+    "d3ac5fe8d0e3a2b378ff5b00f66767182c9430291455aadef37cc758a20fca68": {
+      "engine": "google",
+      "query": "\"Albergaria-a-Velha\" mjpeg camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:33:52Z",
+      "expires_at": "2026-07-29T22:33:30Z",
+      "results": []
+    },
+    "26a0d73249b131e1ae6617f6e48f1453b20e05edb275ba6edfdcc251edbb426e": {
+      "engine": "google",
+      "query": "\"Albergaria-a-Velha\" snapshot.jpg",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:34:15Z",
+      "expires_at": "2026-07-29T22:33:52Z",
+      "results": []
+    },
+    "e26675e448144e471fbdae1531f3978d378c3caed6a93d293b286ca7a78a691b": {
+      "engine": "google",
+      "query": "\"Albergaria-a-Velha\" videostream.cgi",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:34:37Z",
+      "expires_at": "2026-07-29T22:34:15Z",
+      "results": []
+    },
+    "59f568826148c98afb0bcb5e4c08d8d955a1d24c4aa513357e6092ff768909e6": {
+      "engine": "google",
+      "query": "\"Albergaria-a-Velha\" axis-cgi/mjpg",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:35:00Z",
+      "expires_at": "2026-07-29T22:34:37Z",
+      "results": []
+    },
+    "26e4d653b5ab484e554722247fc7f77cb978b4836c7eedf42e82c6293dc2189e": {
+      "engine": "google",
+      "query": "\"Albergaria-a-Velha\" iframe live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:35:22Z",
+      "expires_at": "2026-07-29T22:35:00Z",
+      "results": []
+    },
+    "a482d40b3909494bed829afec2a8e22b8206fa7698b0a4e33bb7e709995b1bbb": {
+      "engine": "google",
+      "query": "inurl:viewerframe?mode=motion \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:35:44Z",
+      "expires_at": "2026-07-29T22:35:22Z",
+      "results": []
+    },
+    "13b0f9d8593de606d824dcdd7fb4c6ef85f3d3277d6c702112b4cf82245b9505": {
+      "engine": "google",
+      "query": "inurl:axis-cgi \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:36:07Z",
+      "expires_at": "2026-07-29T22:35:44Z",
+      "results": []
+    },
+    "283bc898c500c67b1a8ad5a527b2e487ddf600f41b10bd949ae3783c2797716d": {
+      "engine": "google",
+      "query": "inurl:Streaming/channels \"Albergaria-a-Velha\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:36:29Z",
+      "expires_at": "2026-07-29T22:36:07Z",
+      "results": []
+    },
+    "e83c2dd55afb88fdd5e02e82048bb6de5a3419947116f66d602051e09a1e98f8": {
+      "engine": "google",
+      "query": "site:cm-anadia.pt webcam Anadia",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:36:52Z",
+      "expires_at": "2026-07-29T22:36:29Z",
+      "results": []
+    },
+    "5581bb93c0bb67fa732024d8b6b0620a2bb23bc208afda34ea7608d1b88f14b4": {
+      "engine": "google",
+      "query": "site:municipio-anadia.pt webcam Anadia",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:37:14Z",
+      "expires_at": "2026-07-29T22:36:52Z",
+      "results": []
+    },
+    "c052a8f50530ae69c7bbc089bcabaf2d9d173789290d51cc66205e26ddbe94f4": {
+      "engine": "google",
+      "query": "site:anadia.pt webcam Anadia",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:37:37Z",
+      "expires_at": "2026-07-29T22:37:14Z",
+      "results": []
+    },
+    "f7487993206452dfc1486fa339c5dc4f0a39874e0d57d3423669c9c5620e5c90": {
+      "engine": "google",
+      "query": "site:cm-anadia.pt (direto OR livestream OR câmara)",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:37:59Z",
+      "expires_at": "2026-07-29T22:37:37Z",
+      "results": []
+    },
+    "8c6dcc6c45d4cc702b47c9320428bca21a073d96ddeae7fef97994ca0cb27488": {
+      "engine": "google",
+      "query": "turismo Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:38:22Z",
+      "expires_at": "2026-07-29T22:37:59Z",
+      "results": []
+    },
+    "a8148c78dde000ad277c3dfdca6f427a7bf51ea9d63d18a4bab5490813a034f0": {
+      "engine": "google",
+      "query": "visit Anadia live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:38:44Z",
+      "expires_at": "2026-07-29T22:38:22Z",
+      "results": []
+    },
+    "8fde566c3ba77362e357907bc10c380bd474d28dd4fea52412f1199f21fb5192": {
+      "engine": "google",
+      "query": "site:visitportugal.com Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:39:06Z",
+      "expires_at": "2026-07-29T22:38:44Z",
+      "results": []
+    },
+    "cdc00b47fcfa0b6970403a9ef4d4b92507e2cb7c3a9e15e624f3b0ea338343a3": {
+      "engine": "google",
+      "query": "site:turismodeportugal.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:39:29Z",
+      "expires_at": "2026-07-29T22:39:06Z",
+      "results": []
+    },
+    "fff0744fc2567c7b82d88c581de830487df1c36c98f8b06e1ca7eae1283deb56": {
+      "engine": "google",
+      "query": "site:visitportoandnorth.travel Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:39:51Z",
+      "expires_at": "2026-07-29T22:39:29Z",
+      "results": []
+    },
+    "183b21a55302361dc89ed7c24a25bef92afccf8f6b1e5764a09ba9353c09660d": {
+      "engine": "google",
+      "query": "site:visitcentrodeportugal.com.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:40:13Z",
+      "expires_at": "2026-07-29T22:39:51Z",
+      "results": []
+    },
+    "ad0cce365c75a1aa8059fa966985a29adf1684664be9d46423a5e867943904dd": {
+      "engine": "google",
+      "query": "site:visitlisboa.com Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:40:36Z",
+      "expires_at": "2026-07-29T22:40:13Z",
+      "results": []
+    },
+    "b443cb1f22ae5b52e419d4cab5a6eb3a07030f455a2efbc02b865a8192a8e01a": {
+      "engine": "google",
+      "query": "site:visitalentejo.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:40:58Z",
+      "expires_at": "2026-07-29T22:40:36Z",
+      "results": []
+    },
+    "6de9d29c13b8f28b06255c304c77a0745fb2b15a4909703112bca1fbc323860d": {
+      "engine": "google",
+      "query": "site:visitalgarve.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:41:21Z",
+      "expires_at": "2026-07-29T22:40:58Z",
+      "results": []
+    },
+    "40b6806b523787dd826b917c42e1b9610e6b2c6d93fb640999b49a205c9f8e1e": {
+      "engine": "google",
+      "query": "\"webcam\" \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:41:43Z",
+      "expires_at": "2026-07-29T22:41:21Z",
+      "results": []
+    },
+    "f715cd6ce77a5b57ae3f35e781ee3feb0328eac5be7e74e2ae58955706a698bb": {
+      "engine": "google",
+      "query": "\"web cam\" \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:42:05Z",
+      "expires_at": "2026-07-29T22:41:43Z",
+      "results": []
+    },
+    "baf9847c743778e2a62041135a7c2a00cbc82ae7b44472b405f3bc08e12a1b73": {
+      "engine": "google",
+      "query": "\"live cam\" \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:42:28Z",
+      "expires_at": "2026-07-29T22:42:05Z",
+      "results": []
+    },
+    "34ddede6d7813e4f8bb5bba11e41ed2e7196a2b471d042aaea106d51926a105a": {
+      "engine": "google",
+      "query": "\"câmara ao vivo\" \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:42:50Z",
+      "expires_at": "2026-07-29T22:42:28Z",
+      "results": []
+    },
+    "2d3843d5557acb322fcd6cc1aa0e4c6b619bca7df7e925a8234624e75c9d3b37": {
+      "engine": "bing",
+      "query": "\"camera ao vivo\" \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:43:13Z",
+      "expires_at": "2026-07-29T22:42:50Z",
+      "results": []
+    },
+    "1e3f16684f0327072c22b441c3c6dce8eef9ad64796a8660e6c166db1caf6e23": {
+      "engine": "bing",
+      "query": "\"transmissão em direto\" \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:43:35Z",
+      "expires_at": "2026-07-29T22:43:13Z",
+      "results": []
+    },
+    "7de9bc9307dee048aef424854b645eff7974c88f41f6ad02ee5d991f95339038": {
+      "engine": "bing",
+      "query": "\"live stream\" \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:43:58Z",
+      "expires_at": "2026-07-29T22:43:35Z",
+      "results": []
+    },
+    "b3a9af7fd3ec5400ce1de7ad22124888a2a8609e7e76ae6557cab9dd864d36c1": {
+      "engine": "bing",
+      "query": "site:.pt webcam \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:44:20Z",
+      "expires_at": "2026-07-29T22:43:58Z",
+      "results": []
+    },
+    "774eb85d6f4c13932cbdce64c3e7ada04a4dff452d99109d2ced345b13a4fc83": {
+      "engine": "duckduckgo",
+      "query": "site:youtube.com/live \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:44:42Z",
+      "expires_at": "2026-07-29T22:44:20Z",
+      "results": []
+    },
+    "4f6a818180c6ca62090b90d1e0b118ad7646cdbb07d78d46bf4d91f1403fdebd": {
+      "engine": "duckduckgo",
+      "query": "site:facebook.com \"Anadia\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:45:04Z",
+      "expires_at": "2026-07-29T22:44:42Z",
+      "results": []
+    },
+    "e042ffcf0d69725e758b44cd16d161f80ee8477c4244dc6b19720720c3be0d76": {
+      "engine": "duckduckgo",
+      "query": "site:instagram.com \"Anadia\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:45:27Z",
+      "expires_at": "2026-07-29T22:45:04Z",
+      "results": []
+    },
+    "062f99fda92c2d053ea21b936837b92d464fe3670b40118e1851f538b5c1e5b1": {
+      "engine": "duckduckgo",
+      "query": "\"Axis\" \"Anadia\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:45:49Z",
+      "expires_at": "2026-07-29T22:45:27Z",
+      "results": []
+    },
+    "119fe6d3fd84ea5f815d8f986239eb49969b1fb2e95d0ab1ffd520312ecc522c": {
+      "engine": "duckduckgo",
+      "query": "\"Mobotix\" \"Anadia\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:46:12Z",
+      "expires_at": "2026-07-29T22:45:49Z",
+      "results": []
+    },
+    "4f08593f0c3d9e1e2df9a0b60722beef7138c44c76729ff78311d429d4ae7091": {
+      "engine": "duckduckgo",
+      "query": "\"Hikvision\" \"Anadia\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:46:34Z",
+      "expires_at": "2026-07-29T22:46:12Z",
+      "results": []
+    },
+    "2a139af1ef69c035e6ee007bc79f59a4c0fe19705ee5e384cee940f3e2799622": {
+      "engine": "google",
+      "query": "site:portugalwebcams.pt \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:46:57Z",
+      "expires_at": "2026-07-29T22:46:34Z",
+      "results": []
+    },
+    "c5d3259835081b15373d4eface86b49021b93ebfcea3de38c406e15b4ead5eca": {
+      "engine": "google",
+      "query": "site:webcamgalore.com \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:47:19Z",
+      "expires_at": "2026-07-29T22:46:57Z",
+      "results": []
+    },
+    "6c4f98f82181b4098e7c0e666aae1a7d4331172350da43040360c210ae329fd9": {
+      "engine": "google",
+      "query": "site:windy.com/webcams \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:47:41Z",
+      "expires_at": "2026-07-29T22:47:19Z",
+      "results": []
+    },
+    "81729f956ec6fdd7a9ae3170e19640220812d8b6fdffabd468cdb288bc3cb79d": {
+      "engine": "google",
+      "query": "site:windfinder.com/webcams \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:48:04Z",
+      "expires_at": "2026-07-29T22:47:41Z",
+      "results": []
+    },
+    "930b7366a1ffed26cdbe6dd139c7d78a2326453162a40f4b0774c11db4e5aa43": {
+      "engine": "google",
+      "query": "site:webcams.travel \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:48:26Z",
+      "expires_at": "2026-07-29T22:48:04Z",
+      "results": []
+    },
+    "d3e071a17c9fe9293102ed6d3068810b948ae330922e7cebd35d26009dfaf667": {
+      "engine": "google",
+      "query": "site:webcamtaxi.com \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:48:48Z",
+      "expires_at": "2026-07-29T22:48:26Z",
+      "results": []
+    },
+    "8902cd095ee1d88f2eb27196c3517232d37acbfa9229704b31bf3d131da8c32e": {
+      "engine": "google",
+      "query": "site:worldcam.eu \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:49:11Z",
+      "expires_at": "2026-07-29T22:48:48Z",
+      "results": []
+    },
+    "d3798447437b54af9b1b7dc316fa3e44d119d3348c893add89434974a1443cad": {
+      "engine": "google",
+      "query": "site:geowebcams.com \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:49:33Z",
+      "expires_at": "2026-07-29T22:49:11Z",
+      "results": []
+    },
+    "eb0bbafc4fc02b0656cba106e62acd14d396d0b1e41ba5fd11591c4116c9fff7": {
+      "engine": "google",
+      "query": "site:skylinewebcams.com \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:49:56Z",
+      "expires_at": "2026-07-29T22:49:33Z",
+      "results": []
+    },
+    "16d5b8a2fbb107c15c7c11c9822180cf829c0d5d729de2b5a2ae2ea19140c4a8": {
+      "engine": "google",
+      "query": "site:earthcam.com \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:50:18Z",
+      "expires_at": "2026-07-29T22:49:56Z",
+      "results": []
+    },
+    "12bcf4690ceb587cb0113598c646f5cbc9f6895249e35f8741a634e75406c5f2": {
+      "engine": "google",
+      "query": "site:ipcamlive.com \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:50:41Z",
+      "expires_at": "2026-07-29T22:50:18Z",
+      "results": []
+    },
+    "9e8152834cfb65d2493c4e9d4add8d1d66e5b8c43e7a9cad8b9254b6e82bdd0b": {
+      "engine": "google",
+      "query": "site:meteoblue.com \"Anadia\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:51:03Z",
+      "expires_at": "2026-07-29T22:50:41Z",
+      "results": []
+    },
+    "ad95c34a593b9184ba9d61b1419cafe6667847b0d095ef74090d5c59653a4dd9": {
+      "engine": "google",
+      "query": "site:spotazores.com \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:51:25Z",
+      "expires_at": "2026-07-29T22:51:03Z",
+      "results": []
+    },
+    "a6ee01967f60a6bdd77bb7453fe7462aff83de04014c07d3a03244275267545d": {
+      "engine": "google",
+      "query": "site:netmadeira.com \"Anadia\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:51:48Z",
+      "expires_at": "2026-07-29T22:51:25Z",
+      "results": []
+    },
+    "d62d39e500690d09fe4ebca5c9154ba547a66ab07b0e59040f8f1ded8ec59213": {
+      "engine": "google",
+      "query": "site:madeiracams.com \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:52:10Z",
+      "expires_at": "2026-07-29T22:51:48Z",
+      "results": []
+    },
+    "8eb19b514f24e6324f0c78548d573216d9f003a18753b7e3dca95c0d6bede61e": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:52:32Z",
+      "expires_at": "2026-07-29T22:52:10Z",
+      "results": []
+    },
+    "d6b27a6573ca24225652bcb5f694978f18a0d5be979b6abf0a79a955e39fbc16": {
+      "engine": "google",
+      "query": "site:back-office.beachcam.pt/livecams \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:52:55Z",
+      "expires_at": "2026-07-29T22:52:32Z",
+      "results": []
+    },
+    "d6cc889a948b4c259655d7f5761e371de52fe6aa94f155820e44db3caa89161b": {
+      "engine": "google",
+      "query": "Portugal webcam Portugal \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:53:17Z",
+      "expires_at": "2026-07-29T22:52:55Z",
+      "results": []
+    },
+    "70c116e61683e03b38b96ed4de9b2e1b74553ed49c0f03bf8451f3fa4c441138": {
+      "engine": "google",
+      "query": "Anadia praia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:53:39Z",
+      "expires_at": "2026-07-29T22:53:17Z",
+      "results": []
+    },
+    "de3e0dc56792a74bb5bc26db673b7eb60ad208c01f9ccbbed4def2f9d734948a": {
+      "engine": "google",
+      "query": "Anadia surf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:54:02Z",
+      "expires_at": "2026-07-29T22:53:39Z",
+      "results": []
+    },
+    "732d6ee69570450ae7e3bdcc5d89ccddaf1cfd45daa0bb67e0b1c14891cf03d1": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt Anadia",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:54:24Z",
+      "expires_at": "2026-07-29T22:54:02Z",
+      "results": []
+    },
+    "ca8ed2678c0119568abcacc7e0887db911e4bc7fb78819a348b4c3fe83a70c5f": {
+      "engine": "google",
+      "query": "site:surfline.com Anadia Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:54:47Z",
+      "expires_at": "2026-07-29T22:54:24Z",
+      "results": []
+    },
+    "7f1577defd18e86a78fb0291a876fbe25928c4da05da2b692c160a8736b0df64": {
+      "engine": "google",
+      "query": "site:magicseaweed.com Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:55:09Z",
+      "expires_at": "2026-07-29T22:54:47Z",
+      "results": []
+    },
+    "b2188932b3a3e211a188692ac8aec517640d8d2326d7d1119097a123d23fe5b9": {
+      "engine": "google",
+      "query": "site:windfinder.com Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:55:31Z",
+      "expires_at": "2026-07-29T22:55:09Z",
+      "results": []
+    },
+    "083e63e63e80a4e46bd172482e04eb55b6db97838bed75b7f1930e17880e5cdf": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Anadia praia",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:55:54Z",
+      "expires_at": "2026-07-29T22:55:31Z",
+      "results": []
+    },
+    "c34438ec8173ac4c215a9a91d2f97e2f498dc4c175fc181e993ead971f34a1fc": {
+      "engine": "google",
+      "query": "Anadia porto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:56:16Z",
+      "expires_at": "2026-07-29T22:55:54Z",
+      "results": []
+    },
+    "b822e2ec0e6df3437b4168d1c1ab34b4e7dce004b4086655fef6d9dbe5ab6685": {
+      "engine": "google",
+      "query": "Anadia marina webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:56:38Z",
+      "expires_at": "2026-07-29T22:56:16Z",
+      "results": []
+    },
+    "9352fb2151ec1ff7e8f18320818bb64e3e1825347e38f647741938e540379fa0": {
+      "engine": "google",
+      "query": "Anadia clube náutico live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:57:01Z",
+      "expires_at": "2026-07-29T22:56:38Z",
+      "results": []
+    },
+    "370c249d691b55a65f46fd2cd94f1d8e39a9ba1a33dc2e42b110c522513acd76": {
+      "engine": "google",
+      "query": "Anadia barra porto câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:57:23Z",
+      "expires_at": "2026-07-29T22:57:01Z",
+      "results": []
+    },
+    "5a351f2a4323b65bd04efc0fe9aedc310b928469f193fae9e9ff846c94bad88c": {
+      "engine": "google",
+      "query": "site:portosdeportugal.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:57:46Z",
+      "expires_at": "2026-07-29T22:57:23Z",
+      "results": []
+    },
+    "c09961cf2d61c60b7f0c4e9a1f85fb01364252684ea733fb008175f12985a2da": {
+      "engine": "google",
+      "query": "site:amn.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:58:08Z",
+      "expires_at": "2026-07-29T22:57:46Z",
+      "results": []
+    },
+    "ae9b6b379a1c0d792929000fd4e6346ae257781714565cdd26627f329a792a9f": {
+      "engine": "google",
+      "query": "site:docapesca.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:58:31Z",
+      "expires_at": "2026-07-29T22:58:08Z",
+      "results": []
+    },
+    "b34e42c4817c242efc30e11587d1c7da33397609fd9a2484f7e10e08885a44ea": {
+      "engine": "google",
+      "query": "site:apdl.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:58:53Z",
+      "expires_at": "2026-07-29T22:58:31Z",
+      "results": []
+    },
+    "94c6fe2f5de9066609957032047eb5714858a133dfad3bbd2986791d11e90089": {
+      "engine": "google",
+      "query": "site:portoaveiro.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:59:15Z",
+      "expires_at": "2026-07-29T22:58:53Z",
+      "results": []
+    },
+    "4ae1a6a0e9f4e0caf4303a4de992ed83e0f70d0f552416ce3a9e3fb7714c2075": {
+      "engine": "google",
+      "query": "site:portodelisboa.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T22:59:37Z",
+      "expires_at": "2026-07-29T22:59:15Z",
+      "results": []
+    },
+    "398bad21278ebeabbebdd3cf155fee31bd154a923b8fb3821f5f55ef49ddaf8c": {
+      "engine": "google",
+      "query": "site:apsinesalgarve.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:00:00Z",
+      "expires_at": "2026-07-29T22:59:37Z",
+      "results": []
+    },
+    "28323cb888e18a228f6a73ea72b151d1cc7b44aa020631df775580d86ff0c47c": {
+      "engine": "google",
+      "query": "Anadia aeroporto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:00:22Z",
+      "expires_at": "2026-07-29T23:00:00Z",
+      "results": []
+    },
+    "aaa35eb0a82668c7ed3c06be7350b2169bd7736d06f9d4c3fd0666e1d5f5f047": {
+      "engine": "google",
+      "query": "Anadia aeródromo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:00:44Z",
+      "expires_at": "2026-07-29T23:00:22Z",
+      "results": []
+    },
+    "45ee324361e09a8a6e4ab0a987ec5e05b4b6ee87c2abfa6d6abf587ea06d2823": {
+      "engine": "google",
+      "query": "Anadia aeroclube webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:01:07Z",
+      "expires_at": "2026-07-29T23:00:44Z",
+      "results": []
+    },
+    "2643bb55020090217f6d427165c54bf733c9b425ecce1d3a6769cadd481f1432": {
+      "engine": "google",
+      "query": "Anadia pista aviação câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:01:29Z",
+      "expires_at": "2026-07-29T23:01:07Z",
+      "results": []
+    },
+    "1bc21a6a9136d5adc8aa5253e87f39a964469de59e4df98b0bc91a83170d5304": {
+      "engine": "google",
+      "query": "site:ana.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:01:51Z",
+      "expires_at": "2026-07-29T23:01:29Z",
+      "results": []
+    },
+    "faa7a5c496b29fac515af88714519db9bb87aed376f930d1647ed49e4bf375df": {
+      "engine": "google",
+      "query": "site:nav.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:02:14Z",
+      "expires_at": "2026-07-29T23:01:51Z",
+      "results": []
+    },
+    "493fabb2b676ac2251b08dd0edb7fc488c9e0d4208fa0c16e4a794ca8b931813": {
+      "engine": "google",
+      "query": "site:airportwebcams.net Portugal Anadia",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:02:36Z",
+      "expires_at": "2026-07-29T23:02:14Z",
+      "results": []
+    },
+    "3cfaa4e41487a09128bc62bce87f06eea3b291b45c155cf756e3d9e5ca7926d8": {
+      "engine": "google",
+      "query": "site:metar-taf.com Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:02:59Z",
+      "expires_at": "2026-07-29T23:02:36Z",
+      "results": []
+    },
+    "0baf670c5d2b3d3ef80ed12a726dc4b68c0898ba46592b0379ad5ded0db0c381": {
+      "engine": "google",
+      "query": "site:youtube.com Anadia airport live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:03:21Z",
+      "expires_at": "2026-07-29T23:02:59Z",
+      "results": []
+    },
+    "499b4e818c2df0219c236640b5c7a5c3be7718d29fbbb6987d342f91195cec9b": {
+      "engine": "google",
+      "query": "site:facebook.com aeroclube Anadia direto",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:03:43Z",
+      "expires_at": "2026-07-29T23:03:21Z",
+      "results": []
+    },
+    "2c1f6a4a2a6ff6f44b755eec22b8ab679c269cf5b3feb47f34bcbd4b776a7672": {
+      "engine": "google",
+      "query": "Anadia trânsito estrada webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:04:06Z",
+      "expires_at": "2026-07-29T23:03:43Z",
+      "results": []
+    },
+    "35ae4e9f2998a38192432f3194f50f9a04b7e54fa1fe050adb84a4d12e05f2f8": {
+      "engine": "google",
+      "query": "Anadia câmara tráfego ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:04:28Z",
+      "expires_at": "2026-07-29T23:04:06Z",
+      "results": []
+    },
+    "20f641faea63d477eca51fb1fc8eeb7b2a0ab2015d07c7e62ebbb9c84788c94e": {
+      "engine": "google",
+      "query": "Anadia estação ferroviária webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:04:50Z",
+      "expires_at": "2026-07-29T23:04:28Z",
+      "results": []
+    },
+    "caadbbbb7f7d6bb920a17707d1c7b20a3a4b17429b44b8d76c5dfb61a68b3add": {
+      "engine": "google",
+      "query": "Anadia terminal rodoviário webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:05:13Z",
+      "expires_at": "2026-07-29T23:04:50Z",
+      "results": []
+    },
+    "4ed7d994c4e9575fbad6727cbccc3c2b8b6cdfd58f178fdff9f08737c5287cfa": {
+      "engine": "google",
+      "query": "site:infraestruturasdeportugal.pt Anadia camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:05:35Z",
+      "expires_at": "2026-07-29T23:05:13Z",
+      "results": []
+    },
+    "8384822e757b6211449f982a4b04288a089299199b58ef062104c483bfc37c87": {
+      "engine": "google",
+      "query": "site:estradas.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:05:58Z",
+      "expires_at": "2026-07-29T23:05:35Z",
+      "results": []
+    },
+    "681596baf8b175e25e56a99169d6a3df733f0338a81664ec18e8649e7015ff22": {
+      "engine": "google",
+      "query": "site:cp.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:06:20Z",
+      "expires_at": "2026-07-29T23:05:58Z",
+      "results": []
+    },
+    "65f92a1b0c53f63108e5e84eaba08bcddde3732c2267d15c03443996a7575591": {
+      "engine": "google",
+      "query": "site:metrolisboa.pt Anadia live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:06:43Z",
+      "expires_at": "2026-07-29T23:06:20Z",
+      "results": []
+    },
+    "978989d61137684fb9ce891990aa442c71fc12a2af8bcc0493d86b1ea1ba6e3c": {
+      "engine": "google",
+      "query": "site:metrodoporto.pt Anadia live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:07:05Z",
+      "expires_at": "2026-07-29T23:06:43Z",
+      "results": []
+    },
+    "7db817418bb79a75e04c9f66e70a33cb9905feaeeeb83704b588f176871b8238": {
+      "engine": "google",
+      "query": "Anadia serra webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:07:27Z",
+      "expires_at": "2026-07-29T23:07:05Z",
+      "results": []
+    },
+    "4b61f05224bd32c80d862fbb27806a88b694e1b7d330801bed9b75ddc31b81cc": {
+      "engine": "google",
+      "query": "Anadia parque natural webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:07:49Z",
+      "expires_at": "2026-07-29T23:07:27Z",
+      "results": []
+    },
+    "c1e1def250d004a99b6cfcaa562a2542cbca1706383639b9071d77ee4ac29611": {
+      "engine": "google",
+      "query": "Anadia barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:08:12Z",
+      "expires_at": "2026-07-29T23:07:49Z",
+      "results": []
+    },
+    "5f2d1e7c71314a1e8077640924b1815c0619a1abf3d3c2158964900e44b8eba6": {
+      "engine": "google",
+      "query": "Anadia miradouro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:08:34Z",
+      "expires_at": "2026-07-29T23:08:12Z",
+      "results": []
+    },
+    "9b3c17f67c4bd170d1b59efa1ed591206e870c0ee6750a64f0fceacac6c7ded4": {
+      "engine": "google",
+      "query": "Anadia rio webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:08:57Z",
+      "expires_at": "2026-07-29T23:08:34Z",
+      "results": []
+    },
+    "bd471854cd7e4a325350bcad04cf0ea21baa0f9b3befbcf6afdf115eeec62a1d": {
+      "engine": "google",
+      "query": "site:icnf.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:09:19Z",
+      "expires_at": "2026-07-29T23:08:57Z",
+      "results": []
+    },
+    "e9b714131974d478882b1f06473050c5088a750fd38930c4084343b04bb1e5d8": {
+      "engine": "google",
+      "query": "site:snirh.apambiente.pt Anadia câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:09:42Z",
+      "expires_at": "2026-07-29T23:09:19Z",
+      "results": []
+    },
+    "d9e66fea2d1e44a208d87dfd703015570bb02341c4df2ec6a43c9391ddfa78be": {
+      "engine": "google",
+      "query": "site:edp.com Anadia barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:10:04Z",
+      "expires_at": "2026-07-29T23:09:42Z",
+      "results": []
+    },
+    "5bbd9d64853a80f2943d4ec21cd8199d322c52cdc52a9ba0b5695c008523635a": {
+      "engine": "google",
+      "query": "site:meteoblue.com Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:10:26Z",
+      "expires_at": "2026-07-29T23:10:04Z",
+      "results": []
+    },
+    "99044ed948d0d63e09d1983bf25f741b21c35d697d395a13e57d9e4cea615e9c": {
+      "engine": "google",
+      "query": "Anadia hotel webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:10:49Z",
+      "expires_at": "2026-07-29T23:10:26Z",
+      "results": []
+    },
+    "fc45e818779b9a2fdcafde9f7af7086e6db4f746f44893d60c84d23f4b8893ef": {
+      "engine": "google",
+      "query": "Anadia resort webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:11:11Z",
+      "expires_at": "2026-07-29T23:10:49Z",
+      "results": []
+    },
+    "7e9af7776c5efb736448533c620e54b3314548133e6f143526df61e8a5e10d5c": {
+      "engine": "google",
+      "query": "Anadia alojamento webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:11:33Z",
+      "expires_at": "2026-07-29T23:11:11Z",
+      "results": []
+    },
+    "4d15a8226176955219e6b2a91003a5cd4996660bed2b9b3ca80b853d97800061": {
+      "engine": "google",
+      "query": "Anadia parque de campismo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:11:56Z",
+      "expires_at": "2026-07-29T23:11:33Z",
+      "results": []
+    },
+    "dfa821154db628053af9a1b33e5dae928f4a833788cd7b25c0d0512901f45305": {
+      "engine": "google",
+      "query": "site:booking.com Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:12:18Z",
+      "expires_at": "2026-07-29T23:11:56Z",
+      "results": []
+    },
+    "bc7f0cbc01a3cc19ba2a8da248bfffea6f121859a63f3b2f090e4e6cbfbdd2b7": {
+      "engine": "google",
+      "query": "site:youtube.com hotel Anadia live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:12:35Z",
+      "expires_at": "2026-07-29T23:12:18Z",
+      "results": []
+    },
+    "adb00dabf200ff719de0b4a8e14cb6697f30e934cdb7f40dd5dd381849a28c57": {
+      "engine": "google",
+      "query": "Anadia golf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:12:58Z",
+      "expires_at": "2026-07-29T23:12:35Z",
+      "results": []
+    },
+    "ef3493cff7e1cc11daa0d02c225f7c2b99fef574df45502494949e1281865a16": {
+      "engine": "google",
+      "query": "Anadia estádio webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:13:20Z",
+      "expires_at": "2026-07-29T23:12:58Z",
+      "results": []
+    },
+    "fa2b7865f612f20255f7b2aee78dcbceda86718239332cca5d2ed879137a0ef1": {
+      "engine": "google",
+      "query": "Anadia ski webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:13:43Z",
+      "expires_at": "2026-07-29T23:13:20Z",
+      "results": []
+    },
+    "6f45c013300212c5eefb4122093e2f05c4fb7cf083b6a8a9b42fe04566b85dd8": {
+      "engine": "google",
+      "query": "Anadia estância neve webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:14:05Z",
+      "expires_at": "2026-07-29T23:13:43Z",
+      "results": []
+    },
+    "a73d32b974f3bd4003545172c74bd16371ec0b6e6ac00fe34a067cbb40abe621": {
+      "engine": "google",
+      "query": "Anadia circuito automóvel webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:14:28Z",
+      "expires_at": "2026-07-29T23:14:05Z",
+      "results": []
+    },
+    "357b40880f6537fafcb440ea4a7743c294a401e83cd0a524a7ada62a35be7cfd": {
+      "engine": "google",
+      "query": "Anadia clube desportivo live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:14:50Z",
+      "expires_at": "2026-07-29T23:14:28Z",
+      "results": []
+    },
+    "448677667442abe38ff7fbd6df397b8dd07e7af6a58aa3048672ad65bf73d8ca": {
+      "engine": "google",
+      "query": "Anadia meteorologia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:15:13Z",
+      "expires_at": "2026-07-29T23:14:50Z",
+      "results": []
+    },
+    "ef07ab8a5f3436a5698a4064d81df3754c901249f89c80977cd4c05b015a8f8a": {
+      "engine": "google",
+      "query": "Anadia estação meteorológica câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:15:35Z",
+      "expires_at": "2026-07-29T23:15:13Z",
+      "results": []
+    },
+    "df3d2974e19c1fbb5366ce16709bb6d43a01bf15e0353c05bb7e5fe8268a733f": {
+      "engine": "google",
+      "query": "Anadia observatório webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:15:57Z",
+      "expires_at": "2026-07-29T23:15:35Z",
+      "results": []
+    },
+    "bab81ddb34188c0a570c32a39dc2f41a30bf26f876bcf2ca05826f7924c93b4d": {
+      "engine": "google",
+      "query": "site:ipma.pt Anadia camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:16:20Z",
+      "expires_at": "2026-07-29T23:15:57Z",
+      "results": []
+    },
+    "05aebe01238feef2e77770b9cdbc751c3460f234e5359e0e288831def9864d25": {
+      "engine": "google",
+      "query": "site:observar.ipma.pt Anadia Câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:16:42Z",
+      "expires_at": "2026-07-29T23:16:20Z",
+      "results": []
+    },
+    "1021baa64f8c34f4c7abf3c45854dac35f1e52fe870418a00cd283be16a3d3fb": {
+      "engine": "google",
+      "query": "site:weathercloud.net Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:17:05Z",
+      "expires_at": "2026-07-29T23:16:42Z",
+      "results": []
+    },
+    "7fbaf9c9ee13b2d57f8beecb963e86d9afca8fbecd1c2aa0ad77fdf3e9e7fa25": {
+      "engine": "google",
+      "query": "site:wunderground.com Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:17:27Z",
+      "expires_at": "2026-07-29T23:17:05Z",
+      "results": []
+    },
+    "818a1b4d7be569978009afbfdc728e9f8218b2ec0005cd4ee5511e47c7ab8a35": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Anadia",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:17:49Z",
+      "expires_at": "2026-07-29T23:17:27Z",
+      "results": []
+    },
+    "4be820a44ed9124872362b5e457a98e3f84b421b4007bd0f96e19ebfdeb694e7": {
+      "engine": "google",
+      "query": "Anadia universidade webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:18:12Z",
+      "expires_at": "2026-07-29T23:17:49Z",
+      "results": []
+    },
+    "b4f8e6aec49ea113fd058f2232613a6b7a8d90d1df727a32865dc6a54e12727f": {
+      "engine": "google",
+      "query": "Anadia observatório astronómico live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:18:34Z",
+      "expires_at": "2026-07-29T23:18:12Z",
+      "results": []
+    },
+    "9c93d4dce4471fad3b4c5c2ccc858358fd398a11dcabc988fc413bb8aff4a6fc": {
+      "engine": "google",
+      "query": "Anadia centro ciência webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:18:57Z",
+      "expires_at": "2026-07-29T23:18:34Z",
+      "results": []
+    },
+    "bd4f5adc30dc4c39080c6902dc155f18238b06222502a3b2724f770490a34250": {
+      "engine": "google",
+      "query": "site:ulisboa.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:19:19Z",
+      "expires_at": "2026-07-29T23:18:57Z",
+      "results": []
+    },
+    "3c6293198120c90e32866d51b966729beacfeb6364359d05a1f5ef47243b85f3": {
+      "engine": "google",
+      "query": "site:up.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:19:41Z",
+      "expires_at": "2026-07-29T23:19:19Z",
+      "results": []
+    },
+    "077248d37c2760d5e7a338dda750677fba4e7c86c39f2728aa6156c02b745019": {
+      "engine": "google",
+      "query": "site:uc.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:20:04Z",
+      "expires_at": "2026-07-29T23:19:41Z",
+      "results": []
+    },
+    "471c7ff7e30fb418cb4070b68aa989f92781419d84816ac004ebf542b412c794": {
+      "engine": "google",
+      "query": "site:uminho.pt Anadia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:20:26Z",
+      "expires_at": "2026-07-29T23:20:04Z",
+      "results": []
+    },
+    "a3eaa4177f1fd52e3ef177c3ca67774c6510a32b886b8c107352002a7f3eb4ef": {
+      "engine": "google",
+      "query": "site:youtube.com/watch \"Anadia\" live webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:20:49Z",
+      "expires_at": "2026-07-29T23:20:26Z",
+      "results": []
+    },
+    "4f736b596e8f2c744523d411e2f569b0c914c0ef6839a1620f682e76706b5bd0": {
+      "engine": "google",
+      "query": "site:youtube.com/live \"Anadia\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:21:11Z",
+      "expires_at": "2026-07-29T23:20:49Z",
+      "results": []
+    },
+    "f373e8e4f53f6db226b38c0245ee36bbbe1eb82e781a03e7c28e2db89c0fb861": {
+      "engine": "google",
+      "query": "site:facebook.com \"Anadia\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:21:34Z",
+      "expires_at": "2026-07-29T23:21:11Z",
+      "results": []
+    },
+    "c900947b3457a32d2c8905c9be5c0a3cc50856f9780f60336f6d20e188e317f3": {
+      "engine": "google",
+      "query": "site:twitch.tv \"Anadia\" Portugal live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:21:56Z",
+      "expires_at": "2026-07-29T23:21:34Z",
+      "results": []
+    },
+    "c9b6965da9d99617ff8616fc1742479462b760cfe29d0b954c373c89d78e42b5": {
+      "engine": "google",
+      "query": "site:instagram.com \"Anadia\" direto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:22:18Z",
+      "expires_at": "2026-07-29T23:21:56Z",
+      "results": []
+    },
+    "efe4ec5c19d8b9afde7d2210a383765eb86be80d53c83ae3d99203445878ded0": {
+      "engine": "google",
+      "query": "\"Anadia\" m3u8 webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:22:41Z",
+      "expires_at": "2026-07-29T23:22:18Z",
+      "results": []
+    },
+    "0c303c9ac4083c8d60fdeaa0cbaef84229de7f3c4699b9ea97d504cd037bb851": {
+      "engine": "google",
+      "query": "\"Anadia\" mpd live camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:23:03Z",
+      "expires_at": "2026-07-29T23:22:41Z",
+      "results": []
+    },
+    "6c389bf50b5623144a78ed958cd321856dabe5057ebe2186e91f1a0e483d0b13": {
+      "engine": "google",
+      "query": "\"Anadia\" mjpeg camera",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:23:25Z",
+      "expires_at": "2026-07-29T23:23:03Z",
+      "results": []
+    },
+    "d89c39f32a7652079216113d6c6884ace51667ce16e9c6f9e24451a3eb914a51": {
+      "engine": "google",
+      "query": "\"Anadia\" snapshot.jpg",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:23:48Z",
+      "expires_at": "2026-07-29T23:23:25Z",
+      "results": []
+    },
+    "9e3cad31d979afc32fb2342ab20896b9ec21ac0be229809b059d5c39044e35b8": {
+      "engine": "google",
+      "query": "\"Anadia\" videostream.cgi",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:24:10Z",
+      "expires_at": "2026-07-29T23:23:48Z",
+      "results": []
+    },
+    "96177a1b666521f61721a98ae5b87a440114f95c18b7e8ccc4b2d123be6c8664": {
+      "engine": "google",
+      "query": "\"Anadia\" axis-cgi/mjpg",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:24:33Z",
+      "expires_at": "2026-07-29T23:24:10Z",
+      "results": []
+    },
+    "a28499b174409efacd565d6027665ac92209369621127a8948ccdb5565d609c0": {
+      "engine": "google",
+      "query": "\"Anadia\" iframe live",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:24:55Z",
+      "expires_at": "2026-07-29T23:24:33Z",
+      "results": []
+    },
+    "750ac3f0383edf5cd1c267a895b5a78c15157d44619e5ec74f1960903f3496b4": {
+      "engine": "google",
+      "query": "inurl:viewerframe?mode=motion \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:25:17Z",
+      "expires_at": "2026-07-29T23:24:55Z",
+      "results": []
+    },
+    "53a005b1d6e05153aaf87c4c5a78d46d6c54c5e80ac87617c93e0b7eccf859a1": {
+      "engine": "google",
+      "query": "inurl:axis-cgi \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:25:40Z",
+      "expires_at": "2026-07-29T23:25:17Z",
+      "results": []
+    },
+    "65d37474cf2bbf083a074c4ce0321ab0aca1445e7200219ce7d09f1524e56f23": {
+      "engine": "google",
+      "query": "inurl:Streaming/channels \"Anadia\"",
+      "max_results": 10,
+      "checked_at": "2026-07-27T23:26:02Z",
+      "expires_at": "2026-07-29T23:25:40Z",
+      "results": []
+    }
+  }
 }
