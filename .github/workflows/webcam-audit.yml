@@ -24,7 +24,7 @@ concurrency:
 jobs:
   audit:
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 300
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
@@ -40,32 +40,50 @@ jobs:
           cache-dependency-path: requirements-audit.txt
 
       - name: Install dependencies
-        run: pip install -r requirements-audit.txt
+        run: pip install --disable-pip-version-check -r requirements-audit.txt
 
-      - name: Compile crawler before running
+      - name: Compile and validate crawler
         run: |
+          set -euo pipefail
           python -m py_compile scripts/webcam_audit.py
           python -m py_compile scripts/run_audit_diagnostics.py
           python -m py_compile scripts/run_audit_pro.py
           python -m py_compile scripts/run_audit_ultra.py
           python -m py_compile scripts/run_audit_ultra_fixed.py
           python -m py_compile scripts/run_audit_clean.py
+          python -m py_compile scripts/run_audit_v3.py
           python -m py_compile scripts/update_audit_progress.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for path, default in (
+              (Path('audit/unassigned-portugal-cameras.json'), []),
+              (Path('audit/cache/search-cache.json'), {'schema_version': 1, 'entries': {}}),
+          ):
+              path.parent.mkdir(parents=True, exist_ok=True)
+              if not path.exists():
+                  path.write_text(json.dumps(default, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+              json.loads(path.read_text(encoding='utf-8'))
+          PY
 
-      - name: Run comprehensive audit with diagnostics
+      - name: Run cached lossless audit
         id: audit
         continue-on-error: true
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
-          AUDIT_DELAY: "0.6"
-          AUDIT_CONNECT_TIMEOUT: "6"
-          AUDIT_READ_TIMEOUT: "15"
+          AUDIT_DELAY: "0.45"
+          AUDIT_CONNECT_TIMEOUT: "5"
+          AUDIT_READ_TIMEOUT: "12"
           AUDIT_RETRIES: "1"
-          AUDIT_RETRY_BACKOFF: "0.5"
-          AUDIT_MAX_PAGE_BYTES: "3000000"
+          AUDIT_RETRY_BACKOFF: "0.4"
+          AUDIT_MAX_PAGE_BYTES: "2500000"
+          AUDIT_POSITIVE_CACHE_DAYS: "14"
+          AUDIT_EMPTY_CACHE_HOURS: "48"
+          AUDIT_MAX_CACHE_ENTRIES: "25000"
           PYTHONUNBUFFERED: "1"
         shell: bash
         run: |
+          set -o pipefail
           LIMIT="${{ github.event.inputs.limit }}"
           LIMIT="${LIMIT:-3}"
           MUNICIPALITY="${{ github.event.inputs.municipality_id }}"
@@ -73,22 +91,56 @@ jobs:
           if [[ -n "$MUNICIPALITY" ]]; then
             ARGS+=(--municipality-id "$MUNICIPALITY")
           fi
-          python scripts/run_audit_clean.py "${ARGS[@]}"
+          python scripts/run_audit_v3.py "${ARGS[@]}" 2>&1 | awk '
+            /^HTTP ERROR/ || /^HTTP (401|403|408|425|429|5[0-9][0-9])/ {
+              print "::notice title=External source skipped::" $0
+              next
+            }
+            { print }
+          '
 
       - name: Validate evidence and update progress
         if: steps.audit.outcome == 'success'
         run: python scripts/update_audit_progress.py
 
-      - name: Add audit report to GitHub Actions summary
+      - name: Validate generated JSON
+        if: always()
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          required = [
+              Path('audit/unassigned-portugal-cameras.json'),
+              Path('audit/cache/search-cache.json'),
+              Path('audit/auto-cameras.json'),
+          ]
+          for path in required:
+              if path.exists():
+                  json.loads(path.read_text(encoding='utf-8'))
+                  print(f'VALID JSON {path}')
+          PY
+
+      - name: Add audit report to summary
         if: always()
         shell: bash
         run: |
           if [[ -f audit/logs/latest-summary.md ]]; then
             cat audit/logs/latest-summary.md >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "# Audit diagnostics missing" >> "$GITHUB_STEP_SUMMARY"
-            echo "The diagnostic runner did not create its summary file." >> "$GITHUB_STEP_SUMMARY"
+            echo "# Audit diagnostics unavailable" >> "$GITHUB_STEP_SUMMARY"
           fi
+          python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          pending = Path('audit/unassigned-portugal-cameras.json')
+          cache = Path('audit/cache/search-cache.json')
+          pending_count = len(json.loads(pending.read_text(encoding='utf-8'))) if pending.exists() else 0
+          cache_count = len(json.loads(cache.read_text(encoding='utf-8')).get('entries', {})) if cache.exists() else 0
+          print('\n## Persistent discovery inventory')
+          print(f'- Portugal webcam candidates awaiting exact location: **{pending_count}**')
+          print(f'- Reusable cached searches: **{cache_count}**')
+          PY
 
       - name: Upload complete diagnostic artifact
         if: always()
@@ -101,24 +153,26 @@ jobs:
             audit/logs/
             audit/last-automated-run.json
             audit/evidence/
+            audit/unassigned-portugal-cameras.json
 
-      - name: Commit generated evidence and diagnostics
+      - name: Commit generated audit state
         if: always()
         shell: bash
         run: |
-          if git diff --quiet && [[ -z "$(git status --porcelain)" ]]; then
+          set -euo pipefail
+          git config user.name "webcam-audit-bot"
+          git config user.email "webcam-audit-bot@users.noreply.github.com"
+          git add audit/evidence audit/auto-cameras.json audit/unassigned-portugal-cameras.json audit/cache/search-cache.json audit/last-automated-run.json audit/progress-current.json audit/municipalities.csv audit/logs
+          if git diff --cached --quiet; then
             echo "No audit changes to commit."
             exit 0
           fi
-          git config user.name "webcam-audit-bot"
-          git config user.email "webcam-audit-bot@users.noreply.github.com"
-          git add audit/evidence audit/auto-cameras.json audit/last-automated-run.json audit/progress-current.json audit/municipalities.csv audit/logs
-          git commit -m "audit: process next Portugal municipalities"
+          git commit -m "audit: update cached Portugal webcam discovery state"
           git pull --rebase origin main
           git push origin HEAD:main
 
-      - name: Fail workflow when crawler failed
+      - name: Fail only on internal crawler failure
         if: steps.audit.outcome != 'success'
         run: |
-          echo "The crawler failed. Review the job summary and the uploaded diagnostics artifact."
+          echo "The crawler process failed internally. External HTTP blocks are recorded as notices and do not reach this step."
           exit 1
