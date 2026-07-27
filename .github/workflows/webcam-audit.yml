@@ -47,15 +47,16 @@ jobs:
           python -m py_compile scripts/webcam_audit.py
           python -m py_compile scripts/run_audit_diagnostics.py
           python -m py_compile scripts/run_audit_pro.py
+          python -m py_compile scripts/run_audit_ultra.py
+          python -m py_compile scripts/run_audit_ultra_fixed.py
           python -m py_compile scripts/update_audit_progress.py
 
-      - name: Run sequential pro audit with diagnostics
+      - name: Run comprehensive audit with diagnostics
         id: audit
         continue-on-error: true
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           AUDIT_DELAY: "0.7"
-          AUDIT_MAX_RESULTS: "10"
           AUDIT_CONNECT_TIMEOUT: "8"
           AUDIT_READ_TIMEOUT: "20"
           AUDIT_RETRIES: "3"
@@ -71,7 +72,7 @@ jobs:
           if [[ -n "$MUNICIPALITY" ]]; then
             ARGS+=(--municipality-id "$MUNICIPALITY")
           fi
-          python scripts/run_audit_pro.py "${ARGS[@]}"
+          python scripts/run_audit_ultra_fixed.py "${ARGS[@]}"
 
       - name: Validate evidence and update progress
         if: steps.audit.outcome == 'success'
