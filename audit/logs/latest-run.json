@@ -1,7 +1,7 @@
 {
-  "started_at": "2026-07-27T00:02:38Z",
-  "finished_at": "2026-07-27T04:23:05Z",
-  "duration_seconds": 15626.58,
+  "started_at": "2026-07-27T04:50:32Z",
+  "finished_at": "2026-07-27T05:12:41Z",
+  "duration_seconds": 1329.59,
   "exit_code": 0,
   "result": "success",
   "configuration": {
@@ -9,591 +9,472 @@
     "audit_delay": "1.4",
     "arguments": [
       "--limit",
-      "20",
+      "3",
       "--max-results",
       "8"
     ]
   },
   "http": {
-    "requests": 3260,
+    "requests": 494,
     "status_counts": {
-      "200": 2500,
-      "202": 102,
-      "403": 58,
-      "error": 600
+      "200": 380,
+      "202": 51,
+      "403": 29,
+      "error": 34
     },
-    "blocked_401_403_429": 58,
+    "blocked_401_403_429": 29,
     "server_errors_5xx": 0,
     "error_counts": {
-      "ConnectionError": 3,
-      "ConnectTimeout": 597
+      "ConnectionError": 1,
+      "ConnectTimeout": 33
     },
     "slowest": [
       {
-        "at": "2026-07-27T03:36:27Z",
+        "at": "2026-07-27T05:01:55Z",
         "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=site%3Awebcamgalore.com+Amares+Portugal",
+        "url": "https://html.duckduckgo.com/html/?q=site%3Awebcamgalore.com+Almod%C3%B4var+Portugal",
         "domain": "html.duckduckgo.com",
         "status": "error",
-        "seconds": 18.305,
+        "seconds": 18.261,
         "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=site%3Awebcamgalore.com+Amares+Portugal (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e38ea180>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=site%3Awebcamgalore.com+Almod%C3%B4var+Portugal (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e7145a60>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
       },
       {
-        "at": "2026-07-27T03:08:44Z",
+        "at": "2026-07-27T05:05:27Z",
         "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=Serpa+aeroporto+aer%C3%B3dromo+webcam",
+        "url": "https://html.duckduckgo.com/html/?q=Almod%C3%B4var+clube+n%C3%A1utico+live+cam",
         "domain": "html.duckduckgo.com",
         "status": "error",
-        "seconds": 18.19,
+        "seconds": 18.215,
         "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Serpa+aeroporto+aer%C3%B3dromo+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e3834950>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Almod%C3%B4var+clube+n%C3%A1utico+live+cam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6fe3920>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
       },
       {
-        "at": "2026-07-27T00:21:16Z",
+        "at": "2026-07-27T04:58:50Z",
+        "method": "GET",
+        "url": "https://html.duckduckgo.com/html/?q=%22live+cam%22+%22Almod%C3%B4var%22",
+        "domain": "html.duckduckgo.com",
+        "status": "error",
+        "seconds": 18.141,
+        "error_type": "ConnectTimeout",
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22live+cam%22+%22Almod%C3%B4var%22 (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e7116390>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+      },
+      {
+        "at": "2026-07-27T05:04:01Z",
+        "method": "GET",
+        "url": "https://html.duckduckgo.com/html/?q=site%3Abeachcam.pt+Almod%C3%B4var",
+        "domain": "html.duckduckgo.com",
+        "status": "error",
+        "seconds": 18.138,
+        "error_type": "ConnectTimeout",
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=site%3Abeachcam.pt+Almod%C3%B4var (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6c9fc20>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+      },
+      {
+        "at": "2026-07-27T05:07:36Z",
+        "method": "GET",
+        "url": "https://html.duckduckgo.com/html/?q=Almod%C3%B4var+serra+parque+barragem+miradouro+webcam",
+        "domain": "html.duckduckgo.com",
+        "status": "error",
+        "seconds": 18.09,
+        "error_type": "ConnectTimeout",
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Almod%C3%B4var+serra+parque+barragem+miradouro+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6c5cd10>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+      },
+      {
+        "at": "2026-07-27T05:11:18Z",
+        "method": "GET",
+        "url": "https://html.duckduckgo.com/html/?q=Almod%C3%B4var+mjpeg+camera",
+        "domain": "html.duckduckgo.com",
+        "status": "error",
+        "seconds": 18.071,
+        "error_type": "ConnectTimeout",
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Almod%C3%B4var+mjpeg+camera (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e71325a0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+      },
+      {
+        "at": "2026-07-27T05:03:40Z",
+        "method": "GET",
+        "url": "https://html.duckduckgo.com/html/?q=Almod%C3%B4var+surf+webcam",
+        "domain": "html.duckduckgo.com",
+        "status": "error",
+        "seconds": 18.065,
+        "error_type": "ConnectTimeout",
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Almod%C3%B4var+surf+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6f92990>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+      },
+      {
+        "at": "2026-07-27T05:07:04Z",
+        "method": "GET",
+        "url": "https://html.duckduckgo.com/html/?q=Almod%C3%B4var+esta%C3%A7%C3%A3o+ferrovia+camera+live",
+        "domain": "html.duckduckgo.com",
+        "status": "error",
+        "seconds": 18.059,
+        "error_type": "ConnectTimeout",
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Almod%C3%B4var+esta%C3%A7%C3%A3o+ferrovia+camera+live (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6f933e0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+      },
+      {
+        "at": "2026-07-27T04:58:31Z",
+        "method": "GET",
+        "url": "https://html.duckduckgo.com/html/?q=%22web+cam%22+%22Almod%C3%B4var%22",
+        "domain": "html.duckduckgo.com",
+        "status": "error",
+        "seconds": 18.058,
+        "error_type": "ConnectTimeout",
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22web+cam%22+%22Almod%C3%B4var%22 (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e7253740>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+      },
+      {
+        "at": "2026-07-27T05:00:53Z",
+        "method": "GET",
+        "url": "https://html.duckduckgo.com/html/?q=%22mjpg%22+%22Almod%C3%B4var%22",
+        "domain": "html.duckduckgo.com",
+        "status": "error",
+        "seconds": 18.058,
+        "error_type": "ConnectTimeout",
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22mjpg%22+%22Almod%C3%B4var%22 (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6a832c0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+      },
+      {
+        "at": "2026-07-27T05:12:23Z",
+        "method": "GET",
+        "url": "https://html.duckduckgo.com/html/?q=Almod%C3%B4var+iframe+live",
+        "domain": "html.duckduckgo.com",
+        "status": "error",
+        "seconds": 18.045,
+        "error_type": "ConnectTimeout",
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Almod%C3%B4var+iframe+live (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e7131130>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+      },
+      {
+        "at": "2026-07-27T05:06:31Z",
+        "method": "GET",
+        "url": "https://html.duckduckgo.com/html/?q=Almod%C3%B4var+tr%C3%A2nsito+estrada+webcam",
+        "domain": "html.duckduckgo.com",
+        "status": "error",
+        "seconds": 18.039,
+        "error_type": "ConnectTimeout",
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Almod%C3%B4var+tr%C3%A2nsito+estrada+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6f3d9a0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+      },
+      {
+        "at": "2026-07-27T04:59:36Z",
+        "method": "GET",
+        "url": "https://html.duckduckgo.com/html/?q=site%3Ayoutube.com+live+%22Almod%C3%B4var%22+Portugal",
+        "domain": "html.duckduckgo.com",
+        "status": "error",
+        "seconds": 18.029,
+        "error_type": "ConnectTimeout",
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=site%3Ayoutube.com+live+%22Almod%C3%B4var%22+Portugal (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6a80ce0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+      },
+      {
+        "at": "2026-07-27T04:59:55Z",
+        "method": "GET",
+        "url": "https://html.duckduckgo.com/html/?q=%22Axis%22+%22Almod%C3%B4var%22+camera",
+        "domain": "html.duckduckgo.com",
+        "status": "error",
+        "seconds": 18.027,
+        "error_type": "ConnectTimeout",
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22Axis%22+%22Almod%C3%B4var%22+camera (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6a80290>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+      },
+      {
+        "at": "2026-07-27T05:08:07Z",
         "method": "GET",
         "url": "https://html.duckduckgo.com/html/?q=Almod%C3%B4var+hotel+resort+webcam+live",
         "domain": "html.duckduckgo.com",
         "status": "error",
-        "seconds": 18.156,
+        "seconds": 18.026,
         "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Almod%C3%B4var+hotel+resort+webcam+live (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e3546840>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Almod%C3%B4var+hotel+resort+webcam+live (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e71309b0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
       },
       {
-        "at": "2026-07-27T01:53:43Z",
+        "at": "2026-07-27T05:11:51Z",
         "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=site%3Ayoutube.com%2Fwatch+Ferreira+do+Alentejo+live+webcam",
+        "url": "https://html.duckduckgo.com/html/?q=Almod%C3%B4var+snapshot.jpg",
         "domain": "html.duckduckgo.com",
         "status": "error",
-        "seconds": 18.124,
+        "seconds": 18.026,
         "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=site%3Ayoutube.com%2Fwatch+Ferreira+do+Alentejo+live+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e36e4410>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Almod%C3%B4var+snapshot.jpg (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6e5e660>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
       },
       {
-        "at": "2026-07-27T03:38:15Z",
+        "at": "2026-07-27T05:03:08Z",
         "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=Amares+surf+webcam",
+        "url": "https://html.duckduckgo.com/html/?q=Almod%C3%B4var+praia+webcam",
         "domain": "html.duckduckgo.com",
         "status": "error",
-        "seconds": 18.124,
+        "seconds": 18.025,
         "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Amares+surf+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e36956d0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Almod%C3%B4var+praia+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6f500b0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
       },
       {
-        "at": "2026-07-27T01:39:38Z",
+        "at": "2026-07-27T05:05:59Z",
         "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=Cuba+mjpeg+camera",
+        "url": "https://html.duckduckgo.com/html/?q=Almod%C3%B4var+aeroporto+aer%C3%B3dromo+webcam",
         "domain": "html.duckduckgo.com",
         "status": "error",
-        "seconds": 18.122,
+        "seconds": 18.025,
         "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Cuba+mjpeg+camera (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e3697740>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Almod%C3%B4var+aeroporto+aer%C3%B3dromo+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6a80e00>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
       },
       {
-        "at": "2026-07-27T02:00:32Z",
+        "at": "2026-07-27T05:01:34Z",
         "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=%22HLS%22+%22M%C3%A9rtola%22+webcam",
+        "url": "https://html.duckduckgo.com/html/?q=site%3Aportugalwebcams.pt+Almod%C3%B4var",
         "domain": "html.duckduckgo.com",
         "status": "error",
-        "seconds": 18.12,
+        "seconds": 18.024,
         "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22HLS%22+%22M%C3%A9rtola%22+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e35d1460>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=site%3Aportugalwebcams.pt+Almod%C3%B4var (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e6a82510>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
       },
       {
-        "at": "2026-07-27T03:25:12Z",
+        "at": "2026-07-27T05:02:16Z",
         "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=Vidigueira+tr%C3%A2nsito+estrada+webcam",
+        "url": "https://html.duckduckgo.com/html/?q=site%3Askylinewebcams.com+Almod%C3%B4var",
         "domain": "html.duckduckgo.com",
         "status": "error",
-        "seconds": 18.12,
+        "seconds": 18.023,
         "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Vidigueira+tr%C3%A2nsito+estrada+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e34f7b60>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
-      },
-      {
-        "at": "2026-07-27T02:04:43Z",
-        "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=M%C3%A9rtola+porto+marina+webcam",
-        "domain": "html.duckduckgo.com",
-        "status": "error",
-        "seconds": 18.116,
-        "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=M%C3%A9rtola+porto+marina+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e39baa80>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
-      },
-      {
-        "at": "2026-07-27T03:05:09Z",
-        "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=site%3Askylinewebcams.com+Serpa",
-        "domain": "html.duckduckgo.com",
-        "status": "error",
-        "seconds": 18.116,
-        "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=site%3Askylinewebcams.com+Serpa (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e3481730>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
-      },
-      {
-        "at": "2026-07-27T03:12:53Z",
-        "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=site%3Afacebook.com+Serpa+webcam+live",
-        "domain": "html.duckduckgo.com",
-        "status": "error",
-        "seconds": 18.115,
-        "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=site%3Afacebook.com+Serpa+webcam+live (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e3836540>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
-      },
-      {
-        "at": "2026-07-27T03:51:10Z",
-        "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=%22HLS%22+%22Barcelos%22+webcam",
-        "domain": "html.duckduckgo.com",
-        "status": "error",
-        "seconds": 18.113,
-        "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22HLS%22+%22Barcelos%22+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e3a5ec90>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
-      },
-      {
-        "at": "2026-07-27T00:42:13Z",
-        "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=turismo+Barrancos+webcam",
-        "domain": "html.duckduckgo.com",
-        "status": "error",
-        "seconds": 18.112,
-        "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=turismo+Barrancos+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e3976540>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
-      },
-      {
-        "at": "2026-07-27T01:46:19Z",
-        "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=site%3Askylinewebcams.com+Ferreira+do+Alentejo",
-        "domain": "html.duckduckgo.com",
-        "status": "error",
-        "seconds": 18.111,
-        "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=site%3Askylinewebcams.com+Ferreira+do+Alentejo (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e3522bd0>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
-      },
-      {
-        "at": "2026-07-27T01:22:36Z",
-        "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=Castro+Verde+tr%C3%A2nsito+estrada+webcam",
-        "domain": "html.duckduckgo.com",
-        "status": "error",
-        "seconds": 18.11,
-        "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Castro+Verde+tr%C3%A2nsito+estrada+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e3a3d310>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
-      },
-      {
-        "at": "2026-07-27T00:58:49Z",
-        "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=visit+Beja+live+cam",
-        "domain": "html.duckduckgo.com",
-        "status": "error",
-        "seconds": 18.109,
-        "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=visit+Beja+live+cam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e345f560>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
-      },
-      {
-        "at": "2026-07-27T02:08:00Z",
-        "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=M%C3%A9rtola+hotel+resort+webcam+live",
-        "domain": "html.duckduckgo.com",
-        "status": "error",
-        "seconds": 18.109,
-        "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=M%C3%A9rtola+hotel+resort+webcam+live (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e3892990>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
-      },
-      {
-        "at": "2026-07-27T01:14:57Z",
-        "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=%22webcam%22+%22Castro+Verde%22",
-        "domain": "html.duckduckgo.com",
-        "status": "error",
-        "seconds": 18.108,
-        "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=%22webcam%22+%22Castro+Verde%22 (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e35cf020>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
-      },
-      {
-        "at": "2026-07-27T01:47:13Z",
-        "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=Ferreira+do+Alentejo+praia+webcam",
-        "domain": "html.duckduckgo.com",
-        "status": "error",
-        "seconds": 18.106,
-        "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=Ferreira+do+Alentejo+praia+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e34b2f00>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
-      },
-      {
-        "at": "2026-07-27T02:28:17Z",
-        "method": "GET",
-        "url": "https://html.duckduckgo.com/html/?q=turismo+Odemira+webcam",
-        "domain": "html.duckduckgo.com",
-        "status": "error",
-        "seconds": 18.105,
-        "error_type": "ConnectTimeout",
-        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=turismo+Odemira+webcam (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7f06e3353380>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
+        "error": "HTTPSConnectionPool(host='html.duckduckgo.com', port=443): Max retries exceeded with url: /html/?q=site%3Askylinewebcams.com+Almod%C3%B4var (Caused by ConnectTimeoutError(<HTTPSConnection(host='html.duckduckgo.com', port=443) at 0x7ff7e7147230>, 'Connection to html.duckduckgo.com timed out. (connect timeout=18)'))"
       }
     ],
     "top_domains": [
       [
         "www.bing.com",
-        2500
+        380
       ],
       [
         "html.duckduckgo.com",
-        760
+        114
       ]
     ]
   },
   "searches": {
-    "total": 1400,
-    "empty": 1000,
-    "with_results": 400,
+    "total": 210,
+    "empty": 150,
+    "with_results": 60,
     "by_engine": {
-      "bing": 640,
-      "duckduckgo": 760
+      "bing": 96,
+      "duckduckgo": 114
     }
   },
   "checks": {
-    "total": 320,
+    "total": 48,
     "failed": 0,
     "municipalities": {
       "Vale de Cambra": {
         "checks": 16,
-        "seconds": 188.69,
+        "seconds": 173.13,
         "urls": 112,
         "candidates": 0,
         "failed_checks": 0
       },
       "Aljustrel": {
         "checks": 16,
-        "seconds": 319.57,
+        "seconds": 289.46,
         "urls": 160,
         "candidates": 0,
         "failed_checks": 0
       },
       "Almodôvar": {
         "checks": 16,
-        "seconds": 872.18,
-        "urls": 160,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Alvito": {
-        "checks": 16,
-        "seconds": 949.56,
-        "urls": 153,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Barrancos": {
-        "checks": 16,
-        "seconds": 974.25,
-        "urls": 160,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Beja": {
-        "checks": 16,
-        "seconds": 949.11,
-        "urls": 160,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Castro Verde": {
-        "checks": 16,
-        "seconds": 815.08,
-        "urls": 112,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Cuba": {
-        "checks": 16,
-        "seconds": 811.56,
-        "urls": 112,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Ferreira do Alentejo": {
-        "checks": 16,
-        "seconds": 955.5,
-        "urls": 160,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Mértola": {
-        "checks": 16,
-        "seconds": 931.49,
-        "urls": 160,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Moura": {
-        "checks": 16,
-        "seconds": 919.67,
-        "urls": 159,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Odemira": {
-        "checks": 16,
-        "seconds": 963.63,
-        "urls": 153,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Ourique": {
-        "checks": 16,
-        "seconds": 948.4,
-        "urls": 160,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Serpa": {
-        "checks": 16,
-        "seconds": 957.45,
-        "urls": 160,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Vidigueira": {
-        "checks": 16,
-        "seconds": 964.41,
-        "urls": 160,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Amares": {
-        "checks": 16,
-        "seconds": 964.13,
-        "urls": 160,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Barcelos": {
-        "checks": 16,
-        "seconds": 932.95,
-        "urls": 151,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Braga": {
-        "checks": 16,
-        "seconds": 596.47,
-        "urls": 112,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Cabeceiras de Basto": {
-        "checks": 16,
-        "seconds": 260.7,
-        "urls": 160,
-        "candidates": 0,
-        "failed_checks": 0
-      },
-      "Celorico de Basto": {
-        "checks": 16,
-        "seconds": 351.76,
-        "urls": 153,
+        "seconds": 867.0,
+        "urls": 157,
         "candidates": 0,
         "failed_checks": 0
       }
     },
     "slowest": [
       {
-        "at": "2026-07-27T00:57:42Z",
-        "municipality": "Barrancos",
-        "region": "Beja",
-        "check_id": "technical",
-        "status": "done",
-        "seconds": 132.113,
-        "urls": 32,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T01:56:34Z",
-        "municipality": "Ferreira do Alentejo",
-        "region": "Beja",
-        "check_id": "technical",
-        "status": "done",
-        "seconds": 131.176,
-        "urls": 32,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T03:47:23Z",
-        "municipality": "Amares",
-        "region": "Braga",
-        "check_id": "technical",
-        "status": "done",
-        "seconds": 130.798,
-        "urls": 32,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T02:43:28Z",
-        "municipality": "Odemira",
-        "region": "Beja",
-        "check_id": "technical",
-        "status": "done",
-        "seconds": 130.741,
-        "urls": 32,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T00:25:39Z",
+        "at": "2026-07-27T05:12:41Z",
         "municipality": "Almodôvar",
         "region": "Beja",
         "check_id": "technical",
         "status": "done",
-        "seconds": 127.716,
-        "urls": 32,
+        "seconds": 128.035,
+        "urls": 31,
         "candidates": 0
       },
       {
-        "at": "2026-07-27T03:15:14Z",
-        "municipality": "Serpa",
-        "region": "Beja",
-        "check_id": "technical",
-        "status": "done",
-        "seconds": 122.757,
-        "urls": 32,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T03:31:19Z",
-        "municipality": "Vidigueira",
-        "region": "Beja",
-        "check_id": "technical",
-        "status": "done",
-        "seconds": 120.66,
-        "urls": 32,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T02:59:17Z",
-        "municipality": "Ourique",
-        "region": "Beja",
-        "check_id": "technical",
-        "status": "done",
-        "seconds": 119.721,
-        "urls": 32,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T02:27:25Z",
-        "municipality": "Moura",
-        "region": "Beja",
-        "check_id": "technical",
-        "status": "done",
-        "seconds": 119.5,
-        "urls": 32,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T00:41:28Z",
-        "municipality": "Alvito",
-        "region": "Beja",
-        "check_id": "technical",
-        "status": "done",
-        "seconds": 118.357,
-        "urls": 32,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T03:52:07Z",
-        "municipality": "Barcelos",
-        "region": "Braga",
-        "check_id": "duckduckgo",
-        "status": "done",
-        "seconds": 116.707,
-        "urls": 0,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T03:20:11Z",
-        "municipality": "Vidigueira",
-        "region": "Beja",
-        "check_id": "duckduckgo",
-        "status": "done",
-        "seconds": 116.67,
-        "urls": 0,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T02:01:29Z",
-        "municipality": "Mértola",
-        "region": "Beja",
-        "check_id": "duckduckgo",
-        "status": "done",
-        "seconds": 116.649,
-        "urls": 0,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T00:14:35Z",
+        "at": "2026-07-27T05:01:31Z",
         "municipality": "Almodôvar",
         "region": "Beja",
         "check_id": "duckduckgo",
         "status": "done",
-        "seconds": 116.626,
+        "seconds": 116.583,
         "urls": 0,
         "candidates": 0
       },
       {
-        "at": "2026-07-27T01:32:03Z",
-        "municipality": "Cuba",
+        "at": "2026-07-27T05:04:40Z",
+        "municipality": "Almodôvar",
         "region": "Beja",
-        "check_id": "duckduckgo",
+        "check_id": "beaches_surf",
         "status": "done",
-        "seconds": 116.615,
-        "urls": 0,
+        "seconds": 105.754,
+        "urls": 15,
         "candidates": 0
       },
       {
-        "at": "2026-07-27T03:36:03Z",
-        "municipality": "Amares",
-        "region": "Braga",
-        "check_id": "duckduckgo",
-        "status": "done",
-        "seconds": 116.603,
-        "urls": 0,
-        "candidates": 0
-      },
-      {
-        "at": "2026-07-27T03:04:24Z",
-        "municipality": "Serpa",
+        "at": "2026-07-27T05:02:55Z",
+        "municipality": "Almodôvar",
         "region": "Beja",
-        "check_id": "duckduckgo",
+        "check_id": "aggregators",
         "status": "done",
-        "seconds": 116.595,
+        "seconds": 84.015,
         "urls": 0,
         "candidates": 0
       },
       {
-        "at": "2026-07-27T01:02:45Z",
-        "municipality": "Beja",
+        "at": "2026-07-27T05:07:22Z",
+        "municipality": "Almodôvar",
         "region": "Beja",
-        "check_id": "duckduckgo",
+        "check_id": "transport",
         "status": "done",
-        "seconds": 116.593,
+        "seconds": 65.107,
+        "urls": 16,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T05:05:46Z",
+        "municipality": "Almodôvar",
+        "region": "Beja",
+        "check_id": "ports_marinas",
+        "status": "done",
+        "seconds": 65.031,
+        "urls": 16,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T04:58:14Z",
+        "municipality": "Aljustrel",
+        "region": "Beja",
+        "check_id": "technical",
+        "status": "done",
+        "seconds": 60.879,
+        "urls": 32,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T04:59:28Z",
+        "municipality": "Almodôvar",
+        "region": "Beja",
+        "check_id": "google",
+        "status": "done",
+        "seconds": 59.878,
         "urls": 0,
         "candidates": 0
       },
       {
-        "at": "2026-07-27T01:45:34Z",
-        "municipality": "Ferreira do Alentejo",
+        "at": "2026-07-27T05:09:51Z",
+        "municipality": "Almodôvar",
         "region": "Beja",
-        "check_id": "duckduckgo",
+        "check_id": "weather_observatories",
         "status": "done",
-        "seconds": 116.589,
+        "seconds": 53.343,
+        "urls": 8,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T05:10:33Z",
+        "municipality": "Almodôvar",
+        "region": "Beja",
+        "check_id": "social_video",
+        "status": "done",
+        "seconds": 41.941,
         "urls": 0,
         "candidates": 0
       },
       {
-        "at": "2026-07-27T02:16:42Z",
-        "municipality": "Moura",
-        "region": "Beja",
-        "check_id": "duckduckgo",
+        "at": "2026-07-27T04:51:53Z",
+        "municipality": "Vale de Cambra",
+        "region": "Aveiro",
+        "check_id": "bing",
         "status": "done",
-        "seconds": 116.582,
-        "urls": 0,
+        "seconds": 40.36,
+        "urls": 24,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T04:54:48Z",
+        "municipality": "Aljustrel",
+        "region": "Beja",
+        "check_id": "beaches_surf",
+        "status": "done",
+        "seconds": 36.6,
+        "urls": 16,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T05:07:54Z",
+        "municipality": "Almodôvar",
+        "region": "Beja",
+        "check_id": "nature",
+        "status": "done",
+        "seconds": 32.432,
+        "urls": 8,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T05:08:58Z",
+        "municipality": "Almodôvar",
+        "region": "Beja",
+        "check_id": "sports_golf",
+        "status": "done",
+        "seconds": 32.348,
+        "urls": 8,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T05:06:17Z",
+        "municipality": "Almodôvar",
+        "region": "Beja",
+        "check_id": "airports",
+        "status": "done",
+        "seconds": 31.355,
+        "urls": 8,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T05:08:26Z",
+        "municipality": "Almodôvar",
+        "region": "Beja",
+        "check_id": "hotels",
+        "status": "done",
+        "seconds": 31.1,
+        "urls": 7,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T04:56:03Z",
+        "municipality": "Aljustrel",
+        "region": "Beja",
+        "check_id": "transport",
+        "status": "done",
+        "seconds": 29.81,
+        "urls": 16,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T04:55:18Z",
+        "municipality": "Aljustrel",
+        "region": "Beja",
+        "check_id": "ports_marinas",
+        "status": "done",
+        "seconds": 29.803,
+        "urls": 16,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T04:51:06Z",
+        "municipality": "Vale de Cambra",
+        "region": "Aveiro",
+        "check_id": "tourism",
+        "status": "done",
+        "seconds": 28.735,
+        "urls": 16,
+        "candidates": 0
+      },
+      {
+        "at": "2026-07-27T04:52:37Z",
+        "municipality": "Vale de Cambra",
+        "region": "Aveiro",
+        "check_id": "beaches_surf",
+        "status": "done",
+        "seconds": 23.385,
+        "urls": 8,
         "candidates": 0
       }
     ]
