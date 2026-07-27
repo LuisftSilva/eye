@@ -42,23 +42,36 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements-audit.txt
 
-      - name: Run sequential audit with diagnostics
+      - name: Compile crawler before running
+        run: |
+          python -m py_compile scripts/webcam_audit.py
+          python -m py_compile scripts/run_audit_diagnostics.py
+          python -m py_compile scripts/run_audit_pro.py
+          python -m py_compile scripts/update_audit_progress.py
+
+      - name: Run sequential pro audit with diagnostics
         id: audit
         continue-on-error: true
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
-          AUDIT_DELAY: "1.4"
+          AUDIT_DELAY: "0.7"
+          AUDIT_MAX_RESULTS: "10"
+          AUDIT_CONNECT_TIMEOUT: "8"
+          AUDIT_READ_TIMEOUT: "20"
+          AUDIT_RETRIES: "3"
+          AUDIT_RETRY_BACKOFF: "0.8"
+          AUDIT_MAX_PAGE_BYTES: "3000000"
           PYTHONUNBUFFERED: "1"
         shell: bash
         run: |
           LIMIT="${{ github.event.inputs.limit }}"
           LIMIT="${LIMIT:-3}"
           MUNICIPALITY="${{ github.event.inputs.municipality_id }}"
-          ARGS=(--limit "$LIMIT" --max-results 8)
+          ARGS=(--limit "$LIMIT" --max-results 10)
           if [[ -n "$MUNICIPALITY" ]]; then
             ARGS+=(--municipality-id "$MUNICIPALITY")
           fi
-          python scripts/run_audit_diagnostics.py "${ARGS[@]}"
+          python scripts/run_audit_pro.py "${ARGS[@]}"
 
       - name: Validate evidence and update progress
         if: steps.audit.outcome == 'success'
