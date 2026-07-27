@@ -1,6 +1,40 @@
 const state={cameras:[],filter:"all",query:"",selected:null,rotate:true,userInteracting:false};
 const $=s=>document.querySelector(s);
 
+const meoDirectSlugs={
+  "matosinhos-0":"praia-de-matosinhos","leca-da-palmeira-1":"leca-da-palmeira","espinho-2":"espinho",
+  "esmoriz-3":"esmoriz","furadouro-4":"furadouro","barra-5":"barra","costa-nova-6":"costa-nova",
+  "figueira-da-foz-7":"figueira-da-foz","buarcos-8":"buarcos","praia-do-pedrogao-9":"praia-do-pedrogao",
+  "sao-pedro-de-moel-10":"sao-pedro-de-moel","nazare-praia-do-norte-11":"praia-do-norte",
+  "nazare-praia-12":"nazare","sao-martinho-do-porto-13":"sao-martinho-do-porto","foz-do-arelho-14":"foz-do-arelho",
+  "peniche-baleal-15":"lagide-e-baia","peniche-supertubos-16":"supertubos","areia-branca-17":"areia-branca",
+  "santa-cruz-18":"santa-cruz","ericeira-ribeira-d-ilhas-19":"ribeira-d-ilhas","ericeira-foz-do-lizandro-20":"foz-do-lizandro",
+  "praia-grande-21":"praia-grande","guincho-22":"praia-do-guincho","carcavelos-23":"carcavelos",
+  "santo-amaro-de-oeiras-24":"santo-amaro-de-oeiras","costa-da-caparica-25":"costa-da-caparica",
+  "praia-da-sereia-morena-26":"praia-da-sereia-morena","fonte-da-telha-27":"fonte-da-telha","sesimbra-28":"sesimbra",
+  "comporta-29":"comporta","carvalhal-30":"carvalhal","sines-31":"sines","sao-torpes-32":"sao-torpes",
+  "porto-covo-33":"porto-covo","vila-nova-de-milfontes-34":"vila-nova-de-milfontes","zambujeira-do-mar-35":"zambujeira-do-mar",
+  "odeceixe-36":"odeceixe","arrifana-37":"arrifana","amado-38":"amado","sagres-tonel-39":"tonel",
+  "lagos-meia-praia-40":"meia-praia","portimao-praia-da-rocha-41":"praia-da-rocha","albufeira-42":"albufeira",
+  "vilamoura-43":"vilamoura","faro-ilha-44":"ilha-de-faro","tavira-45":"tavira"
+};
+function isGenericProviderUrl(url){
+  if(!url)return false;
+  try{
+    const u=new URL(url,location.href),p=u.pathname.replace(/\/+$/,"");
+    return p===""||p==="/livecams"||p==="/webcams"||p==="/";
+  }catch{return false;}
+}
+function resolvedSource(c){
+  if(c.provider==="MEO Beachcam"&&meoDirectSlugs[c.id])return `https://beachcam.meo.pt/livecams/${meoDirectSlugs[c.id]}/`;
+  return c.sourceUrl||c.embedUrl||"";
+}
+function playableTarget(c){
+  if(c.embedUrl&&!isGenericProviderUrl(c.embedUrl))return c.embedUrl;
+  const source=resolvedSource(c);
+  return isGenericProviderUrl(source)?"":source;
+}
+
 const satelliteStyle={
   version:8,
   projection:{type:"globe"},
@@ -107,7 +141,7 @@ function renderMarkers(){
 function loadViewer(c){
   const frame=$("#cameraFrame"),fallback=$("#videoFallback");
   frame.src="about:blank";frame.classList.add("hidden");fallback.classList.remove("hidden");
-  const target=c.embedUrl||c.sourceUrl;
+  const target=playableTarget(c);
   if(target){
     frame.src=target;
     frame.classList.remove("hidden");
@@ -122,7 +156,9 @@ function openCamera(c){
   $("#viewerProvider").textContent=c.provider;
   $("#viewerVerification").textContent=c.verification==="direct"?"Feed direto":"Rede confirmada";
   $("#viewerStatus").textContent=c.status==="online"?"LIVE SOURCE":"SOURCE";
-  $("#openSource").href=c.sourceUrl;
+  const source=resolvedSource(c);
+  $("#openSource").href=source||"#";
+  $("#openSource").toggleAttribute("aria-disabled",!source);
   loadViewer(c);
   $("#viewer").classList.add("open");
   map.easeTo({center:[c.lng,c.lat],zoom:Math.max(map.getZoom(),7.2),duration:1100,offset:[-210,0]});
