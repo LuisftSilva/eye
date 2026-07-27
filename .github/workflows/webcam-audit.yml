@@ -49,6 +49,7 @@ jobs:
           python -m py_compile scripts/run_audit_pro.py
           python -m py_compile scripts/run_audit_ultra.py
           python -m py_compile scripts/run_audit_ultra_fixed.py
+          python -m py_compile scripts/run_audit_clean.py
           python -m py_compile scripts/update_audit_progress.py
 
       - name: Run comprehensive audit with diagnostics
@@ -56,11 +57,11 @@ jobs:
         continue-on-error: true
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
-          AUDIT_DELAY: "0.7"
-          AUDIT_CONNECT_TIMEOUT: "8"
-          AUDIT_READ_TIMEOUT: "20"
-          AUDIT_RETRIES: "3"
-          AUDIT_RETRY_BACKOFF: "0.8"
+          AUDIT_DELAY: "0.6"
+          AUDIT_CONNECT_TIMEOUT: "6"
+          AUDIT_READ_TIMEOUT: "15"
+          AUDIT_RETRIES: "1"
+          AUDIT_RETRY_BACKOFF: "0.5"
           AUDIT_MAX_PAGE_BYTES: "3000000"
           PYTHONUNBUFFERED: "1"
         shell: bash
@@ -72,7 +73,7 @@ jobs:
           if [[ -n "$MUNICIPALITY" ]]; then
             ARGS+=(--municipality-id "$MUNICIPALITY")
           fi
-          python scripts/run_audit_ultra_fixed.py "${ARGS[@]}"
+          python scripts/run_audit_clean.py "${ARGS[@]}"
 
       - name: Validate evidence and update progress
         if: steps.audit.outcome == 'success'
@@ -85,7 +86,7 @@ jobs:
           if [[ -f audit/logs/latest-summary.md ]]; then
             cat audit/logs/latest-summary.md >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "# ❌ Audit diagnostics missing" >> "$GITHUB_STEP_SUMMARY"
+            echo "# Audit diagnostics missing" >> "$GITHUB_STEP_SUMMARY"
             echo "The diagnostic runner did not create its summary file." >> "$GITHUB_STEP_SUMMARY"
           fi
 
