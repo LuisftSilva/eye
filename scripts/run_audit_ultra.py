@@ -1,0 +1,216 @@
+#!/usr/bin/env python3
+"""Comprehensive Portugal webcam discovery profile.
+
+Loads the resilient transport/inspection layer from run_audit_pro, then replaces the
+query plan with a broad source matrix covering national aggregators, regional networks,
+airports, aerodromes, ports, transport, weather, nature and technical endpoints.
+"""
+from __future__ import annotations
+
+import webcam_audit
+import run_audit_pro  # noqa: F401 - installs hardened crawler methods
+
+webcam_audit.KNOWN_PROVIDER_DOMAINS.update({
+    "www.webcamgalore.com": "Webcam Galore",
+    "webcamgalore.com": "Webcam Galore",
+    "www.windfinder.com": "Windfinder",
+    "windfinder.com": "Windfinder",
+    "www.windy.com": "Windy Webcams",
+    "windy.com": "Windy Webcams",
+    "www.surfline.com": "Surfline",
+    "surfline.com": "Surfline",
+    "www.webcams.travel": "Webcams.travel",
+    "webcams.travel": "Webcams.travel",
+    "www.worldcam.eu": "WorldCam",
+    "worldcam.eu": "WorldCam",
+    "www.geowebcams.com": "GeoWebcams",
+    "geowebcams.com": "GeoWebcams",
+    "madeiracams.com": "MadeiraCams",
+    "www.madeiracams.com": "MadeiraCams",
+    "airportwebcams.net": "Airport Webcams",
+    "www.airportwebcams.net": "Airport Webcams",
+    "metar-taf.com": "METAR-TAF",
+    "www.meteoblue.com": "Meteoblue",
+    "meteoblue.com": "Meteoblue",
+})
+
+GENERAL = [
+    '"webcam" "{municipality}" Portugal',
+    '"web cam" "{municipality}" Portugal',
+    '"live cam" "{municipality}" Portugal',
+    '"câmara ao vivo" "{municipality}"',
+    '"camera ao vivo" "{municipality}"',
+    '"transmissão em direto" "{municipality}"',
+    '"live stream" "{municipality}" Portugal',
+    'site:.pt webcam "{municipality}"',
+]
+
+AGGREGATORS = [
+    'site:portugalwebcams.pt "{municipality}"',
+    'site:webcamgalore.com "{municipality}" Portugal',
+    'site:windy.com/webcams "{municipality}" Portugal',
+    'site:windfinder.com/webcams "{municipality}"',
+    'site:webcams.travel "{municipality}" Portugal',
+    'site:webcamtaxi.com "{municipality}" Portugal',
+    'site:worldcam.eu "{municipality}" Portugal',
+    'site:geowebcams.com "{municipality}" Portugal',
+    'site:skylinewebcams.com "{municipality}" Portugal',
+    'site:earthcam.com "{municipality}" Portugal',
+    'site:ipcamlive.com "{municipality}" Portugal',
+    'site:meteoblue.com "{municipality}" webcam',
+]
+
+webcam_audit.CHECKS = [
+    ("official_municipality", [
+        'site:cm-{slug}.pt webcam {municipality}',
+        'site:municipio-{slug}.pt webcam {municipality}',
+        'site:{slug}.pt webcam {municipality}',
+        'site:cm-{slug}.pt (direto OR livestream OR câmara)',
+    ]),
+    ("official_tourism", [
+        'turismo {municipality} webcam',
+        'visit {municipality} live cam',
+        'site:visitportugal.com {municipality} webcam',
+        'site:turismodeportugal.pt {municipality} webcam',
+        'site:visitportoandnorth.travel {municipality} webcam',
+        'site:visitcentrodeportugal.com.pt {municipality} webcam',
+        'site:visitlisboa.com {municipality} webcam',
+        'site:visitalentejo.pt {municipality} webcam',
+        'site:visitalgarve.pt {municipality} webcam',
+    ]),
+    ("google", GENERAL[:4]),
+    ("bing", GENERAL[4:]),
+    ("duckduckgo", [
+        'site:youtube.com/live "{municipality}" Portugal',
+        'site:facebook.com "{municipality}" webcam live',
+        'site:instagram.com "{municipality}" webcam',
+        '"Axis" "{municipality}" camera',
+        '"Mobotix" "{municipality}" camera',
+        '"Hikvision" "{municipality}" webcam',
+    ]),
+    ("aggregators", AGGREGATORS),
+    ("regional_webcam_networks", [
+        'site:spotazores.com "{municipality}"',
+        'site:netmadeira.com "{municipality}" webcam',
+        'site:madeiracams.com "{municipality}"',
+        'site:beachcam.meo.pt "{municipality}"',
+        'site:back-office.beachcam.pt/livecams "{municipality}"',
+        'Portugal webcam {region} "{municipality}"',
+    ]),
+    ("beaches_surf", [
+        '{municipality} praia webcam',
+        '{municipality} surf webcam',
+        'site:beachcam.meo.pt {municipality}',
+        'site:surfline.com {municipality} Portugal',
+        'site:magicseaweed.com {municipality} webcam',
+        'site:windfinder.com {municipality} webcam',
+        'site:windy.com/webcams {municipality} praia',
+    ]),
+    ("ports_marinas_nautical", [
+        '{municipality} porto webcam',
+        '{municipality} marina webcam',
+        '{municipality} clube náutico live cam',
+        '{municipality} barra porto câmara ao vivo',
+        'site:portosdeportugal.pt {municipality} webcam',
+        'site:amn.pt {municipality} webcam',
+        'site:docapesca.pt {municipality} webcam',
+        'site:apdl.pt {municipality} webcam',
+        'site:portoaveiro.pt {municipality} webcam',
+        'site:portodelisboa.pt {municipality} webcam',
+        'site:apsinesalgarve.pt {municipality} webcam',
+    ]),
+    ("airports_aerodromes", [
+        '{municipality} aeroporto webcam',
+        '{municipality} aeródromo webcam',
+        '{municipality} aeroclube webcam',
+        '{municipality} pista aviação câmara ao vivo',
+        'site:ana.pt {municipality} webcam',
+        'site:nav.pt {municipality} webcam',
+        'site:airportwebcams.net Portugal {municipality}',
+        'site:metar-taf.com {municipality} webcam',
+        'site:youtube.com {municipality} airport live',
+        'site:facebook.com aeroclube {municipality} direto',
+    ]),
+    ("traffic_transport_rail", [
+        '{municipality} trânsito estrada webcam',
+        '{municipality} câmara tráfego ao vivo',
+        '{municipality} estação ferroviária webcam',
+        '{municipality} terminal rodoviário webcam',
+        'site:infraestruturasdeportugal.pt {municipality} camera',
+        'site:estradas.pt {municipality} webcam',
+        'site:cp.pt {municipality} webcam',
+        'site:metrolisboa.pt {municipality} live',
+        'site:metrodoporto.pt {municipality} live',
+    ]),
+    ("nature_mountains_parks_dams", [
+        '{municipality} serra webcam',
+        '{municipality} parque natural webcam',
+        '{municipality} barragem webcam',
+        '{municipality} miradouro webcam',
+        '{municipality} rio webcam',
+        'site:icnf.pt {municipality} webcam',
+        'site:snirh.apambiente.pt {municipality} câmara',
+        'site:edp.com {municipality} barragem webcam',
+        'site:meteoblue.com {municipality} webcam',
+    ]),
+    ("hotels_resorts_lodging", [
+        '{municipality} hotel webcam live',
+        '{municipality} resort webcam',
+        '{municipality} alojamento webcam',
+        '{municipality} parque de campismo webcam',
+        'site:booking.com {municipality} webcam',
+        'site:youtube.com hotel {municipality} live',
+    ]),
+    ("sports_golf_ski", [
+        '{municipality} golf webcam',
+        '{municipality} estádio webcam live',
+        '{municipality} ski webcam',
+        '{municipality} estância neve webcam',
+        '{municipality} circuito automóvel webcam',
+        '{municipality} clube desportivo live cam',
+    ]),
+    ("weather_observatories", [
+        '{municipality} meteorologia webcam',
+        '{municipality} estação meteorológica câmara',
+        '{municipality} observatório webcam',
+        'site:ipma.pt {municipality} camera',
+        'site:observar.ipma.pt {municipality} Câmara',
+        'site:meteoblue.com {municipality} webcam',
+        'site:weathercloud.net {municipality} webcam',
+        'site:wunderground.com {municipality} webcam',
+        'site:windy.com/webcams {municipality}',
+    ]),
+    ("universities_science", [
+        '{municipality} universidade webcam',
+        '{municipality} observatório astronómico live',
+        '{municipality} centro ciência webcam',
+        'site:ulisboa.pt {municipality} webcam',
+        'site:up.pt {municipality} webcam',
+        'site:uc.pt {municipality} webcam',
+        'site:uminho.pt {municipality} webcam',
+    ]),
+    ("social_video", [
+        'site:youtube.com/watch "{municipality}" live webcam',
+        'site:youtube.com/live "{municipality}" Portugal',
+        'site:facebook.com "{municipality}" webcam live',
+        'site:twitch.tv "{municipality}" Portugal live',
+        'site:instagram.com "{municipality}" direto webcam',
+    ]),
+    ("technical_discovery", [
+        '"{municipality}" m3u8 webcam',
+        '"{municipality}" mpd live camera',
+        '"{municipality}" mjpeg camera',
+        '"{municipality}" snapshot.jpg',
+        '"{municipality}" videostream.cgi',
+        '"{municipality}" axis-cgi/mjpg',
+        '"{municipality}" iframe live',
+        'inurl:viewerframe?mode=motion "{municipality}"',
+        'inurl:axis-cgi "{municipality}"',
+        'inurl:Streaming/channels "{municipality}"',
+    ]),
+]
+
+import run_audit_diagnostics
+
+if __name__ == "__main__":
+    raise SystemExit(run_audit_diagnostics.main())
