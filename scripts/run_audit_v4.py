@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Lossless audit v4: also preserves Portuguese provider pages without direct media URLs."""
+"""Lossless audit v4 with cycle-safe municipality selection."""
 from __future__ import annotations
 
 from dataclasses import asdict
 
+import prepare_audit_cycle
 import webcam_audit
 import run_audit_v3
 
@@ -31,5 +32,7 @@ def preserving_inspect_v4(self, url: str, municipality: str, region: str):
 
 webcam_audit.AuditCrawler.inspect = preserving_inspect_v4
 
+
 if __name__ == "__main__":
+    prepare_audit_cycle.main()
     raise SystemExit(run_audit_v3.main())
