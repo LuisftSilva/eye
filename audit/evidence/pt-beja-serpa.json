@@ -1,0 +1,404 @@
+{
+  "municipality_id": "pt-beja-serpa",
+  "order": 32,
+  "municipality": "Serpa",
+  "district": "Beja",
+  "status": "review",
+  "started_at": "2026-07-27T02:59:17Z",
+  "reviewer": "github-actions:webcam-audit",
+  "checks": [
+    {
+      "check_id": "official_municipality",
+      "status": "done",
+      "queries": [
+        "site:cm-serpa.pt webcam Serpa",
+        "site:serpa.pt webcam Serpa"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:59:59Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "tourism",
+      "status": "done",
+      "queries": [
+        "turismo Serpa webcam",
+        "visit Serpa live cam"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=c1670ccb1c04fabe9c191605e2ba913403fa1f8556d8a94e2c8b5e0d375cb342JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuc3BhbmlzaGRpY3QuY29tL3RyYW5zbGF0ZS90dXJpc21v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=5a4c602a24206bd9aea4c8d9e769ef802ea4add6fc3cace25be046f5e9d1490bJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuY29tLm14L0F0dHJhY3Rpb25zLWczMzE2NS1BY3Rpdml0aWVzLVRlbWVjdWxhX0NhbGlmb3JuaWEuaHRtbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c9ae26c8881bc792a17364cb937e721fcb84c77184c7ac7f0fb344c8b35f7fe5JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudmlzaXRjYWxpZm9ybmlhLmNvbS9teC9wbGFjZXMtdG8tdmlzaXQvdGVtZWN1bGEv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ce346d2f321f1159cdff21e8d1e733b6a6e71e9fe1b5c99b0e1bfb2ad7a9df8eJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudmlzaXRjYWxpZm9ybmlhLmNvbS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=dcaaa2d62b63d4ab35f417d478e9b39ebff81fcf8e1b44b21e42de15fb4c9abfJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuY29tLm14L1RvdXJpc20tZzMzMTY1LVRlbWVjdWxhX0NhbGlmb3JuaWEtVmFjYXRpb25zLmh0bWw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=a73aa3336f06b86b50f9d77343b2bdefc3002c2eb12fbe3246c37dab6bc2c5aaJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuY29sbGluc2RpY3Rpb25hcnkuY29tL2RpY3Rpb25hcnkvc3BhbmlzaC1lbmdsaXNoL3R1cmlzbW8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=9f63f6ddfddfec23feee8e8c418338199ae56fbeecd7a37b720222766733bb59JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuY29tLmFyL1RvdXJpc20tZzMzMTY1LVRlbWVjdWxhX0NhbGlmb3JuaWEtVmFjYXRpb25zLmh0bWw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=4fcf9083bbf525bde0bb6e9393204ce1cf9e5564ce97a5856a37aef50c61a905JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuY29tLnZlL1RvdXJpc20tZzMzMTY1LVRlbWVjdWxhX0NhbGlmb3JuaWEtVmFjYXRpb25zLmh0bWw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=1ca0f902e4d3a45a99176a6a2a190acfd936912f3cf2b2a6ee74b0c51141ac61JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWVycmlhbS13ZWJzdGVyLmNvbS9kaWN0aW9uYXJ5L3Zpc2l0&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c57020cd9111c61efa629b76d2a0b97d1693b18a21e1e4eb37e07abe2ea8b8ffJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9jdHZpc2l0LmNvbS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d78f0f843d21b3d4fa1d7e32449158b3267b8491d4af659d6dd6352c74cf6e6dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly92aXNpdGVscGFzby5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=4b4d03217d3dfb8341a0dbd0d31b87c42dac7cca0af9b1db7db3b28dcf822c85JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudmlzaXRuYy5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=4a5f3f028bc61a2c7b9b0fe38b75bce3a5966ba5e41aff7d3d6553e605ddbc1bJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudmlzaXRwYS5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=561009528b19c8487d62cc5b365b055c617797613dcf2c7243b30837c2a3fcffJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudmlzaXR2aXJnaW5pYWJlYWNoLmNvbS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=2e8bc35d475cc1fc5f426acb9045a36e2d76c4c35672805d6027131ce39e6459JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudmlzaXRhbGJ1cXVlcnF1ZS5vcmcv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=12a0bda7008864150e073245e103084e0b6277038a720ce3fb57c44eb6cc73a4JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly92aXNpdG5qLm9yZy8&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "16 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:00:51Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "google",
+      "status": "done",
+      "queries": [
+        "\"webcam\" \"Serpa\"",
+        "\"web cam\" \"Serpa\"",
+        "\"live cam\" \"Serpa\"",
+        "\"câmara ao vivo\" \"Serpa\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:02:09Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "bing",
+      "status": "done",
+      "queries": [
+        "\"camera ao vivo\" \"Serpa\"",
+        "\"transmissão em direto\" \"Serpa\"",
+        "\"live stream\" \"Serpa\" Portugal",
+        "site:.pt webcam \"Serpa\""
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=53a762c7fac09300cd7877c4c695c008ae851e8ba7edef296aab37489046a6dfJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hcHBzLm1pY3Jvc29mdC5jb20vZGV0YWlsLzl3emRuY3JmamJiZw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d266412c9bf118cbaa210a203e0b49717e763bde8d4a02870519187fba35cfdfJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9jYW1lcmEuZW4uc29mdG9uaWMuY29tLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f53010c8faf4861702447880e1589c2bf9bd872cc64afb0de7b64080db09b4beJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hcHBzLmFwcGxlLmNvbS91cy9hcHAvY2FtZXJhL2lkMTU4NDIxNjE5Mw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=45ca25aa29a2f883b21f1fb5b18ff5e9f03471c06b0dc2aafaceeebba4a6a5eaJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93ZWJjYW1taWN0ZXN0LmNvbS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=592e52499677e714a41817a0a7425a5e60070cf615c097831fc4ffb69fe88fdeJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmFwaWR0YWJsZXMuY29tL3Rvb2xzL2NhbWVyYS5odG1s&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=2d882878825cba52f904c15132eacaced941250ae847e6da5d666fc4645b0bc8JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93ZWJjYW10ZXN0cy5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=444d0ba52dea312381b5921ad39c99735cb6d335a398a7a8430a4ffa11236fe1JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPW5ldC5zb3VyY2Vmb3JnZS5vcGVuY2FtZXJhJmhsPWVuLVVT&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=010c12b318aac5dd45d1c65caf2905a57ca28e879f6fe76531cb64f7dd572223JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuYmVzdGJ1eS5jb20vc2l0ZS9jYW1lcmFzLWNhbWNvcmRlcnMvZGlnaXRhbC1jYW1lcmFzL2FiY2F0MDQwMTAwMC5jP2lkPWFiY2F0MDQwMTAwMA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=8fa612102bf386df5d875fc069be4d1e4edfce253e68501853222a2ca979b0a7JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vZ29vZ2xlcGxheS9hbnN3ZXIvMTEzNTg4ODg_aGw9ZW4tR0I&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d30566f57f56cd3d96e88b7aca08a2da96f9111c5de35237a4d343579cd1e544JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vZ29vZ2xlcGxheS9hbnN3ZXIvMTEzNTg4ODg_aGw9ZW4tRU4&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=dd5788715dc9a92dbe041dc07aa5a20ff7966e10a34a53d6517016b788c45f56JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzIzODQ5MzI1&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6b0a54eb0a56d8137796a51d65f72619d70e2ccc2557efe304a90d402624abadJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzIyMzgyNTc3&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=116e14f681e02f2f0782fbae294877d39fe7cfbbe5bf171199116f0b4740e266JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vZ29vZ2xlcGxheS9hbnN3ZXIvMTU3NDExNjc_aGw9ZW4&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ccb81fe290c3d7fd3d172830c0add8259c6766cf8b490ae921e49e455900cc14JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzM4NzMyMzEy&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=71407012ad25a0f7ebe662cd561c0a939b6970e1920213f338f6bfb020332747JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vZ29vZ2xlcGxheS9hbnN3ZXIvMTU3NDExNjc_aGw9ZXMtNDE5&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=0542d3c7d9a8eca9a35d1911754dc75f44d001e54a343da2458d0c2523363081JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzI2OTg0Mjg2&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e8f9a4b109a441450c903dee92cc1531aa3a4fbdcc43a10d29e081f1027f383fJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9sb2dpbi5saXZlLmNvbS9NZS5odG0&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d606420bff7c2088dfff78df9cb29f303c35e7c64eaf4cd67114560a3ba7c5c2JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9tYWlsLnNlcnZpY2VzLmxpdmUuY29tL21haWwv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=67ffb1269f379df746c9c14cbf3c5cbe160f30ab634c0597a131323ea71e7f86JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9vdXRsb29rLm9mZmljZS5jb20vbWFpbC8_dWk9ZW4tVVMmcnM9VVM&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b562337eb8013fdb5010769dcbd4bc9d90b9366f38d62503bcd232fb9e2d3912JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vQGxpdmU&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=14a202b47965da78e74c9f4693df39fac412f192fc952c208d1958c60a89c0f0JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hY2NvdW50Lm1pY3Jvc29mdC5jb20vYWNjb3VudA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=5494e65f48e96344b4da8dfc6b020bd3a0d03c8e37b0bbc1464a54629498d77fJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e503867924323f00c7c6d016989931775d39d8ac4571322c8b2e2e86591e2e97JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubGl2ZXNjb3JlLmNvbS9lbi8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c2b875c0b15ba2f1f27200703de6f0a44b0b93a2c3ef7ded946782e9c0954e44JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9uZXdzLnNreS5jb20vd2F0Y2gtbGl2ZQ&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "24 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:02:27Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "duckduckgo",
+      "status": "done",
+      "queries": [
+        "site:youtube.com live \"Serpa\" Portugal",
+        "\"Axis\" \"Serpa\" camera",
+        "\"Mobotix\" \"Serpa\" camera",
+        "\"HLS\" \"Serpa\" webcam",
+        "\"mjpg\" \"Serpa\"",
+        "\"snapshot.jpg\" \"Serpa\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:04:24Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "aggregators",
+      "status": "done",
+      "queries": [
+        "site:portugalwebcams.pt Serpa",
+        "site:webcamgalore.com Serpa Portugal",
+        "site:skylinewebcams.com Serpa",
+        "site:earthcam.com Serpa"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:05:48Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "beaches_surf",
+      "status": "done",
+      "queries": [
+        "Serpa praia webcam",
+        "Serpa surf webcam",
+        "site:beachcam.pt Serpa",
+        "site:back-office.beachcam.pt/livecams Serpa"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=0f7fcede7f46d890f9b7ee1d13ff3243e52952731d608c7effd5e1e9925ff83eJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTGlvbg&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c3a0da055accb1573e17e73a642e6ebaf73d3a4959dc6d6f3133c51de6af2bffJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuYmJjZWFydGguY29tL2ZhY3RmaWxlcy9hbmltYWxzL21hbW1hbHMvbGlvbg&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=344932e468385c55cf34f1dd65956d0641a4cf92a973a16977d7df25b563cf81JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vYW5pbWFsL2xpb24&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=03cafa3932345355f515bd19c0d29eb2c3e82245e5a83222a7204e94b3c48252JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9raWRzLm5hdGlvbmFsZ2VvZ3JhcGhpYy5jb20vYW5pbWFscy9tYW1tYWxzL2ZhY3RzL2xpb24&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d2860f552605efc875d7f8511a93d5927ff022a8e52bce31e63baf2693775fafJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hLXotYW5pbWFscy5jb20vYW5pbWFscy9saW9uL2ZhY3RzLWxpb24vYmFieS1saW9ucy8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=21f6b99f6aa03958f6d741731ac5a996fb04c6e484a1cbc7e922a1de45c52d63JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hLXotYW5pbWFscy5jb20vYW5pbWFscy9saW9uLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f6cd516ff52834350f0a108b1410cf9a95b48ba9b9c792fbbcbcd8109205b36bJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cud29ybGR3aWxkbGlmZS5vcmcvc3BlY2llcy9saW9uLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=4185cabb7a7440c65934c625b5db7442990f91a4662982ad081cc6d0b379ab99JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hbmltYWxzLmhvd3N0dWZmd29ya3MuY29tL21hbW1hbHMvdHlwZXMtb2YtbGlvbnMuaHRt&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e5278dee7a4fa3475f49022a39c82569d1c7fcbaab88e2240467e688b2ebf00cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c094e3fabb685b1bc96c4520810712dc07c5a7c819fb2ced60688ba711fd18b5JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL3QvcjYtcnVuLXdhbGstYW5pbWF0aW9ucy8yNDg0ODA0&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=2d5e07e9a35e605c558cf45cb98e9216f44b29d98a78575a73009f1eb4f5f5a1JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL3JvYmxveC9uZXc&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=0db7e5f4787626ee93092eddac329b5bd62e72a2d1d6da47f746a7877e860fdcJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1JvYmxveEhlbHAvY29tbWVudHMvMTZ2bTEycS9yb2Jsb3hfaW5zdGFsbGVyX25vdF9pbnN0YWxsaW5nX3JvYmxveC8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=15320977e74d8ce4f51f64b386d2db9a1d4976229a7b9ff6cbd1fd308bc8e712JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL2MvdXBkYXRlcy80NQ&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=dd6b02481625adfdda91b004a08ce2b24ce51f0594df53d52608e6884c6e96b8JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1JvYmxveEhlbHAv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=67af3d63f56a019c605a5384efaf625c85a775b325bb9c175d9dce1169cbe4b1JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tL3QvMzAtZnJlZS1nYW1lLWlkZWFzLzEzOTgwMTE&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6536fbb48c1efb86e906f239896177ac48e342d93cf601079c916abc3b4be536JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL3JvYmxveC9jb21tZW50cy83d3lrOTcvcm9ibG94X2NhbnRfbW92ZV93aXRoX2tleWJvYXJkX2tleXMv&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "16 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:07:23Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "ports_marinas",
+      "status": "done",
+      "queries": [
+        "Serpa porto marina webcam",
+        "Serpa clube náutico live cam"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=4d7d7532c4ea09f8ba8244d4791eb5f04cdf5198c617eb30e3e261f370df1666JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvQWNvbmNhZ3Vh&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ce4d9d3175036f6c30e42ab94206f33e1e3fdbc4bf8f8bdf841c0a72ab873ac5JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9pYW50YXlsb3J0cmVra2luZy5jb20vYmxvZy8yMC10aGluZ3MtdG8ta25vdy1iZWZvcmUtY2xpbWJpbmctYWNvbmNhZ3VhLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=154f0ba2c889c2eec60456a3020ceb6183470c0b727b43825a61350f96bf9cd7JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuYnJpdGFubmljYS5jb20vcGxhY2UvTW91bnQtQWNvbmNhZ3Vh&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e9514158ff00690d3c8d6fbb4e36e3bbc1b3a2f8822ce821c1a1164e5bfc9540JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubW91bnRhaW5pcS5jb20vZ3VpZGVzL2NsaW1iLWFjb25jYWd1YS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ecd92b928dbe9149dcf112a684d781ea3c25ac01a951cece373b03b399fc63adJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuYWxwaW5lYXNjZW50cy5jb20vY2xpbWJzL2Fjb25jYWd1YS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=bd4780a71080545c792439ff85cb6a0be3dddc45a3c9654fbd572e10393d1433JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuc3VtbWl0cG9zdC5vcmcvYWNvbmNhZ3VhLzE1MDE5Nw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=cfb13ff2bfe6be3975e28e732b56a590a922b49ba8bfe182e12e1b253a146666JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9lcy53aWtpcGVkaWEub3JnL3dpa2kvQWNvbmNhZ3Vh&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=a02ace8d89a8def8ba83593a033c6d304f55669c65b0b26b8e54ed5dbb8fc5ffJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdW1taXRib3JuLmNvbS9hY29uY2FndWEtbW91bnRhaW4tZ3VpZGUv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f6f3b3d1718d0c05a436a70a6d73608ac54bfebf553727dd60ca7f4f97062e64JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuZWxldmVuZm9ydW0uY29tL3Qvb3Blbi1maWxlLWV4cGxvcmVyLWluLXdpbmRvd3MtMTEuMjA1OTEv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=4368c835d3f977e4039245cea2096628a4c34bd19f480ac14f8891a624fa78c5JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL3dpbmRvd3MvY29tbWVudHMvMWQ2dWo5cy93aW5kb3dzXzEwX2ZpbGVfZXhwbG9yZXJfaW5fd2luZG93c18xMS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ce630a9faeb3f92c8de23ae8c3f26c97053bab804fc868f50063f67c2f3f49eaJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuZWxldmVuZm9ydW0uY29tL3QvZW5hYmxlLW9yLWRpc2FibGUtZGlzcGxheS1maWxlLWljb24tb24tdGh1bWJuYWlscy1pbi13aW5kb3dzLTExLjIyNTA2Lw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=da9eaada1d12a602216ae48b94b2cf2e74e4f52d6003c4f4c85f07801e9f8db4JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1dpbmRvd3NIZWxwL2NvbW1lbnRzLzFkOXFwNWwvaG93X2Nhbl9pX2dldF9teV9maWxlX2V4cGxvcmVyX3RvX29wZW4v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=438d7df1d78fe465dd40aa9dce13e5dedddf737f303d7959e18958f096826ef0JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuZWxldmVuZm9ydW0uY29tL3QvaGVscC1maWxlLWV4cGxvcmVyLXVucmVzcG9uc2l2ZS1hZnRlci13aW5kb3dzLXVwZGF0ZS4zOTcyOC8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=deee2fcb4ceebc4a7b6ba78fc15cab7a740d17831e739b0c93b869c1e8f6c843JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1dpbmRvd3MxMS9jb21tZW50cy95aDRxd2YvaGFzX2FueW9uZV9mb3VuZF9hX2JldHRlcl9maWxlX2V4cGxvcmVyLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=77a7b78e6e851ed186167a1312fddb0443461b6ac3e7ba157661259474656435JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuZWxldmVuZm9ydW0uY29tL3QvZW5hYmxlLW9yLWRpc2FibGUtc2hvdy1yZWNvbW1lbmRlZC1zZWN0aW9uLWluLWZpbGUtZXhwbG9yZXItaG9tZS1pbi13aW5kb3dzLTExLjI1MjI0Lw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c04b937814fb0ebaadccd8228daa2b349b413aaf24892ee9ad43fb5d793a4781JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL1dpbmRvd3MxMS9jb21tZW50cy8xM3R2OGJwL2ZpbGVfZXhwbG9yZXJfcmFuZG9tbHlfb3BlbmluZ19ub3RfZml4ZWRfeWV0Lw&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "16 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:08:29Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "airports",
+      "status": "done",
+      "queries": [
+        "Serpa aeroporto aeródromo webcam"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=d108739cf692082e2637ec0c340a229b083a28b576305578227982b46d418d25JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9yZXN1bHRzLnZvdGUud2EuZ292L3Jlc3VsdHMvMjAxNjExMDgv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=fd7f7af575b171e4e86cb57595af98009c482b2051b05cef6ffc656f52705d0eJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9yZXN1bHRzLnZvdGUud2EuZ292L3Jlc3VsdHMvMjAxNjExMDgvcHJlc2lkZW50LXZpY2UtcHJlc2lkZW50Lmh0bWw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b72c29c8ca52348bbfb681b362e56587488e20df26a03a132b0fdacffbf66b64JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubnl0aW1lcy5jb20vZWxlY3Rpb25zLzIwMTYvcmVzdWx0cy93YXNoaW5ndG9u&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=288642db49df0755ab2b09fc1b986295af8e08ece669a11485853719c4e67940JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9raW5nY291bnR5Lmdvdi9lbi9kZXB0L2VsZWN0aW9ucy9yZXN1bHRzLzIwMTYvbm92ZW1iZXItZ2VuZXJhbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=8f7fdc09a35ffeff2624f5d82c2d0f754f1c21f49d01991915e458517382a28dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvMjAxNl9XYXNoaW5ndG9uX2VsZWN0aW9ucw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=96a79563a3f93ee8e2a6492af1648b7cf6f35e47083e7ef1fe8d5f6d238fae47JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuY25uLmNvbS9lbGVjdGlvbi8yMDE2L3Jlc3VsdHMvc3RhdGVzL3dhc2hpbmd0b24&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=a37b9f90028d8405919470a234fe1a10ef8aae76f2292de67caf4fff0457526cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9wcm9qZWN0cy5zZWF0dGxldGltZXMuY29tLzIwMTYvZWxlY3Rpb24tcmVzdWx0cy8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b22b3ee7c191098e44a9f15e732bde4dc3803f07cd3b7480eb861fc28802423eJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly91c2VsZWN0aW9uYXRsYXMub3JnL1JFU1VMVFMvc3RhdGUucGhwP3llYXI9MjAxNiZmaXBzPTUzJm9mZj0wJmVsZWN0PTAmbWlucGVyPTA&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "8 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:09:02Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "transport",
+      "status": "done",
+      "queries": [
+        "Serpa trânsito estrada webcam",
+        "Serpa estação ferrovia camera live"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=bd9d5a2676286c674c0ee1290bd11cb3b4cbf06bac56b8f9b0a6556e188d5d9aJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9wbGF5LWFkbWlyYWxiZXQuY29tL2JvbnVzZXMv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b985e33d83c61ef4bc422505e18b14bcc3119331285032678b73ad1f95ccf1f9JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9wbGF5LWFkbWlyYWxiZXQuY29tLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=38b3e2c5b6b3e126020a9021dc72c9d4d5e4e4943d7a55619407c0776093dfdaJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hZG1pcmFsYmV0LWx1Y2suY29tL2FwcC5waHA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=be60f674d31dfd04f144e071470aeef525429f3c5802be5f083638486efca05aJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9wbGF5LWFkbWlyYWxiZXQub3JnL2FwcC8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=aafc2785bfd475e5f888f51c3ce9b314233d708e9fb0ca1ba75c4e893030d428JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuYWRtaXJhbGJldC5yby9lbi9jYXNpbm8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ea2c60c7e288108d466b6270cc8f3329437a44ebfce252b74ffaf0cfa3361978JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuYWRtaXJhbGJldC5ycy9ob21l&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=af9c79c9715abe7db5809550f721f55c7791ce908f98f54f8dd9ac0cfc2d470cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9jYXNpbm8uZ3VydS9hZG1pcmFsYmV0LWNhc2luby1yZXZpZXc&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=8b1f00af99780660a34916bc7937948aed385acdee58221a8ad6a97e07dd6bc5JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9wbGF5LWFkbWlyYWxiZXQub3JnL2Nhc2luby8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=22772cda2d3c90d643bbf5e64bc65d3a470639122e10bcdfba40864a93361386JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly96aGlkYW8uYmFpZHUuY29tL2luZGV4Lz93b3JkPTEyMzQ1JTIwYWJjJUU3JTlBJTg0JUU1JTk1JThBJUU2JThDJTg5JUU0JUI4JThEJUU1JTg3JUJBJUU0JUI4JThEJUU5JTk5JTg4JUU1JTkwJUE3JUU0JUI4JTgwJUU1JUE0JUE5JnN0ZXA9MQ&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c8d7e05b19e97e69ce40e04b03cdb5edc107549fe55d87bd673bee91c64070beJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly96aGlkYW8uYmFpZHUuY29tL3F1ZXN0aW9uLzY0OTI1NDgyNzIyOTc4NDEyNS5odG1s&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=3cec9e0478ef808ca0a34b653626f119bdbe37106b0bd525019d2d35d5d961c0JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzQ3MzQxNjY0MA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=4f875af23975cbe64c8278fabe084ed9de088778c2477579983579fb5a04282eJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzUyMzQ2ODI5Mg&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=0d7435c85890f5d810db366094999d5120bbe22567df4ec31c601f31ab3d3258JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9iYnMuY3Nkbi5uZXQvdG9waWNzLzM2Njg3Mg&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=9a4c5afbc7df87224952d891f871d9a69dda80ebc8ff5089555d1ae693fa2784JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9iYnMuY3Nkbi5uZXQvdG9waWNzLzkwMzQ2MTM1&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=5287a79365b3137dd113a0af55b95151a3af9d14cff7ae29bb95a6d34e4bf110JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly96aGlkYW8uYmFpZHUuY29tL3F1ZXN0aW9uLzE4ODEzMTM1MjI1NzI1NjA4NC5odG1s&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=8a292053addf0f40381aaea1feb526660c3fa1fb2e449c8657d7e6775704e4bdJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzU0NjIzMjcyMg&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "16 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:10:08Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "nature",
+      "status": "done",
+      "queries": [
+        "Serpa serra parque barragem miradouro webcam"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=eb2f7c0920155330257b80be7080c597fa4ed332f8aeaccfbe509a9ce1aef2cbJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubmNzLmdvdi5pbi9qb2Itc2Vla2VyL2hpLWluL1BhZ2VzL2RlZmF1bHQuYXNweA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=fe4a59f2ce6875fc4f522577c1ca33cfde4c8b2f3e6144a0fb896d09802e5948JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9uZHR2LmluL3V0aWxpdHktbmV3cy9wcmFkaGFuLW1hbnRyaS12aWtzaXQtYmhhcmF0LXJvemdhci15b2phbmEtZmlyc3QtdGltZS1lbXBsb3llZXMtY2FuLWdldC1pbmNlbnRpdmUtdXAtdG8tMTUwMDAta25vdy1ob3ctMTE3MTE3NzQ&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=a3cea6ebd66c0dedd5a73e4136a2f32eea483f0bc82708c6dc6f02d95ff669a7JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuZXBmaW5kaWEuZ292LmluL3NpdGVfaGkvRkFRLnBocA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=4752ced22a794cba63f8117a3a7dd81520793cf13b433dd03b11f3387115f264JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9qYW50YXNlcmlzaHRhLmNvbS9idXNpbmVzcy9iaWctcmVsaWVmLWZvci1lbXBsb3llZXMtbmV3LXJ1bGVzLWZvci1zYWxhcnktcGF5bWVudC1pbi1sYWJvci1jb2RlLTQ3OTkxMTA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=beb00745bddf9ddf053cd23f7ac0c7f0d9ee5cf054e75c8f0c922cd0c3267fd4JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zZXdheW9qYW4udXAubmljLmluL2dvdmVybm1lbnRqb2IuYXNweA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b34b8bb0bc8341ea2ce1d7a433d5048dd51e94409941d2d9b875b9cf3280eef8JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuYmFqYWpmaW5zZXJ2bWFya2V0cy5pbi9oaS9yZXNvdXJjZXMvZ292dC1zY2hlbWVzL2VtcGxveWVlLXN0YXRlLWluc3VyYW5jZS1zY2hlbWUtZXNpcw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=8080357de4b141845b181e93f3cb7d19a9e6d9b130564138d2df6db27e3de46aJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuaW5kaWEuY29tL2hpbmRpLW5ld3MvYnVzaW5lc3MtaGluZGkvcHJhZGhhbi1tYW50cmktdmlrc2l0LWJoYXJhdC1yb3pnYXIteW9qYW5hLXBtdmJyeS1zY2hlbWUtZWxpZ2liaWxpdHktZG9jdW1lbnRzLWJlbmVmaXQtb25saW5lLWFwcGx5LXByb2Nlc3MtODAxMDk2NS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=08fffbc13cc6eea7e063d79a438339fd61827bc7a8ecd2e0afdb237ebb134130JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zZXJ2aWNlcy5pbmRpYS5nb3YuaW4vc2VydmljZS9kZXRhaWwvJUUwJUE0JUE4JUUwJUE1JThDJUUwJUE0JTk1JUUwJUE0JUIwJUUwJUE1JTgwLSVFMCVBNCVBMiVFMCVBNSU4MiVFMCVBNCU4MiVFMCVBNCVBMiVFMCVBNCVBOCVFMCVBNSU4Ny0lRTAlQTQlQjUlRTAlQTQlQkUlRTAlQTQlQjIlRTAlQTUlOEIlRTAlQTQlODItJUUwJUE0JTk0JUUwJUE0JUIwLSVFMCVBNCVBOCVFMCVBNCVCRiVFMCVBNCVBRiVFMCVBNSU4QiVFMCVBNCU5NSVFMCVBNSU4RCVFMCVBNCVBNCVFMCVBNCVCRSVFMCVBNCU5MyVFMCVBNCU4Mi0lRTAlQTQlOTUlRTAlQTUlODctJUUwJUE0JUIyJUUwJUE0JUJGJUUwJUE0JThGLSVFMCVBNCVCMCVFMCVBNCVCRSVFMCVBNCVCNyVFMCVBNSU4RCVFMCVBNCU5RiVFMCVBNSU4RCVFMCVBNCVCMCVFMCVBNSU4MCVFMCVBNCVBRi0lRTAlQTQlOTUlRTAlQTUlODglRTAlQTQlQjAlRTAlQTQlQkYlRTAlQTQlQUYlRTAlQTQlQjAtJUUwJUE0JUI4JUUwJUE1JTg3JUUwJUE0JUI1JUUwJUE0JUJFLTE&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "8 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:10:42Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "hotels",
+      "status": "done",
+      "queries": [
+        "Serpa hotel resort webcam live"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=7a68606c35f2ba4b44798ca57e5bc9fd3ee80c9857a8e50d1356ca311c359759JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cueWFob28uY29tLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=376130106a0d5708dffc9b8c18a31bbd5a43879fd1ed345225468d31f347f44eJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cueWFob29pbmMuY29tLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=dd6bf2d85dd31246ee4db2a448a1849d25c7dcf398a036124da1a4fed53b4db3JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWNvbS55YWhvby5tb2JpbGUuY2xpZW50LmFuZHJvaWQubWFpbCZobD1lbi1VUw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=2950f1e71ab79c017b81be973dea00076a6419be7bfc987ce8faddc3c4c7378dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWVycmlhbS13ZWJzdGVyLmNvbS9kaWN0aW9uYXJ5L3lhaG9v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=0217de3a1debbd3345cf5951913b633c09eb93b3d7c818305699c84c86ccfcf8JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9kb3duZGV0ZWN0b3IuY29tL3N0YXR1cy95YWhvby8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b5272f710a82962f690d29e10fe0d60751966b69d5dee7848172f13910955652JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvWWFob28&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b7729780ba3a88c50291b94b58ad0824c3a970d6d652c99536233d7f15833962JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3lhaG9vbmV3cy8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=37ca3a20bc1e0175c1675498eb03ce6142d5d106e7b552a9996a4f8b61111aa4JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9tYWlsLnlhaG9vLmNvbS8&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "8 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:11:15Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "sports_golf",
+      "status": "done",
+      "queries": [
+        "Serpa golf ski desporto webcam"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=f47a1d83cb80a256b804fdfe032f31ddd7614c9d906534a7b65704b63edadaa9JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuY2FydmFuYS5jb20vP21zb2NraWQ9MDY1ZWMzYmE3ZDc4NmFlZjA5MjFkNDE5N2M1NDZiNGE&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=de70091f56f5ac60f3d387b9aaab6ff8b62f48ca1eb45d4f0c70249254433adcJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuY2FydmFuYS5jb20vY2Fycz9tc29ja2lkPTA2NWVjM2JhN2Q3ODZhZWYwOTIxZDQxOTdjNTQ2YjRh&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f89356cc4d84dd5e0e812a1566c069decb806de2139372196e8b1c964a2727ddJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuY2FydmFuYS5jb20vZmluYW5jaW5nP21zb2NraWQ9MDY1ZWMzYmE3ZDc4NmFlZjA5MjFkNDE5N2M1NDZiNGE&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=1cb98445660c6cf1947186ba36170a86878b46d56e5225c5b247300ee7b5bf0cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuY2FydmFuYS5jb20vaGVscC9jYXJ2YW5hLWludmVudG9yeS93aGVyZS1hcmUtY2FydmFuYS1jYXJzLWxvY2F0ZWQvP21zb2NraWQ9MDY1ZWMzYmE3ZDc4NmFlZjA5MjFkNDE5N2M1NDZiNGE&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e4ecb6d9aacafc29ff12c707b61e33cfc2303efa1d4b2b25f3638451c9788cd9JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuY2FydmFuYS5jb20vY2Fycy9zdXY_bXNvY2tpZD0wNjVlYzNiYTdkNzg2YWVmMDkyMWQ0MTk3YzU0NmI0YQ&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=654adf13a22f6dadf65134ce3bfd9cd2bb2c93eee1243e145dc47bc2eb43cf56JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuY2FydmFuYS5jb20vaGVscC9waWNrdXAtYW5kLWRlbGl2ZXJ5Lz9tc29ja2lkPTA2NWVjM2JhN2Q3ODZhZWYwOTIxZDQxOTdjNTQ2YjRh&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d3e7d111a47506b1758d5cf58eb3e1867f93405931753eb262e694bb3694feedJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuY2FydmFuYS5jb20vaGVscC8_bXNvY2tpZD0wNjVlYzNiYTdkNzg2YWVmMDkyMWQ0MTk3YzU0NmI0YQ&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d12f4264b0e1d0c9afc2aff77d6c85dfd6499f4738ae5f3a4704381cd42c60d2JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuY2FydmFuYS5jb20vcHVyY2hhc2U_bXNvY2tpZD0wNjVlYzNiYTdkNzg2YWVmMDkyMWQ0MTk3YzU0NmI0YQ&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "8 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:11:48Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "weather_observatories",
+      "status": "done",
+      "queries": [
+        "Serpa meteorologia observatório webcam",
+        "site:ipma.pt Serpa camera"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=28422a8e15ea310f5308ae47f8f62206986b6235a6fca0d0f82fe34c0bd4cadcJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cz9tc29ja2lkPTA2NWVjM2JhN2Q3ODZhZWYwOTIxZDQxOTdjNTQ2YjRh&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=14a202b47965da78e74c9f4693df39fac412f192fc952c208d1958c60a89c0f0JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hY2NvdW50Lm1pY3Jvc29mdC5jb20vYWNjb3VudA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=63ca29cccd76674d053f68d3d24a7a72956a789fa5ece8b3837ff2fd691c542dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTWljcm9zb2Z0&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=94af79089ad733ae051fd7f29d38628b3177463dc5d5a3771b59b10d4b21c193JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zaWdudXAubGl2ZS5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=cc4e1fbdca87cc13697c7a397f48343280fb42c159691d5b47639dbf720f54e1JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cub2ZmaWNlLmNvbS9sb2dpbg&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6fb69f46c069831f6a6b36f6a434b8d7afdd3dc7cb14facc7fa62a7693285da4JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cub3V0bG9vay5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=327e38fa09842784904057c38150a43d00cf1b7b2d45ed704661e712dabe5159JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cueGJveC5jb20vZW4tdXMvbWljcm9zb2Z0LXN0b3JlP21zb2NraWQ9MDY1ZWMzYmE3ZDc4NmFlZjA5MjFkNDE5N2M1NDZiNGE&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=3235f3a667526fb3044fde13d850e7114df3f78ac4718f0e4f3941e468a4693dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cub2ZmaWNlLmNvbS8_ZnJvbT1Ib21lc2NyZWVu&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "8 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:12:30Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "social_video",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/watch Serpa live webcam",
+        "site:facebook.com Serpa webcam live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:13:12Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "technical",
+      "status": "done",
+      "queries": [
+        "Serpa m3u8 webcam",
+        "Serpa mjpeg camera",
+        "Serpa snapshot.jpg",
+        "Serpa iframe live"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=506c75baac63472165bb2fdb72a0dbc9087480addccd19575bd958033f6985b3JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucHJpbWVvcGluaW9uLmNvbS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=9e7a6a76fef05f15440957206cd21374a2badc6b25b0534a97cfc251d908cc14JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucHJpbWVvcGluaW9uLmNvbS9lcy1teA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c50d8279772b0b1ec88250e369e962862892b3f56f7958f18a421806e5f57708JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucHJpbWVvcGluaW9uLmNvbS9pdC1pdA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b3f13ede624942b03bb8796ca633be445dce18b53786eced2ad4b0d826d9e68eJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucHJpbWVvcGluaW9uLmNvbS9wdC1icg&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6ee8a9302478495dc3248ad172da93919c39d5447d8c31ac5bacbd4f851d638cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucHJpbWVvcGluaW9uLmNvbS9mci1mcg&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=44bffb11e26cbfe512bd7d2e2296699385df62ceb0d65e48d373809a2300dab5JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucHJpbWVvcGluaW9uLmNvbS9kZS1kZQ&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=40a5e2169d2e3730ebc930e2719aac132f46e41d2f7063417c97cac5c3425ea1JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucHJpbWVvcGluaW9uLmNvbS9ubC1ubA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=7af9d477f5e03aaea7bfcb5266f181c7cf5680c801106d9b278e3ad3f4568658JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucHJpbWVvcGluaW9uLmNvbS9lbi1nYi9zdXJ2ZXlzLWZvci1jYXNo&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c17c133331fe2b4e6e5b183197aa36d19b13db043f5fd24a333ed083f4ef5e5bJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuc2Vyb3VuZHRhYmxlLmNvbS9iaW5nLXRlc3RpbmctcmVsYXRlZC1zZWFyY2gtaW50ZXJmYWNlcy0zNTcxMS5odG1s&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b29c702bfeb365f548b566e782f2bda69443616d76697d3fac97d463e23a584dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9ibG9nLnJvdHRlbndpZmkuY29tL2hvdy10by1zZWUtYWxsLWJpbmctcmVsYXRlZC1zZWFyY2hlcy8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=4733c91a90917e94bc5995d3147c4d17caaa5f9bf2043e92b705d2057ad15febJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucG9zaXRpb25pc2V2ZXJ5dGhpbmcubmV0L2hvdy10by1zZWUtYWxsLWJpbmctcmVsYXRlZC1zZWFyY2hlcy0yLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ce6dfcee90ff338e0ab319d815a19a381fad76b375d7bcfe592158d21f208197JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucGguYmluZy5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=df25869e7f8bb18fc7b106751b84bb7eef4b3a137ef20c197edf06d270cb4776JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuc2Vyb3VuZHRhYmxlLmNvbS9iaW5nLWV4cGFuZGFibGUtcmVsYXRlZC1zZWFyY2hlcy00MDAyNy5odG1s&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e3a3ee06474baf3f8909198c5273460334d28f946345ed11986f27b774d14078JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9leHBsb3JlLm1pY3Jvc29mdC5jb20vZW4tdXMvYmluZy9mZWF0dXJlcy93ZWItc2VhcmNo&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b665f28ded1f3416af8bb52da6850c385c0b92a2f3a17474ffd135f83ebe8fb0JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudHcuYmluZy5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=0e60fa811a3f2f7a68a255661ad949d5bdc80e8f9114ab967af7080099fd39f6JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9leHBsb3JlLm1pY3Jvc29mdC5jb20vZW4tdXMvYmluZy9mZWF0dXJlcy9pbWFnZS1zZWFyY2g&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ab52c943d89b5285b45fe77458b411f45d292e69cda1d6dc37eaff1e40e65f55JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL3B1Yi9kaXIvZGFuaWVsL3BlcmV6&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e05f1f5a023e3650856552073af0532622b455d2a1850e6a68d50dd02bead982JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL3B1Yi9kaXIvRGFuaWVsL1AlQzMlQTlyZXor&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=bf8e25c7e73895454614924b73e1db7c4e3bb936710d01e6a9d8d33129f0cd6eJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWFya2V0c2NyZWVuZXIuY29tL2luc2lkZXIvREFOSUVMLVBFUkVaLUEzNk9EUS9leHBlcmllbmNlLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=a59b6d9f9d45645b6186e9126d4dce110a8bda6557bbdaffd3e2d7a8a40d80ffJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9yZWNvcmRzZmluZGVyLmNvbS9ndWlkZXMvaG93LXRvLWZpbmQtc29tZW9uZS1vbi1saW5rZWRpbi8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=198b7e6481e05a1410cbba8a6c9f7f42d7106d947deac2662e3ea70eaf0a1e3cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9yYWRhcmlzLmNvbS9wL0RhbmllbC9QZXJlei8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ea2ab150766b1491b9c2e08caeb34a7bff98ddf70a68a110a47011fab2e242dbJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuc21hbGwtYnVzaW5lc3MtZ3VpZGUuY29tL2hvdy10by1maW5kLWEtbGlua2VkaW4tcHJvZmlsZS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=7d9ae1add43851e8857e053fb4bfa28e456e7bef689f2e3d04663decb8f708a8JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9jb250YWN0b3V0LmNvbS9kYW5pZWwtcGVyZXotMzYwMjc&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6283a005480d745911cd988e91924b9b18746a9a4d1c47e561a2880bc89b211dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9uYW1lc2FuZGZhY3RzLmNvbS9ibG9nL2hvdy10by1maW5kLXBlb3BsZS1vbi1saW5rZWRpbi8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=35fcfc6fef3dfb87906e2bf447c86d91560605548d739f42893157e96d301c51JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hcHBzLmFwcGxlLmNvbS9nYi9hcHAvaW5zdGFncmFtL2lkMzg5ODAxMjUy&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=86c7f4d62a4bbabc980995b95169f5706ddbfdbbedf1ad799559fd0c08ef2ac9JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hcHBzLmFwcGxlLmNvbS91cy9hcHAvaW5zdGFncmFtL2lkMzg5ODAxMjUy&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=9eb5c1b5636da7be2812c08eb9a831317a31d2d366b9898690394d340a6226eeJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL0RhdGFIb2FyZGVyL2NvbW1lbnRzLzEydW1wMWEvd2F5YmFja19tYWNoaW5lX2Zvcl9pbnN0YWdyYW0v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c5e30b22271c0979a499369bccc0d0bffcee0bb1fa74cc4df246bab13f03175cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL0luc3RhZ3JhbS9jb21tZW50cy8xMzRkcjNjL2luc3RhZ3JhbV9yZW1vdmVkX3RoZV9hYmlsaXR5X3RvX2RlYWN0aXZhdGUv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f6309d2738dda4c0e03598ded88dc27c1cde6687f4ffd7a210e99575ccd6205cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9kYWlseXRoZW1lZGNyb3Nzd29yZGFuc3dlcnMuY29tL19fXy1jZXJueS1pbnN0YWdyYW0tYW5kLXlvdXR1YmUtbWVnYS1pbmZsdWVuY2VyLXdoby1pcy1rbm93bi1mb3ItaGVyLWNvbWVkeS1za2V0Y2hlcy1kYWlseS10aGVtZWQtY3Jvc3N3b3Jk&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=37e566888379b57a75b701f7bcd84909a145b740bd29361ba38d8c568208f1f3JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL0luc3RhZ3JhbS9jb21tZW50cy8xM3M5c3pvL2lzX3RoZXJlX2Ffd2F5X3RvX2ZpbmRfb3V0X3dob192aWV3ZWRfeW91cl9wcm9maWxlLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=765d4a3a8cdd788e1e83aea56fbeb66f9bbe8ec1d97abcf46230fe8d993cba60JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hcHBzLmFwcGxlLmNvbS9jbi9hcHAvaW5zdGFncmFtL2lkMzg5ODAxMjUy&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=dec797739841dcb43b5602d104c9ce7323f7ac6b7a4048e3aa1ef1a439ef585aJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL0luc3RhZ3JhbXJlYWxpdHkv&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "32 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T03:15:14Z",
+      "reviewer": "github-actions:webcam-audit"
+    }
+  ],
+  "candidates": [],
+  "checks_completed": 16,
+  "checks_total": 16,
+  "finished_at": "2026-07-27T03:15:14Z"
+}

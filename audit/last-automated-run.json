@@ -1,0 +1,88 @@
+{
+  "started_at": "2026-07-27T00:02:38Z",
+  "municipalities": [
+    {
+      "id": "pt-aveiro-vale-de-cambra",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-aljustrel",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-almodovar",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-alvito",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-barrancos",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-beja",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-castro-verde",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-cuba",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-ferreira-do-alentejo",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-mertola",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-moura",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-odemira",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-ourique",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-serpa",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-vidigueira",
+      "candidates": 0
+    },
+    {
+      "id": "pt-braga-amares",
+      "candidates": 0
+    },
+    {
+      "id": "pt-braga-barcelos",
+      "candidates": 0
+    },
+    {
+      "id": "pt-braga-braga",
+      "candidates": 0
+    },
+    {
+      "id": "pt-braga-cabeceiras-de-basto",
+      "candidates": 0
+    },
+    {
+      "id": "pt-braga-celorico-de-basto",
+      "candidates": 0
+    }
+  ],
+  "errors": [],
+  "finished_at": "2026-07-27T04:23:05Z",
+  "auto_published": 0
+}

@@ -1,0 +1,404 @@
+{
+  "municipality_id": "pt-beja-mertola",
+  "order": 28,
+  "municipality": "Mértola",
+  "district": "Beja",
+  "status": "review",
+  "started_at": "2026-07-27T01:56:34Z",
+  "reviewer": "github-actions:webcam-audit",
+  "checks": [
+    {
+      "check_id": "official_municipality",
+      "status": "done",
+      "queries": [
+        "site:cm-mertola.pt webcam Mértola",
+        "site:mertola.pt webcam Mértola"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T01:57:16Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "tourism",
+      "status": "done",
+      "queries": [
+        "turismo Mértola webcam",
+        "visit Mértola live cam"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=cf7eddefe15e7f11e38e05bf1ba6b15bc664cfff3b3d0eb2912eb29085c8bbd3JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tZ2IvY29udGFjdHVz&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f56a7890f16286d4a8a408e27895fc1e5aaf969d851d3ffd4f48d1d16c6a61caJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZnItZnIvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=3d8489425ee5846e55e2833c59473836c47ae4af8b32e05ca5a807fe89bcfa62JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vcHQtYnIvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=662a5ead3976febe5d06946ea2deb8989d332442e2ed1da6d0299bf7a3e7e53dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZGUtZGUvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6812819681b57a8863ff8c39e1a1b8285e13077cee9fdeb9b58f94c7b990cda1JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly90ZWNoY29tbXVuaXR5Lm1pY3Jvc29mdC5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=818d85835bd8b4fd6eca3a94461f5287dc52f0002589ad4d001fd9ceb869ff38JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZnItZnIvd2luZG93cy9tZXR0cmUtJUMzJUEwLWpvdXItbGVzLXBpbG90ZXMtdmlhLWdlc3Rpb25uYWlyZS1kZS1wJUMzJUE5cmlwaCVDMyVBOXJpcXVlcy1kYW5zLXdpbmRvd3MtZWM2MmY0NmMtZmYxNC1jOTFkLWVlYWQtZDcxMjZkYzFmN2I2&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=34d134ae4a3c7f57d286248cc519852f61c9aff868a4b9ca7c74fc35217f07a2JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvb2ZmaWNlL2dyYXBoaWNzLXZpc3VhbHMvd2hlcmUtaXMtcGljdHVyZS1tYW5hZ2Vy&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6eb5b63eb5fb9542311fa47ccbc69acfdc51361725cb2e687ef16a0c2e22c896JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvTWljcm9zb2Z0LTM2NS1Db3BpbG90L2dldC1zdGFydGVkLXdpdGgtbWljcm9zb2Z0LTM2NS1jb3BpbG90LW5vdGVib29rcw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=1ca0f902e4d3a45a99176a6a2a190acfd936912f3cf2b2a6ee74b0c51141ac61JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWVycmlhbS13ZWJzdGVyLmNvbS9kaWN0aW9uYXJ5L3Zpc2l0&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c57020cd9111c61efa629b76d2a0b97d1693b18a21e1e4eb37e07abe2ea8b8ffJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9jdHZpc2l0LmNvbS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d78f0f843d21b3d4fa1d7e32449158b3267b8491d4af659d6dd6352c74cf6e6dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly92aXNpdGVscGFzby5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=4b4d03217d3dfb8341a0dbd0d31b87c42dac7cca0af9b1db7db3b28dcf822c85JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudmlzaXRuYy5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=4a5f3f028bc61a2c7b9b0fe38b75bce3a5966ba5e41aff7d3d6553e605ddbc1bJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudmlzaXRwYS5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=561009528b19c8487d62cc5b365b055c617797613dcf2c7243b30837c2a3fcffJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudmlzaXR2aXJnaW5pYWJlYWNoLmNvbS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=2e8bc35d475cc1fc5f426acb9045a36e2d76c4c35672805d6027131ce39e6459JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudmlzaXRhbGJ1cXVlcnF1ZS5vcmcv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=12a0bda7008864150e073245e103084e0b6277038a720ce3fb57c44eb6cc73a4JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly92aXNpdG5qLm9yZy8&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "16 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T01:57:58Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "google",
+      "status": "done",
+      "queries": [
+        "\"webcam\" \"Mértola\"",
+        "\"web cam\" \"Mértola\"",
+        "\"live cam\" \"Mértola\"",
+        "\"câmara ao vivo\" \"Mértola\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T01:59:15Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "bing",
+      "status": "done",
+      "queries": [
+        "\"camera ao vivo\" \"Mértola\"",
+        "\"transmissão em direto\" \"Mértola\"",
+        "\"live stream\" \"Mértola\" Portugal",
+        "site:.pt webcam \"Mértola\""
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=53a762c7fac09300cd7877c4c695c008ae851e8ba7edef296aab37489046a6dfJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hcHBzLm1pY3Jvc29mdC5jb20vZGV0YWlsLzl3emRuY3JmamJiZw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d266412c9bf118cbaa210a203e0b49717e763bde8d4a02870519187fba35cfdfJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9jYW1lcmEuZW4uc29mdG9uaWMuY29tLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f53010c8faf4861702447880e1589c2bf9bd872cc64afb0de7b64080db09b4beJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hcHBzLmFwcGxlLmNvbS91cy9hcHAvY2FtZXJhL2lkMTU4NDIxNjE5Mw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=45ca25aa29a2f883b21f1fb5b18ff5e9f03471c06b0dc2aafaceeebba4a6a5eaJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93ZWJjYW1taWN0ZXN0LmNvbS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=592e52499677e714a41817a0a7425a5e60070cf615c097831fc4ffb69fe88fdeJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmFwaWR0YWJsZXMuY29tL3Rvb2xzL2NhbWVyYS5odG1s&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=2d882878825cba52f904c15132eacaced941250ae847e6da5d666fc4645b0bc8JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93ZWJjYW10ZXN0cy5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=444d0ba52dea312381b5921ad39c99735cb6d335a398a7a8430a4ffa11236fe1JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPW5ldC5zb3VyY2Vmb3JnZS5vcGVuY2FtZXJhJmhsPWVuLVVT&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=010c12b318aac5dd45d1c65caf2905a57ca28e879f6fe76531cb64f7dd572223JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuYmVzdGJ1eS5jb20vc2l0ZS9jYW1lcmFzLWNhbWNvcmRlcnMvZGlnaXRhbC1jYW1lcmFzL2FiY2F0MDQwMTAwMC5jP2lkPWFiY2F0MDQwMTAwMA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ad5c5e856e52b4576cf4dc2a7d46ba96d24351f168290b97ff1312358fa5fad8JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucm9ibG94LmNvbS8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=12211bf801c8097bcdef39f6cdfa6016f3e7b6d7701e3d7087d8da3493d4e741JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucm9ibG94LmNvbS9Mb2dpbg&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f3205598e6da0c1255ff1badf15840b08de776d65ef9def8146d717c20d492e9JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucm9ibG94LmNvbS9wdC9sb2dpbi8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c4bc61e89a88258459b026f115df135fb93a20a4fcf41a67d280688d1b2bf36aJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucm9ibG94LmNvbS9zdXBwb3J0&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=454019ff8dbda7fe78d97e9730c451fecc2c04978390600f7a6669421640bb16JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucm9ibG94LmNvbS90aC8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e5278dee7a4fa3475f49022a39c82569d1c7fcbaab88e2240467e688b2ebf00cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9kZXZmb3J1bS5yb2Jsb3guY29tLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=68fdbfd5566c8bebcf8c2d3f3ceb8a09dbfd215fd0a4f9517bfd92d8ddac8084JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucm9ibG94LmNvbS9hcg&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=2f9c5526468a683e87fc4dac45f8a1426207d9e0fd26bae6bdd4118e60c0ec72JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucm9ibG94LmNvbS9jYXRhbG9nP3RheG9ub215PXRac1VzZDJCcUdWaVFySjlWczNXYWgmc2FsZXNUeXBlRmlsdGVyPTE&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e8f9a4b109a441450c903dee92cc1531aa3a4fbdcc43a10d29e081f1027f383fJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9sb2dpbi5saXZlLmNvbS9NZS5odG0&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d606420bff7c2088dfff78df9cb29f303c35e7c64eaf4cd67114560a3ba7c5c2JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9tYWlsLnNlcnZpY2VzLmxpdmUuY29tL21haWwv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=67ffb1269f379df746c9c14cbf3c5cbe160f30ab634c0597a131323ea71e7f86JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9vdXRsb29rLm9mZmljZS5jb20vbWFpbC8_dWk9ZW4tVVMmcnM9VVM&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b562337eb8013fdb5010769dcbd4bc9d90b9366f38d62503bcd232fb9e2d3912JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vQGxpdmU&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=14a202b47965da78e74c9f4693df39fac412f192fc952c208d1958c60a89c0f0JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hY2NvdW50Lm1pY3Jvc29mdC5jb20vYWNjb3VudA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=5494e65f48e96344b4da8dfc6b020bd3a0d03c8e37b0bbc1464a54629498d77fJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e503867924323f00c7c6d016989931775d39d8ac4571322c8b2e2e86591e2e97JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubGl2ZXNjb3JlLmNvbS9lbi8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c2b875c0b15ba2f1f27200703de6f0a44b0b93a2c3ef7ded946782e9c0954e44JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9uZXdzLnNreS5jb20vd2F0Y2gtbGl2ZQ&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "24 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T01:59:32Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "duckduckgo",
+      "status": "done",
+      "queries": [
+        "site:youtube.com live \"Mértola\" Portugal",
+        "\"Axis\" \"Mértola\" camera",
+        "\"Mobotix\" \"Mértola\" camera",
+        "\"HLS\" \"Mértola\" webcam",
+        "\"mjpg\" \"Mértola\"",
+        "\"snapshot.jpg\" \"Mértola\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:01:29Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "aggregators",
+      "status": "done",
+      "queries": [
+        "site:portugalwebcams.pt Mértola",
+        "site:webcamgalore.com Mértola Portugal",
+        "site:skylinewebcams.com Mértola",
+        "site:earthcam.com Mértola"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:02:52Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "beaches_surf",
+      "status": "done",
+      "queries": [
+        "Mértola praia webcam",
+        "Mértola surf webcam",
+        "site:beachcam.pt Mértola",
+        "site:back-office.beachcam.pt/livecams Mértola"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=cf7eddefe15e7f11e38e05bf1ba6b15bc664cfff3b3d0eb2912eb29085c8bbd3JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tZ2IvY29udGFjdHVz&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f56a7890f16286d4a8a408e27895fc1e5aaf969d851d3ffd4f48d1d16c6a61caJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZnItZnIvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=3d8489425ee5846e55e2833c59473836c47ae4af8b32e05ca5a807fe89bcfa62JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vcHQtYnIvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=662a5ead3976febe5d06946ea2deb8989d332442e2ed1da6d0299bf7a3e7e53dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZGUtZGUvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6812819681b57a8863ff8c39e1a1b8285e13077cee9fdeb9b58f94c7b990cda1JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly90ZWNoY29tbXVuaXR5Lm1pY3Jvc29mdC5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=818d85835bd8b4fd6eca3a94461f5287dc52f0002589ad4d001fd9ceb869ff38JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZnItZnIvd2luZG93cy9tZXR0cmUtJUMzJUEwLWpvdXItbGVzLXBpbG90ZXMtdmlhLWdlc3Rpb25uYWlyZS1kZS1wJUMzJUE5cmlwaCVDMyVBOXJpcXVlcy1kYW5zLXdpbmRvd3MtZWM2MmY0NmMtZmYxNC1jOTFkLWVlYWQtZDcxMjZkYzFmN2I2&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=34d134ae4a3c7f57d286248cc519852f61c9aff868a4b9ca7c74fc35217f07a2JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvb2ZmaWNlL2dyYXBoaWNzLXZpc3VhbHMvd2hlcmUtaXMtcGljdHVyZS1tYW5hZ2Vy&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6eb5b63eb5fb9542311fa47ccbc69acfdc51361725cb2e687ef16a0c2e22c896JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvTWljcm9zb2Z0LTM2NS1Db3BpbG90L2dldC1zdGFydGVkLXdpdGgtbWljcm9zb2Z0LTM2NS1jb3BpbG90LW5vdGVib29rcw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=bf7c3b941171257bdabc9351896bc63ceff590e38fa53b4697c770b2e9306a25JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93YXJ3aWNrLmFjLnVrLz92PTEuMC4yNA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=495e8d4cad594d4032bc29271ac063085782dffb5aef6a3017b7728263b15c80JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93YXJ3aWNrLmFjLnVrL2Fib3V0Lw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=301176ebaa38c0b34a17ddd976ff6caec26fc332f49d6fda0a2ab1791e3673fcJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVW5pdmVyc2l0eV9vZl9XYXJ3aWNr&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=a04353d8e6e6384f432c16da87cb8775bdd5e636386e4bfe33f0e97f70feebecJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudW5pdmVyc2l0eWxpdmluZy5jb20vYmxvZy9hZG1pc3Npb24tZ3VpZGUvdW5pdmVyc2l0eS1vZi13YXJ3aWNrLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e7ce10e57334f40e883303ec8a35799a2a61435f229cb4d4d66491fe9452f0fbJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cud2JzLmFjLnVrLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c22d38c0835137d7420b6240ac4b9079352303341bc76869efee2fe5d2691d69JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudG9wdW5pdmVyc2l0aWVzLmNvbS91bml2ZXJzaXRpZXMvdW5pdmVyc2l0eS13YXJ3aWNr&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d51eb3f4d70e72c7f8389fa4b2f6cab110173d619712b60438e82068508964d4JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9jb2xsZWdlLWNvdW5jaWwuY29tL2VuL2Jsb2cvdW5pdmVyc2l0eS1vZi13YXJ3aWNrLWd1aWRlLWZvci1pbnRlcm5hdGlvbmFsLXN0dWRlbnRz&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=7aebe9a9c0607789696905cb7d09350f818052e4fc575025b0cdda77f84fe1b6JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudXNuZXdzLmNvbS9lZHVjYXRpb24vYmVzdC1nbG9iYWwtdW5pdmVyc2l0aWVzL3VuaXZlcnNpdHktb2Ytd2Fyd2ljay01MDM0NDM&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "16 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:04:28Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "ports_marinas",
+      "status": "done",
+      "queries": [
+        "Mértola porto marina webcam",
+        "Mértola clube náutico live cam"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=8b71619fd6a26f081cdd36e6ce7384d7c7be2c889bdf05c56fdab3341e2db14cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuZm9yYmVzLmNvbS9zaXRlcy9mb3JiZXMtcGVyc29uYWwtc2hvcHBlci9hcnRpY2xlL2Jlc3QtZmlsdGVyZWQtc2hvd2VyLWhlYWQv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=123e3cedec9fc15891379c3064b29ac2e1f9a50fc6c77e87dcfdfe24bce82f19JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zbWFydGhvbWVyZXZpZXcub3JnL2Jlc3Qtc2hvd2VyLWZpbHRlci1oZWFkcy8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=4370ee1fc365b8b7a97ccc6dc4f711fac020a4b648ed8c2bea7207981d851208JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubmJjbmV3cy5jb20vc2VsZWN0L3Nob3BwaW5nL2Jlc3QtZmlsdGVyZWQtc2hvd2VyaGVhZHMtcmNuYTE1MzkwMQ&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=7ec2c3ff60b5b9c1b960e0300913f0ed5a6f5c5f3b1bad9c91fc2aec31971ec8JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuYnVzaW5lc3NpbnNpZGVyLmNvbS9ndWlkZXMvaG9tZS9iZXN0LWZpbHRlcmVkLXNob3dlci1oZWFkcw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=2161336caee70416a368d8db963ba67be1da7211b7e7a3f363bd36a73327d964JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuZ29vZGhvdXNla2VlcGluZy5jb20vaG9tZS1wcm9kdWN0cy9nNDA0NTk1NjkvYmVzdC1zaG93ZXItZmlsdGVycy8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b36ebb9cd7fea6165ec459c592beb17ee76ffb266130f441c3339e8a558d5c9fJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9jb25zdW1lcnRydXN0cmVwb3J0cy5vcmcvYmVzdC1maWx0ZXJlZC13YXRlci1zaG93ZXItaGVhZHMv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=a512ea0f7844d34bb9cc3189ce882bf028f37a6456cbbb547850b32772d2b040JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cud2lyZWQuY29tL2dhbGxlcnkvYmVzdC1zaG93ZXItd2F0ZXItZmlsdGVycy8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b71ad02d6f7833ea289004b3dc489a999af00123e886eeebbf9c2a23fa7e8c9cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93YXRlcmZpbHRlcmd1cnUuY29tL2Jlc3Qtc2hvd2VyLXdhdGVyLWZpbHRlci1yZXZpZXdzLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=374deee0593c4af5d3f3ed97a4c07aa947e69d27a53278176e5de4f3269e8bddJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWluZWNyYWZ0Lm5ldC8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c3506e2765786d8831784f9d817e9492c55b88657bf65c8b089b850908bbe211JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWluZWNyYWZ0Lm5ldC9wbC1wbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=8b9f8dc8c03f17f7e0ca5d60038a8a7ead8100fe8122c23f0a54b0d121073aabJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWluZWNyYWZ0Lm5ldC96aC1oYW5zL2Rvd25sb2Fk&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=69aea1e7f657106e586cb6eaff6cf02ef9d5dcd079903a254c45e2171c020db6JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWluZWNyYWZ0Lm5ldC9wbC1wbC9kb3dubG9hZA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b868c297dabdbeaf001e98bc8ba176504cdf7f02d0870f37ab2cfd6c450871f9JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWluZWNyYWZ0Lm5ldC9rby1rci9sb2dpbg&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ea9ca5ef4d0db9ec318708118336e095e45a4a9b187a5bef0bdf291a47d2b3c6JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWluZWNyYWZ0Lm5ldC96aC1oYW5zL2xvZ2lu&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e42bf72677ed961fbebf374b05064fcee414df7010b0791be822527e01a24e51JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cDovL2NsYXNzaWMubWluZWNyYWZ0Lm5ldC8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=5ef329c86d0be8290c8c186e08a6c4fc8d5fff02cc886eca49073da8d01569a3JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWluZWNyYWZ0Lm5ldC9lbi11cy91cGRhdGVzL2luc3RydWN0aW9ucw&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "16 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:05:34Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "airports",
+      "status": "done",
+      "queries": [
+        "Mértola aeroporto aeródromo webcam"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=f9e6f308aa0647680d1ef12627cc40a4d001b74b0bca8a09e2518c76933de811JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0LmFwcGxlLmNvbS9ndWlkZS9pcGhvbmUvYWRkLWFuLWFpcnRhZy1pcGhmNjY2ZTk1NTkvaW9z&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f21873c73b775a3f833708c942b91cb24d1d73ca03384bc8eea9ec5536a19bbaJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWFjb2JzZXJ2ZXIuY29tL3RpcHMvaG93LXRvL3VzZS1hcHBsZS1haXJ0YWdzLXNldHVwLXRyYWNraW5nLWFuZC10cm91Ymxlc2hvb3Rpbmcv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=3a68d100baf609d296ece5a32552b2b29faef26b7bf713dd014971b639e5c914JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0LmFwcGxlLmNvbS9lbi11cy8xMDE2MDI&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f83a879559d88ef6a9212f3b96be6a34733959d4ba22df022b9a34c5e9ee3442JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9jeWJlcmd1eS5jb20vaG93LXRvL2hvdy10by1zZXQtdXAtYW5kLXVzZS1hcHBsZS1haXJ0YWdzLXRvLXRyYWNrLWl0ZW1zLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ce2002569637e29ea7f5d2825ae1a33f457ceb6d54830c4885dc85c1a858e1ceJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9tLnlvdXR1YmUuY29tL3dhdGNoP3Y9UjBweVJ5aFU3d3M&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d968c0379bb0f0ec1512e596c17a4a664f45a8eb8b02d01a685d7c7082da3d1aJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9tLnlvdXR1YmUuY29tL3dhdGNoP3Y9RF9qbXVoN0x2cHM&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=3f1ab2a995c5aaa23e459be107e1e74723460f3d89c01d44c9f0d256b856b780JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuaG93dG9nZWVrLmNvbS83MjYwODUvaG93LXRvLXNldC11cC1hbmQtcGFpci1hbi1hcHBsZS1haXJ0YWctdG8taXBob25lLW9yLWlwYWQv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=9bbf96c363acf3bffd36a49c694c933396d65d8f255e4c4f3bd9e186dab5babcJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuc2ltcGx5bWFjLmNvbS9haXJ0YWcvaG93LXRvLWFkZC1hbi1haXJ0YWctdG8tZmluZC1teS1vbi1pcGhvbmU&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "8 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:06:07Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "transport",
+      "status": "done",
+      "queries": [
+        "Mértola trânsito estrada webcam",
+        "Mértola estação ferrovia camera live"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=032d463653eb196f0f94329a5400a5d235292762b93c0e1fdb3be695da304b98JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL2JpbmcvY29tbWVudHMvMTdra3J0Zy90aGVfYmluZ193YWxscGFwZXJfZm9yX3RvZGF5X2lzX3RlcnJpYmxlX2FpLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=2973728cb152eff2f7f450517e44a76a64d5952975a06daed854a8269b192525JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL2JpbmcvY29tbWVudHMvMTNtbm1tai9pbnRlcmVzdGluZ19xdW90ZV9vZl90aGVfZGF5X2Zyb21fYmluZy8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=486e28bed41d7cba8a0acce09867e9d73181b17ddd4276d7bb048042b1cdbfddJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzMwMTU0OTU0NA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=2b5dd4810d3d6d5954f28adce6258ec3765974f03d65c4365be9600fc450bb57JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzI2OTY2MzEyMA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f4a247fb0dfb637cd76c65c05f9c01639bf33723f78c6453a9b5246a152e035cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL2NvcHlwYXN0YS9jb21tZW50cy96MXZnZTQvYmluZ19jaGlsbGluZy8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=74c3293646e9ed0ff9f329101fb1d78b4d70656068ddc3dfd4d9530327923d0eJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3RvcGljLzE5NTUwNDQ3L2hvdA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f0dd9aa80f07cdbde29a9e510397cf0db358b5c28b732990b817737c3dd66e92JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cucmVkZGl0LmNvbS9yL01pY3Jvc29mdFJld2FyZHMvY29tbWVudHMvMTFrMmhrdy9kYWlseV9jaGVja2luX3doYXRzX3RoZV9tb3N0X3lvdV9nb3Rfb25fZGF5Xzcv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=8eb0406da03e52bcc89e6f62eab599fdb5ca169b612ed72ef8c6a0f32a3f4f46JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzIyMTY4OTk1&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b0b5fe3684db7762826cc67b6535005f9735e03a1a5224db45a13c7090e781f8JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubnRsaXRlLmNvbS9jb21tdW5pdHkvdGhyZWFkcy92bGMtbWVkaWEtcGxheWVyLjE5Mjgv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=965faaba404ffb27fd63b0566a2d944f40866c10cce5c6045b864d4d27678a75JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9mb3J1bS52aWRlb2xhbi5vcmcvdmlld3RvcGljLnBocD90PTYwNDE5&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=af31c1329ee0968bc34375499c531f19f541b17b8baa16925383997bfe987180JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9mb3J1bS52aWRlb2xhbi5vcmcvdmlld3RvcGljLnBocD90PTU3Nzkz&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=3df9b390f6fb76a4d39e1733d554b35d5634f7450a54f7d5c3d9e1469cce7e36JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9mb3J1bS52aWRlb2xhbi5vcmcvdmlld3RvcGljLnBocD90PTkwMDU3&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6759282691b1f65150afc848ff9834c222a19a9f8d6ad5f616e11631ec29f1e6JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9mb3J1bS52aWRlb2xhbi5vcmcvdmlld3RvcGljLnBocD90PTEyNjEy&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=fa9df860d2a582850f5b60acf6be27a0e3bb72052d20da31b3af5ee676fe067cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9mb3J1bS52aWRlb2xhbi5vcmcvdmlld3RvcGljLnBocD90PTgwODUy&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f6bb5ae6b32195cdc09c29735aef4a427f4569aab3eb5ac929eb8ddde4237b05JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9mb3J1bS52aWRlb2xhbi5vcmcvdmlld3RvcGljLnBocD90PTcyMzY2&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=3039f3d5f45d665ed9a38e457e1057fb5ae448ffb88e99468ff58935c8969588JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9mb3J1bS52aWRlb2xhbi5vcmcvdmlld3RvcGljLnBocD90PTEyOTg5MQ&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "16 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:07:13Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "nature",
+      "status": "done",
+      "queries": [
+        "Mértola serra parque barragem miradouro webcam"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=6d64e4e7d1bca8e75f07fc4e31119684e9649a864d6a394864f10d93efaf3e6dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hcGtwdXJlLmNvbS9sb3ZlbHktY3JhZnQtcGlzdG9uLXRyYXAvY29tLkhlbGxvQ3JpbWUuTG92ZWx5Q3JhZnRQaXN0b24&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=9abbfa2fb96f270e2a501af4142762f0f060107d228c2fa063b9ed2be74f0f77JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9pdGNoLmlvL3Bvc3QvMTE0Njg3MzA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=353053a027f2085edef0643ba805d337a3dc9f41bbe7c78f18b127181bcbe6aaJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hcGtwdXJlLm5ldC9sb3ZlbHktY3JhZnQtcGlzdG9uLXRyYXAvY29tLkhlbGxvQ3JpbWUuTG92ZWx5Q3JhZnRQaXN0b24vZG93bmxvYWQ&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=a03c31459aa1a0491984b89fbe80108dd647df17bc4a12e150e507bb6b22ceeaJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9sb3ZlbHljcmFmdGFway5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=4b5f8db09dab4e204a29489e93ffbc2cb4a41f012a0e1a4fc7ace2bcce37935fJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hcGtwdXJlLm5ldC9sb3ZlbHktY3JhZnQtcGlzdG9uLXRyYXAvY29tLkhlbGxvQ3JpbWUuTG92ZWx5Q3JhZnRQaXN0b24&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=d42d353aa99cf7118fcbc317fcf56d047f378175748c26dbb48b2d16fa454907JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuZnVrZ2FtZXMuY29tL2ZyZWUtZ2FtZXMvNDU5NTg5Ni9sb3ZlbHktY3JhZnQtcGlzdG9uLXRyYXAtdjAuMy41&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=7dbc1bc5f82a438c87a82184c4818d4a589b1221bf5913ae97c6c3447382428eJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9pdGNoLmlvL2UvMzEzMjYyNjQvdGhld29sZnN0dWRpby1yYXRlZC1sb3ZlbHktY3JhZnQ&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=71b8ba590e8df0f62bd099372e46323cf79b2a3ab5431137996a39a7dd6ca713JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubW9ieWdhbWVzLmNvbS9nYW1lLzI0MjA0MS9sb3ZlbHktY3JhZnQtcGlzdG9uLXRyYXAvcmVsZWFzZXMv&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "8 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:07:45Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "hotels",
+      "status": "done",
+      "queries": [
+        "Mértola hotel resort webcam live"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=e017023083e9ccd6dc3e22502065a04ff3b6bc83a66557d3fe4a4fbcf0c7f1dbJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9lbi5tLndpa2lwZWRpYS5vcmcvd2lraS9TdHJhdG9jdW11bHVzX2Nsb3Vk&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=befe0ad91ec87e067288a557be2c4c483aaba3e42f669017eef86ee29212a63fJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zY2llbmNlbm90ZXMub3JnL3R5cGVzLW9mLWNsb3Vkcy1hbmQtaG93LXRvLXJlY29nbml6ZS10aGVtLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=0bcdacd5572b0b49e1ddf0add937d23dc392e240a7be3229bd858ae6d3667450JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cud2hhdHN0aGlzY2xvdWQuY29tL2Nsb3VkLXR5cGVzL3N0cmF0b2N1bXVsdXMv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e296228e20ef95095731ff68fa98ccbd0bcca986e3a5409d69e6b071f887c3b5JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zY2llbmNlaW5zaWdodHMub3JnL3doYXQtYXJlLXN0cmF0b2N1bXVsdXMtY2xvdWRzLWFuZC1ob3ctZG8tdGhleS1mb3JtLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=7d3885a9601b93d970351eabc77e990995df98821e427370ecc43b8e588b735fJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuem1lc2NpZW5jZS5jb20vZmVhdHVyZS1wb3N0L25hdHVyYWwtc2NpZW5jZXMvY2xpbWF0ZS1hbmQtd2VhdGhlci93ZWF0aGVyLWFuZC1hdG1vc3BoZXJlL3N0cmF0b2N1bXVsdXMtY2xvdWRzLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b9dffd57a190ae7069c6c7ef524fae33f86ee300f97089c972fb8bf1ef22ca34JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9jbG91ZGF0bGFzLndtby5pbnQvZW4vc3RyYXRvY3VtdWx1cy1zYy5odG1s&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e024d797d2a923e23386fed6443e32d04f9e1d162d1634a6070ca058977c9670JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cud2VhdGhlci5nb3YvbG1rL2Nsb3VkX2NsYXNzaWZpY2F0aW9u&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=269145df99059808d8082a2cc0990635e63d30b526bd815bd6f01a2d7ab76b98JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9jbG91ZGFwcHJlY2lhdGlvbnNvY2lldHkub3JnL2Nsb3VkLWxpYnJhcnkvc3RyYXRvY3VtdWx1cy8&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "8 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:08:18Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "sports_golf",
+      "status": "done",
+      "queries": [
+        "Mértola golf ski desporto webcam"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=cf7eddefe15e7f11e38e05bf1ba6b15bc664cfff3b3d0eb2912eb29085c8bbd3JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tZ2IvY29udGFjdHVz&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f56a7890f16286d4a8a408e27895fc1e5aaf969d851d3ffd4f48d1d16c6a61caJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZnItZnIvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=3d8489425ee5846e55e2833c59473836c47ae4af8b32e05ca5a807fe89bcfa62JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vcHQtYnIvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=82b09f74cdcd6d218887462da25a73b444de8134e6198ac5f6e48bab97ce8c83JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvZGVmZW5kZXIvaW5zdGFsbGluZy1taWNyb3NvZnQtZGVmZW5kZXI&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=662a5ead3976febe5d06946ea2deb8989d332442e2ed1da6d0299bf7a3e7e53dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZGUtZGUvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6812819681b57a8863ff8c39e1a1b8285e13077cee9fdeb9b58f94c7b990cda1JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly90ZWNoY29tbXVuaXR5Lm1pY3Jvc29mdC5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=34d134ae4a3c7f57d286248cc519852f61c9aff868a4b9ca7c74fc35217f07a2JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvb2ZmaWNlL2dyYXBoaWNzLXZpc3VhbHMvd2hlcmUtaXMtcGljdHVyZS1tYW5hZ2Vy&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6eb5b63eb5fb9542311fa47ccbc69acfdc51361725cb2e687ef16a0c2e22c896JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvTWljcm9zb2Z0LTM2NS1Db3BpbG90L2dldC1zdGFydGVkLXdpdGgtbWljcm9zb2Z0LTM2NS1jb3BpbG90LW5vdGVib29rcw&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "8 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:08:41Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "weather_observatories",
+      "status": "done",
+      "queries": [
+        "Mértola meteorologia observatório webcam",
+        "site:ipma.pt Mértola camera"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=313cb2a205ca31b7d580e4c612f076f36aaf9e46fcf400487e928d20940a293dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9tYWlsLmdvb2dsZS5jb20vbWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=94ee033e12dec8c6d05ac464270b493aeb085c5a8d2ce7eb461105dee00ba009JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hcHBzLmFwcGxlLmNvbS91cy9hcHAvZ21haWwtZW1haWwtYnktZ29vZ2xlL2lkNDIyNjg5NDgw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=906744259c4289d49c079f5e6f7696846beecae01f33bdf572cfd8b24b17d9d6JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9ibG9nLmdvb2dsZS9wcm9kdWN0cy1hbmQtcGxhdGZvcm1zL3Byb2R1Y3RzL2dtYWlsL2dtYWlsLWlzLWVudGVyaW5nLXRoZS1nZW1pbmktZXJhLw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=734310a11728a5c162ecfa9eb9691cc5162943ee535337f5fdeabe51436c44bbJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tL3NlcnZpY2Vsb2dpbj9zZXJ2aWNlPW1haWw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=bc20745c61733e5e5967991b2e97e4312ea271160f8be6748e29fee14be4671cJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tL0xvZ2lu&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=830a42b35d0e95b87eff228b58284f6a8cb3aa6f867412c015995c81d97b8d87JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93b3Jrc3BhY2UuZ29vZ2xlLmNvbS9nbWFpbC8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=0497f1f4b695b77a2ffff40f5d9b7546235dd5b0b1120990038499705950cc3bJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vbWFpbC9hbnN3ZXIvODQ5ND9obD1lbiZjbz1HRU5JRS5QbGF0Zm9ybSUzRERlc2t0b3A&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=cd37cbba8d2ad9af8490a6ba0b7547940dae1d5ae0ca0768f3022118754efa4aJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20vbWFpbC9hbnN3ZXIvNTYyNTY_aGw9ZW4&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "8 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:09:36Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "social_video",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/watch Mértola live webcam",
+        "site:facebook.com Mértola webcam live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:10:18Z",
+      "reviewer": "github-actions:webcam-audit"
+    },
+    {
+      "check_id": "technical",
+      "status": "done",
+      "queries": [
+        "Mértola m3u8 webcam",
+        "Mértola mjpeg camera",
+        "Mértola snapshot.jpg",
+        "Mértola iframe live"
+      ],
+      "urls_checked": [
+        "https://www.bing.com/ck/a?!&&p=cf7eddefe15e7f11e38e05bf1ba6b15bc664cfff3b3d0eb2912eb29085c8bbd3JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tZ2IvY29udGFjdHVz&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=f56a7890f16286d4a8a408e27895fc1e5aaf969d851d3ffd4f48d1d16c6a61caJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZnItZnIvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=3d8489425ee5846e55e2833c59473836c47ae4af8b32e05ca5a807fe89bcfa62JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vcHQtYnIvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=662a5ead3976febe5d06946ea2deb8989d332442e2ed1da6d0299bf7a3e7e53dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZGUtZGUvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6812819681b57a8863ff8c39e1a1b8285e13077cee9fdeb9b58f94c7b990cda1JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly90ZWNoY29tbXVuaXR5Lm1pY3Jvc29mdC5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=818d85835bd8b4fd6eca3a94461f5287dc52f0002589ad4d001fd9ceb869ff38JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZnItZnIvd2luZG93cy9tZXR0cmUtJUMzJUEwLWpvdXItbGVzLXBpbG90ZXMtdmlhLWdlc3Rpb25uYWlyZS1kZS1wJUMzJUE5cmlwaCVDMyVBOXJpcXVlcy1kYW5zLXdpbmRvd3MtZWM2MmY0NmMtZmYxNC1jOTFkLWVlYWQtZDcxMjZkYzFmN2I2&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=34d134ae4a3c7f57d286248cc519852f61c9aff868a4b9ca7c74fc35217f07a2JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvb2ZmaWNlL2dyYXBoaWNzLXZpc3VhbHMvd2hlcmUtaXMtcGljdHVyZS1tYW5hZ2Vy&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6eb5b63eb5fb9542311fa47ccbc69acfdc51361725cb2e687ef16a0c2e22c896JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvTWljcm9zb2Z0LTM2NS1Db3BpbG90L2dldC1zdGFydGVkLXdpdGgtbWljcm9zb2Z0LTM2NS1jb3BpbG90LW5vdGVib29rcw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=8b678a140b5eda6f59b3b20f3d4a9051a76646d8a0c26ba9d69570e7aa7b4a63JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWFpZ29vLmNvbS9tYWlnb28vNTE1N3BzZF9pbmRleC5odG1s&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=10041b8fa11a95bfd76b706ab4168f301837f3550168202b1fb1d1e6cf593faaJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWFpZ29vLmNvbS9nb29tYWkvNzI3NTU4Lmh0bWw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=9dd14ff56dc824393e9fba921daf2964b8b6042c463f05230ac7296b6dea630bJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWFpZ29vLmNvbS90b3AvNDM3NjEzLmh0bWw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ff8f4644ffe6c8fb4908e38fe656780090a79b3aeae9dd29536b7b7177685b4dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWFpZ29vLmNvbS90b3AvNDI0NDg0Lmh0bWw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=c150f8dedf9c6a4362803d29cf9e526051b9b26b5e7d9a3ad3b9ceb972faacafJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWFpZ29vLmNvbS90b3AvNDQwODkwLmh0bWw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=423e2b1f9e98230de5075183a27ecb8a1abd04753c0ba73d229474b62818bd55JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWFpZ29vLmNvbS9nb29tYWkvNzI5MTE0Lmh0bWw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=e559490e972e6b6bb85543de37c14b4a87e1739a4f9e5f2ffdf93c77e5fb32f7JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWFpZ29vLmNvbS9nb29tYWkvMjI4OTI5Lmh0bWw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=fbdf9287ec31ecc7997c8a17455493b900e0541126672952e26762d49d382569JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWFpZ29vLmNvbS90b3AvNDQzMDMyLmh0bWw&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=28422a8e15ea310f5308ae47f8f62206986b6235a6fca0d0f82fe34c0bd4cadcJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cz9tc29ja2lkPTA2NWVjM2JhN2Q3ODZhZWYwOTIxZDQxOTdjNTQ2YjRh&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=14a202b47965da78e74c9f4693df39fac412f192fc952c208d1958c60a89c0f0JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9hY2NvdW50Lm1pY3Jvc29mdC5jb20vYWNjb3VudA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=63ca29cccd76674d053f68d3d24a7a72956a789fa5ece8b3837ff2fd691c542dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvTWljcm9zb2Z0&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=94af79089ad733ae051fd7f29d38628b3177463dc5d5a3771b59b10d4b21c193JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zaWdudXAubGl2ZS5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=6fb69f46c069831f6a6b36f6a434b8d7afdd3dc7cb14facc7fa62a7693285da4JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cub3V0bG9vay5jb20v&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=cc4e1fbdca87cc13697c7a397f48343280fb42c159691d5b47639dbf720f54e1JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cub2ZmaWNlLmNvbS9sb2dpbg&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=3235f3a667526fb3044fde13d850e7114df3f78ac4718f0e4f3941e468a4693dJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cub2ZmaWNlLmNvbS8_ZnJvbT1Ib21lc2NyZWVu&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=327e38fa09842784904057c38150a43d00cf1b7b2d45ed704661e712dabe5159JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cueGJveC5jb20vZW4tdXMvbWljcm9zb2Z0LXN0b3JlP21zb2NraWQ9MDY1ZWMzYmE3ZDc4NmFlZjA5MjFkNDE5N2M1NDZiNGE&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=cc26bd15c68cfc3dd0fa36721c3d3cd06f7201805f5023e245fd2e62d5af7f59JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudGltZWFuZGRhdGUuY29tL3N1bi8_cXVlcnk9U3lkbmV5JTJDK0F1c3RyYWxpYQ&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=364155b04f0d74b09049cdcdb5ae6164f4d0b31a858620d40e87d7ab4d49e6ccJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly90aW1lcmpveS5jb20vc3VucmlzZS1zdW5zZXQvc3VucmlzZS1zdW5zZXQtc3lkbmV5&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=dc6bbb22080ff120ae2b82dafab8e82cdf9e92cca334230395065953f463bbc5JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdW5yaXNlLXN1bnNldC5vcmcvYXUvc3lkbmV5&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=2599cde6ec0c200756cede469106a5c512bc0318205b05b5c8724997df3a1507JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cud2VhdGhlci10ZW1wZXJhdHVyZS5uZXQvc3VucmlzZS1zdW5zZXQtdGltZXMvMjE0NzcxNC8&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=b1ff92b12c5263481e7e0545003d46048bd4615238313d812f2e05b7f81e43e3JmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cudGltZW9mc3VucmlzZS5jb20vc3lkbmV5&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=5797ba56057be584f073cbdf69f78d72340e4b73c8f5455f375fa3aac12445ffJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly93d3cuZ2Fpc21hLmNvbS9lbi9sb2NhdGlvbi9zeWRuZXktYXUuaHRtbA&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=01576a5c0aa7abc1349b8cd2e141961e08860fff5feeb6bf681756f9bc0d8dfaJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdW5yaXNlc3Vuc2V0LmlvL2F1L25ldy1zb3V0aC13YWxlcy9zeWRuZXkv&ntb=1",
+        "https://www.bing.com/ck/a?!&&p=ef2b6f0fe5971d5743c135521f3c62fb06cb8ac987c10c8dca3681f60c31b45eJmltdHM9MTc4NTAyNDAwMA&ptn=3&ver=2&hsh=4&fclid=065ec3ba-7d78-6aef-0921-d4197c546b4a&u=a1aHR0cHM6Ly9zdW5yaXNlc3Vuc2V0LndpbGx5d2VhdGhlci5jb20uYXUvbnN3Lmh0bWw&ntb=1"
+      ],
+      "candidates_found": [],
+      "notes": "32 URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T02:12:05Z",
+      "reviewer": "github-actions:webcam-audit"
+    }
+  ],
+  "candidates": [],
+  "checks_completed": 16,
+  "checks_total": 16,
+  "finished_at": "2026-07-27T02:12:05Z"
+}
