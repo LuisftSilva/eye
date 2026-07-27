@@ -11,7 +11,7 @@
 </head>
 <body>
   <div id="app">
-    <div id="map" aria-label="Globo 3D com webcams"></div>
+    <div id="map" aria-label="Mapa 3D com webcams"></div>
 
     <header class="hud top">
       <div class="brand">
@@ -38,8 +38,12 @@
         <button class="filter" data-filter="azores">Açores</button>
         <button class="filter" data-filter="madeira">Madeira</button>
       </div>
-      <label class="switch-row"><input id="autoRotate" type="checkbox" checked><span>Rotação do planeta</span></label>
-      <p class="coverage">Clique num ponto para ver imediatamente a transmissão em direto. Quando um operador não disponibiliza stream incorporável, pode abrir a fonte original.</p>
+      <div class="switches">
+        <label class="switch-row"><input id="hideOffline" type="checkbox" checked><span>Ocultar câmaras offline</span></label>
+        <label class="switch-row"><input id="threeDMode" type="checkbox"><span>Edifícios e terreno 3D</span></label>
+        <label class="switch-row"><input id="autoRotate" type="checkbox" checked><span>Rotação do planeta</span></label>
+      </div>
+      <p class="coverage">Verde: feed direto. Azul: fonte confirmada. Vermelho: offline. No modo 3D, os edifícios aparecem nas cidades onde existem dados OpenStreetMap compatíveis.</p>
     </aside>
 
     <section id="viewer" class="viewer" aria-live="polite">
@@ -69,8 +73,9 @@
     </section>
 
     <div class="hud legend">
-      <span><i class="dot verified"></i> Rede confirmada</span>
+      <span><i class="dot verified"></i> Confirmada</span>
       <span><i class="dot direct"></i> Feed direto</span>
+      <span><i class="dot offline"></i> Offline</span>
     </div>
   </div>
   <script src="https://unpkg.com/maplibre-gl@5.18.0/dist/maplibre-gl.js"></script>
