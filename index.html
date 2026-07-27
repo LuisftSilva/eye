@@ -39,22 +39,23 @@
         <button class="filter" data-filter="madeira">Madeira</button>
       </div>
       <label class="switch-row"><input id="autoRotate" type="checkbox" checked><span>Rotação do planeta</span></label>
-      <p class="coverage">Globo satélite 3D. Clique num ponto para abrir a transmissão num painel sem abandonar o mapa. Quando o fornecedor bloqueia incorporação, use “Abrir transmissão”.</p>
+      <p class="coverage">Clique num ponto para ver imediatamente a transmissão em direto. Quando um operador não disponibiliza stream incorporável, pode abrir a fonte original.</p>
     </aside>
 
     <section id="viewer" class="viewer" aria-live="polite">
       <button id="closeViewer" class="close" aria-label="Fechar">×</button>
       <div class="viewer-head">
-        <span id="viewerStatus" class="status">LIVE SOURCE</span>
+        <span id="viewerStatus" class="status">LIVE</span>
         <h1 id="viewerTitle"></h1>
         <p id="viewerLocation"></p>
       </div>
       <div id="videoStage" class="video-stage">
+        <video id="cameraVideo" class="camera-frame hidden" autoplay muted playsinline controls></video>
         <iframe id="cameraFrame" class="camera-frame hidden" title="Webcam ao vivo" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         <div id="videoFallback" class="video-placeholder">
           <span class="cam-icon">◉</span>
           <strong>A carregar transmissão</strong>
-          <p>Alguns operadores impedem a reprodução dentro de outros sites. O mapa permanece aberto e pode usar o botão abaixo.</p>
+          <p>Se o operador bloquear a reprodução, use o botão “Abrir transmissão”.</p>
         </div>
       </div>
       <div class="viewer-body">
@@ -73,6 +74,7 @@
     </div>
   </div>
   <script src="https://unpkg.com/maplibre-gl@5.18.0/dist/maplibre-gl.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.13/dist/hls.min.js"></script>
   <script src="data/cameras-extra-portugal.js"></script>
   <script src="app.js"></script>
 </body>
