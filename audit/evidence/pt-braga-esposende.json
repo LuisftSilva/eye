@@ -1,0 +1,325 @@
+{
+  "municipality_id": "pt-braga-esposende",
+  "order": 39,
+  "municipality": "Esposende",
+  "district": "Braga",
+  "status": "review",
+  "started_at": "2026-07-27T12:14:17Z",
+  "reviewer": "github-actions:webcam-audit",
+  "checks": [
+    {
+      "check_id": "official_municipality",
+      "status": "done",
+      "queries": [
+        "site:cm-esposende.pt webcam Esposende",
+        "site:municipio-esposende.pt webcam Esposende",
+        "site:esposende.pt webcam Esposende",
+        "site:cm-esposende.pt (direto OR livestream OR câmara)"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:14:28Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "official_tourism",
+      "status": "done",
+      "queries": [
+        "turismo Esposende webcam",
+        "visit Esposende live cam",
+        "site:visitportugal.com Esposende webcam",
+        "site:turismodeportugal.pt Esposende webcam",
+        "site:visitportoandnorth.travel Esposende webcam",
+        "site:visitcentrodeportugal.com.pt Esposende webcam",
+        "site:visitlisboa.com Esposende webcam",
+        "site:visitalentejo.pt Esposende webcam",
+        "site:visitalgarve.pt Esposende webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:14:53Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "google",
+      "status": "done",
+      "queries": [
+        "\"webcam\" \"Esposende\" Portugal",
+        "\"web cam\" \"Esposende\" Portugal",
+        "\"live cam\" \"Esposende\" Portugal",
+        "\"câmara ao vivo\" \"Esposende\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:15:05Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "bing",
+      "status": "done",
+      "queries": [
+        "\"camera ao vivo\" \"Esposende\"",
+        "\"transmissão em direto\" \"Esposende\"",
+        "\"live stream\" \"Esposende\" Portugal",
+        "site:.pt webcam \"Esposende\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:15:16Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "duckduckgo",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/live \"Esposende\" Portugal",
+        "site:facebook.com \"Esposende\" webcam live",
+        "site:instagram.com \"Esposende\" webcam",
+        "\"Axis\" \"Esposende\" camera",
+        "\"Mobotix\" \"Esposende\" camera",
+        "\"Hikvision\" \"Esposende\" webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:15:34Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "aggregators",
+      "status": "done",
+      "queries": [
+        "site:portugalwebcams.pt \"Esposende\"",
+        "site:webcamgalore.com \"Esposende\" Portugal",
+        "site:windy.com/webcams \"Esposende\" Portugal",
+        "site:windfinder.com/webcams \"Esposende\"",
+        "site:webcams.travel \"Esposende\" Portugal",
+        "site:webcamtaxi.com \"Esposende\" Portugal",
+        "site:worldcam.eu \"Esposende\" Portugal",
+        "site:geowebcams.com \"Esposende\" Portugal",
+        "site:skylinewebcams.com \"Esposende\" Portugal",
+        "site:earthcam.com \"Esposende\" Portugal",
+        "site:ipcamlive.com \"Esposende\" Portugal",
+        "site:meteoblue.com \"Esposende\" webcam",
+        "site:spotazores.com \"Esposende\"",
+        "site:netmadeira.com \"Esposende\" webcam",
+        "site:madeiracams.com \"Esposende\"",
+        "site:beachcam.meo.pt \"Esposende\"",
+        "site:back-office.beachcam.pt/livecams \"Esposende\"",
+        "Portugal webcam Portugal \"Esposende\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:18:12Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "beaches_surf",
+      "status": "done",
+      "queries": [
+        "Esposende praia webcam",
+        "Esposende surf webcam",
+        "site:beachcam.meo.pt Esposende",
+        "site:surfline.com Esposende Portugal",
+        "site:magicseaweed.com Esposende webcam",
+        "site:windfinder.com Esposende webcam",
+        "site:windy.com/webcams Esposende praia"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:20:52Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "ports_marinas_nautical",
+      "status": "done",
+      "queries": [
+        "Esposende porto webcam",
+        "Esposende marina webcam",
+        "Esposende clube náutico live cam",
+        "Esposende barra porto câmara ao vivo",
+        "site:portosdeportugal.pt Esposende webcam",
+        "site:amn.pt Esposende webcam",
+        "site:docapesca.pt Esposende webcam",
+        "site:apdl.pt Esposende webcam",
+        "site:portoaveiro.pt Esposende webcam",
+        "site:portodelisboa.pt Esposende webcam",
+        "site:apsinesalgarve.pt Esposende webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:25:04Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "airports_aerodromes",
+      "status": "done",
+      "queries": [
+        "Esposende aeroporto webcam",
+        "Esposende aeródromo webcam",
+        "Esposende aeroclube webcam",
+        "Esposende pista aviação câmara ao vivo",
+        "site:ana.pt Esposende webcam",
+        "site:nav.pt Esposende webcam",
+        "site:airportwebcams.net Portugal Esposende",
+        "site:metar-taf.com Esposende webcam",
+        "site:youtube.com Esposende airport live",
+        "site:facebook.com aeroclube Esposende direto"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:28:53Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "traffic_transport_rail",
+      "status": "done",
+      "queries": [
+        "Esposende trânsito estrada webcam",
+        "Esposende câmara tráfego ao vivo",
+        "Esposende estação ferroviária webcam",
+        "Esposende terminal rodoviário webcam",
+        "site:infraestruturasdeportugal.pt Esposende camera",
+        "site:estradas.pt Esposende webcam",
+        "site:cp.pt Esposende webcam",
+        "site:metrolisboa.pt Esposende live",
+        "site:metrodoporto.pt Esposende live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:32:19Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "nature_mountains_parks_dams",
+      "status": "done",
+      "queries": [
+        "Esposende serra webcam",
+        "Esposende parque natural webcam",
+        "Esposende barragem webcam",
+        "Esposende miradouro webcam",
+        "Esposende rio webcam",
+        "site:icnf.pt Esposende webcam",
+        "site:snirh.apambiente.pt Esposende câmara",
+        "site:edp.com Esposende barragem webcam",
+        "site:meteoblue.com Esposende webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:35:45Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "hotels_resorts_lodging",
+      "status": "done",
+      "queries": [
+        "Esposende hotel webcam live",
+        "Esposende resort webcam",
+        "Esposende alojamento webcam",
+        "Esposende parque de campismo webcam",
+        "site:booking.com Esposende webcam",
+        "site:youtube.com hotel Esposende live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:38:02Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "sports_golf_ski",
+      "status": "done",
+      "queries": [
+        "Esposende golf webcam",
+        "Esposende estádio webcam live",
+        "Esposende ski webcam",
+        "Esposende estância neve webcam",
+        "Esposende circuito automóvel webcam",
+        "Esposende clube desportivo live cam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:40:20Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "weather_universities_observatories",
+      "status": "done",
+      "queries": [
+        "Esposende meteorologia webcam",
+        "Esposende estação meteorológica câmara",
+        "Esposende observatório webcam",
+        "site:ipma.pt Esposende camera",
+        "site:observar.ipma.pt Esposende Câmara",
+        "site:meteoblue.com Esposende webcam",
+        "site:weathercloud.net Esposende webcam",
+        "site:wunderground.com Esposende webcam",
+        "site:windy.com/webcams Esposende",
+        "Esposende universidade webcam",
+        "Esposende observatório astronómico live",
+        "Esposende centro ciência webcam",
+        "site:ulisboa.pt Esposende webcam",
+        "site:up.pt Esposende webcam",
+        "site:uc.pt Esposende webcam",
+        "site:uminho.pt Esposende webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:46:03Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "social_video",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/watch \"Esposende\" live webcam",
+        "site:youtube.com/live \"Esposende\" Portugal",
+        "site:facebook.com \"Esposende\" webcam live",
+        "site:twitch.tv \"Esposende\" Portugal live",
+        "site:instagram.com \"Esposende\" direto webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:47:58Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "technical_discovery",
+      "status": "done",
+      "queries": [
+        "\"Esposende\" m3u8 webcam",
+        "\"Esposende\" mpd live camera",
+        "\"Esposende\" mjpeg camera",
+        "\"Esposende\" snapshot.jpg",
+        "\"Esposende\" videostream.cgi",
+        "\"Esposende\" axis-cgi/mjpg",
+        "\"Esposende\" iframe live",
+        "inurl:viewerframe?mode=motion \"Esposende\"",
+        "inurl:axis-cgi \"Esposende\"",
+        "inurl:Streaming/channels \"Esposende\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-27T12:51:48Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    }
+  ],
+  "candidates": [],
+  "checks_completed": 16,
+  "checks_total": 16,
+  "finished_at": "2026-07-27T12:51:48Z"
+}
