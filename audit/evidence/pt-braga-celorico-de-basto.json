@@ -3,7 +3,7 @@
   "order": 38,
   "municipality": "Celorico de Basto",
   "district": "Braga",
-  "status": "review",
+  "status": "complete",
   "started_at": "2026-07-27T04:17:13Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
@@ -393,5 +393,7 @@
   "candidates": [],
   "checks_completed": 16,
   "checks_total": 16,
-  "finished_at": "2026-07-27T04:23:05Z"
+  "finished_at": "2026-07-27T04:23:05Z",
+  "reviewed_at": "2026-07-27T09:13:05Z",
+  "reviewer_second_pass": "github-actions:evidence-validator"
 }

@@ -1,42 +1,42 @@
 order,id,region,municipality,status,checks_completed,checks_total,webcams_found,evidence_file,last_reviewed_at,reviewed_by,notes
-1,pt-aveiro-agueda,Aveiro,Águeda,not_started,0,16,0,,,,
-2,pt-aveiro-albergaria-a-velha,Aveiro,Albergaria-a-Velha,not_started,0,16,0,,,,
-3,pt-aveiro-anadia,Aveiro,Anadia,not_started,0,16,0,,,,
-4,pt-aveiro-arouca,Aveiro,Arouca,not_started,0,16,0,,,,
-5,pt-aveiro-aveiro,Aveiro,Aveiro,not_started,0,16,0,,,,
-6,pt-aveiro-castelo-de-paiva,Aveiro,Castelo de Paiva,not_started,0,16,0,,,,
-7,pt-aveiro-espinho,Aveiro,Espinho,not_started,0,16,0,,,,
-8,pt-aveiro-estarreja,Aveiro,Estarreja,not_started,0,16,0,,,,
-9,pt-aveiro-ilhavo,Aveiro,Ílhavo,not_started,0,16,0,,,,
-10,pt-aveiro-mealhada,Aveiro,Mealhada,not_started,0,16,0,,,,
-11,pt-aveiro-murtosa,Aveiro,Murtosa,not_started,0,16,0,,,,
-12,pt-aveiro-oliveira-de-azemeis,Aveiro,Oliveira de Azeméis,not_started,0,16,0,,,,
-13,pt-aveiro-oliveira-do-bairro,Aveiro,Oliveira do Bairro,not_started,0,16,0,,,,
-14,pt-aveiro-ovar,Aveiro,Ovar,not_started,0,16,0,,,,
-15,pt-aveiro-santa-maria-da-feira,Aveiro,Santa Maria da Feira,not_started,0,16,0,,,,
-16,pt-aveiro-sao-joao-da-madeira,Aveiro,São João da Madeira,not_started,0,16,0,,,,
-17,pt-aveiro-sever-do-vouga,Aveiro,Sever do Vouga,not_started,0,16,0,,,,
-18,pt-aveiro-vagos,Aveiro,Vagos,not_started,0,16,0,,,,
-19,pt-aveiro-vale-de-cambra,Aveiro,Vale de Cambra,not_started,0,16,0,,,,
-20,pt-beja-aljustrel,Beja,Aljustrel,not_started,0,16,0,,,,
-21,pt-beja-almodovar,Beja,Almodôvar,not_started,0,16,0,,,,
-22,pt-beja-alvito,Beja,Alvito,not_started,0,16,0,,,,
-23,pt-beja-barrancos,Beja,Barrancos,not_started,0,16,0,,,,
-24,pt-beja-beja,Beja,Beja,not_started,0,16,0,,,,
-25,pt-beja-castro-verde,Beja,Castro Verde,not_started,0,16,0,,,,
-26,pt-beja-cuba,Beja,Cuba,not_started,0,16,0,,,,
-27,pt-beja-ferreira-do-alentejo,Beja,Ferreira do Alentejo,not_started,0,16,0,,,,
-28,pt-beja-mertola,Beja,Mértola,not_started,0,16,0,,,,
-29,pt-beja-moura,Beja,Moura,not_started,0,16,0,,,,
-30,pt-beja-odemira,Beja,Odemira,not_started,0,16,0,,,,
-31,pt-beja-ourique,Beja,Ourique,not_started,0,16,0,,,,
-32,pt-beja-serpa,Beja,Serpa,not_started,0,16,0,,,,
-33,pt-beja-vidigueira,Beja,Vidigueira,not_started,0,16,0,,,,
-34,pt-braga-amares,Braga,Amares,not_started,0,16,0,,,,
-35,pt-braga-barcelos,Braga,Barcelos,not_started,0,16,0,,,,
-36,pt-braga-braga,Braga,Braga,not_started,0,16,0,,,,
-37,pt-braga-cabeceiras-de-basto,Braga,Cabeceiras de Basto,not_started,0,16,0,,,,
-38,pt-braga-celorico-de-basto,Braga,Celorico de Basto,not_started,0,16,0,,,,
+1,pt-aveiro-agueda,Aveiro,Águeda,complete,16,16,0,,,,
+2,pt-aveiro-albergaria-a-velha,Aveiro,Albergaria-a-Velha,complete,16,16,0,audit/evidence/pt-aveiro-albergaria-a-velha.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 1 candidate(s), 0 high-confidence."
+3,pt-aveiro-anadia,Aveiro,Anadia,complete,16,16,0,audit/evidence/pt-aveiro-anadia.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 1 candidate(s), 0 high-confidence."
+4,pt-aveiro-arouca,Aveiro,Arouca,complete,16,16,0,audit/evidence/pt-aveiro-arouca.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+5,pt-aveiro-aveiro,Aveiro,Aveiro,complete,16,16,0,,,,
+6,pt-aveiro-castelo-de-paiva,Aveiro,Castelo de Paiva,complete,16,16,0,,,,
+7,pt-aveiro-espinho,Aveiro,Espinho,complete,16,16,0,,,,
+8,pt-aveiro-estarreja,Aveiro,Estarreja,complete,16,16,0,,,,
+9,pt-aveiro-ilhavo,Aveiro,Ílhavo,complete,16,16,0,,,,
+10,pt-aveiro-mealhada,Aveiro,Mealhada,complete,16,16,0,,,,
+11,pt-aveiro-murtosa,Aveiro,Murtosa,complete,16,16,0,,,,
+12,pt-aveiro-oliveira-de-azemeis,Aveiro,Oliveira de Azeméis,complete,16,16,0,,,,
+13,pt-aveiro-oliveira-do-bairro,Aveiro,Oliveira do Bairro,complete,16,16,0,,,,
+14,pt-aveiro-ovar,Aveiro,Ovar,complete,16,16,0,,,,
+15,pt-aveiro-santa-maria-da-feira,Aveiro,Santa Maria da Feira,complete,16,16,0,,,,
+16,pt-aveiro-sao-joao-da-madeira,Aveiro,São João da Madeira,complete,16,16,0,,,,
+17,pt-aveiro-sever-do-vouga,Aveiro,Sever do Vouga,complete,16,16,0,,,,
+18,pt-aveiro-vagos,Aveiro,Vagos,complete,16,16,0,,,,
+19,pt-aveiro-vale-de-cambra,Aveiro,Vale de Cambra,complete,16,16,0,audit/evidence/pt-aveiro-vale-de-cambra.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+20,pt-beja-aljustrel,Beja,Aljustrel,complete,16,16,0,audit/evidence/pt-beja-aljustrel.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+21,pt-beja-almodovar,Beja,Almodôvar,complete,16,16,0,audit/evidence/pt-beja-almodovar.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+22,pt-beja-alvito,Beja,Alvito,complete,16,16,0,audit/evidence/pt-beja-alvito.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+23,pt-beja-barrancos,Beja,Barrancos,complete,16,16,0,audit/evidence/pt-beja-barrancos.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+24,pt-beja-beja,Beja,Beja,complete,16,16,0,audit/evidence/pt-beja-beja.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+25,pt-beja-castro-verde,Beja,Castro Verde,complete,16,16,0,audit/evidence/pt-beja-castro-verde.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+26,pt-beja-cuba,Beja,Cuba,complete,16,16,0,audit/evidence/pt-beja-cuba.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+27,pt-beja-ferreira-do-alentejo,Beja,Ferreira do Alentejo,complete,16,16,0,audit/evidence/pt-beja-ferreira-do-alentejo.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+28,pt-beja-mertola,Beja,Mértola,complete,16,16,0,audit/evidence/pt-beja-mertola.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+29,pt-beja-moura,Beja,Moura,complete,16,16,0,audit/evidence/pt-beja-moura.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+30,pt-beja-odemira,Beja,Odemira,complete,16,16,0,audit/evidence/pt-beja-odemira.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+31,pt-beja-ourique,Beja,Ourique,complete,16,16,0,audit/evidence/pt-beja-ourique.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+32,pt-beja-serpa,Beja,Serpa,complete,16,16,0,audit/evidence/pt-beja-serpa.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+33,pt-beja-vidigueira,Beja,Vidigueira,complete,16,16,0,audit/evidence/pt-beja-vidigueira.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+34,pt-braga-amares,Braga,Amares,complete,16,16,0,audit/evidence/pt-braga-amares.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+35,pt-braga-barcelos,Braga,Barcelos,complete,16,16,0,audit/evidence/pt-braga-barcelos.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+36,pt-braga-braga,Braga,Braga,complete,16,16,0,audit/evidence/pt-braga-braga.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+37,pt-braga-cabeceiras-de-basto,Braga,Cabeceiras de Basto,complete,16,16,0,audit/evidence/pt-braga-cabeceiras-de-basto.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
+38,pt-braga-celorico-de-basto,Braga,Celorico de Basto,complete,16,16,0,audit/evidence/pt-braga-celorico-de-basto.json,2026-07-27T09:13:05Z,github-actions:webcam-audit,"Automated 16-check audit; 0 candidate(s), 0 high-confidence."
 39,pt-braga-esposende,Braga,Esposende,not_started,0,16,0,,,,
 40,pt-braga-fafe,Braga,Fafe,not_started,0,16,0,,,,
 41,pt-braga-guimaraes,Braga,Guimarães,not_started,0,16,0,,,,

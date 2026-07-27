@@ -3,7 +3,7 @@
   "order": 33,
   "municipality": "Vidigueira",
   "district": "Beja",
-  "status": "review",
+  "status": "complete",
   "started_at": "2026-07-27T03:15:14Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
@@ -400,5 +400,7 @@
   "candidates": [],
   "checks_completed": 16,
   "checks_total": 16,
-  "finished_at": "2026-07-27T03:31:19Z"
+  "finished_at": "2026-07-27T03:31:19Z",
+  "reviewed_at": "2026-07-27T09:13:05Z",
+  "reviewer_second_pass": "github-actions:evidence-validator"
 }

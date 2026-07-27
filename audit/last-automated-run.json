@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-27T04:50:32Z",
+  "started_at": "2026-07-27T08:50:50Z",
   "municipalities": [
     {
       "id": "pt-aveiro-vale-de-cambra",
@@ -15,6 +15,6 @@
     }
   ],
   "errors": [],
-  "finished_at": "2026-07-27T05:12:41Z",
+  "finished_at": "2026-07-27T09:13:05Z",
   "auto_published": 0
 }

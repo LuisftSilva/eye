@@ -3,7 +3,7 @@
   "order": 29,
   "municipality": "Moura",
   "district": "Beja",
-  "status": "review",
+  "status": "complete",
   "started_at": "2026-07-27T02:12:05Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
@@ -399,5 +399,7 @@
   "candidates": [],
   "checks_completed": 16,
   "checks_total": 16,
-  "finished_at": "2026-07-27T02:27:25Z"
+  "finished_at": "2026-07-27T02:27:25Z",
+  "reviewed_at": "2026-07-27T09:13:05Z",
+  "reviewer_second_pass": "github-actions:evidence-validator"
 }

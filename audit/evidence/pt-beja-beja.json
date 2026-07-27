@@ -3,7 +3,7 @@
   "order": 24,
   "municipality": "Beja",
   "district": "Beja",
-  "status": "review",
+  "status": "complete",
   "started_at": "2026-07-27T00:57:42Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
@@ -400,5 +400,7 @@
   "candidates": [],
   "checks_completed": 16,
   "checks_total": 16,
-  "finished_at": "2026-07-27T01:13:31Z"
+  "finished_at": "2026-07-27T01:13:31Z",
+  "reviewed_at": "2026-07-27T09:13:05Z",
+  "reviewer_second_pass": "github-actions:evidence-validator"
 }

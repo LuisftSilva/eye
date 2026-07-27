@@ -1,26 +1,28 @@
 {
-  "updated_at": "2026-07-27T22:45:00Z",
+  "updated_at": "2026-07-27T09:13:05Z",
   "territory_total": 308,
   "checks_per_municipality": 16,
-  "municipalities_complete": 18,
+  "municipalities_complete": 38,
   "municipalities_in_review": 0,
-  "municipalities_not_started": 290,
-  "checks_complete": 288,
+  "municipalities_not_started": 270,
+  "municipalities_blocked": 0,
+  "checks_complete": 608,
   "checks_total": 4928,
-  "territorial_progress_percent": 5.84,
-  "operational_progress_percent": 5.84,
+  "territorial_progress_percent": 12.34,
+  "operational_progress_percent": 12.34,
   "confirmed_webcams_added_in_audit": 8,
   "offline_historical_candidates": 2,
   "rejected_or_unverified_candidates": 10,
+  "validation_errors": 0,
   "last_completed": {
-    "order": 18,
-    "municipality_id": "pt-aveiro-vagos",
-    "municipality": "Vagos"
+    "order": 38,
+    "municipality_id": "pt-braga-celorico-de-basto",
+    "municipality": "Celorico de Basto"
   },
   "next_municipality": {
-    "order": 19,
-    "municipality_id": "pt-aveiro-vale-de-cambra",
-    "municipality": "Vale de Cambra"
+    "order": 39,
+    "municipality_id": "pt-braga-esposende",
+    "municipality": "Esposende"
   },
   "completed": [
     "pt-aveiro-agueda",
@@ -40,12 +42,27 @@
     "pt-aveiro-santa-maria-da-feira",
     "pt-aveiro-sao-joao-da-madeira",
     "pt-aveiro-sever-do-vouga",
-    "pt-aveiro-vagos"
+    "pt-aveiro-vagos",
+    "pt-aveiro-vale-de-cambra",
+    "pt-beja-aljustrel",
+    "pt-beja-almodovar",
+    "pt-beja-alvito",
+    "pt-beja-barrancos",
+    "pt-beja-beja",
+    "pt-beja-castro-verde",
+    "pt-beja-cuba",
+    "pt-beja-ferreira-do-alentejo",
+    "pt-beja-mertola",
+    "pt-beja-moura",
+    "pt-beja-odemira",
+    "pt-beja-ourique",
+    "pt-beja-serpa",
+    "pt-beja-vidigueira",
+    "pt-braga-amares",
+    "pt-braga-barcelos",
+    "pt-braga-braga",
+    "pt-braga-cabeceiras-de-basto",
+    "pt-braga-celorico-de-basto"
   ],
-  "cross_discovery_summary": {
-    "existing_correctly_assigned": ["barra-5", "costa-nova-6", "esmoriz-3", "furadouro-4"],
-    "pending_offline_validation": ["Praia de Mira"],
-    "location_corrections": ["Praia da Barra belongs to Ílhavo, not Aveiro"]
-  },
-  "rule": "Any cross-discovered webcam must be recorded under its correct municipality immediately after deduplication, even when found during another municipality's audit."
+  "rule": "Historical completions are preserved. New automated results complete only after all 16 evidence checks pass the deterministic second-pass validator."
 }
