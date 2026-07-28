@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-27T23:26:02Z",
+  "updated_at": "2026-07-28T06:41:56Z",
   "entries": {
     "e2c2f4da64a9b1049e5662ecf2e060bfed7682c450d06825e03c4008a451e6d5": {
       "engine": "google",
@@ -3192,6 +3192,3198 @@
       "max_results": 10,
       "checked_at": "2026-07-27T23:26:02Z",
       "expires_at": "2026-07-29T23:25:40Z",
+      "results": []
+    },
+    "222f499956c525dcd655086f973884f652dd41c267cf26eaf1b04384d43053d7": {
+      "engine": "google",
+      "query": "site:cm-arouca.pt webcam Arouca",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:18Z",
+      "expires_at": "2026-07-30T04:26:15Z",
+      "results": []
+    },
+    "e3ba6358f6ad4dfe7668e6af0332de2c91b26cbda45b51a1357919837813cac8": {
+      "engine": "google",
+      "query": "site:municipio-arouca.pt webcam Arouca",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:20Z",
+      "expires_at": "2026-07-30T04:26:18Z",
+      "results": []
+    },
+    "6bb3cc5b4c0b8d65659b63504ac7561114b724773804730cce84c8fe324e273a": {
+      "engine": "google",
+      "query": "site:arouca.pt webcam Arouca",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:23Z",
+      "expires_at": "2026-07-30T04:26:20Z",
+      "results": []
+    },
+    "c2fe674cdd41a6c49a20c6e0575d90099e1b5c5af5a69ce19da0640b77d66da5": {
+      "engine": "google",
+      "query": "site:cm-arouca.pt (direto OR livestream OR câmara)",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:25Z",
+      "expires_at": "2026-07-30T04:26:23Z",
+      "results": []
+    },
+    "e7b79263ee1b7d01f8d201b4ed4393d824a80cd770c4b20b6871929aa25ef135": {
+      "engine": "google",
+      "query": "turismo Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:28Z",
+      "expires_at": "2026-07-30T04:26:25Z",
+      "results": []
+    },
+    "8b5b04f8d0033c33ed52db35817591bd61f99e4ec1b3b86e1428d7e09ede2483": {
+      "engine": "google",
+      "query": "visit Arouca live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:30Z",
+      "expires_at": "2026-07-30T04:26:28Z",
+      "results": []
+    },
+    "dfe15e7f59b861e2b05eadd756273705ebf2b7973ff18ff435d38a85437e7d68": {
+      "engine": "google",
+      "query": "site:visitportugal.com Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:32Z",
+      "expires_at": "2026-07-30T04:26:30Z",
+      "results": []
+    },
+    "1e0ed308d7af2f070f7b8dcb39d5ae5acb5aa052b2c56ba16e216e3a0a786ac7": {
+      "engine": "google",
+      "query": "site:turismodeportugal.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:34Z",
+      "expires_at": "2026-07-30T04:26:32Z",
+      "results": []
+    },
+    "8629de63a247f403914ab85d26d38ed088e501ff5d095ef176cac1d02acdcad0": {
+      "engine": "google",
+      "query": "site:visitportoandnorth.travel Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:36Z",
+      "expires_at": "2026-07-30T04:26:34Z",
+      "results": []
+    },
+    "9898f6ab33ed0072ebb16f2f4ad7243e39a096d1506486c2f82b93cb72bf8313": {
+      "engine": "google",
+      "query": "site:visitcentrodeportugal.com.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:39Z",
+      "expires_at": "2026-07-30T04:26:36Z",
+      "results": []
+    },
+    "78468c508d73498774295d4ac532c133f4de9f8a5924ebd13785949c2f2a076d": {
+      "engine": "google",
+      "query": "site:visitlisboa.com Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:41Z",
+      "expires_at": "2026-07-30T04:26:39Z",
+      "results": []
+    },
+    "4551e7cb623281cc029895ef605782d6b4609af813bd0ee7e03c8f4720a61dd3": {
+      "engine": "google",
+      "query": "site:visitalentejo.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:43Z",
+      "expires_at": "2026-07-30T04:26:41Z",
+      "results": []
+    },
+    "738246e829f60092b69f6732040007f27644d651b91c3795db38fcf65236c2a0": {
+      "engine": "google",
+      "query": "site:visitalgarve.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:45Z",
+      "expires_at": "2026-07-30T04:26:43Z",
+      "results": []
+    },
+    "d26f943c6b99194d191ab727d104ee64ddd7576853b651209c9afe611baa7b05": {
+      "engine": "google",
+      "query": "\"webcam\" \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:47Z",
+      "expires_at": "2026-07-30T04:26:45Z",
+      "results": []
+    },
+    "057b83e4de6302be6030a5debb616cacd3d024dcf6ec97c55e74a72065d60a8d": {
+      "engine": "google",
+      "query": "\"web cam\" \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:50Z",
+      "expires_at": "2026-07-30T04:26:47Z",
+      "results": []
+    },
+    "332afde3980ea3906124917bc2906e9c9ee8e374acc15084fc551ef116935413": {
+      "engine": "google",
+      "query": "\"live cam\" \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:52Z",
+      "expires_at": "2026-07-30T04:26:50Z",
+      "results": []
+    },
+    "f8380e09e4473667415637d78cecd3291f6a5382f90cd78728c9d2317ac74d6e": {
+      "engine": "google",
+      "query": "\"câmara ao vivo\" \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:54Z",
+      "expires_at": "2026-07-30T04:26:52Z",
+      "results": []
+    },
+    "176cd36d426d9cbbf90c8e39e337ecb1ad5f7f31e1c5d802f57da010f66dd5e5": {
+      "engine": "bing",
+      "query": "\"camera ao vivo\" \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:56Z",
+      "expires_at": "2026-07-30T04:26:54Z",
+      "results": []
+    },
+    "37aca8eb0e8caa691ab4a9cc5da03ceecea159d157f92f1f5605e37072a5dc50": {
+      "engine": "bing",
+      "query": "\"transmissão em direto\" \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:26:58Z",
+      "expires_at": "2026-07-30T04:26:56Z",
+      "results": []
+    },
+    "108deae101f3933daa02dd4c5daeb6b57d8ab42b814d88b3839d0afa9463ce88": {
+      "engine": "bing",
+      "query": "\"live stream\" \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:01Z",
+      "expires_at": "2026-07-30T04:26:58Z",
+      "results": []
+    },
+    "eaed206adf8879ae5b61a51bfff4b69eab34e92df8ffb4863e5a0dbeded9c0ed": {
+      "engine": "bing",
+      "query": "site:.pt webcam \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:03Z",
+      "expires_at": "2026-07-30T04:27:01Z",
+      "results": []
+    },
+    "94da9ec0da1587bfb5cddf35e381dddceffb971f7b5f173eca793614f3966475": {
+      "engine": "duckduckgo",
+      "query": "site:youtube.com/live \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:05Z",
+      "expires_at": "2026-07-30T04:27:03Z",
+      "results": []
+    },
+    "e334669988a88cde617437a901a02749f6e61ea83dd864ce91923a132f038ddd": {
+      "engine": "duckduckgo",
+      "query": "site:facebook.com \"Arouca\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:07Z",
+      "expires_at": "2026-07-30T04:27:05Z",
+      "results": []
+    },
+    "1b27996db75e8594ee493dfdd92a1068bc56fbd72c0cdaaf6a18282c7c24f474": {
+      "engine": "duckduckgo",
+      "query": "site:instagram.com \"Arouca\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:09Z",
+      "expires_at": "2026-07-30T04:27:07Z",
+      "results": []
+    },
+    "3bbc4da7194c8ba05c7e71e3363b50be132bab71a936e4cfdd77db86ea331ee1": {
+      "engine": "duckduckgo",
+      "query": "\"Axis\" \"Arouca\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:12Z",
+      "expires_at": "2026-07-30T04:27:09Z",
+      "results": []
+    },
+    "4787ae17c615a270b3e1c0e19e5b2144cfd0733c9a93d41923b683e065ef190f": {
+      "engine": "duckduckgo",
+      "query": "\"Mobotix\" \"Arouca\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:15Z",
+      "expires_at": "2026-07-30T04:27:12Z",
+      "results": []
+    },
+    "2be9343f95aa09448e99a0b3fc4a07560c6c677752623216e32e6b61cbb3bfad": {
+      "engine": "duckduckgo",
+      "query": "\"Hikvision\" \"Arouca\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:18Z",
+      "expires_at": "2026-07-30T04:27:15Z",
+      "results": []
+    },
+    "f546b36e9591b4324f8591d23f6ccf9ef5f0a2e2e074ed8adb18ece1c0eabf12": {
+      "engine": "google",
+      "query": "site:portugalwebcams.pt \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:21Z",
+      "expires_at": "2026-07-30T04:27:18Z",
+      "results": []
+    },
+    "6a70c6e526dfe9778424f5744cddfbfc90545548db0c93a45a6cf33ac3142ddf": {
+      "engine": "google",
+      "query": "site:webcamgalore.com \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:24Z",
+      "expires_at": "2026-07-30T04:27:21Z",
+      "results": []
+    },
+    "d4f261ba6869a771bef76514ba148426e11b6ffe67f0d95b2302c111296b5335": {
+      "engine": "google",
+      "query": "site:windy.com/webcams \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:27Z",
+      "expires_at": "2026-07-30T04:27:24Z",
+      "results": []
+    },
+    "0bca3fe2d67057229fdf35d1d490bafa69f7c5b69426bc2d85e9f387c5f49dde": {
+      "engine": "google",
+      "query": "site:windfinder.com/webcams \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:30Z",
+      "expires_at": "2026-07-30T04:27:27Z",
+      "results": []
+    },
+    "f643e47035c23b7d0aef7671840dd5e10c78f9201e6e4aff88c06944b5f37161": {
+      "engine": "google",
+      "query": "site:webcams.travel \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:34Z",
+      "expires_at": "2026-07-30T04:27:30Z",
+      "results": []
+    },
+    "2ff6349dfa7c956e4724a52af80d97ba418b8142d13b734d7334ad189596c0db": {
+      "engine": "google",
+      "query": "site:webcamtaxi.com \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:37Z",
+      "expires_at": "2026-07-30T04:27:34Z",
+      "results": []
+    },
+    "9a40ddf9834f1e1f4c6a26b889af131ec231923d3a09962564b55d37a3976d97": {
+      "engine": "google",
+      "query": "site:worldcam.eu \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:40Z",
+      "expires_at": "2026-07-30T04:27:37Z",
+      "results": []
+    },
+    "078212730a52df5e94dbdb9d663b03a2c44cd97fb448b521808a8c6a810ad9f3": {
+      "engine": "google",
+      "query": "site:geowebcams.com \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:43Z",
+      "expires_at": "2026-07-30T04:27:40Z",
+      "results": []
+    },
+    "f8ff5c7f3974abb5a236e472be4e62ebc2e2ec382595ee39f257deee2e75cb08": {
+      "engine": "google",
+      "query": "site:skylinewebcams.com \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:46Z",
+      "expires_at": "2026-07-30T04:27:43Z",
+      "results": []
+    },
+    "984117743923bcd3a66e74b97aeb2bb935e9ddab090c599622d731d3f6615c40": {
+      "engine": "google",
+      "query": "site:earthcam.com \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:50Z",
+      "expires_at": "2026-07-30T04:27:46Z",
+      "results": []
+    },
+    "44cd106c4e3ac5dc0e2d6bc91c7a24f85e9252fdf88669e86cb8d82e385f42b0": {
+      "engine": "google",
+      "query": "site:ipcamlive.com \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:53Z",
+      "expires_at": "2026-07-30T04:27:50Z",
+      "results": []
+    },
+    "7f132b921d38baa9570e3068d7b629426c26f73860c8ec650dda12a9a01625b5": {
+      "engine": "google",
+      "query": "site:meteoblue.com \"Arouca\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:56Z",
+      "expires_at": "2026-07-30T04:27:53Z",
+      "results": []
+    },
+    "4b349be4f25bbecec11fe66e7e333613075f041ec4962d9f35846d3cb3ab76f4": {
+      "engine": "google",
+      "query": "site:spotazores.com \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:27:59Z",
+      "expires_at": "2026-07-30T04:27:56Z",
+      "results": []
+    },
+    "d093fa0cb0a467750d2857bba04bd8f01637fd6087360f2879e9937ac50d8d48": {
+      "engine": "google",
+      "query": "site:netmadeira.com \"Arouca\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:28:16Z",
+      "expires_at": "2026-07-30T04:27:59Z",
+      "results": []
+    },
+    "a9107e99b570d5a603d7ac050196f687326c96bfb6150e88671e448e27e4d96f": {
+      "engine": "google",
+      "query": "site:madeiracams.com \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:28:39Z",
+      "expires_at": "2026-07-30T04:28:16Z",
+      "results": []
+    },
+    "a06be8f974e09372671ee092d9a46acdced8ad700da0a9f04218e30109138495": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:29:01Z",
+      "expires_at": "2026-07-30T04:28:39Z",
+      "results": []
+    },
+    "09cc40b179f3339398032906689b4c761193f64839fc65c008e1eb0f221e614d": {
+      "engine": "google",
+      "query": "site:back-office.beachcam.pt/livecams \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:29:23Z",
+      "expires_at": "2026-07-30T04:29:01Z",
+      "results": []
+    },
+    "5bb0c1b358f67f84effe6b26091115eb8cd753fbe17bede9a4b12f209c215d89": {
+      "engine": "google",
+      "query": "Portugal webcam Portugal \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:29:46Z",
+      "expires_at": "2026-07-30T04:29:23Z",
+      "results": []
+    },
+    "edc2fcdb787679457b672e19cf347ee287a2c3f73cb9cb6d5d821c10c1673c23": {
+      "engine": "google",
+      "query": "Arouca praia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:30:08Z",
+      "expires_at": "2026-07-30T04:29:46Z",
+      "results": []
+    },
+    "6c8139eadce0b4d2a8e74c9dd0e9c9cc60b8e7199ede1d7a3f2d69e633f02ed5": {
+      "engine": "google",
+      "query": "Arouca surf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:30:31Z",
+      "expires_at": "2026-07-30T04:30:08Z",
+      "results": []
+    },
+    "35ab53e2203303647a743ac728068bebf29add799e145022fe9d0b8451e3cb59": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt Arouca",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:30:53Z",
+      "expires_at": "2026-07-30T04:30:31Z",
+      "results": []
+    },
+    "d19d64275b3cfa6763147584c4debc523ca167355735d1f8f498d4e9863a2fe6": {
+      "engine": "google",
+      "query": "site:surfline.com Arouca Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:31:15Z",
+      "expires_at": "2026-07-30T04:30:53Z",
+      "results": []
+    },
+    "001f52f60032710a4d401f97a88f79baf76fc64ca5fa732f9498f871dd9671fd": {
+      "engine": "google",
+      "query": "site:magicseaweed.com Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:31:38Z",
+      "expires_at": "2026-07-30T04:31:15Z",
+      "results": []
+    },
+    "9d3df0ba2202b8068e43d4cd3690b1a70ca52eb01464c15bbc2454a900ecd17d": {
+      "engine": "google",
+      "query": "site:windfinder.com Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:32:00Z",
+      "expires_at": "2026-07-30T04:31:38Z",
+      "results": []
+    },
+    "608a32d8c8be9fb864bdf213b8557cd17fed1928cfdf1a9170f56db12b7414c5": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Arouca praia",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:32:22Z",
+      "expires_at": "2026-07-30T04:32:00Z",
+      "results": []
+    },
+    "f0c5edb30279301022608d3d35bbcb86b8ac9bec70d22aa4447e1ca93287b760": {
+      "engine": "google",
+      "query": "Arouca porto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:32:45Z",
+      "expires_at": "2026-07-30T04:32:22Z",
+      "results": []
+    },
+    "f6fb0ca888c9220762f5450919adc0b21e781b8cc3960904973acd442c93e7f0": {
+      "engine": "google",
+      "query": "Arouca marina webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:33:07Z",
+      "expires_at": "2026-07-30T04:32:45Z",
+      "results": []
+    },
+    "ad6aaaf2b4aa804b97e6696e6258b7ae5c117e5817c98f44ef3ad95e6ca8864b": {
+      "engine": "google",
+      "query": "Arouca clube náutico live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:33:30Z",
+      "expires_at": "2026-07-30T04:33:07Z",
+      "results": []
+    },
+    "91e63dfa08c465e3af506db2ce6e59a6ea51178324e98c4cef21c08150cb365e": {
+      "engine": "google",
+      "query": "Arouca barra porto câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:33:52Z",
+      "expires_at": "2026-07-30T04:33:30Z",
+      "results": []
+    },
+    "69296f778e5e1a9befbd955f85358acaf1d55f5c2ccfdc2e70518e42ad509714": {
+      "engine": "google",
+      "query": "site:portosdeportugal.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:34:15Z",
+      "expires_at": "2026-07-30T04:33:52Z",
+      "results": []
+    },
+    "e34b7931a159273604935e0fb56693b465615f367f388593e033957ee29f5d9a": {
+      "engine": "google",
+      "query": "site:amn.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:34:37Z",
+      "expires_at": "2026-07-30T04:34:15Z",
+      "results": []
+    },
+    "c998dff175b75ec9da7c47025edab697da558b313fc5b6614a340b4ec5461ecc": {
+      "engine": "google",
+      "query": "site:docapesca.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:34:59Z",
+      "expires_at": "2026-07-30T04:34:37Z",
+      "results": []
+    },
+    "d1a5cb1171d4e400c7a627b6bdea510486161362f29e6e63e07da093454e2a73": {
+      "engine": "google",
+      "query": "site:apdl.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:35:22Z",
+      "expires_at": "2026-07-30T04:34:59Z",
+      "results": []
+    },
+    "f79e1bbd00d86227767cbd8350de877aeac5a7aa35423bd80cd0ebf9ae5b58f4": {
+      "engine": "google",
+      "query": "site:portoaveiro.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:35:44Z",
+      "expires_at": "2026-07-30T04:35:22Z",
+      "results": []
+    },
+    "59f6e0439c6bf8c7479eb77910e0997333438a0e264738b301c178b981fc87a9": {
+      "engine": "google",
+      "query": "site:portodelisboa.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:36:07Z",
+      "expires_at": "2026-07-30T04:35:44Z",
+      "results": []
+    },
+    "d032b9066a76641cbbb03d7a653fa8f928b9c2c6853eea78e8d96db5d1128f19": {
+      "engine": "google",
+      "query": "site:apsinesalgarve.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:36:29Z",
+      "expires_at": "2026-07-30T04:36:07Z",
+      "results": []
+    },
+    "56b83da1903b4a201b0fc443b5ebcf073965b17b6ca2cd19504868d2000c9db4": {
+      "engine": "google",
+      "query": "Arouca aeroporto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:36:52Z",
+      "expires_at": "2026-07-30T04:36:29Z",
+      "results": []
+    },
+    "d765a5625c95fe536094709fc612ae78d64272c8ad8077bafcc204cfad323c1b": {
+      "engine": "google",
+      "query": "Arouca aeródromo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:37:14Z",
+      "expires_at": "2026-07-30T04:36:52Z",
+      "results": []
+    },
+    "ef045de292144af3da180f63ade1d3c511e6397271f8b95c1eba501ddd75212f": {
+      "engine": "google",
+      "query": "Arouca aeroclube webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:37:37Z",
+      "expires_at": "2026-07-30T04:37:14Z",
+      "results": []
+    },
+    "035f18ef566b76d88fc6941925881bc4fde8b41199ab4364aa39467cf5238b82": {
+      "engine": "google",
+      "query": "Arouca pista aviação câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:37:59Z",
+      "expires_at": "2026-07-30T04:37:37Z",
+      "results": []
+    },
+    "120ac7bfdf79e78a0e788a5c3ee4e394ebea9654a569006d02d30bbe254887b8": {
+      "engine": "google",
+      "query": "site:ana.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:38:21Z",
+      "expires_at": "2026-07-30T04:37:59Z",
+      "results": []
+    },
+    "c5b94a44094c2c6a7b55eb7e8fdd4eb71dae8125085b6af008f564033d9d374b": {
+      "engine": "google",
+      "query": "site:nav.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:38:44Z",
+      "expires_at": "2026-07-30T04:38:21Z",
+      "results": []
+    },
+    "9ec97942beaff0ea2d166b52bc3cff8992556fdd24e84e674d62e90463c8e2a2": {
+      "engine": "google",
+      "query": "site:airportwebcams.net Portugal Arouca",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:39:06Z",
+      "expires_at": "2026-07-30T04:38:44Z",
+      "results": []
+    },
+    "528b3e293ca7abfd5e565d3e6edb9a5d53ca2ee8ca782893d1d3bc810d47fdcb": {
+      "engine": "google",
+      "query": "site:metar-taf.com Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:39:29Z",
+      "expires_at": "2026-07-30T04:39:06Z",
+      "results": []
+    },
+    "1d4cd7d26fd563d631449196949e30b7e91d5310d205d63adb4f3ba2ff318491": {
+      "engine": "google",
+      "query": "site:youtube.com Arouca airport live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:39:51Z",
+      "expires_at": "2026-07-30T04:39:29Z",
+      "results": []
+    },
+    "74792cdb2dc54ee65f1da952ccabe5bc398a7068eb34e77054eec8cc1d20313e": {
+      "engine": "google",
+      "query": "site:facebook.com aeroclube Arouca direto",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:40:13Z",
+      "expires_at": "2026-07-30T04:39:51Z",
+      "results": []
+    },
+    "e695319fe3254739fed5373efc8a963ac4dfe5b3c910d00eddbae8594c70eca8": {
+      "engine": "google",
+      "query": "Arouca trânsito estrada webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:40:36Z",
+      "expires_at": "2026-07-30T04:40:13Z",
+      "results": []
+    },
+    "cdea832cee28cce327ad3a694a3d7e07f9d73a3b1f2a4f559ced5d00531e1af9": {
+      "engine": "google",
+      "query": "Arouca câmara tráfego ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:40:58Z",
+      "expires_at": "2026-07-30T04:40:36Z",
+      "results": []
+    },
+    "03e0f2e369dbd80c3689f4dfc202c056833cd5d80e06a395d509a7f1fde2261c": {
+      "engine": "google",
+      "query": "Arouca estação ferroviária webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:41:20Z",
+      "expires_at": "2026-07-30T04:40:58Z",
+      "results": []
+    },
+    "018030e9614e9c16184b120b0ca313f6211084bb192c78d4321c989edf8c0a6b": {
+      "engine": "google",
+      "query": "Arouca terminal rodoviário webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:41:43Z",
+      "expires_at": "2026-07-30T04:41:20Z",
+      "results": []
+    },
+    "8d327341b724a22785065f161a05870cd6933e2dd47ed1c850948155e7e6a911": {
+      "engine": "google",
+      "query": "site:infraestruturasdeportugal.pt Arouca camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:42:05Z",
+      "expires_at": "2026-07-30T04:41:43Z",
+      "results": []
+    },
+    "621d04f97ba8aa7482d2b3648371732c327ad9575e4240098939d37e98bb7967": {
+      "engine": "google",
+      "query": "site:estradas.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:42:27Z",
+      "expires_at": "2026-07-30T04:42:05Z",
+      "results": []
+    },
+    "3624f683afbc4bc62723bfdfb2b80a69e11cfb7482a7f4e9b6fa92492fbf50f9": {
+      "engine": "google",
+      "query": "site:cp.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:42:50Z",
+      "expires_at": "2026-07-30T04:42:27Z",
+      "results": []
+    },
+    "f07a1d157d5a4f9732417b969fc67d617c35bc5ac91096746e7d85671af25dac": {
+      "engine": "google",
+      "query": "site:metrolisboa.pt Arouca live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:43:12Z",
+      "expires_at": "2026-07-30T04:42:50Z",
+      "results": []
+    },
+    "c383709d79d3b61ca4e536b060c9bd9e3c9137149ceb9d83ea254940f93eb6b7": {
+      "engine": "google",
+      "query": "site:metrodoporto.pt Arouca live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:43:34Z",
+      "expires_at": "2026-07-30T04:43:12Z",
+      "results": []
+    },
+    "353fb3957ae4c6f14c401e92b23424055c1a39efbadcb4e03dfd41245617fe8b": {
+      "engine": "google",
+      "query": "Arouca serra webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:43:57Z",
+      "expires_at": "2026-07-30T04:43:34Z",
+      "results": []
+    },
+    "409932b5c1fb72f6667e5d14095dadbf0b6b284fc3b799ab9a62fdb6940f9c37": {
+      "engine": "google",
+      "query": "Arouca parque natural webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:44:19Z",
+      "expires_at": "2026-07-30T04:43:57Z",
+      "results": []
+    },
+    "b5691f3d3ad6ad019e54ef441d5e22583aaa7b2684c0fc6ced4c618bb9bad0cc": {
+      "engine": "google",
+      "query": "Arouca barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:44:42Z",
+      "expires_at": "2026-07-30T04:44:19Z",
+      "results": []
+    },
+    "d92ddd0f4e4fdb175c3f1911475953db19cfe850f7edeacc731fee9175224f64": {
+      "engine": "google",
+      "query": "Arouca miradouro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:45:04Z",
+      "expires_at": "2026-07-30T04:44:42Z",
+      "results": []
+    },
+    "a8841fcf5ea88f602459e027843b9195cdeefe2cb1dd1df4601a56520ab26942": {
+      "engine": "google",
+      "query": "Arouca rio webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:45:26Z",
+      "expires_at": "2026-07-30T04:45:04Z",
+      "results": []
+    },
+    "22a9369f482b53c629de97c217284fd879520279014a81adbf3338c2610674b1": {
+      "engine": "google",
+      "query": "site:icnf.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:45:49Z",
+      "expires_at": "2026-07-30T04:45:26Z",
+      "results": []
+    },
+    "8b108d8cdfd01d90d915b0b877b16b653c2ba6dd79bb04cfa93f92b0baa90431": {
+      "engine": "google",
+      "query": "site:snirh.apambiente.pt Arouca câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:46:11Z",
+      "expires_at": "2026-07-30T04:45:49Z",
+      "results": []
+    },
+    "bcf0f181ead8050796aeba5cab760eef1df5cfeef489eb08a1eab244f34a5a49": {
+      "engine": "google",
+      "query": "site:edp.com Arouca barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:46:33Z",
+      "expires_at": "2026-07-30T04:46:11Z",
+      "results": []
+    },
+    "e6b05739db2931334ae3044f2311620cde0cfa525b16623c21d964f8141fae14": {
+      "engine": "google",
+      "query": "site:meteoblue.com Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:46:56Z",
+      "expires_at": "2026-07-30T04:46:33Z",
+      "results": []
+    },
+    "db75f700cf7a7644f0c4d98fa2850f9784d055b54896f55387c71c006c052bd0": {
+      "engine": "google",
+      "query": "Arouca hotel webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:47:18Z",
+      "expires_at": "2026-07-30T04:46:56Z",
+      "results": []
+    },
+    "9ed9a5e047d550c5af99b0a136563c60109f44114c40f28b16d0ef48af764386": {
+      "engine": "google",
+      "query": "Arouca resort webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:47:40Z",
+      "expires_at": "2026-07-30T04:47:18Z",
+      "results": []
+    },
+    "8e3a070bd8dd3c053dbef76574b7a56489948fc458fdc321f5068a1d899c07dc": {
+      "engine": "google",
+      "query": "Arouca alojamento webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:48:03Z",
+      "expires_at": "2026-07-30T04:47:40Z",
+      "results": []
+    },
+    "b4a4bbc29415daca51a9c4983e7391a4acd4ee20637f00e0a1e0c0944f1a56bd": {
+      "engine": "google",
+      "query": "Arouca parque de campismo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:48:25Z",
+      "expires_at": "2026-07-30T04:48:03Z",
+      "results": []
+    },
+    "750c1f020c5a374e2bacb192481eedc835f719de4873d3a8ac5478bc49db2d56": {
+      "engine": "google",
+      "query": "site:booking.com Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:48:47Z",
+      "expires_at": "2026-07-30T04:48:25Z",
+      "results": []
+    },
+    "658527af32180369f3fe9bd2c8588a30b03fb956f663e8dc140a88d4d9115547": {
+      "engine": "google",
+      "query": "site:youtube.com hotel Arouca live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:49:10Z",
+      "expires_at": "2026-07-30T04:48:47Z",
+      "results": []
+    },
+    "41031fad2aaa3f4f4b72d850830d3f205582b41b0afc6151217364ac75e1f542": {
+      "engine": "google",
+      "query": "Arouca golf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:49:32Z",
+      "expires_at": "2026-07-30T04:49:10Z",
+      "results": []
+    },
+    "c50db8b7819fe1741732325b5e958e5544372017a52dc00815771204653af776": {
+      "engine": "google",
+      "query": "Arouca estádio webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:49:55Z",
+      "expires_at": "2026-07-30T04:49:32Z",
+      "results": []
+    },
+    "e4bd0d398eeaf454fb1c0d6d1a3dbf0d7543bfdc381d69451ee01bec0bf8979c": {
+      "engine": "google",
+      "query": "Arouca ski webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:50:17Z",
+      "expires_at": "2026-07-30T04:49:55Z",
+      "results": []
+    },
+    "e91dcecceb6e0f5df362d291632a2218a6f05416458efc82e3b1016f2ba6806c": {
+      "engine": "google",
+      "query": "Arouca estância neve webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:50:40Z",
+      "expires_at": "2026-07-30T04:50:17Z",
+      "results": []
+    },
+    "18867e5041f7d006b3018898b3fa1ce16376803bb822d953411791475d02fec7": {
+      "engine": "google",
+      "query": "Arouca circuito automóvel webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:51:02Z",
+      "expires_at": "2026-07-30T04:50:40Z",
+      "results": []
+    },
+    "52b08d7c49fe92b2e9d3e0c6322f8a92fc9ab60e926fb969319dc4fca95038d7": {
+      "engine": "google",
+      "query": "Arouca clube desportivo live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:51:25Z",
+      "expires_at": "2026-07-30T04:51:02Z",
+      "results": []
+    },
+    "50b2f8d443f0d4dd8a45770e8ad5b7ee3d1a7d5118a5fbbd98e369b98be634fc": {
+      "engine": "google",
+      "query": "Arouca meteorologia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:51:47Z",
+      "expires_at": "2026-07-30T04:51:25Z",
+      "results": []
+    },
+    "923780c889cc5530b846447e5b01821b4c2ca37680e7b7207ca945b1e3a84d09": {
+      "engine": "google",
+      "query": "Arouca estação meteorológica câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:52:09Z",
+      "expires_at": "2026-07-30T04:51:47Z",
+      "results": []
+    },
+    "5d70e8aed930bfcef78250de9f0853081b835acb46a5538fb44728965094e447": {
+      "engine": "google",
+      "query": "Arouca observatório webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:52:32Z",
+      "expires_at": "2026-07-30T04:52:09Z",
+      "results": []
+    },
+    "b50a632f1eeac275cd46aedd3ba3b14e2e97dbaaf212359d60d813091d7bfe0c": {
+      "engine": "google",
+      "query": "site:ipma.pt Arouca camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:52:54Z",
+      "expires_at": "2026-07-30T04:52:32Z",
+      "results": []
+    },
+    "f1988586d3dc2dbde8e9b3cd99f6ffeb45e24069cfd0eb77d047a3745df74312": {
+      "engine": "google",
+      "query": "site:observar.ipma.pt Arouca Câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:53:17Z",
+      "expires_at": "2026-07-30T04:52:54Z",
+      "results": []
+    },
+    "75bc5e656bd51208871928021c9b6c19e6d68eaf6a06db036981100221b0c576": {
+      "engine": "google",
+      "query": "site:weathercloud.net Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:53:39Z",
+      "expires_at": "2026-07-30T04:53:17Z",
+      "results": []
+    },
+    "764a463ae06eb0cbb0f1b12ee1cbc29a9371b0414e76a5352e32b79ecf960909": {
+      "engine": "google",
+      "query": "site:wunderground.com Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:54:02Z",
+      "expires_at": "2026-07-30T04:53:39Z",
+      "results": []
+    },
+    "95dbd96d43c509e8906a65003ff46887d279205ed7310842e63eb01268adbd96": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Arouca",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:54:24Z",
+      "expires_at": "2026-07-30T04:54:02Z",
+      "results": []
+    },
+    "5c7c2c5065250d78b8fd39d8ca45dad7c2eeaa0cc5088837b9361b5009addf42": {
+      "engine": "google",
+      "query": "Arouca universidade webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:54:47Z",
+      "expires_at": "2026-07-30T04:54:24Z",
+      "results": []
+    },
+    "bcd085c2008cbcf3c4751573ba48424258110492fe5efe3802f848ad4103ac91": {
+      "engine": "google",
+      "query": "Arouca observatório astronómico live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:55:09Z",
+      "expires_at": "2026-07-30T04:54:47Z",
+      "results": []
+    },
+    "ae681e8c941368acb0ddb2941aee24ddb649dde9d213d3393b9c23de95438b0f": {
+      "engine": "google",
+      "query": "Arouca centro ciência webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:55:31Z",
+      "expires_at": "2026-07-30T04:55:09Z",
+      "results": []
+    },
+    "75d73c3294d4f7cde184800538af70a9a68ed5828c50bd6ee1dbfa0147bafdb4": {
+      "engine": "google",
+      "query": "site:ulisboa.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:55:54Z",
+      "expires_at": "2026-07-30T04:55:31Z",
+      "results": []
+    },
+    "f159a03f2689204439fe92ebf5d9831176e20c0b05e5c849f66010fe39201f66": {
+      "engine": "google",
+      "query": "site:up.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:56:16Z",
+      "expires_at": "2026-07-30T04:55:54Z",
+      "results": []
+    },
+    "bbea049434e0e98a9ac8a9d4d8404d8f7174c650463902dcf5e7b739b1bd8228": {
+      "engine": "google",
+      "query": "site:uc.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:56:38Z",
+      "expires_at": "2026-07-30T04:56:16Z",
+      "results": []
+    },
+    "c4a40e75a4c709a2dc1fe0f11adf8925594039389d64ff6c45ddbead67e2de3e": {
+      "engine": "google",
+      "query": "site:uminho.pt Arouca webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:57:01Z",
+      "expires_at": "2026-07-30T04:56:38Z",
+      "results": []
+    },
+    "46a3b265fc52f6d416801c4dbd3c6a73d12d8577bc7c7cfbefdcaf0ab44e766e": {
+      "engine": "google",
+      "query": "site:youtube.com/watch \"Arouca\" live webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:57:23Z",
+      "expires_at": "2026-07-30T04:57:01Z",
+      "results": []
+    },
+    "c587ac56998fb789831ae4dc74af9bc8aa01e1c01c9ebb1e0640cedd18310cc3": {
+      "engine": "google",
+      "query": "site:youtube.com/live \"Arouca\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:57:46Z",
+      "expires_at": "2026-07-30T04:57:23Z",
+      "results": []
+    },
+    "ebfbfeaff4f1624294d023faf08653ae0f2b95a1b8ea2c4128eb48b38cae9d63": {
+      "engine": "google",
+      "query": "site:facebook.com \"Arouca\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:58:08Z",
+      "expires_at": "2026-07-30T04:57:46Z",
+      "results": []
+    },
+    "ef3ce92e6996694ee98e921c7282153c61b3c616630de2670e5ab5ec86ae2a57": {
+      "engine": "google",
+      "query": "site:twitch.tv \"Arouca\" Portugal live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:58:30Z",
+      "expires_at": "2026-07-30T04:58:08Z",
+      "results": []
+    },
+    "d9c2e210ae3d46c4b5604f9b2d15e48be2d2a5a068883d3758022d9714f42f50": {
+      "engine": "google",
+      "query": "site:instagram.com \"Arouca\" direto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:58:53Z",
+      "expires_at": "2026-07-30T04:58:30Z",
+      "results": []
+    },
+    "78f15b94ed06b659f1d93fe153c8254818a99de674f19e75b7e442fd11328363": {
+      "engine": "google",
+      "query": "\"Arouca\" m3u8 webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:59:15Z",
+      "expires_at": "2026-07-30T04:58:53Z",
+      "results": []
+    },
+    "fe8111b7ee6c7f2ec4178c7bf84f480316e5ba909b274a050415bd9dcc1a957c": {
+      "engine": "google",
+      "query": "\"Arouca\" mpd live camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T04:59:38Z",
+      "expires_at": "2026-07-30T04:59:15Z",
+      "results": []
+    },
+    "ba8be52328009adfec59dd86be834cd7b549c795644bdcd909b196b786bc9ed2": {
+      "engine": "google",
+      "query": "\"Arouca\" mjpeg camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:00:00Z",
+      "expires_at": "2026-07-30T04:59:38Z",
+      "results": []
+    },
+    "a490d8201e0f04af46071f5528f04b8bbc76c600736311554b9bb22f3700c7bd": {
+      "engine": "google",
+      "query": "\"Arouca\" snapshot.jpg",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:00:22Z",
+      "expires_at": "2026-07-30T05:00:00Z",
+      "results": []
+    },
+    "dee209c417f96c9edbf7366a3770a7c263094e1779391210733116ddfb3c4401": {
+      "engine": "google",
+      "query": "\"Arouca\" videostream.cgi",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:00:45Z",
+      "expires_at": "2026-07-30T05:00:22Z",
+      "results": []
+    },
+    "bdd19e99c7e55eb02deb28cc37d9ba38e917107618f9df6cafd1f529b60a21f2": {
+      "engine": "google",
+      "query": "\"Arouca\" axis-cgi/mjpg",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:01:07Z",
+      "expires_at": "2026-07-30T05:00:45Z",
+      "results": []
+    },
+    "c8b3448270c9b42d1767a38c7ee55c1ea5caa5ef81cf74ccf868cb22ff6f4355": {
+      "engine": "google",
+      "query": "\"Arouca\" iframe live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:01:30Z",
+      "expires_at": "2026-07-30T05:01:07Z",
+      "results": []
+    },
+    "bb80b0d9a4c55f347caea0cdbc8c82288cf24100060ef6c3e2288469e64eeafc": {
+      "engine": "google",
+      "query": "inurl:viewerframe?mode=motion \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:01:52Z",
+      "expires_at": "2026-07-30T05:01:30Z",
+      "results": []
+    },
+    "5801740d58eaa52d8fbaa1caf9eda17be4583cfd7afb869ff7c2e6d5c438981d": {
+      "engine": "google",
+      "query": "inurl:axis-cgi \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:02:14Z",
+      "expires_at": "2026-07-30T05:01:52Z",
+      "results": []
+    },
+    "ecfe17e288a62859b81e1526539fb9a02ee91eff3cdb7bee66d411736ed382e8": {
+      "engine": "google",
+      "query": "inurl:Streaming/channels \"Arouca\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:02:37Z",
+      "expires_at": "2026-07-30T05:02:14Z",
+      "results": []
+    },
+    "c75981e0b609d103822ad32e8e8cb991af6bb87ecea4d5ad23377354804ba14d": {
+      "engine": "google",
+      "query": "site:cm-aveiro.pt webcam Aveiro",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:02:59Z",
+      "expires_at": "2026-07-30T05:02:37Z",
+      "results": []
+    },
+    "468d9a03462f89dd5890df04f33c12587d47d3416b8099877e967f39e1bc0f68": {
+      "engine": "google",
+      "query": "site:municipio-aveiro.pt webcam Aveiro",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:03:21Z",
+      "expires_at": "2026-07-30T05:02:59Z",
+      "results": []
+    },
+    "74e276dc66dc337eed3f1c13d13e4c3309e0ee9b33ec3b743cf57257b7bb2a89": {
+      "engine": "google",
+      "query": "site:aveiro.pt webcam Aveiro",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:03:44Z",
+      "expires_at": "2026-07-30T05:03:21Z",
+      "results": []
+    },
+    "83338a36edf61035626da709112ab81c2fac6cdad8f6af1166f67241aaf46dbd": {
+      "engine": "google",
+      "query": "site:cm-aveiro.pt (direto OR livestream OR câmara)",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:04:06Z",
+      "expires_at": "2026-07-30T05:03:44Z",
+      "results": []
+    },
+    "fbd1f5d5c457effe0965e8cd912f6f24d9b2860f5ce0f52e3e4dd2584e51f628": {
+      "engine": "google",
+      "query": "turismo Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:04:28Z",
+      "expires_at": "2026-07-30T05:04:06Z",
+      "results": []
+    },
+    "4f4ba26e89ba0ab20b8376cb6dc97458551228d0a164b232c855d117b0d89f7f": {
+      "engine": "google",
+      "query": "visit Aveiro live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:04:51Z",
+      "expires_at": "2026-07-30T05:04:28Z",
+      "results": []
+    },
+    "1f9c72c860cd426e08c7542f548aee4d7f588f5f7a9601726fe3c4e9dbe4ff82": {
+      "engine": "google",
+      "query": "site:visitportugal.com Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:05:13Z",
+      "expires_at": "2026-07-30T05:04:51Z",
+      "results": []
+    },
+    "3a31b9b7d7d920fa69112a622207a684e6f7f421b7138057f189a912666eb6b8": {
+      "engine": "google",
+      "query": "site:turismodeportugal.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:05:36Z",
+      "expires_at": "2026-07-30T05:05:13Z",
+      "results": []
+    },
+    "9b71906a6435cec0471126e9da337ae7ca72c426fea7ed315bbb715404a4ff55": {
+      "engine": "google",
+      "query": "site:visitportoandnorth.travel Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:05:58Z",
+      "expires_at": "2026-07-30T05:05:36Z",
+      "results": []
+    },
+    "dd8065b977545f92a7ec6d8308cdb55524ad5b886e11f2d6781764b887654a96": {
+      "engine": "google",
+      "query": "site:visitcentrodeportugal.com.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:06:21Z",
+      "expires_at": "2026-07-30T05:05:58Z",
+      "results": []
+    },
+    "3aff108ef639317fad58a69f0d29546dd539de9ccfcd6fd1d2477105acbc0ae2": {
+      "engine": "google",
+      "query": "site:visitlisboa.com Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:06:43Z",
+      "expires_at": "2026-07-30T05:06:21Z",
+      "results": []
+    },
+    "7661408c0faedbd3e2de59bc1bc54f1a6f1fba8ae411a19428d864d2fcbe2724": {
+      "engine": "google",
+      "query": "site:visitalentejo.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:07:05Z",
+      "expires_at": "2026-07-30T05:06:43Z",
+      "results": []
+    },
+    "577f12e9f66cf5d3d9d25004fffe91449d013f7cb8781fb6a4b2979e8f0105e5": {
+      "engine": "google",
+      "query": "site:visitalgarve.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:07:28Z",
+      "expires_at": "2026-07-30T05:07:05Z",
+      "results": []
+    },
+    "2bd6bfdd05829dc04f5edba503cd49caaa7d43d7bbc1d61198549372b709ad88": {
+      "engine": "google",
+      "query": "\"webcam\" \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:07:50Z",
+      "expires_at": "2026-07-30T05:07:28Z",
+      "results": []
+    },
+    "d13dd34e1dfc724bde6cf4521607598b6fb868c52a4636a1a5069d6c8a89e73f": {
+      "engine": "google",
+      "query": "\"web cam\" \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:08:12Z",
+      "expires_at": "2026-07-30T05:07:50Z",
+      "results": []
+    },
+    "e96638d2fd92e744f2a5711edc221314b84984ab068ad0769e72af740516b546": {
+      "engine": "google",
+      "query": "\"live cam\" \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:08:35Z",
+      "expires_at": "2026-07-30T05:08:12Z",
+      "results": []
+    },
+    "1d2e85d6eae147cc74c8540431c40bf564f5ecdd243260d0963efe1ab7def5e8": {
+      "engine": "google",
+      "query": "\"câmara ao vivo\" \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:08:57Z",
+      "expires_at": "2026-07-30T05:08:35Z",
+      "results": []
+    },
+    "81dfd22d1a8d67df8608dfe35bfd5010877bd6574b9825522d0bbda1aeddf183": {
+      "engine": "bing",
+      "query": "\"camera ao vivo\" \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:09:19Z",
+      "expires_at": "2026-07-30T05:08:57Z",
+      "results": []
+    },
+    "d3eaeb1695f9057819020c2bab825dd1a1f497f1303a164d8684daa4c64a94bc": {
+      "engine": "bing",
+      "query": "\"transmissão em direto\" \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:09:42Z",
+      "expires_at": "2026-07-30T05:09:19Z",
+      "results": []
+    },
+    "ef2302a43ed92feddb97b7e547b1e20564269b6b9a01421dc8da1f3fba8bb596": {
+      "engine": "bing",
+      "query": "\"live stream\" \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:10:04Z",
+      "expires_at": "2026-07-30T05:09:42Z",
+      "results": []
+    },
+    "ba35a4c8aad48295f158d471e63c64d62fca7cbfcaf1f77b01601b2c90e78d6e": {
+      "engine": "bing",
+      "query": "site:.pt webcam \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:10:27Z",
+      "expires_at": "2026-07-30T05:10:04Z",
+      "results": []
+    },
+    "09f517dde26706526d6a447bba99c2ea5c5acb19c1159d0d37d94dd60bc8dc19": {
+      "engine": "duckduckgo",
+      "query": "site:youtube.com/live \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:10:49Z",
+      "expires_at": "2026-07-30T05:10:27Z",
+      "results": []
+    },
+    "370078c8b8d87e82d6089d74d15a4ba069dcee2a8b58ac8ad9f8a4b4f8ed330f": {
+      "engine": "duckduckgo",
+      "query": "site:facebook.com \"Aveiro\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:11:11Z",
+      "expires_at": "2026-07-30T05:10:49Z",
+      "results": []
+    },
+    "e3b4f7eea64573c40efab702577cf6be01b2d201143b62a0cbe07e73c0323952": {
+      "engine": "duckduckgo",
+      "query": "site:instagram.com \"Aveiro\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:11:34Z",
+      "expires_at": "2026-07-30T05:11:11Z",
+      "results": []
+    },
+    "b2a4f0374f90727b0b13334c0d8f1f206682c581afacd3187d83d12db920d87c": {
+      "engine": "duckduckgo",
+      "query": "\"Axis\" \"Aveiro\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:11:56Z",
+      "expires_at": "2026-07-30T05:11:34Z",
+      "results": []
+    },
+    "a445833f4ae4f5b06b68a7b3d19e718598b1bcc601e4b7bbc99ff49edc642146": {
+      "engine": "duckduckgo",
+      "query": "\"Mobotix\" \"Aveiro\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:12:19Z",
+      "expires_at": "2026-07-30T05:11:56Z",
+      "results": []
+    },
+    "60ffd309741f0b2b745d263374fdc34a267d198cdf8cd854f8270a6d0a843c8a": {
+      "engine": "duckduckgo",
+      "query": "\"Hikvision\" \"Aveiro\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:12:41Z",
+      "expires_at": "2026-07-30T05:12:19Z",
+      "results": []
+    },
+    "008607e64db053708580bd6d615a3858b4ddc07e124756c0b657c882b4025953": {
+      "engine": "google",
+      "query": "site:portugalwebcams.pt \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:13:03Z",
+      "expires_at": "2026-07-30T05:12:41Z",
+      "results": []
+    },
+    "68731c8f07141eb29763899b36127be6e2bb5d527bbaab2f09b911f273dfccfd": {
+      "engine": "google",
+      "query": "site:webcamgalore.com \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:13:26Z",
+      "expires_at": "2026-07-30T05:13:03Z",
+      "results": []
+    },
+    "af8d9ba31720fae536289b3849b3a1dfd85fc81403d5fa3b8cdceefa58a21793": {
+      "engine": "google",
+      "query": "site:windy.com/webcams \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:13:48Z",
+      "expires_at": "2026-07-30T05:13:26Z",
+      "results": []
+    },
+    "96520be75205b5731a450d8a3d2944afcbd1bfdfcb3fb74c07d1a1ab448a1f29": {
+      "engine": "google",
+      "query": "site:windfinder.com/webcams \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:14:11Z",
+      "expires_at": "2026-07-30T05:13:48Z",
+      "results": []
+    },
+    "8684ae8ee6f6a26cb43af0887dc3d5f21492c514008b14617446a3fc25928377": {
+      "engine": "google",
+      "query": "site:webcams.travel \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:14:33Z",
+      "expires_at": "2026-07-30T05:14:11Z",
+      "results": []
+    },
+    "a23606a920dc2d0dffc9cc0a2d063722d2f37e510b4d1e8650e32fa58bcbb8d4": {
+      "engine": "google",
+      "query": "site:webcamtaxi.com \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:14:56Z",
+      "expires_at": "2026-07-30T05:14:33Z",
+      "results": []
+    },
+    "48feaa91abb69f3f9cdc88b54fac5a6af12d958b493c0df89f9157fd2430dabb": {
+      "engine": "google",
+      "query": "site:worldcam.eu \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:15:18Z",
+      "expires_at": "2026-07-30T05:14:56Z",
+      "results": []
+    },
+    "b8184d6d57e0a940af8f3090787e1ff523cbc2f74d7674a87d7deb9a7ea25415": {
+      "engine": "google",
+      "query": "site:geowebcams.com \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:15:40Z",
+      "expires_at": "2026-07-30T05:15:18Z",
+      "results": []
+    },
+    "068189f87ceec3dbcb278c5d19c232f89076bc11840a0b06ec9d5a306ec353f1": {
+      "engine": "google",
+      "query": "site:skylinewebcams.com \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:16:03Z",
+      "expires_at": "2026-07-30T05:15:40Z",
+      "results": []
+    },
+    "a18aad8105f4f903132b57d212c55074f172490920b91e44540a62f7df1516c4": {
+      "engine": "google",
+      "query": "site:earthcam.com \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:16:25Z",
+      "expires_at": "2026-07-30T05:16:03Z",
+      "results": []
+    },
+    "76d281c3ea64df2f1fa354c0192991ea0c8d587eadd26e1e1b0b23858c69e147": {
+      "engine": "google",
+      "query": "site:ipcamlive.com \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:16:48Z",
+      "expires_at": "2026-07-30T05:16:25Z",
+      "results": []
+    },
+    "cce657e12c2e85aa91c01dad86b8bad7dd51598e90b7a1b0a215192f340ed4a0": {
+      "engine": "google",
+      "query": "site:meteoblue.com \"Aveiro\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:17:10Z",
+      "expires_at": "2026-07-30T05:16:48Z",
+      "results": []
+    },
+    "2c00bdefe06c9a877e47b683ea82909bf095631dff1d6bc322cd45be365cdded": {
+      "engine": "google",
+      "query": "site:spotazores.com \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:17:33Z",
+      "expires_at": "2026-07-30T05:17:10Z",
+      "results": []
+    },
+    "140ad7a0554481ec3a0cce97f97cb9b90a6d7ab38d44d5f3f7152fde578dc029": {
+      "engine": "google",
+      "query": "site:netmadeira.com \"Aveiro\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:17:55Z",
+      "expires_at": "2026-07-30T05:17:33Z",
+      "results": []
+    },
+    "2b1cd9eec0771f044822c4eeec2ab7ebf292fe1d92b633fe7d7c81a97b09fe6b": {
+      "engine": "google",
+      "query": "site:madeiracams.com \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:18:17Z",
+      "expires_at": "2026-07-30T05:17:55Z",
+      "results": []
+    },
+    "c7e45a071e97adc77247b7c08a5d8ff9de05317b895d37dd91fdea969d912334": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:18:40Z",
+      "expires_at": "2026-07-30T05:18:17Z",
+      "results": []
+    },
+    "7805bd9d96f795abda400231a946403f9986854dade7a215f1d9db10ce7ec396": {
+      "engine": "google",
+      "query": "site:back-office.beachcam.pt/livecams \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:19:03Z",
+      "expires_at": "2026-07-30T05:18:40Z",
+      "results": []
+    },
+    "747fac09747f8380cc50314628bf664102e5a8df31d905f8a6f09349c580cb61": {
+      "engine": "google",
+      "query": "Portugal webcam Portugal \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:19:26Z",
+      "expires_at": "2026-07-30T05:19:03Z",
+      "results": []
+    },
+    "91dea539d2da2f0938fd56f917215423fb375d61d5dca963325e53a6e0a70f93": {
+      "engine": "google",
+      "query": "Aveiro praia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:19:48Z",
+      "expires_at": "2026-07-30T05:19:26Z",
+      "results": []
+    },
+    "7c41b4945be983355637060f62e994955dbc90508b4ab99ff603d0ca3a23e953": {
+      "engine": "google",
+      "query": "Aveiro surf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:20:10Z",
+      "expires_at": "2026-07-30T05:19:48Z",
+      "results": []
+    },
+    "969ac9add20d6e11615b835def6e543d4e9e01b466d2ec6bd7fbebdc3897d632": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt Aveiro",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:20:33Z",
+      "expires_at": "2026-07-30T05:20:10Z",
+      "results": []
+    },
+    "a4455ecbc8d724b160651922cae41e5ee8c8f5b36d632bf740ed49bf3090e74d": {
+      "engine": "google",
+      "query": "site:surfline.com Aveiro Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:20:55Z",
+      "expires_at": "2026-07-30T05:20:33Z",
+      "results": []
+    },
+    "753b841c3b60d51c89e8f8f8301a3ea6e7d0542039004a72218cc433a314a934": {
+      "engine": "google",
+      "query": "site:magicseaweed.com Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:21:17Z",
+      "expires_at": "2026-07-30T05:20:55Z",
+      "results": []
+    },
+    "7b32470a2d7b893bfa684c369d8a2b6d8dc65c1455a2c2b7595aababee087807": {
+      "engine": "google",
+      "query": "site:windfinder.com Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:21:40Z",
+      "expires_at": "2026-07-30T05:21:17Z",
+      "results": []
+    },
+    "11524ea2be7cd566aff3c043528806801867155cc7e9c5dd5cd4885c94176edb": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Aveiro praia",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:22:02Z",
+      "expires_at": "2026-07-30T05:21:40Z",
+      "results": []
+    },
+    "42c55ee0e1494e63210cddbf5b4b5d478ea093048e7e0d4260e1b225e790b730": {
+      "engine": "google",
+      "query": "Aveiro porto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:22:25Z",
+      "expires_at": "2026-07-30T05:22:02Z",
+      "results": []
+    },
+    "3f8afca864c570418d11551e6234725439e587593042c73181312fefacbb8d61": {
+      "engine": "google",
+      "query": "Aveiro marina webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:22:47Z",
+      "expires_at": "2026-07-30T05:22:25Z",
+      "results": []
+    },
+    "bce858a887d88e2dec65402a918db9080075bd379f88e02c3fd4e92c05dfa941": {
+      "engine": "google",
+      "query": "Aveiro clube náutico live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:23:10Z",
+      "expires_at": "2026-07-30T05:22:47Z",
+      "results": []
+    },
+    "9551088d1e3bf24ae837c8a6c0cff9470fc50bcaad09c3cd7603ec9ae054cb25": {
+      "engine": "google",
+      "query": "Aveiro barra porto câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:23:32Z",
+      "expires_at": "2026-07-30T05:23:10Z",
+      "results": []
+    },
+    "bb68911106ed272de923eb618e16c6e5d5bc622acee3cc9664ddc4e74a8816ec": {
+      "engine": "google",
+      "query": "site:portosdeportugal.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:23:54Z",
+      "expires_at": "2026-07-30T05:23:32Z",
+      "results": []
+    },
+    "9b47ceb863d3ca93ce2fb4b36b21369888ff21a9458b96fa1c428dbad5424369": {
+      "engine": "google",
+      "query": "site:amn.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:24:17Z",
+      "expires_at": "2026-07-30T05:23:54Z",
+      "results": []
+    },
+    "ec2823762baeb4a5ae6e4f5e36b77f0d6c1939f222198dfa0c01885e280e869b": {
+      "engine": "google",
+      "query": "site:docapesca.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:24:39Z",
+      "expires_at": "2026-07-30T05:24:17Z",
+      "results": []
+    },
+    "60e3d026b39123a62eb86ebbefedaed875940c97b0aaa6f06e6a4665be4e6d0d": {
+      "engine": "google",
+      "query": "site:apdl.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:25:02Z",
+      "expires_at": "2026-07-30T05:24:39Z",
+      "results": []
+    },
+    "be7765f90d4ca5960a26c8129384d284d21aadb0be2d6a5f77ec8fa1bf833725": {
+      "engine": "google",
+      "query": "site:portoaveiro.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:25:24Z",
+      "expires_at": "2026-07-30T05:25:02Z",
+      "results": []
+    },
+    "f4d2e809103a4ace18059e4049bca38663e8d5c6aa22092a237ed505c87beebd": {
+      "engine": "google",
+      "query": "site:portodelisboa.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:25:46Z",
+      "expires_at": "2026-07-30T05:25:24Z",
+      "results": []
+    },
+    "9a31423616c9ef87290283d2c1aedd2abfc15f1cae66f726d312762e178f11ce": {
+      "engine": "google",
+      "query": "site:apsinesalgarve.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:26:09Z",
+      "expires_at": "2026-07-30T05:25:46Z",
+      "results": []
+    },
+    "161c81c059b1623649f90cfb0d7ce108a75da88d9c4b189e1a294c85fa62976e": {
+      "engine": "google",
+      "query": "Aveiro aeroporto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:26:31Z",
+      "expires_at": "2026-07-30T05:26:09Z",
+      "results": []
+    },
+    "f421d23fb51ef8017e4eacf1fd2a780990b8935a1694da9c7095358fd07e2fa1": {
+      "engine": "google",
+      "query": "Aveiro aeródromo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:26:54Z",
+      "expires_at": "2026-07-30T05:26:31Z",
+      "results": []
+    },
+    "85c5af98168ada8a1f262c834ae47f891e26e5a5c020e1ca75a9818bfd71dcd2": {
+      "engine": "google",
+      "query": "Aveiro aeroclube webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:27:16Z",
+      "expires_at": "2026-07-30T05:26:54Z",
+      "results": []
+    },
+    "af82ea0a0aac889cc00ed50b0ef8d555a5691d24f8d650d6b3224f1b31477467": {
+      "engine": "google",
+      "query": "Aveiro pista aviação câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:27:38Z",
+      "expires_at": "2026-07-30T05:27:16Z",
+      "results": []
+    },
+    "8c90418b6976043cde1fe4b2e79aba04b5231193fc1e5ade2f45b3dfffcb4495": {
+      "engine": "google",
+      "query": "site:ana.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:28:00Z",
+      "expires_at": "2026-07-30T05:27:38Z",
+      "results": []
+    },
+    "86de72fb8616d33952fa32723c954f228db03a4b6bf25355ddd0a76a83d978ea": {
+      "engine": "google",
+      "query": "site:nav.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:28:23Z",
+      "expires_at": "2026-07-30T05:28:00Z",
+      "results": []
+    },
+    "1c8bd96cdb25be8ace3ef36cf70d166eaf715adbdad597dff181f5bbae43fbab": {
+      "engine": "google",
+      "query": "site:airportwebcams.net Portugal Aveiro",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:28:45Z",
+      "expires_at": "2026-07-30T05:28:23Z",
+      "results": []
+    },
+    "ade76bf349f507c8b1067eedb5ffc20c51335b8c42dfe0f330836b26401bddd1": {
+      "engine": "google",
+      "query": "site:metar-taf.com Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:29:07Z",
+      "expires_at": "2026-07-30T05:28:45Z",
+      "results": []
+    },
+    "fd84701d2eaf1d6fd64f55ff1728ed82664387532a0ad4c345cd5f4935eb5a91": {
+      "engine": "google",
+      "query": "site:youtube.com Aveiro airport live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:29:30Z",
+      "expires_at": "2026-07-30T05:29:07Z",
+      "results": []
+    },
+    "79e57c70009207e39b4ade6d54de1a56cdaf2d27b239cb84c3285e0370dfb502": {
+      "engine": "google",
+      "query": "site:facebook.com aeroclube Aveiro direto",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:29:52Z",
+      "expires_at": "2026-07-30T05:29:30Z",
+      "results": []
+    },
+    "c4ce688e0b3fde8e49e8ee3d77f67e9e8633934af12057f8664538626b7d3903": {
+      "engine": "google",
+      "query": "Aveiro trânsito estrada webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:30:15Z",
+      "expires_at": "2026-07-30T05:29:52Z",
+      "results": []
+    },
+    "6a56f616ca4befea2813970fcc9f1a5cddb8533b13157aaf6c3c62c160126264": {
+      "engine": "google",
+      "query": "Aveiro câmara tráfego ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:30:37Z",
+      "expires_at": "2026-07-30T05:30:15Z",
+      "results": []
+    },
+    "217d3a0427af9794596112ca5c36b91878287d8def8cc632b39ca0f12d952ec3": {
+      "engine": "google",
+      "query": "Aveiro estação ferroviária webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:30:59Z",
+      "expires_at": "2026-07-30T05:30:37Z",
+      "results": []
+    },
+    "123827494b801a4ee3b717ec0f8a0497cd03521e99961eb1c21423ca8289ac50": {
+      "engine": "google",
+      "query": "Aveiro terminal rodoviário webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:31:22Z",
+      "expires_at": "2026-07-30T05:30:59Z",
+      "results": []
+    },
+    "99d4542f3dcd11d657c05f4712e619d82715a66c787bcaff2d7fb1313d21115a": {
+      "engine": "google",
+      "query": "site:infraestruturasdeportugal.pt Aveiro camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:31:45Z",
+      "expires_at": "2026-07-30T05:31:22Z",
+      "results": []
+    },
+    "3628f4ee85544151099bcd456f6cbc6c672d7de2e97c8413af47491ab3f5e98c": {
+      "engine": "google",
+      "query": "site:estradas.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:32:07Z",
+      "expires_at": "2026-07-30T05:31:45Z",
+      "results": []
+    },
+    "96e4f6e26b980286674ee660432073dcc9170aab7c41d4dbbc3fd74883cd7080": {
+      "engine": "google",
+      "query": "site:cp.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:32:29Z",
+      "expires_at": "2026-07-30T05:32:07Z",
+      "results": []
+    },
+    "75f6b3180f425ddfa4adda738062aab3dde53e744637182a23eb449c3a842edf": {
+      "engine": "google",
+      "query": "site:metrolisboa.pt Aveiro live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:32:52Z",
+      "expires_at": "2026-07-30T05:32:29Z",
+      "results": []
+    },
+    "001916e372a235f69dd8d42e4cb842e1446061f414c09158b3c9e93904308a0b": {
+      "engine": "google",
+      "query": "site:metrodoporto.pt Aveiro live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:33:14Z",
+      "expires_at": "2026-07-30T05:32:52Z",
+      "results": []
+    },
+    "87aef251a315aed521f7a9f7c3979c8aff38acfcc054c444f03723a1d1a76a48": {
+      "engine": "google",
+      "query": "Aveiro serra webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:33:37Z",
+      "expires_at": "2026-07-30T05:33:14Z",
+      "results": []
+    },
+    "6e14f7366baad7a5ccd6af2fa6729a9c2c5f6c0baea0743d8cbb2acf10978b90": {
+      "engine": "google",
+      "query": "Aveiro parque natural webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:33:59Z",
+      "expires_at": "2026-07-30T05:33:37Z",
+      "results": []
+    },
+    "bf96dcd9a3662b70b39c02c7020020c8ebac4fe4d69e6ffee4b472011c68f4dd": {
+      "engine": "google",
+      "query": "Aveiro barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:34:22Z",
+      "expires_at": "2026-07-30T05:33:59Z",
+      "results": []
+    },
+    "1e3cf924892b52a05b764d52feca866f3371879fdd87c9c8805b10a5f3ec48fe": {
+      "engine": "google",
+      "query": "Aveiro miradouro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:34:44Z",
+      "expires_at": "2026-07-30T05:34:22Z",
+      "results": []
+    },
+    "6097b177a7e5c2ecbb9a8b5584710d6845c04c74342b83e233a60689b6c6ca05": {
+      "engine": "google",
+      "query": "Aveiro rio webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:35:07Z",
+      "expires_at": "2026-07-30T05:34:44Z",
+      "results": []
+    },
+    "5f5c8440d1ab0d1288109cbb01a7424929281932856d1810a40c5714d50f32b6": {
+      "engine": "google",
+      "query": "site:icnf.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:35:29Z",
+      "expires_at": "2026-07-30T05:35:07Z",
+      "results": []
+    },
+    "c5caab399dfb397d9d82cb05fdb243d62ecd6c353bf82ee1a7f73d6d8547884c": {
+      "engine": "google",
+      "query": "site:snirh.apambiente.pt Aveiro câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:35:51Z",
+      "expires_at": "2026-07-30T05:35:29Z",
+      "results": []
+    },
+    "98f3a602b3de950256ea26fc1b767641218559677d3111e6226478ddf04a0774": {
+      "engine": "google",
+      "query": "site:edp.com Aveiro barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:36:14Z",
+      "expires_at": "2026-07-30T05:35:51Z",
+      "results": []
+    },
+    "0f8b66001ff55de1b90cef777fd22f826a15be3904f7c68c40495fb36fa5d449": {
+      "engine": "google",
+      "query": "site:meteoblue.com Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:36:36Z",
+      "expires_at": "2026-07-30T05:36:14Z",
+      "results": []
+    },
+    "9c1b65d17d0cfc44bff294607b524325f8b3853fe1a0706466d6cc66e7b80bb5": {
+      "engine": "google",
+      "query": "Aveiro hotel webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:36:58Z",
+      "expires_at": "2026-07-30T05:36:36Z",
+      "results": []
+    },
+    "7d8e34a3324a3a5674e54f878a55e8a2aad375aadb33ec151c33c73fa6e39dc3": {
+      "engine": "google",
+      "query": "Aveiro resort webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:37:21Z",
+      "expires_at": "2026-07-30T05:36:58Z",
+      "results": []
+    },
+    "dc51e73aecb689706393244d05113e16caea5986ee0ef34150f37ff3be6ba96c": {
+      "engine": "google",
+      "query": "Aveiro alojamento webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:37:43Z",
+      "expires_at": "2026-07-30T05:37:21Z",
+      "results": []
+    },
+    "b64f2e2e30721611d178b4cc441f93d71a4da3c0c7ae0ada267bbd04e471dab6": {
+      "engine": "google",
+      "query": "Aveiro parque de campismo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:38:06Z",
+      "expires_at": "2026-07-30T05:37:43Z",
+      "results": []
+    },
+    "15184219ecb23a8f6bf8748059d84835d2d75f957a37aa86cc6cb1515de3d806": {
+      "engine": "google",
+      "query": "site:booking.com Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:38:28Z",
+      "expires_at": "2026-07-30T05:38:06Z",
+      "results": []
+    },
+    "3cc483cba6757907dbd40ad8000b9b3a5bda5d028401709f4dc8d7fd3bacb237": {
+      "engine": "google",
+      "query": "site:youtube.com hotel Aveiro live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:38:51Z",
+      "expires_at": "2026-07-30T05:38:28Z",
+      "results": []
+    },
+    "a07ef2565ee24f9156ed3cc7049bdcbb7ace6852f6cac8929230d59984af0b72": {
+      "engine": "google",
+      "query": "Aveiro golf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:39:13Z",
+      "expires_at": "2026-07-30T05:38:51Z",
+      "results": []
+    },
+    "3323e5fb83fa9c342ab34d49cb5372eb27637b958dde901142d8eec71be4b90e": {
+      "engine": "google",
+      "query": "Aveiro estádio webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:39:35Z",
+      "expires_at": "2026-07-30T05:39:13Z",
+      "results": []
+    },
+    "eb178d991a44a33ac5ff51dfb76d9bcf182026a2208963e347851f37f9884c7c": {
+      "engine": "google",
+      "query": "Aveiro ski webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:39:58Z",
+      "expires_at": "2026-07-30T05:39:35Z",
+      "results": []
+    },
+    "372b41f00678d93ff283e89808423cb3d10ca8d651d34885a472b431c8211329": {
+      "engine": "google",
+      "query": "Aveiro estância neve webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:40:20Z",
+      "expires_at": "2026-07-30T05:39:58Z",
+      "results": []
+    },
+    "38c5e47db7e4489e03d35b53cc94df3c2ceb6d5fdd9cb8695a7e8b601596c2e0": {
+      "engine": "google",
+      "query": "Aveiro circuito automóvel webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:40:43Z",
+      "expires_at": "2026-07-30T05:40:20Z",
+      "results": []
+    },
+    "8df78a9b1cb8a9d4df5d214681351fb4d3f1e9dfadf1c58b039b6e42c20c9373": {
+      "engine": "google",
+      "query": "Aveiro clube desportivo live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:41:05Z",
+      "expires_at": "2026-07-30T05:40:43Z",
+      "results": []
+    },
+    "579c6cdf004f7d91435f2f0a26fd72f99acf874970ba2d78cd1ba0740bcd0522": {
+      "engine": "google",
+      "query": "Aveiro meteorologia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:41:28Z",
+      "expires_at": "2026-07-30T05:41:05Z",
+      "results": []
+    },
+    "c29f4cda0f76c4806e77b3434f8205060291502e8d79e00628d9cb8aa759e5bf": {
+      "engine": "google",
+      "query": "Aveiro estação meteorológica câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:41:50Z",
+      "expires_at": "2026-07-30T05:41:28Z",
+      "results": []
+    },
+    "ef1eaaf168cb0be955507af3f4685d820800f8ad8839f5a29269b0574a9cac2c": {
+      "engine": "google",
+      "query": "Aveiro observatório webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:42:12Z",
+      "expires_at": "2026-07-30T05:41:50Z",
+      "results": []
+    },
+    "2f6461b0d2a21fac8ca6ac32b403f9e72e03ef0ba7b3305b79d213daec84161b": {
+      "engine": "google",
+      "query": "site:ipma.pt Aveiro camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:42:35Z",
+      "expires_at": "2026-07-30T05:42:12Z",
+      "results": []
+    },
+    "33d8739bc692fdeaa382cce794f46a66448f40127093c5034b515f19860f54b4": {
+      "engine": "google",
+      "query": "site:observar.ipma.pt Aveiro Câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:42:58Z",
+      "expires_at": "2026-07-30T05:42:35Z",
+      "results": []
+    },
+    "ae00601037732dfca0cf13057cc6ccbca312f0064ddbb87397da3533e7c8f9ee": {
+      "engine": "google",
+      "query": "site:weathercloud.net Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:43:20Z",
+      "expires_at": "2026-07-30T05:42:58Z",
+      "results": []
+    },
+    "60576bd04aebb856aa73b06ac08c3990f7ffe3ce536721276172f10a45f08285": {
+      "engine": "google",
+      "query": "site:wunderground.com Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:43:42Z",
+      "expires_at": "2026-07-30T05:43:20Z",
+      "results": []
+    },
+    "62bf461f1382e063deb4c73c789af0b8801579b6feb1908c8eb481493dc6d1a0": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Aveiro",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:44:04Z",
+      "expires_at": "2026-07-30T05:43:42Z",
+      "results": []
+    },
+    "47900f1e1d42e403a779cf1b6adbbeaef1f027bfde1bae373628a06aa9d01868": {
+      "engine": "google",
+      "query": "Aveiro universidade webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:44:27Z",
+      "expires_at": "2026-07-30T05:44:04Z",
+      "results": []
+    },
+    "832f13d8c7fd8949a21e16686425ca05ac189a44f4c6f0c47fc426c28023f66c": {
+      "engine": "google",
+      "query": "Aveiro observatório astronómico live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:44:49Z",
+      "expires_at": "2026-07-30T05:44:27Z",
+      "results": []
+    },
+    "13a1e878f7f4a537650f66d5ba5054235022441b2801db65d74c456b182d23ea": {
+      "engine": "google",
+      "query": "Aveiro centro ciência webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:45:11Z",
+      "expires_at": "2026-07-30T05:44:49Z",
+      "results": []
+    },
+    "b33737bb6865109fa17a9168692180329a7a5f82e0614773ef928c36ed4c4088": {
+      "engine": "google",
+      "query": "site:ulisboa.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:45:33Z",
+      "expires_at": "2026-07-30T05:45:11Z",
+      "results": []
+    },
+    "9ac9e606f4620d3f5082bb605a6a43aa7e3779ba37cecefbfc8a530f89fdf2d4": {
+      "engine": "google",
+      "query": "site:up.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:45:56Z",
+      "expires_at": "2026-07-30T05:45:33Z",
+      "results": []
+    },
+    "b40beb1900289ef77b8a73e4fc0ab4aae5b850fb26d593d0a73299730cc6b5cc": {
+      "engine": "google",
+      "query": "site:uc.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:46:18Z",
+      "expires_at": "2026-07-30T05:45:56Z",
+      "results": []
+    },
+    "5f0eddb16c2c6259eb5b22ad603a7ef9c9a0c9394399aec3adc41ef7cad58a5a": {
+      "engine": "google",
+      "query": "site:uminho.pt Aveiro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:46:41Z",
+      "expires_at": "2026-07-30T05:46:18Z",
+      "results": []
+    },
+    "1baf16ca104e3192f73a8a13320e7fa1facc8ece97075bc302ec07afca00ca5f": {
+      "engine": "google",
+      "query": "site:youtube.com/watch \"Aveiro\" live webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:47:03Z",
+      "expires_at": "2026-07-30T05:46:41Z",
+      "results": []
+    },
+    "48b6b58221d551fd0528c5110b3513cd2903774500e0f1d6fe488834711437b7": {
+      "engine": "google",
+      "query": "site:youtube.com/live \"Aveiro\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:47:25Z",
+      "expires_at": "2026-07-30T05:47:03Z",
+      "results": []
+    },
+    "63c1cb44014b36c96df9d059804f93febd8f15fddf7e2132e3ad58a0921ac318": {
+      "engine": "google",
+      "query": "site:facebook.com \"Aveiro\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:47:47Z",
+      "expires_at": "2026-07-30T05:47:25Z",
+      "results": []
+    },
+    "0bcca2421e94bd0e1ab3d6250385cacef3a7060a4dd3faa49f8bb6cf7c96fd2c": {
+      "engine": "google",
+      "query": "site:twitch.tv \"Aveiro\" Portugal live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:48:09Z",
+      "expires_at": "2026-07-30T05:47:47Z",
+      "results": []
+    },
+    "041f9233beb63bd8d1b204858a7df3ba1ca4b011bc95f0de941acdeae29ed1e9": {
+      "engine": "google",
+      "query": "site:instagram.com \"Aveiro\" direto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:48:32Z",
+      "expires_at": "2026-07-30T05:48:09Z",
+      "results": []
+    },
+    "fddb4dd770d09a794a0560be79984c77f70f2301e52674df64998ef9d51b1ff6": {
+      "engine": "google",
+      "query": "\"Aveiro\" m3u8 webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:48:54Z",
+      "expires_at": "2026-07-30T05:48:32Z",
+      "results": []
+    },
+    "5dc11143334881632f74759d06d23b00543d1a173987f553fde86e895a7e3d20": {
+      "engine": "google",
+      "query": "\"Aveiro\" mpd live camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:49:16Z",
+      "expires_at": "2026-07-30T05:48:54Z",
+      "results": []
+    },
+    "b39e7dd0651fc25e6f1caab5b95531aa9f29e6a660d922b43faaa2196d36555e": {
+      "engine": "google",
+      "query": "\"Aveiro\" mjpeg camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:49:39Z",
+      "expires_at": "2026-07-30T05:49:16Z",
+      "results": []
+    },
+    "ab961c265cc9ae99610e2c2fe220f55596cea08c6dc70365669c31182dd465f2": {
+      "engine": "google",
+      "query": "\"Aveiro\" snapshot.jpg",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:50:01Z",
+      "expires_at": "2026-07-30T05:49:39Z",
+      "results": []
+    },
+    "f881fa4f97ee4585568949bef0c58c50c6e31e69576b2a10784c429e1d155857": {
+      "engine": "google",
+      "query": "\"Aveiro\" videostream.cgi",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:50:24Z",
+      "expires_at": "2026-07-30T05:50:01Z",
+      "results": []
+    },
+    "46b9b9a8f645521ac1b0ec6ae6849b2d0c1da1c92aa9f93b0fa7d7e871f8aed0": {
+      "engine": "google",
+      "query": "\"Aveiro\" axis-cgi/mjpg",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:50:46Z",
+      "expires_at": "2026-07-30T05:50:24Z",
+      "results": []
+    },
+    "6ea3a4a0963a493c0062ee6cac681f47b14d1829ca6c4d5e89724a9c43df54e4": {
+      "engine": "google",
+      "query": "\"Aveiro\" iframe live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:51:09Z",
+      "expires_at": "2026-07-30T05:50:46Z",
+      "results": []
+    },
+    "4fefa619c8c00228ab14c5cc2c07660935fbbe0e5c4e0fc2b6ffc58a98f0882e": {
+      "engine": "google",
+      "query": "inurl:viewerframe?mode=motion \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:51:31Z",
+      "expires_at": "2026-07-30T05:51:09Z",
+      "results": []
+    },
+    "f299586b458fc3099002a83e7802d831304747ae40da995f85dbc1ab6e8bf244": {
+      "engine": "google",
+      "query": "inurl:axis-cgi \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:51:53Z",
+      "expires_at": "2026-07-30T05:51:31Z",
+      "results": []
+    },
+    "aa7926905b33fcdaa0ac33886dac84c220bfd3e98390b4994391d22fcde1f71c": {
+      "engine": "google",
+      "query": "inurl:Streaming/channels \"Aveiro\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:52:16Z",
+      "expires_at": "2026-07-30T05:51:53Z",
+      "results": []
+    },
+    "1493ff442def053e219d8372ae116b4641dc1365c392efe957cb80457d788266": {
+      "engine": "google",
+      "query": "site:cm-castelo-de-paiva.pt webcam Castelo de Paiva",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:52:38Z",
+      "expires_at": "2026-07-30T05:52:16Z",
+      "results": []
+    },
+    "eaa48e36cd67d435bb4cff17857fce7e0e0e9bf31aace4cd74e2d6df3331cddd": {
+      "engine": "google",
+      "query": "site:municipio-castelo-de-paiva.pt webcam Castelo de Paiva",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:53:01Z",
+      "expires_at": "2026-07-30T05:52:38Z",
+      "results": []
+    },
+    "401b2ea556064cf5707f3e8045ffcf2d9fd5f707727acff1d59f4596e19200c3": {
+      "engine": "google",
+      "query": "site:castelo-de-paiva.pt webcam Castelo de Paiva",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:53:23Z",
+      "expires_at": "2026-07-30T05:53:01Z",
+      "results": []
+    },
+    "8f43320ca5d97404518b1b4f81c89b4594ccb94e3da8f2058eab7a57cd427ea6": {
+      "engine": "google",
+      "query": "site:cm-castelo-de-paiva.pt (direto OR livestream OR câmara)",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:53:46Z",
+      "expires_at": "2026-07-30T05:53:23Z",
+      "results": []
+    },
+    "7dd9320e1e3e958e2e9e71e933fd206190b078acc519832ffc2b0c88409b9cb1": {
+      "engine": "google",
+      "query": "turismo Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:54:08Z",
+      "expires_at": "2026-07-30T05:53:46Z",
+      "results": []
+    },
+    "cf1e680856c18ece58de36a5ea2666d7437c360e95a5fbd5d116b00fc5230ebc": {
+      "engine": "google",
+      "query": "visit Castelo de Paiva live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:54:31Z",
+      "expires_at": "2026-07-30T05:54:08Z",
+      "results": []
+    },
+    "0edc33a024456ca58fb4afb4dc0a211e89bbc303c6daa188fdf2bb770d5c0217": {
+      "engine": "google",
+      "query": "site:visitportugal.com Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:54:53Z",
+      "expires_at": "2026-07-30T05:54:31Z",
+      "results": []
+    },
+    "1c437d40e40d9e104714bb85392b3a48f8d3a8b12ec644ced6ca58f0b155fdff": {
+      "engine": "google",
+      "query": "site:turismodeportugal.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:55:15Z",
+      "expires_at": "2026-07-30T05:54:53Z",
+      "results": []
+    },
+    "e47bb2c4978751a448cf87888ecf82561047d2f03069e0ede817e79965432918": {
+      "engine": "google",
+      "query": "site:visitportoandnorth.travel Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:55:37Z",
+      "expires_at": "2026-07-30T05:55:15Z",
+      "results": []
+    },
+    "0b52967b9eb78e2c31dbfeefcd7d68924e5a05511149674ef7b79a1417292593": {
+      "engine": "google",
+      "query": "site:visitcentrodeportugal.com.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:56:00Z",
+      "expires_at": "2026-07-30T05:55:37Z",
+      "results": []
+    },
+    "7fa54553a79000271cafb900fcf7ac1ba7b4aa33244e67b6d392555a10629501": {
+      "engine": "google",
+      "query": "site:visitlisboa.com Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:56:22Z",
+      "expires_at": "2026-07-30T05:56:00Z",
+      "results": []
+    },
+    "316183aad8c21c2a4d1660df60acbca8531a4c2780064be16d7d9275e492486f": {
+      "engine": "google",
+      "query": "site:visitalentejo.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:56:45Z",
+      "expires_at": "2026-07-30T05:56:22Z",
+      "results": []
+    },
+    "da8df96aa82ac46c4f99e3af133580045d527259ac28b5be3981de7732982e76": {
+      "engine": "google",
+      "query": "site:visitalgarve.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:57:07Z",
+      "expires_at": "2026-07-30T05:56:45Z",
+      "results": []
+    },
+    "15d44bb1fe9aaf12a45a4cbe7d1d4cb58b41418b0fab8d392fc33351723f61f5": {
+      "engine": "google",
+      "query": "\"webcam\" \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:57:29Z",
+      "expires_at": "2026-07-30T05:57:07Z",
+      "results": []
+    },
+    "9b4db1c1826f0f33b5e2d016fdbd8daf18d16320b0d793b4b5c9b51062c550ba": {
+      "engine": "google",
+      "query": "\"web cam\" \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:57:52Z",
+      "expires_at": "2026-07-30T05:57:29Z",
+      "results": []
+    },
+    "be386459b4f80d30d351e57abca80c26f1d3fa894e185c9cf0c0f7fe81ddbc24": {
+      "engine": "google",
+      "query": "\"live cam\" \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:58:15Z",
+      "expires_at": "2026-07-30T05:57:52Z",
+      "results": []
+    },
+    "f0e5a32d629bc685524f27ac05eaa38410867348ce3fa6169b21d75bb88c92ce": {
+      "engine": "google",
+      "query": "\"câmara ao vivo\" \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:58:37Z",
+      "expires_at": "2026-07-30T05:58:15Z",
+      "results": []
+    },
+    "2aef1a5f2c5ecbcdf9c7ff10aa49c04fc06dcffa03b1a76aa7b7dc88217ca2f1": {
+      "engine": "bing",
+      "query": "\"camera ao vivo\" \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:58:59Z",
+      "expires_at": "2026-07-30T05:58:37Z",
+      "results": []
+    },
+    "97c2495ae812e4bf7ba1b748acac95df0a5bfe5ccc6321b950dfc86f488d7016": {
+      "engine": "bing",
+      "query": "\"transmissão em direto\" \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:59:22Z",
+      "expires_at": "2026-07-30T05:58:59Z",
+      "results": []
+    },
+    "6bfa91f91f72a5f4c6130643b6bc5b49c226677b8ee0a374f2f11dd92b34688d": {
+      "engine": "bing",
+      "query": "\"live stream\" \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T05:59:44Z",
+      "expires_at": "2026-07-30T05:59:22Z",
+      "results": []
+    },
+    "7d0c159bcfc0f2c57962e927b04295234219dfa0a6c15a758f05f863600e86ee": {
+      "engine": "bing",
+      "query": "site:.pt webcam \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:00:06Z",
+      "expires_at": "2026-07-30T05:59:44Z",
+      "results": []
+    },
+    "3cd78186c92783ec5be0a73dbf7d5502c1bc58166c544aaaa86e65ef62af01a2": {
+      "engine": "duckduckgo",
+      "query": "site:youtube.com/live \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:00:29Z",
+      "expires_at": "2026-07-30T06:00:06Z",
+      "results": []
+    },
+    "7c1b651d31d489600b385ae506455537a2c892b39468ca1075215c1f05b9311c": {
+      "engine": "duckduckgo",
+      "query": "site:facebook.com \"Castelo de Paiva\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:00:52Z",
+      "expires_at": "2026-07-30T06:00:29Z",
+      "results": []
+    },
+    "22504719fcefceefe2cd8829fa3b60534b184a2320f21dae34d721f6ac709572": {
+      "engine": "duckduckgo",
+      "query": "site:instagram.com \"Castelo de Paiva\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:01:14Z",
+      "expires_at": "2026-07-30T06:00:52Z",
+      "results": []
+    },
+    "3b943197dff747b9751f0c9ae07f8c67e090fafe0a2151e9ae2dd230a427e190": {
+      "engine": "duckduckgo",
+      "query": "\"Axis\" \"Castelo de Paiva\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:01:36Z",
+      "expires_at": "2026-07-30T06:01:14Z",
+      "results": []
+    },
+    "23c139e07d70660a571a28987d567489ca32ab6b85ca24a8ecc0de0dc8aa9767": {
+      "engine": "duckduckgo",
+      "query": "\"Mobotix\" \"Castelo de Paiva\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:01:59Z",
+      "expires_at": "2026-07-30T06:01:36Z",
+      "results": []
+    },
+    "2de4e5f7ee683a9fb5605efb37754cc964d7724334287651bc76db80d7b8095d": {
+      "engine": "duckduckgo",
+      "query": "\"Hikvision\" \"Castelo de Paiva\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:02:21Z",
+      "expires_at": "2026-07-30T06:01:59Z",
+      "results": []
+    },
+    "01cc297f73d844c1fb4ac43837025d12a6154aac7cb5a93d6dad6ad5a3ffadd9": {
+      "engine": "google",
+      "query": "site:portugalwebcams.pt \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:02:44Z",
+      "expires_at": "2026-07-30T06:02:21Z",
+      "results": []
+    },
+    "f49bafae63b50a47159c00436da789e641cb870dbfddbc659474455081de2442": {
+      "engine": "google",
+      "query": "site:webcamgalore.com \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:03:06Z",
+      "expires_at": "2026-07-30T06:02:44Z",
+      "results": []
+    },
+    "d99ed11adbf9a920e3b3e818a01477d5bb267eb27f32dc8ec1d4f17a07e0c63a": {
+      "engine": "google",
+      "query": "site:windy.com/webcams \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:03:29Z",
+      "expires_at": "2026-07-30T06:03:06Z",
+      "results": []
+    },
+    "3aba3d64be341187176e2d533fb60ad8895fcb701a4ea0de1d44b84c79a3c70b": {
+      "engine": "google",
+      "query": "site:windfinder.com/webcams \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:03:51Z",
+      "expires_at": "2026-07-30T06:03:29Z",
+      "results": []
+    },
+    "d7ac747f0cb064f3b2f26984f78a9b8a48d76b98f086e8118cea9d6b81cb74fe": {
+      "engine": "google",
+      "query": "site:webcams.travel \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:04:13Z",
+      "expires_at": "2026-07-30T06:03:51Z",
+      "results": []
+    },
+    "20600c7e3d8e78ac220176330466a2d139cf15300c48c6d3b1c5134253528dcf": {
+      "engine": "google",
+      "query": "site:webcamtaxi.com \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:04:35Z",
+      "expires_at": "2026-07-30T06:04:13Z",
+      "results": []
+    },
+    "ceca62881e956b0d7727f1ba910e8a4a08fa302af81d1f67e4c3a824d9459d7b": {
+      "engine": "google",
+      "query": "site:worldcam.eu \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:04:58Z",
+      "expires_at": "2026-07-30T06:04:35Z",
+      "results": []
+    },
+    "74a29419be961e2ea577d7200ff4f2affb0fc8ee00151f5228d3e06357f8c732": {
+      "engine": "google",
+      "query": "site:geowebcams.com \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:05:20Z",
+      "expires_at": "2026-07-30T06:04:58Z",
+      "results": []
+    },
+    "66290b0f5648b4a18b169e5ac96b20af11d1cbaa382fa3cfb039e5fa4ed15fb6": {
+      "engine": "google",
+      "query": "site:skylinewebcams.com \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:05:42Z",
+      "expires_at": "2026-07-30T06:05:20Z",
+      "results": []
+    },
+    "2b34f6faff4f46d2dff9d0a02097593d5db4af91e966ebe0db5492249763b239": {
+      "engine": "google",
+      "query": "site:earthcam.com \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:06:05Z",
+      "expires_at": "2026-07-30T06:05:42Z",
+      "results": []
+    },
+    "0d63007d9b3f610e7b77893978323cbafcb9a5548be927284c2fda2b97d5073d": {
+      "engine": "google",
+      "query": "site:ipcamlive.com \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:06:27Z",
+      "expires_at": "2026-07-30T06:06:05Z",
+      "results": []
+    },
+    "adc9a24fe866bb5d8f89ba7fddcb7cd30d26f7bae7c4d3a503e6dbd43f557c36": {
+      "engine": "google",
+      "query": "site:meteoblue.com \"Castelo de Paiva\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:06:50Z",
+      "expires_at": "2026-07-30T06:06:27Z",
+      "results": []
+    },
+    "6c740bfb3d85d3262ffcdeb394d8f9a31e0c18df2908f25043bce8b9d006aea5": {
+      "engine": "google",
+      "query": "site:spotazores.com \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:07:12Z",
+      "expires_at": "2026-07-30T06:06:50Z",
+      "results": []
+    },
+    "191f47da9e33b0a26a3e6c6ec4ea164c4b4b6e735f6e82616796574d1f111ff1": {
+      "engine": "google",
+      "query": "site:netmadeira.com \"Castelo de Paiva\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:07:34Z",
+      "expires_at": "2026-07-30T06:07:12Z",
+      "results": []
+    },
+    "52420aa1544bac542433382009e6ead5b410da9925f46957da48973809cbe207": {
+      "engine": "google",
+      "query": "site:madeiracams.com \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:07:57Z",
+      "expires_at": "2026-07-30T06:07:34Z",
+      "results": []
+    },
+    "c9d671bc9fe432277a3c409f997916b7efb01a948c8d281b84cbeda632eacc8e": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:08:19Z",
+      "expires_at": "2026-07-30T06:07:57Z",
+      "results": []
+    },
+    "35c2bb00ae2700232e3a47e3cc0b835bd54e59d0367ccac2a6c4d6aed6de7bb1": {
+      "engine": "google",
+      "query": "site:back-office.beachcam.pt/livecams \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:08:41Z",
+      "expires_at": "2026-07-30T06:08:19Z",
+      "results": []
+    },
+    "292547e0616d02ce7bbce2cd2c6d539942a976c67ca87b304e8e6fdcff07154b": {
+      "engine": "google",
+      "query": "Portugal webcam Portugal \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:09:04Z",
+      "expires_at": "2026-07-30T06:08:41Z",
+      "results": []
+    },
+    "f88e1a34ae99091f8ce6b57ffd97b6b8d528022d11a43080f069b3bf40af6e58": {
+      "engine": "google",
+      "query": "Castelo de Paiva praia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:09:26Z",
+      "expires_at": "2026-07-30T06:09:04Z",
+      "results": []
+    },
+    "5f73913939a9a96d0a75892a63afca4c9d468f267f25d51650871ac6077b2210": {
+      "engine": "google",
+      "query": "Castelo de Paiva surf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:09:48Z",
+      "expires_at": "2026-07-30T06:09:26Z",
+      "results": []
+    },
+    "5cf336d5ae139c9e9eae5086dfd13f3b9bb6bce3a58934aebf18acda5be2479c": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt Castelo de Paiva",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:10:11Z",
+      "expires_at": "2026-07-30T06:09:48Z",
+      "results": []
+    },
+    "d9e6b3fd1aa482dfe4432a95734bcc58c3ae9d0382e9aed9e84b384c1146ea8d": {
+      "engine": "google",
+      "query": "site:surfline.com Castelo de Paiva Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:10:33Z",
+      "expires_at": "2026-07-30T06:10:11Z",
+      "results": []
+    },
+    "aef219a7da867ca5234e50d658dbe941c0765783717d403ad6e97fbc00fa6437": {
+      "engine": "google",
+      "query": "site:magicseaweed.com Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:10:55Z",
+      "expires_at": "2026-07-30T06:10:33Z",
+      "results": []
+    },
+    "ea726954772e0ccb06eec5bfbe89fe1f35b46b42622201374fd78a9e48395555": {
+      "engine": "google",
+      "query": "site:windfinder.com Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:11:18Z",
+      "expires_at": "2026-07-30T06:10:55Z",
+      "results": []
+    },
+    "ea9d06dcc900f772611506ef63985e9178b50b1be94432260f48f365162e084b": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Castelo de Paiva praia",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:11:40Z",
+      "expires_at": "2026-07-30T06:11:18Z",
+      "results": []
+    },
+    "23e37e0f1fa1a31caf5a61ed57b7dfd2b402dfb85b26a8b6c1e540a78fe91505": {
+      "engine": "google",
+      "query": "Castelo de Paiva porto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:12:02Z",
+      "expires_at": "2026-07-30T06:11:40Z",
+      "results": []
+    },
+    "b5baac81ba97a20750b91508dd97f0f31ebe4584870d9a993fd285ca8c5fcf26": {
+      "engine": "google",
+      "query": "Castelo de Paiva marina webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:12:25Z",
+      "expires_at": "2026-07-30T06:12:02Z",
+      "results": []
+    },
+    "3ac978ca1768533fccb321a81cac321124204d3ef1d6cd99052857fb63141f0d": {
+      "engine": "google",
+      "query": "Castelo de Paiva clube náutico live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:12:47Z",
+      "expires_at": "2026-07-30T06:12:25Z",
+      "results": []
+    },
+    "48edfa349a638fb25f836ab891ecad3e2428d6859ca9203cdb8eabeca644df58": {
+      "engine": "google",
+      "query": "Castelo de Paiva barra porto câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:13:10Z",
+      "expires_at": "2026-07-30T06:12:47Z",
+      "results": []
+    },
+    "dece5f79f3301c45786aeb90f40546caf33b22938923e38ad558266c398419ef": {
+      "engine": "google",
+      "query": "site:portosdeportugal.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:13:32Z",
+      "expires_at": "2026-07-30T06:13:10Z",
+      "results": []
+    },
+    "4826831cc114fc3da8769449bca3fd4492ae9f9df045babf86873d08030062c0": {
+      "engine": "google",
+      "query": "site:amn.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:13:55Z",
+      "expires_at": "2026-07-30T06:13:32Z",
+      "results": []
+    },
+    "2c0b9f483a06ccd61be038d01468255ee8c97b8ed416af198f7bb3ec46919023": {
+      "engine": "google",
+      "query": "site:docapesca.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:14:17Z",
+      "expires_at": "2026-07-30T06:13:55Z",
+      "results": []
+    },
+    "674f6fbf1bba2dbd44faac0870f87206cc57ab590a483e585ad86b90586843e9": {
+      "engine": "google",
+      "query": "site:apdl.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:14:40Z",
+      "expires_at": "2026-07-30T06:14:17Z",
+      "results": []
+    },
+    "f1d0564d4c90b953a3e29a5258bb57c8c4ae424c1d8bd1292556f24dd5e48e0c": {
+      "engine": "google",
+      "query": "site:portoaveiro.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:15:02Z",
+      "expires_at": "2026-07-30T06:14:40Z",
+      "results": []
+    },
+    "3397be05f4b702f7166655197d60e9a8e71ff0921c9db871087bec0ab35dc4af": {
+      "engine": "google",
+      "query": "site:portodelisboa.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:15:25Z",
+      "expires_at": "2026-07-30T06:15:02Z",
+      "results": []
+    },
+    "68cef9732ea28b7f111554448b7bb314c2bf7f6dc47861fab3c92640ec7d85ba": {
+      "engine": "google",
+      "query": "site:apsinesalgarve.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:15:47Z",
+      "expires_at": "2026-07-30T06:15:25Z",
+      "results": []
+    },
+    "9ab8f381c3a65375eca94ec4d4b49257cdbf6355377bfbdb5da5cbac7ae35ab9": {
+      "engine": "google",
+      "query": "Castelo de Paiva aeroporto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:16:10Z",
+      "expires_at": "2026-07-30T06:15:47Z",
+      "results": []
+    },
+    "3728e365f8c35fc0d1922533020183a1e86df4f4ea1e8c50c7f5bbe24837e88a": {
+      "engine": "google",
+      "query": "Castelo de Paiva aeródromo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:16:33Z",
+      "expires_at": "2026-07-30T06:16:10Z",
+      "results": []
+    },
+    "b5a40a43ee0232439befaa73c5931926bde4187bea189516cddcc0ee5806900c": {
+      "engine": "google",
+      "query": "Castelo de Paiva aeroclube webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:16:55Z",
+      "expires_at": "2026-07-30T06:16:33Z",
+      "results": []
+    },
+    "2900a84b813d3b86d4e555ef825144974b361208b59c57ca09f9f0c92df95d53": {
+      "engine": "google",
+      "query": "Castelo de Paiva pista aviação câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:17:18Z",
+      "expires_at": "2026-07-30T06:16:55Z",
+      "results": []
+    },
+    "eb4a05ce7c396314d85c8d78c28a5c1c5848255524d9ec82b63f08e331128f24": {
+      "engine": "google",
+      "query": "site:ana.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:17:41Z",
+      "expires_at": "2026-07-30T06:17:18Z",
+      "results": []
+    },
+    "30be53073e21fb82f890a947424b82924ad0938932292232a35a474fa2552e0c": {
+      "engine": "google",
+      "query": "site:nav.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:18:03Z",
+      "expires_at": "2026-07-30T06:17:41Z",
+      "results": []
+    },
+    "1a7b7eee25f3fbc581a43ef8fc10fd31c3eb2bec62f384970e522423256d52ca": {
+      "engine": "google",
+      "query": "site:airportwebcams.net Portugal Castelo de Paiva",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:18:26Z",
+      "expires_at": "2026-07-30T06:18:03Z",
+      "results": []
+    },
+    "2e031d38d30b94aaf287448ef2c498a157503d7d8bebb90dccc1686b00abb624": {
+      "engine": "google",
+      "query": "site:metar-taf.com Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:18:48Z",
+      "expires_at": "2026-07-30T06:18:26Z",
+      "results": []
+    },
+    "07d790fd3aa58f9904bd25ecd7890be46cd20b1382d98ac58bdcd34879fccb0b": {
+      "engine": "google",
+      "query": "site:youtube.com Castelo de Paiva airport live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:19:11Z",
+      "expires_at": "2026-07-30T06:18:48Z",
+      "results": []
+    },
+    "b0698ed99cc26cea6c0c6c242bc02fe89078617b68f02a339c8c9e4bf2358a8a": {
+      "engine": "google",
+      "query": "site:facebook.com aeroclube Castelo de Paiva direto",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:19:33Z",
+      "expires_at": "2026-07-30T06:19:11Z",
+      "results": []
+    },
+    "1571eac94f76fe50fddfd5c8872f3dc77717d47dc47fa75c46f388af4a661760": {
+      "engine": "google",
+      "query": "Castelo de Paiva trânsito estrada webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:19:56Z",
+      "expires_at": "2026-07-30T06:19:33Z",
+      "results": []
+    },
+    "519b4987e61f2151a686dc1bb8c9da53198bc55b4398072d91deab93bf3d3c88": {
+      "engine": "google",
+      "query": "Castelo de Paiva câmara tráfego ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:20:18Z",
+      "expires_at": "2026-07-30T06:19:56Z",
+      "results": []
+    },
+    "fd466d2c575c0be45b12fda2fcc2bf66e31c969213a35ad47bcd14537de1e89c": {
+      "engine": "google",
+      "query": "Castelo de Paiva estação ferroviária webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:20:41Z",
+      "expires_at": "2026-07-30T06:20:18Z",
+      "results": []
+    },
+    "8c2d46c55a6a6268f19d7a5b559e9a84db869df595597aecb1ba446ed9499acb": {
+      "engine": "google",
+      "query": "Castelo de Paiva terminal rodoviário webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:21:03Z",
+      "expires_at": "2026-07-30T06:20:41Z",
+      "results": []
+    },
+    "6a2bef8f2c1e5886c9e4a4342102e348d5dbd6bcc14502f1d97ab15e133eed73": {
+      "engine": "google",
+      "query": "site:infraestruturasdeportugal.pt Castelo de Paiva camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:21:26Z",
+      "expires_at": "2026-07-30T06:21:03Z",
+      "results": []
+    },
+    "10e386ca5935116dfde6d99793b865832f327e8afacee4d2a9177c5bad5b2b2c": {
+      "engine": "google",
+      "query": "site:estradas.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:21:48Z",
+      "expires_at": "2026-07-30T06:21:26Z",
+      "results": []
+    },
+    "8dc5aaa6ba3341071ef40e9df19ece13f36a384d533c9607b68ac1932422aaaf": {
+      "engine": "google",
+      "query": "site:cp.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:22:10Z",
+      "expires_at": "2026-07-30T06:21:48Z",
+      "results": []
+    },
+    "7c6feddebd8c1c7b828a038d97e0c72d583aa30ac2257f718cdacd0b870a594a": {
+      "engine": "google",
+      "query": "site:metrolisboa.pt Castelo de Paiva live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:22:33Z",
+      "expires_at": "2026-07-30T06:22:10Z",
+      "results": []
+    },
+    "12b882dec51054c2eb44dfc4ad77fd54108884f59f1b11269409f3d573e923cd": {
+      "engine": "google",
+      "query": "site:metrodoporto.pt Castelo de Paiva live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:22:55Z",
+      "expires_at": "2026-07-30T06:22:33Z",
+      "results": []
+    },
+    "61e2bd00a8e746a10b279b8b9ecebcb59f02a3ef8d71855bc7812b95455cd23d": {
+      "engine": "google",
+      "query": "Castelo de Paiva serra webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:23:18Z",
+      "expires_at": "2026-07-30T06:22:55Z",
+      "results": []
+    },
+    "48b0fbd2c99445683702fcc03de8217714d32f012e5da3ac5277c9d750c218e0": {
+      "engine": "google",
+      "query": "Castelo de Paiva parque natural webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:23:40Z",
+      "expires_at": "2026-07-30T06:23:18Z",
+      "results": []
+    },
+    "4014f3d924bd846296ce43bb9dff90ced204bd9c90f93f8f38868e647ee0b0fd": {
+      "engine": "google",
+      "query": "Castelo de Paiva barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:24:02Z",
+      "expires_at": "2026-07-30T06:23:40Z",
+      "results": []
+    },
+    "8f2aece04a30f1ca52a2c2f62e14acf012f95d40ea17bb3e6d52a34aa33cf17a": {
+      "engine": "google",
+      "query": "Castelo de Paiva miradouro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:24:25Z",
+      "expires_at": "2026-07-30T06:24:02Z",
+      "results": []
+    },
+    "99ceac7193b8ba0947717be8d463868acb64c95453f64f0cb05e55a03979bbdb": {
+      "engine": "google",
+      "query": "Castelo de Paiva rio webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:24:47Z",
+      "expires_at": "2026-07-30T06:24:25Z",
+      "results": []
+    },
+    "6c31d143d0c368201255ecc7e736c455b1dabc07ae6fdedffe8399111e59dc20": {
+      "engine": "google",
+      "query": "site:icnf.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:25:09Z",
+      "expires_at": "2026-07-30T06:24:47Z",
+      "results": []
+    },
+    "140b806d0085600cb949db4882e0bbd564821a3eb47585bc61c767cac833e2a7": {
+      "engine": "google",
+      "query": "site:snirh.apambiente.pt Castelo de Paiva câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:25:32Z",
+      "expires_at": "2026-07-30T06:25:09Z",
+      "results": []
+    },
+    "f431e2a6a11825845733ad2428816c191288993d03724fa88aa5ff3dac9a11f0": {
+      "engine": "google",
+      "query": "site:edp.com Castelo de Paiva barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:25:54Z",
+      "expires_at": "2026-07-30T06:25:32Z",
+      "results": []
+    },
+    "2911bcbc96d89f77bb50ce63f59835052b212db5965cec87c5423310672b69f8": {
+      "engine": "google",
+      "query": "site:meteoblue.com Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:26:16Z",
+      "expires_at": "2026-07-30T06:25:54Z",
+      "results": []
+    },
+    "cb69f7c5372a2e33545f92ef885bffc60387f935ea710fed689eaa7ff626fadb": {
+      "engine": "google",
+      "query": "Castelo de Paiva hotel webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:26:39Z",
+      "expires_at": "2026-07-30T06:26:16Z",
+      "results": []
+    },
+    "3b03184ccce3dc07780ad0891c18e024c56079322fcad473d968029a2ff87576": {
+      "engine": "google",
+      "query": "Castelo de Paiva resort webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:27:01Z",
+      "expires_at": "2026-07-30T06:26:39Z",
+      "results": []
+    },
+    "1dc85f71c9a6c5c5a19b292bb7903b98b1ed329dbc966604b7c643050c81abb6": {
+      "engine": "google",
+      "query": "Castelo de Paiva alojamento webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:27:24Z",
+      "expires_at": "2026-07-30T06:27:01Z",
+      "results": []
+    },
+    "1061170b9233327e648ecc526cb3b9b400626a59021cf1ce61271406022e3c02": {
+      "engine": "google",
+      "query": "Castelo de Paiva parque de campismo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:27:47Z",
+      "expires_at": "2026-07-30T06:27:24Z",
+      "results": []
+    },
+    "65940075a760cdc90ee8c65f493e7c085a257e842d788e7f05382ac9ac449dac": {
+      "engine": "google",
+      "query": "site:booking.com Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:28:09Z",
+      "expires_at": "2026-07-30T06:27:47Z",
+      "results": []
+    },
+    "8e53a34b1a46e362729f10692cb4b629fd0a80e72027e61e95e37bac5aab89bb": {
+      "engine": "google",
+      "query": "site:youtube.com hotel Castelo de Paiva live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:28:29Z",
+      "expires_at": "2026-07-30T06:28:09Z",
+      "results": []
+    },
+    "2585801d553c330a5a52b9a68f3e08b7aea039cc13442152ed9174e81c2d9d5f": {
+      "engine": "google",
+      "query": "Castelo de Paiva golf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:28:51Z",
+      "expires_at": "2026-07-30T06:28:29Z",
+      "results": []
+    },
+    "076d8624296c7fccd7bb78ebc00df49f0dfad49756bd48e3e4852e5fbc388162": {
+      "engine": "google",
+      "query": "Castelo de Paiva estádio webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:29:14Z",
+      "expires_at": "2026-07-30T06:28:51Z",
+      "results": []
+    },
+    "ab88467451ef6ac20c4f31fdf33b53d566bc9df8e9c51ab56a5ee4c02fb765e6": {
+      "engine": "google",
+      "query": "Castelo de Paiva ski webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:29:36Z",
+      "expires_at": "2026-07-30T06:29:14Z",
+      "results": []
+    },
+    "823ac5d61d3d3874f7c681f31449700f96255266689c3b84174c06a5597325b0": {
+      "engine": "google",
+      "query": "Castelo de Paiva estância neve webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:29:59Z",
+      "expires_at": "2026-07-30T06:29:36Z",
+      "results": []
+    },
+    "91360df8d7d6142f2e5d305a42bacdf2cabe93a902d9e1dc27a019f8cb658b04": {
+      "engine": "google",
+      "query": "Castelo de Paiva circuito automóvel webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:30:21Z",
+      "expires_at": "2026-07-30T06:29:59Z",
+      "results": []
+    },
+    "901b7aa23e8ca6cae5482401e7c4d4208e60fa751e9b5ce86d8a779169c8b305": {
+      "engine": "google",
+      "query": "Castelo de Paiva clube desportivo live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:30:44Z",
+      "expires_at": "2026-07-30T06:30:21Z",
+      "results": []
+    },
+    "1834679af186ac845dda1b5f9155b9d5c30284652cf2cdbf41d28c7a512dc6bf": {
+      "engine": "google",
+      "query": "Castelo de Paiva meteorologia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:31:06Z",
+      "expires_at": "2026-07-30T06:30:44Z",
+      "results": []
+    },
+    "f88dff7d15225c210a01308837682574e4f56fc561e6ab44afa94ee3766bdd2a": {
+      "engine": "google",
+      "query": "Castelo de Paiva estação meteorológica câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:31:29Z",
+      "expires_at": "2026-07-30T06:31:06Z",
+      "results": []
+    },
+    "500494812b9475dca629ee17102f5a02f77d5c5135f48939052a4ec21f2747b3": {
+      "engine": "google",
+      "query": "Castelo de Paiva observatório webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:31:51Z",
+      "expires_at": "2026-07-30T06:31:29Z",
+      "results": []
+    },
+    "6e336db365e712b053950550553fb74b927b0256dc7e442cfde0aad54579c2a5": {
+      "engine": "google",
+      "query": "site:ipma.pt Castelo de Paiva camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:32:13Z",
+      "expires_at": "2026-07-30T06:31:51Z",
+      "results": []
+    },
+    "fbb0aee7136fcd5c5dbf13a92659938c1bc3ea6ede9798b2ce8ff02f48d0ebda": {
+      "engine": "google",
+      "query": "site:observar.ipma.pt Castelo de Paiva Câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:32:36Z",
+      "expires_at": "2026-07-30T06:32:13Z",
+      "results": []
+    },
+    "6e9f24621ae972e85579538d0f268415efa25722fc34db86fefcbd54ef08fd55": {
+      "engine": "google",
+      "query": "site:weathercloud.net Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:32:58Z",
+      "expires_at": "2026-07-30T06:32:36Z",
+      "results": []
+    },
+    "46170add7640a6434f124566da0995f81a81159290c4501e9356591a59bcf004": {
+      "engine": "google",
+      "query": "site:wunderground.com Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:33:21Z",
+      "expires_at": "2026-07-30T06:32:58Z",
+      "results": []
+    },
+    "47fc2800e1b2f680b7c1cd5926ebb6446e5aacc2c5215a0e291ec817d46de8cd": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Castelo de Paiva",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:33:43Z",
+      "expires_at": "2026-07-30T06:33:21Z",
+      "results": []
+    },
+    "60e7f4404eb733d79ae7a75f96a1b7a1c6fe3127f65dd1e3e32dfd4d1d2bb241": {
+      "engine": "google",
+      "query": "Castelo de Paiva universidade webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:34:06Z",
+      "expires_at": "2026-07-30T06:33:43Z",
+      "results": []
+    },
+    "1e9e3fb444967a992e7892fecfc409b7f0fb88a9a11bb33273e7962d745a6b0b": {
+      "engine": "google",
+      "query": "Castelo de Paiva observatório astronómico live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:34:28Z",
+      "expires_at": "2026-07-30T06:34:06Z",
+      "results": []
+    },
+    "df0148eae1de951d50a6fa6ceb3bf66b0f7a0371ca7ec4e957d0d30f81f95e6b": {
+      "engine": "google",
+      "query": "Castelo de Paiva centro ciência webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:34:50Z",
+      "expires_at": "2026-07-30T06:34:28Z",
+      "results": []
+    },
+    "f823c945a835e44020510e8021b907b0751e4f8adcab1fb6d39b2f0b8918093a": {
+      "engine": "google",
+      "query": "site:ulisboa.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:35:13Z",
+      "expires_at": "2026-07-30T06:34:50Z",
+      "results": []
+    },
+    "2ce2af2ef461c9f393f2c96aaba8719264e2130388a95af20e8f554b36614f0d": {
+      "engine": "google",
+      "query": "site:up.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:35:35Z",
+      "expires_at": "2026-07-30T06:35:13Z",
+      "results": []
+    },
+    "8430584a7d5fd0c066c886cf25df723af55a6f13b978ddc05f9649a0eae2036f": {
+      "engine": "google",
+      "query": "site:uc.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:35:57Z",
+      "expires_at": "2026-07-30T06:35:35Z",
+      "results": []
+    },
+    "2a4497a536d9c2457b515d0457a8ef4c72bff8858bb370ae04c76f8c7c2970e2": {
+      "engine": "google",
+      "query": "site:uminho.pt Castelo de Paiva webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:36:20Z",
+      "expires_at": "2026-07-30T06:35:57Z",
+      "results": []
+    },
+    "4d0b075bda94dea526385c894eeb0a8e1923db2fb6d1f6e7cf5f1d1807f36966": {
+      "engine": "google",
+      "query": "site:youtube.com/watch \"Castelo de Paiva\" live webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:36:42Z",
+      "expires_at": "2026-07-30T06:36:20Z",
+      "results": []
+    },
+    "6afb3cd7f10a352c3ca3b4c4186caaa9150313daf0f014d790192f061522e629": {
+      "engine": "google",
+      "query": "site:youtube.com/live \"Castelo de Paiva\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:37:05Z",
+      "expires_at": "2026-07-30T06:36:42Z",
+      "results": []
+    },
+    "b6d5dd639d5e83b967d5025982cf6b33f4d60be52b964e3f6271a26cad171e83": {
+      "engine": "google",
+      "query": "site:facebook.com \"Castelo de Paiva\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:37:27Z",
+      "expires_at": "2026-07-30T06:37:05Z",
+      "results": []
+    },
+    "54f1bd353d1011790bc10c0deb08e8fbecee03a6814149ed73a0bdb9c195b592": {
+      "engine": "google",
+      "query": "site:twitch.tv \"Castelo de Paiva\" Portugal live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:37:49Z",
+      "expires_at": "2026-07-30T06:37:27Z",
+      "results": []
+    },
+    "fc7f14ae734475ce544915aacbd6e51ea57f560bf56e64c080fd4817f30a15a1": {
+      "engine": "google",
+      "query": "site:instagram.com \"Castelo de Paiva\" direto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:38:12Z",
+      "expires_at": "2026-07-30T06:37:49Z",
+      "results": []
+    },
+    "4ea468427ae73f5627db845f4b750fd71b203a7e75084c1afbaaf1e9ef879b17": {
+      "engine": "google",
+      "query": "\"Castelo de Paiva\" m3u8 webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:38:34Z",
+      "expires_at": "2026-07-30T06:38:12Z",
+      "results": []
+    },
+    "c55d4b2e690b3c94b0a3ac82f0c1cc7150ac877499030eeebadb3f5203a028a3": {
+      "engine": "google",
+      "query": "\"Castelo de Paiva\" mpd live camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:38:57Z",
+      "expires_at": "2026-07-30T06:38:34Z",
+      "results": []
+    },
+    "1b343cbd9d8861dbf6395f97a2984b3cb15656911bed9ea981a6546c578d4916": {
+      "engine": "google",
+      "query": "\"Castelo de Paiva\" mjpeg camera",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:39:19Z",
+      "expires_at": "2026-07-30T06:38:57Z",
+      "results": []
+    },
+    "80885efe3ee70e3a747cfcd58bb71cba0a5aec1a5f2ffc9603b82ed538ca7c05": {
+      "engine": "google",
+      "query": "\"Castelo de Paiva\" snapshot.jpg",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:39:42Z",
+      "expires_at": "2026-07-30T06:39:19Z",
+      "results": []
+    },
+    "0b03d0b0bcbac219c255520a5c3b4287f78f2294505825c2f0fac1d918ae03d8": {
+      "engine": "google",
+      "query": "\"Castelo de Paiva\" videostream.cgi",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:40:04Z",
+      "expires_at": "2026-07-30T06:39:42Z",
+      "results": []
+    },
+    "2fdb6cdc06ee82b2a862bc2c095e9a6b339ac31ecc233291ed8418d70d4cd8c3": {
+      "engine": "google",
+      "query": "\"Castelo de Paiva\" axis-cgi/mjpg",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:40:27Z",
+      "expires_at": "2026-07-30T06:40:04Z",
+      "results": []
+    },
+    "144e32a485661f74897d3dec613889dcdb34a9b103140faf18a425c69a73921f": {
+      "engine": "google",
+      "query": "\"Castelo de Paiva\" iframe live",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:40:49Z",
+      "expires_at": "2026-07-30T06:40:27Z",
+      "results": []
+    },
+    "5d1de7b46632b519967a227485b262d5de4ce6809283fe405b397833662688e4": {
+      "engine": "google",
+      "query": "inurl:viewerframe?mode=motion \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:41:11Z",
+      "expires_at": "2026-07-30T06:40:49Z",
+      "results": []
+    },
+    "139c83c80608432af04d98d91263f3c2b72e54e58ea0acddf168deff9615c8c5": {
+      "engine": "google",
+      "query": "inurl:axis-cgi \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:41:33Z",
+      "expires_at": "2026-07-30T06:41:11Z",
+      "results": []
+    },
+    "25e76cb3e3edcf0f36be982e602ce0a2db4c025e64dec11355a301429c9814ed": {
+      "engine": "google",
+      "query": "inurl:Streaming/channels \"Castelo de Paiva\"",
+      "max_results": 10,
+      "checked_at": "2026-07-28T06:41:56Z",
+      "expires_at": "2026-07-30T06:41:33Z",
       "results": []
     }
   }

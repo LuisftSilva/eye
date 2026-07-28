@@ -1,95 +1,328 @@
 {
-  "schema_version": 1,
   "municipality_id": "pt-aveiro-aveiro",
+  "order": 5,
   "municipality": "Aveiro",
-  "region": "Aveiro",
+  "district": "Aveiro",
   "status": "complete",
-  "started_at": "2026-07-27T19:05:00Z",
-  "completed_at": "2026-07-27T19:42:00Z",
-  "reviewer": "OpenAI research pass",
-  "checks_total": 16,
-  "checks_completed": 16,
-  "confirmed_new_webcams": [
-    {
-      "camera_id": "meo-sao-jacinto-barra",
-      "name": "Praia de São Jacinto | Barra",
-      "locality": "São Jacinto",
-      "municipality": "Aveiro",
-      "classification": "new",
-      "provider": "MEO Beachcam",
-      "source_url": "https://back-office.beachcam.pt/livecams/praia-de-sao-jacinto-barra/",
-      "stream_url": null,
-      "embed_url": null,
-      "coordinates": {"lat": 40.660, "lng": -8.748},
-      "category": "beach",
-      "verification": "Provider page exposes a current livecam page with live surf data. São Jacinto is confirmed as part of Aveiro municipality by the municipal and administrative sources.",
-      "last_checked_at": "2026-07-27T19:35:00Z"
-    }
-  ],
-  "cross_discoveries": [
-    {
-      "camera_id": "barra-5",
-      "name": "Praia da Barra",
-      "correct_municipality": "Ílhavo",
-      "classification": "existing_duplicate_with_location_correction",
-      "source_urls": [
-        "https://back-office.beachcam.pt/livecams/praia-da-barra/",
-        "https://portugalwebcams.pt/webcam/aveiro-praia-da-barra",
-        "https://www.windy.com/webcams/1504166801"
-      ],
-      "notes": "Some aggregators label the camera as Aveiro city, but Praia da Barra is in Ílhavo. Existing repository record already uses Ílhavo and was preserved."
-    },
-    {
-      "camera_id": "costa-nova-6",
-      "name": "Costa Nova",
-      "correct_municipality": "Ílhavo",
-      "classification": "existing_duplicate",
-      "source_urls": ["https://camguide.net/europe/portugal/aveiro/costa-nova-beach/"],
-      "notes": "Discovered during Aveiro searches but already correctly recorded under Ílhavo."
-    },
-    {
-      "name": "Praia de Mira",
-      "correct_municipality": "Mira",
-      "classification": "cross_discovered_candidate_offline",
-      "source_urls": [
-        "https://camguide.net/europe/portugal/aveiro/mira-beach/",
-        "https://surftotal.com/camaras-report/aveiro/mira"
-      ],
-      "notes": "Surftotal currently marks the camera temporarily unavailable; defer publication pending municipality audit."
-    }
-  ],
-  "rejected_candidates": [
-    {
-      "name": "Generic Aveiro weather webcam pages",
-      "source_urls": [
-        "https://www.tempo10.com/europe/portugal/aveiro/webcam",
-        "https://www.vremearomania.com/europe/portugal/aveiro/webcam"
-      ],
-      "reason": "No identifiable physical camera, provider endpoint, verifiable current image or independent source."
-    },
-    {
-      "name": "Aveiro Tech City cameras",
-      "reason": "Research confirms sensing/video infrastructure but no public live webcam endpoint was found; surveillance/research cameras are not catalogued without public access."
-    }
-  ],
+  "started_at": "2026-07-28T05:02:37Z",
+  "reviewer": "github-actions:webcam-audit",
   "checks": [
-    {"check_id":"official_municipality","status":"done","queries":["site:cm-aveiro.pt webcam","site:cm-aveiro.pt câmara ao vivo"],"urls_checked":["https://www.cm-aveiro.pt/","https://www.cm-aveiro.pt/visitantes/visitar/praia-de-sao-jacinto"],"candidates_found":["meo-sao-jacinto-barra"],"notes":"Municipal source confirms São Jacinto geography; no city-centre public webcam found."},
-    {"check_id":"official_tourism","status":"done","queries":["Aveiro turismo webcam","São Jacinto turismo webcam"],"urls_checked":["https://www.cm-aveiro.pt/visitantes/visitar/praia-de-sao-jacinto"],"candidates_found":["meo-sao-jacinto-barra"],"notes":"Beach location confirmed."},
-    {"check_id":"google_search","status":"done","queries":["Aveiro Portugal webcam live camera","Aveiro city webcam canal live"],"urls_checked":["https://www.tempo10.com/europe/portugal/aveiro/webcam"],"candidates_found":[],"notes":"Generic weather page rejected."},
-    {"check_id":"bing_search","status":"done","queries":["Aveiro webcam live","Aveiro live camera Portugal"],"urls_checked":[],"candidates_found":[],"notes":"No additional verified municipal feed."},
-    {"check_id":"duckduckgo_search","status":"done","queries":["Aveiro webcam","São Jacinto webcam"],"urls_checked":["https://back-office.beachcam.pt/livecams/praia-de-sao-jacinto-barra/"],"candidates_found":["meo-sao-jacinto-barra"],"notes":"Provider page confirmed."},
-    {"check_id":"specialist_aggregators","status":"done","queries":["site:portugalwebcams.pt Aveiro webcam","site:windy.com/webcams Aveiro","site:camguide.net Aveiro webcam"],"urls_checked":["https://portugalwebcams.pt/webcam/aveiro-praia-da-barra","https://www.windy.com/webcams/1504166801","https://camguide.net/europe/portugal/aveiro/"],"candidates_found":["barra-5","costa-nova-6"],"notes":"Both belong to Ílhavo; recorded as cross-discoveries/duplicates."},
-    {"check_id":"coast_surf_beaches","status":"done","queries":["Aveiro beach webcam","São Jacinto surf cam","Praia da Barra webcam"],"urls_checked":["https://back-office.beachcam.pt/livecams/praia-de-sao-jacinto-barra/","https://back-office.beachcam.pt/livecams/praia-da-barra/","https://www.surfline.com/surf-reports-forecasts-cams/portugal/aveiro/aveiro-municipality/s-o-jacinto/2734499"],"candidates_found":["meo-sao-jacinto-barra","barra-5"],"notes":"São Jacinto added; Barra assigned to Ílhavo."},
-    {"check_id":"ports_marinas_nautical","status":"done","queries":["Porto de Aveiro webcam","Aveiro marina live camera","Ria de Aveiro webcam"],"urls_checked":[],"candidates_found":[],"notes":"No public permanent feed verified."},
-    {"check_id":"airports_aerodromes","status":"done","queries":["São Jacinto aeródromo webcam","Aveiro aeródromo live camera"],"urls_checked":[],"candidates_found":[],"notes":"No public webcam verified."},
-    {"check_id":"traffic_transport_rail","status":"done","queries":["Aveiro trânsito webcam","Aveiro estação webcam","Aveiro ferry camera"],"urls_checked":[],"candidates_found":[],"notes":"No public traffic/rail feed verified."},
-    {"check_id":"nature_mountains_parks_dams_viewpoints","status":"done","queries":["Dunas de São Jacinto webcam","Ria de Aveiro nature webcam"],"urls_checked":["https://www.cm-aveiro.pt/visitantes/visitar/praia-de-sao-jacinto"],"candidates_found":["meo-sao-jacinto-barra"],"notes":"Only confirmed public feed is the coastal São Jacinto livecam."},
-    {"check_id":"hotels_resorts_lodging","status":"done","queries":["Aveiro hotel webcam","Aveiro resort live camera"],"urls_checked":[],"candidates_found":[],"notes":"No verified permanent public feed."},
-    {"check_id":"golf_sports_ski","status":"done","queries":["Aveiro sports webcam","São Jacinto surf live"],"urls_checked":["https://www.surfline.com/surf-reports-forecasts-cams/portugal/aveiro/aveiro-municipality/s-o-jacinto/2734499"],"candidates_found":["meo-sao-jacinto-barra"],"notes":"Surfline listing supports location; MEO provider page used as publication source."},
-    {"check_id":"weather_universities_observatories","status":"done","queries":["Aveiro meteorological webcam","Universidade de Aveiro webcam","Aveiro Tech City camera public"],"urls_checked":["https://arxiv.org/abs/2207.12200","https://arxiv.org/abs/2504.11662"],"candidates_found":[],"notes":"Video sensing infrastructure exists but no public live endpoint found."},
-    {"check_id":"youtube_social_live","status":"done","queries":["site:youtube.com Aveiro live webcam","Aveiro live stream canal"],"urls_checked":[],"candidates_found":[],"notes":"Event streams and videos excluded; no permanent webcam."},
-    {"check_id":"technical_discovery","status":"done","queries":["Aveiro HLS webcam","Aveiro MJPEG","Aveiro snapshot.jpg","Aveiro Axis camera"],"urls_checked":["https://back-office.beachcam.pt/livecams/praia-de-sao-jacinto-barra/"],"candidates_found":["meo-sao-jacinto-barra"],"notes":"Provider page confirmed, but a stable direct stream endpoint was not exposed by indexed content; source page retained."}
+    {
+      "check_id": "official_municipality",
+      "status": "done",
+      "queries": [
+        "site:cm-aveiro.pt webcam Aveiro",
+        "site:municipio-aveiro.pt webcam Aveiro",
+        "site:aveiro.pt webcam Aveiro",
+        "site:cm-aveiro.pt (direto OR livestream OR câmara)"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:04:06Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "official_tourism",
+      "status": "done",
+      "queries": [
+        "turismo Aveiro webcam",
+        "visit Aveiro live cam",
+        "site:visitportugal.com Aveiro webcam",
+        "site:turismodeportugal.pt Aveiro webcam",
+        "site:visitportoandnorth.travel Aveiro webcam",
+        "site:visitcentrodeportugal.com.pt Aveiro webcam",
+        "site:visitlisboa.com Aveiro webcam",
+        "site:visitalentejo.pt Aveiro webcam",
+        "site:visitalgarve.pt Aveiro webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:07:28Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "google",
+      "status": "done",
+      "queries": [
+        "\"webcam\" \"Aveiro\" Portugal",
+        "\"web cam\" \"Aveiro\" Portugal",
+        "\"live cam\" \"Aveiro\" Portugal",
+        "\"câmara ao vivo\" \"Aveiro\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:08:57Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "bing",
+      "status": "done",
+      "queries": [
+        "\"camera ao vivo\" \"Aveiro\"",
+        "\"transmissão em direto\" \"Aveiro\"",
+        "\"live stream\" \"Aveiro\" Portugal",
+        "site:.pt webcam \"Aveiro\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:10:27Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "duckduckgo",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/live \"Aveiro\" Portugal",
+        "site:facebook.com \"Aveiro\" webcam live",
+        "site:instagram.com \"Aveiro\" webcam",
+        "\"Axis\" \"Aveiro\" camera",
+        "\"Mobotix\" \"Aveiro\" camera",
+        "\"Hikvision\" \"Aveiro\" webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:12:41Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "aggregators",
+      "status": "done",
+      "queries": [
+        "site:portugalwebcams.pt \"Aveiro\"",
+        "site:webcamgalore.com \"Aveiro\" Portugal",
+        "site:windy.com/webcams \"Aveiro\" Portugal",
+        "site:windfinder.com/webcams \"Aveiro\"",
+        "site:webcams.travel \"Aveiro\" Portugal",
+        "site:webcamtaxi.com \"Aveiro\" Portugal",
+        "site:worldcam.eu \"Aveiro\" Portugal",
+        "site:geowebcams.com \"Aveiro\" Portugal",
+        "site:skylinewebcams.com \"Aveiro\" Portugal",
+        "site:earthcam.com \"Aveiro\" Portugal",
+        "site:ipcamlive.com \"Aveiro\" Portugal",
+        "site:meteoblue.com \"Aveiro\" webcam",
+        "site:spotazores.com \"Aveiro\"",
+        "site:netmadeira.com \"Aveiro\" webcam",
+        "site:madeiracams.com \"Aveiro\"",
+        "site:beachcam.meo.pt \"Aveiro\"",
+        "site:back-office.beachcam.pt/livecams \"Aveiro\"",
+        "Portugal webcam Portugal \"Aveiro\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:19:26Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "beaches_surf",
+      "status": "done",
+      "queries": [
+        "Aveiro praia webcam",
+        "Aveiro surf webcam",
+        "site:beachcam.meo.pt Aveiro",
+        "site:surfline.com Aveiro Portugal",
+        "site:magicseaweed.com Aveiro webcam",
+        "site:windfinder.com Aveiro webcam",
+        "site:windy.com/webcams Aveiro praia"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:22:02Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "ports_marinas_nautical",
+      "status": "done",
+      "queries": [
+        "Aveiro porto webcam",
+        "Aveiro marina webcam",
+        "Aveiro clube náutico live cam",
+        "Aveiro barra porto câmara ao vivo",
+        "site:portosdeportugal.pt Aveiro webcam",
+        "site:amn.pt Aveiro webcam",
+        "site:docapesca.pt Aveiro webcam",
+        "site:apdl.pt Aveiro webcam",
+        "site:portoaveiro.pt Aveiro webcam",
+        "site:portodelisboa.pt Aveiro webcam",
+        "site:apsinesalgarve.pt Aveiro webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:26:09Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "airports_aerodromes",
+      "status": "done",
+      "queries": [
+        "Aveiro aeroporto webcam",
+        "Aveiro aeródromo webcam",
+        "Aveiro aeroclube webcam",
+        "Aveiro pista aviação câmara ao vivo",
+        "site:ana.pt Aveiro webcam",
+        "site:nav.pt Aveiro webcam",
+        "site:airportwebcams.net Portugal Aveiro",
+        "site:metar-taf.com Aveiro webcam",
+        "site:youtube.com Aveiro airport live",
+        "site:facebook.com aeroclube Aveiro direto"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:29:52Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "traffic_transport_rail",
+      "status": "done",
+      "queries": [
+        "Aveiro trânsito estrada webcam",
+        "Aveiro câmara tráfego ao vivo",
+        "Aveiro estação ferroviária webcam",
+        "Aveiro terminal rodoviário webcam",
+        "site:infraestruturasdeportugal.pt Aveiro camera",
+        "site:estradas.pt Aveiro webcam",
+        "site:cp.pt Aveiro webcam",
+        "site:metrolisboa.pt Aveiro live",
+        "site:metrodoporto.pt Aveiro live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:33:14Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "nature_mountains_parks_dams",
+      "status": "done",
+      "queries": [
+        "Aveiro serra webcam",
+        "Aveiro parque natural webcam",
+        "Aveiro barragem webcam",
+        "Aveiro miradouro webcam",
+        "Aveiro rio webcam",
+        "site:icnf.pt Aveiro webcam",
+        "site:snirh.apambiente.pt Aveiro câmara",
+        "site:edp.com Aveiro barragem webcam",
+        "site:meteoblue.com Aveiro webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:36:36Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "hotels_resorts_lodging",
+      "status": "done",
+      "queries": [
+        "Aveiro hotel webcam live",
+        "Aveiro resort webcam",
+        "Aveiro alojamento webcam",
+        "Aveiro parque de campismo webcam",
+        "site:booking.com Aveiro webcam",
+        "site:youtube.com hotel Aveiro live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:38:51Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "sports_golf_ski",
+      "status": "done",
+      "queries": [
+        "Aveiro golf webcam",
+        "Aveiro estádio webcam live",
+        "Aveiro ski webcam",
+        "Aveiro estância neve webcam",
+        "Aveiro circuito automóvel webcam",
+        "Aveiro clube desportivo live cam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:41:05Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "weather_universities_observatories",
+      "status": "done",
+      "queries": [
+        "Aveiro meteorologia webcam",
+        "Aveiro estação meteorológica câmara",
+        "Aveiro observatório webcam",
+        "site:ipma.pt Aveiro camera",
+        "site:observar.ipma.pt Aveiro Câmara",
+        "site:meteoblue.com Aveiro webcam",
+        "site:weathercloud.net Aveiro webcam",
+        "site:wunderground.com Aveiro webcam",
+        "site:windy.com/webcams Aveiro",
+        "Aveiro universidade webcam",
+        "Aveiro observatório astronómico live",
+        "Aveiro centro ciência webcam",
+        "site:ulisboa.pt Aveiro webcam",
+        "site:up.pt Aveiro webcam",
+        "site:uc.pt Aveiro webcam",
+        "site:uminho.pt Aveiro webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:46:41Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "social_video",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/watch \"Aveiro\" live webcam",
+        "site:youtube.com/live \"Aveiro\" Portugal",
+        "site:facebook.com \"Aveiro\" webcam live",
+        "site:twitch.tv \"Aveiro\" Portugal live",
+        "site:instagram.com \"Aveiro\" direto webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:48:32Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "technical_discovery",
+      "status": "done",
+      "queries": [
+        "\"Aveiro\" m3u8 webcam",
+        "\"Aveiro\" mpd live camera",
+        "\"Aveiro\" mjpeg camera",
+        "\"Aveiro\" snapshot.jpg",
+        "\"Aveiro\" videostream.cgi",
+        "\"Aveiro\" axis-cgi/mjpg",
+        "\"Aveiro\" iframe live",
+        "inurl:viewerframe?mode=motion \"Aveiro\"",
+        "inurl:axis-cgi \"Aveiro\"",
+        "inurl:Streaming/channels \"Aveiro\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:52:16Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    }
   ],
-  "sources_summary": {"confirmed_new":1,"existing_duplicates":2,"cross_discovered_offline":1,"rejected":2},
-  "review_notes": "Deep first and second verification pass completed. São Jacinto added. Praia da Barra and Costa Nova retained under Ílhavo."
+  "candidates": [],
+  "checks_completed": 16,
+  "checks_total": 16,
+  "finished_at": "2026-07-28T05:52:16Z",
+  "reviewed_at": "2026-07-28T06:41:56Z",
+  "reviewer_second_pass": "github-actions:evidence-validator",
+  "audit_cycle_id": "2026-07-27-full-restart-001"
 }

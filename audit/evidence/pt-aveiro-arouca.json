@@ -1,185 +1,328 @@
 {
-  "schema_version": 1,
   "municipality_id": "pt-aveiro-arouca",
+  "order": 4,
   "municipality": "Arouca",
-  "region": "Aveiro",
+  "district": "Aveiro",
   "status": "complete",
-  "checked_at": "2026-07-27T18:50:00Z",
-  "checks_total": 16,
-  "checks_completed": 16,
-  "confirmed_new_webcams": [],
-  "candidates": [],
+  "started_at": "2026-07-28T04:26:15Z",
+  "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
       "check_id": "official_municipality",
       "status": "done",
       "queries": [
-        "site:cm-arouca.pt webcam",
-        "site:cm-arouca.pt câmara ao vivo",
-        "site:cm-arouca.pt stream"
+        "site:cm-arouca.pt webcam Arouca",
+        "site:municipio-arouca.pt webcam Arouca",
+        "site:arouca.pt webcam Arouca",
+        "site:cm-arouca.pt (direto OR livestream OR câmara)"
       ],
-      "urls_checked": [
-        "https://www.cm-arouca.pt/",
-        "https://www.cm-arouca.pt/visitar/passadicos-do-paiva/"
-      ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:26:25Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "official_tourism",
       "status": "done",
       "queries": [
-        "Arouca turismo webcam",
-        "Visit Arouca webcam"
+        "turismo Arouca webcam",
+        "visit Arouca live cam",
+        "site:visitportugal.com Arouca webcam",
+        "site:turismodeportugal.pt Arouca webcam",
+        "site:visitportoandnorth.travel Arouca webcam",
+        "site:visitcentrodeportugal.com.pt Arouca webcam",
+        "site:visitlisboa.com Arouca webcam",
+        "site:visitalentejo.pt Arouca webcam",
+        "site:visitalgarve.pt Arouca webcam"
       ],
-      "urls_checked": [
-        "https://visitarouca.pt/",
-        "https://aroucageopark.pt/"
-      ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:26:45Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "google_search",
+      "check_id": "google",
       "status": "done",
       "queries": [
-        "Arouca Portugal webcam live cam",
-        "Passadiços do Paiva webcam live"
+        "\"webcam\" \"Arouca\" Portugal",
+        "\"web cam\" \"Arouca\" Portugal",
+        "\"live cam\" \"Arouca\" Portugal",
+        "\"câmara ao vivo\" \"Arouca\""
       ],
-      "result": "none_verified"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:26:54Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "bing_search",
+      "check_id": "bing",
       "status": "done",
       "queries": [
-        "Arouca live camera Portugal",
-        "516 Arouca webcam"
+        "\"camera ao vivo\" \"Arouca\"",
+        "\"transmissão em direto\" \"Arouca\"",
+        "\"live stream\" \"Arouca\" Portugal",
+        "site:.pt webcam \"Arouca\""
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:27:03Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "duckduckgo_search",
+      "check_id": "duckduckgo",
       "status": "done",
       "queries": [
-        "Arouca webcam",
-        "Paiva Walkways webcam"
+        "site:youtube.com/live \"Arouca\" Portugal",
+        "site:facebook.com \"Arouca\" webcam live",
+        "site:instagram.com \"Arouca\" webcam",
+        "\"Axis\" \"Arouca\" camera",
+        "\"Mobotix\" \"Arouca\" camera",
+        "\"Hikvision\" \"Arouca\" webcam"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:27:18Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "specialist_aggregators",
+      "check_id": "aggregators",
       "status": "done",
       "queries": [
-        "PortugalWebcams Arouca",
-        "Windfinder Arouca",
-        "Webcam Galore Arouca",
-        "Windy webcams Arouca"
+        "site:portugalwebcams.pt \"Arouca\"",
+        "site:webcamgalore.com \"Arouca\" Portugal",
+        "site:windy.com/webcams \"Arouca\" Portugal",
+        "site:windfinder.com/webcams \"Arouca\"",
+        "site:webcams.travel \"Arouca\" Portugal",
+        "site:webcamtaxi.com \"Arouca\" Portugal",
+        "site:worldcam.eu \"Arouca\" Portugal",
+        "site:geowebcams.com \"Arouca\" Portugal",
+        "site:skylinewebcams.com \"Arouca\" Portugal",
+        "site:earthcam.com \"Arouca\" Portugal",
+        "site:ipcamlive.com \"Arouca\" Portugal",
+        "site:meteoblue.com \"Arouca\" webcam",
+        "site:spotazores.com \"Arouca\"",
+        "site:netmadeira.com \"Arouca\" webcam",
+        "site:madeiracams.com \"Arouca\"",
+        "site:beachcam.meo.pt \"Arouca\"",
+        "site:back-office.beachcam.pt/livecams \"Arouca\"",
+        "Portugal webcam Portugal \"Arouca\""
       ],
-      "result": "none_local"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:29:46Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "coast_surf_beaches",
+      "check_id": "beaches_surf",
       "status": "done",
       "queries": [
+        "Arouca praia webcam",
         "Arouca surf webcam",
-        "praia fluvial Areinho webcam",
-        "Espiunca webcam"
+        "site:beachcam.meo.pt Arouca",
+        "site:surfline.com Arouca Portugal",
+        "site:magicseaweed.com Arouca webcam",
+        "site:windfinder.com Arouca webcam",
+        "site:windy.com/webcams Arouca praia"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:32:22Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "ports_marinas_nautical",
       "status": "done",
       "queries": [
-        "Rio Paiva rafting webcam",
-        "Arouca náutica webcam"
+        "Arouca porto webcam",
+        "Arouca marina webcam",
+        "Arouca clube náutico live cam",
+        "Arouca barra porto câmara ao vivo",
+        "site:portosdeportugal.pt Arouca webcam",
+        "site:amn.pt Arouca webcam",
+        "site:docapesca.pt Arouca webcam",
+        "site:apdl.pt Arouca webcam",
+        "site:portoaveiro.pt Arouca webcam",
+        "site:portodelisboa.pt Arouca webcam",
+        "site:apsinesalgarve.pt Arouca webcam"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:36:29Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "airports_aerodromes",
       "status": "done",
       "queries": [
-        "Arouca aeródromo webcam"
+        "Arouca aeroporto webcam",
+        "Arouca aeródromo webcam",
+        "Arouca aeroclube webcam",
+        "Arouca pista aviação câmara ao vivo",
+        "site:ana.pt Arouca webcam",
+        "site:nav.pt Arouca webcam",
+        "site:airportwebcams.net Portugal Arouca",
+        "site:metar-taf.com Arouca webcam",
+        "site:youtube.com Arouca airport live",
+        "site:facebook.com aeroclube Arouca direto"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:40:13Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "traffic_transport_rail",
       "status": "done",
       "queries": [
-        "Arouca trânsito estrada camera live"
+        "Arouca trânsito estrada webcam",
+        "Arouca câmara tráfego ao vivo",
+        "Arouca estação ferroviária webcam",
+        "Arouca terminal rodoviário webcam",
+        "site:infraestruturasdeportugal.pt Arouca camera",
+        "site:estradas.pt Arouca webcam",
+        "site:cp.pt Arouca webcam",
+        "site:metrolisboa.pt Arouca live",
+        "site:metrodoporto.pt Arouca live"
       ],
-      "result": "none_public"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:43:34Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "nature_mountains_parks_dams_viewpoints",
+      "check_id": "nature_mountains_parks_dams",
       "status": "done",
       "queries": [
-        "Arouca Geopark webcam",
-        "Serra da Freita webcam",
-        "Pedras Parideiras webcam",
-        "Detrelo da Malhada webcam",
-        "Passadiços do Paiva webcam",
-        "516 Arouca live camera"
+        "Arouca serra webcam",
+        "Arouca parque natural webcam",
+        "Arouca barragem webcam",
+        "Arouca miradouro webcam",
+        "Arouca rio webcam",
+        "site:icnf.pt Arouca webcam",
+        "site:snirh.apambiente.pt Arouca câmara",
+        "site:edp.com Arouca barragem webcam",
+        "site:meteoblue.com Arouca webcam"
       ],
-      "urls_checked": [
-        "https://passadicosdopaiva.pt/pt",
-        "https://aroucageopark.pt/experiencias/passadicos-do-paiva/"
-      ],
-      "result": "photos_360_and_video_only_no_live_feed"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:46:56Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "hotels_resorts_lodging",
       "status": "done",
       "queries": [
-        "Arouca hotel resort webcam"
+        "Arouca hotel webcam live",
+        "Arouca resort webcam",
+        "Arouca alojamento webcam",
+        "Arouca parque de campismo webcam",
+        "site:booking.com Arouca webcam",
+        "site:youtube.com hotel Arouca live"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:49:10Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "golf_sports_ski",
+      "check_id": "sports_golf_ski",
       "status": "done",
       "queries": [
-        "Arouca desporto webcam",
-        "Arouca rafting live camera"
+        "Arouca golf webcam",
+        "Arouca estádio webcam live",
+        "Arouca ski webcam",
+        "Arouca estância neve webcam",
+        "Arouca circuito automóvel webcam",
+        "Arouca clube desportivo live cam"
       ],
-      "result": "none_permanent"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:51:25Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "weather_universities_observatories",
       "status": "done",
       "queries": [
-        "Arouca IPMA estação meteorológica câmara",
-        "Serra da Freita meteorologia webcam"
+        "Arouca meteorologia webcam",
+        "Arouca estação meteorológica câmara",
+        "Arouca observatório webcam",
+        "site:ipma.pt Arouca camera",
+        "site:observar.ipma.pt Arouca Câmara",
+        "site:meteoblue.com Arouca webcam",
+        "site:weathercloud.net Arouca webcam",
+        "site:wunderground.com Arouca webcam",
+        "site:windy.com/webcams Arouca",
+        "Arouca universidade webcam",
+        "Arouca observatório astronómico live",
+        "Arouca centro ciência webcam",
+        "site:ulisboa.pt Arouca webcam",
+        "site:up.pt Arouca webcam",
+        "site:uc.pt Arouca webcam",
+        "site:uminho.pt Arouca webcam"
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:57:01Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
-      "check_id": "youtube_social_live",
+      "check_id": "social_video",
       "status": "done",
       "queries": [
-        "site:youtube.com Arouca Portugal live webcam",
-        "Passadiços do Paiva live stream"
+        "site:youtube.com/watch \"Arouca\" live webcam",
+        "site:youtube.com/live \"Arouca\" Portugal",
+        "site:facebook.com \"Arouca\" webcam live",
+        "site:twitch.tv \"Arouca\" Portugal live",
+        "site:instagram.com \"Arouca\" direto webcam"
       ],
-      "result": "recorded_video_only_none_permanent"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T04:58:53Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     },
     {
       "check_id": "technical_discovery",
       "status": "done",
       "queries": [
-        "Arouca Axis Mobotix Hikvision HLS MJPEG snapshot.jpg",
-        "Passadiços do Paiva iframe live"
+        "\"Arouca\" m3u8 webcam",
+        "\"Arouca\" mpd live camera",
+        "\"Arouca\" mjpeg camera",
+        "\"Arouca\" snapshot.jpg",
+        "\"Arouca\" videostream.cgi",
+        "\"Arouca\" axis-cgi/mjpg",
+        "\"Arouca\" iframe live",
+        "inurl:viewerframe?mode=motion \"Arouca\"",
+        "inurl:axis-cgi \"Arouca\"",
+        "inurl:Streaming/channels \"Arouca\""
       ],
-      "result": "none"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:02:37Z",
+      "reviewer": "github-actions:webcam-audit-clean"
     }
   ],
-  "cross_discoveries": [],
-  "notes": "As plataformas oficiais dos Passadiços do Paiva e Arouca Geopark apresentam fotografias, vídeos e experiências 360 graus, mas não foi identificado um feed público em direto.",
-  "summary": {
-    "confirmed": 0,
-    "rejected": 0,
-    "offline": 0,
-    "duplicates": 0
-  },
-  "reviewed_at": "2026-07-27T09:13:05Z",
-  "reviewer_second_pass": "github-actions:evidence-validator"
+  "candidates": [],
+  "checks_completed": 16,
+  "checks_total": 16,
+  "finished_at": "2026-07-28T05:02:37Z",
+  "reviewed_at": "2026-07-28T06:41:56Z",
+  "reviewer_second_pass": "github-actions:evidence-validator",
+  "audit_cycle_id": "2026-07-27-full-restart-001"
 }

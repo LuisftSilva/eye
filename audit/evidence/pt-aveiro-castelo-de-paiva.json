@@ -4,35 +4,325 @@
   "municipality": "Castelo de Paiva",
   "district": "Aveiro",
   "status": "complete",
-  "reviewed_at": "2026-07-27",
+  "started_at": "2026-07-28T05:52:16Z",
+  "reviewer": "github-actions:webcam-audit",
+  "checks": [
+    {
+      "check_id": "official_municipality",
+      "status": "done",
+      "queries": [
+        "site:cm-castelo-de-paiva.pt webcam Castelo de Paiva",
+        "site:municipio-castelo-de-paiva.pt webcam Castelo de Paiva",
+        "site:castelo-de-paiva.pt webcam Castelo de Paiva",
+        "site:cm-castelo-de-paiva.pt (direto OR livestream OR câmara)"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:53:46Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "official_tourism",
+      "status": "done",
+      "queries": [
+        "turismo Castelo de Paiva webcam",
+        "visit Castelo de Paiva live cam",
+        "site:visitportugal.com Castelo de Paiva webcam",
+        "site:turismodeportugal.pt Castelo de Paiva webcam",
+        "site:visitportoandnorth.travel Castelo de Paiva webcam",
+        "site:visitcentrodeportugal.com.pt Castelo de Paiva webcam",
+        "site:visitlisboa.com Castelo de Paiva webcam",
+        "site:visitalentejo.pt Castelo de Paiva webcam",
+        "site:visitalgarve.pt Castelo de Paiva webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:57:07Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "google",
+      "status": "done",
+      "queries": [
+        "\"webcam\" \"Castelo de Paiva\" Portugal",
+        "\"web cam\" \"Castelo de Paiva\" Portugal",
+        "\"live cam\" \"Castelo de Paiva\" Portugal",
+        "\"câmara ao vivo\" \"Castelo de Paiva\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T05:58:37Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "bing",
+      "status": "done",
+      "queries": [
+        "\"camera ao vivo\" \"Castelo de Paiva\"",
+        "\"transmissão em direto\" \"Castelo de Paiva\"",
+        "\"live stream\" \"Castelo de Paiva\" Portugal",
+        "site:.pt webcam \"Castelo de Paiva\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:00:06Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "duckduckgo",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/live \"Castelo de Paiva\" Portugal",
+        "site:facebook.com \"Castelo de Paiva\" webcam live",
+        "site:instagram.com \"Castelo de Paiva\" webcam",
+        "\"Axis\" \"Castelo de Paiva\" camera",
+        "\"Mobotix\" \"Castelo de Paiva\" camera",
+        "\"Hikvision\" \"Castelo de Paiva\" webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:02:21Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "aggregators",
+      "status": "done",
+      "queries": [
+        "site:portugalwebcams.pt \"Castelo de Paiva\"",
+        "site:webcamgalore.com \"Castelo de Paiva\" Portugal",
+        "site:windy.com/webcams \"Castelo de Paiva\" Portugal",
+        "site:windfinder.com/webcams \"Castelo de Paiva\"",
+        "site:webcams.travel \"Castelo de Paiva\" Portugal",
+        "site:webcamtaxi.com \"Castelo de Paiva\" Portugal",
+        "site:worldcam.eu \"Castelo de Paiva\" Portugal",
+        "site:geowebcams.com \"Castelo de Paiva\" Portugal",
+        "site:skylinewebcams.com \"Castelo de Paiva\" Portugal",
+        "site:earthcam.com \"Castelo de Paiva\" Portugal",
+        "site:ipcamlive.com \"Castelo de Paiva\" Portugal",
+        "site:meteoblue.com \"Castelo de Paiva\" webcam",
+        "site:spotazores.com \"Castelo de Paiva\"",
+        "site:netmadeira.com \"Castelo de Paiva\" webcam",
+        "site:madeiracams.com \"Castelo de Paiva\"",
+        "site:beachcam.meo.pt \"Castelo de Paiva\"",
+        "site:back-office.beachcam.pt/livecams \"Castelo de Paiva\"",
+        "Portugal webcam Portugal \"Castelo de Paiva\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:09:04Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "beaches_surf",
+      "status": "done",
+      "queries": [
+        "Castelo de Paiva praia webcam",
+        "Castelo de Paiva surf webcam",
+        "site:beachcam.meo.pt Castelo de Paiva",
+        "site:surfline.com Castelo de Paiva Portugal",
+        "site:magicseaweed.com Castelo de Paiva webcam",
+        "site:windfinder.com Castelo de Paiva webcam",
+        "site:windy.com/webcams Castelo de Paiva praia"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:11:40Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "ports_marinas_nautical",
+      "status": "done",
+      "queries": [
+        "Castelo de Paiva porto webcam",
+        "Castelo de Paiva marina webcam",
+        "Castelo de Paiva clube náutico live cam",
+        "Castelo de Paiva barra porto câmara ao vivo",
+        "site:portosdeportugal.pt Castelo de Paiva webcam",
+        "site:amn.pt Castelo de Paiva webcam",
+        "site:docapesca.pt Castelo de Paiva webcam",
+        "site:apdl.pt Castelo de Paiva webcam",
+        "site:portoaveiro.pt Castelo de Paiva webcam",
+        "site:portodelisboa.pt Castelo de Paiva webcam",
+        "site:apsinesalgarve.pt Castelo de Paiva webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:15:47Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "airports_aerodromes",
+      "status": "done",
+      "queries": [
+        "Castelo de Paiva aeroporto webcam",
+        "Castelo de Paiva aeródromo webcam",
+        "Castelo de Paiva aeroclube webcam",
+        "Castelo de Paiva pista aviação câmara ao vivo",
+        "site:ana.pt Castelo de Paiva webcam",
+        "site:nav.pt Castelo de Paiva webcam",
+        "site:airportwebcams.net Portugal Castelo de Paiva",
+        "site:metar-taf.com Castelo de Paiva webcam",
+        "site:youtube.com Castelo de Paiva airport live",
+        "site:facebook.com aeroclube Castelo de Paiva direto"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:19:33Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "traffic_transport_rail",
+      "status": "done",
+      "queries": [
+        "Castelo de Paiva trânsito estrada webcam",
+        "Castelo de Paiva câmara tráfego ao vivo",
+        "Castelo de Paiva estação ferroviária webcam",
+        "Castelo de Paiva terminal rodoviário webcam",
+        "site:infraestruturasdeportugal.pt Castelo de Paiva camera",
+        "site:estradas.pt Castelo de Paiva webcam",
+        "site:cp.pt Castelo de Paiva webcam",
+        "site:metrolisboa.pt Castelo de Paiva live",
+        "site:metrodoporto.pt Castelo de Paiva live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:22:55Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "nature_mountains_parks_dams",
+      "status": "done",
+      "queries": [
+        "Castelo de Paiva serra webcam",
+        "Castelo de Paiva parque natural webcam",
+        "Castelo de Paiva barragem webcam",
+        "Castelo de Paiva miradouro webcam",
+        "Castelo de Paiva rio webcam",
+        "site:icnf.pt Castelo de Paiva webcam",
+        "site:snirh.apambiente.pt Castelo de Paiva câmara",
+        "site:edp.com Castelo de Paiva barragem webcam",
+        "site:meteoblue.com Castelo de Paiva webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:26:16Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "hotels_resorts_lodging",
+      "status": "done",
+      "queries": [
+        "Castelo de Paiva hotel webcam live",
+        "Castelo de Paiva resort webcam",
+        "Castelo de Paiva alojamento webcam",
+        "Castelo de Paiva parque de campismo webcam",
+        "site:booking.com Castelo de Paiva webcam",
+        "site:youtube.com hotel Castelo de Paiva live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:28:29Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "sports_golf_ski",
+      "status": "done",
+      "queries": [
+        "Castelo de Paiva golf webcam",
+        "Castelo de Paiva estádio webcam live",
+        "Castelo de Paiva ski webcam",
+        "Castelo de Paiva estância neve webcam",
+        "Castelo de Paiva circuito automóvel webcam",
+        "Castelo de Paiva clube desportivo live cam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:30:44Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "weather_universities_observatories",
+      "status": "done",
+      "queries": [
+        "Castelo de Paiva meteorologia webcam",
+        "Castelo de Paiva estação meteorológica câmara",
+        "Castelo de Paiva observatório webcam",
+        "site:ipma.pt Castelo de Paiva camera",
+        "site:observar.ipma.pt Castelo de Paiva Câmara",
+        "site:meteoblue.com Castelo de Paiva webcam",
+        "site:weathercloud.net Castelo de Paiva webcam",
+        "site:wunderground.com Castelo de Paiva webcam",
+        "site:windy.com/webcams Castelo de Paiva",
+        "Castelo de Paiva universidade webcam",
+        "Castelo de Paiva observatório astronómico live",
+        "Castelo de Paiva centro ciência webcam",
+        "site:ulisboa.pt Castelo de Paiva webcam",
+        "site:up.pt Castelo de Paiva webcam",
+        "site:uc.pt Castelo de Paiva webcam",
+        "site:uminho.pt Castelo de Paiva webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:36:20Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "social_video",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/watch \"Castelo de Paiva\" live webcam",
+        "site:youtube.com/live \"Castelo de Paiva\" Portugal",
+        "site:facebook.com \"Castelo de Paiva\" webcam live",
+        "site:twitch.tv \"Castelo de Paiva\" Portugal live",
+        "site:instagram.com \"Castelo de Paiva\" direto webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:38:12Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "technical_discovery",
+      "status": "done",
+      "queries": [
+        "\"Castelo de Paiva\" m3u8 webcam",
+        "\"Castelo de Paiva\" mpd live camera",
+        "\"Castelo de Paiva\" mjpeg camera",
+        "\"Castelo de Paiva\" snapshot.jpg",
+        "\"Castelo de Paiva\" videostream.cgi",
+        "\"Castelo de Paiva\" axis-cgi/mjpg",
+        "\"Castelo de Paiva\" iframe live",
+        "inurl:viewerframe?mode=motion \"Castelo de Paiva\"",
+        "inurl:axis-cgi \"Castelo de Paiva\"",
+        "inurl:Streaming/channels \"Castelo de Paiva\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-28T06:41:56Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    }
+  ],
+  "candidates": [],
   "checks_completed": 16,
   "checks_total": 16,
-  "confirmed_webcams": [],
-  "cross_discoveries": [],
-  "rejected_candidates": [],
-  "searches": [
-    "Castelo de Paiva webcam live câmera ao vivo",
-    "site:cm-castelo-paiva.pt webcam OR livecam OR câmera",
-    "Castelo de Paiva Douro Paiva marina cais webcam",
-    "Ilha dos Amores Castelo de Paiva webcam",
-    "Entre-os-Rios webcam live",
-    "Castelo de Paiva turismo hotel alojamento webcam",
-    "Castelo de Paiva Windy Windfinder webcam",
-    "Castelo de Paiva YouTube live",
-    "Castelo de Paiva HLS m3u8 MJPEG snapshot"
-  ],
-  "sources_checked": [
-    "municipal website",
-    "tourism pages",
-    "river and nautical locations",
-    "Windy",
-    "Windfinder",
-    "Webcam Galore",
-    "GeoWebcams",
-    "YouTube live",
-    "hotel and accommodation sites",
-    "stream endpoint searches"
-  ],
-  "conclusion": "No public, permanent and verifiable webcam was confirmed inside Castelo de Paiva. Search results consisted of tourism pages, photographs, videos and nearby-camera references without a local public live feed.",
-  "completion_rule": "All mandatory categories were executed and no unresolved candidate with sufficient evidence remained."
+  "finished_at": "2026-07-28T06:41:56Z",
+  "reviewed_at": "2026-07-28T06:41:56Z",
+  "reviewer_second_pass": "github-actions:evidence-validator",
+  "audit_cycle_id": "2026-07-27-full-restart-001"
 }

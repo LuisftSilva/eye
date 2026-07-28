@@ -1,20 +1,20 @@
 {
-  "started_at": "2026-07-27T21:10:27Z",
+  "started_at": "2026-07-28T04:26:15Z",
   "municipalities": [
     {
-      "id": "pt-aveiro-agueda",
+      "id": "pt-aveiro-arouca",
       "candidates": 0
     },
     {
-      "id": "pt-aveiro-albergaria-a-velha",
+      "id": "pt-aveiro-aveiro",
       "candidates": 0
     },
     {
-      "id": "pt-aveiro-anadia",
+      "id": "pt-aveiro-castelo-de-paiva",
       "candidates": 0
     }
   ],
   "errors": [],
-  "finished_at": "2026-07-27T23:26:02Z",
+  "finished_at": "2026-07-28T06:41:56Z",
   "auto_published": 0
 }

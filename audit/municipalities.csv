@@ -1,10 +1,10 @@
 order,id,region,municipality,status,checks_completed,checks_total,webcams_found,evidence_file,last_reviewed_at,reviewed_by,notes
-1,pt-aveiro-agueda,Aveiro,Águeda,complete,16,16,0,audit/evidence/pt-aveiro-agueda.json,2026-07-27T23:26:02Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
-2,pt-aveiro-albergaria-a-velha,Aveiro,Albergaria-a-Velha,complete,16,16,0,audit/evidence/pt-aveiro-albergaria-a-velha.json,2026-07-27T23:26:02Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
-3,pt-aveiro-anadia,Aveiro,Anadia,complete,16,16,0,audit/evidence/pt-aveiro-anadia.json,2026-07-27T23:26:02Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
-4,pt-aveiro-arouca,Aveiro,Arouca,not_started,0,16,0,,,,
-5,pt-aveiro-aveiro,Aveiro,Aveiro,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
-6,pt-aveiro-castelo-de-paiva,Aveiro,Castelo de Paiva,not_started,0,16,0,,,,
+1,pt-aveiro-agueda,Aveiro,Águeda,complete,16,16,0,audit/evidence/pt-aveiro-agueda.json,2026-07-28T06:41:56Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+2,pt-aveiro-albergaria-a-velha,Aveiro,Albergaria-a-Velha,complete,16,16,0,audit/evidence/pt-aveiro-albergaria-a-velha.json,2026-07-28T06:41:56Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+3,pt-aveiro-anadia,Aveiro,Anadia,complete,16,16,0,audit/evidence/pt-aveiro-anadia.json,2026-07-28T06:41:56Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+4,pt-aveiro-arouca,Aveiro,Arouca,complete,16,16,0,audit/evidence/pt-aveiro-arouca.json,2026-07-28T06:41:56Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+5,pt-aveiro-aveiro,Aveiro,Aveiro,complete,16,16,0,audit/evidence/pt-aveiro-aveiro.json,2026-07-28T06:41:56Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+6,pt-aveiro-castelo-de-paiva,Aveiro,Castelo de Paiva,complete,16,16,0,audit/evidence/pt-aveiro-castelo-de-paiva.json,2026-07-28T06:41:56Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
 7,pt-aveiro-espinho,Aveiro,Espinho,not_started,0,16,0,,,,
 8,pt-aveiro-estarreja,Aveiro,Estarreja,not_started,0,16,0,,,,
 9,pt-aveiro-ilhavo,Aveiro,Ílhavo,not_started,0,16,0,,,,

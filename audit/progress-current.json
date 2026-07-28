@@ -1,35 +1,38 @@
 {
   "audit_cycle_id": "2026-07-27-full-restart-001",
   "audit_cycle_started_at": "2026-07-27T19:00:00Z",
-  "updated_at": "2026-07-27T23:26:02Z",
+  "updated_at": "2026-07-28T06:41:56Z",
   "territory_total": 308,
   "checks_per_municipality": 16,
-  "municipalities_complete": 3,
-  "municipalities_in_review": 1,
-  "municipalities_not_started": 304,
+  "municipalities_complete": 6,
+  "municipalities_in_review": 0,
+  "municipalities_not_started": 302,
   "municipalities_blocked": 0,
-  "checks_complete": 48,
+  "checks_complete": 96,
   "checks_total": 4928,
-  "territorial_progress_percent": 0.97,
-  "operational_progress_percent": 0.97,
+  "territorial_progress_percent": 1.95,
+  "operational_progress_percent": 1.95,
   "confirmed_webcams_added_in_audit": 0,
   "offline_historical_candidates": 0,
   "rejected_or_unverified_candidates": 0,
   "validation_errors": 0,
   "last_completed": {
-    "order": 3,
-    "municipality_id": "pt-aveiro-anadia",
-    "municipality": "Anadia"
+    "order": 6,
+    "municipality_id": "pt-aveiro-castelo-de-paiva",
+    "municipality": "Castelo de Paiva"
   },
   "next_municipality": {
-    "order": 4,
-    "municipality_id": "pt-aveiro-arouca",
-    "municipality": "Arouca"
+    "order": 7,
+    "municipality_id": "pt-aveiro-espinho",
+    "municipality": "Espinho"
   },
   "completed": [
     "pt-aveiro-agueda",
     "pt-aveiro-albergaria-a-velha",
-    "pt-aveiro-anadia"
+    "pt-aveiro-anadia",
+    "pt-aveiro-arouca",
+    "pt-aveiro-aveiro",
+    "pt-aveiro-castelo-de-paiva"
   ],
   "rule": "Only evidence created after the current audit-cycle start counts as complete; historical evidence is retained but ignored."
 }
