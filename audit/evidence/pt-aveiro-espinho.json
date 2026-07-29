@@ -4,54 +4,325 @@
   "municipality": "Espinho",
   "district": "Aveiro",
   "status": "complete",
-  "reviewed_at": "2026-07-27",
+  "started_at": "2026-07-29T04:29:01Z",
+  "reviewer": "github-actions:webcam-audit",
+  "checks": [
+    {
+      "check_id": "official_municipality",
+      "status": "done",
+      "queries": [
+        "site:cm-espinho.pt webcam Espinho",
+        "site:municipio-espinho.pt webcam Espinho",
+        "site:espinho.pt webcam Espinho",
+        "site:cm-espinho.pt (direto OR livestream OR câmara)"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:29:10Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "official_tourism",
+      "status": "done",
+      "queries": [
+        "turismo Espinho webcam",
+        "visit Espinho live cam",
+        "site:visitportugal.com Espinho webcam",
+        "site:turismodeportugal.pt Espinho webcam",
+        "site:visitportoandnorth.travel Espinho webcam",
+        "site:visitcentrodeportugal.com.pt Espinho webcam",
+        "site:visitlisboa.com Espinho webcam",
+        "site:visitalentejo.pt Espinho webcam",
+        "site:visitalgarve.pt Espinho webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:29:29Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "google",
+      "status": "done",
+      "queries": [
+        "\"webcam\" \"Espinho\" Portugal",
+        "\"web cam\" \"Espinho\" Portugal",
+        "\"live cam\" \"Espinho\" Portugal",
+        "\"câmara ao vivo\" \"Espinho\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:29:37Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "bing",
+      "status": "done",
+      "queries": [
+        "\"camera ao vivo\" \"Espinho\"",
+        "\"transmissão em direto\" \"Espinho\"",
+        "\"live stream\" \"Espinho\" Portugal",
+        "site:.pt webcam \"Espinho\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:29:46Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "duckduckgo",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/live \"Espinho\" Portugal",
+        "site:facebook.com \"Espinho\" webcam live",
+        "site:instagram.com \"Espinho\" webcam",
+        "\"Axis\" \"Espinho\" camera",
+        "\"Mobotix\" \"Espinho\" camera",
+        "\"Hikvision\" \"Espinho\" webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:30:01Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "aggregators",
+      "status": "done",
+      "queries": [
+        "site:portugalwebcams.pt \"Espinho\"",
+        "site:webcamgalore.com \"Espinho\" Portugal",
+        "site:windy.com/webcams \"Espinho\" Portugal",
+        "site:windfinder.com/webcams \"Espinho\"",
+        "site:webcams.travel \"Espinho\" Portugal",
+        "site:webcamtaxi.com \"Espinho\" Portugal",
+        "site:worldcam.eu \"Espinho\" Portugal",
+        "site:geowebcams.com \"Espinho\" Portugal",
+        "site:skylinewebcams.com \"Espinho\" Portugal",
+        "site:earthcam.com \"Espinho\" Portugal",
+        "site:ipcamlive.com \"Espinho\" Portugal",
+        "site:meteoblue.com \"Espinho\" webcam",
+        "site:spotazores.com \"Espinho\"",
+        "site:netmadeira.com \"Espinho\" webcam",
+        "site:madeiracams.com \"Espinho\"",
+        "site:beachcam.meo.pt \"Espinho\"",
+        "site:back-office.beachcam.pt/livecams \"Espinho\"",
+        "Portugal webcam Portugal \"Espinho\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:32:28Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "beaches_surf",
+      "status": "done",
+      "queries": [
+        "Espinho praia webcam",
+        "Espinho surf webcam",
+        "site:beachcam.meo.pt Espinho",
+        "site:surfline.com Espinho Portugal",
+        "site:magicseaweed.com Espinho webcam",
+        "site:windfinder.com Espinho webcam",
+        "site:windy.com/webcams Espinho praia"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:35:04Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "ports_marinas_nautical",
+      "status": "done",
+      "queries": [
+        "Espinho porto webcam",
+        "Espinho marina webcam",
+        "Espinho clube náutico live cam",
+        "Espinho barra porto câmara ao vivo",
+        "site:portosdeportugal.pt Espinho webcam",
+        "site:amn.pt Espinho webcam",
+        "site:docapesca.pt Espinho webcam",
+        "site:apdl.pt Espinho webcam",
+        "site:portoaveiro.pt Espinho webcam",
+        "site:portodelisboa.pt Espinho webcam",
+        "site:apsinesalgarve.pt Espinho webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:39:10Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "airports_aerodromes",
+      "status": "done",
+      "queries": [
+        "Espinho aeroporto webcam",
+        "Espinho aeródromo webcam",
+        "Espinho aeroclube webcam",
+        "Espinho pista aviação câmara ao vivo",
+        "site:ana.pt Espinho webcam",
+        "site:nav.pt Espinho webcam",
+        "site:airportwebcams.net Portugal Espinho",
+        "site:metar-taf.com Espinho webcam",
+        "site:youtube.com Espinho airport live",
+        "site:facebook.com aeroclube Espinho direto"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:42:53Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "traffic_transport_rail",
+      "status": "done",
+      "queries": [
+        "Espinho trânsito estrada webcam",
+        "Espinho câmara tráfego ao vivo",
+        "Espinho estação ferroviária webcam",
+        "Espinho terminal rodoviário webcam",
+        "site:infraestruturasdeportugal.pt Espinho camera",
+        "site:estradas.pt Espinho webcam",
+        "site:cp.pt Espinho webcam",
+        "site:metrolisboa.pt Espinho live",
+        "site:metrodoporto.pt Espinho live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:46:14Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "nature_mountains_parks_dams",
+      "status": "done",
+      "queries": [
+        "Espinho serra webcam",
+        "Espinho parque natural webcam",
+        "Espinho barragem webcam",
+        "Espinho miradouro webcam",
+        "Espinho rio webcam",
+        "site:icnf.pt Espinho webcam",
+        "site:snirh.apambiente.pt Espinho câmara",
+        "site:edp.com Espinho barragem webcam",
+        "site:meteoblue.com Espinho webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:49:35Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "hotels_resorts_lodging",
+      "status": "done",
+      "queries": [
+        "Espinho hotel webcam live",
+        "Espinho resort webcam",
+        "Espinho alojamento webcam",
+        "Espinho parque de campismo webcam",
+        "site:booking.com Espinho webcam",
+        "site:youtube.com hotel Espinho live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:51:49Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "sports_golf_ski",
+      "status": "done",
+      "queries": [
+        "Espinho golf webcam",
+        "Espinho estádio webcam live",
+        "Espinho ski webcam",
+        "Espinho estância neve webcam",
+        "Espinho circuito automóvel webcam",
+        "Espinho clube desportivo live cam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:54:04Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "weather_universities_observatories",
+      "status": "done",
+      "queries": [
+        "Espinho meteorologia webcam",
+        "Espinho estação meteorológica câmara",
+        "Espinho observatório webcam",
+        "site:ipma.pt Espinho camera",
+        "site:observar.ipma.pt Espinho Câmara",
+        "site:meteoblue.com Espinho webcam",
+        "site:weathercloud.net Espinho webcam",
+        "site:wunderground.com Espinho webcam",
+        "site:windy.com/webcams Espinho",
+        "Espinho universidade webcam",
+        "Espinho observatório astronómico live",
+        "Espinho centro ciência webcam",
+        "site:ulisboa.pt Espinho webcam",
+        "site:up.pt Espinho webcam",
+        "site:uc.pt Espinho webcam",
+        "site:uminho.pt Espinho webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T04:59:38Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "social_video",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/watch \"Espinho\" live webcam",
+        "site:youtube.com/live \"Espinho\" Portugal",
+        "site:facebook.com \"Espinho\" webcam live",
+        "site:twitch.tv \"Espinho\" Portugal live",
+        "site:instagram.com \"Espinho\" direto webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:01:30Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "technical_discovery",
+      "status": "done",
+      "queries": [
+        "\"Espinho\" m3u8 webcam",
+        "\"Espinho\" mpd live camera",
+        "\"Espinho\" mjpeg camera",
+        "\"Espinho\" snapshot.jpg",
+        "\"Espinho\" videostream.cgi",
+        "\"Espinho\" axis-cgi/mjpg",
+        "\"Espinho\" iframe live",
+        "inurl:viewerframe?mode=motion \"Espinho\"",
+        "inurl:axis-cgi \"Espinho\"",
+        "inurl:Streaming/channels \"Espinho\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:05:13Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    }
+  ],
+  "candidates": [],
   "checks_completed": 16,
   "checks_total": 16,
-  "confirmed_webcams": [
-    {
-      "name": "Espinho | Panorâmica",
-      "provider": "MEO Beachcam",
-      "source_url": "https://back-office.beachcam.pt/livecams/praia-de-espinho/",
-      "database_action": "existing-camera-retained",
-      "evidence": "Provider page is active and reports current surf and weather data."
-    },
-    {
-      "name": "Espinho | Pico do Casino | Estática",
-      "provider": "MEO Beachcam",
-      "source_url": "https://back-office.beachcam.pt/livecams/",
-      "database_action": "added",
-      "evidence": "Listed as a separate Espinho camera in the provider's current livecam catalogue."
-    },
-    {
-      "name": "Espinho | Silvalde",
-      "provider": "MEO Beachcam",
-      "source_url": "https://back-office.beachcam.pt/livecams/",
-      "database_action": "added",
-      "evidence": "Listed as a separate multi-camera location in the provider's current catalogue."
-    },
-    {
-      "name": "Espinho | Silvalde | Estática",
-      "provider": "MEO Beachcam",
-      "source_url": "https://back-office.beachcam.pt/livecams/",
-      "database_action": "added",
-      "evidence": "Listed independently from the Silvalde multi-camera feed in the current catalogue."
-    }
-  ],
-  "rejected_candidates": [
-    {
-      "name": "Windy Espinho: Praia de",
-      "reason": "Historical/stale entry showing no recent images; not counted as an additional active feed."
-    }
-  ],
-  "searches": [
-    "Espinho webcam live beachcam surfline windy",
-    "Espinho Praia da Baía webcam",
-    "Espinho Casino webcam",
-    "Silvalde webcam live",
-    "site:back-office.beachcam.pt/livecams Espinho",
-    "Espinho municipal tourism marina hotel webcam",
-    "Espinho YouTube live",
-    "Espinho HLS m3u8 MJPEG snapshot"
-  ],
-  "conclusion": "Four distinct currently listed MEO Beachcam views were identified for Espinho. One broad Espinho entry already existed; three additional named views were added without duplicating that record."
+  "finished_at": "2026-07-29T05:05:13Z",
+  "reviewed_at": "2026-07-29T06:43:59Z",
+  "reviewer_second_pass": "github-actions:evidence-validator",
+  "audit_cycle_id": "2026-07-27-full-restart-001"
 }

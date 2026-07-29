@@ -1,14 +1,328 @@
 {
-  "municipality_id":"pt-aveiro-estarreja",
-  "order":8,
-  "municipality":"Estarreja",
-  "district":"Aveiro",
-  "status":"complete",
-  "reviewed_at":"2026-07-27",
-  "checks_completed":16,
-  "checks_total":16,
-  "confirmed_webcams":[],
-  "searches":["Estarreja webcam live","site:cm-estarreja.pt webcam OR livecam OR câmera","Pardilhó ria webcam","Avanca webcam","Estarreja estação náutica webcam","Estarreja Windy Windfinder webcam","Estarreja YouTube live","Estarreja HLS m3u8 MJPEG snapshot"],
-  "sources_checked":["municipal website","Estação Náutica de Estarreja","tourism and Ria pages","Windy","Windfinder","Webcam Galore","GeoWebcams","YouTube","stream endpoint searches"],
-  "conclusion":"No public permanent and verifiable webcam was confirmed in Estarreja. Official municipal and nautical pages expose tourism content but no public live feed."
+  "municipality_id": "pt-aveiro-estarreja",
+  "order": 8,
+  "municipality": "Estarreja",
+  "district": "Aveiro",
+  "status": "complete",
+  "started_at": "2026-07-29T05:05:13Z",
+  "reviewer": "github-actions:webcam-audit",
+  "checks": [
+    {
+      "check_id": "official_municipality",
+      "status": "done",
+      "queries": [
+        "site:cm-estarreja.pt webcam Estarreja",
+        "site:municipio-estarreja.pt webcam Estarreja",
+        "site:estarreja.pt webcam Estarreja",
+        "site:cm-estarreja.pt (direto OR livestream OR câmara)"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:06:43Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "official_tourism",
+      "status": "done",
+      "queries": [
+        "turismo Estarreja webcam",
+        "visit Estarreja live cam",
+        "site:visitportugal.com Estarreja webcam",
+        "site:turismodeportugal.pt Estarreja webcam",
+        "site:visitportoandnorth.travel Estarreja webcam",
+        "site:visitcentrodeportugal.com.pt Estarreja webcam",
+        "site:visitlisboa.com Estarreja webcam",
+        "site:visitalentejo.pt Estarreja webcam",
+        "site:visitalgarve.pt Estarreja webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:10:04Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "google",
+      "status": "done",
+      "queries": [
+        "\"webcam\" \"Estarreja\" Portugal",
+        "\"web cam\" \"Estarreja\" Portugal",
+        "\"live cam\" \"Estarreja\" Portugal",
+        "\"câmara ao vivo\" \"Estarreja\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:11:33Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "bing",
+      "status": "done",
+      "queries": [
+        "\"camera ao vivo\" \"Estarreja\"",
+        "\"transmissão em direto\" \"Estarreja\"",
+        "\"live stream\" \"Estarreja\" Portugal",
+        "site:.pt webcam \"Estarreja\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:13:02Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "duckduckgo",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/live \"Estarreja\" Portugal",
+        "site:facebook.com \"Estarreja\" webcam live",
+        "site:instagram.com \"Estarreja\" webcam",
+        "\"Axis\" \"Estarreja\" camera",
+        "\"Mobotix\" \"Estarreja\" camera",
+        "\"Hikvision\" \"Estarreja\" webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:15:16Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "aggregators",
+      "status": "done",
+      "queries": [
+        "site:portugalwebcams.pt \"Estarreja\"",
+        "site:webcamgalore.com \"Estarreja\" Portugal",
+        "site:windy.com/webcams \"Estarreja\" Portugal",
+        "site:windfinder.com/webcams \"Estarreja\"",
+        "site:webcams.travel \"Estarreja\" Portugal",
+        "site:webcamtaxi.com \"Estarreja\" Portugal",
+        "site:worldcam.eu \"Estarreja\" Portugal",
+        "site:geowebcams.com \"Estarreja\" Portugal",
+        "site:skylinewebcams.com \"Estarreja\" Portugal",
+        "site:earthcam.com \"Estarreja\" Portugal",
+        "site:ipcamlive.com \"Estarreja\" Portugal",
+        "site:meteoblue.com \"Estarreja\" webcam",
+        "site:spotazores.com \"Estarreja\"",
+        "site:netmadeira.com \"Estarreja\" webcam",
+        "site:madeiracams.com \"Estarreja\"",
+        "site:beachcam.meo.pt \"Estarreja\"",
+        "site:back-office.beachcam.pt/livecams \"Estarreja\"",
+        "Portugal webcam Portugal \"Estarreja\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:21:56Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "beaches_surf",
+      "status": "done",
+      "queries": [
+        "Estarreja praia webcam",
+        "Estarreja surf webcam",
+        "site:beachcam.meo.pt Estarreja",
+        "site:surfline.com Estarreja Portugal",
+        "site:magicseaweed.com Estarreja webcam",
+        "site:windfinder.com Estarreja webcam",
+        "site:windy.com/webcams Estarreja praia"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:24:33Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "ports_marinas_nautical",
+      "status": "done",
+      "queries": [
+        "Estarreja porto webcam",
+        "Estarreja marina webcam",
+        "Estarreja clube náutico live cam",
+        "Estarreja barra porto câmara ao vivo",
+        "site:portosdeportugal.pt Estarreja webcam",
+        "site:amn.pt Estarreja webcam",
+        "site:docapesca.pt Estarreja webcam",
+        "site:apdl.pt Estarreja webcam",
+        "site:portoaveiro.pt Estarreja webcam",
+        "site:portodelisboa.pt Estarreja webcam",
+        "site:apsinesalgarve.pt Estarreja webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:28:38Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "airports_aerodromes",
+      "status": "done",
+      "queries": [
+        "Estarreja aeroporto webcam",
+        "Estarreja aeródromo webcam",
+        "Estarreja aeroclube webcam",
+        "Estarreja pista aviação câmara ao vivo",
+        "site:ana.pt Estarreja webcam",
+        "site:nav.pt Estarreja webcam",
+        "site:airportwebcams.net Portugal Estarreja",
+        "site:metar-taf.com Estarreja webcam",
+        "site:youtube.com Estarreja airport live",
+        "site:facebook.com aeroclube Estarreja direto"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:32:21Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "traffic_transport_rail",
+      "status": "done",
+      "queries": [
+        "Estarreja trânsito estrada webcam",
+        "Estarreja câmara tráfego ao vivo",
+        "Estarreja estação ferroviária webcam",
+        "Estarreja terminal rodoviário webcam",
+        "site:infraestruturasdeportugal.pt Estarreja camera",
+        "site:estradas.pt Estarreja webcam",
+        "site:cp.pt Estarreja webcam",
+        "site:metrolisboa.pt Estarreja live",
+        "site:metrodoporto.pt Estarreja live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:35:43Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "nature_mountains_parks_dams",
+      "status": "done",
+      "queries": [
+        "Estarreja serra webcam",
+        "Estarreja parque natural webcam",
+        "Estarreja barragem webcam",
+        "Estarreja miradouro webcam",
+        "Estarreja rio webcam",
+        "site:icnf.pt Estarreja webcam",
+        "site:snirh.apambiente.pt Estarreja câmara",
+        "site:edp.com Estarreja barragem webcam",
+        "site:meteoblue.com Estarreja webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:39:04Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "hotels_resorts_lodging",
+      "status": "done",
+      "queries": [
+        "Estarreja hotel webcam live",
+        "Estarreja resort webcam",
+        "Estarreja alojamento webcam",
+        "Estarreja parque de campismo webcam",
+        "site:booking.com Estarreja webcam",
+        "site:youtube.com hotel Estarreja live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:41:17Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "sports_golf_ski",
+      "status": "done",
+      "queries": [
+        "Estarreja golf webcam",
+        "Estarreja estádio webcam live",
+        "Estarreja ski webcam",
+        "Estarreja estância neve webcam",
+        "Estarreja circuito automóvel webcam",
+        "Estarreja clube desportivo live cam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:43:31Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "weather_universities_observatories",
+      "status": "done",
+      "queries": [
+        "Estarreja meteorologia webcam",
+        "Estarreja estação meteorológica câmara",
+        "Estarreja observatório webcam",
+        "site:ipma.pt Estarreja camera",
+        "site:observar.ipma.pt Estarreja Câmara",
+        "site:meteoblue.com Estarreja webcam",
+        "site:weathercloud.net Estarreja webcam",
+        "site:wunderground.com Estarreja webcam",
+        "site:windy.com/webcams Estarreja",
+        "Estarreja universidade webcam",
+        "Estarreja observatório astronómico live",
+        "Estarreja centro ciência webcam",
+        "site:ulisboa.pt Estarreja webcam",
+        "site:up.pt Estarreja webcam",
+        "site:uc.pt Estarreja webcam",
+        "site:uminho.pt Estarreja webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:49:06Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "social_video",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/watch \"Estarreja\" live webcam",
+        "site:youtube.com/live \"Estarreja\" Portugal",
+        "site:facebook.com \"Estarreja\" webcam live",
+        "site:twitch.tv \"Estarreja\" Portugal live",
+        "site:instagram.com \"Estarreja\" direto webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:50:57Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "technical_discovery",
+      "status": "done",
+      "queries": [
+        "\"Estarreja\" m3u8 webcam",
+        "\"Estarreja\" mpd live camera",
+        "\"Estarreja\" mjpeg camera",
+        "\"Estarreja\" snapshot.jpg",
+        "\"Estarreja\" videostream.cgi",
+        "\"Estarreja\" axis-cgi/mjpg",
+        "\"Estarreja\" iframe live",
+        "inurl:viewerframe?mode=motion \"Estarreja\"",
+        "inurl:axis-cgi \"Estarreja\"",
+        "inurl:Streaming/channels \"Estarreja\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:54:40Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    }
+  ],
+  "candidates": [],
+  "checks_completed": 16,
+  "checks_total": 16,
+  "finished_at": "2026-07-29T05:54:40Z",
+  "reviewed_at": "2026-07-29T06:43:59Z",
+  "reviewer_second_pass": "github-actions:evidence-validator",
+  "audit_cycle_id": "2026-07-27-full-restart-001"
 }

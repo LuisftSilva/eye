@@ -1,17 +1,328 @@
 {
-  "municipality_id":"pt-aveiro-ilhavo",
-  "order":9,
-  "municipality":"Ílhavo",
-  "district":"Aveiro",
-  "status":"complete",
-  "reviewed_at":"2026-07-27",
-  "checks_completed":16,
-  "checks_total":16,
-  "confirmed_webcams":[
-    {"name":"Praia da Barra","provider":"MEO Beachcam","database_action":"existing-camera-retained","evidence":"Current provider catalogue and municipality evidence confirm this camera belongs to Ílhavo."},
-    {"name":"Costa Nova","provider":"MEO Beachcam","database_action":"existing-camera-retained","evidence":"Municipality announcement confirms the livecam and states that Ílhavo's network then comprised Barra and Costa Nova."}
+  "municipality_id": "pt-aveiro-ilhavo",
+  "order": 9,
+  "municipality": "Ílhavo",
+  "district": "Aveiro",
+  "status": "complete",
+  "started_at": "2026-07-29T05:54:40Z",
+  "reviewer": "github-actions:webcam-audit",
+  "checks": [
+    {
+      "check_id": "official_municipality",
+      "status": "done",
+      "queries": [
+        "site:cm-ilhavo.pt webcam Ílhavo",
+        "site:municipio-ilhavo.pt webcam Ílhavo",
+        "site:ilhavo.pt webcam Ílhavo",
+        "site:cm-ilhavo.pt (direto OR livestream OR câmara)"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:56:09Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "official_tourism",
+      "status": "done",
+      "queries": [
+        "turismo Ílhavo webcam",
+        "visit Ílhavo live cam",
+        "site:visitportugal.com Ílhavo webcam",
+        "site:turismodeportugal.pt Ílhavo webcam",
+        "site:visitportoandnorth.travel Ílhavo webcam",
+        "site:visitcentrodeportugal.com.pt Ílhavo webcam",
+        "site:visitlisboa.com Ílhavo webcam",
+        "site:visitalentejo.pt Ílhavo webcam",
+        "site:visitalgarve.pt Ílhavo webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T05:59:29Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "google",
+      "status": "done",
+      "queries": [
+        "\"webcam\" \"Ílhavo\" Portugal",
+        "\"web cam\" \"Ílhavo\" Portugal",
+        "\"live cam\" \"Ílhavo\" Portugal",
+        "\"câmara ao vivo\" \"Ílhavo\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:00:59Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "bing",
+      "status": "done",
+      "queries": [
+        "\"camera ao vivo\" \"Ílhavo\"",
+        "\"transmissão em direto\" \"Ílhavo\"",
+        "\"live stream\" \"Ílhavo\" Portugal",
+        "site:.pt webcam \"Ílhavo\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:02:28Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "duckduckgo",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/live \"Ílhavo\" Portugal",
+        "site:facebook.com \"Ílhavo\" webcam live",
+        "site:instagram.com \"Ílhavo\" webcam",
+        "\"Axis\" \"Ílhavo\" camera",
+        "\"Mobotix\" \"Ílhavo\" camera",
+        "\"Hikvision\" \"Ílhavo\" webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:04:42Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "aggregators",
+      "status": "done",
+      "queries": [
+        "site:portugalwebcams.pt \"Ílhavo\"",
+        "site:webcamgalore.com \"Ílhavo\" Portugal",
+        "site:windy.com/webcams \"Ílhavo\" Portugal",
+        "site:windfinder.com/webcams \"Ílhavo\"",
+        "site:webcams.travel \"Ílhavo\" Portugal",
+        "site:webcamtaxi.com \"Ílhavo\" Portugal",
+        "site:worldcam.eu \"Ílhavo\" Portugal",
+        "site:geowebcams.com \"Ílhavo\" Portugal",
+        "site:skylinewebcams.com \"Ílhavo\" Portugal",
+        "site:earthcam.com \"Ílhavo\" Portugal",
+        "site:ipcamlive.com \"Ílhavo\" Portugal",
+        "site:meteoblue.com \"Ílhavo\" webcam",
+        "site:spotazores.com \"Ílhavo\"",
+        "site:netmadeira.com \"Ílhavo\" webcam",
+        "site:madeiracams.com \"Ílhavo\"",
+        "site:beachcam.meo.pt \"Ílhavo\"",
+        "site:back-office.beachcam.pt/livecams \"Ílhavo\"",
+        "Portugal webcam Portugal \"Ílhavo\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:11:23Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "beaches_surf",
+      "status": "done",
+      "queries": [
+        "Ílhavo praia webcam",
+        "Ílhavo surf webcam",
+        "site:beachcam.meo.pt Ílhavo",
+        "site:surfline.com Ílhavo Portugal",
+        "site:magicseaweed.com Ílhavo webcam",
+        "site:windfinder.com Ílhavo webcam",
+        "site:windy.com/webcams Ílhavo praia"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:13:59Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "ports_marinas_nautical",
+      "status": "done",
+      "queries": [
+        "Ílhavo porto webcam",
+        "Ílhavo marina webcam",
+        "Ílhavo clube náutico live cam",
+        "Ílhavo barra porto câmara ao vivo",
+        "site:portosdeportugal.pt Ílhavo webcam",
+        "site:amn.pt Ílhavo webcam",
+        "site:docapesca.pt Ílhavo webcam",
+        "site:apdl.pt Ílhavo webcam",
+        "site:portoaveiro.pt Ílhavo webcam",
+        "site:portodelisboa.pt Ílhavo webcam",
+        "site:apsinesalgarve.pt Ílhavo webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:18:04Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "airports_aerodromes",
+      "status": "done",
+      "queries": [
+        "Ílhavo aeroporto webcam",
+        "Ílhavo aeródromo webcam",
+        "Ílhavo aeroclube webcam",
+        "Ílhavo pista aviação câmara ao vivo",
+        "site:ana.pt Ílhavo webcam",
+        "site:nav.pt Ílhavo webcam",
+        "site:airportwebcams.net Portugal Ílhavo",
+        "site:metar-taf.com Ílhavo webcam",
+        "site:youtube.com Ílhavo airport live",
+        "site:facebook.com aeroclube Ílhavo direto"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:21:46Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "traffic_transport_rail",
+      "status": "done",
+      "queries": [
+        "Ílhavo trânsito estrada webcam",
+        "Ílhavo câmara tráfego ao vivo",
+        "Ílhavo estação ferroviária webcam",
+        "Ílhavo terminal rodoviário webcam",
+        "site:infraestruturasdeportugal.pt Ílhavo camera",
+        "site:estradas.pt Ílhavo webcam",
+        "site:cp.pt Ílhavo webcam",
+        "site:metrolisboa.pt Ílhavo live",
+        "site:metrodoporto.pt Ílhavo live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:25:06Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "nature_mountains_parks_dams",
+      "status": "done",
+      "queries": [
+        "Ílhavo serra webcam",
+        "Ílhavo parque natural webcam",
+        "Ílhavo barragem webcam",
+        "Ílhavo miradouro webcam",
+        "Ílhavo rio webcam",
+        "site:icnf.pt Ílhavo webcam",
+        "site:snirh.apambiente.pt Ílhavo câmara",
+        "site:edp.com Ílhavo barragem webcam",
+        "site:meteoblue.com Ílhavo webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:28:27Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "hotels_resorts_lodging",
+      "status": "done",
+      "queries": [
+        "Ílhavo hotel webcam live",
+        "Ílhavo resort webcam",
+        "Ílhavo alojamento webcam",
+        "Ílhavo parque de campismo webcam",
+        "site:booking.com Ílhavo webcam",
+        "site:youtube.com hotel Ílhavo live"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:30:41Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "sports_golf_ski",
+      "status": "done",
+      "queries": [
+        "Ílhavo golf webcam",
+        "Ílhavo estádio webcam live",
+        "Ílhavo ski webcam",
+        "Ílhavo estância neve webcam",
+        "Ílhavo circuito automóvel webcam",
+        "Ílhavo clube desportivo live cam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:32:50Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "weather_universities_observatories",
+      "status": "done",
+      "queries": [
+        "Ílhavo meteorologia webcam",
+        "Ílhavo estação meteorológica câmara",
+        "Ílhavo observatório webcam",
+        "site:ipma.pt Ílhavo camera",
+        "site:observar.ipma.pt Ílhavo Câmara",
+        "site:meteoblue.com Ílhavo webcam",
+        "site:weathercloud.net Ílhavo webcam",
+        "site:wunderground.com Ílhavo webcam",
+        "site:windy.com/webcams Ílhavo",
+        "Ílhavo universidade webcam",
+        "Ílhavo observatório astronómico live",
+        "Ílhavo centro ciência webcam",
+        "site:ulisboa.pt Ílhavo webcam",
+        "site:up.pt Ílhavo webcam",
+        "site:uc.pt Ílhavo webcam",
+        "site:uminho.pt Ílhavo webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:38:24Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "social_video",
+      "status": "done",
+      "queries": [
+        "site:youtube.com/watch \"Ílhavo\" live webcam",
+        "site:youtube.com/live \"Ílhavo\" Portugal",
+        "site:facebook.com \"Ílhavo\" webcam live",
+        "site:twitch.tv \"Ílhavo\" Portugal live",
+        "site:instagram.com \"Ílhavo\" direto webcam"
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:40:16Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    },
+    {
+      "check_id": "technical_discovery",
+      "status": "done",
+      "queries": [
+        "\"Ílhavo\" m3u8 webcam",
+        "\"Ílhavo\" mpd live camera",
+        "\"Ílhavo\" mjpeg camera",
+        "\"Ílhavo\" snapshot.jpg",
+        "\"Ílhavo\" videostream.cgi",
+        "\"Ílhavo\" axis-cgi/mjpg",
+        "\"Ílhavo\" iframe live",
+        "inurl:viewerframe?mode=motion \"Ílhavo\"",
+        "inurl:axis-cgi \"Ílhavo\"",
+        "inurl:Streaming/channels \"Ílhavo\""
+      ],
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-29T06:43:59Z",
+      "reviewer": "github-actions:webcam-audit-clean"
+    }
   ],
-  "location_corrections":[{"camera":"Praia da Barra","incorrect_label_seen":"Aveiro","correct_municipality":"Ílhavo","reason":"Praia da Barra is in Gafanha da Nazaré, municipality of Ílhavo."}],
-  "searches":["Ílhavo webcam live","Praia da Barra webcam","Costa Nova webcam","Gafanha da Nazaré webcam","Marina da Barra webcam","Porto de Aveiro webcam","Museu Marítimo Ílhavo webcam","Ílhavo YouTube live","Ílhavo HLS m3u8 MJPEG snapshot"],
-  "conclusion":"Two verified public livecam locations were confirmed and were already present in the database. No additional distinct permanent public feed was confirmed."
+  "candidates": [],
+  "checks_completed": 16,
+  "checks_total": 16,
+  "finished_at": "2026-07-29T06:43:59Z",
+  "reviewed_at": "2026-07-29T06:43:59Z",
+  "reviewer_second_pass": "github-actions:evidence-validator",
+  "audit_cycle_id": "2026-07-27-full-restart-001"
 }

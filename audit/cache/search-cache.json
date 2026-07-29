@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-28T06:41:56Z",
+  "updated_at": "2026-07-29T06:43:59Z",
   "entries": {
     "e2c2f4da64a9b1049e5662ecf2e060bfed7682c450d06825e03c4008a451e6d5": {
       "engine": "google",
@@ -6384,6 +6384,3198 @@
       "max_results": 10,
       "checked_at": "2026-07-28T06:41:56Z",
       "expires_at": "2026-07-30T06:41:33Z",
+      "results": []
+    },
+    "0eea226b1ec31509cb5c407688bac6f291d66192f7584588ac3c94e122ec439c": {
+      "engine": "google",
+      "query": "site:cm-espinho.pt webcam Espinho",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:04Z",
+      "expires_at": "2026-07-31T04:29:01Z",
+      "results": []
+    },
+    "7476908eb9d1a3a26f30be762c882d8ebbe8f4a0b1b8e4dc57040d69218a0932": {
+      "engine": "google",
+      "query": "site:municipio-espinho.pt webcam Espinho",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:06Z",
+      "expires_at": "2026-07-31T04:29:04Z",
+      "results": []
+    },
+    "0bbf75b37905f96e335f162a3a4fc4457444fd198cefa2bcc693801fe71db27d": {
+      "engine": "google",
+      "query": "site:espinho.pt webcam Espinho",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:08Z",
+      "expires_at": "2026-07-31T04:29:06Z",
+      "results": []
+    },
+    "f2a1098fb218fc62b0464b4be80021d7782ceff8467b03ab6dc435643124d775": {
+      "engine": "google",
+      "query": "site:cm-espinho.pt (direto OR livestream OR câmara)",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:10Z",
+      "expires_at": "2026-07-31T04:29:08Z",
+      "results": []
+    },
+    "4ad379c8f4207444a0dc877e28182d39d4983e41f9906eab1583869637702183": {
+      "engine": "google",
+      "query": "turismo Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:12Z",
+      "expires_at": "2026-07-31T04:29:10Z",
+      "results": []
+    },
+    "8a619437cf75461b8750faf5e9c8f4ba81054702646c3e5d20a1b040bc02678d": {
+      "engine": "google",
+      "query": "visit Espinho live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:14Z",
+      "expires_at": "2026-07-31T04:29:12Z",
+      "results": []
+    },
+    "d243a799cebf7d1843d9f917b2ec82d8ed0f6a1991f9dea0ba8954a56b53f94a": {
+      "engine": "google",
+      "query": "site:visitportugal.com Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:16Z",
+      "expires_at": "2026-07-31T04:29:14Z",
+      "results": []
+    },
+    "ce9df67a5ce675871f185ea1bb39fa4bdd6976ea12f89870fac253013faaf111": {
+      "engine": "google",
+      "query": "site:turismodeportugal.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:18Z",
+      "expires_at": "2026-07-31T04:29:16Z",
+      "results": []
+    },
+    "11c552f3f79c83331c4db450212bdfafd18cef30d96a87743d8dc124d6310699": {
+      "engine": "google",
+      "query": "site:visitportoandnorth.travel Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:20Z",
+      "expires_at": "2026-07-31T04:29:18Z",
+      "results": []
+    },
+    "4b85fb09792d399704d5d11aa44b1fc303c5562c3f16e6806f4c9a3b261a8532": {
+      "engine": "google",
+      "query": "site:visitcentrodeportugal.com.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:22Z",
+      "expires_at": "2026-07-31T04:29:20Z",
+      "results": []
+    },
+    "9145bb110c1fc74285becb337a4a6972aec20356e2907e40b530f2a12e6349cf": {
+      "engine": "google",
+      "query": "site:visitlisboa.com Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:25Z",
+      "expires_at": "2026-07-31T04:29:22Z",
+      "results": []
+    },
+    "46158b9275a51d79d4f532cc82b7da60d2d9134fc3519a0b171f6b9f81762a82": {
+      "engine": "google",
+      "query": "site:visitalentejo.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:27Z",
+      "expires_at": "2026-07-31T04:29:25Z",
+      "results": []
+    },
+    "997ca99b7ad798558aa42e2cd97ff371a17552d54037e452e3e92a39ae177d8b": {
+      "engine": "google",
+      "query": "site:visitalgarve.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:29Z",
+      "expires_at": "2026-07-31T04:29:27Z",
+      "results": []
+    },
+    "be9ca917aafdf214a03827330f22897f1508af12ddf35b221aaed985b4692468": {
+      "engine": "google",
+      "query": "\"webcam\" \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:31Z",
+      "expires_at": "2026-07-31T04:29:29Z",
+      "results": []
+    },
+    "ff2658886f5ed474b87bd6bf5bc81817871f8dca6d0470850108f53ec1b19f36": {
+      "engine": "google",
+      "query": "\"web cam\" \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:33Z",
+      "expires_at": "2026-07-31T04:29:31Z",
+      "results": []
+    },
+    "5d0dd0b5846c08ab140a15c126bf37f7010b9fe64d357190d0784d7b47c545b1": {
+      "engine": "google",
+      "query": "\"live cam\" \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:36Z",
+      "expires_at": "2026-07-31T04:29:33Z",
+      "results": []
+    },
+    "e1de2e25dc6418a931d36053a6466d74d14d7527e3f009a88f902654a5826e80": {
+      "engine": "google",
+      "query": "\"câmara ao vivo\" \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:37Z",
+      "expires_at": "2026-07-31T04:29:36Z",
+      "results": []
+    },
+    "0e33e45c3479136d8918f02cf2d8f6f1193c8da6586b0299a02532ed09cfb4e1": {
+      "engine": "bing",
+      "query": "\"camera ao vivo\" \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:40Z",
+      "expires_at": "2026-07-31T04:29:37Z",
+      "results": []
+    },
+    "6a352f764aeb9686b7f207bf522f437bb96b1589b856257efbb24f4d6374d1fa": {
+      "engine": "bing",
+      "query": "\"transmissão em direto\" \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:42Z",
+      "expires_at": "2026-07-31T04:29:40Z",
+      "results": []
+    },
+    "b2d813670f45cc10273647b4123d861999db2f5b9945fad5b790f7d57529fec6": {
+      "engine": "bing",
+      "query": "\"live stream\" \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:44Z",
+      "expires_at": "2026-07-31T04:29:42Z",
+      "results": []
+    },
+    "9d6952bf4b2756e3571e155ac8e91ac889ba4cefd2131f889c7f3d0cf34e6eaf": {
+      "engine": "bing",
+      "query": "site:.pt webcam \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:46Z",
+      "expires_at": "2026-07-31T04:29:44Z",
+      "results": []
+    },
+    "a8b7517940e80060f60a6b2d7bcdfd1a34bba60c67742e65395f6619d0bf36c3": {
+      "engine": "duckduckgo",
+      "query": "site:youtube.com/live \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:48Z",
+      "expires_at": "2026-07-31T04:29:46Z",
+      "results": []
+    },
+    "f01ec82f0996ff4ab5d07f8c7a412370e62125f46cc964ada629592de47b30c2": {
+      "engine": "duckduckgo",
+      "query": "site:facebook.com \"Espinho\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:50Z",
+      "expires_at": "2026-07-31T04:29:48Z",
+      "results": []
+    },
+    "932f929b97e6911eea17759b0177dbfed7fefd1e9d592238eb437ecd2055084b": {
+      "engine": "duckduckgo",
+      "query": "site:instagram.com \"Espinho\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:53Z",
+      "expires_at": "2026-07-31T04:29:50Z",
+      "results": []
+    },
+    "5bdc333c51fef5b0701f88cf5f49755a7234a88c2f63c875a9085a4241092a53": {
+      "engine": "duckduckgo",
+      "query": "\"Axis\" \"Espinho\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:55Z",
+      "expires_at": "2026-07-31T04:29:53Z",
+      "results": []
+    },
+    "31717f7aac086d395e6c9f67247878074f7a00c6f8164a1d2697b40afbc1f850": {
+      "engine": "duckduckgo",
+      "query": "\"Mobotix\" \"Espinho\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:29:58Z",
+      "expires_at": "2026-07-31T04:29:55Z",
+      "results": []
+    },
+    "4eb5638c023a5a8ceae900d51d88413280bd4125d43b23b64fe079d0cf25035f": {
+      "engine": "duckduckgo",
+      "query": "\"Hikvision\" \"Espinho\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:01Z",
+      "expires_at": "2026-07-31T04:29:58Z",
+      "results": []
+    },
+    "e2888c55c77f28b98df0b8eed2a409e3cb8f5ff90b9b8d5495f937b2f5033c2e": {
+      "engine": "google",
+      "query": "site:portugalwebcams.pt \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:04Z",
+      "expires_at": "2026-07-31T04:30:01Z",
+      "results": []
+    },
+    "4d235832aa08dba60919cdc7b1113e7301c904e10ac15a3d7bfc13a29ae6890c": {
+      "engine": "google",
+      "query": "site:webcamgalore.com \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:07Z",
+      "expires_at": "2026-07-31T04:30:04Z",
+      "results": []
+    },
+    "28a7259de0959113c829f93880f0499a317b7d814d85e008eacd7d843f9451d3": {
+      "engine": "google",
+      "query": "site:windy.com/webcams \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:10Z",
+      "expires_at": "2026-07-31T04:30:07Z",
+      "results": []
+    },
+    "00b3400e0518b2d6a9f64358630055d2f9db2525537140a8c29c5baeda41fe83": {
+      "engine": "google",
+      "query": "site:windfinder.com/webcams \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:13Z",
+      "expires_at": "2026-07-31T04:30:10Z",
+      "results": []
+    },
+    "106f3e6aa03098eeb4fb73b7d38d7310848a47c4e493e16f1973979c511a14c8": {
+      "engine": "google",
+      "query": "site:webcams.travel \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:16Z",
+      "expires_at": "2026-07-31T04:30:13Z",
+      "results": []
+    },
+    "a7c690b8adc62b218ecf7a096535443befe05178a2873ef67b7c32eb027e3c4a": {
+      "engine": "google",
+      "query": "site:webcamtaxi.com \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:19Z",
+      "expires_at": "2026-07-31T04:30:16Z",
+      "results": []
+    },
+    "d7f9e0c5972d326421920f8f83c631f05b39e761bd8d20500845346bb5e2c951": {
+      "engine": "google",
+      "query": "site:worldcam.eu \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:22Z",
+      "expires_at": "2026-07-31T04:30:19Z",
+      "results": []
+    },
+    "65c0be028e9ca977666a7dafd46c26fbba6326790c522a519ee1c7c25ac267fb": {
+      "engine": "google",
+      "query": "site:geowebcams.com \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:25Z",
+      "expires_at": "2026-07-31T04:30:22Z",
+      "results": []
+    },
+    "a5fcfa48c68fc35275ddaddf87eb68e8cd476b66954e11b1e4e0797580e9d9e2": {
+      "engine": "google",
+      "query": "site:skylinewebcams.com \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:28Z",
+      "expires_at": "2026-07-31T04:30:25Z",
+      "results": []
+    },
+    "f9016232a0f753cc7132590a8f0bb7046c57c7cdb1215fd94f666a8636527fbc": {
+      "engine": "google",
+      "query": "site:earthcam.com \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:31Z",
+      "expires_at": "2026-07-31T04:30:28Z",
+      "results": []
+    },
+    "310be6c4cb1ed50ab915a5dc756edde4a9529285f5fbca6269f4aa73e9ba2b6c": {
+      "engine": "google",
+      "query": "site:ipcamlive.com \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:34Z",
+      "expires_at": "2026-07-31T04:30:31Z",
+      "results": []
+    },
+    "d0c83b767fd94d3719df29e300ee03c193dd3182e18e12ee722fbee374c5e58d": {
+      "engine": "google",
+      "query": "site:meteoblue.com \"Espinho\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:37Z",
+      "expires_at": "2026-07-31T04:30:34Z",
+      "results": []
+    },
+    "c91f04cb816eaa143bba66853e957e72f293004054e68629c0f8e25eef6326d6": {
+      "engine": "google",
+      "query": "site:spotazores.com \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:41Z",
+      "expires_at": "2026-07-31T04:30:37Z",
+      "results": []
+    },
+    "881df9eb55dab4eb0d1f9e902fbc8e4dac27c755d4a7827860bd8db927b49b01": {
+      "engine": "google",
+      "query": "site:netmadeira.com \"Espinho\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:30:58Z",
+      "expires_at": "2026-07-31T04:30:41Z",
+      "results": []
+    },
+    "2c7f8e1496bc97cf9028ef9f2259579912c011d20871dec20b69a61fbd295e60": {
+      "engine": "google",
+      "query": "site:madeiracams.com \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:31:21Z",
+      "expires_at": "2026-07-31T04:30:58Z",
+      "results": []
+    },
+    "d38bc0a806b01333611476ffedbabdc2c98f1c2e325f6985f27fb08f829c520f": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:31:43Z",
+      "expires_at": "2026-07-31T04:31:21Z",
+      "results": []
+    },
+    "cb7cd8f510efd5ab27b4fc0a87b8bd9c2aa9f4c98f59b46eccaf01ac8f6d6608": {
+      "engine": "google",
+      "query": "site:back-office.beachcam.pt/livecams \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:32:05Z",
+      "expires_at": "2026-07-31T04:31:43Z",
+      "results": []
+    },
+    "3c026a94b1a6dc28d2ab31eb24e342e88e3a6bc99113a584a286ebf44a31d040": {
+      "engine": "google",
+      "query": "Portugal webcam Portugal \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:32:28Z",
+      "expires_at": "2026-07-31T04:32:05Z",
+      "results": []
+    },
+    "208c9def30ff8f1a56f54bb3b056249d57cd71153577c768ad521c048a0d2ed1": {
+      "engine": "google",
+      "query": "Espinho praia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:32:50Z",
+      "expires_at": "2026-07-31T04:32:28Z",
+      "results": []
+    },
+    "f1e3d75654f5b400b0002552cfc946816e1164bdd3a4441431406975f2555948": {
+      "engine": "google",
+      "query": "Espinho surf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:33:12Z",
+      "expires_at": "2026-07-31T04:32:50Z",
+      "results": []
+    },
+    "4bd717c97c81f0c964f7ba6abab98601dcc3fe6b279024a74b256e27a1dae5e0": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt Espinho",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:33:34Z",
+      "expires_at": "2026-07-31T04:33:12Z",
+      "results": []
+    },
+    "a57dc9f3774289c7180b53361942c4a6d89d75f9e52cac67af8aa9e05d074838": {
+      "engine": "google",
+      "query": "site:surfline.com Espinho Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:33:57Z",
+      "expires_at": "2026-07-31T04:33:34Z",
+      "results": []
+    },
+    "df4863511d7b2ea5487b45c991334627567f5d426f8dbb85d476dccd25dd049a": {
+      "engine": "google",
+      "query": "site:magicseaweed.com Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:34:19Z",
+      "expires_at": "2026-07-31T04:33:57Z",
+      "results": []
+    },
+    "23a79e38a6ff41e8f361fa5e24aebe8dae3c2c2d5105de40ff33f5ef41af4199": {
+      "engine": "google",
+      "query": "site:windfinder.com Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:34:41Z",
+      "expires_at": "2026-07-31T04:34:19Z",
+      "results": []
+    },
+    "2a0719bd39b6fa0f672208cbf52ab22adb58a33b963197ad3a9d6b465210e69f": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Espinho praia",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:35:04Z",
+      "expires_at": "2026-07-31T04:34:41Z",
+      "results": []
+    },
+    "fde5a79a7746b0bb1c24711a2c10f4f9961b916abdd33492c0b0423d2456edf5": {
+      "engine": "google",
+      "query": "Espinho porto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:35:26Z",
+      "expires_at": "2026-07-31T04:35:04Z",
+      "results": []
+    },
+    "a601afe346dffa7716f4eaf8d21a97382a36fd3ca55bcc4e9a9c80c2b12a1e82": {
+      "engine": "google",
+      "query": "Espinho marina webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:35:49Z",
+      "expires_at": "2026-07-31T04:35:26Z",
+      "results": []
+    },
+    "ee64c63c8cce391d449fb93d40900c9ce04dd82d40231aab924e3b3606ee27ab": {
+      "engine": "google",
+      "query": "Espinho clube náutico live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:36:11Z",
+      "expires_at": "2026-07-31T04:35:49Z",
+      "results": []
+    },
+    "92abc28eec65ad5e97cea181a54a59734c11afbe381868613630a93b8aa9074c": {
+      "engine": "google",
+      "query": "Espinho barra porto câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:36:33Z",
+      "expires_at": "2026-07-31T04:36:11Z",
+      "results": []
+    },
+    "42e2ea077ff45af48c0ed57417847618d7168b6e7b7867270a02302d0e421288": {
+      "engine": "google",
+      "query": "site:portosdeportugal.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:36:56Z",
+      "expires_at": "2026-07-31T04:36:33Z",
+      "results": []
+    },
+    "0bd29a0f5f55f612e3a4ab6b5ecbe7304e5658f22d7e952be7d09c6d0029f18e": {
+      "engine": "google",
+      "query": "site:amn.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:37:18Z",
+      "expires_at": "2026-07-31T04:36:56Z",
+      "results": []
+    },
+    "915ea398207a0092a32d452f6fe65c29402a5a5ee739cf8b9d138ef03ab50306": {
+      "engine": "google",
+      "query": "site:docapesca.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:37:40Z",
+      "expires_at": "2026-07-31T04:37:18Z",
+      "results": []
+    },
+    "5e7521a8db57f44c213d1488b2ff0f15ffc741876a9e2bba85641e44fad32730": {
+      "engine": "google",
+      "query": "site:apdl.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:38:02Z",
+      "expires_at": "2026-07-31T04:37:40Z",
+      "results": []
+    },
+    "b15335899ddca09a65634ddf9ce8f99693cb06dc1e70b7ac89b5ef77c1391896": {
+      "engine": "google",
+      "query": "site:portoaveiro.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:38:25Z",
+      "expires_at": "2026-07-31T04:38:02Z",
+      "results": []
+    },
+    "0f6b55b4408b74c63e9ca74c5e79452ff3612be53d26636bdc2a2590b277f33e": {
+      "engine": "google",
+      "query": "site:portodelisboa.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:38:47Z",
+      "expires_at": "2026-07-31T04:38:25Z",
+      "results": []
+    },
+    "184fe3bb145b6924773dacac2d770a9e6c54d51410ed019e1809d7a593d22ccb": {
+      "engine": "google",
+      "query": "site:apsinesalgarve.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:39:10Z",
+      "expires_at": "2026-07-31T04:38:47Z",
+      "results": []
+    },
+    "3e2ae39d8e24da6fbdc8238c0de7897f693594b3f3ff4e01735c0f8a3eed44d5": {
+      "engine": "google",
+      "query": "Espinho aeroporto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:39:32Z",
+      "expires_at": "2026-07-31T04:39:10Z",
+      "results": []
+    },
+    "c5f918c2d4cd7d0095b2382c82754cc02d4494d2d2265cfce5e18397789d438e": {
+      "engine": "google",
+      "query": "Espinho aeródromo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:39:55Z",
+      "expires_at": "2026-07-31T04:39:32Z",
+      "results": []
+    },
+    "c03a9c725a8371cea89f99fca8edf30993f242687887936a32414a6c4582ab36": {
+      "engine": "google",
+      "query": "Espinho aeroclube webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:40:17Z",
+      "expires_at": "2026-07-31T04:39:55Z",
+      "results": []
+    },
+    "3ff699d1c76a0edccb3416bcea6c09bccfd63ed742a60d4b741daeeec890286f": {
+      "engine": "google",
+      "query": "Espinho pista aviação câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:40:39Z",
+      "expires_at": "2026-07-31T04:40:17Z",
+      "results": []
+    },
+    "18509eebefb0a2cda2d088d0aa192a918b4b1b5e4ba28aff74a4f4c1f133adcb": {
+      "engine": "google",
+      "query": "site:ana.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:41:02Z",
+      "expires_at": "2026-07-31T04:40:39Z",
+      "results": []
+    },
+    "eca028f08352aab77115a473ec6490870084a7122c77ef68aae5760123f52eb5": {
+      "engine": "google",
+      "query": "site:nav.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:41:24Z",
+      "expires_at": "2026-07-31T04:41:02Z",
+      "results": []
+    },
+    "f7b9c22aa3a16b22f8466ca68299715ed2180add0dad06dcf930d8129da44aab": {
+      "engine": "google",
+      "query": "site:airportwebcams.net Portugal Espinho",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:41:46Z",
+      "expires_at": "2026-07-31T04:41:24Z",
+      "results": []
+    },
+    "06c54cdc594f592f3b32d4099939a8f89cc40481717f00a80d1dd5ccfbf36bbd": {
+      "engine": "google",
+      "query": "site:metar-taf.com Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:42:09Z",
+      "expires_at": "2026-07-31T04:41:46Z",
+      "results": []
+    },
+    "1c0edb2cccd8385324e51be73c7960acd62c09fcf82f158f707c8fe59070d989": {
+      "engine": "google",
+      "query": "site:youtube.com Espinho airport live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:42:31Z",
+      "expires_at": "2026-07-31T04:42:09Z",
+      "results": []
+    },
+    "b05674036c650ba88611ac2d8d0cf9e3df2f6539ae0d6280f757a7485574fa94": {
+      "engine": "google",
+      "query": "site:facebook.com aeroclube Espinho direto",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:42:53Z",
+      "expires_at": "2026-07-31T04:42:31Z",
+      "results": []
+    },
+    "80469a3c8076881938bdf01f65070f160c5d3d3c1ce15f58f0b7b178516ade33": {
+      "engine": "google",
+      "query": "Espinho trânsito estrada webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:43:16Z",
+      "expires_at": "2026-07-31T04:42:53Z",
+      "results": []
+    },
+    "39a6203a6ffadf9c2b8d04b92f1245bca9fedeb1b7e519ab75f1b10313bd8f6c": {
+      "engine": "google",
+      "query": "Espinho câmara tráfego ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:43:38Z",
+      "expires_at": "2026-07-31T04:43:16Z",
+      "results": []
+    },
+    "2e1d84564eb4dec451403595fa6cdb3fde572916ec803b8a5768befd21eb8efa": {
+      "engine": "google",
+      "query": "Espinho estação ferroviária webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:44:01Z",
+      "expires_at": "2026-07-31T04:43:38Z",
+      "results": []
+    },
+    "1bea21448bb5a0ed9169e515c36d76202fc3904ad19083479ac524f46a3364eb": {
+      "engine": "google",
+      "query": "Espinho terminal rodoviário webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:44:23Z",
+      "expires_at": "2026-07-31T04:44:01Z",
+      "results": []
+    },
+    "caf2c25cc2a5a9b3317ee42357f7fa13ce272709b7bcc8706bf6c934a5f2f652": {
+      "engine": "google",
+      "query": "site:infraestruturasdeportugal.pt Espinho camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:44:45Z",
+      "expires_at": "2026-07-31T04:44:23Z",
+      "results": []
+    },
+    "cd0dedd30850c14945ac78be87b54fd4293aedb19b25f894162cfd251c8fcfd5": {
+      "engine": "google",
+      "query": "site:estradas.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:45:08Z",
+      "expires_at": "2026-07-31T04:44:45Z",
+      "results": []
+    },
+    "c9be858645d3920f93114bd006146e1a04c44a2d96074a9e5b9973b6d31ee1d7": {
+      "engine": "google",
+      "query": "site:cp.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:45:30Z",
+      "expires_at": "2026-07-31T04:45:08Z",
+      "results": []
+    },
+    "be7a2744dbc4e0a5bd40ff8d1c63387f04bec61f106129c2d622c701ccef5ab6": {
+      "engine": "google",
+      "query": "site:metrolisboa.pt Espinho live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:45:52Z",
+      "expires_at": "2026-07-31T04:45:30Z",
+      "results": []
+    },
+    "1b841c5e4ace129e0d931d18b7e7ef438f8b7405b45a9fc4f570cd832a7c799a": {
+      "engine": "google",
+      "query": "site:metrodoporto.pt Espinho live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:46:14Z",
+      "expires_at": "2026-07-31T04:45:52Z",
+      "results": []
+    },
+    "1f9eb81ea6aa8e5d1073d061cfd4bc1f667b1c1791c7edf7ea60e4505d2b247d": {
+      "engine": "google",
+      "query": "Espinho serra webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:46:37Z",
+      "expires_at": "2026-07-31T04:46:14Z",
+      "results": []
+    },
+    "c969f95b575f926f815cde9e564d0846f44967cc176d29b610296fa87c6b6efd": {
+      "engine": "google",
+      "query": "Espinho parque natural webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:46:59Z",
+      "expires_at": "2026-07-31T04:46:37Z",
+      "results": []
+    },
+    "e1db5e1fe3153836c775240a26fdf3dd070563e8c10c85b8fc1c877961256f25": {
+      "engine": "google",
+      "query": "Espinho barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:47:22Z",
+      "expires_at": "2026-07-31T04:46:59Z",
+      "results": []
+    },
+    "c3c1f1548be06c143ba47cad9a668349a5a6e71a4d4f16012f2d4c4c6ffefb63": {
+      "engine": "google",
+      "query": "Espinho miradouro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:47:44Z",
+      "expires_at": "2026-07-31T04:47:22Z",
+      "results": []
+    },
+    "e1cc230e583aef9dd9a8adabdd21693cb8ed1e9948ed2261fca6270133b601de": {
+      "engine": "google",
+      "query": "Espinho rio webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:48:06Z",
+      "expires_at": "2026-07-31T04:47:44Z",
+      "results": []
+    },
+    "02baf506020e619c355f39b285a24e1d1e615a4ade45eeb84973106808cadc13": {
+      "engine": "google",
+      "query": "site:icnf.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:48:28Z",
+      "expires_at": "2026-07-31T04:48:06Z",
+      "results": []
+    },
+    "1663a740ecd0c6ef2ba19abc7d2c36c8a9c45d4a568c2c97726a7550935b1859": {
+      "engine": "google",
+      "query": "site:snirh.apambiente.pt Espinho câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:48:51Z",
+      "expires_at": "2026-07-31T04:48:28Z",
+      "results": []
+    },
+    "8321fd056c81ae34de49f0d097d052a0c2e1cbb6d8714d3cc93c68cae1c37144": {
+      "engine": "google",
+      "query": "site:edp.com Espinho barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:49:13Z",
+      "expires_at": "2026-07-31T04:48:51Z",
+      "results": []
+    },
+    "ff7f82a790b415650850d5d713134edf53e0c8f347042422db8e0ab834077960": {
+      "engine": "google",
+      "query": "site:meteoblue.com Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:49:35Z",
+      "expires_at": "2026-07-31T04:49:13Z",
+      "results": []
+    },
+    "bb25db4f343b3b53af13954833db9f1c8e2fca4391a7deb75317f0dd6e29530f": {
+      "engine": "google",
+      "query": "Espinho hotel webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:49:58Z",
+      "expires_at": "2026-07-31T04:49:35Z",
+      "results": []
+    },
+    "688cf6a89a21f316a805c8886c9e689a7096c61334d760599a081c3e2de5dde0": {
+      "engine": "google",
+      "query": "Espinho resort webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:50:20Z",
+      "expires_at": "2026-07-31T04:49:58Z",
+      "results": []
+    },
+    "fd6d8d6dd8066171b7d0750ddb08cb381991b28c55971910207a7315acc7dfb6": {
+      "engine": "google",
+      "query": "Espinho alojamento webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:50:43Z",
+      "expires_at": "2026-07-31T04:50:20Z",
+      "results": []
+    },
+    "1408223d66475785f5fa71d4881ea5c9bb5dd0fe903f68e4a7bf6af9b16a7426": {
+      "engine": "google",
+      "query": "Espinho parque de campismo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:51:05Z",
+      "expires_at": "2026-07-31T04:50:43Z",
+      "results": []
+    },
+    "f84ee9e3a091439034a0e786d1b3482a1d85577562c1088df93eb34153d08849": {
+      "engine": "google",
+      "query": "site:booking.com Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:51:27Z",
+      "expires_at": "2026-07-31T04:51:05Z",
+      "results": []
+    },
+    "ae9a0cee06a0568337036a625e4aa77c9bc80ea47bf1cb7ce5b1492c5ff1f12d": {
+      "engine": "google",
+      "query": "site:youtube.com hotel Espinho live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:51:49Z",
+      "expires_at": "2026-07-31T04:51:27Z",
+      "results": []
+    },
+    "9c6d35344499207e1a0efa5da506c6fd5cca90e6ea9a6eafe70b754cc9ee4834": {
+      "engine": "google",
+      "query": "Espinho golf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:52:12Z",
+      "expires_at": "2026-07-31T04:51:49Z",
+      "results": []
+    },
+    "d2335f402c3873407292d4c5f4edde8112f69e8fab89fef32548ceb84d9ad544": {
+      "engine": "google",
+      "query": "Espinho estádio webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:52:34Z",
+      "expires_at": "2026-07-31T04:52:12Z",
+      "results": []
+    },
+    "9d544c73703d9d86aa762e489bd01485b71d6f11d0fcfe3656044bfe64a2e9a7": {
+      "engine": "google",
+      "query": "Espinho ski webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:52:57Z",
+      "expires_at": "2026-07-31T04:52:34Z",
+      "results": []
+    },
+    "9ef975cf7994ce5fa5a7c79d26ca243fa56c40ceb241d1ee72f8f3e0bfdd5b5f": {
+      "engine": "google",
+      "query": "Espinho estância neve webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:53:19Z",
+      "expires_at": "2026-07-31T04:52:57Z",
+      "results": []
+    },
+    "21a11422d5a32acb20fcb18108772028e035d7dff1348b55ae6bbc7daa3fb328": {
+      "engine": "google",
+      "query": "Espinho circuito automóvel webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:53:41Z",
+      "expires_at": "2026-07-31T04:53:19Z",
+      "results": []
+    },
+    "d754870af33240dc44e318cdb67155770247f6e38209629636f0ba2db7792886": {
+      "engine": "google",
+      "query": "Espinho clube desportivo live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:54:04Z",
+      "expires_at": "2026-07-31T04:53:41Z",
+      "results": []
+    },
+    "1fb0193830cbc6393034d07d3d45aa03870ce3cced8e63262c7e41c89a265e9a": {
+      "engine": "google",
+      "query": "Espinho meteorologia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:54:26Z",
+      "expires_at": "2026-07-31T04:54:04Z",
+      "results": []
+    },
+    "5edf95f0a2b91042b820e3c8c58cc89e07f8f4af1d2cf5d00a71b76212fa7dd0": {
+      "engine": "google",
+      "query": "Espinho estação meteorológica câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:54:49Z",
+      "expires_at": "2026-07-31T04:54:26Z",
+      "results": []
+    },
+    "2389e3e1c578c6d84fe0916ae1b1f89bff3c964212d55c24b2f328ea4fd4f318": {
+      "engine": "google",
+      "query": "Espinho observatório webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:55:11Z",
+      "expires_at": "2026-07-31T04:54:49Z",
+      "results": []
+    },
+    "5931ae7b02a87168878b871f1bd238bca287f4f527d80e42d41d5e34d0c6bc85": {
+      "engine": "google",
+      "query": "site:ipma.pt Espinho camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:55:34Z",
+      "expires_at": "2026-07-31T04:55:11Z",
+      "results": []
+    },
+    "e5555d49c535f348ee8bd20b5fcdad99ecb25e0eac0ff96b21ac84c72d6b7f20": {
+      "engine": "google",
+      "query": "site:observar.ipma.pt Espinho Câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:55:56Z",
+      "expires_at": "2026-07-31T04:55:34Z",
+      "results": []
+    },
+    "672e042cc79e7b01f357597f28d373d030d093875a454d5cbf677a85ed39c2e9": {
+      "engine": "google",
+      "query": "site:weathercloud.net Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:56:18Z",
+      "expires_at": "2026-07-31T04:55:56Z",
+      "results": []
+    },
+    "58d9d877ff2cddb6f907fcd7734712fc6944821fb230bc69d42a2eb1c293c5c1": {
+      "engine": "google",
+      "query": "site:wunderground.com Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:56:40Z",
+      "expires_at": "2026-07-31T04:56:18Z",
+      "results": []
+    },
+    "3429926fb634aac278a62ce5e05e9c183cd8c2171fb44012ff6348bc3ad6613a": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Espinho",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:57:02Z",
+      "expires_at": "2026-07-31T04:56:40Z",
+      "results": []
+    },
+    "6107bfc351afad77e16e14e77c737157e4608a6238e910997fde90a1d8ba1fc7": {
+      "engine": "google",
+      "query": "Espinho universidade webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:57:25Z",
+      "expires_at": "2026-07-31T04:57:02Z",
+      "results": []
+    },
+    "474799008308b8ea0729377cdb6edb4e759ef3ba358875f8771c973ee6865981": {
+      "engine": "google",
+      "query": "Espinho observatório astronómico live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:57:47Z",
+      "expires_at": "2026-07-31T04:57:25Z",
+      "results": []
+    },
+    "7c8149d0f8152dea1e92e10fd167da48dd68e6db427456e756b2dfb34cb88acf": {
+      "engine": "google",
+      "query": "Espinho centro ciência webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:58:09Z",
+      "expires_at": "2026-07-31T04:57:47Z",
+      "results": []
+    },
+    "deaddbfdacc993ddd58d1de48a6a6395087d1b9d96013f8d9dee6a1d2d6012f7": {
+      "engine": "google",
+      "query": "site:ulisboa.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:58:31Z",
+      "expires_at": "2026-07-31T04:58:09Z",
+      "results": []
+    },
+    "432c21efd2ebddfc6be86a77412db9ecee510753ad7de0928b77fe25008dd19a": {
+      "engine": "google",
+      "query": "site:up.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:58:54Z",
+      "expires_at": "2026-07-31T04:58:31Z",
+      "results": []
+    },
+    "0ed3ed715bae4063d640c055f7740bef0531bc55993950235b6e09c771ab49d6": {
+      "engine": "google",
+      "query": "site:uc.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:59:16Z",
+      "expires_at": "2026-07-31T04:58:54Z",
+      "results": []
+    },
+    "ba071596e006ebca114ecb056efb44f1b33941ae62b27cf5a44afc390be243d6": {
+      "engine": "google",
+      "query": "site:uminho.pt Espinho webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T04:59:38Z",
+      "expires_at": "2026-07-31T04:59:16Z",
+      "results": []
+    },
+    "04f540e962905d6527c95fa5a2f7d7f2929c8c6b93056537c31b7c7febaed28b": {
+      "engine": "google",
+      "query": "site:youtube.com/watch \"Espinho\" live webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:00:01Z",
+      "expires_at": "2026-07-31T04:59:38Z",
+      "results": []
+    },
+    "b97325ad31751c98a17b0723baf4ca23c0099c361ff8afd4c7c4498f9109091e": {
+      "engine": "google",
+      "query": "site:youtube.com/live \"Espinho\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:00:23Z",
+      "expires_at": "2026-07-31T05:00:01Z",
+      "results": []
+    },
+    "83162526be41945b2449fd002f3e6600a4df26a40b6456935dae4a65170411bf": {
+      "engine": "google",
+      "query": "site:facebook.com \"Espinho\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:00:45Z",
+      "expires_at": "2026-07-31T05:00:23Z",
+      "results": []
+    },
+    "e22e56c20011198bf333d629f4da241a5a0d12c8704e9174ac9dd45add32cc67": {
+      "engine": "google",
+      "query": "site:twitch.tv \"Espinho\" Portugal live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:01:08Z",
+      "expires_at": "2026-07-31T05:00:45Z",
+      "results": []
+    },
+    "8d125343db2d5641ae31380ee1e4672441fd96bce4d0f06e4ec8aaf17c0752d8": {
+      "engine": "google",
+      "query": "site:instagram.com \"Espinho\" direto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:01:30Z",
+      "expires_at": "2026-07-31T05:01:08Z",
+      "results": []
+    },
+    "23cb3625b5cde140e72fee210d93dd341a57648ec094c22f0797b5260942d145": {
+      "engine": "google",
+      "query": "\"Espinho\" m3u8 webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:01:52Z",
+      "expires_at": "2026-07-31T05:01:30Z",
+      "results": []
+    },
+    "df2edd9f20ccb20d81816d794f9973fcbf1cc16e1ed4626a15364e8ce2100828": {
+      "engine": "google",
+      "query": "\"Espinho\" mpd live camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:02:15Z",
+      "expires_at": "2026-07-31T05:01:52Z",
+      "results": []
+    },
+    "82e3c265d807021a480293aad34f0f032d91d443351d7de5fc6b319e64ce60c2": {
+      "engine": "google",
+      "query": "\"Espinho\" mjpeg camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:02:37Z",
+      "expires_at": "2026-07-31T05:02:15Z",
+      "results": []
+    },
+    "0473d1da1b3dc94edf043e54a224afdfd80a04febb6145aa1802468b313e2fd2": {
+      "engine": "google",
+      "query": "\"Espinho\" snapshot.jpg",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:02:59Z",
+      "expires_at": "2026-07-31T05:02:37Z",
+      "results": []
+    },
+    "d086e71c1cde759f6d87cbfaf382e7b88309df8f75ce8e2ae109b69a621a018c": {
+      "engine": "google",
+      "query": "\"Espinho\" videostream.cgi",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:03:21Z",
+      "expires_at": "2026-07-31T05:02:59Z",
+      "results": []
+    },
+    "c442cc2781dd9f830dce349327fba899439449c30a223605eb4817a535435ffb": {
+      "engine": "google",
+      "query": "\"Espinho\" axis-cgi/mjpg",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:03:43Z",
+      "expires_at": "2026-07-31T05:03:21Z",
+      "results": []
+    },
+    "f11f24d15a809ab9b60953f729262482d9ba480df916083bac0bda1e0aec3a08": {
+      "engine": "google",
+      "query": "\"Espinho\" iframe live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:04:06Z",
+      "expires_at": "2026-07-31T05:03:43Z",
+      "results": []
+    },
+    "4bbe0c1b860b6feacba71ebcbb3f07a4ca5a3820409e70992aed719cb7762abf": {
+      "engine": "google",
+      "query": "inurl:viewerframe?mode=motion \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:04:29Z",
+      "expires_at": "2026-07-31T05:04:06Z",
+      "results": []
+    },
+    "aae60964018340705aeacc4aff225c1a764cbbeaccd0349a73a935470d551c00": {
+      "engine": "google",
+      "query": "inurl:axis-cgi \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:04:51Z",
+      "expires_at": "2026-07-31T05:04:29Z",
+      "results": []
+    },
+    "4d5d721c05451e9dc815d5121a232738e2453a1b696c97ff92652395d4a8bc6d": {
+      "engine": "google",
+      "query": "inurl:Streaming/channels \"Espinho\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:05:13Z",
+      "expires_at": "2026-07-31T05:04:51Z",
+      "results": []
+    },
+    "8a8468f7e36d97a3143a92bd000fea2e4fc1207d19c5b0209f33ca6d6aa799a8": {
+      "engine": "google",
+      "query": "site:cm-estarreja.pt webcam Estarreja",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:05:35Z",
+      "expires_at": "2026-07-31T05:05:13Z",
+      "results": []
+    },
+    "7eca779ad2f89897f1f6d20209f68fb091352b6ab42406270c6f98f1c3a64bec": {
+      "engine": "google",
+      "query": "site:municipio-estarreja.pt webcam Estarreja",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:05:58Z",
+      "expires_at": "2026-07-31T05:05:35Z",
+      "results": []
+    },
+    "4de9af5b0dd35c5ee554e2139161725a651b94477648c3df46312cdac498b440": {
+      "engine": "google",
+      "query": "site:estarreja.pt webcam Estarreja",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:06:20Z",
+      "expires_at": "2026-07-31T05:05:58Z",
+      "results": []
+    },
+    "d94e0b772a16c2498bedf2a98edfbcbe75271b4c168906161b810e7332abd2bd": {
+      "engine": "google",
+      "query": "site:cm-estarreja.pt (direto OR livestream OR câmara)",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:06:43Z",
+      "expires_at": "2026-07-31T05:06:20Z",
+      "results": []
+    },
+    "cb23fd2704b050784620c7bc27907a98831f70178eba64614570b40b601e2b86": {
+      "engine": "google",
+      "query": "turismo Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:07:05Z",
+      "expires_at": "2026-07-31T05:06:43Z",
+      "results": []
+    },
+    "b5c2463eb7f79774c386c34ab64c5eb5bf55a42f202ee55aac74b0a58c43a15d": {
+      "engine": "google",
+      "query": "visit Estarreja live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:07:28Z",
+      "expires_at": "2026-07-31T05:07:05Z",
+      "results": []
+    },
+    "f0eff1260882fe7eadf00ef366d3bc8afe6a8e2546300d38e1287c4fea7f752d": {
+      "engine": "google",
+      "query": "site:visitportugal.com Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:07:50Z",
+      "expires_at": "2026-07-31T05:07:28Z",
+      "results": []
+    },
+    "c980e386f713c66cd46728efd5cf0a66de5280d0989f366f5e0521f0caf46fc2": {
+      "engine": "google",
+      "query": "site:turismodeportugal.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:08:12Z",
+      "expires_at": "2026-07-31T05:07:50Z",
+      "results": []
+    },
+    "1964bc3372e996cffd7e100bde286f53bc0580b5e4d8893ac7ee29fdda89d6f2": {
+      "engine": "google",
+      "query": "site:visitportoandnorth.travel Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:08:35Z",
+      "expires_at": "2026-07-31T05:08:12Z",
+      "results": []
+    },
+    "6dc5548bad907a26e1a297baab09174868ba558898c4924e52a1d222b641f1b3": {
+      "engine": "google",
+      "query": "site:visitcentrodeportugal.com.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:08:57Z",
+      "expires_at": "2026-07-31T05:08:35Z",
+      "results": []
+    },
+    "11cc30bf89f27ab8a8231ea3aa4d0c672ecec8d085a4017d8eb9df7b6b064e59": {
+      "engine": "google",
+      "query": "site:visitlisboa.com Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:09:19Z",
+      "expires_at": "2026-07-31T05:08:57Z",
+      "results": []
+    },
+    "102e25de605565635d60e364a1a6212c745fd1b27952df42cbb3f6ed7cf6e65d": {
+      "engine": "google",
+      "query": "site:visitalentejo.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:09:42Z",
+      "expires_at": "2026-07-31T05:09:19Z",
+      "results": []
+    },
+    "d79da5ccb193efe3bf5a46d272b414db0930e3396caeb106ac8e17aa90995aff": {
+      "engine": "google",
+      "query": "site:visitalgarve.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:10:04Z",
+      "expires_at": "2026-07-31T05:09:42Z",
+      "results": []
+    },
+    "fb9457d246fd836105cc105dab03590ad9b940568d357ea9780d001d70713619": {
+      "engine": "google",
+      "query": "\"webcam\" \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:10:26Z",
+      "expires_at": "2026-07-31T05:10:04Z",
+      "results": []
+    },
+    "0fd782291e1227600bf68bbd66603fc52135b2d6491dafd57ac7de5f2d26b8f1": {
+      "engine": "google",
+      "query": "\"web cam\" \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:10:48Z",
+      "expires_at": "2026-07-31T05:10:26Z",
+      "results": []
+    },
+    "16b98103af0c72302444321bbe539f8d9c2038fabc2fba3e8cca11b695f1f2a0": {
+      "engine": "google",
+      "query": "\"live cam\" \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:11:11Z",
+      "expires_at": "2026-07-31T05:10:48Z",
+      "results": []
+    },
+    "794ed1b8236d328009b689b5727a37b0a8f0ecedf6cacb1b7ef1a9add8a90696": {
+      "engine": "google",
+      "query": "\"câmara ao vivo\" \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:11:33Z",
+      "expires_at": "2026-07-31T05:11:11Z",
+      "results": []
+    },
+    "c632d8bfec5a3aaa6a310515bd562caf4803161d1ecbc300fa7529100fd80179": {
+      "engine": "bing",
+      "query": "\"camera ao vivo\" \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:11:55Z",
+      "expires_at": "2026-07-31T05:11:33Z",
+      "results": []
+    },
+    "e46617599052ac0561262d67c44beafdf834f3794ef2214807e0f77b022ab54c": {
+      "engine": "bing",
+      "query": "\"transmissão em direto\" \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:12:18Z",
+      "expires_at": "2026-07-31T05:11:55Z",
+      "results": []
+    },
+    "363e381de52df9323fafdd1ab160513d567c44e0f432971d74037529bfc4f04d": {
+      "engine": "bing",
+      "query": "\"live stream\" \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:12:40Z",
+      "expires_at": "2026-07-31T05:12:18Z",
+      "results": []
+    },
+    "de47734aa5a8ff2732024c24c36cd4163d20cc6a13e0ac5e885e847811b54152": {
+      "engine": "bing",
+      "query": "site:.pt webcam \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:13:02Z",
+      "expires_at": "2026-07-31T05:12:40Z",
+      "results": []
+    },
+    "f700fd521340a9e7441f45d591fc132878442dd3b8724e5709b4da914653ee94": {
+      "engine": "duckduckgo",
+      "query": "site:youtube.com/live \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:13:24Z",
+      "expires_at": "2026-07-31T05:13:02Z",
+      "results": []
+    },
+    "35d5f26f658b34d0aaacf15614f2c1b892286a92473182e0dbb1c378370b6e00": {
+      "engine": "duckduckgo",
+      "query": "site:facebook.com \"Estarreja\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:13:47Z",
+      "expires_at": "2026-07-31T05:13:24Z",
+      "results": []
+    },
+    "b0263f223a4e7478563865968b0eaa82f0223bfe4156d6cb2d6d75e5e03cc80b": {
+      "engine": "duckduckgo",
+      "query": "site:instagram.com \"Estarreja\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:14:09Z",
+      "expires_at": "2026-07-31T05:13:47Z",
+      "results": []
+    },
+    "ff4687883bf621857b3a226be77ee67434025f329319f48cfcb032e42dabf375": {
+      "engine": "duckduckgo",
+      "query": "\"Axis\" \"Estarreja\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:14:32Z",
+      "expires_at": "2026-07-31T05:14:09Z",
+      "results": []
+    },
+    "f81d7ea3514decb800a299041f4a15eb581a4ed9441b31d4e093c9b9979ec579": {
+      "engine": "duckduckgo",
+      "query": "\"Mobotix\" \"Estarreja\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:14:54Z",
+      "expires_at": "2026-07-31T05:14:32Z",
+      "results": []
+    },
+    "2150f9300dc6fd819170fd2e2b3ffae58bd6f8250981b0c1efd62b3e4328c100": {
+      "engine": "duckduckgo",
+      "query": "\"Hikvision\" \"Estarreja\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:15:16Z",
+      "expires_at": "2026-07-31T05:14:54Z",
+      "results": []
+    },
+    "69aea1d7f2b0a941e52ff28efe7d59c6cab64780cb64c6dc21748135678c1c4e": {
+      "engine": "google",
+      "query": "site:portugalwebcams.pt \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:15:38Z",
+      "expires_at": "2026-07-31T05:15:16Z",
+      "results": []
+    },
+    "4430e8be6032d6227e8180626eb3120645f953a4b8dafc0305f2e6c6b91637f1": {
+      "engine": "google",
+      "query": "site:webcamgalore.com \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:16:00Z",
+      "expires_at": "2026-07-31T05:15:38Z",
+      "results": []
+    },
+    "d33deff078aeaadbccdd673f2cd7fed4fabfc00539fc1df483d9c97e66704684": {
+      "engine": "google",
+      "query": "site:windy.com/webcams \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:16:23Z",
+      "expires_at": "2026-07-31T05:16:00Z",
+      "results": []
+    },
+    "39f2c671e4c7d16ecd738f519c2dc3b35ae3b9298747f93d6b4a3654102f0e2a": {
+      "engine": "google",
+      "query": "site:windfinder.com/webcams \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:16:45Z",
+      "expires_at": "2026-07-31T05:16:23Z",
+      "results": []
+    },
+    "f201807baa76085f4e8baba84ea65f5895317beae42bf22a1cbf1b806f2fdeca": {
+      "engine": "google",
+      "query": "site:webcams.travel \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:17:07Z",
+      "expires_at": "2026-07-31T05:16:45Z",
+      "results": []
+    },
+    "8fce7dfa7ee00c8b8d562ce21d8d2ef15e0ae4b7e19215cce2c8b77218b49b86": {
+      "engine": "google",
+      "query": "site:webcamtaxi.com \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:17:30Z",
+      "expires_at": "2026-07-31T05:17:07Z",
+      "results": []
+    },
+    "b0c96adcfc6f4f0576556483876562a287ce22457edaec79eeca0c467bac466a": {
+      "engine": "google",
+      "query": "site:worldcam.eu \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:17:52Z",
+      "expires_at": "2026-07-31T05:17:30Z",
+      "results": []
+    },
+    "47b134148d4c559302c019603e50b98605e4dcef3956c7950ddf728fade4a53c": {
+      "engine": "google",
+      "query": "site:geowebcams.com \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:18:14Z",
+      "expires_at": "2026-07-31T05:17:52Z",
+      "results": []
+    },
+    "d314eddad3749d62b37e9d13b8d2f799198ab3eed0b970a146c08e1d9ff1f1e4": {
+      "engine": "google",
+      "query": "site:skylinewebcams.com \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:18:36Z",
+      "expires_at": "2026-07-31T05:18:14Z",
+      "results": []
+    },
+    "e070b43f3423b4368310298e843c15d418e99be3725ed125f55a3f32658165f7": {
+      "engine": "google",
+      "query": "site:earthcam.com \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:18:59Z",
+      "expires_at": "2026-07-31T05:18:36Z",
+      "results": []
+    },
+    "5d06ba7be95d144ecea543a721ae37ca4948d758d76a05be915490040d22cf52": {
+      "engine": "google",
+      "query": "site:ipcamlive.com \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:19:21Z",
+      "expires_at": "2026-07-31T05:18:59Z",
+      "results": []
+    },
+    "0c7f1d3826855a83ec520ea202a577f48837d54955af431f6d2204d2d2e817b8": {
+      "engine": "google",
+      "query": "site:meteoblue.com \"Estarreja\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:19:43Z",
+      "expires_at": "2026-07-31T05:19:21Z",
+      "results": []
+    },
+    "20a81f5f5751310c66abb0ea6e1c285dade0e8b95f387ab646971831f8dcf88e": {
+      "engine": "google",
+      "query": "site:spotazores.com \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:20:05Z",
+      "expires_at": "2026-07-31T05:19:43Z",
+      "results": []
+    },
+    "48c6e478865e821bcddc2a6b68254e095e7b44db03adfe20b0ac9dcfbf3f43fc": {
+      "engine": "google",
+      "query": "site:netmadeira.com \"Estarreja\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:20:28Z",
+      "expires_at": "2026-07-31T05:20:05Z",
+      "results": []
+    },
+    "ad402e613ebcdba8b15e0445739bff96362e5be9b676f27541d52d4844b2a8c5": {
+      "engine": "google",
+      "query": "site:madeiracams.com \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:20:50Z",
+      "expires_at": "2026-07-31T05:20:28Z",
+      "results": []
+    },
+    "1c568d925e90b9a507e9992af647c287f8961b201256282c8d87e1f462ff067c": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:21:12Z",
+      "expires_at": "2026-07-31T05:20:50Z",
+      "results": []
+    },
+    "df394031baba5413b1d95c05ff16b2c3b94a5dede299bac29f6fba9c9c73f4ed": {
+      "engine": "google",
+      "query": "site:back-office.beachcam.pt/livecams \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:21:34Z",
+      "expires_at": "2026-07-31T05:21:12Z",
+      "results": []
+    },
+    "f8123842e8caa153e6706a9f51cf91f6dced354c32aea4ec64bd6f2f6faabeaa": {
+      "engine": "google",
+      "query": "Portugal webcam Portugal \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:21:56Z",
+      "expires_at": "2026-07-31T05:21:34Z",
+      "results": []
+    },
+    "9ce296cd00ce2a2db2aa338bbf9edb72c1fb41faafeaa54bcd5b131da97cde2d": {
+      "engine": "google",
+      "query": "Estarreja praia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:22:19Z",
+      "expires_at": "2026-07-31T05:21:56Z",
+      "results": []
+    },
+    "5791f335d5f65b2764566a16d8eafd48ce3970b5ffe04e215b3c328eb8f3c0a6": {
+      "engine": "google",
+      "query": "Estarreja surf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:22:41Z",
+      "expires_at": "2026-07-31T05:22:19Z",
+      "results": []
+    },
+    "7134684216125dcf454f371f11e9d71b03ed1bf29c5f292056a247997e266318": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt Estarreja",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:23:03Z",
+      "expires_at": "2026-07-31T05:22:41Z",
+      "results": []
+    },
+    "69466d4b49c445f6c987376048128455f0677fc9f5759e75606967555425658d": {
+      "engine": "google",
+      "query": "site:surfline.com Estarreja Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:23:25Z",
+      "expires_at": "2026-07-31T05:23:03Z",
+      "results": []
+    },
+    "e5ed167e4094ba579dbb4bd68e021add8d9379c3e7add715af6f6d36b1459717": {
+      "engine": "google",
+      "query": "site:magicseaweed.com Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:23:48Z",
+      "expires_at": "2026-07-31T05:23:25Z",
+      "results": []
+    },
+    "fffcb6937c29493e0e18bbaf87656883aa4c395d7ccc8ca40640e49d9ad4b799": {
+      "engine": "google",
+      "query": "site:windfinder.com Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:24:10Z",
+      "expires_at": "2026-07-31T05:23:48Z",
+      "results": []
+    },
+    "6836090cf7542777e6a48156723b0de5d901c7ec613413b8e831ccbe55239dc8": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Estarreja praia",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:24:33Z",
+      "expires_at": "2026-07-31T05:24:10Z",
+      "results": []
+    },
+    "a2c6f7f77660e4bbc5fd0ad17e8a1e6a49cc44d34552dd02e1d5ef19a7765e81": {
+      "engine": "google",
+      "query": "Estarreja porto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:24:55Z",
+      "expires_at": "2026-07-31T05:24:33Z",
+      "results": []
+    },
+    "3ef3845f031df5351402f0af334465dfdd570c4fab711e8488420e49cd571d48": {
+      "engine": "google",
+      "query": "Estarreja marina webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:25:17Z",
+      "expires_at": "2026-07-31T05:24:55Z",
+      "results": []
+    },
+    "e67f32d013d6bca3ecf54d4066ed643602a351e2e051d9e35403bece031fffe5": {
+      "engine": "google",
+      "query": "Estarreja clube náutico live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:25:40Z",
+      "expires_at": "2026-07-31T05:25:17Z",
+      "results": []
+    },
+    "bde959e52766bc6972a694b2032b1cd2d518869721a0ed425446235168eaf45e": {
+      "engine": "google",
+      "query": "Estarreja barra porto câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:26:02Z",
+      "expires_at": "2026-07-31T05:25:40Z",
+      "results": []
+    },
+    "833e48f8751a634ddb4112ea6c53257ba0b94513b3762f20e14276e34baf9e5f": {
+      "engine": "google",
+      "query": "site:portosdeportugal.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:26:24Z",
+      "expires_at": "2026-07-31T05:26:02Z",
+      "results": []
+    },
+    "b101b6691391789277bd5dee215c36bb0de9b061eeb82e8435d9610889e3ebfa": {
+      "engine": "google",
+      "query": "site:amn.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:26:47Z",
+      "expires_at": "2026-07-31T05:26:24Z",
+      "results": []
+    },
+    "a47464da0f0f694591371fe14c05c09799c330a1c36add7a2a24081addd4b86d": {
+      "engine": "google",
+      "query": "site:docapesca.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:27:09Z",
+      "expires_at": "2026-07-31T05:26:47Z",
+      "results": []
+    },
+    "fc505613536d9ec60fe889d028da0a4a084a489f7503e5a3d58fd2593d61ca00": {
+      "engine": "google",
+      "query": "site:apdl.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:27:31Z",
+      "expires_at": "2026-07-31T05:27:09Z",
+      "results": []
+    },
+    "39149840ba70876956058355ecceeba4c952d2058d32ce6b986d03582468be1c": {
+      "engine": "google",
+      "query": "site:portoaveiro.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:27:53Z",
+      "expires_at": "2026-07-31T05:27:31Z",
+      "results": []
+    },
+    "78fc669ae7aaef91e21fc3d36e05c67ac2003689509fef8c7490b1bf195f4c01": {
+      "engine": "google",
+      "query": "site:portodelisboa.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:28:16Z",
+      "expires_at": "2026-07-31T05:27:53Z",
+      "results": []
+    },
+    "f50881ca6c20f53fa0c7a3d2f82b82bb505b076a1838dff0b005fc6500ded152": {
+      "engine": "google",
+      "query": "site:apsinesalgarve.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:28:38Z",
+      "expires_at": "2026-07-31T05:28:16Z",
+      "results": []
+    },
+    "a6f627281df6b92aa3225f4efc36e7e307eeea6faa5a0b3bf771c69511e011d5": {
+      "engine": "google",
+      "query": "Estarreja aeroporto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:29:00Z",
+      "expires_at": "2026-07-31T05:28:38Z",
+      "results": []
+    },
+    "c67daf107638833cde82859d8614fb62f857db6b6732559f41840dfcede7272a": {
+      "engine": "google",
+      "query": "Estarreja aeródromo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:29:23Z",
+      "expires_at": "2026-07-31T05:29:00Z",
+      "results": []
+    },
+    "1fcd39b6d06450c1f75c178bfcbb1c0166c325675dc6fe5fa1ee1841cd19813c": {
+      "engine": "google",
+      "query": "Estarreja aeroclube webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:29:45Z",
+      "expires_at": "2026-07-31T05:29:23Z",
+      "results": []
+    },
+    "970cad74ae0f444cb88e2c2478e5db3c3d061f3ca4f89d6b2872bbf957c7e3fb": {
+      "engine": "google",
+      "query": "Estarreja pista aviação câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:30:07Z",
+      "expires_at": "2026-07-31T05:29:45Z",
+      "results": []
+    },
+    "6d060db59a8e8d0d6cf28390caca4571243866e1d0b25591d03029c38ebcb706": {
+      "engine": "google",
+      "query": "site:ana.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:30:30Z",
+      "expires_at": "2026-07-31T05:30:07Z",
+      "results": []
+    },
+    "d8686e2c527188e18d2d9dd9e891c8b79cfb1b67fb8e3acdd47b9d4e8343c35c": {
+      "engine": "google",
+      "query": "site:nav.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:30:52Z",
+      "expires_at": "2026-07-31T05:30:30Z",
+      "results": []
+    },
+    "d9b1ac63e45982c490af50228f298798cc6a8a6396f25cc5003177bd5a97c040": {
+      "engine": "google",
+      "query": "site:airportwebcams.net Portugal Estarreja",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:31:14Z",
+      "expires_at": "2026-07-31T05:30:52Z",
+      "results": []
+    },
+    "344b9996104019160fed9fed74922c5d5a4456b42a5e0aa28e445f1fb15c145e": {
+      "engine": "google",
+      "query": "site:metar-taf.com Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:31:37Z",
+      "expires_at": "2026-07-31T05:31:14Z",
+      "results": []
+    },
+    "ab0668ad6c7e9c206f162cdb050d22a85c239c0db011c2faebbada8c34567a58": {
+      "engine": "google",
+      "query": "site:youtube.com Estarreja airport live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:31:59Z",
+      "expires_at": "2026-07-31T05:31:37Z",
+      "results": []
+    },
+    "97d8baa98359759644ad2dc63fca6784ff64a4b5ce758322cc53e991358b3780": {
+      "engine": "google",
+      "query": "site:facebook.com aeroclube Estarreja direto",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:32:21Z",
+      "expires_at": "2026-07-31T05:31:59Z",
+      "results": []
+    },
+    "2fd1a2879ea880d9361cdc92914fa0e5d497d3e8c01734933178c066c2b4d1a9": {
+      "engine": "google",
+      "query": "Estarreja trânsito estrada webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:32:44Z",
+      "expires_at": "2026-07-31T05:32:21Z",
+      "results": []
+    },
+    "bbf439e204fa4408059f6cf98440af6b962e82ae8737fd64667c3aab7c7b4fea": {
+      "engine": "google",
+      "query": "Estarreja câmara tráfego ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:33:06Z",
+      "expires_at": "2026-07-31T05:32:44Z",
+      "results": []
+    },
+    "f521ed830c78835af27c2b02064d2f4e7ff46c6b23c8b7c0a1596fb7b76dffa4": {
+      "engine": "google",
+      "query": "Estarreja estação ferroviária webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:33:29Z",
+      "expires_at": "2026-07-31T05:33:06Z",
+      "results": []
+    },
+    "cca5731699ff806abf595e91b96b4fdb51e83bf400f4f1629fdfe24368ac12ba": {
+      "engine": "google",
+      "query": "Estarreja terminal rodoviário webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:33:51Z",
+      "expires_at": "2026-07-31T05:33:29Z",
+      "results": []
+    },
+    "e310913a6d5934b80c887ddb99d15ffe4619d9322431a10773119671ed154971": {
+      "engine": "google",
+      "query": "site:infraestruturasdeportugal.pt Estarreja camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:34:13Z",
+      "expires_at": "2026-07-31T05:33:51Z",
+      "results": []
+    },
+    "8b0ca60d00388042ed444b702f91773921f71e92e3c41282adfcc5f017994350": {
+      "engine": "google",
+      "query": "site:estradas.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:34:36Z",
+      "expires_at": "2026-07-31T05:34:13Z",
+      "results": []
+    },
+    "29a984176d9d96bbd6c2959fcbc8bf3c3af9773150799bbc312c005f862b47c3": {
+      "engine": "google",
+      "query": "site:cp.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:34:58Z",
+      "expires_at": "2026-07-31T05:34:36Z",
+      "results": []
+    },
+    "3270c01e4bac5cebe34c10b37130404f4cc688332614deb8641f1cb2f865ba52": {
+      "engine": "google",
+      "query": "site:metrolisboa.pt Estarreja live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:35:20Z",
+      "expires_at": "2026-07-31T05:34:58Z",
+      "results": []
+    },
+    "85053f60d4e309f083a1f0377d699b9564cb09d09500cca860432f6ac68acfd1": {
+      "engine": "google",
+      "query": "site:metrodoporto.pt Estarreja live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:35:43Z",
+      "expires_at": "2026-07-31T05:35:20Z",
+      "results": []
+    },
+    "e8489c251492a984cac99ef939cfdd66b9f1502d6f909906dcfde38246ae6dba": {
+      "engine": "google",
+      "query": "Estarreja serra webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:36:05Z",
+      "expires_at": "2026-07-31T05:35:43Z",
+      "results": []
+    },
+    "6bdeffdba4e6f01448841e21b9dd2823a7acabba0f094fc85e0bd9413c492caf": {
+      "engine": "google",
+      "query": "Estarreja parque natural webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:36:27Z",
+      "expires_at": "2026-07-31T05:36:05Z",
+      "results": []
+    },
+    "b276b268317c070f8f7aff64b7dbdc3009502cece7c8fe2c9e012661389ec2a0": {
+      "engine": "google",
+      "query": "Estarreja barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:36:50Z",
+      "expires_at": "2026-07-31T05:36:27Z",
+      "results": []
+    },
+    "fcfc20ac4be8eb333d1728983cdda5cfc8a2f32b42eddc7cc4e0fb33657b640c": {
+      "engine": "google",
+      "query": "Estarreja miradouro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:37:12Z",
+      "expires_at": "2026-07-31T05:36:50Z",
+      "results": []
+    },
+    "6bc5a13e58b1ea6acd181dde65dd5a0d92ce1c1484fe417c474a58efad5a177b": {
+      "engine": "google",
+      "query": "Estarreja rio webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:37:34Z",
+      "expires_at": "2026-07-31T05:37:12Z",
+      "results": []
+    },
+    "b362a4a4fe76d1d73ba8c5fb1e1bb12549b41ce87c485f3579d56609b9b724c8": {
+      "engine": "google",
+      "query": "site:icnf.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:37:57Z",
+      "expires_at": "2026-07-31T05:37:34Z",
+      "results": []
+    },
+    "d48b4a37312120181b455df4af207194e035fb4cc80ef7c6283b6ccf712e3540": {
+      "engine": "google",
+      "query": "site:snirh.apambiente.pt Estarreja câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:38:19Z",
+      "expires_at": "2026-07-31T05:37:57Z",
+      "results": []
+    },
+    "853537e7cab999667a7cc04e4733596613485a202bfc188087aea452c06d4caa": {
+      "engine": "google",
+      "query": "site:edp.com Estarreja barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:38:42Z",
+      "expires_at": "2026-07-31T05:38:19Z",
+      "results": []
+    },
+    "58f6e0a473b3d1c4bf63963ba763b95654936914a489544d0f552a426937707c": {
+      "engine": "google",
+      "query": "site:meteoblue.com Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:39:04Z",
+      "expires_at": "2026-07-31T05:38:42Z",
+      "results": []
+    },
+    "b1abc554a5c9f35beb715de75c6473f1fd16dbda0fe793824e0275c3c4790cfc": {
+      "engine": "google",
+      "query": "Estarreja hotel webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:39:26Z",
+      "expires_at": "2026-07-31T05:39:04Z",
+      "results": []
+    },
+    "dfaaaba663e8a557de0d7200b2af89fd45e98ca666861231f7b79bde1c3ae426": {
+      "engine": "google",
+      "query": "Estarreja resort webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:39:48Z",
+      "expires_at": "2026-07-31T05:39:26Z",
+      "results": []
+    },
+    "14d918e727739b8f540b2fb28da356dc0d8f9da006541d0e4621c3053313f0e2": {
+      "engine": "google",
+      "query": "Estarreja alojamento webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:40:11Z",
+      "expires_at": "2026-07-31T05:39:48Z",
+      "results": []
+    },
+    "97e58829a128ff26f591f015c55f1f270afd8e0b47f6c2c74cf609e72338b1a8": {
+      "engine": "google",
+      "query": "Estarreja parque de campismo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:40:33Z",
+      "expires_at": "2026-07-31T05:40:11Z",
+      "results": []
+    },
+    "596cdc1b9c087e53ac0b6cc81474b85d3dbb983c6927f5fde623f61130372cce": {
+      "engine": "google",
+      "query": "site:booking.com Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:40:55Z",
+      "expires_at": "2026-07-31T05:40:33Z",
+      "results": []
+    },
+    "ce61ee5fd624ad04ef700309dce7385d992a34682db16d2c1045e60c78ab0c18": {
+      "engine": "google",
+      "query": "site:youtube.com hotel Estarreja live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:41:17Z",
+      "expires_at": "2026-07-31T05:40:55Z",
+      "results": []
+    },
+    "e16153a610e2714daa0c811e2e78fbdddd2929606521c92acad86de238493600": {
+      "engine": "google",
+      "query": "Estarreja golf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:41:40Z",
+      "expires_at": "2026-07-31T05:41:17Z",
+      "results": []
+    },
+    "0deb9ec5fe06e534f671f9fb27be4a372d5287021d5b7be1fd7e6b7442360afa": {
+      "engine": "google",
+      "query": "Estarreja estádio webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:42:02Z",
+      "expires_at": "2026-07-31T05:41:40Z",
+      "results": []
+    },
+    "3f6bb2126c5d24d4113d663d4dad441fff0f1752a5a1483410bd1939708a5907": {
+      "engine": "google",
+      "query": "Estarreja ski webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:42:24Z",
+      "expires_at": "2026-07-31T05:42:02Z",
+      "results": []
+    },
+    "d4fb1e36c2d4ab071ec80a011a4927b94129d9c880ee6d130177df33bcdd31d0": {
+      "engine": "google",
+      "query": "Estarreja estância neve webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:42:47Z",
+      "expires_at": "2026-07-31T05:42:24Z",
+      "results": []
+    },
+    "5da93e77c1cfe5e4d381fb6db026ddcafd57c1f9fa967e2b07a13355ddbdc788": {
+      "engine": "google",
+      "query": "Estarreja circuito automóvel webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:43:09Z",
+      "expires_at": "2026-07-31T05:42:47Z",
+      "results": []
+    },
+    "bf859f72b500b9dc3f0f5bf2b26fbd83707492a1794d0cf0c54acc494a8dc66b": {
+      "engine": "google",
+      "query": "Estarreja clube desportivo live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:43:31Z",
+      "expires_at": "2026-07-31T05:43:09Z",
+      "results": []
+    },
+    "a91bdfba8a36174779ff8d8a52522855da1c33bfe480e02e70273162d9e69bad": {
+      "engine": "google",
+      "query": "Estarreja meteorologia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:43:54Z",
+      "expires_at": "2026-07-31T05:43:31Z",
+      "results": []
+    },
+    "d6f67a25a238727cd26c4ae017202d0d1baf5fe8a02817fb4b8da940f3b67e06": {
+      "engine": "google",
+      "query": "Estarreja estação meteorológica câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:44:16Z",
+      "expires_at": "2026-07-31T05:43:54Z",
+      "results": []
+    },
+    "2b71275e4afeeb0fed37295f6e084b53b4e363ad44676e92c7528cc55694f4b3": {
+      "engine": "google",
+      "query": "Estarreja observatório webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:44:38Z",
+      "expires_at": "2026-07-31T05:44:16Z",
+      "results": []
+    },
+    "fd6faa9fc3b5f9af493158cef0859b6a66c50747f05e743fe2c62bbb18be0b90": {
+      "engine": "google",
+      "query": "site:ipma.pt Estarreja camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:45:01Z",
+      "expires_at": "2026-07-31T05:44:38Z",
+      "results": []
+    },
+    "db86828253df936a3ae105bd4c96da5b12aa8c00429400217f3d4e8f35f2e3fd": {
+      "engine": "google",
+      "query": "site:observar.ipma.pt Estarreja Câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:45:23Z",
+      "expires_at": "2026-07-31T05:45:01Z",
+      "results": []
+    },
+    "0b527364b78cdf7d155f25c6cbcc72c6ce8dda98120e6220a1f5a6f6079c0373": {
+      "engine": "google",
+      "query": "site:weathercloud.net Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:45:45Z",
+      "expires_at": "2026-07-31T05:45:23Z",
+      "results": []
+    },
+    "b63e7c7d07be9fc9d503baa76fa93f0ada5f22cd035883ad8e333b95df5046b8": {
+      "engine": "google",
+      "query": "site:wunderground.com Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:46:07Z",
+      "expires_at": "2026-07-31T05:45:45Z",
+      "results": []
+    },
+    "7356fa8b436c13bea37d6cebc63c880aeb8b995c42ca94d3e841ded7eb8538c1": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Estarreja",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:46:29Z",
+      "expires_at": "2026-07-31T05:46:07Z",
+      "results": []
+    },
+    "5f6d77b6bb930f12805203cf13e7d315779d040d3b7cc9cb073d3986e1a03cea": {
+      "engine": "google",
+      "query": "Estarreja universidade webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:46:52Z",
+      "expires_at": "2026-07-31T05:46:29Z",
+      "results": []
+    },
+    "3f6f7cad55659ed7d2870f9a151ab05312be050987da5cb3a365c5214824213f": {
+      "engine": "google",
+      "query": "Estarreja observatório astronómico live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:47:14Z",
+      "expires_at": "2026-07-31T05:46:52Z",
+      "results": []
+    },
+    "1623b0620907ce0b2d0702483023e69504cae61974066db40b96a8105ff4d7b8": {
+      "engine": "google",
+      "query": "Estarreja centro ciência webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:47:36Z",
+      "expires_at": "2026-07-31T05:47:14Z",
+      "results": []
+    },
+    "f7474e735f4c8cba9d1585a325a279f751300879f8cc2b1011eca1a4e8e8b4f2": {
+      "engine": "google",
+      "query": "site:ulisboa.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:47:59Z",
+      "expires_at": "2026-07-31T05:47:36Z",
+      "results": []
+    },
+    "dbcbfbfadbe8ba9a266cbeee428326a0d3679c58d56e610ca7c6329531066082": {
+      "engine": "google",
+      "query": "site:up.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:48:21Z",
+      "expires_at": "2026-07-31T05:47:59Z",
+      "results": []
+    },
+    "551b9e612b2c8ec549675ef5bcf401c42a0e5dd522f786474b55996ee18f4a09": {
+      "engine": "google",
+      "query": "site:uc.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:48:43Z",
+      "expires_at": "2026-07-31T05:48:21Z",
+      "results": []
+    },
+    "6564bad3fc74a95d6162c398c4dc370f10b63a3a81aff8f2ba1fbdf5b8d939b3": {
+      "engine": "google",
+      "query": "site:uminho.pt Estarreja webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:49:06Z",
+      "expires_at": "2026-07-31T05:48:43Z",
+      "results": []
+    },
+    "94b99202cd034f39b46033f7bd106d3967e247fe723957c391a4cf2f6b520b38": {
+      "engine": "google",
+      "query": "site:youtube.com/watch \"Estarreja\" live webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:49:28Z",
+      "expires_at": "2026-07-31T05:49:06Z",
+      "results": []
+    },
+    "5dbd69a7654528925e97ccc20000328c238daef18b2311a8da0673fc0639e8f0": {
+      "engine": "google",
+      "query": "site:youtube.com/live \"Estarreja\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:49:50Z",
+      "expires_at": "2026-07-31T05:49:28Z",
+      "results": []
+    },
+    "6a163a72a87bacd5a5ff24bbfa34e7e18521e8d6632fdfdf964bf3bde03324ec": {
+      "engine": "google",
+      "query": "site:facebook.com \"Estarreja\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:50:12Z",
+      "expires_at": "2026-07-31T05:49:50Z",
+      "results": []
+    },
+    "be470d66b1c0ace9c45de5f711a787b01642145899c49d8283707842c196e4fb": {
+      "engine": "google",
+      "query": "site:twitch.tv \"Estarreja\" Portugal live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:50:35Z",
+      "expires_at": "2026-07-31T05:50:12Z",
+      "results": []
+    },
+    "afd495843fb101ce70a461d3d7989efc6c6fba3414903927c4eaa86da6009b5f": {
+      "engine": "google",
+      "query": "site:instagram.com \"Estarreja\" direto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:50:57Z",
+      "expires_at": "2026-07-31T05:50:35Z",
+      "results": []
+    },
+    "759e5d3678cbb82e3c70df019f9523ca3b4adfbae57a85bd32f816ccf71e283e": {
+      "engine": "google",
+      "query": "\"Estarreja\" m3u8 webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:51:19Z",
+      "expires_at": "2026-07-31T05:50:57Z",
+      "results": []
+    },
+    "bb768354a9a2e15412a7cd7b36c63fc7c9ce8cceaa2f9bbd932ce2708680d423": {
+      "engine": "google",
+      "query": "\"Estarreja\" mpd live camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:51:41Z",
+      "expires_at": "2026-07-31T05:51:19Z",
+      "results": []
+    },
+    "3d075871184c0354d5bef3c1e1825d4e7d3f6fb447aa3956f1691446e9b08860": {
+      "engine": "google",
+      "query": "\"Estarreja\" mjpeg camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:52:04Z",
+      "expires_at": "2026-07-31T05:51:41Z",
+      "results": []
+    },
+    "7c70302d737e25166bce6abbb63bda4af23f5e065e548238b25e814fd23a097f": {
+      "engine": "google",
+      "query": "\"Estarreja\" snapshot.jpg",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:52:26Z",
+      "expires_at": "2026-07-31T05:52:04Z",
+      "results": []
+    },
+    "191d468dec31bcd1acc8764e829765725690567b6529e8092e7614966c14bff7": {
+      "engine": "google",
+      "query": "\"Estarreja\" videostream.cgi",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:52:48Z",
+      "expires_at": "2026-07-31T05:52:26Z",
+      "results": []
+    },
+    "e574666ba3b64809b7cefeb3ad37765352ae90d22056b21c7f0f8a0b92e5c798": {
+      "engine": "google",
+      "query": "\"Estarreja\" axis-cgi/mjpg",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:53:11Z",
+      "expires_at": "2026-07-31T05:52:48Z",
+      "results": []
+    },
+    "7ff94c01945dbd8f37f858accfc621593fb6ee58c900f07e9e70016441fe61fc": {
+      "engine": "google",
+      "query": "\"Estarreja\" iframe live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:53:33Z",
+      "expires_at": "2026-07-31T05:53:11Z",
+      "results": []
+    },
+    "0686f78d8ccdbeaf8b866ba285ae6534756a24ac89cb84477f729f67d254fd25": {
+      "engine": "google",
+      "query": "inurl:viewerframe?mode=motion \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:53:56Z",
+      "expires_at": "2026-07-31T05:53:33Z",
+      "results": []
+    },
+    "9371a019292c495329bf9ef4fe16d4a38236c481e17c2b7b743032fa157a90a6": {
+      "engine": "google",
+      "query": "inurl:axis-cgi \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:54:18Z",
+      "expires_at": "2026-07-31T05:53:56Z",
+      "results": []
+    },
+    "e7007e0d420a363b15fde7645e5c95f51729665a7b94334559fa99f4ac9ab753": {
+      "engine": "google",
+      "query": "inurl:Streaming/channels \"Estarreja\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:54:40Z",
+      "expires_at": "2026-07-31T05:54:18Z",
+      "results": []
+    },
+    "f4b743907c6ef04774016a8e85c57a98ee38948a4a27fb75fe61ac570f3f5bd5": {
+      "engine": "google",
+      "query": "site:cm-ilhavo.pt webcam Ílhavo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:55:03Z",
+      "expires_at": "2026-07-31T05:54:40Z",
+      "results": []
+    },
+    "b8b1e063051282b7921a06c28cf652336ad483cfd3afd5806bb228f6565de41f": {
+      "engine": "google",
+      "query": "site:municipio-ilhavo.pt webcam Ílhavo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:55:25Z",
+      "expires_at": "2026-07-31T05:55:03Z",
+      "results": []
+    },
+    "e94faffaa9edf1de963e85338390cbc704a44788f517111725cc49f46ed3f81c": {
+      "engine": "google",
+      "query": "site:ilhavo.pt webcam Ílhavo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:55:47Z",
+      "expires_at": "2026-07-31T05:55:25Z",
+      "results": []
+    },
+    "f18a72a6f35627c4679deb56215e1feca52b041aa4d97bdf3902fa4481048726": {
+      "engine": "google",
+      "query": "site:cm-ilhavo.pt (direto OR livestream OR câmara)",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:56:09Z",
+      "expires_at": "2026-07-31T05:55:47Z",
+      "results": []
+    },
+    "57b1fe93104378c6421523e465c4cce89cc7c880d910d6ecb20653f6d5a489fd": {
+      "engine": "google",
+      "query": "turismo Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:56:31Z",
+      "expires_at": "2026-07-31T05:56:09Z",
+      "results": []
+    },
+    "a2d3aad993c4777aa1f91d8e42f79cecee461765c4afce4fdb7b14153e8aae5f": {
+      "engine": "google",
+      "query": "visit Ílhavo live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:56:54Z",
+      "expires_at": "2026-07-31T05:56:31Z",
+      "results": []
+    },
+    "d75878d060beb8df5dc0a5ce47aa939b24a61753a957a306a5a147d1d2ef61b6": {
+      "engine": "google",
+      "query": "site:visitportugal.com Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:57:16Z",
+      "expires_at": "2026-07-31T05:56:54Z",
+      "results": []
+    },
+    "d0c6065276fe896f97b9d07a6c8ffcebbd1f0b4d1a30bad5489eb50fa5ba9d15": {
+      "engine": "google",
+      "query": "site:turismodeportugal.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:57:38Z",
+      "expires_at": "2026-07-31T05:57:16Z",
+      "results": []
+    },
+    "54f1aa1944589b6215aee5a47a174e2b1d42c19da05e3561f89287295de3e5f6": {
+      "engine": "google",
+      "query": "site:visitportoandnorth.travel Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:58:00Z",
+      "expires_at": "2026-07-31T05:57:38Z",
+      "results": []
+    },
+    "b855f7a8e319a2a2cf9223693203458d092f9c6437d5d9066f7685b44b82a638": {
+      "engine": "google",
+      "query": "site:visitcentrodeportugal.com.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:58:22Z",
+      "expires_at": "2026-07-31T05:58:00Z",
+      "results": []
+    },
+    "3b87cb18b04e7f83d5a0e8e315923f95d25b1d2967fee9d9980b5522bdf4ca49": {
+      "engine": "google",
+      "query": "site:visitlisboa.com Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:58:45Z",
+      "expires_at": "2026-07-31T05:58:22Z",
+      "results": []
+    },
+    "747902c93754c6af82e066fb08e5aa6015a63032022c503f304108d10f0327c9": {
+      "engine": "google",
+      "query": "site:visitalentejo.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:59:07Z",
+      "expires_at": "2026-07-31T05:58:45Z",
+      "results": []
+    },
+    "ddb9d660087459ed9af1921113225cb157013c1ce15fd5105e410c6d11b300c1": {
+      "engine": "google",
+      "query": "site:visitalgarve.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:59:29Z",
+      "expires_at": "2026-07-31T05:59:07Z",
+      "results": []
+    },
+    "3865cf3e7a03ecfca645bbdf40a26dcd2c304f539fe41dc5f778c68263d900d8": {
+      "engine": "google",
+      "query": "\"webcam\" \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T05:59:51Z",
+      "expires_at": "2026-07-31T05:59:29Z",
+      "results": []
+    },
+    "cca1e2a6ac913493fab0da7b9a5036e4cc456917c2e50b0686b1a6689e1f9590": {
+      "engine": "google",
+      "query": "\"web cam\" \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:00:14Z",
+      "expires_at": "2026-07-31T05:59:51Z",
+      "results": []
+    },
+    "311cc565bb1f6b28a007aaa00998bf3c9d179bf1892ed28670e23d8a58d9f8f3": {
+      "engine": "google",
+      "query": "\"live cam\" \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:00:36Z",
+      "expires_at": "2026-07-31T06:00:14Z",
+      "results": []
+    },
+    "fe4f7e2fa2822c9636c84c7159c5e124abf578fe2ccf72214c9b21dad2b23485": {
+      "engine": "google",
+      "query": "\"câmara ao vivo\" \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:00:59Z",
+      "expires_at": "2026-07-31T06:00:36Z",
+      "results": []
+    },
+    "5fcb2251542ac188bc5d45bafaadb5b73ddc7860004faa64b1f6927bf51f3702": {
+      "engine": "bing",
+      "query": "\"camera ao vivo\" \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:01:21Z",
+      "expires_at": "2026-07-31T06:00:59Z",
+      "results": []
+    },
+    "a3cd28eeeeaaf394e43e14c975dc500831a6f4aa738b0b4a32babf49206c706a": {
+      "engine": "bing",
+      "query": "\"transmissão em direto\" \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:01:43Z",
+      "expires_at": "2026-07-31T06:01:21Z",
+      "results": []
+    },
+    "f426d3206614f098e865db20625abe8871810e6e76742be9bdb195fcb2969a58": {
+      "engine": "bing",
+      "query": "\"live stream\" \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:02:06Z",
+      "expires_at": "2026-07-31T06:01:43Z",
+      "results": []
+    },
+    "8271dc796c2b9298bbcc882993493d38def7f40f1b361758312b43d65073d036": {
+      "engine": "bing",
+      "query": "site:.pt webcam \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:02:28Z",
+      "expires_at": "2026-07-31T06:02:06Z",
+      "results": []
+    },
+    "107f6e5371347695f38265cd612890b26482904f975c976c2e04b5097e70bd37": {
+      "engine": "duckduckgo",
+      "query": "site:youtube.com/live \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:02:50Z",
+      "expires_at": "2026-07-31T06:02:28Z",
+      "results": []
+    },
+    "65137a19d608aaf9796eb3db91b7bcc5a4197c182275a16bd57b93743f9cd26c": {
+      "engine": "duckduckgo",
+      "query": "site:facebook.com \"Ílhavo\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:03:13Z",
+      "expires_at": "2026-07-31T06:02:50Z",
+      "results": []
+    },
+    "a29f1c93d45d215af9b1bcb8da7d6488a3410414cffd63d655c23b0a9a989880": {
+      "engine": "duckduckgo",
+      "query": "site:instagram.com \"Ílhavo\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:03:35Z",
+      "expires_at": "2026-07-31T06:03:13Z",
+      "results": []
+    },
+    "2da561898fa913017cefbbd3c4f3831f6f16e49e798cc208174713c928545b43": {
+      "engine": "duckduckgo",
+      "query": "\"Axis\" \"Ílhavo\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:03:57Z",
+      "expires_at": "2026-07-31T06:03:35Z",
+      "results": []
+    },
+    "38c03352e972fd5f80914ce88c230378fdc54bb415780afda601ad22c76ffdc3": {
+      "engine": "duckduckgo",
+      "query": "\"Mobotix\" \"Ílhavo\" camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:04:20Z",
+      "expires_at": "2026-07-31T06:03:57Z",
+      "results": []
+    },
+    "82ca5906ef425d9c1f51b3a67074aafdb30bd2297bda2c4070b1cd6332b88ce4": {
+      "engine": "duckduckgo",
+      "query": "\"Hikvision\" \"Ílhavo\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:04:42Z",
+      "expires_at": "2026-07-31T06:04:20Z",
+      "results": []
+    },
+    "1fc5c5821a993f8805cf98b48978c2a373cd24d677d34875ba567a3cb3a37cac": {
+      "engine": "google",
+      "query": "site:portugalwebcams.pt \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:05:04Z",
+      "expires_at": "2026-07-31T06:04:42Z",
+      "results": []
+    },
+    "2d5cfc7fdb9ca989ea18517b1073d544d7042ba9176103746be378d962894354": {
+      "engine": "google",
+      "query": "site:webcamgalore.com \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:05:27Z",
+      "expires_at": "2026-07-31T06:05:04Z",
+      "results": []
+    },
+    "303ede4482387309e0a6829c5ec1063cdcb41060e417c907892a7d62465e9742": {
+      "engine": "google",
+      "query": "site:windy.com/webcams \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:05:49Z",
+      "expires_at": "2026-07-31T06:05:27Z",
+      "results": []
+    },
+    "5a9a9ad6b9e896c203a1990d0c72566654604c78b761d875b0b017403b219ead": {
+      "engine": "google",
+      "query": "site:windfinder.com/webcams \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:06:11Z",
+      "expires_at": "2026-07-31T06:05:49Z",
+      "results": []
+    },
+    "8a5b8658c418eff456baafd2148ae8f9a23220e6900974b5f8ef937132b5439c": {
+      "engine": "google",
+      "query": "site:webcams.travel \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:06:34Z",
+      "expires_at": "2026-07-31T06:06:11Z",
+      "results": []
+    },
+    "ff230333514d544a8ed8a2941b509f82d614a9897f8cf67b0049fa24974e5726": {
+      "engine": "google",
+      "query": "site:webcamtaxi.com \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:06:56Z",
+      "expires_at": "2026-07-31T06:06:34Z",
+      "results": []
+    },
+    "732eb129d7c45ee6e33adf8d280f5b5f3202b2c750f8a4b68337117533850082": {
+      "engine": "google",
+      "query": "site:worldcam.eu \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:07:18Z",
+      "expires_at": "2026-07-31T06:06:56Z",
+      "results": []
+    },
+    "1ff967867a5de9d9cfcb3790a579bd45d8e6a51dccd57cc2aace87c2af911b94": {
+      "engine": "google",
+      "query": "site:geowebcams.com \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:07:40Z",
+      "expires_at": "2026-07-31T06:07:18Z",
+      "results": []
+    },
+    "93171e115f277c933e012b73c78b9707688c85ba408fdc06bfe398fcd73f5792": {
+      "engine": "google",
+      "query": "site:skylinewebcams.com \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:08:03Z",
+      "expires_at": "2026-07-31T06:07:40Z",
+      "results": []
+    },
+    "b21c7c5e3795c71121d930f961120d4e224c422b19d4a6ca346ba662dcea564e": {
+      "engine": "google",
+      "query": "site:earthcam.com \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:08:25Z",
+      "expires_at": "2026-07-31T06:08:03Z",
+      "results": []
+    },
+    "d4252655a4bfddd9bdf3a9a012d8daa639c4bcaf6a44a5db0d780463d0f84f6b": {
+      "engine": "google",
+      "query": "site:ipcamlive.com \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:08:47Z",
+      "expires_at": "2026-07-31T06:08:25Z",
+      "results": []
+    },
+    "5be76b31aaed4d909452928092dc3b6ed047c97f0321dd1d4a6f3729e07d137f": {
+      "engine": "google",
+      "query": "site:meteoblue.com \"Ílhavo\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:09:10Z",
+      "expires_at": "2026-07-31T06:08:47Z",
+      "results": []
+    },
+    "b96db6402af8ee598a4962f37c8a405483fe894dd551b2b132948dfff37dbeea": {
+      "engine": "google",
+      "query": "site:spotazores.com \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:09:32Z",
+      "expires_at": "2026-07-31T06:09:10Z",
+      "results": []
+    },
+    "ad6ebc33890ca96b0e5ada6af6c4fda75ad6ddc190b25fdfc817f246fdd8312b": {
+      "engine": "google",
+      "query": "site:netmadeira.com \"Ílhavo\" webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:09:54Z",
+      "expires_at": "2026-07-31T06:09:32Z",
+      "results": []
+    },
+    "728ba203dd69b277dc10b5a6ed765a526a746f53903722b8b7e5549927310796": {
+      "engine": "google",
+      "query": "site:madeiracams.com \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:10:16Z",
+      "expires_at": "2026-07-31T06:09:54Z",
+      "results": []
+    },
+    "5554ef8d3957bdfc74a2582315999af9cf2ed6b3838b5977182a818bd1433710": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:10:38Z",
+      "expires_at": "2026-07-31T06:10:16Z",
+      "results": []
+    },
+    "61d75a96b4c695576c1ff63dcaf2346eb04cfc16fc8c14883f2f61382cb026e5": {
+      "engine": "google",
+      "query": "site:back-office.beachcam.pt/livecams \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:11:01Z",
+      "expires_at": "2026-07-31T06:10:38Z",
+      "results": []
+    },
+    "a929e83ba242f966f1889cf644ec1f71a65ca6dcfbe067ae9bd1989b854b5150": {
+      "engine": "google",
+      "query": "Portugal webcam Portugal \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:11:23Z",
+      "expires_at": "2026-07-31T06:11:01Z",
+      "results": []
+    },
+    "7371cc8716d8558f726c54fdcdfdc0568e09ac84743295c894f40e8d67c5324f": {
+      "engine": "google",
+      "query": "Ílhavo praia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:11:45Z",
+      "expires_at": "2026-07-31T06:11:23Z",
+      "results": []
+    },
+    "b053c2b10a006a2a4a769503ca657a3e49bcbc2c5096607bbd47878b47481899": {
+      "engine": "google",
+      "query": "Ílhavo surf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:12:08Z",
+      "expires_at": "2026-07-31T06:11:45Z",
+      "results": []
+    },
+    "abfdb6d3a011e00fbedc9e909e46c23fe6063f80b32f44b4bc957e2aa78ed287": {
+      "engine": "google",
+      "query": "site:beachcam.meo.pt Ílhavo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:12:30Z",
+      "expires_at": "2026-07-31T06:12:08Z",
+      "results": []
+    },
+    "0fa515523f1d3980d65ba832b0a4f34741021ee3d4273af48f62a0fee8566a54": {
+      "engine": "google",
+      "query": "site:surfline.com Ílhavo Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:12:52Z",
+      "expires_at": "2026-07-31T06:12:30Z",
+      "results": []
+    },
+    "487266240bf6a9501dce363bd9543cd535e61df4500ed78b97f4f71808ff3e85": {
+      "engine": "google",
+      "query": "site:magicseaweed.com Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:13:15Z",
+      "expires_at": "2026-07-31T06:12:52Z",
+      "results": []
+    },
+    "663c8971bfd4f8f9462250dcd94d4da7898431178673d0bb2f5f7bcb11c02388": {
+      "engine": "google",
+      "query": "site:windfinder.com Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:13:37Z",
+      "expires_at": "2026-07-31T06:13:15Z",
+      "results": []
+    },
+    "3f3721874651acb43cc456219b0f66832ccaebc9f9607d000031a1dba8c5037f": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Ílhavo praia",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:13:59Z",
+      "expires_at": "2026-07-31T06:13:37Z",
+      "results": []
+    },
+    "aabc4046e38ae0e4526f9772017847337e8abcf8a79920a5a1fc38f2f55b55ed": {
+      "engine": "google",
+      "query": "Ílhavo porto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:14:21Z",
+      "expires_at": "2026-07-31T06:13:59Z",
+      "results": []
+    },
+    "c2e7b9c178ffb8ac537654a6071a2d1a7bfd2a559809f21192aeac2b6daf3e0d": {
+      "engine": "google",
+      "query": "Ílhavo marina webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:14:44Z",
+      "expires_at": "2026-07-31T06:14:21Z",
+      "results": []
+    },
+    "79c24420653e89d568a2ba03a9f5b774e8d93f7300a4bb8250650abe3ee38241": {
+      "engine": "google",
+      "query": "Ílhavo clube náutico live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:15:06Z",
+      "expires_at": "2026-07-31T06:14:44Z",
+      "results": []
+    },
+    "621cf7b7e3e9bb06b7e52df0880c48739f682187eb839b4206c80b28a301b707": {
+      "engine": "google",
+      "query": "Ílhavo barra porto câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:15:28Z",
+      "expires_at": "2026-07-31T06:15:06Z",
+      "results": []
+    },
+    "995eec30fec9acb27bb70a7b1b237ab9a44e86a000e60e3697dc1e838ce1a39c": {
+      "engine": "google",
+      "query": "site:portosdeportugal.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:15:51Z",
+      "expires_at": "2026-07-31T06:15:28Z",
+      "results": []
+    },
+    "e959f558301197585322c0d58f90a64f60719ad06a85ff0d250e42d98997e658": {
+      "engine": "google",
+      "query": "site:amn.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:16:13Z",
+      "expires_at": "2026-07-31T06:15:51Z",
+      "results": []
+    },
+    "a6b7c8f5c436d10495d64f408a10d7413d09b110881e1eb1ebd1a80e35f05aa4": {
+      "engine": "google",
+      "query": "site:docapesca.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:16:35Z",
+      "expires_at": "2026-07-31T06:16:13Z",
+      "results": []
+    },
+    "1b06cdfb8b96d462084f50e70a4d09f21a1f7b5db2b95ae0c567833f2ff8ea7d": {
+      "engine": "google",
+      "query": "site:apdl.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:16:57Z",
+      "expires_at": "2026-07-31T06:16:35Z",
+      "results": []
+    },
+    "84e9e9a3ac3287e43635874321c3263a4782acadc8f7bcccc8dc96b87abaa687": {
+      "engine": "google",
+      "query": "site:portoaveiro.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:17:19Z",
+      "expires_at": "2026-07-31T06:16:57Z",
+      "results": []
+    },
+    "035ea7e1b76db66e77fd24f3b1fda5bde56ab3f5f60b903431032853ab311d67": {
+      "engine": "google",
+      "query": "site:portodelisboa.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:17:42Z",
+      "expires_at": "2026-07-31T06:17:19Z",
+      "results": []
+    },
+    "5bde863b3ac072cbc8fce90c422571cce1273e1184be814e0e169065f7e879f8": {
+      "engine": "google",
+      "query": "site:apsinesalgarve.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:18:04Z",
+      "expires_at": "2026-07-31T06:17:42Z",
+      "results": []
+    },
+    "0d4b392f7786c2758202ad11684bef1e1b862485a24a428a419af7dc206b58d6": {
+      "engine": "google",
+      "query": "Ílhavo aeroporto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:18:26Z",
+      "expires_at": "2026-07-31T06:18:04Z",
+      "results": []
+    },
+    "5d302998164fba4c582a83cd65d2cb57bed8de10852603b6031a5c7bc8f9a0cf": {
+      "engine": "google",
+      "query": "Ílhavo aeródromo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:18:48Z",
+      "expires_at": "2026-07-31T06:18:26Z",
+      "results": []
+    },
+    "fe4f3e6de9bae1203663d05c94bde418346dbe2de10a0e1456e3fed6c6750f0b": {
+      "engine": "google",
+      "query": "Ílhavo aeroclube webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:19:10Z",
+      "expires_at": "2026-07-31T06:18:48Z",
+      "results": []
+    },
+    "a44e0004d2d15d80d3a4e05fce84c63c2b547acb21fa3faf122bac7c64f2dba0": {
+      "engine": "google",
+      "query": "Ílhavo pista aviação câmara ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:19:32Z",
+      "expires_at": "2026-07-31T06:19:10Z",
+      "results": []
+    },
+    "af19dd734817cd49888b67d03ab600e18487ef81d712dca4e73baecca8111870": {
+      "engine": "google",
+      "query": "site:ana.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:19:55Z",
+      "expires_at": "2026-07-31T06:19:32Z",
+      "results": []
+    },
+    "41543c5ecffd39ca4c30aa14ef8af44ba0978c8ab79f7e249f8ba078058d5404": {
+      "engine": "google",
+      "query": "site:nav.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:20:17Z",
+      "expires_at": "2026-07-31T06:19:55Z",
+      "results": []
+    },
+    "1803a2ac09d2d3b6f501908175eef7c605f979f792a04e75d1b15f5ebe55038a": {
+      "engine": "google",
+      "query": "site:airportwebcams.net Portugal Ílhavo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:20:39Z",
+      "expires_at": "2026-07-31T06:20:17Z",
+      "results": []
+    },
+    "0735b89f105b3595fdb8a7b6dd8288b3e91a39fb886d09661f8f18cdf08c50fa": {
+      "engine": "google",
+      "query": "site:metar-taf.com Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:21:01Z",
+      "expires_at": "2026-07-31T06:20:39Z",
+      "results": []
+    },
+    "921d38d6d3d8f3d364f274e189856a3b1a9b3adaf589dd940259d0f5ca243f5d": {
+      "engine": "google",
+      "query": "site:youtube.com Ílhavo airport live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:21:24Z",
+      "expires_at": "2026-07-31T06:21:01Z",
+      "results": []
+    },
+    "f9dde35c90ec702aed3a30193d8fd9aa924a03bb4f5e1a3966023dee0bbe662c": {
+      "engine": "google",
+      "query": "site:facebook.com aeroclube Ílhavo direto",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:21:46Z",
+      "expires_at": "2026-07-31T06:21:24Z",
+      "results": []
+    },
+    "a158dfda7e31ceed6de140e3c1f6d0ec8fc75ee1a693250e16e33e2fc6a93db3": {
+      "engine": "google",
+      "query": "Ílhavo trânsito estrada webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:22:09Z",
+      "expires_at": "2026-07-31T06:21:46Z",
+      "results": []
+    },
+    "2903df08474a1cd0d2bdc14645f834e869e6a5497a9593200d4d4e65f0dc6081": {
+      "engine": "google",
+      "query": "Ílhavo câmara tráfego ao vivo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:22:31Z",
+      "expires_at": "2026-07-31T06:22:09Z",
+      "results": []
+    },
+    "2bc3101455ca63ed644db5d620cfc865ad8852b963ce4866a2dfc3fdbc998a41": {
+      "engine": "google",
+      "query": "Ílhavo estação ferroviária webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:22:53Z",
+      "expires_at": "2026-07-31T06:22:31Z",
+      "results": []
+    },
+    "7bd2748bd83c7bfef1e67be36aa884191e7b5ca1243438fa04cba42a9a24c58b": {
+      "engine": "google",
+      "query": "Ílhavo terminal rodoviário webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:23:15Z",
+      "expires_at": "2026-07-31T06:22:53Z",
+      "results": []
+    },
+    "8ef8698ff3baf6c1d2e9920f79c26510081c0f5c715108a14074ad1cf54c9bce": {
+      "engine": "google",
+      "query": "site:infraestruturasdeportugal.pt Ílhavo camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:23:37Z",
+      "expires_at": "2026-07-31T06:23:15Z",
+      "results": []
+    },
+    "442472dc303db4feb889a9f9d5c16b60e8500c0a457547042f20a0d7ab5e26d1": {
+      "engine": "google",
+      "query": "site:estradas.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:24:00Z",
+      "expires_at": "2026-07-31T06:23:37Z",
+      "results": []
+    },
+    "1bbafd68f7e32ee437f6a7492ea878dc99210ab68194696fad7232a871944f4e": {
+      "engine": "google",
+      "query": "site:cp.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:24:22Z",
+      "expires_at": "2026-07-31T06:24:00Z",
+      "results": []
+    },
+    "830c5912c5bb63377ec655e797a5349baceac8b5b63c63336000164ec1755e1d": {
+      "engine": "google",
+      "query": "site:metrolisboa.pt Ílhavo live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:24:44Z",
+      "expires_at": "2026-07-31T06:24:22Z",
+      "results": []
+    },
+    "00239da9930fefe7ea4d80720ffa38853365835f03d0eaeecafac21a3a1b2784": {
+      "engine": "google",
+      "query": "site:metrodoporto.pt Ílhavo live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:25:06Z",
+      "expires_at": "2026-07-31T06:24:44Z",
+      "results": []
+    },
+    "f5d5b00cf5d0cac5523fb226ce1dec9eca85f8d1a53ed9acf8a751d3c3a9c30b": {
+      "engine": "google",
+      "query": "Ílhavo serra webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:25:29Z",
+      "expires_at": "2026-07-31T06:25:06Z",
+      "results": []
+    },
+    "69d230d9ca163ca7bfc4804bb191df81ca81c2147636944dcd2999479e29baac": {
+      "engine": "google",
+      "query": "Ílhavo parque natural webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:25:51Z",
+      "expires_at": "2026-07-31T06:25:29Z",
+      "results": []
+    },
+    "e87de7da6ea0db6fff4444fc60d7a04f0b272309307d1877b5394d917e5a959b": {
+      "engine": "google",
+      "query": "Ílhavo barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:26:14Z",
+      "expires_at": "2026-07-31T06:25:51Z",
+      "results": []
+    },
+    "c694c85502f7d72e6b7cebf14ebf2c920158848429f7468085c1a59f5c3dde2d": {
+      "engine": "google",
+      "query": "Ílhavo miradouro webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:26:36Z",
+      "expires_at": "2026-07-31T06:26:14Z",
+      "results": []
+    },
+    "3391131f1d45a0ea8dd79a8bafd4b209851ea0f3dd69bac0cec46f98c90dd99a": {
+      "engine": "google",
+      "query": "Ílhavo rio webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:26:58Z",
+      "expires_at": "2026-07-31T06:26:36Z",
+      "results": []
+    },
+    "eb0037dcf2eb65d537b009d53cb88520b1d9b283959f9ac04f8d8ffec234c344": {
+      "engine": "google",
+      "query": "site:icnf.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:27:20Z",
+      "expires_at": "2026-07-31T06:26:58Z",
+      "results": []
+    },
+    "a580e4a0595e0f171586f4a4dc3a8c16b6e783f98ac1634e9c2b1573342b3d74": {
+      "engine": "google",
+      "query": "site:snirh.apambiente.pt Ílhavo câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:27:43Z",
+      "expires_at": "2026-07-31T06:27:20Z",
+      "results": []
+    },
+    "a4d2575888bcc2491e88631eae6817ff693b7c49353f2c00eb287ddd37969199": {
+      "engine": "google",
+      "query": "site:edp.com Ílhavo barragem webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:28:05Z",
+      "expires_at": "2026-07-31T06:27:43Z",
+      "results": []
+    },
+    "3741d0e3eb33dfe74ae0b4d44cc047743b60af50b0ac761e3e07f95df17d472a": {
+      "engine": "google",
+      "query": "site:meteoblue.com Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:28:27Z",
+      "expires_at": "2026-07-31T06:28:05Z",
+      "results": []
+    },
+    "6a4f3739c13ecfc8f6f82707d5684ce02b26367947d8737877bcf764483f34c8": {
+      "engine": "google",
+      "query": "Ílhavo hotel webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:28:50Z",
+      "expires_at": "2026-07-31T06:28:27Z",
+      "results": []
+    },
+    "09f50dc2dd011eb3e10402c05fb554251d76ee47bbdabed8be97309764df2857": {
+      "engine": "google",
+      "query": "Ílhavo resort webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:29:12Z",
+      "expires_at": "2026-07-31T06:28:50Z",
+      "results": []
+    },
+    "6b9e9630d86625bd8d66b945ac84bcfbb2bf5d63055b5379fc57b8d7c86a4e89": {
+      "engine": "google",
+      "query": "Ílhavo alojamento webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:29:34Z",
+      "expires_at": "2026-07-31T06:29:12Z",
+      "results": []
+    },
+    "c49d505c16b32c010c12220e86db0ca12925177ebe51bb2e6abef8c95b394a6b": {
+      "engine": "google",
+      "query": "Ílhavo parque de campismo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:29:56Z",
+      "expires_at": "2026-07-31T06:29:34Z",
+      "results": []
+    },
+    "23219b5dd2e91f6eb5648bd45b1af1e7d9960444423f805da6bde967f2edf6d6": {
+      "engine": "google",
+      "query": "site:booking.com Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:30:18Z",
+      "expires_at": "2026-07-31T06:29:56Z",
+      "results": []
+    },
+    "5afe6797c31c50fddab1686b984acf24afb8bf6b448dd239b7d6614abdfe4bab": {
+      "engine": "google",
+      "query": "site:youtube.com hotel Ílhavo live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:30:41Z",
+      "expires_at": "2026-07-31T06:30:18Z",
+      "results": []
+    },
+    "7993f71347680919e57906dc37c4ef39397df33bd6b92f3ca104ea3ed0393942": {
+      "engine": "google",
+      "query": "Ílhavo golf webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:31:03Z",
+      "expires_at": "2026-07-31T06:30:41Z",
+      "results": []
+    },
+    "39251b2ccb85a64c2559452622ce45fe322e44f93c1ddb0f99c9819f74bf7145": {
+      "engine": "google",
+      "query": "Ílhavo estádio webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:31:20Z",
+      "expires_at": "2026-07-31T06:31:03Z",
+      "results": []
+    },
+    "b28cac0b1ab086f0f08615aeb4d151066cad85518c77ad9c654beaf33c840516": {
+      "engine": "google",
+      "query": "Ílhavo ski webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:31:43Z",
+      "expires_at": "2026-07-31T06:31:20Z",
+      "results": []
+    },
+    "befba04b4433cd0d3129e3ac2c5d395254354c213649c356637af2955b8d9625": {
+      "engine": "google",
+      "query": "Ílhavo estância neve webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:32:05Z",
+      "expires_at": "2026-07-31T06:31:43Z",
+      "results": []
+    },
+    "c20b8a37fb70cb205511e2b0837169552f5e53104b9690b1dd87c5b04f7ef7c8": {
+      "engine": "google",
+      "query": "Ílhavo circuito automóvel webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:32:28Z",
+      "expires_at": "2026-07-31T06:32:05Z",
+      "results": []
+    },
+    "779f0a7bcc96cf07ac8856cc8886d71b1f1cdf58c61578624e8edbc63a141e01": {
+      "engine": "google",
+      "query": "Ílhavo clube desportivo live cam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:32:50Z",
+      "expires_at": "2026-07-31T06:32:28Z",
+      "results": []
+    },
+    "2088dc7c4e540fa57836cbf3ba81b9a8360cf07f6e46887ae8fbc6d1fad525e6": {
+      "engine": "google",
+      "query": "Ílhavo meteorologia webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:33:12Z",
+      "expires_at": "2026-07-31T06:32:50Z",
+      "results": []
+    },
+    "e85a642fc76ccca61f799742acfa9097de567bcfd4586155de256225a4aabb22": {
+      "engine": "google",
+      "query": "Ílhavo estação meteorológica câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:33:34Z",
+      "expires_at": "2026-07-31T06:33:12Z",
+      "results": []
+    },
+    "26fa854e4f3fbfb7dab7c9b81b2731ba77cef0320f47bfec292789b6483e3202": {
+      "engine": "google",
+      "query": "Ílhavo observatório webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:33:57Z",
+      "expires_at": "2026-07-31T06:33:34Z",
+      "results": []
+    },
+    "c28745fa95009b63a2d3dc50f68996b6e0c2a88179c46ad71e47e1484c12c641": {
+      "engine": "google",
+      "query": "site:ipma.pt Ílhavo camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:34:19Z",
+      "expires_at": "2026-07-31T06:33:57Z",
+      "results": []
+    },
+    "e5bf14ffebd27665a61e04b017ef6c8152925f6a2321bcf463322e26fe50640f": {
+      "engine": "google",
+      "query": "site:observar.ipma.pt Ílhavo Câmara",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:34:41Z",
+      "expires_at": "2026-07-31T06:34:19Z",
+      "results": []
+    },
+    "c33ce70b9c984a999ea55133efa339a3e4da6f8b619eccf044b23b0cd1c1d490": {
+      "engine": "google",
+      "query": "site:weathercloud.net Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:35:04Z",
+      "expires_at": "2026-07-31T06:34:41Z",
+      "results": []
+    },
+    "67015b9e6b6ff2d19b48438ea00f41d73da05c5eeb89ae9071309133d6ae90be": {
+      "engine": "google",
+      "query": "site:wunderground.com Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:35:26Z",
+      "expires_at": "2026-07-31T06:35:04Z",
+      "results": []
+    },
+    "a7b9dae8cffaa5c1f53c30ab5480e7b024fc1e42c331c9f641ab4fc6c64ca65d": {
+      "engine": "google",
+      "query": "site:windy.com/webcams Ílhavo",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:35:48Z",
+      "expires_at": "2026-07-31T06:35:26Z",
+      "results": []
+    },
+    "f89fd16673ee87d40fe0c3f0c5b11bda95f24788c894f315cd9a3312950a332d": {
+      "engine": "google",
+      "query": "Ílhavo universidade webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:36:10Z",
+      "expires_at": "2026-07-31T06:35:48Z",
+      "results": []
+    },
+    "74eb005403a94d85518b12d17c39cfe2c54491a7b8abc327af92c0b74a768d00": {
+      "engine": "google",
+      "query": "Ílhavo observatório astronómico live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:36:33Z",
+      "expires_at": "2026-07-31T06:36:10Z",
+      "results": []
+    },
+    "3209bc43b242cbe958fb983310785418a28d64d28dff5e9053d3f838cbe790c3": {
+      "engine": "google",
+      "query": "Ílhavo centro ciência webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:36:55Z",
+      "expires_at": "2026-07-31T06:36:33Z",
+      "results": []
+    },
+    "5dfc4cfe249e20576f5c85fc1fae6872141a581c0687ce739a9f7c56e3e7cedf": {
+      "engine": "google",
+      "query": "site:ulisboa.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:37:18Z",
+      "expires_at": "2026-07-31T06:36:55Z",
+      "results": []
+    },
+    "c94813409b0ace6c6c1569616af0f2c51e728411a943819d08110dbf95d66680": {
+      "engine": "google",
+      "query": "site:up.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:37:40Z",
+      "expires_at": "2026-07-31T06:37:18Z",
+      "results": []
+    },
+    "2d1b2d8f9e943e318b9f8f91e58fdde184fad1208e7af51311f67b0dd00166d9": {
+      "engine": "google",
+      "query": "site:uc.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:38:02Z",
+      "expires_at": "2026-07-31T06:37:40Z",
+      "results": []
+    },
+    "ffbb7145abccb994e00943fb1667906c62325b0a365aa8a551a43cecf5f333b9": {
+      "engine": "google",
+      "query": "site:uminho.pt Ílhavo webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:38:24Z",
+      "expires_at": "2026-07-31T06:38:02Z",
+      "results": []
+    },
+    "f2d71b56e6982bc14639fe705f4f838c6ef80c41a6079ec497440c4c8a2baf81": {
+      "engine": "google",
+      "query": "site:youtube.com/watch \"Ílhavo\" live webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:38:47Z",
+      "expires_at": "2026-07-31T06:38:24Z",
+      "results": []
+    },
+    "e3baa6cee083c0f11debcea2a066ef5382fecec21857ea8718047950eccb9fe4": {
+      "engine": "google",
+      "query": "site:youtube.com/live \"Ílhavo\" Portugal",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:39:09Z",
+      "expires_at": "2026-07-31T06:38:47Z",
+      "results": []
+    },
+    "a855f9c4071797776eb7564d133b3d4d9bec7e383ea431d95ae5d14ef5c92d34": {
+      "engine": "google",
+      "query": "site:facebook.com \"Ílhavo\" webcam live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:39:31Z",
+      "expires_at": "2026-07-31T06:39:09Z",
+      "results": []
+    },
+    "3006b3133b4c72689c184c6d7731f3603f184d32519f64a7cbeb99f7a3ece246": {
+      "engine": "google",
+      "query": "site:twitch.tv \"Ílhavo\" Portugal live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:39:54Z",
+      "expires_at": "2026-07-31T06:39:31Z",
+      "results": []
+    },
+    "aa2fbef18c60b88618cc3545d966167b2f0629674868c00178e631dc3ad92d01": {
+      "engine": "google",
+      "query": "site:instagram.com \"Ílhavo\" direto webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:40:16Z",
+      "expires_at": "2026-07-31T06:39:54Z",
+      "results": []
+    },
+    "74542ee1e6a4471fb8f3e3ac6aeb489faa290e705d05154fd481ecb77289ef01": {
+      "engine": "google",
+      "query": "\"Ílhavo\" m3u8 webcam",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:40:38Z",
+      "expires_at": "2026-07-31T06:40:16Z",
+      "results": []
+    },
+    "494fe018402d6d14a1a93a73ce8f55faac604cdc49743076f49f0162ff57c4d3": {
+      "engine": "google",
+      "query": "\"Ílhavo\" mpd live camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:41:01Z",
+      "expires_at": "2026-07-31T06:40:38Z",
+      "results": []
+    },
+    "3ca4f99fcc0fdff1aede38c25fb8b0ea27e891a0e9aaeccdf809f91e73d04d36": {
+      "engine": "google",
+      "query": "\"Ílhavo\" mjpeg camera",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:41:23Z",
+      "expires_at": "2026-07-31T06:41:01Z",
+      "results": []
+    },
+    "a1e261e319a94b6c61e5d3ea5e5a3d865253f392ea00d361109a089475a4c77c": {
+      "engine": "google",
+      "query": "\"Ílhavo\" snapshot.jpg",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:41:46Z",
+      "expires_at": "2026-07-31T06:41:23Z",
+      "results": []
+    },
+    "a9550437c7978a305a80c7939de8a09cac3a3da771f759240c7e55bda4d18559": {
+      "engine": "google",
+      "query": "\"Ílhavo\" videostream.cgi",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:42:08Z",
+      "expires_at": "2026-07-31T06:41:46Z",
+      "results": []
+    },
+    "80ed4c5e4e63d9a2358ea281951660765d56225dc3a0dde0795a72932588dc14": {
+      "engine": "google",
+      "query": "\"Ílhavo\" axis-cgi/mjpg",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:42:30Z",
+      "expires_at": "2026-07-31T06:42:08Z",
+      "results": []
+    },
+    "04e8004f43cf778d03e3883062e7a0c3c790836fb5f223c0fdeed6eca5105e5d": {
+      "engine": "google",
+      "query": "\"Ílhavo\" iframe live",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:42:52Z",
+      "expires_at": "2026-07-31T06:42:30Z",
+      "results": []
+    },
+    "1ceceae0a16d0c0ed3d16a842062d73b2300630ef4c3d962fad356088a387450": {
+      "engine": "google",
+      "query": "inurl:viewerframe?mode=motion \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:43:15Z",
+      "expires_at": "2026-07-31T06:42:52Z",
+      "results": []
+    },
+    "f95338004c2c945d4f6aa4569da2924ebbd503e6b833d3538f87723044f3451e": {
+      "engine": "google",
+      "query": "inurl:axis-cgi \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:43:37Z",
+      "expires_at": "2026-07-31T06:43:15Z",
+      "results": []
+    },
+    "b4e5a24f5b11c96b58767a991232c615d57c100abb8530af8bc5cf514cf7556f": {
+      "engine": "google",
+      "query": "inurl:Streaming/channels \"Ílhavo\"",
+      "max_results": 10,
+      "checked_at": "2026-07-29T06:43:59Z",
+      "expires_at": "2026-07-31T06:43:37Z",
       "results": []
     }
   }

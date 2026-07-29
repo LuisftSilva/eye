@@ -1,30 +1,30 @@
 {
   "audit_cycle_id": "2026-07-27-full-restart-001",
   "audit_cycle_started_at": "2026-07-27T19:00:00Z",
-  "updated_at": "2026-07-28T06:41:56Z",
+  "updated_at": "2026-07-29T06:43:59Z",
   "territory_total": 308,
   "checks_per_municipality": 16,
-  "municipalities_complete": 6,
+  "municipalities_complete": 9,
   "municipalities_in_review": 0,
-  "municipalities_not_started": 302,
+  "municipalities_not_started": 299,
   "municipalities_blocked": 0,
-  "checks_complete": 96,
+  "checks_complete": 144,
   "checks_total": 4928,
-  "territorial_progress_percent": 1.95,
-  "operational_progress_percent": 1.95,
+  "territorial_progress_percent": 2.92,
+  "operational_progress_percent": 2.92,
   "confirmed_webcams_added_in_audit": 0,
   "offline_historical_candidates": 0,
   "rejected_or_unverified_candidates": 0,
   "validation_errors": 0,
   "last_completed": {
-    "order": 6,
-    "municipality_id": "pt-aveiro-castelo-de-paiva",
-    "municipality": "Castelo de Paiva"
+    "order": 9,
+    "municipality_id": "pt-aveiro-ilhavo",
+    "municipality": "Ílhavo"
   },
   "next_municipality": {
-    "order": 7,
-    "municipality_id": "pt-aveiro-espinho",
-    "municipality": "Espinho"
+    "order": 10,
+    "municipality_id": "pt-aveiro-mealhada",
+    "municipality": "Mealhada"
   },
   "completed": [
     "pt-aveiro-agueda",
@@ -32,7 +32,10 @@
     "pt-aveiro-anadia",
     "pt-aveiro-arouca",
     "pt-aveiro-aveiro",
-    "pt-aveiro-castelo-de-paiva"
+    "pt-aveiro-castelo-de-paiva",
+    "pt-aveiro-espinho",
+    "pt-aveiro-estarreja",
+    "pt-aveiro-ilhavo"
   ],
   "rule": "Only evidence created after the current audit-cycle start counts as complete; historical evidence is retained but ignored."
 }
