@@ -6,13 +6,20 @@ on:
       limit:
         description: Municipalities to process in this run
         required: false
-        default: "3"
+        default: "15"
       municipality_id:
         description: Optional exact municipality id
         required: false
         default: ""
   schedule:
     - cron: "17 1 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/webcam-audit.yml"
+      - "scripts/validate_search_health.py"
+      - "scripts/run_audit_*.py"
+      - "scripts/webcam_audit.py"
 
 permissions:
   contents: write
@@ -86,7 +93,7 @@ jobs:
           AUDIT_RETRY_BACKOFF: "0.35"
           AUDIT_MAX_PAGE_BYTES: "2500000"
           AUDIT_POSITIVE_CACHE_DAYS: "14"
-          AUDIT_EMPTY_CACHE_HOURS: "48"
+          AUDIT_EMPTY_CACHE_HOURS: "1"
           AUDIT_MAX_CACHE_ENTRIES: "25000"
           PYTHONUNBUFFERED: "1"
         shell: bash
@@ -94,7 +101,7 @@ jobs:
           set -uo pipefail
           mkdir -p audit/logs
           LIMIT="${{ github.event.inputs.limit }}"
-          LIMIT="${LIMIT:-3}"
+          LIMIT="${LIMIT:-15}"
           MUNICIPALITY="${{ github.event.inputs.municipality_id }}"
           ARGS=(--limit "$LIMIT" --max-results 10)
           if [[ -n "$MUNICIPALITY" ]]; then
@@ -118,6 +125,9 @@ jobs:
           fi
 
           echo "Audit completed. External HTTP refusals and timeouts are retained only in the diagnostic artifact."
+
+      - name: Validate search-layer health
+        run: python scripts/validate_search_health.py
 
       - name: Validate current-cycle evidence and update progress
         run: python scripts/update_audit_progress_v2.py
