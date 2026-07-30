@@ -1,20 +1,68 @@
 {
-  "started_at": "2026-07-29T04:29:01Z",
+  "started_at": "2026-07-30T07:57:26Z",
   "municipalities": [
     {
-      "id": "pt-aveiro-espinho",
+      "id": "pt-aveiro-mealhada",
       "candidates": 0
     },
     {
-      "id": "pt-aveiro-estarreja",
+      "id": "pt-aveiro-murtosa",
+      "candidates": 2
+    },
+    {
+      "id": "pt-aveiro-oliveira-de-azemeis",
+      "candidates": 1
+    },
+    {
+      "id": "pt-aveiro-oliveira-do-bairro",
+      "candidates": 2
+    },
+    {
+      "id": "pt-aveiro-ovar",
+      "candidates": 1
+    },
+    {
+      "id": "pt-aveiro-santa-maria-da-feira",
       "candidates": 0
     },
     {
-      "id": "pt-aveiro-ilhavo",
+      "id": "pt-aveiro-sao-joao-da-madeira",
+      "candidates": 0
+    },
+    {
+      "id": "pt-aveiro-sever-do-vouga",
+      "candidates": 0
+    },
+    {
+      "id": "pt-aveiro-vagos",
+      "candidates": 0
+    },
+    {
+      "id": "pt-aveiro-vale-de-cambra",
+      "candidates": 0
+    },
+    {
+      "id": "pt-beja-aljustrel",
+      "candidates": 11
+    },
+    {
+      "id": "pt-beja-almodovar",
+      "candidates": 10
+    },
+    {
+      "id": "pt-beja-alvito",
+      "candidates": 1
+    },
+    {
+      "id": "pt-beja-barrancos",
+      "candidates": 7
+    },
+    {
+      "id": "pt-beja-beja",
       "candidates": 0
     }
   ],
   "errors": [],
-  "finished_at": "2026-07-29T06:43:59Z",
+  "finished_at": "2026-07-30T08:02:32Z",
   "auto_published": 0
 }

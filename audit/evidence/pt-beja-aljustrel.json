@@ -3,394 +3,465 @@
   "order": 20,
   "municipality": "Aljustrel",
   "district": "Beja",
-  "status": "complete",
-  "started_at": "2026-07-27T08:53:39Z",
+  "status": "review",
+  "started_at": "2026-07-30T08:00:41Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
-      "check_id": "official_municipality",
+      "check_id": "official",
       "status": "done",
       "queries": [
         "site:cm-aljustrel.pt webcam Aljustrel",
         "site:aljustrel.pt webcam Aljustrel"
       ],
-      "urls_checked": [],
-      "candidates_found": [],
-      "notes": "0 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:53:45Z",
-      "reviewer": "github-actions:webcam-audit"
+      "urls_checked": [
+        "https://www.weatherworld.com/radar-loop/ca/on/toronto.html",
+        "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+        "https://www.accuweather.com/en/ca/toronto/m5h/weather-radar/55488",
+        "https://www.easeweather.com/north-america/canada/ontario/toronto/radar",
+        "https://webcamtests.com/",
+        "https://webcamtoy.com/",
+        "https://webcam.org/test/",
+        "https://iriun.com/"
+      ],
+      "candidates_found": [
+        {
+          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+          "municipality": "Aljustrel",
+          "region": "Beja",
+          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/04799596-cded-4e85-8a6c-ff2052b78925/6_NON_PERISHABLE_THINGS_YOU_CAN_BUY_THIS_WEEKEND_TO_PREP_FOR_HURRICANES2_mezz_Playlist.m3u8",
+          "provider": "weather.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T08:00:43Z"
+        },
+        {
+          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+          "municipality": "Aljustrel",
+          "region": "Beja",
+          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/67c0483a-ec60-4216-9cc1-84f35eaf7f4a/WHY_FILL_YOUR_BATHTUB_DURING_A_HURRICANE_2_Playlist.m3u8",
+          "provider": "weather.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T08:00:43Z"
+        },
+        {
+          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+          "municipality": "Aljustrel",
+          "region": "Beja",
+          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/fc37f534-c498-47bc-8974-aadb8b594ec9/091423_LEE_5PM_OVERVIEWmezz_Playlist.m3u8",
+          "provider": "weather.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T08:00:43Z"
+        },
+        {
+          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+          "municipality": "Aljustrel",
+          "region": "Beja",
+          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/dcd06d1c-3424-478c-b557-a98c5e1c1e17/PrepareWeatherEmergency_8_25_23_text_1mezz_Playlist.m3u8",
+          "provider": "weather.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T08:00:43Z"
+        },
+        {
+          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+          "municipality": "Aljustrel",
+          "region": "Beja",
+          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/7dae8251-a6f4-4716-98d3-025cf4d2fcf0/091523_LEE_5AM_OVERVIEW_V2mezz_Playlist.m3u8",
+          "provider": "weather.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T08:00:43Z"
+        },
+        {
+          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+          "municipality": "Aljustrel",
+          "region": "Beja",
+          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/a02c903c-4202-427b-a302-d7af17198f0b/Tech_Tools_To_Stay_Safe_During_Disaster_mezz_Playlist.m3u8",
+          "provider": "weather.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T08:00:43Z"
+        },
+        {
+          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+          "municipality": "Aljustrel",
+          "region": "Beja",
+          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/a763d4fc-8fd2-4d96-949d-0a3c35dfdab6/COMMON_STORM_SURGE_MYTHS_THAT_YOU_NEED_TO_KNOW_Playlist.m3u8",
+          "provider": "weather.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T08:00:44Z"
+        },
+        {
+          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+          "municipality": "Aljustrel",
+          "region": "Beja",
+          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/27667fa5-d5fe-455e-8e13-e5a2653e126f/v2_beach_living_precautionsmezz_Playlist.m3u8",
+          "provider": "weather.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T08:00:44Z"
+        },
+        {
+          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+          "municipality": "Aljustrel",
+          "region": "Beja",
+          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/1c606e08-c8c6-4766-84cb-6e08c4829161/POWER_OUTAGE_HACKSmezz_Playlist.m3u8",
+          "provider": "weather.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T08:00:44Z"
+        },
+        {
+          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+          "municipality": "Aljustrel",
+          "region": "Beja",
+          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/7df4fb3b-0e2f-4112-add5-2d1c5b10e46e/0531_GetYourPetsReadyForHurricaneSeasonmezz_Playlist.m3u8",
+          "provider": "weather.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T08:00:44Z"
+        },
+        {
+          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+          "municipality": "Aljustrel",
+          "region": "Beja",
+          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/4522db36-3fb0-4d3b-b4db-cace164a7472/HOW_TO_CLEAN_UP_WATER_DAMAGE_IN_YOUR_CAR_Playlist.m3u8",
+          "provider": "weather.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T08:00:44Z"
+        }
+      ],
+      "notes": "8 unique URLs checked; 11 candidate(s) classified.",
+      "checked_at": "2026-07-30T08:01:05Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     },
     {
-      "check_id": "tourism",
+      "check_id": "general",
       "status": "done",
       "queries": [
-        "turismo Aljustrel webcam",
-        "visit Aljustrel live cam"
+        "webcam Aljustrel Portugal",
+        "câmara ao vivo Aljustrel"
       ],
       "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=03cc91fd724d497e110cbd7c6bbbeb3d62c92a7a4d9b45b25702128c67cfa20fJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cubWl0dXIuZ29iLnN2Lw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=9fc2521f10b169cb9e1cfc4300d4ffd341418848490571140bee3b2201ac78a3JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudHJpcGFkdmlzb3IuZXMvQXR0cmFjdGlvbnMtZzI5NDQ3Ni1BY3Rpdml0aWVzLVNhbl9TYWx2YWRvcl9TYW5fU2FsdmFkb3JfRGVwYXJ0bWVudC5odG1s&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=712c1743d18774f5b5aa49369ae2fcdc1f467514941d89cd8b9c66868f4346fbJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9lbHNhbHZhZG9yLnRyYXZlbC9lc3Av&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=32236084dd5dec90fe9a30af3acd9973598d3ecd934dcc6b26bd4ed665071b26JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9pc3R1LmdvYi5zdi8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=4cad30a215d4880801959ed730c3aa4fac6a31a5236e583c1165e47a21e92e9cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuZWxzYWx2YWRvci50cmF2ZWwvZGVzdGluYXRpb24vc2FuLXNhbHZhZG9yLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=0dcad33a8f910790e01e797e479af2174767bc0ddcb537d0f187334f3737fa56JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0lTVFVTVi8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=c113a9846594cb6125335a796964572ceccd7eb0fcc638f8cd9be5502dfb6055JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuZWxzYWx2YWRvci5jb20vdHVyaXNtby9jdWx0dXJhLXZpdmEvcXVlLXZlci1lbi1lbC1zYWx2YWRvci1udWV2by1kZXN0aW5vLXR1cmlzdGljby1jZW50cm9hbWVyaWNhLzEyNzY1MDIvMjAyNi8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=174860af0ed30a673b8827971c51c34d63f766ea7aea35f0322d3b6a8ab33fa7JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuZWxzYWx2YWRvci5jb20vdHVyaXNtby9ydXRhcy15LWF2ZW50dXJhcy90dXJpc21vLXJ1dGFzLXR1cmlzdGljYXMtZWwtc2FsdmFkb3IvMTI0MTc4Ny8yMDI1Lw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=f60a800ba1d0286e6675186f87d92b9b480a4c9a74c50b57394db7b783ec0ebdJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9saWZlLXRlbXBsZS92aXNpdGluZy10ZW1wbGU&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=750603d7093d15850badad1d629d4a6cd4b0f816621ac4a0949822fecee01f7bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=b101c001b42d338bd7ad71e1305a6c9717a64a01fb5544366f6aaa143694765bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9jb21tdW5pdHktaW1wYWN0&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=cc9c5ca621ad657b29f1a2309bd06e44daea9a91ddabc73f068969b944dd6ee1JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9jb250YWN0&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=335a6e28d9d60a24873c569bbf9f4cb9d3afa78a09f20ea2f4445dde4f83de70JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9saWZlLXRlbXBsZQ&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=f1ebc02a1774c53c739104f3533ef6105f36f5f91aaaefe93967b69a5e95e952JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9hZG1pc3Npb25z&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=4bcd9b46539a0c26b5c9f2f6fe4e08259a30cfdf6ac571ae692c323b3e038d96JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9hY2FkZW1pY3MvY2FtcHVzZXM&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=2d9d6ec54df98c86d660ff9998e6865b1c152747cc6fa701b438ea36d86df6c4JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9tYXBzLWRpcmVjdGlvbnM&ntb=1"
+        "https://webcamtests.com/",
+        "https://webcamtoy.com/",
+        "https://webcam.org/test/",
+        "https://iriun.com/",
+        "https://wiki.sj.ifsc.edu.br/images/9/98/Projetocamaras.pdf",
+        "https://ia803206.us.archive.org/15/items/harry-potter-colecao-completa-de-livros/Livro%20Harry%20Potter%20e%20a%20C%C3%A2mara%20Secreta.pdf",
+        "https://archive.org/download/livrainosdomal2020/%20Lu%C3%ADs%20da%20C%C3%A2mara%20Cascudo%20-%20Geografia%20dos%20Mitos%20Brasileiros.pdf",
+        "https://www.planalto.rs.leg.br/documentos/2/PARAQUESERVEOUCOMOFUNCIONAUMACMARA.pdf"
       ],
       "candidates_found": [],
-      "notes": "16 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:54:03Z",
-      "reviewer": "github-actions:webcam-audit"
+      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T08:01:05Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     },
     {
-      "check_id": "google",
+      "check_id": "providers",
       "status": "done",
       "queries": [
-        "\"webcam\" \"Aljustrel\"",
-        "\"web cam\" \"Aljustrel\"",
-        "\"live cam\" \"Aljustrel\"",
-        "\"câmara ao vivo\" \"Aljustrel\""
-      ],
-      "urls_checked": [],
-      "candidates_found": [],
-      "notes": "0 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:54:08Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "bing",
-      "status": "done",
-      "queries": [
-        "\"camera ao vivo\" \"Aljustrel\"",
-        "\"transmissão em direto\" \"Aljustrel\"",
-        "\"live stream\" \"Aljustrel\" Portugal",
-        "site:.pt webcam \"Aljustrel\""
+        "site:beachcam.meo.pt Aljustrel",
+        "site:portugalwebcams.pt Aljustrel"
       ],
       "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=d2dcded1f279cef04fd4b07b129b7e35a086f229eb88924aa6417130ee775768JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hcHBzLm1pY3Jvc29mdC5jb20vZGV0YWlsLzl3emRuY3JmamJiZw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=40427e9ed6f952f4b4733b0beb811e66145857aff203466fb33d1ff3798f96f3JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9jYW1lcmEuZW4uc29mdG9uaWMuY29tLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1fcdd1fdf1f41a603a8950905c4ab1f5a5d185d0decf7b53081dc77d29beab45JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hcHBzLmFwcGxlLmNvbS91cy9hcHAvY2FtZXJhL2lkMTU4NDIxNjE5Mw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=4c87ab44f5080388812d178230220d6db2ae2b8758c1851d5449b2a8bf91ed95JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93ZWJjYW1taWN0ZXN0LmNvbS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=f62b7e5a9bb8f3b170b958c6955dbe1f484634de419cf759846668a53d6d426bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cucmFwaWR0YWJsZXMuY29tL3Rvb2xzL2NhbWVyYS5odG1s&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=ad599e0c556f7276ebb96f0a78686ce7cdbf1a8fdadf16df6feccfcac3e5c121JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93ZWJjYW10ZXN0cy5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=b787da4906a61d7980f0cfae2624fb912e2a4917720d4ca6352990905efe3558JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPW5ldC5zb3VyY2Vmb3JnZS5vcGVuY2FtZXJhJmhsPWVuLVVT&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=34ba05d45f56f5ecf56e609263dddd37af8a9da41ad68e3605263513dae68c59JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuYmVzdGJ1eS5jb20vc2l0ZS9jYW1lcmFzLWNhbWNvcmRlcnMvZGlnaXRhbC1jYW1lcmFzL2FiY2F0MDQwMTAwMC5jP2lkPWFiY2F0MDQwMTAwMA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=315af10bfd845421892b4a8d9162c0a1e7aceddb37ae6462794d9adaa974291aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuZGljaW8uY29tLmJyL3RyYW5zbWlzc2FvLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=456557ac3d27f6c450899214db4555f9c6a48053369650d4a2cdb46c9fc2a138JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuaW5mb3BlZGlhLnB0L2RpY2lvbmFyaW9zL2xpbmd1YS1wb3J0dWd1ZXNhL3RyYW5zbWlzcyVDMyVBM28&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=a95a27388ee7f3ebb887c0b21da1392cdb42328808f97a86c6fa5e2346dfcb3fJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90cmFuc21pc3Npb25idC5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=952a703dca25f103991752137b024320fbd6fc8c916af3dc242d9f86f3e5f66bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9jb25jZWl0by5kZS90cmFuc21pc3Nhbw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=6efb0fe26c9d7b6ed2b940ea8045edf15c36e7823bb56fe0e915e6204e2037c1JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9kaWN0aW9uYXJ5LmNhbWJyaWRnZS5vcmcvZGljdGlvbmFyeS9wb3J0dWd1ZXNlLWVuZ2xpc2gvdHJhbnNtaXNzYW8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=de5de35a7f7cc8a14b314ebac074c3aa151ebea422ce3c690fd89018f541a917JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9wdC5tLndpa2lwZWRpYS5vcmcvd2lraS9UcmFuc21pc3MlQzMlQTNv&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=6d93c913f9814995258d035d0066284d5d111e7a146fdafb05f862c3936d4cd2JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9wdC5tLndpa3Rpb25hcnkub3JnL3dpa2kvdHJhbnNtaXNzJUMzJUEzbw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=dfd04dcc30b8d31e5e7c0d2e099e00544e41c03ad31e263ff3eddc1c5e937decJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9sdWNpZGFyaXVtLmNvbS5ici9jb25jZWl0by1kZS10cmFuc21pc3Nhby1vcmlnZW0tZGVmaW5pY2FvLWUtc2lnbmlmaWNhZG8v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=14482e01b59402707c102d81d8a775e01612aaab19f8c5ad46e2f93b978fccb4JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9sb2dpbi5saXZlLmNvbS9NZS5odG0&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=645bbadb0e81260b13c2a1a960ade044344574bbfb5cee24b3cf08a5bada05b3JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9tYWlsLnNlcnZpY2VzLmxpdmUuY29tL21haWwv&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=d04a60229ec9e3ccf2b75c5f7b40462c58d48662aa3ccc05000f902c0ece425aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9vdXRsb29rLm9mZmljZS5jb20vbWFpbC8_dWk9ZW4tVVMmcnM9VVM&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5a5ee2c981ade3a02dfbf67763f99e2e952e3e0d3a403b668216576fc5c625acJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hY2NvdW50Lm1pY3Jvc29mdC5jb20vYWNjb3VudA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=d6267bd571911df79343ed4cf0ddf41e6f78eb6e1e1f7305103d14d2366030ffJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy9taWNyb3NvZnQtMzY1L291dGxvb2svbG9nLWluP21zb2NraWQ9MmY1NGU4N2U3NjY1NjRjYzMwNzhmZmRkNzc0OTY1ZWI&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1f54570c583f9bd3ef1eb724b1da0b527a252737112c5068d2571c402ac7cf5aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vQGxpdmU&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=951ec9a4620d58b563309132be412da3a3707908ae837185d1c7316a4983bcc5JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9vdXRsb29rLm9mZmljZTM2NS5jb20vbWFpbC9sb2dpbi5odG1s&ntb=1"
+        "https://www.sec.gov/Archives/edgar/data/1377085/000120445907001644/lundintechrep2.pdf",
+        "https://link.springer.com/content/pdf/10.1007/s10653-019-00249-y.pdf",
+        "https://www.fatima.pt/files/upload/subsidios_para_a_peregrinacao/ipaljustrelenroll.pdf",
+        "https://www.lneg.pt/wp-content/uploads/2024/11/Brochura-ALJUSTREL-EN.pdf"
       ],
       "candidates_found": [],
-      "notes": "23 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:54:14Z",
-      "reviewer": "github-actions:webcam-audit"
+      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T08:01:10Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     },
     {
-      "check_id": "duckduckgo",
+      "check_id": "tourism_coast",
       "status": "done",
       "queries": [
-        "site:youtube.com live \"Aljustrel\" Portugal",
-        "\"Axis\" \"Aljustrel\" camera",
-        "\"Mobotix\" \"Aljustrel\" camera",
-        "\"HLS\" \"Aljustrel\" webcam",
-        "\"mjpg\" \"Aljustrel\"",
-        "\"snapshot.jpg\" \"Aljustrel\""
-      ],
-      "urls_checked": [],
-      "candidates_found": [],
-      "notes": "0 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:54:24Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "aggregators",
-      "status": "done",
-      "queries": [
-        "site:portugalwebcams.pt Aljustrel",
-        "site:webcamgalore.com Aljustrel Portugal",
-        "site:skylinewebcams.com Aljustrel",
-        "site:earthcam.com Aljustrel"
-      ],
-      "urls_checked": [],
-      "candidates_found": [],
-      "notes": "0 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:54:37Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "beaches_surf",
-      "status": "done",
-      "queries": [
-        "Aljustrel praia webcam",
-        "Aljustrel surf webcam",
-        "site:beachcam.pt Aljustrel",
-        "site:back-office.beachcam.pt/livecams Aljustrel"
+        "Aljustrel turismo webcam",
+        "Aljustrel praia surf webcam"
       ],
       "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=9ced6530bf71e3eddc9ffe8274f268fa638e472f4e0b190dc290158b876b01f6JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90aW5odGUudm4vdGhyZWFkL2h1b25nLWRhbi1jYWNoLXhvYS1hbS10aGFuaC12aWRlby10cmVuLWNhbnZhLWNoaS10aWV0LW5oYXQuMzkxODUwOS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=f67372d5fe8f5d4af0e9c0219e54273eb774c99a2f8604890d0139faf10d3707JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9mb3J1bXMuY29tbWVudGNhbWFyY2hlLm5ldC9mb3J1bS9hZmZpY2gtMzgxMzAyNDMtZmFjZWJvb2stdmVycm91aWxsZS1ldC1jb2RlLXJlY3UtcGFyLXdoYXRzYXBw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=71203e725d330b10aef9c704ab0ad036f4fbb0ba4c612cffa060ce35ad39f172JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90aW5odGUudm4vdGhyZWFkL2FtYXpvbi13ZWItc2VydmljZXMtZ2FwLWxvaS1tb3QtbG9hdC11bmctZHVuZy1waG8tYmllbi1kdXQta2V0LW5vaS1mYWNlYm9vay1jYW52YS16b29tLXNsYWNrLjQwNjY5MDQv&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=2be6ee87ec9353be7e7a259c0ae216534d799f339b5b6b8b30d32dabedbdf2ceJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9mb3J1bXMuY29tbWVudGNhbWFyY2hlLm5ldC9mb3J1bS9hZmZpY2gtMjI2NDc5MS10b3V0LWVzdC1lY3JpdC1lbi1wZXRpdA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=719964bd9be1c365680af3be56b9200d70d76e7859bee73be86cd0d0779a7190JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90aW5odGUudm4vdGhyZWFkL2NoaWEtc2UtdGFpLWtob2FuLWNhbnZhLXByby1taWVuLXBoaS4zNTE2MTgzLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=ea8cd3b4c0ed3f1b25dae4d36e454cf2ca0d40b22befb87b99d683dbfa6c6456JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9mb3J1bXMuY29tbWVudGNhbWFyY2hlLm5ldC9mb3J1bS9hZmZpY2gtODYwMDc4My1jb2RlLXBvdXItbGEtY291bGV1ci1vcg&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=3833e2ca48612e72e0ce042048646b781c61b6573da35531de292e481992de81JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90aW5odGUudm4vdGhyZWFkL25hbmctY2FwLW9mZmljZS1jYW52YS1jaGF0Z3B0LWR1b2xpbmdvLWFkb2JlLWtleS1tYXktdGluaC1naWEtcmUuNDA3MjAyMi8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=7b7f8119a137ab25d89bcb00e89bd5b1b55fd0368bbf21c76ffd4a41aff22cddJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9mb3J1bXMuY29tbWVudGNhbWFyY2hlLm5ldC9mb3J1bS9hZmZpY2gtMzczODU5NTMtcHJvYmxlbWUtcG91ci12ZWN0b3Jpc2VyLXVuLWxvZ28tZGVncmFkZQ&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5cbaba1c41bc950cbc561029b3b201bee1159f56e2e395f9578b9f8224774b28JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cucGVhcnNvbmh5dW5kYWkuY29tL3Nob3dyb29tLzIwMjYvSHl1bmRhaS9TYW50YSUyMEZlL1NVVi5odG0&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=c56801463cb8d783e6b040d1e7e3a1a8a76ca996c94d96bc4b163c1e5fb851dcJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuaGVyaXRhZ2VoeXVuZGFpYmFsdGltb3JlLmNvbS9zaG93cm9vbS8yMDI2L0h5dW5kYWkvU2FudGElMjBGZSUyMEh5YnJpZC9TVVYuaHRt&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=60a03606f130c8ec4fa8309263e4b8e6cf45811b8612c8fa36f33f776802a30fJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuaGVyaXRhZ2VoeXVuZGFpYmFsdGltb3JlLmNvbS9zaG93cm9vbS8yMDI2L0h5dW5kYWkvU2FudGElMjBGZS9TVVYuaHRt&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=6f121b39e650d6b1dab6ddf150f69730fdc3e5a07e8bd87699c6b3cfe6f36d31JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuaHl1bmRhaW5ld3MuY29tL2Fzc2V0cy9kb2N1bWVudHMvb3JpZ2luYWwvNjcxODAtMjAyNlNhbnRhRmVTcGVjc0ZlYXR1cmVzMjAyNjA3MDYucGRm&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=06a15ab5aed61e4dc91bf60ef9abca14f675c5eb18580f5a0245d2248042a6eeJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuaHVmZmluZXNoeXVuZGFpbWNraW5uZXkuY29tL2Jsb2cvMjAyNS0yMDI2LWh5dW5kYWktc2FudGEtZmUtdGhpcmQtcm93LXNlYXRpbmctd2hpY2gtdHJpbXMtaGF2ZS1pdC8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=167f341866f9745b3ff4fc9f8de2f029591018d6439eb9c19f495151b4ee2e4aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuY2FyZ3VydXMuY29tL0NhcnMvMjAyNi1IeXVuZGFpLVNhbnRhLUZlLVRyaW1zLWMzNDAzOD9tc29ja2lkPTJmNTRlODdlNzY2NTY0Y2MzMDc4ZmZkZDc3NDk2NWVi&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=63772f19c152b58a82ce25f60baaac5d11232663af2db7b1d9a8eb6f87e94671JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cubWFudWEubHMvaHl1bmRhaS9zYW50YS1mZS0yMDI2L21hbnVhbA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=8186987272f2a114f6851d52327b6ec749beb33a8f33bba48ded85e582cb546dJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cud29sZmNoYXNlaHl1bmRhaS5jb20vaGVscGZ1bC1yZXNvdXJjZXMvMjAyNi1zYW50YS1mZS1zcGVjaWZpY2F0aW9ucy8&ntb=1"
+        "https://www.sec.gov/Archives/edgar/data/1377085/000120445907001644/lundintechrep2.pdf",
+        "https://link.springer.com/content/pdf/10.1007/s10653-019-00249-y.pdf",
+        "https://www.fatima.pt/files/upload/subsidios_para_a_peregrinacao/ipaljustrelenroll.pdf",
+        "https://www.lneg.pt/wp-content/uploads/2024/11/Brochura-ALJUSTREL-EN.pdf"
       ],
       "candidates_found": [],
-      "notes": "16 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:55:14Z",
-      "reviewer": "github-actions:webcam-audit"
+      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T08:01:10Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     },
     {
-      "check_id": "ports_marinas",
+      "check_id": "transport_weather",
       "status": "done",
       "queries": [
-        "Aljustrel porto marina webcam",
-        "Aljustrel clube náutico live cam"
+        "Aljustrel trânsito meteorologia webcam",
+        "Aljustrel porto marina aeroporto webcam"
       ],
       "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=da9f56d64745973f75508ee510d0ff6acc309b76bdac0b30c53c9df3811dbf34JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tZ2IvY29udGFjdHVz&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=0c04da0386cf8093648d0a67b3f36d6dc4b4ce4330ea88b8080550dc4ab70016JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZnItZnIvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=685cfdffd6c0df506ac207b80b56a49f2f012b61d9fbdda764758cf8a5ee0899JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vcHQtYnIvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=719c20897d1fa9c02d24bb7bcb38afeca3bd9738d2df2fa1813808eb3fca7ee6JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvZGVmZW5kZXIvaW5zdGFsbGluZy1taWNyb3NvZnQtZGVmZW5kZXI&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=894c4f0bc2c9676e88bc8e2877951cc55ee2bd9eed9b75c7c805206711be7fe0JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZGUtZGUvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=d41e16a33c173fa28524608c960d5ef0992880541753a4f9b6fcb59a20b14f27JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90ZWNoY29tbXVuaXR5Lm1pY3Jvc29mdC5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e2bb08927f72a89b09148b3d0be77feab077b78033a7731f1a4199c2003139a6JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvb2ZmaWNlL2dyYXBoaWNzLXZpc3VhbHMvd2hlcmUtaXMtcGljdHVyZS1tYW5hZ2Vy&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=91700bed8236206ef2b2393eab54414b6308b55ddc30e0c8962e5519190e7aedJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvTWljcm9zb2Z0LTM2NS1Db3BpbG90L2dldC1zdGFydGVkLXdpdGgtbWljcm9zb2Z0LTM2NS1jb3BpbG90LW5vdGVib29rcw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=71712e59bcade5d4010a0812940f3348a43bbd8997c2dd6322b955de59fc752aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9yYWRpb2xvZ3lhc3Npc3RhbnQubmwvcGVkaWF0cmljcy9ub3JtYWwtdmFsdWVzL25vcm1hbC12YWx1ZXMtdWx0cmFzb3VuZA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=ad317c3eaa4811faa4a27adc6e80aea0c203fad7fdcd5f58c45445b5d153dd6cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cub2hzdS5lZHUvc2Nob29sLW9mLW1lZGljaW5lL2RpYWdub3N0aWMtcmFkaW9sb2d5L3BlZGlhdHJpYy1yYWRpb2xvZ3ktbm9ybWFsLW1lYXN1cmVtZW50cw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=3e3e58941aef0c3be79e68f2d78a879a7aa0d0e1c6755d9c1d89117f40a0f964JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9yYWRpb2d5YW4uY29tL25vcm1hbC1yYWRpb2xvZ3ktbWVhc3VyZW1lbnRzLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=095fd4b91a5094247e4b727a1c32b4c2b35a0d12f7d955b4ac64b08cb3dfa97bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9yYWRpb2xvZ3lhc3Npc3RhbnQubmwvYWJkb21lbi91bHRyYXNvdW5kL2xrLWpnLTEtMQ&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=13fc05ad64e35375ac2404d9e159b4383b54351979d801d744e466beb55c616aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9yYWRpb3BhZWRpYS5vcmcvYXJ0aWNsZXMvMy02LTktcnVsZS1ib3dlbA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=c373f2c95b32b3c353f94668a25f0e1db576edc6aa2f5456e2acb8d980b15f2eJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9tZWRjcmF2ZW9ubGluZS5jb20vR0hPQS9yYWRpb2xvZ2ljYWwtYW5hdG9teS1vZi10aGUtY29sb24tYW5kLXJlY3R1bS1pbi1jaGlsZHJlbi5odG1s&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=6c88090228c5ea3286665cf1fe193070e27da6eeacc2bed834c7534c28248560JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuanNtY2VudHJhbC5vcmcvYXNzZXRzL2FydGljbGVzL3NtanBzLXY1LTEwNzgucGRm&ntb=1"
+        "https://www.sec.gov/Archives/edgar/data/1377085/000120445907001644/lundintechrep2.pdf",
+        "https://link.springer.com/content/pdf/10.1007/s10653-019-00249-y.pdf",
+        "https://www.fatima.pt/files/upload/subsidios_para_a_peregrinacao/ipaljustrelenroll.pdf",
+        "https://www.lneg.pt/wp-content/uploads/2024/11/Brochura-ALJUSTREL-EN.pdf",
+        "https://www.espn.com/nba/scoreboard",
+        "https://www.espn.com/nba/",
+        "https://www.espn.com/nfl/",
+        "https://www.espn.com/nhl/"
       ],
       "candidates_found": [],
-      "notes": "15 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:55:42Z",
-      "reviewer": "github-actions:webcam-audit"
+      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T08:01:12Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     },
     {
-      "check_id": "airports",
+      "check_id": "technical_video",
       "status": "done",
       "queries": [
-        "Aljustrel aeroporto aeródromo webcam"
+        "Aljustrel live stream m3u8",
+        "site:youtube.com/live Aljustrel Portugal"
       ],
       "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=ea1369c44b11684b0d57fe818e422942ba4a1b6efd9e2fd87a2ffcde556f5641JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90cmF2ZWwudXNuZXdzLmNvbS9OYXNodmlsbGVfVE4vVGhpbmdzX1RvX0RvLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=544e3632597e446324636f7e77a65b6bfd9e9d63b493a37063ca2eb59c6bfe14JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90cmF2ZWwudXNuZXdzLmNvbS9tb250cmVhbF9jYW5hZGEvdGhpbmdzX3RvX2RvLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=7eb0b0c79fece597e3762a7483a34a59a3d910ea2c501d50568405adf5845eaaJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90cmF2ZWwudXNuZXdzLmNvbS9DaGljYWdvX0lML1RoaW5nc19Ub19Eby8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=2246428b82ff420c3e507b4c0b612d52f0aaf83f9a1b890d6bda18c33aad1dbaJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90cmF2ZWwudXNuZXdzLmNvbS9XYXNoaW5ndG9uX0RDL1RoaW5nc19Ub19Eby8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=8b9bb8183a18b114df4ea28f8566408d0ba985ca3a295fbccdc5c56a5ee927b5JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90cmF2ZWwudXNuZXdzLmNvbS9QaG9lbml4X0FaL1RoaW5nc19Ub19Eby8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=80e5782dc4c3744a79217a209e6d7b91804c161f5446be23d15294fe7f8b21abJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90cmF2ZWwudXNuZXdzLmNvbS9zZWF0dGxlX3dhL3RoaW5nc190b19kby8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=598ef0f03250c85bacc3f6bf3ecbba17c14be7690475281557f061326e07c913JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90cmF2ZWwudXNuZXdzLmNvbS9WYW5jb3V2ZXJfQ2FuYWRhL1RoaW5nc19Ub19Eby8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=72569e65c4c364de3d676b535c08cf5157047a4866bcc2cd3bf65bb14e3e3508JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90cmF2ZWwudXNuZXdzLmNvbS9BdXN0aW5fVFgvVGhpbmdzX1RvX0RvLw&ntb=1"
+        "https://www.sec.gov/Archives/edgar/data/1377085/000120445907001644/lundintechrep2.pdf",
+        "https://link.springer.com/content/pdf/10.1007/s10653-019-00249-y.pdf",
+        "https://www.fatima.pt/files/upload/subsidios_para_a_peregrinacao/ipaljustrelenroll.pdf",
+        "https://www.lneg.pt/wp-content/uploads/2024/11/Brochura-ALJUSTREL-EN.pdf"
       ],
       "candidates_found": [],
-      "notes": "8 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:55:57Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "transport",
-      "status": "done",
-      "queries": [
-        "Aljustrel trânsito estrada webcam",
-        "Aljustrel estação ferrovia camera live"
-      ],
-      "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=2702655fffa5d0122942210dcc3f48e2aefab13ae627d3b8bce82a30eb38c004JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvNzY4MjU2MD9obD1lbg&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=019a5066f57e186d14e5e4776813ea748c514b83a4468236dbf38473c981ad94JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS90cm91Ymxlc2hvb3Rlci8zMjE5MDk3P2hsPWVu&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=7da5a9cb834cf9fbcc778b4ed3d096b43c3ab87d3038d1b1e1f0fea34cfab6dfJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzE5NDU2MjkwNjgyNDM0ODExODA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=15306ecca0013e595e1d06d779679f25092ac7a60b5cc1c99be57f7dc1d502a9JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzE5MDMyMzE3NzU5ODA5MTMwNTE&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=b56f17d9aafb94115f31060388abf5f43949e7c112720e2a24ff2f2a6daf98e8JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvMTAwNzI2ODU_aGw9ZW4&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=8e4cf7a00681e8c81721d76cd2c7bbefd9fd1c8d9ee23684675ded5eda0b51e4JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzM3MzMyMjA0NA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=600a4e37cca005f7c10db0dc637d43429b234209acaf1345acec56e2fa9bb4d0JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lmdvb2dsZS5jb20veW91dHViZS9hbnN3ZXIvNzY4Nzk3OT9obD1lbg&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e03d010552315fc4cb302d4af1d14c696f5cf29d75d7fbf72ced2efc32778a52JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzM4MjQ4Njk4Ng&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=19d86cc75b5ecb33265cbe123a6c3d7f95f67826767ad6d6f06217063e77374eJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly92YW5hbmdyb3VwLmNvbS52bi9jYWNoLXRpbmgtZ2lhLXBob25nLWtoYWNoLXNhbi8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=7a49dc202275c46b0c5c9c96e70e8e2933fc0b7c67befc735ba491ad29c474a8JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuaG90ZWxqb2Iudm4vdGluLXR1Yy9kYXktdXNlLWxhLWdpLXF1eS10cmluaC1waHVjLXZ1LWtoYWNoLWRheS11c2UtbmhhbmgtZ29uLWxl&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=edbdaf08885fd0a0605b778cdd5500ec95e15be6771a103d15081300fee6b2fbJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90Y3RkLnZuL2toYWNoLXRodWUtcm9pLW5hby12b2ktY2FjaC10aW5oLWdpby10aW5oLWdpYS1waG9uZy1raGFjaC1zYW4tYmFuLWRhLWJhby1naW8tYmktdGluaC1uaGFtLWNodWEtYTI4NjguaHRtbA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=7321bb94012ff7fde5596f7ba7d1e8139cb8e7ef63bfee33684bc69b9b7ace1fJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2dyb3Vwcy9yZXZpZXdjaG9sYW1raGFjaHNhbm5oYWhhbmcvcG9zdHMvMjQxNTI4MDAzNTEwMTAwNDMv&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=782bbfc4ed708c7b242f51bfa55443b8592277eb3b63874e3e7202837db2046aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9sYW9kb25nLnZuL2R1LWxpY2gvdGluLXR1Yy9sYW0tdHVvbmctdmUtdmllYy1jdS10aGFuaC10b2FuLWR1LXRpZW4tc2Uta2hvbmctYmktaHV5LXBob25nLWtoYWNoLXNhbi0xNjA4MjMzLmh0bWw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=2261a55e079be93858f23afe8dbf02bb898407ebe205f0c06344756c32dbe104JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly92bmV4cHJlc3MubmV0L2RhLXRyYS1oZXQtdGllbi1jby1naXUtZHVvYy1waG9uZy1raGFjaC1zYW4tbmV1LWRlbi1tdW9uLTQ5NjI4NjIuaHRtbA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=784d04bcea8f7ecabfff31ee10e48861a08d4ae9f0df8156a573d6e0f7d0eea8JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9taXhob3RlbC52bi9jb25nLXRodWMtY2FjaC10aW5oLWdpYS1waG9uZy1raGFjaC1zYW4v&ntb=1"
-      ],
-      "candidates_found": [],
-      "notes": "15 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:56:26Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "nature",
-      "status": "done",
-      "queries": [
-        "Aljustrel serra parque barragem miradouro webcam"
-      ],
-      "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=da9f56d64745973f75508ee510d0ff6acc309b76bdac0b30c53c9df3811dbf34JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tZ2IvY29udGFjdHVz&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=0c04da0386cf8093648d0a67b3f36d6dc4b4ce4330ea88b8080550dc4ab70016JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZnItZnIvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=685cfdffd6c0df506ac207b80b56a49f2f012b61d9fbdda764758cf8a5ee0899JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vcHQtYnIvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=719c20897d1fa9c02d24bb7bcb38afeca3bd9738d2df2fa1813808eb3fca7ee6JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvZGVmZW5kZXIvaW5zdGFsbGluZy1taWNyb3NvZnQtZGVmZW5kZXI&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=894c4f0bc2c9676e88bc8e2877951cc55ee2bd9eed9b75c7c805206711be7fe0JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZGUtZGUvYWNjb3VudHMtYmlsbGluZy9tYW5hZ2UvaG93LXRvLXNpZ24taW4tdG8taG90bWFpbA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=d41e16a33c173fa28524608c960d5ef0992880541753a4f9b6fcb59a20b14f27JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90ZWNoY29tbXVuaXR5Lm1pY3Jvc29mdC5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e2bb08927f72a89b09148b3d0be77feab077b78033a7731f1a4199c2003139a6JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvb2ZmaWNlL2dyYXBoaWNzLXZpc3VhbHMvd2hlcmUtaXMtcGljdHVyZS1tYW5hZ2Vy&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=91700bed8236206ef2b2393eab54414b6308b55ddc30e0c8962e5519190e7aedJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdXBwb3J0Lm1pY3Jvc29mdC5jb20vZW4tdXMvTWljcm9zb2Z0LTM2NS1Db3BpbG90L2dldC1zdGFydGVkLXdpdGgtbWljcm9zb2Z0LTM2NS1jb3BpbG90LW5vdGVib29rcw&ntb=1"
-      ],
-      "candidates_found": [],
-      "notes": "8 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:56:29Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "hotels",
-      "status": "done",
-      "queries": [
-        "Aljustrel hotel resort webcam live"
-      ],
-      "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=c5fc1d07debb0d6c945290a33c7558a173bb584dedebd8b808f73a0bcdf8e268JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL2V4cGxvcmU&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=db4547f50a6ffedde4f30b3d2331ac3e7388c18762fd307b40beebf823c62be6JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzIxNTg0NDMw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=95a9f2d06f58382f7d00ee7763ce15a18e634699e878becc40bb2e565209a7ecJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzE5NzkxODcy&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=90292cfbb2aea49d7bc6677d7be7614656d2d0b76849bfd6f2f5b155e96cd891JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzIwOTYyMzUy&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=7155fdfb14999359c7358e71d9fec461b75533bb5c20f579c8ed184a322edbb4JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzUxMDAyNzM5Mw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=aa9825c72a22951960d4c240e4129d69e8c751a97fd5786aa6525675569f2150JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzM4NTQ1MjUwMw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=800cbf25d6437dc22a0517c1dea8d837ea84acf74bb0af48004533c144f50647JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzIwNzkxMTM5&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=9c6edce0cd3b309cba166e09f089e4f4b8fd5804ef6fce78c6e1f0cdbc4c6f0dJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3RvcGljLzIwMTM5NDAx&ntb=1"
-      ],
-      "candidates_found": [],
-      "notes": "8 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:56:44Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "sports_golf",
-      "status": "done",
-      "queries": [
-        "Aljustrel golf ski desporto webcam"
-      ],
-      "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=5de2891870bbbe1a16638fa0c8afc1163452ca7328cc2d2cdc48f3dcffdbce50JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cucHVibGl4LmNvbS9wcm9kdWN0cy1zZXJ2aWNlcy9iYWtlcnk_bXNvY2tpZD0yZjU0ZTg3ZTc2NjU2NGNjMzA3OGZmZGQ3NzQ5NjVlYg&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=c323b53e1c47b0c9134de9727e7476e00d9813d499bd56607d3a6acd29404818JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cucHVibGl4LmNvbS9wcm9kdWN0cy1zZXJ2aWNlcy9iYWtlcnkvZGVjb3JhdGVkLWNha2VzP21zb2NraWQ9MmY1NGU4N2U3NjY1NjRjYzMwNzhmZmRkNzc0OTY1ZWI&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=6948b143e6ea7b63a4aadac20222dc4b1334914509f98488634495b2a59b47d0JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cucHVibGl4LmNvbS9tYy9vcmRlci1haGVhZC9vcmRlci1iYWtlcnktb25saW5lP21zb2NraWQ9MmY1NGU4N2U3NjY1NjRjYzMwNzhmZmRkNzc0OTY1ZWI&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=0a9926a852a623b8c5b4a91b9dff587f8b2e8c3610736e09ca86351cde1e3532JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cucHVibGl4LmNvbS9tYy9vcmRlci1haGVhZC9vcmRlci1iaXJ0aGRheS1jYWtlcz9tc29ja2lkPTJmNTRlODdlNzY2NTY0Y2MzMDc4ZmZkZDc3NDk2NWVi&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=d3eb06b30d9540b0bfc3014d6f145e7498ab814520e74a78d58f21a8a217a9d7JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cucHVibGl4LmNvbS9wcm9kdWN0cy1zZXJ2aWNlcy9iYWtlcnkvd2VkZGluZy1zcGVjaWFsLW9jY2FzaW9ucz9tc29ja2lkPTJmNTRlODdlNzY2NTY0Y2MzMDc4ZmZkZDc3NDk2NWVi&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=2c97af891f281714b20bf47e6bd3c397a09b20517b34e81a3adea12b8ad50720JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cucHVibGl4LmNvbS9tYy9vcmRlci1haGVhZC9vcmRlci1iYWtlcnktY2FrZXM_bXNvY2tpZD0yZjU0ZTg3ZTc2NjU2NGNjMzA3OGZmZGQ3NzQ5NjVlYg&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e8ffb557504ada0bca17efbde58e6c6320f5c1837d6e397f2c39e09e918c8e05JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cucHVibGl4LmNvbS9tYy9vcmRlci1haGVhZC93ZWVrbHktc3BlY2lhbHM_bXNvY2tpZD0yZjU0ZTg3ZTc2NjU2NGNjMzA3OGZmZGQ3NzQ5NjVlYg&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=4f52b4598e948abb0743ae0c394f10c1cc376ce4001cfa019972036f56ff7744JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cucHVibGl4LmNvbS9jYXRlcmluZy1tZW51P21zb2NraWQ9MmY1NGU4N2U3NjY1NjRjYzMwNzhmZmRkNzc0OTY1ZWI&ntb=1"
-      ],
-      "candidates_found": [],
-      "notes": "8 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:56:59Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "weather_observatories",
-      "status": "done",
-      "queries": [
-        "Aljustrel meteorologia observatório webcam",
-        "site:ipma.pt Aljustrel camera"
-      ],
-      "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=55c62c0d0f42f61681977d77942e5bf04b47194078337bfa964c3b69c47931d9JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hY3RvcnNhY2Nlc3MuY29tLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=20aa469d278048a9e7525eccca325600983141b662e34c8bd03a798796654cd4JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hY3RvcnNhY2Nlc3MuY29tL2FjdG9yLz92aWV3PXdlbGNvbWU&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=b1c8ac717c57ee8ec8752159eb428fb2d9c202355a110fb873df83ef7aa69f8cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hY3RvcnNhY2Nlc3MuY29tL3Byb2plY3RzLz92aWV3PWJyZWFrZG93bnMmcmVnaW9uPTU&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=9e9a5c45ee02e5a5debf1332570c10a5e4db22fb79e62254660f0f79fb63395eJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hY3RvcnNhY2Nlc3MuY29tL3JlZ2lzdGVyLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=ff31d1a088d8832f6b86e3c0cff89fe5312a868f767b8932dbe025e0e45ab77cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hY3RvcnNhY2Nlc3MuY29tL3Byb2plY3RzLz92aWV3PWJyZWFrZG93bnMmcmVnaW9uPTkmcGFnZT0y&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=bc39748c93f74f02ddb6e4a3536bdd7d9c2480cf4c4cb2b57bffba77d6eaa2d2JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hY3RvcnNhY2Nlc3MuY29tL3Byb2plY3RzLz92aWV3PWJyZWFrZG93bnMmcmVnaW9uPTc&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=d6a392f0cc9aa86dfa78a612ae3e0a5c4500437134486c642274add469ea0962JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hY3RvcnNhY2Nlc3MuY29tL3Byb2plY3RzLz92aWV3PWJyZWFrZG93bnMmcmVnaW9uPTUmcGFnZT0y&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=d416ac856258122a5fe8339003847530410b76626b4f77dacd43aac42053e67dJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hY3RvcnNhY2Nlc3MuY29tL3Byb2plY3RzLz92aWV3PWJyZWFrZG93bnMmcmVnaW9uPTMyJnBhZ2U9Mw&ntb=1"
-      ],
-      "candidates_found": [],
-      "notes": "8 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:57:17Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "social_video",
-      "status": "done",
-      "queries": [
-        "site:youtube.com/watch Aljustrel live webcam",
-        "site:facebook.com Aljustrel webcam live"
-      ],
-      "urls_checked": [],
-      "candidates_found": [],
-      "notes": "0 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:57:24Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "technical",
-      "status": "done",
-      "queries": [
-        "Aljustrel m3u8 webcam",
-        "Aljustrel mjpeg camera",
-        "Aljustrel snapshot.jpg",
-        "Aljustrel iframe live"
-      ],
-      "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=beabe884bb824ae65271a7ffee2ed87e522feccd80bcb4394219f182f40a8a47JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9wbGF5LnR5Y3Nwb3J0cy5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=d4b9ff494721c960a20d37bf42fc343782699e12aa13bc3d3bbeec71221b3222JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9wbGF5LnR5Y3Nwb3J0cy5jb20vcG9saWRlcG9ydGl2by90eWMtc3BvcnRzLWVuLXZpdm8tLWlkNjgzNjI3Lmh0bWw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=451e726b6ee35c2d8a1e6653c7808a9e116bf602b1f64504caebb96d6f92cf1fJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vQHR5Y3Nwb3J0cy9zdHJlYW1z&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=eed9ddff7ad29fe8a8eaf1711053c31c410527eeb7c17b999702f9390d705557JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9wZWxvdGFsaWJyZS5hci90eWMtc3BvcnRzLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=aa4b5d1540adf8305692581b95fce41e4091e903ce3069a402e79c7dd03812c6JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cDovL3d3dy50eWNzcG9ydHNlbnZpdm8uY29tLmFyLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=90345456a566a4f88e46e51ba4965983a50c4125f1f0f3605f62d75889f6fb59JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuZnV0Ym9sZW52aXZvYXJnZW50aW5hLmNvbS9jYW5hbC90eWMtc3BvcnRz&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=fe59e858060ecb5ab5f84c05d70118e2b30abe8f377ac1ebdcbb77b4970acde5JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuZ29saXZlLmNsL3R2L3R5Yy1zcG9ydHM&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=c4640bc866bc42778154dba4be45e282e540e231ef06497bcb2c30d714995393JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9nbG9ib3ZpZXcuY2FtL2RpcmVjdG9yaW8vYXJnZW50aW5hL3R5Yy1zcG9ydHMv&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=c189d64c2829e756e3a5bbc4a2ad8b9fdfda0ed3048cc5d16f8f08fb24dccf61JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cDovL3d3dy5zaGVudGFpLm9yZy9jaGFuZ2luZy1vZi10aGUtZ3VhcmQtNzAtNzMv&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=8b2ab7e22993ff8eeb03295f50324e1573f504de497af9c7b3f2c625d4775561JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuc2F1ZGlhLmNvbS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=97b9257da569fffa1cebf6f3209465816c8682ac6e2b26d0f8f520b91f207efbJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuc2F1ZGlhLmNvbS9hci1TQS9zb2NpYWxMb2dpbg&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=72e76fb53132e96ffc5ef30c272f6d3eaa2af476db249c5d23d3943d41819facJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuc2F1ZGlhLmNvbS9lbi1TQS9zb2NpYWxMb2dpbg&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=c7eac2c2d815c9a9d61d57fb75f13d3a42022cbff16bee1a4f63f39718f27bc6JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuc2F1ZGlhLmNvbS9lbi1TQS9tYW5hZ2VteWJvb2tpbmc&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=8415415edfb743bad90f499adc35c8d9e8d285a91dce91e37ab8696e975340d5JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuc2F1ZGlhLmNvbS9lbi1VUy9NdWx0aWNpdHkvRmxpZ2h0U2VhcmNoP3RyaXB0eXBlPXJvdW5kLXRyaXA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=66ddd38bf258fa3d7f5712ffdfb68032b225f155a84ea4b7ce44586128179161JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuc2F1ZGlhLmNvbS9TdXBwb3J0L2hlbHAtY2VudHJlL2NhbGwtY2VudGVycw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=58ed5322e2d522de72609aab116973fbdf35983b557e06db25e10907aa068e9bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuc2F1ZGlhLmNvbS9ib29rLWFuZC1tYW5hZ2UvbWFuYWdlL21hbmFnZS1ib29raW5n&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=9caec05c487c0c0d9eca030ee186b29fef8b111c88bb82d272e944200c477b1eJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuc2F1ZGlhLmNvbS9lbi1TQS9sb3lhbHR5L292ZXJ2aWV3&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5a27d2bfc7fb25a4f397f4ad82f9bfb0fc50a039da5cb55f843a4ae0b91a9bd5JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly96aGlkYW8uYmFpZHUuY29tL3F1ZXN0aW9uLzI4NjI0MjMwLmh0bWw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=b7f4e7eef7e2f8e8aba8ff5238df76c6ef76cc892ec94a0c0c93b797895d091aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly96aGlkYW8uYmFpZHUuY29tL3F1ZXN0aW9uLzE5Mjc4Njk1OTc1Njc0NTk0MjcuaHRtbA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=a7846636e56947c4f13326d404a77b434f8040bd293ab6d43b86f2ee30fdf8c7JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzk4MzI4OTE0ODk&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=16a6f29fe8eaaacb5ca9a5f8b77241452b1b8d5ad6e97a6e37c095f68cc321d9JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzIzNzMwMDgz&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=d274ceadcb898bc9506be521a816714960e08f7ccb2ed33fd56874d56d81440bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly96aGlkYW8uYmFpZHUuY29tL3F1ZXN0aW9uLzQxNDc3NTE3MS5odG1s&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=d0a0ce4fb63d2b4d809c5d0d312e05728da04fafbdb1979d51a9e5996c0e5c47JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzUwNTUyOTU5OQ&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=aee3e48f9c8fa9f63f898e9314a331c0b5bc9dbd4f59ce1ccf6188dd30fc2024JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly96aGlkYW8uYmFpZHUuY29tL3F1ZXN0aW9uLzE4ODg0MzI3OTIzODIxOTAzNDguaHRtbA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=7e3c6c324d9dfff5b247c2db76345352d66d8a19e24281872418ea65b9d37dbcJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuemhpaHUuY29tL3F1ZXN0aW9uLzU0MTg1MzkxNg&ntb=1"
-      ],
-      "candidates_found": [],
-      "notes": "25 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:58:14Z",
-      "reviewer": "github-actions:webcam-audit"
+      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T08:01:12Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     }
   ],
-  "candidates": [],
-  "checks_completed": 16,
-  "checks_total": 16,
-  "finished_at": "2026-07-27T08:58:14Z",
-  "reviewed_at": "2026-07-27T09:13:05Z",
-  "reviewer_second_pass": "github-actions:evidence-validator"
+  "candidates": [
+    {
+      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+      "municipality": "Aljustrel",
+      "region": "Beja",
+      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/04799596-cded-4e85-8a6c-ff2052b78925/6_NON_PERISHABLE_THINGS_YOU_CAN_BUY_THIS_WEEKEND_TO_PREP_FOR_HURRICANES2_mezz_Playlist.m3u8",
+      "provider": "weather.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T08:00:43Z"
+    },
+    {
+      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+      "municipality": "Aljustrel",
+      "region": "Beja",
+      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/67c0483a-ec60-4216-9cc1-84f35eaf7f4a/WHY_FILL_YOUR_BATHTUB_DURING_A_HURRICANE_2_Playlist.m3u8",
+      "provider": "weather.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T08:00:43Z"
+    },
+    {
+      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+      "municipality": "Aljustrel",
+      "region": "Beja",
+      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/fc37f534-c498-47bc-8974-aadb8b594ec9/091423_LEE_5PM_OVERVIEWmezz_Playlist.m3u8",
+      "provider": "weather.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T08:00:43Z"
+    },
+    {
+      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+      "municipality": "Aljustrel",
+      "region": "Beja",
+      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/dcd06d1c-3424-478c-b557-a98c5e1c1e17/PrepareWeatherEmergency_8_25_23_text_1mezz_Playlist.m3u8",
+      "provider": "weather.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T08:00:43Z"
+    },
+    {
+      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+      "municipality": "Aljustrel",
+      "region": "Beja",
+      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/7dae8251-a6f4-4716-98d3-025cf4d2fcf0/091523_LEE_5AM_OVERVIEW_V2mezz_Playlist.m3u8",
+      "provider": "weather.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T08:00:43Z"
+    },
+    {
+      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+      "municipality": "Aljustrel",
+      "region": "Beja",
+      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/a02c903c-4202-427b-a302-d7af17198f0b/Tech_Tools_To_Stay_Safe_During_Disaster_mezz_Playlist.m3u8",
+      "provider": "weather.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T08:00:43Z"
+    },
+    {
+      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+      "municipality": "Aljustrel",
+      "region": "Beja",
+      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/a763d4fc-8fd2-4d96-949d-0a3c35dfdab6/COMMON_STORM_SURGE_MYTHS_THAT_YOU_NEED_TO_KNOW_Playlist.m3u8",
+      "provider": "weather.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T08:00:44Z"
+    },
+    {
+      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+      "municipality": "Aljustrel",
+      "region": "Beja",
+      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/27667fa5-d5fe-455e-8e13-e5a2653e126f/v2_beach_living_precautionsmezz_Playlist.m3u8",
+      "provider": "weather.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T08:00:44Z"
+    },
+    {
+      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+      "municipality": "Aljustrel",
+      "region": "Beja",
+      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/1c606e08-c8c6-4766-84cb-6e08c4829161/POWER_OUTAGE_HACKSmezz_Playlist.m3u8",
+      "provider": "weather.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T08:00:44Z"
+    },
+    {
+      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+      "municipality": "Aljustrel",
+      "region": "Beja",
+      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/7df4fb3b-0e2f-4112-add5-2d1c5b10e46e/0531_GetYourPetsReadyForHurricaneSeasonmezz_Playlist.m3u8",
+      "provider": "weather.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T08:00:44Z"
+    },
+    {
+      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
+      "municipality": "Aljustrel",
+      "region": "Beja",
+      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
+      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/4522db36-3fb0-4d3b-b4db-cace164a7472/HOW_TO_CLEAN_UP_WATER_DAMAGE_IN_YOUR_CAR_Playlist.m3u8",
+      "provider": "weather.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T08:00:44Z"
+    }
+  ],
+  "checks_completed": 6,
+  "checks_total": 6,
+  "finished_at": "2026-07-30T08:01:12Z"
 }

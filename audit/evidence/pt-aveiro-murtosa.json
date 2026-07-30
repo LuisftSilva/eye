@@ -3,34 +3,200 @@
   "order": 11,
   "municipality": "Murtosa",
   "district": "Aveiro",
-  "status": "complete",
-  "reviewed_at": "2026-07-27",
-  "checks_completed": 16,
-  "checks_total": 16,
-  "confirmed_webcams": [
+  "status": "review",
+  "started_at": "2026-07-30T07:58:10Z",
+  "reviewer": "github-actions:webcam-audit",
+  "checks": [
     {
-      "name": "Praia da Torreira",
-      "provider": "MEO Beachcam",
-      "source_url": "https://back-office.beachcam.pt/livecams/",
-      "secondary_evidence": "https://portugalwebcams.pt/en/webcam/murtosa-torreira",
-      "database_action": "added",
-      "evidence": "The current MEO Beachcam catalogue lists Praia da Torreira under Murtosa; an independent PortugalWebcams entry identifies the same Torreira location as a streaming webcam."
+      "check_id": "official",
+      "status": "done",
+      "queries": [
+        "site:cm-murtosa.pt webcam Murtosa",
+        "site:murtosa.pt webcam Murtosa"
+      ],
+      "urls_checked": [
+        "https://webcamtests.com/",
+        "https://webcamtoy.com/",
+        "https://webcam.org/test/",
+        "https://iriun.com/"
+      ],
+      "candidates_found": [],
+      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T07:58:10Z",
+      "reviewer": "github-actions:webcam-audit-v5"
+    },
+    {
+      "check_id": "general",
+      "status": "done",
+      "queries": [
+        "webcam Murtosa Portugal",
+        "câmara ao vivo Murtosa"
+      ],
+      "urls_checked": [
+        "https://webcamtests.com/",
+        "https://webcamtoy.com/",
+        "https://webcam.org/test/",
+        "https://iriun.com/",
+        "https://wiki.sj.ifsc.edu.br/images/9/98/Projetocamaras.pdf",
+        "https://ia803206.us.archive.org/15/items/harry-potter-colecao-completa-de-livros/Livro%20Harry%20Potter%20e%20a%20C%C3%A2mara%20Secreta.pdf",
+        "https://archive.org/download/livrainosdomal2020/%20Lu%C3%ADs%20da%20C%C3%A2mara%20Cascudo%20-%20Geografia%20dos%20Mitos%20Brasileiros.pdf",
+        "https://www.planalto.rs.leg.br/documentos/2/PARAQUESERVEOUCOMOFUNCIONAUMACMARA.pdf"
+      ],
+      "candidates_found": [],
+      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T07:58:10Z",
+      "reviewer": "github-actions:webcam-audit-v5"
+    },
+    {
+      "check_id": "providers",
+      "status": "done",
+      "queries": [
+        "site:beachcam.meo.pt Murtosa",
+        "site:portugalwebcams.pt Murtosa"
+      ],
+      "urls_checked": [
+        "https://www.chinahighlights.com/hong-kong/top-things-to-do.htm",
+        "https://www.timeout.com/hong-kong/things-to-do/best-things-to-do-in-hong-kong",
+        "https://thetouristchecklist.com/things-to-do-in-hong-kong/",
+        "https://thehoneycombers.com/hong-kong/ultimate-things-to-do-in-hong-kong/",
+        "https://qz.io/download/",
+        "https://qz.io/",
+        "https://github.com/qzind/tray/releases",
+        "https://support.ezfacility.com/hc/en-us/articles/34418794060699-Receipt-Printing-Using-the-QZ-Tray-Application-For-PC"
+      ],
+      "candidates_found": [],
+      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T07:58:17Z",
+      "reviewer": "github-actions:webcam-audit-v5"
+    },
+    {
+      "check_id": "tourism_coast",
+      "status": "done",
+      "queries": [
+        "Murtosa turismo webcam",
+        "Murtosa praia surf webcam"
+      ],
+      "urls_checked": [
+        "https://www.mercadolibre.com.mx/",
+        "https://www.mercadolibre.com/",
+        "https://www.mercadolibre.com.mx/l/app",
+        "https://listado.mercadolibre.com.mx/inicio",
+        "https://accounts.google.com/login?hl=es",
+        "https://accounts.google.com/servicelogin?service=mail",
+        "https://www.gmail.com/mail/help/intl/es/about.html?iframe",
+        "https://support.google.com/mail/answer/8494?hl=es&co=GENIE.Platform%3DDesktop"
+      ],
+      "candidates_found": [
+        {
+          "name": "Mercado Libre México - Envíos Gratis en el día",
+          "municipality": "Murtosa",
+          "region": "Aveiro",
+          "source_url": "https://www.mercadolibre.com.mx/",
+          "media_url": "https://trailer-mpkg-mms-01-vod.play.mlstatic.com/out/v1/a4d580c2320643debfebcf4a73c1eac1/d0f7e8045591451894141afd367969ff/c09969693cf6432b99df048e032193f0/index.mpd",
+          "provider": "www.mercadolibre.com.mx",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://www.mercadolibre.com.mx/.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T07:58:18Z"
+        },
+        {
+          "name": "Mercado Libre México - Envíos Gratis en el día",
+          "municipality": "Murtosa",
+          "region": "Aveiro",
+          "source_url": "https://www.mercadolibre.com.mx/",
+          "media_url": "https://trailer-mpkg-mms-01-vod.play.mlstatic.com/out/v1/a4d580c2320643debfebcf4a73c1eac1/75d55aafe5c44bd9839ffbaf1eb02471/b224473977e64c74b1bc7f4808cd8f39/index.m3u8",
+          "provider": "www.mercadolibre.com.mx",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://www.mercadolibre.com.mx/.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-30T07:58:18Z"
+        }
+      ],
+      "notes": "8 unique URLs checked; 2 candidate(s) classified.",
+      "checked_at": "2026-07-30T07:58:22Z",
+      "reviewer": "github-actions:webcam-audit-v5"
+    },
+    {
+      "check_id": "transport_weather",
+      "status": "done",
+      "queries": [
+        "Murtosa trânsito meteorologia webcam",
+        "Murtosa porto marina aeroporto webcam"
+      ],
+      "urls_checked": [
+        "https://stackoverflow.com/questions/42845084/cannot-find-discoveryclient-bean-error-in-spring-boot",
+        "https://stackoverflow.com/questions/63702885/java-lang-illegalstateexception-no-feign-client-for-loadbalancing-defined-did",
+        "https://stackoverflow.com/questions/32889655/understanding-netflix-eureka-leases-service-keeps-unregistering",
+        "https://stackoverflow.com/questions/52881406/com-netflix-client-clientexception-load-balancer-does-not-have-available-server",
+        "https://www.ebilet.pl/muzyka/piosenka/orkiestra-z-odessy-pod-dachami-paryza"
+      ],
+      "candidates_found": [],
+      "notes": "5 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T07:58:26Z",
+      "reviewer": "github-actions:webcam-audit-v5"
+    },
+    {
+      "check_id": "technical_video",
+      "status": "done",
+      "queries": [
+        "Murtosa live stream m3u8",
+        "site:youtube.com/live Murtosa Portugal"
+      ],
+      "urls_checked": [
+        "https://www.reddit.com/r/FinancialCareers/comments/117g1qy/best_positions_at_well_fargo/",
+        "https://www.reddit.com/r/personalfinance/comments/flanqw/wells_fargo_reversed_a_475_credit_on_my_account/",
+        "https://www.reddit.com/r/firstworldanarchists/comments/1hgt9i/just_customizing_my_wells_fargo_debit_card/",
+        "https://www.reddit.com/r/personalfinance/comments/4uvxzq/how_long_does_it_take_for_checks_to_clear_at/",
+        "https://finance.yahoo.com/quote/MSFT/",
+        "https://br.investing.com/equities/microsoft-corp",
+        "https://www.google.com/finance/beta/quote/MSFT:NASDAQ",
+        "https://investidor10.com.br/stocks/msft/"
+      ],
+      "candidates_found": [],
+      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T07:58:32Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     }
   ],
-  "rejected_candidates": [],
-  "searches": [
-    "Murtosa webcam live",
-    "Torreira webcam live",
-    "Praia da Torreira webcam",
-    "Ria de Aveiro Murtosa webcam",
-    "Cais da Bestida webcam",
-    "Monte Branco Murtosa webcam",
-    "site:cm-murtosa.pt webcam",
-    "site:back-office.beachcam.pt/livecams Torreira",
-    "Windy Windfinder Torreira webcam",
-    "Murtosa YouTube live",
-    "Murtosa HLS m3u8 MJPEG snapshot"
+  "candidates": [
+    {
+      "name": "Mercado Libre México - Envíos Gratis en el día",
+      "municipality": "Murtosa",
+      "region": "Aveiro",
+      "source_url": "https://www.mercadolibre.com.mx/",
+      "media_url": "https://trailer-mpkg-mms-01-vod.play.mlstatic.com/out/v1/a4d580c2320643debfebcf4a73c1eac1/d0f7e8045591451894141afd367969ff/c09969693cf6432b99df048e032193f0/index.mpd",
+      "provider": "www.mercadolibre.com.mx",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://www.mercadolibre.com.mx/.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T07:58:18Z"
+    },
+    {
+      "name": "Mercado Libre México - Envíos Gratis en el día",
+      "municipality": "Murtosa",
+      "region": "Aveiro",
+      "source_url": "https://www.mercadolibre.com.mx/",
+      "media_url": "https://trailer-mpkg-mms-01-vod.play.mlstatic.com/out/v1/a4d580c2320643debfebcf4a73c1eac1/75d55aafe5c44bd9839ffbaf1eb02471/b224473977e64c74b1bc7f4808cd8f39/index.m3u8",
+      "provider": "www.mercadolibre.com.mx",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://www.mercadolibre.com.mx/.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-30T07:58:18Z"
+    }
   ],
-  "cross_discoveries": [],
-  "conclusion": "One currently listed public webcam was confirmed at Praia da Torreira and added under the correct municipality."
+  "checks_completed": 6,
+  "checks_total": 6,
+  "finished_at": "2026-07-30T07:58:32Z"
 }

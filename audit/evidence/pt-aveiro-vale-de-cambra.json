@@ -3,346 +3,125 @@
   "order": 19,
   "municipality": "Vale de Cambra",
   "district": "Aveiro",
-  "status": "complete",
-  "started_at": "2026-07-27T08:50:50Z",
+  "status": "review",
+  "started_at": "2026-07-30T08:00:32Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
-      "check_id": "official_municipality",
+      "check_id": "official",
       "status": "done",
       "queries": [
         "site:cm-vale-de-cambra.pt webcam Vale de Cambra",
         "site:vale-de-cambra.pt webcam Vale de Cambra"
       ],
-      "urls_checked": [],
+      "urls_checked": [
+        "https://webcamtests.com/",
+        "https://webcamtoy.com/",
+        "https://webcam.org/test/",
+        "https://iriun.com/"
+      ],
       "candidates_found": [],
-      "notes": "0 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:50:56Z",
-      "reviewer": "github-actions:webcam-audit"
+      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T08:00:32Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     },
     {
-      "check_id": "tourism",
+      "check_id": "general",
       "status": "done",
       "queries": [
-        "turismo Vale de Cambra webcam",
-        "visit Vale de Cambra live cam"
+        "webcam Vale de Cambra Portugal",
+        "câmara ao vivo Vale de Cambra"
       ],
       "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=66c51813edd99b25ec3ec0840e2a617986ee4c8c686b05c8e293053fd13ddc59JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuY29pbmdlY2tvLmNvbS9lbi9jb2lucy9kaW5lcm8tMg&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=2520f27c952d715a30b1f74832ccec6901021fdb96200fe38e9b872c97b66af4JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL2RpbmVyby14eXov&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=583a82754eaa9c76874e55ab5a2d9318d813c7e7bf3fde8689962a8ebc8df5dbJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9kaW5lcm8ueHl6Lw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=9e243ff4004fec0ba4812ff715435075e0f2dba917621a688375dd616d9b474bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuY29pbmRlc2suY29tL3ByaWNlL2RpbmVybw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=808ae8e023b806eb3038d4ba744f05545f859b71641624b11bd7efb4ba87ccccJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cubWV4Yy5jb20vcHJpY2UvZGluZXJv&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=a4c6ff528f94874220167b507a263f0fbe8c5a4ea27d8ac90f09e6e2f47b417bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9vcGVuc2VhLmlvL3Rva2VuL2V0aGVyZXVtLzB4NmRmMGU2NDFmYzk4NDdjMGM2ZmRlMzliZTYyNTMwNDU0NDBjMTRkMw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=b541d171027793f5836e729922de95e914692dfc3e210d682e4b4a71f7b20314JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9kaW5lcm8ueHl6L2RvY3MvZGluZXJvLXRva2Vub21pY3M&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=7cbcbf49230b5542a8f26dd1392e3ed33f42bff8227380a75a169b024be0a5e4JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9jb2lubWFya2V0Y2FwLmNvbS9jdXJyZW5jaWVzL2RpbmVyby8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=f60a800ba1d0286e6675186f87d92b9b480a4c9a74c50b57394db7b783ec0ebdJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9saWZlLXRlbXBsZS92aXNpdGluZy10ZW1wbGU&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=750603d7093d15850badad1d629d4a6cd4b0f816621ac4a0949822fecee01f7bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=b101c001b42d338bd7ad71e1305a6c9717a64a01fb5544366f6aaa143694765bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9jb21tdW5pdHktaW1wYWN0&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=cc9c5ca621ad657b29f1a2309bd06e44daea9a91ddabc73f068969b944dd6ee1JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9jb250YWN0&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=335a6e28d9d60a24873c569bbf9f4cb9d3afa78a09f20ea2f4445dde4f83de70JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9saWZlLXRlbXBsZQ&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=f1ebc02a1774c53c739104f3533ef6105f36f5f91aaaefe93967b69a5e95e952JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9hZG1pc3Npb25z&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=4bcd9b46539a0c26b5c9f2f6fe4e08259a30cfdf6ac571ae692c323b3e038d96JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9hY2FkZW1pY3MvY2FtcHVzZXM&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=2d9d6ec54df98c86d660ff9998e6865b1c152747cc6fa701b438ea36d86df6c4JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudGVtcGxlLmVkdS9tYXBzLWRpcmVjdGlvbnM&ntb=1"
+        "https://webcamtests.com/",
+        "https://webcamtoy.com/",
+        "https://webcam.org/test/",
+        "https://iriun.com/",
+        "https://wiki.sj.ifsc.edu.br/images/9/98/Projetocamaras.pdf",
+        "https://ia803206.us.archive.org/15/items/harry-potter-colecao-completa-de-livros/Livro%20Harry%20Potter%20e%20a%20C%C3%A2mara%20Secreta.pdf",
+        "https://archive.org/download/livrainosdomal2020/%20Lu%C3%ADs%20da%20C%C3%A2mara%20Cascudo%20-%20Geografia%20dos%20Mitos%20Brasileiros.pdf",
+        "https://www.planalto.rs.leg.br/documentos/2/PARAQUESERVEOUCOMOFUNCIONAUMACMARA.pdf"
       ],
       "candidates_found": [],
-      "notes": "16 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:51:25Z",
-      "reviewer": "github-actions:webcam-audit"
+      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T08:00:32Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     },
     {
-      "check_id": "google",
+      "check_id": "providers",
       "status": "done",
       "queries": [
-        "\"webcam\" \"Vale de Cambra\"",
-        "\"web cam\" \"Vale de Cambra\"",
-        "\"live cam\" \"Vale de Cambra\"",
-        "\"câmara ao vivo\" \"Vale de Cambra\""
-      ],
-      "urls_checked": [],
-      "candidates_found": [],
-      "notes": "0 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:51:31Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "bing",
-      "status": "done",
-      "queries": [
-        "\"camera ao vivo\" \"Vale de Cambra\"",
-        "\"transmissão em direto\" \"Vale de Cambra\"",
-        "\"live stream\" \"Vale de Cambra\" Portugal",
-        "site:.pt webcam \"Vale de Cambra\""
+        "site:beachcam.meo.pt Vale de Cambra",
+        "site:portugalwebcams.pt Vale de Cambra"
       ],
       "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=d2dcded1f279cef04fd4b07b129b7e35a086f229eb88924aa6417130ee775768JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hcHBzLm1pY3Jvc29mdC5jb20vZGV0YWlsLzl3emRuY3JmamJiZw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=40427e9ed6f952f4b4733b0beb811e66145857aff203466fb33d1ff3798f96f3JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9jYW1lcmEuZW4uc29mdG9uaWMuY29tLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1fcdd1fdf1f41a603a8950905c4ab1f5a5d185d0decf7b53081dc77d29beab45JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hcHBzLmFwcGxlLmNvbS91cy9hcHAvY2FtZXJhL2lkMTU4NDIxNjE5Mw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=4c87ab44f5080388812d178230220d6db2ae2b8758c1851d5449b2a8bf91ed95JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93ZWJjYW1taWN0ZXN0LmNvbS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=f62b7e5a9bb8f3b170b958c6955dbe1f484634de419cf759846668a53d6d426bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cucmFwaWR0YWJsZXMuY29tL3Rvb2xzL2NhbWVyYS5odG1s&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=ad599e0c556f7276ebb96f0a78686ce7cdbf1a8fdadf16df6feccfcac3e5c121JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93ZWJjYW10ZXN0cy5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=b787da4906a61d7980f0cfae2624fb912e2a4917720d4ca6352990905efe3558JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPW5ldC5zb3VyY2Vmb3JnZS5vcGVuY2FtZXJhJmhsPWVuLVVT&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=34ba05d45f56f5ecf56e609263dddd37af8a9da41ad68e3605263513dae68c59JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuYmVzdGJ1eS5jb20vc2l0ZS9jYW1lcmFzLWNhbWNvcmRlcnMvZGlnaXRhbC1jYW1lcmFzL2FiY2F0MDQwMTAwMC5jP2lkPWFiY2F0MDQwMTAwMA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=315af10bfd845421892b4a8d9162c0a1e7aceddb37ae6462794d9adaa974291aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuZGljaW8uY29tLmJyL3RyYW5zbWlzc2FvLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=456557ac3d27f6c450899214db4555f9c6a48053369650d4a2cdb46c9fc2a138JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cuaW5mb3BlZGlhLnB0L2RpY2lvbmFyaW9zL2xpbmd1YS1wb3J0dWd1ZXNhL3RyYW5zbWlzcyVDMyVBM28&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=a95a27388ee7f3ebb887c0b21da1392cdb42328808f97a86c6fa5e2346dfcb3fJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly90cmFuc21pc3Npb25idC5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=952a703dca25f103991752137b024320fbd6fc8c916af3dc242d9f86f3e5f66bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9jb25jZWl0by5kZS90cmFuc21pc3Nhbw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=6efb0fe26c9d7b6ed2b940ea8045edf15c36e7823bb56fe0e915e6204e2037c1JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9kaWN0aW9uYXJ5LmNhbWJyaWRnZS5vcmcvZGljdGlvbmFyeS9wb3J0dWd1ZXNlLWVuZ2xpc2gvdHJhbnNtaXNzYW8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=de5de35a7f7cc8a14b314ebac074c3aa151ebea422ce3c690fd89018f541a917JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9wdC5tLndpa2lwZWRpYS5vcmcvd2lraS9UcmFuc21pc3MlQzMlQTNv&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=6d93c913f9814995258d035d0066284d5d111e7a146fdafb05f862c3936d4cd2JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9wdC5tLndpa3Rpb25hcnkub3JnL3dpa2kvdHJhbnNtaXNzJUMzJUEzbw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=dfd04dcc30b8d31e5e7c0d2e099e00544e41c03ad31e263ff3eddc1c5e937decJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9sdWNpZGFyaXVtLmNvbS5ici9jb25jZWl0by1kZS10cmFuc21pc3Nhby1vcmlnZW0tZGVmaW5pY2FvLWUtc2lnbmlmaWNhZG8v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=14482e01b59402707c102d81d8a775e01612aaab19f8c5ad46e2f93b978fccb4JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9sb2dpbi5saXZlLmNvbS9NZS5odG0&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=645bbadb0e81260b13c2a1a960ade044344574bbfb5cee24b3cf08a5bada05b3JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9tYWlsLnNlcnZpY2VzLmxpdmUuY29tL21haWwv&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=d04a60229ec9e3ccf2b75c5f7b40462c58d48662aa3ccc05000f902c0ece425aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9vdXRsb29rLm9mZmljZS5jb20vbWFpbC8_dWk9ZW4tVVMmcnM9VVM&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5a5ee2c981ade3a02dfbf67763f99e2e952e3e0d3a403b668216576fc5c625acJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9hY2NvdW50Lm1pY3Jvc29mdC5jb20vYWNjb3VudA&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=d6267bd571911df79343ed4cf0ddf41e6f78eb6e1e1f7305103d14d2366030ffJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9lbi11cy9taWNyb3NvZnQtMzY1L291dGxvb2svbG9nLWluP21zb2NraWQ9MmY1NGU4N2U3NjY1NjRjYzMwNzhmZmRkNzc0OTY1ZWI&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1f54570c583f9bd3ef1eb724b1da0b527a252737112c5068d2571c402ac7cf5aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vQGxpdmU&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=951ec9a4620d58b563309132be412da3a3707908ae837185d1c7316a4983bcc5JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9vdXRsb29rLm9mZmljZTM2NS5jb20vbWFpbC9sb2dpbi5odG1s&ntb=1"
+        "https://pt.wikipedia.org/wiki/Vale_de_Cambra",
+        "https://en.wikipedia.org/wiki/Vale_de_Cambra",
+        "https://www.cm-valedecambra.pt/",
+        "https://www.tripadvisor.com/Attractions-g2654204-Activities-Vale_de_Cambra_Aveiro_District_Northern_Portugal.html"
       ],
       "candidates_found": [],
-      "notes": "23 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:52:10Z",
-      "reviewer": "github-actions:webcam-audit"
+      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T08:00:37Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     },
     {
-      "check_id": "duckduckgo",
+      "check_id": "tourism_coast",
       "status": "done",
       "queries": [
-        "site:youtube.com live \"Vale de Cambra\" Portugal",
-        "\"Axis\" \"Vale de Cambra\" camera",
-        "\"Mobotix\" \"Vale de Cambra\" camera",
-        "\"HLS\" \"Vale de Cambra\" webcam",
-        "\"mjpg\" \"Vale de Cambra\"",
-        "\"snapshot.jpg\" \"Vale de Cambra\""
-      ],
-      "urls_checked": [],
-      "candidates_found": [],
-      "notes": "0 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:52:19Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "aggregators",
-      "status": "done",
-      "queries": [
-        "site:portugalwebcams.pt Vale de Cambra",
-        "site:webcamgalore.com Vale de Cambra Portugal",
-        "site:skylinewebcams.com Vale de Cambra",
-        "site:earthcam.com Vale de Cambra"
-      ],
-      "urls_checked": [],
-      "candidates_found": [],
-      "notes": "0 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:52:30Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "beaches_surf",
-      "status": "done",
-      "queries": [
-        "Vale de Cambra praia webcam",
-        "Vale de Cambra surf webcam",
-        "site:beachcam.pt Vale de Cambra",
-        "site:back-office.beachcam.pt/livecams Vale de Cambra"
+        "Vale de Cambra turismo webcam",
+        "Vale de Cambra praia surf webcam"
       ],
       "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=aba98940b78b48c8f85afc416514a82e2f7a93f1a27c6a722b82524a8569195aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5f6d67825afbd1cb909c2320695e891f99531f6cb2002681b8426a64780e6114JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZWZvcmV2ZXIuY29tLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e2316bf75ee0685a301dc8a67d9ec5249908503496ae81bf487d233a1a9709beJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=da27c951234018f0c86790429a4790088e4c61c3295ed236843a92fa4d46b40cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVmFsZV9TLkEu&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=89ca86f6aa07857268e682fd7810bda8aea87540b7fb811e9deac2811fef592bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20vdmFsZS1ub3c&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=739d15a6a452ebe9600a99b255db7244905bc7ad3b3abd4649cd13a4cb7ae9e8JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdG9ja2FuYWx5c2lzLmNvbS9zdG9ja3MvdmFsZS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1ef191badbb864da81339176053e5f2818074e830424b5ff7f55e0238c3b3c4cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFL25ld3Mv&ntb=1"
+        "https://www.vale.com/",
+        "https://www.valeforever.com/",
+        "https://en.wikipedia.org/wiki/Vale_S.A.",
+        "https://finance.yahoo.com/quote/VALE/"
       ],
       "candidates_found": [],
-      "notes": "14 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:52:52Z",
-      "reviewer": "github-actions:webcam-audit"
+      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T08:00:40Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     },
     {
-      "check_id": "ports_marinas",
+      "check_id": "transport_weather",
       "status": "done",
       "queries": [
-        "Vale de Cambra porto marina webcam",
-        "Vale de Cambra clube náutico live cam"
+        "Vale de Cambra trânsito meteorologia webcam",
+        "Vale de Cambra porto marina aeroporto webcam"
       ],
       "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=aba98940b78b48c8f85afc416514a82e2f7a93f1a27c6a722b82524a8569195aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5f6d67825afbd1cb909c2320695e891f99531f6cb2002681b8426a64780e6114JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZWZvcmV2ZXIuY29tLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e2316bf75ee0685a301dc8a67d9ec5249908503496ae81bf487d233a1a9709beJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=da27c951234018f0c86790429a4790088e4c61c3295ed236843a92fa4d46b40cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVmFsZV9TLkEu&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=89ca86f6aa07857268e682fd7810bda8aea87540b7fb811e9deac2811fef592bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20vdmFsZS1ub3c&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=739d15a6a452ebe9600a99b255db7244905bc7ad3b3abd4649cd13a4cb7ae9e8JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdG9ja2FuYWx5c2lzLmNvbS9zdG9ja3MvdmFsZS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1ef191badbb864da81339176053e5f2818074e830424b5ff7f55e0238c3b3c4cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFL25ld3Mv&ntb=1"
+        "https://www.vale.com/",
+        "https://www.valeforever.com/",
+        "https://en.wikipedia.org/wiki/Vale_S.A.",
+        "https://finance.yahoo.com/quote/VALE/"
       ],
       "candidates_found": [],
-      "notes": "14 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:52:58Z",
-      "reviewer": "github-actions:webcam-audit"
+      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T08:00:41Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     },
     {
-      "check_id": "airports",
+      "check_id": "technical_video",
       "status": "done",
       "queries": [
-        "Vale de Cambra aeroporto aeródromo webcam"
+        "Vale de Cambra live stream m3u8",
+        "site:youtube.com/live Vale de Cambra Portugal"
       ],
       "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=aba98940b78b48c8f85afc416514a82e2f7a93f1a27c6a722b82524a8569195aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5f6d67825afbd1cb909c2320695e891f99531f6cb2002681b8426a64780e6114JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZWZvcmV2ZXIuY29tLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e2316bf75ee0685a301dc8a67d9ec5249908503496ae81bf487d233a1a9709beJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=da27c951234018f0c86790429a4790088e4c61c3295ed236843a92fa4d46b40cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVmFsZV9TLkEu&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=89ca86f6aa07857268e682fd7810bda8aea87540b7fb811e9deac2811fef592bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20vdmFsZS1ub3c&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=739d15a6a452ebe9600a99b255db7244905bc7ad3b3abd4649cd13a4cb7ae9e8JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdG9ja2FuYWx5c2lzLmNvbS9zdG9ja3MvdmFsZS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1ef191badbb864da81339176053e5f2818074e830424b5ff7f55e0238c3b3c4cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFL25ld3Mv&ntb=1"
+        "https://www.vale.com/",
+        "https://www.valeforever.com/",
+        "https://en.wikipedia.org/wiki/Vale_S.A.",
+        "https://finance.yahoo.com/quote/VALE/"
       ],
       "candidates_found": [],
-      "notes": "7 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:53:01Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "transport",
-      "status": "done",
-      "queries": [
-        "Vale de Cambra trânsito estrada webcam",
-        "Vale de Cambra estação ferrovia camera live"
-      ],
-      "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=aba98940b78b48c8f85afc416514a82e2f7a93f1a27c6a722b82524a8569195aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5f6d67825afbd1cb909c2320695e891f99531f6cb2002681b8426a64780e6114JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZWZvcmV2ZXIuY29tLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e2316bf75ee0685a301dc8a67d9ec5249908503496ae81bf487d233a1a9709beJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=da27c951234018f0c86790429a4790088e4c61c3295ed236843a92fa4d46b40cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVmFsZV9TLkEu&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=89ca86f6aa07857268e682fd7810bda8aea87540b7fb811e9deac2811fef592bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20vdmFsZS1ub3c&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=739d15a6a452ebe9600a99b255db7244905bc7ad3b3abd4649cd13a4cb7ae9e8JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdG9ja2FuYWx5c2lzLmNvbS9zdG9ja3MvdmFsZS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1ef191badbb864da81339176053e5f2818074e830424b5ff7f55e0238c3b3c4cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFL25ld3Mv&ntb=1"
-      ],
-      "candidates_found": [],
-      "notes": "14 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:53:07Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "nature",
-      "status": "done",
-      "queries": [
-        "Vale de Cambra serra parque barragem miradouro webcam"
-      ],
-      "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=aba98940b78b48c8f85afc416514a82e2f7a93f1a27c6a722b82524a8569195aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5f6d67825afbd1cb909c2320695e891f99531f6cb2002681b8426a64780e6114JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZWZvcmV2ZXIuY29tLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e2316bf75ee0685a301dc8a67d9ec5249908503496ae81bf487d233a1a9709beJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=da27c951234018f0c86790429a4790088e4c61c3295ed236843a92fa4d46b40cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVmFsZV9TLkEu&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=89ca86f6aa07857268e682fd7810bda8aea87540b7fb811e9deac2811fef592bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20vdmFsZS1ub3c&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=739d15a6a452ebe9600a99b255db7244905bc7ad3b3abd4649cd13a4cb7ae9e8JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdG9ja2FuYWx5c2lzLmNvbS9zdG9ja3MvdmFsZS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1ef191badbb864da81339176053e5f2818074e830424b5ff7f55e0238c3b3c4cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFL25ld3Mv&ntb=1"
-      ],
-      "candidates_found": [],
-      "notes": "7 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:53:10Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "hotels",
-      "status": "done",
-      "queries": [
-        "Vale de Cambra hotel resort webcam live"
-      ],
-      "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=aba98940b78b48c8f85afc416514a82e2f7a93f1a27c6a722b82524a8569195aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5f6d67825afbd1cb909c2320695e891f99531f6cb2002681b8426a64780e6114JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZWZvcmV2ZXIuY29tLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e2316bf75ee0685a301dc8a67d9ec5249908503496ae81bf487d233a1a9709beJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=da27c951234018f0c86790429a4790088e4c61c3295ed236843a92fa4d46b40cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVmFsZV9TLkEu&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=89ca86f6aa07857268e682fd7810bda8aea87540b7fb811e9deac2811fef592bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20vdmFsZS1ub3c&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=739d15a6a452ebe9600a99b255db7244905bc7ad3b3abd4649cd13a4cb7ae9e8JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdG9ja2FuYWx5c2lzLmNvbS9zdG9ja3MvdmFsZS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1ef191badbb864da81339176053e5f2818074e830424b5ff7f55e0238c3b3c4cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFL25ld3Mv&ntb=1"
-      ],
-      "candidates_found": [],
-      "notes": "7 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:53:13Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "sports_golf",
-      "status": "done",
-      "queries": [
-        "Vale de Cambra golf ski desporto webcam"
-      ],
-      "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=aba98940b78b48c8f85afc416514a82e2f7a93f1a27c6a722b82524a8569195aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5f6d67825afbd1cb909c2320695e891f99531f6cb2002681b8426a64780e6114JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZWZvcmV2ZXIuY29tLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e2316bf75ee0685a301dc8a67d9ec5249908503496ae81bf487d233a1a9709beJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=da27c951234018f0c86790429a4790088e4c61c3295ed236843a92fa4d46b40cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVmFsZV9TLkEu&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=89ca86f6aa07857268e682fd7810bda8aea87540b7fb811e9deac2811fef592bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20vdmFsZS1ub3c&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=739d15a6a452ebe9600a99b255db7244905bc7ad3b3abd4649cd13a4cb7ae9e8JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdG9ja2FuYWx5c2lzLmNvbS9zdG9ja3MvdmFsZS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1ef191badbb864da81339176053e5f2818074e830424b5ff7f55e0238c3b3c4cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFL25ld3Mv&ntb=1"
-      ],
-      "candidates_found": [],
-      "notes": "7 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:53:16Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "weather_observatories",
-      "status": "done",
-      "queries": [
-        "Vale de Cambra meteorologia observatório webcam",
-        "site:ipma.pt Vale de Cambra camera"
-      ],
-      "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=aba98940b78b48c8f85afc416514a82e2f7a93f1a27c6a722b82524a8569195aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5f6d67825afbd1cb909c2320695e891f99531f6cb2002681b8426a64780e6114JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZWZvcmV2ZXIuY29tLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e2316bf75ee0685a301dc8a67d9ec5249908503496ae81bf487d233a1a9709beJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=da27c951234018f0c86790429a4790088e4c61c3295ed236843a92fa4d46b40cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVmFsZV9TLkEu&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=89ca86f6aa07857268e682fd7810bda8aea87540b7fb811e9deac2811fef592bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20vdmFsZS1ub3c&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=739d15a6a452ebe9600a99b255db7244905bc7ad3b3abd4649cd13a4cb7ae9e8JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdG9ja2FuYWx5c2lzLmNvbS9zdG9ja3MvdmFsZS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1ef191badbb864da81339176053e5f2818074e830424b5ff7f55e0238c3b3c4cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFL25ld3Mv&ntb=1"
-      ],
-      "candidates_found": [],
-      "notes": "7 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:53:22Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "social_video",
-      "status": "done",
-      "queries": [
-        "site:youtube.com/watch Vale de Cambra live webcam",
-        "site:facebook.com Vale de Cambra webcam live"
-      ],
-      "urls_checked": [],
-      "candidates_found": [],
-      "notes": "0 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:53:28Z",
-      "reviewer": "github-actions:webcam-audit"
-    },
-    {
-      "check_id": "technical",
-      "status": "done",
-      "queries": [
-        "Vale de Cambra m3u8 webcam",
-        "Vale de Cambra mjpeg camera",
-        "Vale de Cambra snapshot.jpg",
-        "Vale de Cambra iframe live"
-      ],
-      "urls_checked": [
-        "https://www.bing.com/ck/a?!&&p=aba98940b78b48c8f85afc416514a82e2f7a93f1a27c6a722b82524a8569195aJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20v&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=5f6d67825afbd1cb909c2320695e891f99531f6cb2002681b8426a64780e6114JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZWZvcmV2ZXIuY29tLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=e2316bf75ee0685a301dc8a67d9ec5249908503496ae81bf487d233a1a9709beJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFLw&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=da27c951234018f0c86790429a4790088e4c61c3295ed236843a92fa4d46b40cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvVmFsZV9TLkEu&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=89ca86f6aa07857268e682fd7810bda8aea87540b7fb811e9deac2811fef592bJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly93d3cudmFsZS5jb20vdmFsZS1ub3c&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=739d15a6a452ebe9600a99b255db7244905bc7ad3b3abd4649cd13a4cb7ae9e8JmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9zdG9ja2FuYWx5c2lzLmNvbS9zdG9ja3MvdmFsZS8&ntb=1",
-        "https://www.bing.com/ck/a?!&&p=1ef191badbb864da81339176053e5f2818074e830424b5ff7f55e0238c3b3c4cJmltdHM9MTc4NTExMDQwMA&ptn=3&ver=2&hsh=4&fclid=2f54e87e-7665-64cc-3078-ffdd774965eb&u=a1aHR0cHM6Ly9maW5hbmNlLnlhaG9vLmNvbS9xdW90ZS9WQUxFL25ld3Mv&ntb=1"
-      ],
-      "candidates_found": [],
-      "notes": "28 URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-27T08:53:39Z",
-      "reviewer": "github-actions:webcam-audit"
+      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T08:00:41Z",
+      "reviewer": "github-actions:webcam-audit-v5"
     }
   ],
   "candidates": [],
-  "checks_completed": 16,
-  "checks_total": 16,
-  "finished_at": "2026-07-27T08:53:39Z",
-  "reviewed_at": "2026-07-27T09:13:05Z",
-  "reviewer_second_pass": "github-actions:evidence-validator"
+  "checks_completed": 6,
+  "checks_total": 6,
+  "finished_at": "2026-07-30T08:00:41Z"
 }

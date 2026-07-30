@@ -3,32 +3,141 @@
   "order": 10,
   "municipality": "Mealhada",
   "district": "Aveiro",
-  "status": "complete",
-  "reviewed_at": "2026-07-27",
-  "checks_completed": 16,
-  "checks_total": 16,
-  "confirmed_webcams": [],
-  "rejected_candidates": [],
-  "searches": [
-    "Mealhada webcam live Portugal",
-    "Luso webcam live",
-    "Buçaco Bussaco webcam live",
-    "Mata Nacional do Bussaco webcam",
-    "site:cm-mealhada.pt webcam",
-    "Mealhada tourism hotel spa webcam",
-    "Mealhada YouTube live",
-    "Mealhada HLS m3u8 MJPEG snapshot",
-    "Windy Windfinder Webcam Galore Mealhada",
-    "PortugalWebcams GeoWebcams OpenCCTV Mealhada"
+  "status": "review",
+  "started_at": "2026-07-30T07:57:26Z",
+  "reviewer": "github-actions:webcam-audit",
+  "checks": [
+    {
+      "check_id": "official",
+      "status": "done",
+      "queries": [
+        "site:cm-mealhada.pt webcam Mealhada",
+        "site:mealhada.pt webcam Mealhada"
+      ],
+      "urls_checked": [
+        "https://webcamtests.com/",
+        "https://webcamtoy.com/",
+        "https://webcam.org/test/",
+        "https://iriun.com/"
+      ],
+      "candidates_found": [],
+      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T07:57:29Z",
+      "reviewer": "github-actions:webcam-audit-v5"
+    },
+    {
+      "check_id": "general",
+      "status": "done",
+      "queries": [
+        "webcam Mealhada Portugal",
+        "câmara ao vivo Mealhada"
+      ],
+      "urls_checked": [
+        "https://webcamtests.com/",
+        "https://webcamtoy.com/",
+        "https://webcam.org/test/",
+        "https://iriun.com/",
+        "https://wiki.sj.ifsc.edu.br/images/9/98/Projetocamaras.pdf",
+        "https://ia803206.us.archive.org/15/items/harry-potter-colecao-completa-de-livros/Livro%20Harry%20Potter%20e%20a%20C%C3%A2mara%20Secreta.pdf",
+        "https://archive.org/download/livrainosdomal2020/%20Lu%C3%ADs%20da%20C%C3%A2mara%20Cascudo%20-%20Geografia%20dos%20Mitos%20Brasileiros.pdf",
+        "https://www.planalto.rs.leg.br/documentos/2/PARAQUESERVEOUCOMOFUNCIONAUMACMARA.pdf"
+      ],
+      "candidates_found": [],
+      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T07:57:45Z",
+      "reviewer": "github-actions:webcam-audit-v5"
+    },
+    {
+      "check_id": "providers",
+      "status": "done",
+      "queries": [
+        "site:beachcam.meo.pt Mealhada",
+        "site:portugalwebcams.pt Mealhada"
+      ],
+      "urls_checked": [
+        "https://zhidao.baidu.com/question/820729145772572492.html",
+        "https://zhidao.baidu.com/question/64927180.html",
+        "https://www.zhihu.com/question/357590721",
+        "https://www.zhihu.com/column/p/21110966",
+        "https://devforum.roblox.com/",
+        "https://devforum.roblox.com/c/updates/45",
+        "https://devforum.roblox.com/t/new-publishing-requirements-evaluation-process-for-games/4573166",
+        "https://devforum.roblox.com/t/r6-run-walk-animations/2484804"
+      ],
+      "candidates_found": [],
+      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T07:57:54Z",
+      "reviewer": "github-actions:webcam-audit-v5"
+    },
+    {
+      "check_id": "tourism_coast",
+      "status": "done",
+      "queries": [
+        "Mealhada turismo webcam",
+        "Mealhada praia surf webcam"
+      ],
+      "urls_checked": [
+        "https://allcalidad.re/",
+        "https://allcalidad.app/",
+        "https://allpeliculas.la/",
+        "https://exonesp.es/",
+        "https://support.google.com/meet/answer/9308681?hl=en&co=GENIE.Platform%3DDesktop",
+        "https://support.google.com/android/answer/9075928?hl=en",
+        "https://support.google.com/meet/thread/40546144/why-is-the-record-option-not-available-sometimes?hl=en",
+        "https://support.google.com/youtubetv/answer/7129768?hl=en&co=GENIE.Platform%3DDesktop"
+      ],
+      "candidates_found": [],
+      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T07:58:01Z",
+      "reviewer": "github-actions:webcam-audit-v5"
+    },
+    {
+      "check_id": "transport_weather",
+      "status": "done",
+      "queries": [
+        "Mealhada trânsito meteorologia webcam",
+        "Mealhada porto marina aeroporto webcam"
+      ],
+      "urls_checked": [
+        "https://www.offi.fr/cinema/evenement/parasite-73818.html",
+        "https://www.allocine.fr/seance/film-255238/pres-de-115755/",
+        "https://www.pathe.fr/films/parasite",
+        "https://www.allocine.fr/seance/film-255238/",
+        "https://mri-performance.com/blogs/blog/build-your-ultimate-beach-body-in-just-6-weeks-a-comprehensive-musclebuilding-and-fatburning-workout-plan",
+        "https://revivohub.com/six-weeks-to-beach-fit/",
+        "https://blog.trainero.com/beach-body-workout-plan/",
+        "https://www.muscleandfitness.com/workout-plan/workouts/workout-routines/six-week-summer-cleaning-workout-0/"
+      ],
+      "candidates_found": [],
+      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T07:58:06Z",
+      "reviewer": "github-actions:webcam-audit-v5"
+    },
+    {
+      "check_id": "technical_video",
+      "status": "done",
+      "queries": [
+        "Mealhada live stream m3u8",
+        "site:youtube.com/live Mealhada Portugal"
+      ],
+      "urls_checked": [
+        "https://sante-medecine.journaldesfemmes.fr/forum/affich-100087684-avant-de-reserver-les-vacances-d-ete-mieux-vaut-connaitre-cette-prevision-meteo-elle-pourrait-gacher-l-ete-des-francais",
+        "https://sante-medecine.journaldesfemmes.fr/forum/contraception-17/solved",
+        "https://sante-medecine.journaldesfemmes.fr/forum/affich-100092451-aya-nakamura-en-concert-au-stade-de-france-la-somme-astronomique-touchee",
+        "https://sante-medecine.journaldesfemmes.fr/forum/affich-90046963-cherche-temoignages-de-personnes-qui-souffrent-d-hypertension",
+        "https://blog.rottenwifi.com/how-to-see-all-bing-related-searches/",
+        "https://www.bing.com/version",
+        "https://www.positioniseverything.net/how-to-see-all-bing-related-searches-2/",
+        "https://www.bing.com/?setmkt=en-US&setlang=fr-fr"
+      ],
+      "candidates_found": [],
+      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
+      "checked_at": "2026-07-30T07:58:10Z",
+      "reviewer": "github-actions:webcam-audit-v5"
+    }
   ],
-  "sources_checked": [
-    "municipal and tourism sites",
-    "Luso and Bussaco visitor resources",
-    "MEO Beachcam catalogue",
-    "Windy and Windfinder",
-    "PortugalWebcams and international aggregators",
-    "YouTube and generic web search",
-    "stream endpoint patterns"
-  ],
-  "conclusion": "No permanent public webcam physically located in Mealhada was verified. The Luso-Bussaco 360 resource is an interactive visitor route, not a live webcam. Negative evidence is retained for future re-audit."
+  "candidates": [],
+  "checks_completed": 6,
+  "checks_total": 6,
+  "finished_at": "2026-07-30T07:58:10Z"
 }

@@ -1,28 +1,28 @@
 order,id,region,municipality,status,checks_completed,checks_total,webcams_found,evidence_file,last_reviewed_at,reviewed_by,notes
-1,pt-aveiro-agueda,Aveiro,Águeda,complete,16,16,0,audit/evidence/pt-aveiro-agueda.json,2026-07-29T06:43:59Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
-2,pt-aveiro-albergaria-a-velha,Aveiro,Albergaria-a-Velha,complete,16,16,0,audit/evidence/pt-aveiro-albergaria-a-velha.json,2026-07-29T06:43:59Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
-3,pt-aveiro-anadia,Aveiro,Anadia,complete,16,16,0,audit/evidence/pt-aveiro-anadia.json,2026-07-29T06:43:59Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
-4,pt-aveiro-arouca,Aveiro,Arouca,complete,16,16,0,audit/evidence/pt-aveiro-arouca.json,2026-07-29T06:43:59Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
-5,pt-aveiro-aveiro,Aveiro,Aveiro,complete,16,16,0,audit/evidence/pt-aveiro-aveiro.json,2026-07-29T06:43:59Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
-6,pt-aveiro-castelo-de-paiva,Aveiro,Castelo de Paiva,complete,16,16,0,audit/evidence/pt-aveiro-castelo-de-paiva.json,2026-07-29T06:43:59Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
-7,pt-aveiro-espinho,Aveiro,Espinho,complete,16,16,0,audit/evidence/pt-aveiro-espinho.json,2026-07-29T06:43:59Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
-8,pt-aveiro-estarreja,Aveiro,Estarreja,complete,16,16,0,audit/evidence/pt-aveiro-estarreja.json,2026-07-29T06:43:59Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
-9,pt-aveiro-ilhavo,Aveiro,Ílhavo,complete,16,16,0,audit/evidence/pt-aveiro-ilhavo.json,2026-07-29T06:43:59Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
-10,pt-aveiro-mealhada,Aveiro,Mealhada,not_started,0,16,0,,,,
-11,pt-aveiro-murtosa,Aveiro,Murtosa,not_started,0,16,0,,,,
-12,pt-aveiro-oliveira-de-azemeis,Aveiro,Oliveira de Azeméis,not_started,0,16,0,,,,
-13,pt-aveiro-oliveira-do-bairro,Aveiro,Oliveira do Bairro,not_started,0,16,0,,,,
-14,pt-aveiro-ovar,Aveiro,Ovar,not_started,0,16,0,,,,
-15,pt-aveiro-santa-maria-da-feira,Aveiro,Santa Maria da Feira,not_started,0,16,0,,,,
-16,pt-aveiro-sao-joao-da-madeira,Aveiro,São João da Madeira,not_started,0,16,0,,,,
-17,pt-aveiro-sever-do-vouga,Aveiro,Sever do Vouga,not_started,0,16,0,,,,
-18,pt-aveiro-vagos,Aveiro,Vagos,not_started,0,16,0,,,,
-19,pt-aveiro-vale-de-cambra,Aveiro,Vale de Cambra,not_started,0,16,0,,,,
-20,pt-beja-aljustrel,Beja,Aljustrel,not_started,0,16,0,,,,
-21,pt-beja-almodovar,Beja,Almodôvar,not_started,0,16,0,,,,
-22,pt-beja-alvito,Beja,Alvito,not_started,0,16,0,,,,
-23,pt-beja-barrancos,Beja,Barrancos,not_started,0,16,0,,,,
-24,pt-beja-beja,Beja,Beja,not_started,0,16,0,,,,
+1,pt-aveiro-agueda,Aveiro,Águeda,complete,16,16,0,audit/evidence/pt-aveiro-agueda.json,2026-07-30T08:02:32Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+2,pt-aveiro-albergaria-a-velha,Aveiro,Albergaria-a-Velha,complete,16,16,0,audit/evidence/pt-aveiro-albergaria-a-velha.json,2026-07-30T08:02:32Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+3,pt-aveiro-anadia,Aveiro,Anadia,complete,16,16,0,audit/evidence/pt-aveiro-anadia.json,2026-07-30T08:02:32Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+4,pt-aveiro-arouca,Aveiro,Arouca,complete,16,16,0,audit/evidence/pt-aveiro-arouca.json,2026-07-30T08:02:32Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+5,pt-aveiro-aveiro,Aveiro,Aveiro,complete,16,16,0,audit/evidence/pt-aveiro-aveiro.json,2026-07-30T08:02:32Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+6,pt-aveiro-castelo-de-paiva,Aveiro,Castelo de Paiva,complete,16,16,0,audit/evidence/pt-aveiro-castelo-de-paiva.json,2026-07-30T08:02:32Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+7,pt-aveiro-espinho,Aveiro,Espinho,complete,16,16,0,audit/evidence/pt-aveiro-espinho.json,2026-07-30T08:02:32Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+8,pt-aveiro-estarreja,Aveiro,Estarreja,complete,16,16,0,audit/evidence/pt-aveiro-estarreja.json,2026-07-30T08:02:32Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+9,pt-aveiro-ilhavo,Aveiro,Ílhavo,complete,16,16,0,audit/evidence/pt-aveiro-ilhavo.json,2026-07-30T08:02:32Z,github-actions:webcam-audit,"Audit cycle 2026-07-27-full-restart-001; 0 candidate(s), 0 high-confidence."
+10,pt-aveiro-mealhada,Aveiro,Mealhada,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+11,pt-aveiro-murtosa,Aveiro,Murtosa,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+12,pt-aveiro-oliveira-de-azemeis,Aveiro,Oliveira de Azeméis,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+13,pt-aveiro-oliveira-do-bairro,Aveiro,Oliveira do Bairro,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+14,pt-aveiro-ovar,Aveiro,Ovar,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+15,pt-aveiro-santa-maria-da-feira,Aveiro,Santa Maria da Feira,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+16,pt-aveiro-sao-joao-da-madeira,Aveiro,São João da Madeira,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+17,pt-aveiro-sever-do-vouga,Aveiro,Sever do Vouga,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+18,pt-aveiro-vagos,Aveiro,Vagos,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+19,pt-aveiro-vale-de-cambra,Aveiro,Vale de Cambra,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+20,pt-beja-aljustrel,Beja,Aljustrel,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+21,pt-beja-almodovar,Beja,Almodôvar,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+22,pt-beja-alvito,Beja,Alvito,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+23,pt-beja-barrancos,Beja,Barrancos,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
+24,pt-beja-beja,Beja,Beja,review,0,16,0,,,,Current-cycle evidence did not pass all 16 validation checks
 25,pt-beja-castro-verde,Beja,Castro Verde,not_started,0,16,0,,,,
 26,pt-beja-cuba,Beja,Cuba,not_started,0,16,0,,,,
 27,pt-beja-ferreira-do-alentejo,Beja,Ferreira do Alentejo,not_started,0,16,0,,,,
