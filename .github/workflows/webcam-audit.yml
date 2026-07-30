@@ -82,13 +82,13 @@ jobs:
           print(f"Crawler preflight passed for cycle {cycle['cycle_id']}.")
           PY
 
-      - name: Run cached lossless audit
+      - name: Run optimized lossless audit
         id: audit
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
-          AUDIT_DELAY: "0.35"
+          AUDIT_DELAY: "0.20"
           AUDIT_CONNECT_TIMEOUT: "5"
-          AUDIT_READ_TIMEOUT: "12"
+          AUDIT_READ_TIMEOUT: "10"
           AUDIT_RETRIES: "1"
           AUDIT_RETRY_BACKOFF: "0.35"
           AUDIT_MAX_PAGE_BYTES: "2500000"
@@ -103,13 +103,13 @@ jobs:
           LIMIT="${{ github.event.inputs.limit }}"
           LIMIT="${LIMIT:-15}"
           MUNICIPALITY="${{ github.event.inputs.municipality_id }}"
-          ARGS=(--limit "$LIMIT" --max-results 10)
+          ARGS=(--limit "$LIMIT" --max-results 4)
           if [[ -n "$MUNICIPALITY" ]]; then
             ARGS+=(--municipality-id "$MUNICIPALITY")
           fi
 
           set +e
-          python scripts/run_audit_v4.py "${ARGS[@]}" > audit/logs/latest-console.log 2>&1
+          python scripts/run_audit_v5.py "${ARGS[@]}" > audit/logs/latest-console.log 2>&1
           CODE=$?
           set -e
           echo "$CODE" > audit/logs/latest-exit-code.txt
@@ -117,14 +117,18 @@ jobs:
           if [[ -f audit/logs/latest-summary.md ]]; then
             cat audit/logs/latest-summary.md
           fi
+          if [[ -f audit/logs/search-providers.json ]]; then
+            echo "Search provider health:"
+            cat audit/logs/search-providers.json
+          fi
 
           if [[ "$CODE" -ne 0 ]]; then
             echo "Crawler internal failure. Last diagnostic lines:"
-            tail -n 100 audit/logs/latest-console.log
+            tail -n 120 audit/logs/latest-console.log
             exit "$CODE"
           fi
 
-          echo "Audit completed. External HTTP refusals and timeouts are retained only in the diagnostic artifact."
+          echo "Audit completed. External HTTP refusals and timeouts are retained in diagnostics."
 
       - name: Validate search-layer health
         run: python scripts/validate_search_health.py
@@ -162,6 +166,16 @@ jobs:
             cat audit/logs/latest-summary.md >> "$GITHUB_STEP_SUMMARY"
           else
             echo "# Audit stopped before diagnostics were generated" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [[ -f audit/logs/search-providers.json ]]; then
+            echo "\n## Search providers" >> "$GITHUB_STEP_SUMMARY"
+            python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          from pathlib import Path
+          doc = json.loads(Path('audit/logs/search-providers.json').read_text())
+          for name, row in doc.get('providers', {}).items():
+              print(f"- {name}: {row.get('requests', 0)} requests, {row.get('results', 0)} results, {row.get('errors', 0)} errors")
+          PY
           fi
           python - <<'PY' >> "$GITHUB_STEP_SUMMARY"
           import json
