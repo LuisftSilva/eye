@@ -3,204 +3,98 @@
   "order": 13,
   "municipality": "Oliveira do Bairro",
   "district": "Aveiro",
-  "status": "review",
-  "started_at": "2026-07-31T04:38:21Z",
+  "status": "blocked",
+  "started_at": "2026-07-31T07:19:11Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
       "check_id": "official",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "site:cm-oliveira-do-bairro.pt webcam Oliveira do Bairro",
         "site:oliveira-do-bairro.pt webcam Oliveira do Bairro"
       ],
-      "urls_checked": [
-        "https://webcamtests.com/",
-        "https://webcamtoy.com/",
-        "https://webcam.org/test/",
-        "https://iriun.com/"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:21Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:11Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "general",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "webcam Oliveira do Bairro Portugal",
         "câmara ao vivo Oliveira do Bairro"
       ],
-      "urls_checked": [
-        "https://webcamtests.com/",
-        "https://webcamtoy.com/",
-        "https://webcam.org/test/",
-        "https://iriun.com/",
-        "https://wiki.sj.ifsc.edu.br/images/9/98/Projetocamaras.pdf",
-        "https://ia803206.us.archive.org/15/items/harry-potter-colecao-completa-de-livros/Livro%20Harry%20Potter%20e%20a%20C%C3%A2mara%20Secreta.pdf",
-        "https://archive.org/download/livrainosdomal2020/%20Lu%C3%ADs%20da%20C%C3%A2mara%20Cascudo%20-%20Geografia%20dos%20Mitos%20Brasileiros.pdf",
-        "https://www.planalto.rs.leg.br/documentos/2/PARAQUESERVEOUCOMOFUNCIONAUMACMARA.pdf"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:21Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:11Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "providers",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "site:beachcam.meo.pt Oliveira do Bairro",
         "site:portugalwebcams.pt Oliveira do Bairro"
       ],
-      "urls_checked": [
-        "https://whereamirightnow.com/",
-        "https://mylocationapp.com/my-location/",
-        "https://local.google.com/",
-        "https://www.mappr.co/where-am-i/",
-        "https://www.theblackfriday.com/spring-black-friday/homedepot-springblackfriday.php",
-        "https://www.theblackfriday.com/spring-black-friday",
-        "https://www.theblackfriday.com/spring-black-friday/lowes-springblackfriday.php",
-        "https://www.theblackfriday.com/spring-black-friday/harborfreight-springblackfriday.php"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:25Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:12Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "tourism_coast",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Oliveira do Bairro turismo webcam",
         "Oliveira do Bairro praia surf webcam"
       ],
-      "urls_checked": [
-        "https://www.youtube.com/watch?v=N-jZas9tMSU",
-        "https://pilatesology.com/pilatesology-encyclopedia-double-leg-stretch/",
-        "https://www.youtube.com/watch?v=fuwzt4d7FuY",
-        "https://gethealthyu.com/double-leg-stretch/",
-        "https://zhidao.baidu.com/question/2001041139618234027.html",
-        "https://zhidao.baidu.com/question/1185904289449196259.html",
-        "https://zhidao.baidu.com/question/693122229940662532.html",
-        "https://zhidao.baidu.com/question/1711844813729003300.html"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:33Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:12Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "transport_weather",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Oliveira do Bairro trânsito meteorologia webcam",
         "Oliveira do Bairro porto marina aeroporto webcam"
       ],
-      "urls_checked": [
-        "https://genius.com/Ice-spice-big-guy-lyrics",
-        "https://www.youtube.com/watch?v=7yaU0qXlgbo",
-        "https://www.youtube.com/watch?v=TNxOSBm9qOA",
-        "https://www.lyricsbull.com/big-guy-lyrics-ice-spice/",
-        "https://www.zhihu.com/question/20498753",
-        "https://www.zhihu.com/people/lu-chen-xi-9-98",
-        "https://www.zhihu.com/topic/20171192/hot",
-        "https://www.zhihu.com/people/kshir-sagar"
-      ],
-      "candidates_found": [
-        {
-          "name": "Big Guy Lyrics - Ice Spice",
-          "municipality": "Oliveira do Bairro",
-          "region": "Aveiro",
-          "source_url": "https://www.lyricsbull.com/big-guy-lyrics-ice-spice/",
-          "media_url": "https://www.youtube.com/embed/gDb91xKfa4E?enablejsapi=1",
-          "provider": "www.lyricsbull.com",
-          "status": "rejected",
-          "confidence": 35,
-          "evidence": [
-            "Media/player URL extracted from https://www.lyricsbull.com/big-guy-lyrics-ice-spice/.",
-            "Known public embedded-player provider."
-          ],
-          "discovered_at": "2026-07-31T04:38:37Z"
-        }
-      ],
-      "notes": "8 unique URLs checked; 1 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:40Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:12Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "technical_video",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Oliveira do Bairro live stream m3u8",
         "site:youtube.com/live Oliveira do Bairro Portugal"
       ],
-      "urls_checked": [
-        "https://www.dietascormillot.com/home.html",
-        "https://users3.dietascormillot.com/login.php",
-        "https://www.dietascormillot.com/programa.html",
-        "https://chat.dietascormillot.com/group/",
-        "https://www.crosswalk.com/faith/bible-study/what-does-it-mean-to-be-gentle-and-lowly-in-the-bible.html",
-        "https://biblehub.com/matthew/11-29.htm",
-        "https://hermeneutics.stackexchange.com/questions/41443/what-do-the-words-meek-lowly-in-matthew-1129-mean-and-how-to-achieve-it",
-        "https://www.wisdomlib.org/christianity/concept/meek-and-lowly-in-heart"
-      ],
-      "candidates_found": [
-        {
-          "name": "Matthew 11:29 Take My yoke upon you and learn from Me; for I am gentle and humble in heart, and you will find rest for your souls.",
-          "municipality": "Oliveira do Bairro",
-          "region": "Aveiro",
-          "source_url": "https://biblehub.com/matthew/11-29.htm",
-          "media_url": "https://www.youtube.com/embed/hriiyJYqzvc?start=2987",
-          "provider": "biblehub.com",
-          "status": "rejected",
-          "confidence": 35,
-          "evidence": [
-            "Media/player URL extracted from https://biblehub.com/matthew/11-29.htm.",
-            "Known public embedded-player provider."
-          ],
-          "discovered_at": "2026-07-31T04:38:44Z"
-        }
-      ],
-      "notes": "8 unique URLs checked; 1 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:45Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:12Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     }
   ],
-  "candidates": [
-    {
-      "name": "Big Guy Lyrics - Ice Spice",
-      "municipality": "Oliveira do Bairro",
-      "region": "Aveiro",
-      "source_url": "https://www.lyricsbull.com/big-guy-lyrics-ice-spice/",
-      "media_url": "https://www.youtube.com/embed/gDb91xKfa4E?enablejsapi=1",
-      "provider": "www.lyricsbull.com",
-      "status": "rejected",
-      "confidence": 35,
-      "evidence": [
-        "Media/player URL extracted from https://www.lyricsbull.com/big-guy-lyrics-ice-spice/.",
-        "Known public embedded-player provider."
-      ],
-      "discovered_at": "2026-07-31T04:38:37Z"
-    },
-    {
-      "name": "Matthew 11:29 Take My yoke upon you and learn from Me; for I am gentle and humble in heart, and you will find rest for your souls.",
-      "municipality": "Oliveira do Bairro",
-      "region": "Aveiro",
-      "source_url": "https://biblehub.com/matthew/11-29.htm",
-      "media_url": "https://www.youtube.com/embed/hriiyJYqzvc?start=2987",
-      "provider": "biblehub.com",
-      "status": "rejected",
-      "confidence": 35,
-      "evidence": [
-        "Media/player URL extracted from https://biblehub.com/matthew/11-29.htm.",
-        "Known public embedded-player provider."
-      ],
-      "discovered_at": "2026-07-31T04:38:44Z"
-    }
-  ],
+  "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-31T04:38:45Z"
+  "finished_at": "2026-07-31T07:19:12Z",
+  "error": "Search layer returned zero URLs across all queries. This is treated as an API/transport/search-engine failure, not as evidence that no webcams exist.",
+  "search_health": {
+    "status": "blocked",
+    "urls_returned": 0,
+    "checks_examined": 6,
+    "action": "Municipality remains pending and must be searched again after recovery."
+  }
 }

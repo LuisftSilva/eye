@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-31T04:36:43Z",
+  "started_at": "2026-07-31T07:19:06Z",
   "municipalities": [
     {
       "id": "pt-aveiro-mealhada",
@@ -7,19 +7,19 @@
     },
     {
       "id": "pt-aveiro-murtosa",
-      "candidates": 2
+      "candidates": 0
     },
     {
       "id": "pt-aveiro-oliveira-de-azemeis",
-      "candidates": 1
+      "candidates": 0
     },
     {
       "id": "pt-aveiro-oliveira-do-bairro",
-      "candidates": 2
+      "candidates": 0
     },
     {
       "id": "pt-aveiro-ovar",
-      "candidates": 1
+      "candidates": 0
     },
     {
       "id": "pt-aveiro-santa-maria-da-feira",
@@ -43,19 +43,19 @@
     },
     {
       "id": "pt-beja-aljustrel",
-      "candidates": 11
+      "candidates": 0
     },
     {
       "id": "pt-beja-almodovar",
-      "candidates": 10
+      "candidates": 0
     },
     {
       "id": "pt-beja-alvito",
-      "candidates": 1
+      "candidates": 0
     },
     {
       "id": "pt-beja-barrancos",
-      "candidates": 7
+      "candidates": 0
     },
     {
       "id": "pt-beja-beja",
@@ -63,6 +63,6 @@
     }
   ],
   "errors": [],
-  "finished_at": "2026-07-31T04:41:15Z",
+  "finished_at": "2026-07-31T07:19:40Z",
   "auto_published": 0
 }

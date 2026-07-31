@@ -3,169 +3,98 @@
   "order": 12,
   "municipality": "Oliveira de Azeméis",
   "district": "Aveiro",
-  "status": "review",
-  "started_at": "2026-07-31T04:37:47Z",
+  "status": "blocked",
+  "started_at": "2026-07-31T07:19:09Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
       "check_id": "official",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "site:cm-oliveira-de-azemeis.pt webcam Oliveira de Azeméis",
         "site:oliveira-de-azemeis.pt webcam Oliveira de Azeméis"
       ],
-      "urls_checked": [
-        "https://webcamtests.com/",
-        "https://webcamtoy.com/",
-        "https://webcam.org/test/",
-        "https://iriun.com/"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:37:47Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:10Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "general",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "webcam Oliveira de Azeméis Portugal",
         "câmara ao vivo Oliveira de Azeméis"
       ],
-      "urls_checked": [
-        "https://webcamtests.com/",
-        "https://webcamtoy.com/",
-        "https://webcam.org/test/",
-        "https://iriun.com/",
-        "https://wiki.sj.ifsc.edu.br/images/9/98/Projetocamaras.pdf",
-        "https://ia803206.us.archive.org/15/items/harry-potter-colecao-completa-de-livros/Livro%20Harry%20Potter%20e%20a%20C%C3%A2mara%20Secreta.pdf",
-        "https://archive.org/download/livrainosdomal2020/%20Lu%C3%ADs%20da%20C%C3%A2mara%20Cascudo%20-%20Geografia%20dos%20Mitos%20Brasileiros.pdf",
-        "https://www.planalto.rs.leg.br/documentos/2/PARAQUESERVEOUCOMOFUNCIONAUMACMARA.pdf"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:37:47Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:10Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "providers",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "site:beachcam.meo.pt Oliveira de Azeméis",
         "site:portugalwebcams.pt Oliveira de Azeméis"
       ],
-      "urls_checked": [
-        "https://pt.wikipedia.org/wiki/Oliveira_de_Azem%C3%A9is",
-        "https://en.wikipedia.org/wiki/Oliveira_de_Azem%C3%A9is",
-        "https://www.cm-oaz.pt/",
-        "https://www.pilgrim.es/en/portuguese-way/oliveira-de-azemeis/"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:00Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:10Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "tourism_coast",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Oliveira de Azeméis turismo webcam",
         "Oliveira de Azeméis praia surf webcam"
       ],
-      "urls_checked": [
-        "https://www.amazon.jobs/",
-        "https://hiring.amazon.com/",
-        "https://hiring.amazon.com/app",
-        "https://www.amazon.jobs/en/search",
-        "https://outlook.office.com/mail/?ui=es-ES&rs=MX",
-        "https://www.microsoft.com/es-es/microsoft-365/outlook/log-in",
-        "https://outlook.office.com/mail/?ui=es-ES&rs=ES",
-        "https://support.microsoft.com/es-ES/accounts-billing/manage/how-to-sign-in-to-hotmail"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:05Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:10Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "transport_weather",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Oliveira de Azeméis trânsito meteorologia webcam",
         "Oliveira de Azeméis porto marina aeroporto webcam"
       ],
-      "urls_checked": [
-        "https://bajiu.cn/ditu/?id=2",
-        "https://bajiu.cn/ditu/?id=20522",
-        "https://bajiu.cn/ditu/?sw=2",
-        "https://bajiu.cn/ditu/?dx=2",
-        "https://cms.volaris.com/es/informacion-util/altitude/",
-        "https://www.volaris.com/es-mx/",
-        "https://cms.volaris.com/en/travel-info/altitude/",
-        "https://www.volaris.com/?culture=es"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:13Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:11Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "technical_video",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Oliveira de Azeméis live stream m3u8",
         "site:youtube.com/live Oliveira de Azeméis Portugal"
       ],
-      "urls_checked": [
-        "https://de.wikipedia.org/wiki/Steiermark",
-        "https://www.steiermark.com/de",
-        "http://www.steiermark.at/",
-        "https://www.urlaubsguide.de/oesterreich/steiermark/",
-        "https://forum.lowyat.net/",
-        "https://forum.lowyat.net/topic/5556445/all",
-        "https://answers.microsoft.com/en-us/msoffice/forum/all/o365-update-access-lock-file/24c6eed3-9846-4667-a4ee-1eb557d30b91",
-        "https://answers.microsoft.com/en-us/msoffice/forum/all/mail-merge-labels/163507a6-1f4d-40d8-a6b7-84313c29bd13"
-      ],
-      "candidates_found": [
-        {
-          "name": "Steiermark Reiseführer - Informationen & Urlaubstipps!",
-          "municipality": "Oliveira de Azeméis",
-          "region": "Aveiro",
-          "source_url": "https://www.urlaubsguide.de/oesterreich/steiermark/",
-          "media_url": "https://www.youtube.com/embed/R9tGkau6SuU?controls=0",
-          "provider": "www.urlaubsguide.de",
-          "status": "rejected",
-          "confidence": 35,
-          "evidence": [
-            "Media/player URL extracted from https://www.urlaubsguide.de/oesterreich/steiermark/.",
-            "Known public embedded-player provider."
-          ],
-          "discovered_at": "2026-07-31T04:38:19Z"
-        }
-      ],
-      "notes": "8 unique URLs checked; 1 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:21Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:11Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     }
   ],
-  "candidates": [
-    {
-      "name": "Steiermark Reiseführer - Informationen & Urlaubstipps!",
-      "municipality": "Oliveira de Azeméis",
-      "region": "Aveiro",
-      "source_url": "https://www.urlaubsguide.de/oesterreich/steiermark/",
-      "media_url": "https://www.youtube.com/embed/R9tGkau6SuU?controls=0",
-      "provider": "www.urlaubsguide.de",
-      "status": "rejected",
-      "confidence": 35,
-      "evidence": [
-        "Media/player URL extracted from https://www.urlaubsguide.de/oesterreich/steiermark/.",
-        "Known public embedded-player provider."
-      ],
-      "discovered_at": "2026-07-31T04:38:19Z"
-    }
-  ],
+  "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-31T04:38:21Z"
+  "finished_at": "2026-07-31T07:19:11Z",
+  "error": "Search layer returned zero URLs across all queries. This is treated as an API/transport/search-engine failure, not as evidence that no webcams exist.",
+  "search_health": {
+    "status": "blocked",
+    "urls_returned": 0,
+    "checks_examined": 6,
+    "action": "Municipality remains pending and must be searched again after recovery."
+  }
 }

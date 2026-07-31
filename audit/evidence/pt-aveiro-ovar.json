@@ -3,173 +3,98 @@
   "order": 14,
   "municipality": "Ovar",
   "district": "Aveiro",
-  "status": "review",
-  "started_at": "2026-07-31T04:38:45Z",
+  "status": "blocked",
+  "started_at": "2026-07-31T07:19:12Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
       "check_id": "official",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "site:cm-ovar.pt webcam Ovar",
         "site:ovar.pt webcam Ovar"
       ],
-      "urls_checked": [
-        "https://webcamtests.com/",
-        "https://webcamtoy.com/",
-        "https://webcam.org/test/",
-        "https://iriun.com/"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:45Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:13Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "general",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "webcam Ovar Portugal",
         "câmara ao vivo Ovar"
       ],
-      "urls_checked": [
-        "https://webcamtests.com/",
-        "https://webcamtoy.com/",
-        "https://webcam.org/test/",
-        "https://iriun.com/",
-        "https://wiki.sj.ifsc.edu.br/images/9/98/Projetocamaras.pdf",
-        "https://ia803206.us.archive.org/15/items/harry-potter-colecao-completa-de-livros/Livro%20Harry%20Potter%20e%20a%20C%C3%A2mara%20Secreta.pdf",
-        "https://archive.org/download/livrainosdomal2020/%20Lu%C3%ADs%20da%20C%C3%A2mara%20Cascudo%20-%20Geografia%20dos%20Mitos%20Brasileiros.pdf",
-        "https://www.planalto.rs.leg.br/documentos/2/PARAQUESERVEOUCOMOFUNCIONAUMACMARA.pdf"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:45Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:13Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "providers",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "site:beachcam.meo.pt Ovar",
         "site:portugalwebcams.pt Ovar"
       ],
-      "urls_checked": [
-        "https://consumertestedreviews.org/best-products/best-digital-picture-frames/",
-        "https://boundbyflame.com/best-digital-photo-frames/",
-        "https://www.bestchoice.com/comparison/digital-photo-frame-with-motion-sensor",
-        "https://www.snapwoodapps.com/dfolio-for-dropbox/",
-        "https://skinsight.com/skin-conditions/varicosities/",
-        "https://www.merriam-webster.com/dictionary/varicosity",
-        "https://www.usaveinclinics.com/blog/what-does-it-mean-to-have-varicosities/",
-        "https://www.veindirectory.org/article/conditions/what-is-a-varicosity"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:52Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:13Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "tourism_coast",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Ovar turismo webcam",
         "Ovar praia surf webcam"
       ],
-      "urls_checked": [
-        "https://www.justdial.com/Sonitpur/Top-Restaurants/nct-10408936",
-        "https://www.justdial.com/Sonitpur/All-Day-Dining-Restaurants/nct-11956687",
-        "https://www.tripadvisor.com.ph/Restaurants-g12380004-Sonitpur_District_Assam.html",
-        "https://www.tripadvisor.com/Restaurants-g12380004-Sonitpur_District_Assam.html",
-        "https://www.pcmag.com/reviews/asus-zenbook-14-oled-ux3405",
-        "https://www.ultrabookreview.com/71699-asus-zenbook-14-2025-intel-review/",
-        "https://softhandtech.com/is-zenbook-14-a-good-laptop/",
-        "https://www.xda-developers.com/asus-zenbook-14-review/"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:38:57Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:13Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "transport_weather",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Ovar trânsito meteorologia webcam",
         "Ovar porto marina aeroporto webcam"
       ],
-      "urls_checked": [
-        "https://www.microsoft.com/en-us",
-        "https://account.microsoft.com/account",
-        "https://myaccount.microsoft.com/",
-        "https://careers.microsoft.com/",
-        "https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/symptoms-causes/syc-20373410",
-        "https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/in-depth/high-blood-pressure/art-20046974",
-        "https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/in-depth/blood-pressure/art-20050982",
-        "https://www.mayoclinic.org/diseases-conditions/high-blood-pressure/diagnosis-treatment/drc-20373417"
-      ],
-      "candidates_found": [
-        {
-          "name": "Home | Microsoft Careers",
-          "municipality": "Ovar",
-          "region": "Aveiro",
-          "source_url": "https://careers.microsoft.com/v2/global/en/home.html",
-          "media_url": "https://www.youtube-nocookie.com/embed/Cf036tDc6NI?rel=0",
-          "provider": "careers.microsoft.com",
-          "status": "rejected",
-          "confidence": 35,
-          "evidence": [
-            "Media/player URL extracted from https://careers.microsoft.com/v2/global/en/home.html.",
-            "Known public embedded-player provider."
-          ],
-          "discovered_at": "2026-07-31T04:39:19Z"
-        }
-      ],
-      "notes": "8 unique URLs checked; 1 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:39:20Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:14Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "technical_video",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Ovar live stream m3u8",
         "site:youtube.com/live Ovar Portugal"
       ],
-      "urls_checked": [
-        "https://www.microsoft.com/en-us",
-        "https://account.microsoft.com/account",
-        "https://myaccount.microsoft.com/",
-        "https://careers.microsoft.com/",
-        "https://support.google.com/youtube/answer/7682560?hl=en",
-        "https://support.google.com/youtube/answer/3227660?hl=ar&co=GENIE.Platform%3DAndroid",
-        "https://www.zhihu.com/question/1945629068243481180",
-        "https://www.zhihu.com/question/1903231775980913051"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:39:23Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:14Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     }
   ],
-  "candidates": [
-    {
-      "name": "Home | Microsoft Careers",
-      "municipality": "Ovar",
-      "region": "Aveiro",
-      "source_url": "https://careers.microsoft.com/v2/global/en/home.html",
-      "media_url": "https://www.youtube-nocookie.com/embed/Cf036tDc6NI?rel=0",
-      "provider": "careers.microsoft.com",
-      "status": "rejected",
-      "confidence": 35,
-      "evidence": [
-        "Media/player URL extracted from https://careers.microsoft.com/v2/global/en/home.html.",
-        "Known public embedded-player provider."
-      ],
-      "discovered_at": "2026-07-31T04:39:19Z"
-    }
-  ],
+  "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-31T04:39:23Z"
+  "finished_at": "2026-07-31T07:19:14Z",
+  "error": "Search layer returned zero URLs across all queries. This is treated as an API/transport/search-engine failure, not as evidence that no webcams exist.",
+  "search_health": {
+    "status": "blocked",
+    "urls_returned": 0,
+    "checks_examined": 6,
+    "action": "Municipality remains pending and must be searched again after recovery."
+  }
 }

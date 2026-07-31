@@ -4,276 +4,73 @@
   "municipality": "Aljustrel",
   "district": "Beja",
   "status": "review",
-  "started_at": "2026-07-31T04:39:44Z",
+  "started_at": "2026-07-31T07:19:29Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
       "check_id": "official",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "site:cm-aljustrel.pt webcam Aljustrel",
         "site:aljustrel.pt webcam Aljustrel"
       ],
-      "urls_checked": [
-        "https://www.weatherworld.com/radar-loop/ca/on/toronto.html",
-        "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-        "https://www.accuweather.com/en/ca/toronto/m5h/weather-radar/55488",
-        "https://www.easeweather.com/north-america/canada/ontario/toronto/radar",
-        "https://webcamtests.com/",
-        "https://webcamtoy.com/",
-        "https://webcam.org/test/",
-        "https://iriun.com/"
-      ],
-      "candidates_found": [
-        {
-          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-          "municipality": "Aljustrel",
-          "region": "Beja",
-          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/1c606e08-c8c6-4766-84cb-6e08c4829161/POWER_OUTAGE_HACKSmezz_Playlist.m3u8",
-          "provider": "weather.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-31T04:39:46Z"
-        },
-        {
-          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-          "municipality": "Aljustrel",
-          "region": "Beja",
-          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/a02c903c-4202-427b-a302-d7af17198f0b/Tech_Tools_To_Stay_Safe_During_Disaster_mezz_Playlist.m3u8",
-          "provider": "weather.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-31T04:39:46Z"
-        },
-        {
-          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-          "municipality": "Aljustrel",
-          "region": "Beja",
-          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/7dae8251-a6f4-4716-98d3-025cf4d2fcf0/091523_LEE_5AM_OVERVIEW_V2mezz_Playlist.m3u8",
-          "provider": "weather.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-31T04:39:46Z"
-        },
-        {
-          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-          "municipality": "Aljustrel",
-          "region": "Beja",
-          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/4522db36-3fb0-4d3b-b4db-cace164a7472/HOW_TO_CLEAN_UP_WATER_DAMAGE_IN_YOUR_CAR_Playlist.m3u8",
-          "provider": "weather.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-31T04:39:46Z"
-        },
-        {
-          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-          "municipality": "Aljustrel",
-          "region": "Beja",
-          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/a763d4fc-8fd2-4d96-949d-0a3c35dfdab6/COMMON_STORM_SURGE_MYTHS_THAT_YOU_NEED_TO_KNOW_Playlist.m3u8",
-          "provider": "weather.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-31T04:39:46Z"
-        },
-        {
-          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-          "municipality": "Aljustrel",
-          "region": "Beja",
-          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/fc37f534-c498-47bc-8974-aadb8b594ec9/091423_LEE_5PM_OVERVIEWmezz_Playlist.m3u8",
-          "provider": "weather.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-31T04:39:46Z"
-        },
-        {
-          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-          "municipality": "Aljustrel",
-          "region": "Beja",
-          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/dcd06d1c-3424-478c-b557-a98c5e1c1e17/PrepareWeatherEmergency_8_25_23_text_1mezz_Playlist.m3u8",
-          "provider": "weather.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-31T04:39:46Z"
-        },
-        {
-          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-          "municipality": "Aljustrel",
-          "region": "Beja",
-          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/67c0483a-ec60-4216-9cc1-84f35eaf7f4a/WHY_FILL_YOUR_BATHTUB_DURING_A_HURRICANE_2_Playlist.m3u8",
-          "provider": "weather.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-31T04:39:46Z"
-        },
-        {
-          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-          "municipality": "Aljustrel",
-          "region": "Beja",
-          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/04799596-cded-4e85-8a6c-ff2052b78925/6_NON_PERISHABLE_THINGS_YOU_CAN_BUY_THIS_WEEKEND_TO_PREP_FOR_HURRICANES2_mezz_Playlist.m3u8",
-          "provider": "weather.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-31T04:39:46Z"
-        },
-        {
-          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-          "municipality": "Aljustrel",
-          "region": "Beja",
-          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/7df4fb3b-0e2f-4112-add5-2d1c5b10e46e/0531_GetYourPetsReadyForHurricaneSeasonmezz_Playlist.m3u8",
-          "provider": "weather.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-31T04:39:46Z"
-        },
-        {
-          "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-          "municipality": "Aljustrel",
-          "region": "Beja",
-          "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-          "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/27667fa5-d5fe-455e-8e13-e5a2653e126f/v2_beach_living_precautionsmezz_Playlist.m3u8",
-          "provider": "weather.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-31T04:39:46Z"
-        }
-      ],
-      "notes": "8 unique URLs checked; 11 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:40:07Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "urls_checked": [],
+      "candidates_found": [],
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:30Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "general",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "webcam Aljustrel Portugal",
         "câmara ao vivo Aljustrel"
       ],
-      "urls_checked": [
-        "https://webcamtests.com/",
-        "https://webcamtoy.com/",
-        "https://webcam.org/test/",
-        "https://iriun.com/",
-        "https://wiki.sj.ifsc.edu.br/images/9/98/Projetocamaras.pdf",
-        "https://ia803206.us.archive.org/15/items/harry-potter-colecao-completa-de-livros/Livro%20Harry%20Potter%20e%20a%20C%C3%A2mara%20Secreta.pdf",
-        "https://archive.org/download/livrainosdomal2020/%20Lu%C3%ADs%20da%20C%C3%A2mara%20Cascudo%20-%20Geografia%20dos%20Mitos%20Brasileiros.pdf",
-        "https://www.planalto.rs.leg.br/documentos/2/PARAQUESERVEOUCOMOFUNCIONAUMACMARA.pdf"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:40:07Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:30Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "providers",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "site:beachcam.meo.pt Aljustrel",
         "site:portugalwebcams.pt Aljustrel"
       ],
-      "urls_checked": [
-        "https://www.sec.gov/Archives/edgar/data/1377085/000120445907001644/lundintechrep2.pdf",
-        "https://link.springer.com/content/pdf/10.1007/s10653-019-00249-y.pdf",
-        "https://www.fatima.pt/files/upload/subsidios_para_a_peregrinacao/ipaljustrelenroll.pdf",
-        "https://www.lneg.pt/wp-content/uploads/2024/11/Brochura-ALJUSTREL-EN.pdf"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:40:12Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:30Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "tourism_coast",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Aljustrel turismo webcam",
         "Aljustrel praia surf webcam"
       ],
-      "urls_checked": [
-        "https://www.sec.gov/Archives/edgar/data/1377085/000120445907001644/lundintechrep2.pdf",
-        "https://link.springer.com/content/pdf/10.1007/s10653-019-00249-y.pdf",
-        "https://www.fatima.pt/files/upload/subsidios_para_a_peregrinacao/ipaljustrelenroll.pdf",
-        "https://www.lneg.pt/wp-content/uploads/2024/11/Brochura-ALJUSTREL-EN.pdf"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:40:12Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:30Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "transport_weather",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Aljustrel trânsito meteorologia webcam",
         "Aljustrel porto marina aeroporto webcam"
       ],
-      "urls_checked": [
-        "https://www.sec.gov/Archives/edgar/data/1377085/000120445907001644/lundintechrep2.pdf",
-        "https://link.springer.com/content/pdf/10.1007/s10653-019-00249-y.pdf",
-        "https://www.fatima.pt/files/upload/subsidios_para_a_peregrinacao/ipaljustrelenroll.pdf",
-        "https://www.lneg.pt/wp-content/uploads/2024/11/Brochura-ALJUSTREL-EN.pdf",
-        "https://www.espn.com/nba/scoreboard",
-        "https://www.espn.com/nba/",
-        "https://www.espn.com/nfl/",
-        "https://www.espn.com/nhl/"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:40:13Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:31Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "technical_video",
@@ -283,185 +80,17 @@
         "site:youtube.com/live Aljustrel Portugal"
       ],
       "urls_checked": [
-        "https://www.sec.gov/Archives/edgar/data/1377085/000120445907001644/lundintechrep2.pdf",
-        "https://link.springer.com/content/pdf/10.1007/s10653-019-00249-y.pdf",
-        "https://www.fatima.pt/files/upload/subsidios_para_a_peregrinacao/ipaljustrelenroll.pdf",
-        "https://www.lneg.pt/wp-content/uploads/2024/11/Brochura-ALJUSTREL-EN.pdf"
+        "https://www.youtube.com/",
+        "https://www.youtube.com/youtube"
       ],
       "candidates_found": [],
-      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:40:13Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "2 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:32Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     }
   ],
-  "candidates": [
-    {
-      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-      "municipality": "Aljustrel",
-      "region": "Beja",
-      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/1c606e08-c8c6-4766-84cb-6e08c4829161/POWER_OUTAGE_HACKSmezz_Playlist.m3u8",
-      "provider": "weather.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-31T04:39:46Z"
-    },
-    {
-      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-      "municipality": "Aljustrel",
-      "region": "Beja",
-      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/a02c903c-4202-427b-a302-d7af17198f0b/Tech_Tools_To_Stay_Safe_During_Disaster_mezz_Playlist.m3u8",
-      "provider": "weather.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-31T04:39:46Z"
-    },
-    {
-      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-      "municipality": "Aljustrel",
-      "region": "Beja",
-      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/7dae8251-a6f4-4716-98d3-025cf4d2fcf0/091523_LEE_5AM_OVERVIEW_V2mezz_Playlist.m3u8",
-      "provider": "weather.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-31T04:39:46Z"
-    },
-    {
-      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-      "municipality": "Aljustrel",
-      "region": "Beja",
-      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/4522db36-3fb0-4d3b-b4db-cace164a7472/HOW_TO_CLEAN_UP_WATER_DAMAGE_IN_YOUR_CAR_Playlist.m3u8",
-      "provider": "weather.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-31T04:39:46Z"
-    },
-    {
-      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-      "municipality": "Aljustrel",
-      "region": "Beja",
-      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/a763d4fc-8fd2-4d96-949d-0a3c35dfdab6/COMMON_STORM_SURGE_MYTHS_THAT_YOU_NEED_TO_KNOW_Playlist.m3u8",
-      "provider": "weather.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-31T04:39:46Z"
-    },
-    {
-      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-      "municipality": "Aljustrel",
-      "region": "Beja",
-      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/fc37f534-c498-47bc-8974-aadb8b594ec9/091423_LEE_5PM_OVERVIEWmezz_Playlist.m3u8",
-      "provider": "weather.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-31T04:39:46Z"
-    },
-    {
-      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-      "municipality": "Aljustrel",
-      "region": "Beja",
-      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/dcd06d1c-3424-478c-b557-a98c5e1c1e17/PrepareWeatherEmergency_8_25_23_text_1mezz_Playlist.m3u8",
-      "provider": "weather.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-31T04:39:46Z"
-    },
-    {
-      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-      "municipality": "Aljustrel",
-      "region": "Beja",
-      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/67c0483a-ec60-4216-9cc1-84f35eaf7f4a/WHY_FILL_YOUR_BATHTUB_DURING_A_HURRICANE_2_Playlist.m3u8",
-      "provider": "weather.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-31T04:39:46Z"
-    },
-    {
-      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-      "municipality": "Aljustrel",
-      "region": "Beja",
-      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/04799596-cded-4e85-8a6c-ff2052b78925/6_NON_PERISHABLE_THINGS_YOU_CAN_BUY_THIS_WEEKEND_TO_PREP_FOR_HURRICANES2_mezz_Playlist.m3u8",
-      "provider": "weather.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-31T04:39:46Z"
-    },
-    {
-      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-      "municipality": "Aljustrel",
-      "region": "Beja",
-      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/7df4fb3b-0e2f-4112-add5-2d1c5b10e46e/0531_GetYourPetsReadyForHurricaneSeasonmezz_Playlist.m3u8",
-      "provider": "weather.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-31T04:39:46Z"
-    },
-    {
-      "name": "Weather and radar map for Toronto, Ontario - The Weather Channel | weather.com",
-      "municipality": "Aljustrel",
-      "region": "Beja",
-      "source_url": "https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02",
-      "media_url": "https://v.w-x.co/digital_video/The_Weather_Channel_-_Reach_Engine/27667fa5-d5fe-455e-8e13-e5a2653e126f/v2_beach_living_precautionsmezz_Playlist.m3u8",
-      "provider": "weather.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://weather.com/en-CA/weather/radar/interactive/l/62e0efebee1ac0e8fa9b21fd17d57a6a0001753ab6be8a4874bb78bbb52eda02.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-31T04:39:46Z"
-    }
-  ],
+  "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-31T04:40:13Z"
+  "finished_at": "2026-07-31T07:19:32Z"
 }

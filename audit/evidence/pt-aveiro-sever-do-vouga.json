@@ -4,48 +4,34 @@
   "municipality": "Sever do Vouga",
   "district": "Aveiro",
   "status": "review",
-  "started_at": "2026-07-31T04:39:28Z",
+  "started_at": "2026-07-31T07:19:17Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
       "check_id": "official",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "site:cm-sever-do-vouga.pt webcam Sever do Vouga",
         "site:sever-do-vouga.pt webcam Sever do Vouga"
       ],
-      "urls_checked": [
-        "https://webcamtests.com/",
-        "https://webcamtoy.com/",
-        "https://webcam.org/test/",
-        "https://iriun.com/"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:39:28Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:18Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "general",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "webcam Sever do Vouga Portugal",
         "câmara ao vivo Sever do Vouga"
       ],
-      "urls_checked": [
-        "https://webcamtests.com/",
-        "https://webcamtoy.com/",
-        "https://webcam.org/test/",
-        "https://iriun.com/",
-        "https://wiki.sj.ifsc.edu.br/images/9/98/Projetocamaras.pdf",
-        "https://ia803206.us.archive.org/15/items/harry-potter-colecao-completa-de-livros/Livro%20Harry%20Potter%20e%20a%20C%C3%A2mara%20Secreta.pdf",
-        "https://archive.org/download/livrainosdomal2020/%20Lu%C3%ADs%20da%20C%C3%A2mara%20Cascudo%20-%20Geografia%20dos%20Mitos%20Brasileiros.pdf",
-        "https://www.planalto.rs.leg.br/documentos/2/PARAQUESERVEOUCOMOFUNCIONAUMACMARA.pdf"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:39:28Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:18Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "providers",
@@ -55,73 +41,58 @@
         "site:portugalwebcams.pt Sever do Vouga"
       ],
       "urls_checked": [
-        "https://www.merriam-webster.com/dictionary/sever",
-        "https://dictionary.cambridge.org/dictionary/english/sever",
-        "https://www.dictionary.com/browse/sever",
-        "https://www.thefreedictionary.com/sever"
+        "https://www.youtube.com/Minecraft",
+        "https://www.youtube.com/watch?v=69rAYdEJbsg",
+        "https://www.youtube.com/shorts/W3bDBhgLS6Y",
+        "https://www.youtube.com/shorts/XzKHvOVIviE"
       ],
       "candidates_found": [],
-      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:39:29Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "4 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:24Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "tourism_coast",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Sever do Vouga turismo webcam",
         "Sever do Vouga praia surf webcam"
       ],
-      "urls_checked": [
-        "https://www.merriam-webster.com/dictionary/sever",
-        "https://dictionary.cambridge.org/dictionary/english/sever",
-        "https://www.dictionary.com/browse/sever",
-        "https://www.thefreedictionary.com/sever"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:39:29Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:24Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "transport_weather",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Sever do Vouga trânsito meteorologia webcam",
         "Sever do Vouga porto marina aeroporto webcam"
       ],
-      "urls_checked": [
-        "https://www.merriam-webster.com/dictionary/sever",
-        "https://dictionary.cambridge.org/dictionary/english/sever",
-        "https://www.dictionary.com/browse/sever",
-        "https://www.thefreedictionary.com/sever"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:39:29Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:25Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "technical_video",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Sever do Vouga live stream m3u8",
         "site:youtube.com/live Sever do Vouga Portugal"
       ],
-      "urls_checked": [
-        "https://www.merriam-webster.com/dictionary/sever",
-        "https://dictionary.cambridge.org/dictionary/english/sever",
-        "https://www.dictionary.com/browse/sever",
-        "https://www.thefreedictionary.com/sever"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-31T04:39:29Z",
-      "reviewer": "github-actions:webcam-audit-v5"
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-07-31T07:19:25Z",
+      "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     }
   ],
   "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-31T04:39:29Z"
+  "finished_at": "2026-07-31T07:19:25Z"
 }
