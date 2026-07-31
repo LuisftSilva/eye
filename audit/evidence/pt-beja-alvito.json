@@ -4,7 +4,7 @@
   "municipality": "Alvito",
   "district": "Beja",
   "status": "review",
-  "started_at": "2026-07-30T08:01:34Z",
+  "started_at": "2026-07-31T04:40:32Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -22,7 +22,7 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:01:34Z",
+      "checked_at": "2026-07-31T04:40:32Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -44,7 +44,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:01:34Z",
+      "checked_at": "2026-07-31T04:40:32Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -66,7 +66,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:01:40Z",
+      "checked_at": "2026-07-31T04:40:37Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -88,7 +88,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:01:43Z",
+      "checked_at": "2026-07-31T04:40:40Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -110,7 +110,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:01:50Z",
+      "checked_at": "2026-07-31T04:40:46Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -144,11 +144,11 @@
             "Media/player URL extracted from https://www.60millions-mag.com/.",
             "Known public embedded-player provider."
           ],
-          "discovered_at": "2026-07-30T08:02:02Z"
+          "discovered_at": "2026-07-31T04:40:48Z"
         }
       ],
       "notes": "8 unique URLs checked; 1 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:02:04Z",
+      "checked_at": "2026-07-31T04:40:50Z",
       "reviewer": "github-actions:webcam-audit-v5"
     }
   ],
@@ -166,10 +166,10 @@
         "Media/player URL extracted from https://www.60millions-mag.com/.",
         "Known public embedded-player provider."
       ],
-      "discovered_at": "2026-07-30T08:02:02Z"
+      "discovered_at": "2026-07-31T04:40:48Z"
     }
   ],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-30T08:02:04Z"
+  "finished_at": "2026-07-31T04:40:50Z"
 }

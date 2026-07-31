@@ -4,7 +4,7 @@
   "municipality": "Oliveira do Bairro",
   "district": "Aveiro",
   "status": "review",
-  "started_at": "2026-07-30T07:59:10Z",
+  "started_at": "2026-07-31T04:38:21Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -22,7 +22,7 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:59:11Z",
+      "checked_at": "2026-07-31T04:38:21Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -44,7 +44,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:59:11Z",
+      "checked_at": "2026-07-31T04:38:21Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -66,7 +66,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:59:15Z",
+      "checked_at": "2026-07-31T04:38:25Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -88,7 +88,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:59:22Z",
+      "checked_at": "2026-07-31T04:38:33Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -122,11 +122,11 @@
             "Media/player URL extracted from https://www.lyricsbull.com/big-guy-lyrics-ice-spice/.",
             "Known public embedded-player provider."
           ],
-          "discovered_at": "2026-07-30T07:59:26Z"
+          "discovered_at": "2026-07-31T04:38:37Z"
         }
       ],
       "notes": "8 unique URLs checked; 1 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:59:29Z",
+      "checked_at": "2026-07-31T04:38:40Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -160,11 +160,11 @@
             "Media/player URL extracted from https://biblehub.com/matthew/11-29.htm.",
             "Known public embedded-player provider."
           ],
-          "discovered_at": "2026-07-30T07:59:34Z"
+          "discovered_at": "2026-07-31T04:38:44Z"
         }
       ],
       "notes": "8 unique URLs checked; 1 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:59:35Z",
+      "checked_at": "2026-07-31T04:38:45Z",
       "reviewer": "github-actions:webcam-audit-v5"
     }
   ],
@@ -182,7 +182,7 @@
         "Media/player URL extracted from https://www.lyricsbull.com/big-guy-lyrics-ice-spice/.",
         "Known public embedded-player provider."
       ],
-      "discovered_at": "2026-07-30T07:59:26Z"
+      "discovered_at": "2026-07-31T04:38:37Z"
     },
     {
       "name": "Matthew 11:29 Take My yoke upon you and learn from Me; for I am gentle and humble in heart, and you will find rest for your souls.",
@@ -197,10 +197,10 @@
         "Media/player URL extracted from https://biblehub.com/matthew/11-29.htm.",
         "Known public embedded-player provider."
       ],
-      "discovered_at": "2026-07-30T07:59:34Z"
+      "discovered_at": "2026-07-31T04:38:44Z"
     }
   ],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-30T07:59:35Z"
+  "finished_at": "2026-07-31T04:38:45Z"
 }

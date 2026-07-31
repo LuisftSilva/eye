@@ -4,7 +4,7 @@
   "municipality": "Barrancos",
   "district": "Beja",
   "status": "review",
-  "started_at": "2026-07-30T08:02:04Z",
+  "started_at": "2026-07-31T04:40:50Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -22,7 +22,7 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:02:04Z",
+      "checked_at": "2026-07-31T04:40:50Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -44,7 +44,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:02:04Z",
+      "checked_at": "2026-07-31T04:40:50Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -70,48 +70,6 @@
           "municipality": "Barrancos",
           "region": "Beja",
           "source_url": "https://www.wetter.de/wetter/r/237385",
-          "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a01e922e251f4a65b0624c4-5a258ba9a2ea505b2160c402-vod-hls--bb3bb14e.ism\\u002Fvideo.m3u8",
-          "provider": "www.wetter.de",
-          "status": "rejected",
-          "confidence": 20,
-          "evidence": [
-            "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
-          ],
-          "discovered_at": "2026-07-30T08:02:07Z"
-        },
-        {
-          "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
-          "municipality": "Barrancos",
-          "region": "Beja",
-          "source_url": "https://www.wetter.de/wetter/r/237385",
-          "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a38048d792c8acd0a08daa2-5a258ba9a2ea505b2160c402-vod-hls--bee3c1f8.ism\\u002Fvideo.m3u8",
-          "provider": "www.wetter.de",
-          "status": "rejected",
-          "confidence": 20,
-          "evidence": [
-            "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
-          ],
-          "discovered_at": "2026-07-30T08:02:07Z"
-        },
-        {
-          "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
-          "municipality": "Barrancos",
-          "region": "Beja",
-          "source_url": "https://www.wetter.de/wetter/r/237385",
-          "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a58ada20ab87d72440c4892-5a258ba9a2ea505b2160c402-vod-hls--53c87da1.ism\\u002Fvideo.m3u8",
-          "provider": "www.wetter.de",
-          "status": "rejected",
-          "confidence": 20,
-          "evidence": [
-            "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
-          ],
-          "discovered_at": "2026-07-30T08:02:07Z"
-        },
-        {
-          "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
-          "municipality": "Barrancos",
-          "region": "Beja",
-          "source_url": "https://www.wetter.de/wetter/r/237385",
           "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-69e74f3b77f5beab9d002ccf-5a258ba9a2ea505b2160c402-vod-hls--49e0bf38.ism\\u002Fvideo.m3u8",
           "provider": "www.wetter.de",
           "status": "rejected",
@@ -119,21 +77,7 @@
           "evidence": [
             "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
           ],
-          "discovered_at": "2026-07-30T08:02:07Z"
-        },
-        {
-          "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
-          "municipality": "Barrancos",
-          "region": "Beja",
-          "source_url": "https://www.wetter.de/wetter/r/237385",
-          "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a22a41861ad60ef5b08e437-5a258ba9a2ea505b2160c402-vod-hls--84caec0e.ism\\u002Fvideo.m3u8",
-          "provider": "www.wetter.de",
-          "status": "rejected",
-          "confidence": 20,
-          "evidence": [
-            "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
-          ],
-          "discovered_at": "2026-07-30T08:02:07Z"
+          "discovered_at": "2026-07-31T04:40:51Z"
         },
         {
           "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
@@ -147,7 +91,49 @@
           "evidence": [
             "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
           ],
-          "discovered_at": "2026-07-30T08:02:07Z"
+          "discovered_at": "2026-07-31T04:40:51Z"
+        },
+        {
+          "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
+          "municipality": "Barrancos",
+          "region": "Beja",
+          "source_url": "https://www.wetter.de/wetter/r/237385",
+          "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a58ada20ab87d72440c4892-5a258ba9a2ea505b2160c402-vod-hls--53c87da1.ism\\u002Fvideo.m3u8",
+          "provider": "www.wetter.de",
+          "status": "rejected",
+          "confidence": 20,
+          "evidence": [
+            "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
+          ],
+          "discovered_at": "2026-07-31T04:40:51Z"
+        },
+        {
+          "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
+          "municipality": "Barrancos",
+          "region": "Beja",
+          "source_url": "https://www.wetter.de/wetter/r/237385",
+          "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a22a41861ad60ef5b08e437-5a258ba9a2ea505b2160c402-vod-hls--84caec0e.ism\\u002Fvideo.m3u8",
+          "provider": "www.wetter.de",
+          "status": "rejected",
+          "confidence": 20,
+          "evidence": [
+            "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
+          ],
+          "discovered_at": "2026-07-31T04:40:51Z"
+        },
+        {
+          "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
+          "municipality": "Barrancos",
+          "region": "Beja",
+          "source_url": "https://www.wetter.de/wetter/r/237385",
+          "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a38048d792c8acd0a08daa2-5a258ba9a2ea505b2160c402-vod-hls--bee3c1f8.ism\\u002Fvideo.m3u8",
+          "provider": "www.wetter.de",
+          "status": "rejected",
+          "confidence": 20,
+          "evidence": [
+            "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
+          ],
+          "discovered_at": "2026-07-31T04:40:51Z"
         },
         {
           "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
@@ -161,11 +147,25 @@
           "evidence": [
             "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
           ],
-          "discovered_at": "2026-07-30T08:02:07Z"
+          "discovered_at": "2026-07-31T04:40:51Z"
+        },
+        {
+          "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
+          "municipality": "Barrancos",
+          "region": "Beja",
+          "source_url": "https://www.wetter.de/wetter/r/237385",
+          "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a01e922e251f4a65b0624c4-5a258ba9a2ea505b2160c402-vod-hls--bb3bb14e.ism\\u002Fvideo.m3u8",
+          "provider": "www.wetter.de",
+          "status": "rejected",
+          "confidence": 20,
+          "evidence": [
+            "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
+          ],
+          "discovered_at": "2026-07-31T04:40:51Z"
         }
       ],
       "notes": "8 unique URLs checked; 7 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:02:10Z",
+      "checked_at": "2026-07-31T04:40:55Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -187,7 +187,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:02:16Z",
+      "checked_at": "2026-07-31T04:41:02Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -206,7 +206,7 @@
       ],
       "candidates_found": [],
       "notes": "5 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:02:23Z",
+      "checked_at": "2026-07-31T04:41:05Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -228,53 +228,11 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:02:27Z",
+      "checked_at": "2026-07-31T04:41:10Z",
       "reviewer": "github-actions:webcam-audit-v5"
     }
   ],
   "candidates": [
-    {
-      "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
-      "municipality": "Barrancos",
-      "region": "Beja",
-      "source_url": "https://www.wetter.de/wetter/r/237385",
-      "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a01e922e251f4a65b0624c4-5a258ba9a2ea505b2160c402-vod-hls--bb3bb14e.ism\\u002Fvideo.m3u8",
-      "provider": "www.wetter.de",
-      "status": "rejected",
-      "confidence": 20,
-      "evidence": [
-        "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
-      ],
-      "discovered_at": "2026-07-30T08:02:07Z"
-    },
-    {
-      "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
-      "municipality": "Barrancos",
-      "region": "Beja",
-      "source_url": "https://www.wetter.de/wetter/r/237385",
-      "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a38048d792c8acd0a08daa2-5a258ba9a2ea505b2160c402-vod-hls--bee3c1f8.ism\\u002Fvideo.m3u8",
-      "provider": "www.wetter.de",
-      "status": "rejected",
-      "confidence": 20,
-      "evidence": [
-        "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
-      ],
-      "discovered_at": "2026-07-30T08:02:07Z"
-    },
-    {
-      "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
-      "municipality": "Barrancos",
-      "region": "Beja",
-      "source_url": "https://www.wetter.de/wetter/r/237385",
-      "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a58ada20ab87d72440c4892-5a258ba9a2ea505b2160c402-vod-hls--53c87da1.ism\\u002Fvideo.m3u8",
-      "provider": "www.wetter.de",
-      "status": "rejected",
-      "confidence": 20,
-      "evidence": [
-        "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
-      ],
-      "discovered_at": "2026-07-30T08:02:07Z"
-    },
     {
       "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
       "municipality": "Barrancos",
@@ -287,21 +245,7 @@
       "evidence": [
         "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
       ],
-      "discovered_at": "2026-07-30T08:02:07Z"
-    },
-    {
-      "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
-      "municipality": "Barrancos",
-      "region": "Beja",
-      "source_url": "https://www.wetter.de/wetter/r/237385",
-      "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a22a41861ad60ef5b08e437-5a258ba9a2ea505b2160c402-vod-hls--84caec0e.ism\\u002Fvideo.m3u8",
-      "provider": "www.wetter.de",
-      "status": "rejected",
-      "confidence": 20,
-      "evidence": [
-        "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
-      ],
-      "discovered_at": "2026-07-30T08:02:07Z"
+      "discovered_at": "2026-07-31T04:40:51Z"
     },
     {
       "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
@@ -315,7 +259,49 @@
       "evidence": [
         "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
       ],
-      "discovered_at": "2026-07-30T08:02:07Z"
+      "discovered_at": "2026-07-31T04:40:51Z"
+    },
+    {
+      "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
+      "municipality": "Barrancos",
+      "region": "Beja",
+      "source_url": "https://www.wetter.de/wetter/r/237385",
+      "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a58ada20ab87d72440c4892-5a258ba9a2ea505b2160c402-vod-hls--53c87da1.ism\\u002Fvideo.m3u8",
+      "provider": "www.wetter.de",
+      "status": "rejected",
+      "confidence": 20,
+      "evidence": [
+        "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
+      ],
+      "discovered_at": "2026-07-31T04:40:51Z"
+    },
+    {
+      "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
+      "municipality": "Barrancos",
+      "region": "Beja",
+      "source_url": "https://www.wetter.de/wetter/r/237385",
+      "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a22a41861ad60ef5b08e437-5a258ba9a2ea505b2160c402-vod-hls--84caec0e.ism\\u002Fvideo.m3u8",
+      "provider": "www.wetter.de",
+      "status": "rejected",
+      "confidence": 20,
+      "evidence": [
+        "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
+      ],
+      "discovered_at": "2026-07-31T04:40:51Z"
+    },
+    {
+      "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
+      "municipality": "Barrancos",
+      "region": "Beja",
+      "source_url": "https://www.wetter.de/wetter/r/237385",
+      "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a38048d792c8acd0a08daa2-5a258ba9a2ea505b2160c402-vod-hls--bee3c1f8.ism\\u002Fvideo.m3u8",
+      "provider": "www.wetter.de",
+      "status": "rejected",
+      "confidence": 20,
+      "evidence": [
+        "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
+      ],
+      "discovered_at": "2026-07-31T04:40:51Z"
     },
     {
       "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
@@ -329,10 +315,24 @@
       "evidence": [
         "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
       ],
-      "discovered_at": "2026-07-30T08:02:07Z"
+      "discovered_at": "2026-07-31T04:40:51Z"
+    },
+    {
+      "name": "Wetter Seattle heute ☀ Vorhersage 14 - 21 Tage | wetter.de",
+      "municipality": "Barrancos",
+      "region": "Beja",
+      "source_url": "https://www.wetter.de/wetter/r/237385",
+      "media_url": "https://www.wetter.de/wetter/r/\\u002F\\u002Fvms-vod-uso.akamaized.net\\u002Fproxy1111\\u002Fvms\\u002Fworld-6a01e922e251f4a65b0624c4-5a258ba9a2ea505b2160c402-vod-hls--bb3bb14e.ism\\u002Fvideo.m3u8",
+      "provider": "www.wetter.de",
+      "status": "rejected",
+      "confidence": 20,
+      "evidence": [
+        "Media/player URL extracted from https://www.wetter.de/wetter/r/237385."
+      ],
+      "discovered_at": "2026-07-31T04:40:51Z"
     }
   ],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-30T08:02:27Z"
+  "finished_at": "2026-07-31T04:41:10Z"
 }

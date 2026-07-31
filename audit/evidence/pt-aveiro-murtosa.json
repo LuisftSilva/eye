@@ -4,7 +4,7 @@
   "municipality": "Murtosa",
   "district": "Aveiro",
   "status": "review",
-  "started_at": "2026-07-30T07:58:10Z",
+  "started_at": "2026-07-31T04:37:25Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -22,7 +22,7 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:58:10Z",
+      "checked_at": "2026-07-31T04:37:25Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -44,7 +44,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:58:10Z",
+      "checked_at": "2026-07-31T04:37:25Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -66,7 +66,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:58:17Z",
+      "checked_at": "2026-07-31T04:37:31Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -92,7 +92,7 @@
           "municipality": "Murtosa",
           "region": "Aveiro",
           "source_url": "https://www.mercadolibre.com.mx/",
-          "media_url": "https://trailer-mpkg-mms-01-vod.play.mlstatic.com/out/v1/a4d580c2320643debfebcf4a73c1eac1/d0f7e8045591451894141afd367969ff/c09969693cf6432b99df048e032193f0/index.mpd",
+          "media_url": "https://trailer-mpkg-mms-01-vod.play.mlstatic.com/out/v1/87e2dab876a34e23a2d4af2dd5b7e946/d0f7e8045591451894141afd367969ff/c09969693cf6432b99df048e032193f0/index.mpd",
           "provider": "www.mercadolibre.com.mx",
           "status": "rejected",
           "confidence": 45,
@@ -100,14 +100,14 @@
             "Media/player URL extracted from https://www.mercadolibre.com.mx/.",
             "Media endpoint responded with a compatible stream/image content type."
           ],
-          "discovered_at": "2026-07-30T07:58:18Z"
+          "discovered_at": "2026-07-31T04:37:32Z"
         },
         {
           "name": "Mercado Libre México - Envíos Gratis en el día",
           "municipality": "Murtosa",
           "region": "Aveiro",
           "source_url": "https://www.mercadolibre.com.mx/",
-          "media_url": "https://trailer-mpkg-mms-01-vod.play.mlstatic.com/out/v1/a4d580c2320643debfebcf4a73c1eac1/75d55aafe5c44bd9839ffbaf1eb02471/b224473977e64c74b1bc7f4808cd8f39/index.m3u8",
+          "media_url": "https://trailer-mpkg-mms-01-vod.play.mlstatic.com/out/v1/87e2dab876a34e23a2d4af2dd5b7e946/75d55aafe5c44bd9839ffbaf1eb02471/b224473977e64c74b1bc7f4808cd8f39/index.m3u8",
           "provider": "www.mercadolibre.com.mx",
           "status": "rejected",
           "confidence": 45,
@@ -115,11 +115,11 @@
             "Media/player URL extracted from https://www.mercadolibre.com.mx/.",
             "Media endpoint responded with a compatible stream/image content type."
           ],
-          "discovered_at": "2026-07-30T07:58:18Z"
+          "discovered_at": "2026-07-31T04:37:32Z"
         }
       ],
       "notes": "8 unique URLs checked; 2 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:58:22Z",
+      "checked_at": "2026-07-31T04:37:36Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -138,7 +138,7 @@
       ],
       "candidates_found": [],
       "notes": "5 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:58:26Z",
+      "checked_at": "2026-07-31T04:37:41Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -160,7 +160,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:58:32Z",
+      "checked_at": "2026-07-31T04:37:47Z",
       "reviewer": "github-actions:webcam-audit-v5"
     }
   ],
@@ -170,7 +170,7 @@
       "municipality": "Murtosa",
       "region": "Aveiro",
       "source_url": "https://www.mercadolibre.com.mx/",
-      "media_url": "https://trailer-mpkg-mms-01-vod.play.mlstatic.com/out/v1/a4d580c2320643debfebcf4a73c1eac1/d0f7e8045591451894141afd367969ff/c09969693cf6432b99df048e032193f0/index.mpd",
+      "media_url": "https://trailer-mpkg-mms-01-vod.play.mlstatic.com/out/v1/87e2dab876a34e23a2d4af2dd5b7e946/d0f7e8045591451894141afd367969ff/c09969693cf6432b99df048e032193f0/index.mpd",
       "provider": "www.mercadolibre.com.mx",
       "status": "rejected",
       "confidence": 45,
@@ -178,14 +178,14 @@
         "Media/player URL extracted from https://www.mercadolibre.com.mx/.",
         "Media endpoint responded with a compatible stream/image content type."
       ],
-      "discovered_at": "2026-07-30T07:58:18Z"
+      "discovered_at": "2026-07-31T04:37:32Z"
     },
     {
       "name": "Mercado Libre México - Envíos Gratis en el día",
       "municipality": "Murtosa",
       "region": "Aveiro",
       "source_url": "https://www.mercadolibre.com.mx/",
-      "media_url": "https://trailer-mpkg-mms-01-vod.play.mlstatic.com/out/v1/a4d580c2320643debfebcf4a73c1eac1/75d55aafe5c44bd9839ffbaf1eb02471/b224473977e64c74b1bc7f4808cd8f39/index.m3u8",
+      "media_url": "https://trailer-mpkg-mms-01-vod.play.mlstatic.com/out/v1/87e2dab876a34e23a2d4af2dd5b7e946/75d55aafe5c44bd9839ffbaf1eb02471/b224473977e64c74b1bc7f4808cd8f39/index.m3u8",
       "provider": "www.mercadolibre.com.mx",
       "status": "rejected",
       "confidence": 45,
@@ -193,10 +193,10 @@
         "Media/player URL extracted from https://www.mercadolibre.com.mx/.",
         "Media endpoint responded with a compatible stream/image content type."
       ],
-      "discovered_at": "2026-07-30T07:58:18Z"
+      "discovered_at": "2026-07-31T04:37:32Z"
     }
   ],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-30T07:58:32Z"
+  "finished_at": "2026-07-31T04:37:47Z"
 }

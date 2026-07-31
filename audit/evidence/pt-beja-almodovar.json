@@ -4,7 +4,7 @@
   "municipality": "Almodôvar",
   "district": "Beja",
   "status": "review",
-  "started_at": "2026-07-30T08:01:12Z",
+  "started_at": "2026-07-31T04:40:13Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -22,7 +22,7 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:01:12Z",
+      "checked_at": "2026-07-31T04:40:13Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -44,7 +44,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:01:12Z",
+      "checked_at": "2026-07-31T04:40:13Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -66,7 +66,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:01:15Z",
+      "checked_at": "2026-07-31T04:40:16Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -88,7 +88,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:01:20Z",
+      "checked_at": "2026-07-31T04:40:21Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -110,7 +110,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:01:27Z",
+      "checked_at": "2026-07-31T04:40:26Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -136,7 +136,7 @@
           "municipality": "Almodôvar",
           "region": "Beja",
           "source_url": "https://www.mlb.com/yankees",
-          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/55d655e8-c927e8f3-6764e869-csvm-diamondgcp-asset.m3u8",
+          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/30/67f053e9-80ffcfb0-ff16e563-csvm-diamondgcp-asset.m3u8",
           "provider": "www.mlb.com",
           "status": "rejected",
           "confidence": 45,
@@ -144,14 +144,14 @@
             "Media/player URL extracted from https://www.mlb.com/yankees.",
             "Media endpoint responded with a compatible stream/image content type."
           ],
-          "discovered_at": "2026-07-30T08:01:28Z"
+          "discovered_at": "2026-07-31T04:40:27Z"
         },
         {
           "name": "Official New York Yankees Website | MLB.com",
           "municipality": "Almodôvar",
           "region": "Beja",
           "source_url": "https://www.mlb.com/yankees",
-          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/10b3b48c-9a01d735-d5ca69d1-csvm-diamondgcp-asset.m3u8",
+          "media_url": "https://bdata-producedclips.mlb.com/ca443a37-8e38-40fc-b6c9-127d695eea3c.m3u8",
           "provider": "www.mlb.com",
           "status": "rejected",
           "confidence": 45,
@@ -159,14 +159,14 @@
             "Media/player URL extracted from https://www.mlb.com/yankees.",
             "Media endpoint responded with a compatible stream/image content type."
           ],
-          "discovered_at": "2026-07-30T08:01:28Z"
+          "discovered_at": "2026-07-31T04:40:28Z"
         },
         {
           "name": "Official New York Yankees Website | MLB.com",
           "municipality": "Almodôvar",
           "region": "Beja",
           "source_url": "https://www.mlb.com/yankees",
-          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/1ea1291d-6c02e990-d98b861e-csvm-diamondgcp-asset.m3u8",
+          "media_url": "https://bdata-producedclips.mlb.com/51e7dd2a-014b-4da3-9697-f1b65fc6b750.m3u8",
           "provider": "www.mlb.com",
           "status": "rejected",
           "confidence": 45,
@@ -174,7 +174,37 @@
             "Media/player URL extracted from https://www.mlb.com/yankees.",
             "Media endpoint responded with a compatible stream/image content type."
           ],
-          "discovered_at": "2026-07-30T08:01:28Z"
+          "discovered_at": "2026-07-31T04:40:28Z"
+        },
+        {
+          "name": "Official New York Yankees Website | MLB.com",
+          "municipality": "Almodôvar",
+          "region": "Beja",
+          "source_url": "https://www.mlb.com/yankees",
+          "media_url": "https://bdata-producedclips.mlb.com/5d5f313c-f197-48ea-bb34-6bf9e0d01c80.m3u8",
+          "provider": "www.mlb.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://www.mlb.com/yankees.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-31T04:40:28Z"
+        },
+        {
+          "name": "Official New York Yankees Website | MLB.com",
+          "municipality": "Almodôvar",
+          "region": "Beja",
+          "source_url": "https://www.mlb.com/yankees",
+          "media_url": "https://bdata-producedclips.mlb.com/1038f277-d2f7-428d-9d54-5ff75bcfcbb8.m3u8",
+          "provider": "www.mlb.com",
+          "status": "rejected",
+          "confidence": 45,
+          "evidence": [
+            "Media/player URL extracted from https://www.mlb.com/yankees.",
+            "Media endpoint responded with a compatible stream/image content type."
+          ],
+          "discovered_at": "2026-07-31T04:40:28Z"
         },
         {
           "name": "Official New York Yankees Website | MLB.com",
@@ -189,14 +219,14 @@
             "Media/player URL extracted from https://www.mlb.com/yankees.",
             "Media endpoint responded with a compatible stream/image content type."
           ],
-          "discovered_at": "2026-07-30T08:01:28Z"
+          "discovered_at": "2026-07-31T04:40:28Z"
         },
         {
           "name": "Official New York Yankees Website | MLB.com",
           "municipality": "Almodôvar",
           "region": "Beja",
           "source_url": "https://www.mlb.com/yankees",
-          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/de38cdb8-6be0af97-51acb385-csvm-diamondgcp-asset.m3u8",
+          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/30/4601501c-a54d5567-e49e5161-csvm-diamondgcp-asset.m3u8",
           "provider": "www.mlb.com",
           "status": "rejected",
           "confidence": 45,
@@ -204,14 +234,14 @@
             "Media/player URL extracted from https://www.mlb.com/yankees.",
             "Media endpoint responded with a compatible stream/image content type."
           ],
-          "discovered_at": "2026-07-30T08:01:28Z"
+          "discovered_at": "2026-07-31T04:40:28Z"
         },
         {
           "name": "Official New York Yankees Website | MLB.com",
           "municipality": "Almodôvar",
           "region": "Beja",
           "source_url": "https://www.mlb.com/yankees",
-          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/40c787ae-ef460b22-d4a322a9-csvm-diamondgcp-asset.m3u8",
+          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/55d655e8-c927e8f3-6764e869-csvm-diamondgcp-asset.m3u8",
           "provider": "www.mlb.com",
           "status": "rejected",
           "confidence": 45,
@@ -219,14 +249,14 @@
             "Media/player URL extracted from https://www.mlb.com/yankees.",
             "Media endpoint responded with a compatible stream/image content type."
           ],
-          "discovered_at": "2026-07-30T08:01:29Z"
+          "discovered_at": "2026-07-31T04:40:28Z"
         },
         {
           "name": "Official New York Yankees Website | MLB.com",
           "municipality": "Almodôvar",
           "region": "Beja",
           "source_url": "https://www.mlb.com/yankees",
-          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/0a5eb5cf-ed65317b-6e6f32e7-csvm-diamondgcp-asset.m3u8",
+          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/30/0fe183d7-d0d5c651-a873a4c4-csvm-diamondgcp-asset.m3u8",
           "provider": "www.mlb.com",
           "status": "rejected",
           "confidence": 45,
@@ -234,14 +264,14 @@
             "Media/player URL extracted from https://www.mlb.com/yankees.",
             "Media endpoint responded with a compatible stream/image content type."
           ],
-          "discovered_at": "2026-07-30T08:01:29Z"
+          "discovered_at": "2026-07-31T04:40:28Z"
         },
         {
           "name": "Official New York Yankees Website | MLB.com",
           "municipality": "Almodôvar",
           "region": "Beja",
           "source_url": "https://www.mlb.com/yankees",
-          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/83eda116-830343e6-6f422756-csvm-diamondgcp-asset.m3u8",
+          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/30/56a6f984-0c1c5607-9889a196-csvm-diamondgcp-asset.m3u8",
           "provider": "www.mlb.com",
           "status": "rejected",
           "confidence": 45,
@@ -249,41 +279,11 @@
             "Media/player URL extracted from https://www.mlb.com/yankees.",
             "Media endpoint responded with a compatible stream/image content type."
           ],
-          "discovered_at": "2026-07-30T08:01:29Z"
-        },
-        {
-          "name": "Official New York Yankees Website | MLB.com",
-          "municipality": "Almodôvar",
-          "region": "Beja",
-          "source_url": "https://www.mlb.com/yankees",
-          "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/8d80eb04-39948dfb-1049e13e-csvm-diamondgcp-asset.m3u8",
-          "provider": "www.mlb.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://www.mlb.com/yankees.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-30T08:01:29Z"
-        },
-        {
-          "name": "Official New York Yankees Website | MLB.com",
-          "municipality": "Almodôvar",
-          "region": "Beja",
-          "source_url": "https://www.mlb.com/yankees",
-          "media_url": "https://bdata-producedclips.mlb.com/f7092eba-ad9d-419a-8ace-98ee0ba2470e.m3u8",
-          "provider": "www.mlb.com",
-          "status": "rejected",
-          "confidence": 45,
-          "evidence": [
-            "Media/player URL extracted from https://www.mlb.com/yankees.",
-            "Media endpoint responded with a compatible stream/image content type."
-          ],
-          "discovered_at": "2026-07-30T08:01:29Z"
+          "discovered_at": "2026-07-31T04:40:28Z"
         }
       ],
       "notes": "8 unique URLs checked; 10 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:01:34Z",
+      "checked_at": "2026-07-31T04:40:32Z",
       "reviewer": "github-actions:webcam-audit-v5"
     }
   ],
@@ -293,7 +293,7 @@
       "municipality": "Almodôvar",
       "region": "Beja",
       "source_url": "https://www.mlb.com/yankees",
-      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/55d655e8-c927e8f3-6764e869-csvm-diamondgcp-asset.m3u8",
+      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/30/67f053e9-80ffcfb0-ff16e563-csvm-diamondgcp-asset.m3u8",
       "provider": "www.mlb.com",
       "status": "rejected",
       "confidence": 45,
@@ -301,14 +301,14 @@
         "Media/player URL extracted from https://www.mlb.com/yankees.",
         "Media endpoint responded with a compatible stream/image content type."
       ],
-      "discovered_at": "2026-07-30T08:01:28Z"
+      "discovered_at": "2026-07-31T04:40:27Z"
     },
     {
       "name": "Official New York Yankees Website | MLB.com",
       "municipality": "Almodôvar",
       "region": "Beja",
       "source_url": "https://www.mlb.com/yankees",
-      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/10b3b48c-9a01d735-d5ca69d1-csvm-diamondgcp-asset.m3u8",
+      "media_url": "https://bdata-producedclips.mlb.com/ca443a37-8e38-40fc-b6c9-127d695eea3c.m3u8",
       "provider": "www.mlb.com",
       "status": "rejected",
       "confidence": 45,
@@ -316,14 +316,14 @@
         "Media/player URL extracted from https://www.mlb.com/yankees.",
         "Media endpoint responded with a compatible stream/image content type."
       ],
-      "discovered_at": "2026-07-30T08:01:28Z"
+      "discovered_at": "2026-07-31T04:40:28Z"
     },
     {
       "name": "Official New York Yankees Website | MLB.com",
       "municipality": "Almodôvar",
       "region": "Beja",
       "source_url": "https://www.mlb.com/yankees",
-      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/1ea1291d-6c02e990-d98b861e-csvm-diamondgcp-asset.m3u8",
+      "media_url": "https://bdata-producedclips.mlb.com/51e7dd2a-014b-4da3-9697-f1b65fc6b750.m3u8",
       "provider": "www.mlb.com",
       "status": "rejected",
       "confidence": 45,
@@ -331,7 +331,37 @@
         "Media/player URL extracted from https://www.mlb.com/yankees.",
         "Media endpoint responded with a compatible stream/image content type."
       ],
-      "discovered_at": "2026-07-30T08:01:28Z"
+      "discovered_at": "2026-07-31T04:40:28Z"
+    },
+    {
+      "name": "Official New York Yankees Website | MLB.com",
+      "municipality": "Almodôvar",
+      "region": "Beja",
+      "source_url": "https://www.mlb.com/yankees",
+      "media_url": "https://bdata-producedclips.mlb.com/5d5f313c-f197-48ea-bb34-6bf9e0d01c80.m3u8",
+      "provider": "www.mlb.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://www.mlb.com/yankees.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-31T04:40:28Z"
+    },
+    {
+      "name": "Official New York Yankees Website | MLB.com",
+      "municipality": "Almodôvar",
+      "region": "Beja",
+      "source_url": "https://www.mlb.com/yankees",
+      "media_url": "https://bdata-producedclips.mlb.com/1038f277-d2f7-428d-9d54-5ff75bcfcbb8.m3u8",
+      "provider": "www.mlb.com",
+      "status": "rejected",
+      "confidence": 45,
+      "evidence": [
+        "Media/player URL extracted from https://www.mlb.com/yankees.",
+        "Media endpoint responded with a compatible stream/image content type."
+      ],
+      "discovered_at": "2026-07-31T04:40:28Z"
     },
     {
       "name": "Official New York Yankees Website | MLB.com",
@@ -346,14 +376,14 @@
         "Media/player URL extracted from https://www.mlb.com/yankees.",
         "Media endpoint responded with a compatible stream/image content type."
       ],
-      "discovered_at": "2026-07-30T08:01:28Z"
+      "discovered_at": "2026-07-31T04:40:28Z"
     },
     {
       "name": "Official New York Yankees Website | MLB.com",
       "municipality": "Almodôvar",
       "region": "Beja",
       "source_url": "https://www.mlb.com/yankees",
-      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/de38cdb8-6be0af97-51acb385-csvm-diamondgcp-asset.m3u8",
+      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/30/4601501c-a54d5567-e49e5161-csvm-diamondgcp-asset.m3u8",
       "provider": "www.mlb.com",
       "status": "rejected",
       "confidence": 45,
@@ -361,14 +391,14 @@
         "Media/player URL extracted from https://www.mlb.com/yankees.",
         "Media endpoint responded with a compatible stream/image content type."
       ],
-      "discovered_at": "2026-07-30T08:01:28Z"
+      "discovered_at": "2026-07-31T04:40:28Z"
     },
     {
       "name": "Official New York Yankees Website | MLB.com",
       "municipality": "Almodôvar",
       "region": "Beja",
       "source_url": "https://www.mlb.com/yankees",
-      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/40c787ae-ef460b22-d4a322a9-csvm-diamondgcp-asset.m3u8",
+      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/55d655e8-c927e8f3-6764e869-csvm-diamondgcp-asset.m3u8",
       "provider": "www.mlb.com",
       "status": "rejected",
       "confidence": 45,
@@ -376,14 +406,14 @@
         "Media/player URL extracted from https://www.mlb.com/yankees.",
         "Media endpoint responded with a compatible stream/image content type."
       ],
-      "discovered_at": "2026-07-30T08:01:29Z"
+      "discovered_at": "2026-07-31T04:40:28Z"
     },
     {
       "name": "Official New York Yankees Website | MLB.com",
       "municipality": "Almodôvar",
       "region": "Beja",
       "source_url": "https://www.mlb.com/yankees",
-      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/0a5eb5cf-ed65317b-6e6f32e7-csvm-diamondgcp-asset.m3u8",
+      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/30/0fe183d7-d0d5c651-a873a4c4-csvm-diamondgcp-asset.m3u8",
       "provider": "www.mlb.com",
       "status": "rejected",
       "confidence": 45,
@@ -391,14 +421,14 @@
         "Media/player URL extracted from https://www.mlb.com/yankees.",
         "Media endpoint responded with a compatible stream/image content type."
       ],
-      "discovered_at": "2026-07-30T08:01:29Z"
+      "discovered_at": "2026-07-31T04:40:28Z"
     },
     {
       "name": "Official New York Yankees Website | MLB.com",
       "municipality": "Almodôvar",
       "region": "Beja",
       "source_url": "https://www.mlb.com/yankees",
-      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/83eda116-830343e6-6f422756-csvm-diamondgcp-asset.m3u8",
+      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/30/56a6f984-0c1c5607-9889a196-csvm-diamondgcp-asset.m3u8",
       "provider": "www.mlb.com",
       "status": "rejected",
       "confidence": 45,
@@ -406,40 +436,10 @@
         "Media/player URL extracted from https://www.mlb.com/yankees.",
         "Media endpoint responded with a compatible stream/image content type."
       ],
-      "discovered_at": "2026-07-30T08:01:29Z"
-    },
-    {
-      "name": "Official New York Yankees Website | MLB.com",
-      "municipality": "Almodôvar",
-      "region": "Beja",
-      "source_url": "https://www.mlb.com/yankees",
-      "media_url": "https://mlb-cuts-diamond.mlb.com/FORGE/2026/2026-07/29/8d80eb04-39948dfb-1049e13e-csvm-diamondgcp-asset.m3u8",
-      "provider": "www.mlb.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://www.mlb.com/yankees.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-30T08:01:29Z"
-    },
-    {
-      "name": "Official New York Yankees Website | MLB.com",
-      "municipality": "Almodôvar",
-      "region": "Beja",
-      "source_url": "https://www.mlb.com/yankees",
-      "media_url": "https://bdata-producedclips.mlb.com/f7092eba-ad9d-419a-8ace-98ee0ba2470e.m3u8",
-      "provider": "www.mlb.com",
-      "status": "rejected",
-      "confidence": 45,
-      "evidence": [
-        "Media/player URL extracted from https://www.mlb.com/yankees.",
-        "Media endpoint responded with a compatible stream/image content type."
-      ],
-      "discovered_at": "2026-07-30T08:01:29Z"
+      "discovered_at": "2026-07-31T04:40:28Z"
     }
   ],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-30T08:01:34Z"
+  "finished_at": "2026-07-31T04:40:32Z"
 }

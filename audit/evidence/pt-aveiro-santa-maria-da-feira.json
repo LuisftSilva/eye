@@ -4,7 +4,7 @@
   "municipality": "Santa Maria da Feira",
   "district": "Aveiro",
   "status": "review",
-  "started_at": "2026-07-30T08:00:12Z",
+  "started_at": "2026-07-31T04:39:23Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -22,7 +22,7 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:00:12Z",
+      "checked_at": "2026-07-31T04:39:23Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -44,7 +44,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:00:13Z",
+      "checked_at": "2026-07-31T04:39:23Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -62,7 +62,7 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:00:15Z",
+      "checked_at": "2026-07-31T04:39:25Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -80,7 +80,7 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:00:15Z",
+      "checked_at": "2026-07-31T04:39:25Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -98,7 +98,7 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:00:15Z",
+      "checked_at": "2026-07-31T04:39:25Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -116,12 +116,12 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:00:15Z",
+      "checked_at": "2026-07-31T04:39:25Z",
       "reviewer": "github-actions:webcam-audit-v5"
     }
   ],
   "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-30T08:00:15Z"
+  "finished_at": "2026-07-31T04:39:25Z"
 }

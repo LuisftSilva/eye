@@ -4,7 +4,7 @@
   "municipality": "Ovar",
   "district": "Aveiro",
   "status": "review",
-  "started_at": "2026-07-30T07:59:35Z",
+  "started_at": "2026-07-31T04:38:45Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -22,7 +22,7 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:59:35Z",
+      "checked_at": "2026-07-31T04:38:45Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -44,7 +44,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:59:35Z",
+      "checked_at": "2026-07-31T04:38:45Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -66,7 +66,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:59:42Z",
+      "checked_at": "2026-07-31T04:38:52Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -88,7 +88,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:59:46Z",
+      "checked_at": "2026-07-31T04:38:57Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -122,11 +122,11 @@
             "Media/player URL extracted from https://careers.microsoft.com/v2/global/en/home.html.",
             "Known public embedded-player provider."
           ],
-          "discovered_at": "2026-07-30T08:00:07Z"
+          "discovered_at": "2026-07-31T04:39:19Z"
         }
       ],
       "notes": "8 unique URLs checked; 1 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:00:09Z",
+      "checked_at": "2026-07-31T04:39:20Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -148,7 +148,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T08:00:12Z",
+      "checked_at": "2026-07-31T04:39:23Z",
       "reviewer": "github-actions:webcam-audit-v5"
     }
   ],
@@ -166,10 +166,10 @@
         "Media/player URL extracted from https://careers.microsoft.com/v2/global/en/home.html.",
         "Known public embedded-player provider."
       ],
-      "discovered_at": "2026-07-30T08:00:07Z"
+      "discovered_at": "2026-07-31T04:39:19Z"
     }
   ],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-30T08:00:12Z"
+  "finished_at": "2026-07-31T04:39:23Z"
 }

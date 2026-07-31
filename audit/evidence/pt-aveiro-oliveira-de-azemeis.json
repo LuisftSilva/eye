@@ -4,7 +4,7 @@
   "municipality": "Oliveira de Azeméis",
   "district": "Aveiro",
   "status": "review",
-  "started_at": "2026-07-30T07:58:32Z",
+  "started_at": "2026-07-31T04:37:47Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -22,7 +22,7 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:58:32Z",
+      "checked_at": "2026-07-31T04:37:47Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -44,7 +44,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:58:33Z",
+      "checked_at": "2026-07-31T04:37:47Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -62,7 +62,7 @@
       ],
       "candidates_found": [],
       "notes": "4 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:58:48Z",
+      "checked_at": "2026-07-31T04:38:00Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -84,7 +84,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:58:53Z",
+      "checked_at": "2026-07-31T04:38:05Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -106,7 +106,7 @@
       ],
       "candidates_found": [],
       "notes": "8 unique URLs checked; 0 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:59:02Z",
+      "checked_at": "2026-07-31T04:38:13Z",
       "reviewer": "github-actions:webcam-audit-v5"
     },
     {
@@ -140,11 +140,11 @@
             "Media/player URL extracted from https://www.urlaubsguide.de/oesterreich/steiermark/.",
             "Known public embedded-player provider."
           ],
-          "discovered_at": "2026-07-30T07:59:08Z"
+          "discovered_at": "2026-07-31T04:38:19Z"
         }
       ],
       "notes": "8 unique URLs checked; 1 candidate(s) classified.",
-      "checked_at": "2026-07-30T07:59:10Z",
+      "checked_at": "2026-07-31T04:38:21Z",
       "reviewer": "github-actions:webcam-audit-v5"
     }
   ],
@@ -162,10 +162,10 @@
         "Media/player URL extracted from https://www.urlaubsguide.de/oesterreich/steiermark/.",
         "Known public embedded-player provider."
       ],
-      "discovered_at": "2026-07-30T07:59:08Z"
+      "discovered_at": "2026-07-31T04:38:19Z"
     }
   ],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-30T07:59:10Z"
+  "finished_at": "2026-07-31T04:38:21Z"
 }

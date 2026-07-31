@@ -1,5 +1,5 @@
 {
-  "started_at": "2026-07-30T07:57:26Z",
+  "started_at": "2026-07-31T04:36:43Z",
   "municipalities": [
     {
       "id": "pt-aveiro-mealhada",
@@ -63,6 +63,6 @@
     }
   ],
   "errors": [],
-  "finished_at": "2026-07-30T08:02:32Z",
+  "finished_at": "2026-07-31T04:41:15Z",
   "auto_published": 0
 }
