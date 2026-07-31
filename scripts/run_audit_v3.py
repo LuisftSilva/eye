@@ -28,7 +28,7 @@ AUDIT = ROOT / "audit"
 CACHE_DIR = AUDIT / "cache"
 SEARCH_CACHE = CACHE_DIR / "search-cache.json"
 UNASSIGNED = AUDIT / "unassigned-portugal-cameras.json"
-CACHE_SCHEMA = 1
+CACHE_SCHEMA = 2
 POSITIVE_TTL_DAYS = int(os.getenv("AUDIT_POSITIVE_CACHE_DAYS", "14"))
 EMPTY_TTL_HOURS = int(os.getenv("AUDIT_EMPTY_CACHE_HOURS", "48"))
 MAX_CACHE_ENTRIES = int(os.getenv("AUDIT_MAX_CACHE_ENTRIES", "25000"))
@@ -75,12 +75,13 @@ def atomic_write_json(path: Path, value: Any) -> None:
 
 
 def cache_key(engine: str, query: str, max_results: int) -> str:
-    raw = f"{engine}\n{max_results}\n{query.strip()}".encode("utf-8")
+    # Include the schema version so relevance/parser changes cannot reuse poisoned results.
+    raw = f"{CACHE_SCHEMA}\n{engine}\n{max_results}\n{query.strip()}".encode("utf-8")
     return hashlib.sha256(raw).hexdigest()
 
 
 _cache_doc = read_json(SEARCH_CACHE, {"schema_version": CACHE_SCHEMA, "entries": {}})
-if not isinstance(_cache_doc, dict):
+if not isinstance(_cache_doc, dict) or int(_cache_doc.get("schema_version", 0) or 0) != CACHE_SCHEMA:
     _cache_doc = {"schema_version": CACHE_SCHEMA, "entries": {}}
 _cache_entries = _cache_doc.setdefault("entries", {})
 if not isinstance(_cache_entries, dict):
@@ -160,9 +161,16 @@ webcam_audit.AuditCrawler.inspect = preserving_inspect
 
 
 def persist_cache() -> None:
-    if not _cache_dirty:
-        return
-    # Remove expired entries first, then cap oldest entries to avoid unbounded repository growth.
+    global _cache_dirty
+    # A schema migration must be written even if no new query completed.
+    if int(_cache_doc.get("schema_version", 0) or 0) != CACHE_SCHEMA:
+        _cache_dirty = True
+    if not _cache_dirty and SEARCH_CACHE.exists():
+        try:
+            if int(json.loads(SEARCH_CACHE.read_text(encoding="utf-8")).get("schema_version", 0) or 0) == CACHE_SCHEMA:
+                return
+        except Exception:
+            pass
     now = utc_now()
     valid = {
         key: value for key, value in _cache_entries.items()
