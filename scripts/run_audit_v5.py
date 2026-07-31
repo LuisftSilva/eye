@@ -1,22 +1,14 @@
 #!/usr/bin/env python3
-"""Efficient audit profile for reliable daily batches of 15 municipalities.
-
-The previous profile executed every query against multiple engines and could spend more
-than two hours on only three municipalities. This profile:
-- uses a compact set of high-value query groups;
-- tries search providers as a fallback chain instead of duplicating every query;
-- adds Bing RSS parsing, which is less brittle than scraping the normal result page;
-- records provider health and latency in the diagnostics artifact;
-- keeps all persistence and lossless candidate handling from v4.
-"""
+"""Efficient and relevance-filtered daily Portugal webcam audit."""
 from __future__ import annotations
 
+import csv
 import json
 import os
 import time
 from dataclasses import asdict
 from pathlib import Path
-from urllib.parse import quote_plus, urlparse, parse_qs
+from urllib.parse import parse_qs, quote_plus, urlparse
 from xml.etree import ElementTree
 
 from bs4 import BeautifulSoup
@@ -26,9 +18,13 @@ import run_audit_v4
 import run_audit_v3
 
 ROOT = Path(__file__).resolve().parents[1]
-HEALTH_PATH = ROOT / "audit" / "logs" / "search-providers.json"
+AUDIT = ROOT / "audit"
+HEALTH_PATH = AUDIT / "logs" / "search-providers.json"
+CYCLE_PATH = AUDIT / "cycle.json"
+LAST_RUN_PATH = AUDIT / "last-automated-run.json"
+MUNICIPALITIES_PATH = AUDIT / "municipalities.csv"
+RELEVANCE_VERSION = 1
 
-# Twelve focused queries per municipality instead of dozens of duplicated searches.
 webcam_audit.CHECKS = [
     ("official", ["site:cm-{slug}.pt webcam {municipality}", "site:{slug}.pt webcam {municipality}"]),
     ("general", ["webcam {municipality} Portugal", "câmara ao vivo {municipality}"]),
@@ -38,7 +34,19 @@ webcam_audit.CHECKS = [
     ("technical_video", ["{municipality} live stream m3u8", "site:youtube.com/live {municipality} Portugal"]),
 ]
 
+TRUSTED_HOSTS = {
+    "beachcam.meo.pt", "back-office.beachcam.pt", "portugalwebcams.pt", "www.portugalwebcams.pt",
+    "spotazores.com", "www.spotazores.com", "netmadeira.com", "www.netmadeira.com",
+    "madeiracams.com", "www.madeiracams.com", "youtube.com", "www.youtube.com", "youtu.be",
+}
+NOISE_HOSTS = {
+    "webcamtests.com", "webcamtoy.com", "webcam.org", "iriun.com", "weather.com",
+    "www.weather.com", "accuweather.com", "www.accuweather.com", "easeweather.com",
+    "www.easeweather.com", "weatherworld.com", "www.weatherworld.com",
+}
+WEBCAM_HINTS = ("webcam", "livecam", "live-cam", "camera", "camara", "stream", "m3u8", "beachcam")
 _provider_stats: dict[str, dict[str, float | int | str]] = {}
+_relevance_stats = {"accepted": 0, "rejected": 0}
 
 
 def _record(provider: str, elapsed: float, count: int, error: str = "") -> None:
@@ -57,12 +65,7 @@ def _serper(self, query: str) -> list[str]:
         return []
     started = time.monotonic()
     try:
-        response = self.session.post(
-            "https://google.serper.dev/search",
-            json={"q": query, "gl": "pt", "hl": "pt-pt", "num": self.max_results},
-            headers={"X-API-KEY": key},
-            timeout=12,
-        )
+        response = self.session.post("https://google.serper.dev/search", json={"q": query, "gl": "pt", "hl": "pt-pt", "num": self.max_results}, headers={"X-API-KEY": key}, timeout=12)
         response.raise_for_status()
         links = [item.get("link") for item in response.json().get("organic", []) if item.get("link")]
         _record("serper", time.monotonic() - started, len(links))
@@ -75,17 +78,10 @@ def _serper(self, query: str) -> list[str]:
 def _bing_rss(self, query: str) -> list[str]:
     started = time.monotonic()
     try:
-        response = self.session.get(
-            "https://www.bing.com/search?format=rss&q=" + quote_plus(query),
-            timeout=(5, 10),
-        )
+        response = self.session.get("https://www.bing.com/search?format=rss&q=" + quote_plus(query), timeout=(5, 10))
         response.raise_for_status()
         root = ElementTree.fromstring(response.content)
-        links = []
-        for item in root.findall(".//item"):
-            link = item.findtext("link")
-            if link and link.startswith("http"):
-                links.append(link)
+        links = [item.findtext("link") for item in root.findall(".//item") if item.findtext("link") and item.findtext("link").startswith("http")]
         _record("bing_rss", time.monotonic() - started, len(links))
         return links[: self.max_results]
     except Exception as exc:
@@ -96,10 +92,7 @@ def _bing_rss(self, query: str) -> list[str]:
 def _duckduckgo(self, query: str) -> list[str]:
     started = time.monotonic()
     try:
-        response = self.session.get(
-            "https://html.duckduckgo.com/html/?q=" + quote_plus(query),
-            timeout=(5, 10),
-        )
+        response = self.session.get("https://html.duckduckgo.com/html/?q=" + quote_plus(query), timeout=(5, 10))
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
         links = []
@@ -117,22 +110,46 @@ def _duckduckgo(self, query: str) -> list[str]:
 
 
 def resilient_search(self, query: str, engine: str) -> list[str]:
-    # The requested engine is only a preference. A zero result immediately falls back,
-    # because a blocked engine must not be interpreted as "no webcam exists".
-    providers = []
-    if engine == "google":
-        providers.append(_serper)
-    providers.extend([_bing_rss, _duckduckgo])
-    seen = set()
+    providers = ([_serper] if engine == "google" else []) + [_bing_rss, _duckduckgo]
+    seen: set[str] = set()
     for provider in providers:
-        links = [url for url in provider(self, query) if url not in seen and not seen.add(url)]
+        links = []
+        for url in provider(self, query):
+            if url not in seen:
+                seen.add(url)
+                links.append(url)
         if links:
             return links[: self.max_results]
     return []
 
 
-# run_audit_v3.cached_search calls this variable dynamically.
 run_audit_v3._original_search = resilient_search
+
+
+def _relevant_url(url: str, municipality: str, query: str) -> bool:
+    global _relevance_stats
+    parsed = urlparse(url)
+    host = parsed.netloc.lower().split(":")[0]
+    haystack = f"{host}{parsed.path}?{parsed.query}".lower()
+    municipality_slug = webcam_audit.slugify(municipality)
+    municipality_tokens = [token for token in municipality_slug.split("-") if len(token) >= 4]
+    query_lower = query.lower()
+
+    accepted = False
+    if host in NOISE_HOSTS:
+        accepted = False
+    elif host in TRUSTED_HOSTS:
+        accepted = True
+    elif host.endswith(".pt") and any(hint in haystack for hint in WEBCAM_HINTS):
+        accepted = True
+    elif any(token in haystack for token in municipality_tokens) and any(hint in haystack for hint in WEBCAM_HINTS):
+        accepted = True
+    elif query_lower.startswith("site:"):
+        requested_host = query_lower.split()[0].removeprefix("site:")
+        accepted = host == requested_host or host.endswith("." + requested_host)
+
+    _relevance_stats["accepted" if accepted else "rejected"] += 1
+    return accepted
 
 
 def efficient_run_check(self, check_id: str, templates: list[str], municipality: str, region: str):
@@ -141,12 +158,12 @@ def efficient_run_check(self, check_id: str, templates: list[str], municipality:
     checked_urls: list[str] = []
     candidates = []
     for query in queries:
-        # One cached logical lookup; resilient_search handles provider fallback.
-        links = self.search(query, "google")
-        for link in links:
+        for link in self.search(query, "google"):
+            if not _relevant_url(link, municipality, query):
+                continue
             checked_urls.append(link)
             candidates.extend(self.inspect(link, municipality, region))
-    candidates = self.dedupe(candidates)
+    candidates = [candidate for candidate in self.dedupe(candidates) if candidate.status != "rejected"]
     unique_urls = list(dict.fromkeys(checked_urls))
     return {
         "check_id": check_id,
@@ -154,27 +171,51 @@ def efficient_run_check(self, check_id: str, templates: list[str], municipality:
         "queries": queries,
         "urls_checked": unique_urls,
         "candidates_found": [asdict(candidate) for candidate in candidates],
-        "notes": f"{len(unique_urls)} unique URLs checked; {len(candidates)} candidate(s) classified.",
+        "notes": f"{len(unique_urls)} relevant URLs checked; {len(candidates)} actionable candidate(s).",
         "checked_at": webcam_audit.now(),
-        "reviewer": "github-actions:webcam-audit-v5",
+        "reviewer": "github-actions:webcam-audit-v5-relevance-1",
     }, candidates
 
 
 webcam_audit.AuditCrawler.run_check = efficient_run_check
 
 
+def prepare_relevance_migration() -> None:
+    try:
+        cycle = json.loads(CYCLE_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return
+    if int(cycle.get("relevance_filter_version", 0) or 0) >= RELEVANCE_VERSION:
+        return
+    try:
+        last_run = json.loads(LAST_RUN_PATH.read_text(encoding="utf-8"))
+        affected = {str(row.get("id")) for row in last_run.get("municipalities", []) if row.get("id")}
+    except Exception:
+        affected = set()
+    if affected and MUNICIPALITIES_PATH.exists():
+        with MUNICIPALITIES_PATH.open(newline="", encoding="utf-8") as handle:
+            rows = list(csv.DictReader(handle))
+            fieldnames = list(rows[0].keys()) if rows else []
+        for row in rows:
+            if row.get("id") in affected:
+                row.update({"status": "not_started", "checks_completed": "0", "webcams_found": "0", "evidence_file": "", "last_reviewed_at": "", "reviewed_by": "", "notes": "Repeated after relevance-filter fix"})
+        with MUNICIPALITIES_PATH.open("w", newline="", encoding="utf-8") as handle:
+            writer = csv.DictWriter(handle, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(rows)
+    cycle["relevance_filter_version"] = RELEVANCE_VERSION
+    cycle["relevance_filter_applied_at"] = webcam_audit.now()
+    CYCLE_PATH.write_text(json.dumps(cycle, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def persist_provider_health() -> None:
     HEALTH_PATH.parent.mkdir(parents=True, exist_ok=True)
     total_results = sum(int(row.get("results", 0)) for row in _provider_stats.values())
-    HEALTH_PATH.write_text(json.dumps({
-        "generated_at": webcam_audit.now(),
-        "providers": _provider_stats,
-        "total_results": total_results,
-        "healthy": total_results > 0,
-    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    HEALTH_PATH.write_text(json.dumps({"generated_at": webcam_audit.now(), "providers": _provider_stats, "search_results": total_results, "relevance": _relevance_stats, "healthy": total_results > 0}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
+    prepare_relevance_migration()
     try:
         raise SystemExit(run_audit_v4.run_audit_v3.main())
     finally:
