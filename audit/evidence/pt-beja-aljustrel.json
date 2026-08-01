@@ -4,7 +4,7 @@
   "municipality": "Aljustrel",
   "district": "Beja",
   "status": "review",
-  "started_at": "2026-08-01T04:34:02Z",
+  "started_at": "2026-08-01T07:05:40Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -17,7 +17,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:34:02Z",
+      "checked_at": "2026-08-01T07:05:40Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -30,7 +30,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:34:02Z",
+      "checked_at": "2026-08-01T07:05:40Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -43,7 +43,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:34:02Z",
+      "checked_at": "2026-08-01T07:05:40Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -56,40 +56,43 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:34:02Z",
+      "checked_at": "2026-08-01T07:05:41Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "transport_weather",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Aljustrel trânsito meteorologia webcam",
         "Aljustrel porto marina aeroporto webcam"
       ],
-      "urls_checked": [
-        "https://www.youtube.com/channel/UCMtpmPs9end-dTNwVq16g4Q"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "1 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:34:03Z",
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-08-01T07:05:41Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "technical_video",
-      "status": "empty",
+      "status": "done",
       "queries": [
         "Aljustrel live stream m3u8",
         "site:youtube.com/live Aljustrel Portugal"
       ],
-      "urls_checked": [],
+      "urls_checked": [
+        "https://www.youtube.com/watch?v=oN6KpmUkKLs",
+        "https://www.youtube.com/watch?v=MD6OC2zrnP0",
+        "https://www.youtube.com/@LeonidaManChannel",
+        "https://www.youtube.com/@LeonidaMan-n9k"
+      ],
       "candidates_found": [],
-      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:34:04Z",
+      "notes": "4 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-08-01T07:05:44Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     }
   ],
   "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-08-01T04:34:04Z"
+  "finished_at": "2026-08-01T07:05:44Z"
 }

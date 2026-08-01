@@ -4,7 +4,7 @@
   "municipality": "Mealhada",
   "district": "Aveiro",
   "status": "review",
-  "started_at": "2026-08-01T04:33:46Z",
+  "started_at": "2026-08-01T07:05:26Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -17,7 +17,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:33:46Z",
+      "checked_at": "2026-08-01T07:05:26Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -30,22 +30,20 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:33:46Z",
+      "checked_at": "2026-08-01T07:05:26Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "providers",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "site:beachcam.meo.pt Mealhada",
         "site:portugalwebcams.pt Mealhada"
       ],
-      "urls_checked": [
-        "https://www.youtube.com/@soymarcela4"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "1 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:33:47Z",
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-08-01T07:05:26Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -58,7 +56,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:33:47Z",
+      "checked_at": "2026-08-01T07:05:27Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -71,25 +69,27 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:33:48Z",
+      "checked_at": "2026-08-01T07:05:27Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "technical_video",
-      "status": "empty",
+      "status": "done",
       "queries": [
         "Mealhada live stream m3u8",
         "site:youtube.com/live Mealhada Portugal"
       ],
-      "urls_checked": [],
+      "urls_checked": [
+        "https://www.youtube.com/playlist?list=PLRk-IKVEJpjNpUZPgQatN3oW7e20umNAY"
+      ],
       "candidates_found": [],
-      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:33:48Z",
+      "notes": "1 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-08-01T07:05:28Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     }
   ],
   "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-08-01T04:33:48Z"
+  "finished_at": "2026-08-01T07:05:28Z"
 }

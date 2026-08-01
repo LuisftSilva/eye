@@ -3,8 +3,8 @@
   "order": 23,
   "municipality": "Barrancos",
   "district": "Beja",
-  "status": "review",
-  "started_at": "2026-08-01T04:34:08Z",
+  "status": "blocked",
+  "started_at": "2026-08-01T07:05:47Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -17,7 +17,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:34:08Z",
+      "checked_at": "2026-08-01T07:05:47Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -30,7 +30,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:34:08Z",
+      "checked_at": "2026-08-01T07:05:47Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -43,7 +43,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:34:08Z",
+      "checked_at": "2026-08-01T07:05:48Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -56,7 +56,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:34:08Z",
+      "checked_at": "2026-08-01T07:05:48Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -69,27 +69,32 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:34:09Z",
+      "checked_at": "2026-08-01T07:05:48Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "technical_video",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Barrancos live stream m3u8",
         "site:youtube.com/live Barrancos Portugal"
       ],
-      "urls_checked": [
-        "https://www.youtube.com/watch?v=KHLnp-YFihQ"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "1 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T04:34:10Z",
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-08-01T07:05:48Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     }
   ],
   "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-08-01T04:34:10Z"
+  "finished_at": "2026-08-01T07:05:48Z",
+  "error": "Search layer returned zero URLs across all queries. This is treated as an API/transport/search-engine failure, not as evidence that no webcams exist.",
+  "search_health": {
+    "status": "blocked",
+    "urls_returned": 0,
+    "checks_examined": 6,
+    "action": "Municipality remains pending and must be searched again after recovery."
+  }
 }
