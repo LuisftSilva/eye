@@ -4,7 +4,7 @@
   "municipality": "Barrancos",
   "district": "Beja",
   "status": "review",
-  "started_at": "2026-07-31T07:19:35Z",
+  "started_at": "2026-08-01T04:34:08Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -17,7 +17,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-07-31T07:19:36Z",
+      "checked_at": "2026-08-01T04:34:08Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -30,7 +30,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-07-31T07:19:36Z",
+      "checked_at": "2026-08-01T04:34:08Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -43,7 +43,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-07-31T07:19:36Z",
+      "checked_at": "2026-08-01T04:34:08Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -56,23 +56,20 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-07-31T07:19:36Z",
+      "checked_at": "2026-08-01T04:34:08Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "transport_weather",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Barrancos trânsito meteorologia webcam",
         "Barrancos porto marina aeroporto webcam"
       ],
-      "urls_checked": [
-        "https://www.youtube.com/",
-        "https://www.youtube.com/youtube"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "2 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-07-31T07:19:37Z",
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-08-01T04:34:09Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -83,17 +80,16 @@
         "site:youtube.com/live Barrancos Portugal"
       ],
       "urls_checked": [
-        "https://www.youtube.com/watch?v=qmVX3M2I4PM",
-        "https://www.youtube.com/watch?v=sqj4kROrMkg"
+        "https://www.youtube.com/watch?v=KHLnp-YFihQ"
       ],
       "candidates_found": [],
-      "notes": "2 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-07-31T07:19:39Z",
+      "notes": "1 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-08-01T04:34:10Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     }
   ],
   "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-31T07:19:39Z"
+  "finished_at": "2026-08-01T04:34:10Z"
 }

@@ -3,8 +3,8 @@
   "order": 17,
   "municipality": "Sever do Vouga",
   "district": "Aveiro",
-  "status": "review",
-  "started_at": "2026-07-31T07:19:17Z",
+  "status": "blocked",
+  "started_at": "2026-08-01T04:33:55Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -17,7 +17,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-07-31T07:19:18Z",
+      "checked_at": "2026-08-01T04:33:55Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -30,25 +30,20 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-07-31T07:19:18Z",
+      "checked_at": "2026-08-01T04:33:55Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "providers",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "site:beachcam.meo.pt Sever do Vouga",
         "site:portugalwebcams.pt Sever do Vouga"
       ],
-      "urls_checked": [
-        "https://www.youtube.com/Minecraft",
-        "https://www.youtube.com/watch?v=69rAYdEJbsg",
-        "https://www.youtube.com/shorts/W3bDBhgLS6Y",
-        "https://www.youtube.com/shorts/XzKHvOVIviE"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "4 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-07-31T07:19:24Z",
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-08-01T04:33:55Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -61,7 +56,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-07-31T07:19:24Z",
+      "checked_at": "2026-08-01T04:33:55Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -74,7 +69,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-07-31T07:19:25Z",
+      "checked_at": "2026-08-01T04:33:56Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -87,12 +82,19 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-07-31T07:19:25Z",
+      "checked_at": "2026-08-01T04:33:56Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     }
   ],
   "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-07-31T07:19:25Z"
+  "finished_at": "2026-08-01T04:33:56Z",
+  "error": "Search layer returned zero URLs across all queries. This is treated as an API/transport/search-engine failure, not as evidence that no webcams exist.",
+  "search_health": {
+    "status": "blocked",
+    "urls_returned": 0,
+    "checks_examined": 6,
+    "action": "Municipality remains pending and must be searched again after recovery."
+  }
 }

@@ -322,7 +322,7 @@
   "checks_completed": 16,
   "checks_total": 16,
   "finished_at": "2026-07-27T23:26:02Z",
-  "reviewed_at": "2026-07-31T07:19:40Z",
+  "reviewed_at": "2026-08-01T04:34:11Z",
   "reviewer_second_pass": "github-actions:evidence-validator",
   "audit_cycle_id": "2026-07-27-full-restart-001"
 }
