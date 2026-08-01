@@ -7,6 +7,6 @@
   "preserve_discovered_cameras": true,
   "description": "Full national re-audit from Águeda using the optimized lossless crawler.",
   "initialized_by": "scripts/prepare_audit_cycle.py",
-  "relevance_filter_version": 1,
-  "relevance_filter_applied_at": "2026-07-31T07:19:06Z"
+  "relevance_filter_version": 2,
+  "relevance_filter_applied_at": "2026-08-01T07:06:13Z"
 }

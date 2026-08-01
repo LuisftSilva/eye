@@ -3,8 +3,8 @@
   "order": 10,
   "municipality": "Mealhada",
   "district": "Aveiro",
-  "status": "review",
-  "started_at": "2026-08-01T07:05:26Z",
+  "status": "blocked",
+  "started_at": "2026-08-01T07:06:13Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -17,7 +17,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T07:05:26Z",
+      "checked_at": "2026-08-01T07:06:14Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -30,7 +30,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T07:05:26Z",
+      "checked_at": "2026-08-01T07:06:14Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -43,7 +43,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T07:05:26Z",
+      "checked_at": "2026-08-01T07:06:14Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -56,7 +56,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T07:05:27Z",
+      "checked_at": "2026-08-01T07:06:14Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -69,27 +69,32 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T07:05:27Z",
+      "checked_at": "2026-08-01T07:06:14Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
       "check_id": "technical_video",
-      "status": "done",
+      "status": "empty",
       "queries": [
         "Mealhada live stream m3u8",
         "site:youtube.com/live Mealhada Portugal"
       ],
-      "urls_checked": [
-        "https://www.youtube.com/playlist?list=PLRk-IKVEJpjNpUZPgQatN3oW7e20umNAY"
-      ],
+      "urls_checked": [],
       "candidates_found": [],
-      "notes": "1 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-01T07:05:28Z",
+      "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
+      "checked_at": "2026-08-01T07:06:15Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     }
   ],
   "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-08-01T07:05:28Z"
+  "finished_at": "2026-08-01T07:06:15Z",
+  "error": "Search layer returned zero URLs across all queries. This is treated as an API/transport/search-engine failure, not as evidence that no webcams exist.",
+  "search_health": {
+    "status": "blocked",
+    "urls_returned": 0,
+    "checks_examined": 6,
+    "action": "Municipality remains pending and must be searched again after recovery."
+  }
 }
