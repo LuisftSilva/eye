@@ -109,7 +109,7 @@ jobs:
           fi
 
           set +e
-          python scripts/run_audit_v5.py "${ARGS[@]}" > audit/logs/latest-console.log 2>&1
+          python scripts/run_audit_v6.py "${ARGS[@]}" > audit/logs/latest-console.log 2>&1
           CODE=$?
           set -e
           echo "$CODE" > audit/logs/latest-exit-code.txt
