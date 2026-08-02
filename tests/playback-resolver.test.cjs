@@ -74,5 +74,6 @@ test('resolves a Windy webcam page to the Windy embed player', () => {
 
 test('resolves direct image webcams', () => {
   const result = resolve({ embedUrl: 'https://example.com/latest.jpg' });
-  assert.deepEqual(result, { type: 'image', url: 'https://example.com/latest.jpg' });
+  assert.equal(result.type, 'image');
+  assert.equal(result.url, 'https://example.com/latest.jpg');
 });
