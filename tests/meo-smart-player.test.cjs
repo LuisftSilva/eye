@@ -13,15 +13,15 @@ function load(){
 
 const meo=load();
 
-test('São Martinho do Porto resolves to a direct MEO HLS candidate',()=>{
+test('São Martinho do Porto resolves to the verified official MEO HLS stream',()=>{
   const urls=meo.candidates({name:'São Martinho do Porto',provider:'MEO Beachcam',sourceUrl:'https://beachcam.meo.pt/livecams/sao-martinho-do-porto/'});
-  assert.equal(urls[0],'https://video-auth1.iol.pt/beachcam/saomartinhodoporto/playlist.m3u8');
+  assert.equal(urls[0],'https://video-auth1.iol.pt/auth-beachcam/bcsaomartinho/playlist.m3u8');
   assert.ok(urls.length>=2);
 });
 
-test('MEO pages generate fallback stream candidates from the page slug',()=>{
+test('MEO pages generate auth-beachcam and legacy fallback candidates from the page slug',()=>{
   const urls=meo.candidates({name:'Praia de Teste',provider:'MEO Beachcam',sourceUrl:'https://beachcam.meo.pt/livecams/praia-de-teste/'});
-  assert.ok(urls.includes('https://video-auth1.iol.pt/beachcam/praiadeteste/playlist.m3u8'));
+  assert.ok(urls.includes('https://video-auth1.iol.pt/auth-beachcam/praiadeteste/playlist.m3u8'));
   assert.ok(urls.includes('https://video-auth1.iol.pt/beachcam/teste/playlist.m3u8'));
 });
 
