@@ -1,0 +1,1 @@
+Validate passive public webcam discovery workflow and scripts.
