@@ -10,7 +10,7 @@
     "worldcam-porto-dom-luis":{provider:"Visitar Porto",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/13970-porto-dom-luis-i-bridge",status:"online",verification:"specific-page"},
     "worldcam-viana-cabedelo":{provider:"FeelViana",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/29245-viana-do-castelo-praia-do-cabedelo",status:"online",verification:"specific-page"},
     "worldcam-nazare-forte":{provider:"MEO Beachcam",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/27713-nazare-forte-de-sao-miguel-arcanjo",status:"online",verification:"specific-page"},
-    "worldcam-lisbon-alges-bridge":{sourceUrl:"https://worldcam.eu/webcams/europe/portugal/25035-lisbon-alges-ponte-25-de-abril",status:"online",verification:"specific-page"},
+    "worldcam-lisbon-alges-bridge":{provider:"Porto de Lisboa",sourceUrl:"https://www.portodelisboa.pt/tejo-live",status:"online",verification:"original-provider"},
     "worldcam-fronteira-panorama":{provider:"Meteo Alentejo",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/29178-fronteira-panoramic-view",status:"online",verification:"specific-page"},
     "worldcam-gaviao-weather":{provider:"Meteo Alentejo",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/29197-gaviao-weather-station",status:"online",verification:"specific-page"},
     "worldcam-grandola-panorama":{provider:"Meteo Alentejo",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/32016-grandola-panoramic-view",status:"online",verification:"specific-page"},
@@ -23,7 +23,13 @@
     "worldcam-montemor-novo-panorama":{provider:"Meteo Alentejo",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/35960-montemor-o-novo-panoramic-view",status:"online",verification:"specific-page"},
     "worldcam-mertola-rabbits":{provider:"Mértola Bio Live Cam",sourceUrl:"https://www.mertolabiolivecam.com/",status:"online",verification:"original-provider"},
     "worldcam-lisbon-airport":{provider:"Aviação TV",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/34767-lisbon-airport",status:"online",verification:"specific-page"},
-    "worldcam-portimao-marina":{provider:"PlayOcean",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/29201-portimao-marina-de-portimao",status:"online",verification:"specific-page"}
+    "worldcam-portimao-marina":{provider:"PlayOcean",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/29201-portimao-marina-de-portimao",status:"online",verification:"specific-page"},
+    "worldcam-ourique-panorama":{provider:"Meteo Alentejo",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/32048-ourique-panoramic-view",status:"offline",verification:"specific-page"},
+    "worldcam-moura-panorama":{provider:"Meteo Alentejo",sourceUrl:"",status:"offline",verification:"source-unavailable"},
+    "worldcam-lisbon-marvila":{provider:"Marvila Live Cam",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/37825-lisbon-marvila",status:"online",verification:"specific-page"},
+    "worldcam-lisbon-vasco-gama":{provider:"Lusoponte",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/40620-lisbon-vasco-da-gama-bridge",status:"online",verification:"specific-page"},
+    "worldcam-lisbon-escala25":{provider:"PlayOcean / Escala25",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/3675-lisbon-escala25-25-de-abril-bridge",status:"offline",verification:"specific-page"},
+    "worldcam-lisbon-bugio":{provider:"MEO Beachcam",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/29945-lisbon-farol-do-bugio",status:"offline",verification:"specific-page"}
   };
   const nativeFetch=window.fetch.bind(window);
   window.fetch=async(input,init)=>{
@@ -34,7 +40,7 @@
     const patched=cameras.map(camera=>{
       const patch=overrides[String(camera.id)];
       if(!patch)return camera;
-      return {...camera,...patch,verifiedAt:"2026-08-02",uniqueFeed:true};
+      return {...camera,...patch,verifiedAt:"2026-08-02",uniqueFeed:Boolean(patch.sourceUrl)};
     });
     return new Response(JSON.stringify(patched),{status:response.status,statusText:response.statusText,headers:{"Content-Type":"application/json"}});
   };
