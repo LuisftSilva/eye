@@ -4,7 +4,7 @@
   "municipality": "Sever do Vouga",
   "district": "Aveiro",
   "status": "blocked",
-  "started_at": "2026-08-02T04:35:50Z",
+  "started_at": "2026-08-02T07:23:56Z",
   "reviewer": "github-actions:webcam-audit",
   "checks": [
     {
@@ -17,7 +17,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-02T04:35:50Z",
+      "checked_at": "2026-08-02T07:23:56Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -30,7 +30,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-02T04:35:50Z",
+      "checked_at": "2026-08-02T07:23:56Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -43,7 +43,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-02T04:35:50Z",
+      "checked_at": "2026-08-02T07:23:57Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -56,7 +56,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-02T04:35:51Z",
+      "checked_at": "2026-08-02T07:23:57Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -69,7 +69,7 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-02T04:35:51Z",
+      "checked_at": "2026-08-02T07:23:57Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     },
     {
@@ -82,14 +82,14 @@
       "urls_checked": [],
       "candidates_found": [],
       "notes": "0 relevant URLs checked; 0 actionable candidate(s).",
-      "checked_at": "2026-08-02T04:35:51Z",
+      "checked_at": "2026-08-02T07:23:57Z",
       "reviewer": "github-actions:webcam-audit-v5-relevance-1"
     }
   ],
   "candidates": [],
   "checks_completed": 6,
   "checks_total": 6,
-  "finished_at": "2026-08-02T04:35:51Z",
+  "finished_at": "2026-08-02T07:23:57Z",
   "error": "Search layer returned zero URLs across all queries. This is treated as an API/transport/search-engine failure, not as evidence that no webcams exist.",
   "search_health": {
     "status": "blocked",
