@@ -8,7 +8,23 @@
     "reguengos de monsaraz vista panoramica":{provider:"Meteo Alentejo",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/35964-reguengos-de-monsaraz-panoramic-view",status:"online",verification:"specific-page"},
     "santiago do cacem vista panoramica":{provider:"Meteo Alentejo",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/34065-santiago-do-cacem-panoramic-view",status:"online",verification:"specific-page"},
     "sines estacao meteorologica":{provider:"Meteo Alentejo",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/29195-sines-weather-station",status:"offline",verification:"specific-page"},
-    "sousel estacao meteorologica":{provider:"Meteo Alentejo",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/29177-sousel-weather-station",status:"online",verification:"specific-page"}
+    "sousel estacao meteorologica":{provider:"Meteo Alentejo",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/29177-sousel-weather-station",status:"online",verification:"specific-page"},
+
+    "ferreira do zezere lago azul":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/ferreira-do-zezere-lago-azul/",status:"online",verification:"original-provider"},
+    "ferreira do zezere dornes":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/ferreira-do-zezere-dornes/",status:"online",verification:"original-provider"},
+    "pedrogao grande praia fluvial do cabril":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/praia-fluvial-do-cabril/",status:"online",verification:"original-provider"},
+    "nazare forte de sao miguel arcanjo":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/nazare-forte-sao-miguel-arcanjo/",status:"online",verification:"original-provider"},
+    "lisboa farol do bugio":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/farol-do-bugio/",status:"unknown",verification:"original-provider"},
+    "cascais praia da ribeira":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/cascais/",status:"online",verification:"original-provider"},
+    "sao pedro do estoril praia":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/sao-pedro-do-estoril/",status:"online",verification:"original-provider"},
+    "ericeira praia da calada":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/praia-da-calada/",status:"online",verification:"original-provider"},
+    "ericeira praia do matadouro":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/matadouro/",status:"online",verification:"original-provider"},
+    "ericeira praia do sul":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/praia-do-sul/",status:"online",verification:"original-provider"},
+    "ericeira praia dos pescadores":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/pescadores/",status:"online",verification:"original-provider"},
+    "odemira praia do almograve":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/almograve/",status:"online",verification:"original-provider"},
+    "viana do castelo praia do cabedelo":{provider:"FeelViana / Surfline",sourceUrl:"https://www.feelviana.com/webcam",embedUrl:"https://embed.cdn-surfline.com/cams/5a4e62621c60d700101da59a/df316dcb1ad772213e899638a1d57bf115f4ec13",status:"online",verification:"original-embed"},
+    "viana do castelo feelviana wakepark":{provider:"FeelViana / Surfline",sourceUrl:"https://www.feelviana.com/webcam",embedUrl:"https://embed.cdn-surfline.com/cams/613205b46012d3ad55a4eec5/ba821de41fedcb2cdd9cdc28e95d92e4450dad63",status:"online",verification:"original-embed"},
+    "portimao marina":{provider:"PlayOcean / YouTube",sourceUrl:"https://www.playocean.net/en/cameras/portimao-marina-north",embedUrl:"https://www.youtube.com/embed/w7rzgn6WXs8?autoplay=1&mute=1",status:"online",verification:"official-youtube"}
   }));
   const native=window.fetch.bind(window);
   window.fetch=async(input,init)=>{
@@ -17,7 +33,7 @@
     if(!url.includes("data/cameras.json")||!response.ok)return response;
     const data=(await response.clone().json()).map(camera=>{
       const patch=patches.get(norm(camera.name));
-      return patch?{...camera,...patch,verifiedAt:"2026-08-02",uniqueFeed:Boolean(patch.sourceUrl)}:camera;
+      return patch?{...camera,...patch,verifiedAt:"2026-08-02",uniqueFeed:Boolean(patch.sourceUrl||patch.embedUrl)}:camera;
     });
     return new Response(JSON.stringify(data),{status:response.status,statusText:response.statusText,headers:{"Content-Type":"application/json"}});
   };
