@@ -1,0 +1,1 @@
+(()=>{const cams=[];const f=window.fetch.bind(window);window.fetch=async(i,n)=>{const r=await f(i,n),u=typeof i==="string"?i:i?.url||"";if(!u.includes("data/cameras.json")||!r.ok)return r;const b=await r.clone().json();return new Response(JSON.stringify(b),{status:r.status,statusText:r.statusText,headers:{"Content-Type":"application/json"}})};})();
