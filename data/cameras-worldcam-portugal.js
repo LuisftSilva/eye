@@ -1,0 +1,42 @@
+(()=>{
+const cams=[
+["worldcam-ferreira-lago-azul","Ferreira do Zêzere - Lago Azul","Ferreira do Zêzere","Santarém",39.694,-8.232,"nature","https://worldcam.eu/webcams/europe/portugal"],
+["worldcam-fronteira-panorama","Fronteira - Vista panorâmica","Fronteira","Portalegre",39.056,-7.648,"city","https://worldcam.eu/webcams/europe/portugal"],
+["worldcam-gaviao-weather","Gavião - Estação meteorológica","Gavião","Portalegre",39.465,-7.936,"weather","https://worldcam.eu/webcams/europe/portugal"],
+["worldcam-grandola-panorama","Grândola - Vista panorâmica","Grândola","Setúbal",38.177,-8.566,"city","https://worldcam.eu/webcams/europe/portugal"],
+["worldcam-lisbon-airport","Lisboa - Aeroporto","Lisboa","Lisboa",38.774,-9.135,"airport","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-lisbon-alges-bridge","Lisboa - Algés - Ponte 25 de Abril","Algés","Lisboa",38.6944,-9.2344,"city","https://worldcam.eu/webcams/europe/portugal/25035-lisbon-alges-ponte-25-de-abril"],
+["worldcam-lisbon-escala25","Lisboa - Escala25 - Ponte 25 de Abril","Lisboa","Lisboa",38.699,-9.177,"city","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-lisbon-panorama","Lisboa - Vista panorâmica","Lisboa","Lisboa",38.722,-9.139,"city","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-lisbon-bugio","Lisboa - Farol do Bugio","Oeiras","Lisboa",38.661,-9.299,"coast","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-lisbon-marvila","Lisboa - Marvila","Lisboa","Lisboa",38.747,-9.104,"city","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-lisbon-vasco-gama","Lisboa - Ponte Vasco da Gama","Lisboa","Lisboa",38.762,-9.041,"city","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-cascais-ribeira","Cascais - Praia da Ribeira","Cascais","Lisboa",38.697,-9.421,"beach","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-sao-pedro-estoril","São Pedro do Estoril - Praia","Cascais","Lisboa",38.693,-9.369,"beach","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-praia-pequena-rodizio","Colares - Praia Pequena do Rodízio","Sintra","Lisboa",38.82,-9.476,"beach","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-ericeira-calada","Ericeira - Praia da Calada","Mafra","Lisboa",39.026,-9.421,"beach","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-ericeira-matadouro","Ericeira - Praia do Matadouro","Mafra","Lisboa",38.975,-9.419,"beach","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-ericeira-praia-sul","Ericeira - Praia do Sul","Mafra","Lisboa",38.958,-9.416,"beach","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-ericeira-pescadores","Ericeira - Praia dos Pescadores","Mafra","Lisboa",38.965,-9.417,"beach","https://worldcam.eu/webcams/europe/portugal/lisboa"],
+["worldcam-manteigas-serra-estrela","Manteigas - Serra da Estrela","Manteigas","Guarda",40.402,-7.539,"mountain","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-marvao-castelo","Marvão - Castelo","Marvão","Portalegre",39.394,-7.377,"historic","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-mertola-rabbits","Mértola - Lebres e coelhos","Mértola","Beja",37.639,-7.661,"nature","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-mertola-weather","Mértola - Estação meteorológica","Mértola","Beja",37.639,-7.661,"weather","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-mondim-panorama","Mondim de Basto - Vista panorâmica","Mondim de Basto","Vila Real",41.411,-7.954,"city","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-monforte-panorama","Monforte - Vista panorâmica","Monforte","Portalegre",39.054,-7.437,"city","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-montemor-novo-panorama","Montemor-o-Novo - Vista panorâmica","Montemor-o-Novo","Évora",38.648,-8.214,"city","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-moura-panorama","Moura - Vista panorâmica","Moura","Beja",38.141,-7.449,"city","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-mourao-castelo","Mourão - Castelo","Mourão","Évora",38.384,-7.341,"historic","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-nazare-forte","Nazaré - Forte de São Miguel Arcanjo","Nazaré","Leiria",39.605,-9.085,"historic","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-nisa-panorama","Nisa - Vista panorâmica","Nisa","Portalegre",39.515,-7.649,"city","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-almograve","Odemira - Praia do Almograve","Odemira","Beja",37.65,-8.802,"beach","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-odemira-weather","Odemira - Estação meteorológica","Odemira","Beja",37.598,-8.639,"weather","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-ourique-panorama","Ourique - Vista panorâmica","Ourique","Beja",37.654,-8.225,"city","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-cabril-river-beach","Pedrógão Grande - Praia Fluvial do Cabril","Pedrógão Grande","Leiria",39.915,-8.145,"nature","https://worldcam.eu/webcams/europe/portugal/list/100"],
+["worldcam-porto-dom-luis","Porto - Ponte Dom Luís I","Porto","Porto",41.14,-8.611,"city","https://worldcam.eu/webcams/europe/portugal"],
+["worldcam-portimao-marina","Portimão - Marina","Portimão","Faro",37.118,-8.529,"port","https://worldcam.eu/webcams/category/harbours/portugal"],
+["worldcam-viana-cabedelo","Viana do Castelo - Praia do Cabedelo","Viana do Castelo","Viana do Castelo",41.684,-8.835,"beach","https://worldcam.eu/webcams/category/harbours/portugal"]
+].map(([id,name,city,region,lat,lng,category,sourceUrl])=>({id,name,city,region,country:"Portugal",lat,lng,category,status:"unknown",provider:"WorldCam Directory",sourceUrl,embedUrl:"",description:"Entrada portuguesa identificada no diretório WorldCam. Abrir a fonte para consultar a transmissão original e o respetivo operador.",verifiedAt:"2026-08-02",verification:"directory-listing",uniqueFeed:false,tags:[region,city,category,"WorldCam"]}));
+const originalFetch=window.fetch.bind(window);
+window.fetch=async(input,init)=>{const response=await originalFetch(input,init);const url=typeof input==="string"?input:input?.url||"";if(!url.includes("data/cameras.json")||!response.ok)return response;const base=await response.clone().json();const keys=new Set(base.map(c=>`${c.name}|${c.city}`.toLowerCase()));const extras=cams.filter(c=>!keys.has(`${c.name}|${c.city}`.toLowerCase()));return new Response(JSON.stringify([...base,...extras]),{status:response.status,statusText:response.statusText,headers:{"Content-Type":"application/json"}});};
+})();
