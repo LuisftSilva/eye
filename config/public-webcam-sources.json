@@ -1,0 +1,16 @@
+{
+  "country": "Portugal",
+  "requestDelayMs": 750,
+  "timeoutMs": 15000,
+  "maxPagesPerSource": 40,
+  "sources": [
+    {"name":"MEO Beachcam","url":"https://back-office.beachcam.pt/livecams/","allowedHosts":["back-office.beachcam.pt","beachcam.meo.pt","video-auth1.iol.pt"]},
+    {"name":"SpotAzores","url":"https://www.spotazores.com/cams","allowedHosts":["spotazores.com","www.spotazores.com"]},
+    {"name":"Meteo Alentejo","url":"https://www.meteoalentejo.pt/webcams/","allowedHosts":["meteoalentejo.pt","www.meteoalentejo.pt"]},
+    {"name":"FeelViana","url":"https://www.feelviana.com/webcam","allowedHosts":["feelviana.com","www.feelviana.com","embed.cdn-surfline.com"]},
+    {"name":"PlayOcean","url":"https://www.playocean.net/en/cameras","allowedHosts":["playocean.net","www.playocean.net","youtube.com","www.youtube.com","youtu.be"]},
+    {"name":"Porto de Lisboa","url":"https://www.portodelisboa.pt/tejo-live","allowedHosts":["portodelisboa.pt","www.portodelisboa.pt","youtube.com","www.youtube.com","youtu.be"]},
+    {"name":"Santuário de Fátima","url":"https://www.fatima.pt/pt/pages/transmissoes-online","allowedHosts":["fatima.pt","www.fatima.pt","youtube.com","www.youtube.com","youtu.be"]},
+    {"name":"Madeira Web","url":"https://www.netmadeira.com/webcams-madeira","allowedHosts":["netmadeira.com","www.netmadeira.com"]}
+  ]
+}
