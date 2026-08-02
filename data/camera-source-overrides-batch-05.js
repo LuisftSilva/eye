@@ -10,6 +10,14 @@
     "sines estacao meteorologica":{provider:"Meteo Alentejo",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/29195-sines-weather-station",status:"offline",verification:"specific-page"},
     "sousel estacao meteorologica":{provider:"Meteo Alentejo",sourceUrl:"https://worldcam.eu/webcams/europe/portugal/29177-sousel-weather-station",status:"online",verification:"specific-page"},
 
+    "fronteira vista panoramica":{provider:"Meteo Alentejo",sourceUrl:"https://www.meteoalentejo.pt/webcams/webcam-fronteira/",status:"online",verification:"original-provider"},
+    "gaviao estacao meteorologica":{provider:"Meteo Alentejo",sourceUrl:"https://www.meteoalentejo.pt/webcam-gaviao-2021/",status:"online",verification:"original-provider"},
+    "grandola vista panoramica":{provider:"Meteo Alentejo",sourceUrl:"https://www.meteoalentejo.pt/webcam-grandola/",status:"online",verification:"original-provider"},
+    "marvao castelo":{provider:"Meteo Alentejo",sourceUrl:"https://www.meteoalentejo.pt/webcam-marvao/",status:"online",verification:"original-provider"},
+    "mourao castelo":{provider:"Meteo Alentejo",sourceUrl:"https://www.meteoalentejo.pt/webcam-mourao/",status:"online",verification:"original-provider"},
+    "nisa vista panoramica":{provider:"Meteo Alentejo",sourceUrl:"https://www.meteoalentejo.pt/webcam-nisa/",status:"online",verification:"original-provider"},
+    "moura vista panoramica":{provider:"Meteo Alentejo",sourceUrl:"https://www.meteoalentejo.pt/moura/webcam-moura/",status:"unknown",verification:"original-provider"},
+
     "ferreira do zezere lago azul":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/ferreira-do-zezere-lago-azul/",status:"online",verification:"original-provider"},
     "ferreira do zezere dornes":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/ferreira-do-zezere-dornes/",status:"online",verification:"original-provider"},
     "pedrogao grande praia fluvial do cabril":{provider:"MEO Beachcam",sourceUrl:"https://beachcam.meo.pt/livecams/praia-fluvial-do-cabril/",status:"online",verification:"original-provider"},
