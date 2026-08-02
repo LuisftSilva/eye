@@ -7,83 +7,22 @@
   <meta name="description" content="Mapa tecnológico 3D de webcams públicas em Portugal.">
   <title>Eye — Portugal Live</title>
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.18.0/dist/maplibre-gl.css">
-  <link rel="stylesheet" href="styles.css?v=20260802-4">
+  <link rel="stylesheet" href="styles.css?v=20260802-5">
 </head>
 <body>
   <div id="app">
     <div id="map" aria-label="Mapa 3D com webcams"></div>
-
-    <header class="hud top">
-      <div class="brand">
-        <span class="pulse"></span>
-        <div><strong>EYE</strong><small>PORTUGAL LIVE NETWORK</small></div>
-      </div>
-      <div class="top-actions">
-        <button id="resetView">Portugal</button>
-        <button id="worldView">Planeta</button>
-      </div>
-    </header>
-
-    <aside class="hud controls">
-      <div class="metrics">
-        <div><strong id="cameraCount">0</strong><span>câmaras</span></div>
-        <div><strong id="visibleCount">0</strong><span>visíveis</span></div>
-        <div><strong id="regionCount">0</strong><span>regiões</span></div>
-        <div><strong id="providerCount">0</strong><span>redes</span></div>
-      </div>
-      <label class="search"><span>⌕</span><input id="searchInput" placeholder="Pesquisar local, região ou rede"></label>
-      <div class="filters">
-        <button class="filter active" data-filter="all">Todas</button>
-        <button class="filter" data-filter="mainland">Continente</button>
-        <button class="filter" data-filter="azores">Açores</button>
-        <button class="filter" data-filter="madeira">Madeira</button>
-      </div>
-      <div class="switches">
-        <label class="switch-row"><input id="hideOffline" type="checkbox" checked><span>Ocultar câmaras offline</span></label>
-        <label class="switch-row"><input id="threeDMode" type="checkbox"><span>Edifícios e terreno 3D</span></label>
-        <label class="switch-row"><input id="autoRotate" type="checkbox" checked><span>Rotação do planeta</span></label>
-      </div>
-      <p class="coverage">Controlos tipo Google Earth: arrastar roda o mapa; botão direito ou Ctrl + arrastar roda e inclina; dois dedos inclinam no ecrã tátil; Shift + setas ajusta a vista. Verde: feed direto. Azul: confirmada. Vermelho: offline.</p>
-    </aside>
-
-    <section id="viewer" class="viewer" aria-live="polite">
-      <button id="closeViewer" class="close" aria-label="Fechar">×</button>
-      <div class="viewer-head">
-        <span id="viewerStatus" class="status">LIVE</span>
-        <h1 id="viewerTitle"></h1>
-        <p id="viewerLocation"></p>
-      </div>
-      <div id="videoStage" class="video-stage">
-        <video id="cameraVideo" class="camera-frame hidden" autoplay muted playsinline controls></video>
-        <iframe id="cameraFrame" class="camera-frame hidden" title="Webcam ao vivo" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-        <div id="videoFallback" class="video-placeholder">
-          <span class="cam-icon">◉</span>
-          <strong>A carregar transmissão</strong>
-          <p>Se o operador bloquear a reprodução, use o botão “Abrir transmissão”.</p>
-        </div>
-      </div>
-      <div class="viewer-body">
-        <p id="viewerDescription"></p>
-        <div class="facts">
-          <span id="viewerProvider"></span>
-          <span id="viewerVerification"></span>
-        </div>
-        <a id="openSource" class="primary" target="_blank" rel="noopener">Abrir transmissão ↗</a>
-      </div>
-    </section>
-
-    <div class="hud legend">
-      <span><i class="dot verified"></i> Confirmada</span>
-      <span><i class="dot direct"></i> Feed direto</span>
-      <span><i class="dot offline"></i> Offline</span>
-    </div>
+    <header class="hud top"><div class="brand"><span class="pulse"></span><div><strong>EYE</strong><small>PORTUGAL LIVE NETWORK</small></div></div><div class="top-actions"><button id="resetView">Portugal</button><button id="worldView">Planeta</button></div></header>
+    <aside class="hud controls"><div class="metrics"><div><strong id="cameraCount">0</strong><span>câmaras</span></div><div><strong id="visibleCount">0</strong><span>visíveis</span></div><div><strong id="regionCount">0</strong><span>regiões</span></div><div><strong id="providerCount">0</strong><span>redes</span></div></div><label class="search"><span>⌕</span><input id="searchInput" placeholder="Pesquisar local, região ou rede"></label><div class="filters"><button class="filter active" data-filter="all">Todas</button><button class="filter" data-filter="mainland">Continente</button><button class="filter" data-filter="azores">Açores</button><button class="filter" data-filter="madeira">Madeira</button></div><div class="switches"><label class="switch-row"><input id="hideOffline" type="checkbox" checked><span>Ocultar câmaras offline</span></label><label class="switch-row"><input id="threeDMode" type="checkbox"><span>Edifícios e terreno 3D</span></label><label class="switch-row"><input id="autoRotate" type="checkbox" checked><span>Rotação do planeta</span></label></div><p class="coverage">Controlos tipo Google Earth: arrastar roda o mapa; botão direito ou Ctrl + arrastar roda e inclina; dois dedos inclinam no ecrã tátil; Shift + setas ajusta a vista. Verde: feed direto. Azul: confirmada. Vermelho: offline.</p></aside>
+    <section id="viewer" class="viewer" aria-live="polite"><button id="closeViewer" class="close" aria-label="Fechar">×</button><div class="viewer-head"><span id="viewerStatus" class="status">LIVE</span><h1 id="viewerTitle"></h1><p id="viewerLocation"></p></div><div id="videoStage" class="video-stage"><video id="cameraVideo" class="camera-frame hidden" autoplay muted playsinline controls></video><iframe id="cameraFrame" class="camera-frame hidden" title="Webcam ao vivo" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin"></iframe><div id="videoFallback" class="video-placeholder"><span class="cam-icon">◉</span><strong>A carregar transmissão</strong><p>Se o operador bloquear a reprodução, use o botão “Abrir transmissão”.</p></div></div><div class="viewer-body"><p id="viewerDescription"></p><div class="facts"><span id="viewerProvider"></span><span id="viewerVerification"></span></div><a id="openSource" class="primary" target="_blank" rel="noopener">Abrir transmissão ↗</a></div></section>
+    <div class="hud legend"><span><i class="dot verified"></i> Confirmada</span><span><i class="dot direct"></i> Feed direto</span><span><i class="dot offline"></i> Offline</span></div>
   </div>
   <script src="https://unpkg.com/maplibre-gl@5.18.0/dist/maplibre-gl.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1.6.13/dist/hls.min.js"></script>
-  <script src="data/cameras-earthcam-portugal.js?v=20260802-4"></script>
-  <script src="data/cameras-worldcam-portugal.js?v=20260802-4"></script>
-  <script src="data/cameras-extra-portugal.js?v=20260802-4"></script>
-  <script src="app.js?v=20260802-4"></script>
-  <script src="spotazores-viewer.js?v=20260802-4"></script>
+  <script src="data/cameras-earthcam-portugal.js?v=20260802-5"></script>
+  <script src="data/cameras-worldcam-portugal.js?v=20260802-5"></script>
+  <script src="data/cameras-extra-portugal.js?v=20260802-5"></script>
+  <script src="app.js?v=20260802-5"></script>
+  <script src="spotazores-viewer.js?v=20260802-5"></script>
 </body>
 </html>
