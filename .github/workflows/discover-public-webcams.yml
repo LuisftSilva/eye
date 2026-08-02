@@ -1,0 +1,66 @@
+name: Discover public webcams
+
+on:
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: discover-public-webcams
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Discover public webcam sources and validate existing links
+        run: npm run discover:public
+
+      - name: Upload discovery report
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-webcam-discovery-${{ github.run_number }}
+          path: reports/public-webcam-discovery.*
+          retention-days: 30
+
+      - name: Create or update discovery issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          REPORT="reports/public-webcam-discovery.md"
+          NEW_COUNT=$(node -e "const r=require('./reports/public-webcam-discovery.json'); console.log(r.newCandidates.length)")
+          BROKEN_COUNT=$(node -e "const r=require('./reports/public-webcam-discovery.json'); console.log(r.brokenExisting.length)")
+          TITLE="Automated public webcam discovery report"
+          if [ "$NEW_COUNT" -eq 0 ] && [ "$BROKEN_COUNT" -eq 0 ]; then
+            echo "No actionable findings."
+            exit 0
+          fi
+          BODY_FILE=$(mktemp)
+          {
+            echo "Automated passive discovery found **${NEW_COUNT} new candidates** and **${BROKEN_COUNT} broken existing links**."
+            echo
+            echo "Workflow run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+            echo
+            cat "$REPORT"
+          } > "$BODY_FILE"
+          ISSUE=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "$TITLE in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$ISSUE" ]; then
+            gh issue edit "$ISSUE" --repo "$GITHUB_REPOSITORY" --body-file "$BODY_FILE"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --body-file "$BODY_FILE"
+          fi
