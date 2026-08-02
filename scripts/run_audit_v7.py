@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 from dataclasses import asdict
 from pathlib import Path
 
@@ -24,7 +25,7 @@ def provider_aware_run_check(self, check_id: str, templates: list[str], municipa
 
     for query in queries:
         relevant_for_query: list[str] = []
-        providers = ([v5._serper] if __import__("os").getenv("SERPER_API_KEY") else []) + [v5._bing_rss, v5._duckduckgo]
+        providers = ([v5._serper] if os.getenv("SERPER_API_KEY") else []) + [v5._bing_rss, v5._duckduckgo]
         provider_rows = []
         seen: set[str] = set()
 
@@ -69,11 +70,18 @@ webcam_audit.AuditCrawler.run_check = provider_aware_run_check
 def persist_health() -> None:
     v5.persist_provider_health()
     source = v5.HEALTH_PATH
-    if source.exists():
-        doc = json.loads(source.read_text(encoding="utf-8"))
-        doc["profile"] = "v7-provider-aware"
-        doc["diagnosis"] = "Fallback continues when a provider returns only irrelevant links."
-        DURABLE_HEALTH_PATH.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if not source.exists():
+        return
+    doc = json.loads(source.read_text(encoding="utf-8"))
+    doc["profile"] = "v7-provider-aware"
+    doc["diagnosis"] = "Fallback continues when a provider returns only irrelevant links."
+    DURABLE_HEALTH_PATH.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    try:
+        cycle = json.loads(v5.CYCLE_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        cycle = {}
+    cycle["last_search_health"] = doc
+    v5.CYCLE_PATH.write_text(json.dumps(cycle, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
