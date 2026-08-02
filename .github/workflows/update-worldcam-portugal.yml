@@ -1,0 +1,28 @@
+name: Update WorldCam Portugal
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/scrape_worldcam_portugal.py'
+      - '.github/workflows/update-worldcam-portugal.yml'
+  schedule:
+    - cron: '17 4 * * 1'
+permissions:
+  contents: write
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - run: python scripts/scrape_worldcam_portugal.py
+      - name: Commit generated catalogue
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/cameras-worldcam-generated.js
+          git diff --cached --quiet || git commit -m 'Update complete WorldCam Portugal catalogue'
+          git push
