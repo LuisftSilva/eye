@@ -1,113 +1,16 @@
 (()=>{
-  const norm=s=>String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim();
-
-  const meoTokens=new Map(Object.entries({
-    "praia do matadouro":"matadouro",
-    "praia da torre":"praiatorre",
-    "praia das avencas":"avencas",
-    "praia do tamariz":"tamariz",
-    "paco de arcos praia":"pacodearcos",
-    "carcavelos calhau":"carcaveloscalhau",
-    "cascais baia":"cascais",
-    "praias da conceicao e duquesa":"conceicao",
-    "sao joao do estoril":"saojoaoestoril",
-    "sao pedro do estoril praia":"saopedroestoril",
-    "parede praia":"parede",
-    "guincho norte":"guincho",
-    "guincho sul":"guincho",
-    "praia do peneco":"praiadopeneco",
-    "praia dos salgados":"salgados",
-    "praia da gale leste":"gale",
-    "praia do evaristo":"evaristo",
-    "praia da coelha":"coelha",
-    "praia dos arrifes":"arrifes",
-    "praia dos alemaes":"alemaes",
-    "praia da oura":"oura",
-    "praia de santa eulalia":"santaeulalia",
-    "praia dos olhos de agua":"olhosdeagua",
-    "praia da falesia acoteias":"falesia",
-    "praia de vilamoura":"vilamoura",
-    "praia da rocha":"praiadarocha",
-    "praia do vau":"vau",
-    "carvoeiro":"carvoeiro",
-    "benagil":"benagil",
-    "porto de mos":"portodemos",
-    "alvor praia nascente":"alvornascente",
-    "alvor praia poente":"alvorpoente",
-    "alvor prainha":"prainha",
-    "portimao joao de arens":"joaodearens",
-    "lagos praia da luz":"praiadaluz",
-    "lagos praia do camilo":"camilo",
-    "lagos praia de sao roque":"saoroque",
-    "sagres praia do martinhal":"martinhal",
-    "sagres praia da mareta":"mareta",
-    "salema praia":"salema",
-    "burgau praia":"burgau",
-    "vila do bispo praia do zavial":"zavial",
-    "vila do bispo praia da ingrina":"ingrina",
-    "carrapateira praia da bordeira":"bordeira",
-    "carrapateira praia do amado":"bcamado",
-    "monte gordo praia":"montegordo"
-  }));
-
-  function youtubeEmbed(url){
-    try{
-      const u=new URL(url);
-      if(u.hostname.includes("youtu.be"))return `https://www.youtube.com/embed/${u.pathname.slice(1)}?autoplay=1&mute=1`;
-      if(u.hostname.includes("youtube.com")){
-        const id=u.searchParams.get("v");
-        if(id)return `https://www.youtube.com/embed/${id}?autoplay=1&mute=1`;
-        const m=u.pathname.match(/\/(?:embed|live)\/([^/?]+)/);
-        if(m)return `https://www.youtube.com/embed/${m[1]}?autoplay=1&mute=1`;
-      }
-    }catch{}
-    return "";
-  }
-
-  function patchCamera(c){
-    const out={...c};
-    const name=norm(out.name);
-    const provider=norm(out.provider);
-    const source=String(out.sourceUrl||"");
-
-    if(provider.includes("netmadeira")||source.includes("netmadeira.com/webcams-madeira/")){
-      const m=source.match(/netmadeira\.com\/webcams-madeira\/([^/?#]+)/i);
-      if(m){
-        out.embedUrl=`https://www.netmadeira.com/webcams/show/netmadeira/${m[1]}`;
-        out.verification="direct";
-        out.status="online";
-      }
-    }
-
-    if(provider.includes("meo beachcam")){
-      let token="";
-      for(const [key,value] of meoTokens){
-        if(name.includes(key)||key.includes(name)){token=value;break;}
-      }
-      if(token){
-        out.embedUrl=`https://video-auth1.iol.pt/beachcam/${token}/playlist.m3u8`;
-        out.verification="direct";
-        out.status="online";
-      }
-    }
-
-    const yt=youtubeEmbed(out.embedUrl||source);
-    if(yt){
-      out.embedUrl=yt;
-      out.verification="direct";
-      out.status="online";
-    }
-
-    return out;
-  }
-
-  const nativeFetch=window.fetch.bind(window);
-  window.fetch=async(input,init)=>{
-    const response=await nativeFetch(input,init);
-    const url=typeof input==="string"?input:input?.url||"";
-    if(!url.includes("data/cameras.json")||!response.ok)return response;
-    const base=await response.clone().json();
-    const patched=base.map(patchCamera);
-    return new Response(JSON.stringify(patched),{status:response.status,statusText:response.statusText,headers:{"Content-Type":"application/json"}});
-  };
+const norm=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+const netmadeira=new Map(Object.entries({
+'achada do teixeira':'achada-do-teixeira','boaventura':'boaventura','camara de lobos':'camara-de-lobos','camara de lobos baia':'camara-de-lobos-baia','canical':'canical','eira do serrado':'eira-do-serrado','funchal baia':'funchal-baia-do-funchal','baia do funchal':'funchal-baia-do-funchal','funchal lido':'funchal-lido','praia do lido':'funchal-lido','funchal parque ecologico':'funchal-parque-ecologico','funchal pontinha':'funchal-pontinha','machico':'machico','monte':'monte','palheiro golf':'palheiro-golf','pico do arieiro':'pico-do-arieiro','pico do areeiro':'pico-do-arieiro','ponta delgada':'ponta-delgada','ponta do sol':'ponta-do-sol','portela porto da cruz':'portela-porto-da-cruz','porto moniz':'porto-moniz','porto santo':'porto-santo','praia do faial':'praia-faial','praia do vigario':'praia-do-vigario','rabacal':'rabacal-madeira','ribeira brava':'ribeira-brava','santa cruz':'santa-cruz','santana cortado':'santana-cortado','santana parque tematico':'santana-parque-tematico','santo da serra golf':'santo-da-serra-golf','sao jorge':'sao-jorge','seixal':'seixal'}));
+const meo=new Map(Object.entries({
+'praia do matadouro':'matadouro','praia da torre':'praiatorre','praia das avencas':'avencas','praia do tamariz':'tamariz','paco de arcos praia':'pacodearcos','carcavelos calhau':'carcaveloscalhau','cascais baia':'cascais','praias da conceicao e duquesa':'conceicao','sao joao do estoril':'saojoaoestoril','sao pedro do estoril praia':'saopedroestoril','parede praia':'parede','guincho norte':'guincho','guincho sul':'guincho','praia do peneco':'praiadopeneco','praia dos salgados':'salgados','praia da gale leste':'gale','praia do evaristo':'evaristo','praia da coelha':'coelha','praia dos arrifes':'arrifes','praia dos alemaes':'alemaes','praia da oura':'oura','praia de santa eulalia':'santaeulalia','praia dos olhos de agua':'olhosdeagua','praia da falesia acoteias':'falesia','praia de vilamoura':'vilamoura','praia da rocha':'praiadarocha','praia do vau':'vau','carvoeiro':'carvoeiro','benagil':'benagil','porto de mos':'portodemos','alvor praia nascente':'alvornascente','alvor praia poente':'alvorpoente','alvor prainha':'prainha','portimao joao de arens':'joaodearens','lagos praia da luz':'praiadaluz','lagos praia do camilo':'camilo','lagos praia de sao roque':'saoroque','sagres praia do martinhal':'martinhal','sagres praia da mareta':'mareta','salema praia':'salema','burgau praia':'burgau','vila do bispo praia do zavial':'zavial','vila do bispo praia da ingrina':'ingrina','carrapateira praia da bordeira':'bordeira','carrapateira praia do amado':'bcamado','monte gordo praia':'montegordo'}));
+function best(map,name){let hit='';for(const [k,v] of map){if(name===k||name.includes(k)||k.includes(name)){if(k.length>hit.length)hit=k;}}return hit?map.get(hit):'';}
+function youtube(url){try{const u=new URL(url);if(u.hostname.includes('youtu.be'))return `https://www.youtube.com/embed/${u.pathname.slice(1)}?autoplay=1&mute=1`;if(u.hostname.includes('youtube.com')){const id=u.searchParams.get('v')||u.pathname.match(/\/(?:embed|live)\/([^/?]+)/)?.[1];if(id)return `https://www.youtube.com/embed/${id}?autoplay=1&mute=1`;}}catch{}return '';}
+function patch(c){const out={...c},name=norm(out.name),provider=norm(out.provider),source=String(out.sourceUrl||''),region=norm(out.region);const nm=(region==='madeira'||provider.includes('netmadeira'))?best(netmadeira,name):'';if(nm){out.provider='NetMadeira';out.sourceUrl=`https://www.netmadeira.com/webcams-madeira/${nm}`;out.embedUrl=`https://www.netmadeira.com/webcams/show/netmadeira/${nm}`;out.verification='direct';out.status='online';out.uniqueFeed=true;}
+if(provider.includes('meo beachcam')){const token=best(meo,name);if(token){out.embedUrl=`https://video-auth1.iol.pt/beachcam/${token}/playlist.m3u8`;out.verification='direct';out.status='online';out.uniqueFeed=true;}}
+const yt=youtube(out.embedUrl||source);if(yt){out.embedUrl=yt;out.verification='direct';out.status='online';out.uniqueFeed=true;}
+if(/webcammadeira\.com/i.test(source)&&!out.embedUrl)out.embedUrl=source;
+if(/spotazores|visitazores/i.test(provider)&&source&&!out.embedUrl)out.embedUrl=source;
+return out;}
+const native=window.fetch.bind(window);window.fetch=async(input,init)=>{const r=await native(input,init),url=typeof input==='string'?input:input?.url||'';if(!url.includes('data/cameras.json')||!r.ok)return r;const data=(await r.clone().json()).map(patch);return new Response(JSON.stringify(data),{status:r.status,statusText:r.statusText,headers:{'Content-Type':'application/json'}});};
 })();
